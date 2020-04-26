@@ -1,7 +1,12 @@
+@font-face {
+  font-family: SFPDR;
+  src: url(fonts/SFPDR.otf);
+}
+
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
   box-sizing: border-box;
   color: #232222;
-  font-family: Verdana;
+  font-family: SF Pro Display, Segoe UI, SFPDR, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
 }
@@ -14,9 +19,6 @@ body {
 header {
   display: flex;
   flex-flow: row nowrap;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1200px;
 }
 
 h1 {
@@ -37,10 +39,12 @@ h3 {
   font-style: italic;
   color: #555;
 }
+
 .unselected-filter option {
   font-style: normal;
   color: #000;
 }
+
 .placeholder-option {
   font-style: italic !important;
   font-weight: bold;
@@ -50,11 +54,17 @@ h3 {
   color: #206cc9;
 }
 
+.everything {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container {
   display: flex;
   flex-flow: row nowrap;
   margin: 0 auto;
-  width: 1200px;
 }
 
 .container > * {
@@ -167,7 +177,7 @@ h3 {
 
 .js-input,
 .part-list__item {
- font-size: smaller;
+  font-size: smaller;
 }
 
 .part-list__item {
@@ -179,17 +189,17 @@ h3 {
 
 .js-input[data-rarity="2"],
 .part-list__item[data-rarity="2"] {
-  color : #00CC00;
+  color: #00CC00;
 }
 
 .js-input[data-rarity="3"],
 .part-list__item[data-rarity="3"] {
-  color : #1070DD;
+  color: #1070DD;
 }
 
 .js-input[data-rarity="4"],
 .part-list__item[data-rarity="4"] {
-  color : #CC00CC;
+  color: #CC00CC;
 }
 
 .part-list__remove {
@@ -361,9 +371,9 @@ h3 {
 }
 
 /** Balloon CSS */
-[aria-label][data-balloon-pos]:after { color : #024; background: #DEF; }
-[aria-label][data-balloon-pos]:before {  border-top-color: #DEF; }
-[aria-label][data-balloon-pos][data-balloon-pos="down"]:before {  border-bottom-color: #DEF; }
+[aria-label][data-balloon-pos]:after { color: #024; background: #DEF; }
+[aria-label][data-balloon-pos]:before { border-top-color: #DEF; }
+[aria-label][data-balloon-pos][data-balloon-pos="down"]:before { border-bottom-color: #DEF; }
 [aria-label][data-balloon-pos][data-balloon-pos="down-left"]:before {  border-bottom-color: #DEF; }
 [aria-label][data-balloon-pos][data-balloon-pos="down-right"]:before {  border-bottom-color: #DEF; }
 [aria-label][data-balloon-pos][data-balloon-pos="left"]:before {  border-left-color: #DEF; }

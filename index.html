@@ -12,28 +12,30 @@
 		<style></style>
 	</head>
 	<body>
-		<header>
-			<h1>GBGW Calculator</h1>
-			<div class="filters">
-				<span>Filters</span>
-				<select class="unselected-filter js-filter-attr"><option class="placeholder-option" value="">Attribute</option></select>
-				<select class="unselected-filter js-filter-wt1"><option class="placeholder-option" value="">Word Tag 1</option></select>
-				<select class="unselected-filter js-filter-wt2"><option class="placeholder-option" value="">Word Tag 2</option></select>
-				<select class="unselected-filter js-filter-ex-cat"><option class="placeholder-option" value="">EX Category</option></select>
-				<select class="unselected-filter js-filter-pt"><option class="placeholder-option" value="">Part Trait</option></select>
-			</div>
-			<div class="sort">
-				<span>Sort</span>
-				<select class="js-sort-param"><option></option></select>
-			</div>
-			<div class="map-bonus">
-				Apply map bonus <input class="js-apply-map-bonus" type="checkbox" />
-			</div>
-		</header>
-		<div class="container js-container"></div>
-		<script type="text/javascript">
-			new GunplaCalculator();
-			new GunplaBuild().init();
-		</script>
+		<div class="everything">
+			<header>
+				<h1>GBGW Calculator</h1>
+				<div class="filters">
+					<span>Filters</span>
+					<select class="unselected-filter js-filter-attr"><option class="placeholder-option" value="">Attribute</option></select>
+					<select class="unselected-filter js-filter-wt1"><option class="placeholder-option" value="">Word Tag 1</option></select>
+					<select class="unselected-filter js-filter-wt2"><option class="placeholder-option" value="">Word Tag 2</option></select>
+					<select class="unselected-filter js-filter-ex-cat"><option class="placeholder-option" value="">EX Category</option></select>
+					<select class="unselected-filter js-filter-pt"><option class="placeholder-option" value="">Part Trait</option></select>
+				</div>
+				<div class="sort">
+					<span>Sort</span>
+					<select class="js-sort-param"><option></option></select>
+				</div>
+				<div class="map-bonus">
+					Apply map bonus <input class="js-apply-map-bonus" type="checkbox" />
+				</div>
+			</header>
+			<div class="container js-container"></div>
+			<script type="text/javascript">
+				new GunplaCalculator();
+				new GunplaBuild().init();
+			</script>
+		</div>
 	</body>
 </html> 
