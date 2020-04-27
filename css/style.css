@@ -21,7 +21,7 @@
   --rarity-color-3: #1E90FF;
   --rarity-color-4: #FF00FF;
   --rarity-color-5: #FFDF00;
-  --marks-bg: rgba(196, 196, 196, 0.25);
+  --marks-bg: rgba(127, 127, 127, 0.25);
   --tooltip-fg-color: #4379ba;
   --tooltip-bg-color: #EBF8FF;
   --scrollbarBG: #f2f7f4;
@@ -326,7 +326,7 @@ input:checked + .slider:before {
 }
 
 .part-list__search {
-  border: 1px solid #bfbfbf;
+  border: 1px solid var(--secondary-color);
   border-radius: 5px;
   height: 37px;
   margin-bottom: 5px;
@@ -362,6 +362,7 @@ input:checked + .slider:before {
   background: var(--marks-bg);
   height: 1.33em;
   margin-top: 0.25em;
+  padding-bottom: 0.125em;
   width: 5em;
 }
 
