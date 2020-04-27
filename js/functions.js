@@ -615,8 +615,10 @@ class GunplaBuild {
               'data-balloon-pos' : 'down',
               'data-balloon-length' : 'fit'
             });
+            partTrait.addEventListener('click', toggleTooltip);
           } else {
             this._removeAttributes(partTrait, ['aria-label', 'data-balloon-pos', 'data-balloon-length']);
+            partTrait.removeEventListener('click', toggleTooltip);
           }
         }
       } else {
@@ -1090,5 +1092,15 @@ function toggleTheme() {
     if (currentTheme === 'dark') {
       toggleSwitch.checked = true;
     }
+  }
+}
+
+function toggleTooltip(event) {
+  let el = event.currentTarget;
+  let attr = el.getAttribute('data-balloon-visible');
+  if (attr != null && attr !== '') {
+    el.removeAttribute('data-balloon-visible');
+  } else {
+    el.setAttribute('data-balloon-visible', true);
   }
 }
