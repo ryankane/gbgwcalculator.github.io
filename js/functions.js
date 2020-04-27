@@ -59,6 +59,9 @@ class GunplaCalculator {
     if ('disabled' in config) {
       retEl.disabled = config.disabled;
     }
+    if ('hidden' in config && config.hidden === true) {
+      retEl.style.display = 'none';
+    }
     if ('data' in config && Array.isArray(config.data)) {
       config.data.forEach(prop => {
         retEl.dataset[prop.name] = prop.value;
@@ -235,7 +238,8 @@ class GunplaCalculator {
             'children': [{
               'el': 'div',
               'class': ["parts-marks", "js-marks-" + slot]
-            }]
+            }],
+            'hidden' : slot === 'pilot'
           }]
         };
       });
@@ -1066,5 +1070,25 @@ class GunplaBuild {
       }
     }
     return  true;
+  }
+}
+
+function toggleTheme() {
+  // Theme toggle button.
+  const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+  function switchTheme(e) {
+    let darkModeEnabled = e.target.checked;
+    document.documentElement.setAttribute('data-theme', darkModeEnabled ? 'dark' : 'light');
+    localStorage.setItem('theme', darkModeEnabled ? 'dark' : 'light');
+  }
+  toggleSwitch.addEventListener('change', switchTheme, false);
+
+// Restore theme state.
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme) {
+    document.documentElement.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+      toggleSwitch.checked = true;
+    }
   }
 }
