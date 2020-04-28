@@ -1,0 +1,145 @@
+{
+  "torso": [{
+    "name": "Armor[+500]",
+    "a": 500,
+    "rarity": 1
+  }, {
+    "name": "Armor[+1000]",
+    "a": 1000,
+    "rarity": 2
+  }, {
+    "name": "Armor[+1500]",
+    "a": 1500,
+    "rarity": 3
+  }, {
+    "name": "MeleeAtk[+500]",
+    "ma": 500,
+    "rarity": 1
+  }, {
+    "name": "MeleeAtk[+1000]",
+    "ma": 1000,
+    "rarity": 2
+  }, {
+    "name": "MeleeAtk[+1500]",
+    "ma": 1500,
+    "rarity": 3
+  }, {
+    "name": "ShotAtk[+500]",
+    "sa": 500,
+    "rarity": 1
+  }, {
+    "name": "ShotAtk[+1000]",
+    "sa": 1000,
+    "rarity": 2
+  }, {
+    "name": "ShotAtk[+1500]",
+    "sa": 1500,
+    "rarity": 3
+  }, {
+    "name": "MeleeDef[+500]",
+    "md": 500,
+    "rarity": 1
+  }, {
+    "name": "MeleeDef[+1000]",
+    "md": 1000,
+    "rarity": 2
+  }, {
+    "name": "MeleeDef[+1500]",
+    "md": 1500,
+    "rarity": 3
+  }, {
+    "name": "ShotDef[+500]",
+    "sd": 500,
+    "rarity": 1
+  }, {
+    "name": "ShotDef[+1000]",
+    "sd": 1000,
+    "rarity": 2
+  }, {
+    "name": "ShotDef[+1500]",
+    "sd": 1500,
+    "rarity": 3
+  }, {
+    "name": "BeamRes[+500]",
+    "br": 500,
+    "rarity": 1
+  }, {
+    "name": "BeamRes[+1000]",
+    "br": 1000,
+    "rarity": 2
+  }, {
+    "name": "BeamRes[+1500]",
+    "br": 1500,
+    "rarity": 3
+  }, {
+    "name": "PhysRes[+500]",
+    "pr": 500,
+    "rarity": 1
+  }, {
+    "name": "PhysRes[+1000]",
+    "pr": 1000,
+    "rarity": 2
+  }, {
+    "name": "PhysRes[+1500]",
+    "pr": 1500,
+    "rarity": 3
+  }, {
+    "name": "DualAtk[+300]",
+    "ma": 300,
+    "sa": 300,
+    "rarity": 1
+  }, {
+    "name": "DualAtk[+650]",
+    "ma": 650,
+    "sa": 650,
+    "rarity": 2
+  }, {
+    "name": "DualAtk[+1000]",
+    "ma": 1000,
+    "sa": 1000,
+    "rarity": 3
+  }],
+  "arm-right" : [{
+    "name": "Chg.Mel.[+10%]",
+    "ma": { "attrs" : ["md"], "multiplier" : 0.1 },
+    "rarity": 1
+  }, {
+    "name": "Chg.Mel.[+20%]",
+    "ma": { "attrs" : ["md"], "multiplier" : 0.2 },
+    "rarity": 2
+  }, {
+    "name": "Chg.Mel.[+30%]",
+    "ma": { "attrs" : ["md"], "multiplier" : 0.3 },
+    "rarity": 3
+  }, {
+    "name": "Chg.Shot[+10%]",
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.1 },
+    "rarity": 1
+  }, {
+    "name": "Chg.Shot[+20%]",
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.2 },
+    "rarity": 2
+  }, {
+    "name": "Chg.Shot[+30%]",
+    "sa": { "attrs" : ["sd"], "multiplier" : 0.3 },
+    "rarity": 3
+  }, {
+    "name": "Chg.Res.[+5%]",
+    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.05 },
+    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.05 },
+    "rarity": 1
+  }, {
+    "name": "Chg.Res.[+15%]",
+    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.15 },
+    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.15 },
+    "rarity": 2
+  }, {
+    "name": "Chg.Res.[+25%]",
+    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.25 },
+    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.25 },
+    "rarity": 3
+  }],
+  "arm-left" : [],
+  "leg-right" : [],
+  "leg-left" : []
+}

@@ -19,6 +19,6 @@
   --marks-bg: rgba(196, 196, 196, 0.25);
   --tooltip-fg-color: #e0f7f9;
   --tooltip-bg-color: #223440;
-  --scrollbarBG: #1d1d1d;
-  --thumbBG: #223440;
+  --scrollbar-bg-color: #1d1d1d;
+  --scrollbar-thumb-color: #223440;
 }
