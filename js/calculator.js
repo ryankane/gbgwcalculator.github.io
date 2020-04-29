@@ -1,28 +1,6 @@
-const formatDataTag = value => {
-  return value.replace(/([A-Z])/g, match => '-' + match[0].toLowerCase());
-};
-
-const removeAllAttributes = el => {
-  if (el.dataset) {
-    for (let prop in el.dataset) {
-      el.removeAttribute('data-' + formatDataTag(prop));
-    }
-  }
-};
-
-const roundValue = value => {
-  return Math.round(value * 1000000000000) / 1000000000000;
-};
-
-const triggerEvent = (el, eventName) => {
-  var event = document.createEvent('HTMLEvents');
-  event.initEvent(eventName, true, false);
-  el.dispatchEvent(event);
-};
-
 class GunplaCalculator {
   constructor() {
-    this.container = document.querySelector(".js-container");
+    this.container = document.querySelector('.js-container');
     if (this.container) {
       this._generateHTML();
     }
@@ -34,10 +12,10 @@ class GunplaCalculator {
 
   _createElement(config, targetEl) {
     const retEl = document.createElement(config.el);
-    if ("class" in config) {
+    if ('class' in config) {
       if (Array.isArray(config.class)) {
         config.class.forEach(prop => retEl.classList.add(prop));
-      } else if (typeof config.class === "string") {
+      } else if (typeof config.class === 'string') {
         config.class.split(/\s+/g).forEach(className => retEl.classList.add(className));
       }
     }
@@ -47,13 +25,13 @@ class GunplaCalculator {
     if ('html' in config) {
       retEl.innerHTML = config.html;
     }
-    if ("type" in config) {
+    if ('type' in config) {
       retEl.type = config.type;
     }
-    if ("readOnly" in config) {
+    if ('readOnly' in config) {
       retEl.readOnly = config.readOnly;
     }
-    if ("placeholder" in config) {
+    if ('placeholder' in config) {
       retEl.placeholder = config.placeholder;
     }
     if ('disabled' in config) {
@@ -67,7 +45,7 @@ class GunplaCalculator {
         retEl.dataset[prop.name] = prop.value;
       });
     }
-    if ("children" in config && Array.isArray(config.children)) {
+    if ('children' in config && Array.isArray(config.children)) {
       config.children.forEach(child => {
         this._createElement(child, retEl);
       });
@@ -86,67 +64,67 @@ class GunplaCalculator {
 
   _info() {
     return {
-      'el': 'div',
-      'class': "info",
-      'children': [{
-        'el': 'h3',
-        'text': "Parameters"
+      el: 'div',
+      class: 'info',
+      children: [{
+        el: 'h3',
+        text: 'Parameters'
       }, ...this._paramChildren(), {
-        'el': 'h3',
-        'text': 'Active Word Tag'
+        el: 'h3',
+        text: 'Active Word Tag'
       }, {
-        'el': "div",
-        'class': ["row", "active-word-tag-list", "js-active-wt"]
+        el: 'div',
+        class: ['row', 'active-word-tag-list', 'js-active-wt']
       }, {
-        'el': 'h3',
-        'class': ["part-name", "js-part-name"]
+        el: 'h3',
+        class: ['part-name', 'js-part-name']
       }, {
-        'el': 'h3',
-        'text': "Parameters",
-        'class': "bg-red"
-      }, ...this._paramChildren("part"), {
-        'el': 'h3',
-        'text': "Word Tag",
-        'class': 'bg-red'
+        el: 'h3',
+        text: 'Parameters',
+        class: 'bg-red'
+      }, ...this._paramChildren('part'), {
+        el: 'h3',
+        text: 'Word Tag',
+        class: 'bg-red'
       }, {
-        'el': "div",
-        'class': ["row", "part-word-tag-list", "js-part-wt"]
+        el: 'div',
+        class: ['row', 'part-word-tag-list', 'js-part-wt']
       }, {
-        'el': 'h3',
-        'text': "Traits / EX Skill",
-        'class': "bg-red"
+        el: 'h3',
+        text: 'Traits / EX Skill',
+        class: 'bg-red'
       }, {
-        'el': 'div',
-        'class': ['row', 'part-skill-trait', "js-part-skill-trait"]
+        el: 'div',
+        class: ['row', 'part-skill-trait', 'js-part-skill-trait']
       }, {
-        'el': 'button',
-        'html' : 'Equipped<br>Reset',
-        'class': 'reset-btn'
+        el: 'button',
+        html: 'Equipped<br>Reset',
+        class: 'reset-btn'
       }]
     };
   }
 
   _paramChildren(type) {
     if (Array.isArray(Sorters)) {
-      let sortClassPrefix = "js-total-",
-          alternateRowClass = "alt-bg--blue";
-      if (type && type == "part") {
+      let sortClassPrefix = 'js-total-',
+          alternateRowClass = 'alt-bg--blue';
+      if (type && type == 'part') {
         sortClassPrefix = 'js-part-total-';
-        alternateRowClass = "alt-bg--red";
+        alternateRowClass = 'alt-bg--red';
       }
       return Sorters.map(sorter => {
         return {
-          'el': 'div',
-          'class': ["row", alternateRowClass],
-          'children': [{
-            'el': 'div',
-            'children': [{
-              'el': "label",
-              'text': sorter.name
+          el: 'div',
+          class: ['row', alternateRowClass],
+          children: [{
+            el: 'div',
+            children: [{
+              el: 'label',
+              text: sorter.name
             }, {
-              'el': "span",
-              'class': ['info__total', 'float-right', sortClassPrefix + sorter.slug],
-              'text': 0
+              el: 'span',
+              class: ['info__total', 'float-right', sortClassPrefix + sorter.slug],
+              text: 0
             }]
           }]
         };
@@ -156,18 +134,18 @@ class GunplaCalculator {
 
   _wordTags() {
     return {
-      'el': "div",
-      'class': "word-tags",
-      'children': [{
-        'el': 'h3',
-        'text': "Word Tags"
+      el: 'div',
+      class: 'word-tags',
+      children: [{
+        el: 'h3',
+        text: 'Word Tags'
       }, ...MainSlot.map(wordTag => {
         return {
-          'el': "div",
-          'class': ["row", "height-50", "alt-bg"],
-          'children': [{
-            'el': "span",
-            'class': "js-wt-" + wordTag
+          el: 'div',
+          class: ['row', 'height-50', 'alt-bg'],
+          children: [{
+            el: 'span',
+            class: 'js-wt-' + wordTag
           }]
         };
       })]
@@ -176,18 +154,18 @@ class GunplaCalculator {
 
   _partTrait() {
     return {
-      'el': "div",
-      'class': "part-trait-ex-skill",
-      'children': [{
-        'el': 'h3',
-        'text': "Part Traits / EX Skill"
+      el: 'div',
+      class: 'part-trait-ex-skill',
+      children: [{
+        el: 'h3',
+        text: 'Part Traits / EX Skill'
       }, ...MainSlot.map(trait => {
         return {
-          'el': "div",
-          'class': ["row", 'height-50', "alt-bg"],
-          'children': [{
-            'el': "span",
-            'class': ["part-trait-ex-skill__text", 'js-skill-trait-' + trait]
+          el: 'div',
+          class: ['row', 'height-50', 'alt-bg'],
+          children: [{
+            el: 'span',
+            class: ['part-trait-ex-skill__text', 'js-skill-trait-' + trait]
           }]
         };
       })]
@@ -196,22 +174,22 @@ class GunplaCalculator {
 
   _parts() {
     return {
-      'el': "div",
-      'class': "parts",
-      'children': [{
-        'el': 'h3',
-        'text': "Parts"
+      el: 'div',
+      class: 'parts',
+      children: [{
+        el: 'h3',
+        text: 'Parts'
       }, ...this._partsChildren(), this._attributeTally()]
     };
   }
 
   _gears() {
     return {
-      'el' : 'div',
-      'class': "gears",
-      'children' : [{
-        'el': 'h3',
-        'text': 'Gear'
+      el: 'div',
+      class: 'gears',
+      children: [{
+        el: 'h3',
+        text: 'Gear'
       }, ...this._gearsChildren()]
     }
   }
@@ -220,26 +198,26 @@ class GunplaCalculator {
     if (Array.isArray(MainSlot)) {
       return MainSlot.map(slot => {
         return {
-          'el': "div",
-          'class': ['row', 'alt-bg', "height-50", 'js-part-cont'],
-          'children': [{
-            'el': "div",
-            'children': [{
-              'el': "label",
-              'text': slot != "backpack" ? slot : "back"
+          el: 'div',
+          class: ['row', 'alt-bg', 'height-50', 'js-part-cont'],
+          children: [{
+            el: 'div',
+            children: [{
+              el: 'label',
+              text: slot != 'backpack' ? slot : 'back'
             }, {
-              'el': 'input',
-              'type': 'text',
-              'class': 'js-input js-input-' + slot,
-              'readOnly':  true
+              el: 'input',
+              type: 'text',
+              class: 'js-input js-input-' + slot,
+              readOnly: true
             }]
           }, {
-            'el': "div",
-            'children': [{
-              'el': 'div',
-              'class': ["parts-marks", "js-marks-" + slot]
+            el: 'div',
+            children: [{
+              el: 'div',
+              class: ['parts-marks', 'js-marks-' + slot]
             }],
-            'hidden' : slot === 'pilot'
+            hidden: slot === 'pilot'
           }]
         };
       });
@@ -251,19 +229,19 @@ class GunplaCalculator {
       return GearSlot.map((slotClass, slotIndex) => {
         let disabled = Object.values(GearTypes)[slotIndex].length === 0;
         return {
-          'el': 'div',
-          'class': ["row", 'alt-bg', "height-50", "js-part-cont"],
-          'children': [{
-            'el': "div",
-            'children': [{
-              'el': 'label',
-              'text': GearSlotText[slotIndex]
+          el: 'div',
+          class: ['row', 'alt-bg', 'height-50', 'js-part-cont'],
+          children: [{
+            el: 'div',
+            children: [{
+              el: 'label',
+              text: GearSlotText[slotIndex]
             }, {
-              'el': "input",
-              'type': "text",
-              'class': "js-input js-input-" + slotClass,
-              'readOnly':  true,
-              'disabled': disabled
+              el: 'input',
+              type: 'text',
+              class: 'js-input js-input-' + slotClass,
+              readOnly: true,
+              disabled: disabled
             }]
           }]
         };
@@ -273,16 +251,16 @@ class GunplaCalculator {
 
   _attributeTally() {
     return {
-      'el': "div",
-      'class': "attribute-tally",
-      'children': Attributes.map(attr => {
+      el: 'div',
+      class: 'attribute-tally',
+      children: Attributes.map(attr => {
         return {
-          'el': "label",
-          'text': '[' + attr.charAt(0) + '] ',
-          'children': [{
-            'el': "span",
-            'class': "js-tally-" + attr.charAt(0).toLowerCase(),
-            'text': 0
+          el: 'label',
+          text: '[' + attr.charAt(0) + '] ',
+          children: [{
+            el: 'span',
+            class: 'js-tally-' + attr.charAt(0).toLowerCase(),
+            text: 0
           }]
         };
       })
@@ -291,24 +269,24 @@ class GunplaCalculator {
 
   _partList() {
     return {
-      'el': "div",
-      'class': "part-list",
-      'children': [{
-        'el': "input",
-        'type': "text",
-        'placeholder': 'Search Part/Pilot',
-        'class': ['part-list__search', "js-search-part"]
+      el: 'div',
+      class: 'part-list',
+      children: [{
+        el: 'input',
+        type: 'text',
+        placeholder: 'Search Part/Pilot',
+        class: ['part-list__search', 'js-search-part']
       }, {
-        'el': 'h3',
-        'text': "Part List",
-        'children': [{
-          'el': "span",
-          'text': "Remove",
-          'class': ["part-list__remove", "js-remove-part"]
+        el: 'h3',
+        text: 'Part List',
+        children: [{
+          el: 'span',
+          text: 'Remove',
+          class: ['part-list__remove', 'js-remove-part']
         }]
       }, {
-        'el': "div",
-        'class': ["part-list__list", "js-part-list"]
+        el: 'div',
+        class: ['part-list__list', 'js-part-list']
       }]
     };
   }
@@ -319,25 +297,25 @@ class GunplaBuild {
     this.wordTagsTally = {};
     this.parametersTotal = {};
     this.attributesTally = {
-      'p': 0,
-      't': 0,
-      's': 0
+      p: 0,
+      t: 0,
+      s: 0
     };
     this.inputs = {};
     this.comboParts = [];
     this.parts = {};
-    this.partList = document.querySelector(".js-part-list");
+    this.partList = document.querySelector('.js-part-list');
     this.partNameCont = document.querySelector('.js-part-name');
     this.partParamCont = {};
-    this.partWTCont = document.querySelector(".js-part-wt");
-    this.partSkillTraitCont = document.querySelector(".js-part-skill-trait");
+    this.partWTCont = document.querySelector('.js-part-wt');
+    this.partSkillTraitCont = document.querySelector('.js-part-skill-trait');
     this.partCont = {};
     this.filters = {
-      'attr': '',
-      'wt1': '',
-      'wt2': '',
+      attr: '',
+      wt1: '',
+      wt2: '',
       'ex-cat': '',
-      'pt': ''
+      pt: ''
     };
     this.applyMapBonus = false;
     this.searchPart = '';
@@ -347,12 +325,12 @@ class GunplaBuild {
 
   init() {
     Sorters.forEach(sorter => {
-      this.partParamCont[sorter.slug] = document.querySelector(".js-part-total-" + sorter.slug);
+      this.partParamCont[sorter.slug] = document.querySelector('.js-part-total-' + sorter.slug);
     });
     AllSlots.forEach(slot => {
-      this.inputs[slot] = document.querySelector(".js-input-" + slot);
+      this.inputs[slot] = document.querySelector('.js-input-' + slot);
       this.parts[slot] = [];
-      this.partCont[slot] = this.inputs[slot].closest(".js-part-cont");
+      this.partCont[slot] = this.inputs[slot].closest('.js-part-cont');
     });
     this._parseParts();
     this._sortParts();
@@ -370,7 +348,7 @@ class GunplaBuild {
         Collections.forEach(gunpla => {
           if (gunpla.parts && Array.isArray(gunpla.parts)) {
             const currGunpla = {
-              'ms': gunpla.name
+              ms: gunpla.name
             };
             for (let part in gunpla) {
               if (gunpla.hasOwnProperty(part) && part !== 'parts' && part !== 'name') {
@@ -396,7 +374,7 @@ class GunplaBuild {
       if (Pilots && Array.isArray(Pilots)) {
         Pilots.forEach(currPilot => {
           const pilotClone = {
-            'part': "pilot"
+            part: 'pilot'
           };
           for (let prop in currPilot) {
             if (currPilot.hasOwnProperty(prop)) {
@@ -411,7 +389,7 @@ class GunplaBuild {
           let gearIndex = 'gear-s1ot-' + (index + 1);
           gears.forEach(currGear => {
             const gearClone = {
-              'part': gearIndex
+              part: gearIndex
             };
             for (let prop in currGear) {
               if (currGear.hasOwnProperty(prop)) {
@@ -442,7 +420,7 @@ class GunplaBuild {
     const inputs = this.inputs;
     for (let input in inputs) {
       if (inputs.hasOwnProperty(input) && inputs[input]) {
-        inputs[input].addEventListener("click", e => {
+        inputs[input].addEventListener('click', e => {
           this.currentPart = input;
           this._setSelectedPart(input);
           this._showPartList(input);
@@ -493,23 +471,23 @@ class GunplaBuild {
           if (!this._checkFilter(partFilter)) {
             return;
           }
-          const partEntry = document.createElement("div");
-          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + ']' : '';
+          const partEntry = document.createElement('div');
+          let displayText = partFilter.attribute ? '[' + partFilter.attribute.charAt(0) + '] ' : '';
           if (partFilter.jl) {
-            displayText += ` ${partFilter.name} (${partFilter.jl})`;
-          } else if (partFilter.part.startsWith('gear-')) {
-            displayText += ` ${partFilter.name}`;
+            displayText += `${partFilter.name} (${partFilter.jl})`; // Pilot
+          } else if (partFilter.part.startsWith('gear-') || partFilter.ms.startsWith('Unassigned [')) {
+            displayText += `${partFilter.name}`; // Gear or no assigned unit
           } else if (partFilter.name) {
-            displayText += ` ${partFilter.name} (${partFilter.ms})`;
+            displayText += `${partFilter.name} (${partFilter.ms})`; // Armament
           } else {
-            displayText += ` ${partFilter.ms}`;
+            displayText += `${partFilter.ms}`; // Any other part
           }
           partEntry.textContent = partEntry.dataset.partname = displayText;
-          partEntry.classList.add("part-list__item");
+          partEntry.classList.add('part-list__item');
           for (let prop in partFilter) {
             partEntry.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
           }
-          partEntry.addEventListener("click", e => {
+          partEntry.addEventListener('click', e => {
             const currTarget = e.currentTarget;
             let partInput, partData;
             if (currTarget.dataset.part && this.inputs[currTarget.dataset.part]) {
@@ -519,7 +497,7 @@ class GunplaBuild {
               removeAllAttributes(partInput);
               Object.assign(partInput.dataset, currTarget.dataset);
               this._deleteMarks(partData);
-              if (["pilot", "gear-s1ot-1", "gear-s1ot-2", "gear-s1ot-3", "gear-s1ot-4", "gear-s1ot-5"].indexOf(partData) === -1) {
+              if (['pilot', 'gear-s1ot-1', 'gear-s1ot-2', 'gear-s1ot-3', 'gear-s1ot-4', 'gear-s1ot-5'].indexOf(partData) === -1) {
                 this._addMarks();
               }
               this._displayPartInfo(currTarget);
@@ -527,7 +505,7 @@ class GunplaBuild {
             this._calculate(partData);
           });
           if (screen.width >= 992) {
-            partEntry.addEventListener("mouseover", e => {
+            partEntry.addEventListener('mouseover', e => {
               this._displayPartInfo(e.currentTarget);
             });
           }
@@ -538,8 +516,8 @@ class GunplaBuild {
   }
 
   _setSelectedPart(partId) {
-    const partClass = "selected-part";
-    Array.prototype.slice.call(document.querySelectorAll(".selected-part")).forEach(selectedPart => {
+    const partClass = 'selected-part';
+    Array.from(document.querySelectorAll('.selected-part')).forEach(selectedPart => {
       selectedPart.classList.remove(partClass);
     });
     if (this.partCont[partId]) {
@@ -567,7 +545,7 @@ class GunplaBuild {
               break;
             } else if (partInput.dataset.combo && partInput.dataset.combo == comboPart.combo) {
               this._clearParts(comboPart.part);
-              document.querySelector(".js-input-" + comboPart.combo).disabled = false;
+              document.querySelector('.js-input-' + comboPart.combo).disabled = false;
               this.comboParts.splice(i, 1);
               break;
             }
@@ -577,16 +555,18 @@ class GunplaBuild {
       if (partInput.dataset.combo && partInput.dataset.part) {
         this._clearParts(partInput.dataset.combo);
         this.comboParts.push({
-          'part': partInput.dataset.part,
-          'combo': partInput.dataset.combo
+          part: partInput.dataset.part,
+          combo: partInput.dataset.combo
         });
-        document.querySelector(".js-input-" + partInput.dataset.combo).disabled =  true;
+        document.querySelector('.js-input-' + partInput.dataset.combo).disabled = true;
       }
     }
   }
 
   _applyAttributes(el, attrs) {
-    for (let attr in attrs) { el.setAttribute(attr, attrs[attr]); }
+    for (let attr in attrs) {
+      el.setAttribute(attr, attrs[attr]);
+    }
     return el;
   }
 
@@ -596,7 +576,7 @@ class GunplaBuild {
   }
 
   _generateSkillIcon(exData) {
-    return `<span class="ex-cat-icon gbgw-${exData.category.toLowerCase().replace(/\s/g, '-')}"></span>`;
+    return `<span class='ex-cat-icon gbgw-${exData.category.toLowerCase().replace(/\s/g, '-')}'></span>`;
   }
 
   _displaySkillTraits(partData) {
@@ -604,16 +584,16 @@ class GunplaBuild {
       const partInput = this.inputs[partData];
       let exData, partTrait;
       if (partInput && partInput.dataset.part && partInput.dataset.ex) {
-        partTrait = document.querySelector(".js-skill-trait-" + partInput.dataset.part), exData = JSON.parse(partInput.dataset.ex);
+        partTrait = document.querySelector('.js-skill-trait-' + partInput.dataset.part), exData = JSON.parse(partInput.dataset.ex);
         if (exData.type && exData.name && partTrait) {
           partTrait.innerHTML = exData.type === 'EX Skill'
               ? this._generateSkillIcon(exData) + exData.name
               : exData.name.replace(/,/, '<br>');
           if (exData.description) {
             this._applyAttributes(partTrait, {
-              'aria-label' : '[' + exData.category + '] ' + exData.description,
-              'data-balloon-pos' : 'down',
-              'data-balloon-length' : 'fit'
+              'aria-label': '[' + exData.category + '] ' + exData.description,
+              'data-balloon-pos': 'down',
+              'data-balloon-length': 'fit'
             });
             partTrait.addEventListener('click', toggleTooltip);
             partTrait.addEventListener('touchstart', toggleTooltip);
@@ -630,7 +610,7 @@ class GunplaBuild {
   }
 
   _clearSkillTrait(partData) {
-    if (partData && document.querySelector(".js-skill-trait-" + partData)) {
+    if (partData && document.querySelector('.js-skill-trait-' + partData)) {
       document.querySelector('.js-skill-trait-' + partData).textContent = '';
     }
   }
@@ -640,7 +620,7 @@ class GunplaBuild {
     this._resetWordTagTally();
     this._resetParameters();
     this._resetAttributesTally();
-    console.log("--------------------");
+    console.log('--------------------');
     for (let inputName in inputList) {
       if (inputList.hasOwnProperty(inputName) && this.inputs[inputName]) {
         const input = this.inputs[inputName];
@@ -677,18 +657,18 @@ class GunplaBuild {
     activeWordTag.innerHTML = '';
     for (let tally in this.wordTagsTally) {
       if (this.wordTagsTally[tally] >= ActiveWordTagMin) {
-        const tallyDiv = document.createElement("div");
+        const tallyDiv = document.createElement('div');
         tallyDiv.textContent = tally;
         activeWordTag.appendChild(tallyDiv);
       }
     }
-    console.log("this.wordTagsTally", this.wordTagsTally);
+    console.log('this.wordTagsTally', this.wordTagsTally);
   }
 
   _resetParameters() {
     this.parametersTotal = {};
     Sorters.forEach(sorter => {
-      if ("slug" in sorter) {
+      if ('slug' in sorter) {
         this.parametersTotal[sorter.slug] = 0;
       }
     });
@@ -727,9 +707,9 @@ class GunplaBuild {
 
   _resetAttributesTally() {
     this.attributesTally = {
-      'p': 0,
-      't': 0,
-      's': 0
+      p: 0,
+      t: 0,
+      s: 0
     };
   }
 
@@ -742,18 +722,18 @@ class GunplaBuild {
 
   _displayAttributesTally() {
     for (let tally in this.attributesTally) {
-      document.querySelector(".js-tally-" + tally).textContent = this.attributesTally[tally];
+      document.querySelector('.js-tally-' + tally).textContent = this.attributesTally[tally];
     }
   }
 
   _applyWordTagBonus() {
     const tallyMap = {};
-    console.log("Total Raw Attributes:", this.parametersTotal);
+    console.log('Total Raw Attributes:', this.parametersTotal);
     let tagTally = 0;
     for (let tagName in this.wordTagsTally) {
       if (this.wordTagsTally[tagName] >= ActiveWordTagMin) {
         const foundTag = this._getWordTag(tagName);
-        if (MapWordTags.indexOf(tagName) > -1) {
+        if (WordTagData.some(wt => wt.type === 'map' && wt.name === tagName)) {
           tagTally++;
         }
         if (foundTag && foundTag.multiplier && foundTag.parameters && Array.isArray(foundTag.parameters)) {
@@ -768,13 +748,13 @@ class GunplaBuild {
         tallyMap[sorter.slug] = tallyMap[sorter.slug] ? roundValue(tallyMap[sorter.slug] + MultiplierBuffMap) : MultiplierBuffMap;
       });
     }
-    console.log("Word Tag Multipliers", tallyMap);
+    console.log('Word Tag Multipliers', tallyMap);
     for (let tag in tallyMap) {
       if (tag in this.parametersTotal) {
         this.parametersTotal[tag] = Math.round(this.parametersTotal[tag] + this.parametersTotal[tag] * tallyMap[tag]);
       }
     }
-    console.log("Total Attributes With WT Bonus:", this.parametersTotal);
+    console.log('Total Attributes With WT Bonus:', this.parametersTotal);
   }
 
   _getWordTag(wordTag) {
@@ -782,7 +762,7 @@ class GunplaBuild {
   }
 
   _applyJobLicenseBonus() {
-    const selectedPilot = document.querySelector(".js-select-pilot"),
+    const selectedPilot = document.querySelector('.js-select-pilot'),
         pilotInput = this.inputs.pilot;
     if (pilotInput && pilotInput.dataset.jl) {
       const jobLicense = this._getJobLicense(pilotInput.dataset.jl);
@@ -794,7 +774,7 @@ class GunplaBuild {
         });
       }
     }
-    console.log("Total Attributes With WT Bonus and Job Bonus:", this.parametersTotal);
+    console.log('Total Attributes With WT Bonus and Job Bonus:', this.parametersTotal);
   }
 
   _getJobLicense(license) {
@@ -816,8 +796,8 @@ class GunplaBuild {
   }
 
   _clearWordTag(wordTag) {
-    if (document.querySelector(".js-wt-" + wordTag)) {
-      document.querySelector(".js-wt-" + wordTag).innerHTML = '';
+    if (document.querySelector('.js-wt-' + wordTag)) {
+      document.querySelector('.js-wt-' + wordTag).innerHTML = '';
     }
   }
 
@@ -827,7 +807,7 @@ class GunplaBuild {
       input.value = '';
       input.title = '';
       removeAllAttributes(input);
-      Object.assign(input.dataset, document.createElement("input").dataset);
+      Object.assign(input.dataset, document.createElement('input').dataset);
       this._clearSkillTrait(inputName);
       this._clearWordTag(inputName);
       this._deleteMarks(inputName);
@@ -836,31 +816,31 @@ class GunplaBuild {
 
   _initFilters() {
     const attrFilter = document.querySelector('.js-filter-attr'),
-        wtFilter1 = document.querySelector(".js-filter-wt1"),
-        wtFilter2 = document.querySelector(".js-filter-wt2"),
-        exFilter = document.querySelector(".js-filter-ex-cat"),
-        ptFilter = document.querySelector(".js-filter-pt");
+        wtFilter1 = document.querySelector('.js-filter-wt1'),
+        wtFilter2 = document.querySelector('.js-filter-wt2'),
+        exFilter = document.querySelector('.js-filter-ex-cat'),
+        ptFilter = document.querySelector('.js-filter-pt');
     if (Array.isArray(Attributes)) {
       Attributes.forEach(attr => {
-        const opt = document.createElement("option");
+        const opt = document.createElement('option');
         opt.value = attr;
         opt.text = attr;
         attrFilter.appendChild(opt);
       });
     }
-    if (Array.isArray(GeneralWordTags)) {
-      GeneralWordTags.sort();
-      GeneralWordTags.forEach(wt => {
+    if (Array.isArray(WordTagData)) {
+      let generalWordTags = WordTagData.filter(wt => wt.type === 'general').map(wt => wt.name).sort();
+      generalWordTags.forEach(wt => {
         const opt = document.createElement('option');
         opt.value = wt;
         opt.text = wt;
-        wtFilter2.appendChild(opt.cloneNode( true));
+        wtFilter2.appendChild(opt.cloneNode(true));
         wtFilter1.appendChild(opt);
       });
     }
     if (Array.isArray(ExCategories)) {
       ExCategories.forEach(category => {
-        const opt = document.createElement("option");
+        const opt = document.createElement('option');
         opt.value = category;
         opt.text = category;
         exFilter.appendChild(opt);
@@ -868,7 +848,7 @@ class GunplaBuild {
     }
     if (Array.isArray(TraitDescriptions)) {
       TraitDescriptions.forEach(pt => {
-        const opt = document.createElement("option");
+        const opt = document.createElement('option');
         opt.value = pt;
         opt.text = pt;
         ptFilter.appendChild(opt);
@@ -876,7 +856,7 @@ class GunplaBuild {
     }
     for (let key in this.filters) {
       if (this.filters.hasOwnProperty(key)) {
-        document.querySelector(".js-filter-" + key).addEventListener("change", e => {
+        document.querySelector('.js-filter-' + key).addEventListener('change', e => {
           let filterEl = e.currentTarget;
           let filterVal = filterEl.value;
           filterEl.classList.toggle('unselected-filter', filterVal === '');
@@ -893,12 +873,12 @@ class GunplaBuild {
     const sort = document.querySelector('.js-sort-param');
     if (Array.isArray(Sorters)) {
       Sorters.forEach(sorter => {
-        const opt = document.createElement("option");
+        const opt = document.createElement('option');
         opt.value = sorter.slug;
         opt.text = sorter.name;
         sort.appendChild(opt);
       });
-      sort.addEventListener("change", e => {
+      sort.addEventListener('change', e => {
         this.sort = e.currentTarget.value;
         if (this.currentPart) {
           this._showPartList(this.currentPart);
@@ -908,18 +888,18 @@ class GunplaBuild {
   }
 
   _initApplyMapBonus() {
-    const applyMapBonusEl = document.querySelector(".js-apply-map-bonus");
+    const applyMapBonusEl = document.querySelector('.js-apply-map-bonus');
     applyMapBonusEl.checked = false;
-    applyMapBonusEl.addEventListener("change", e => {
+    applyMapBonusEl.addEventListener('change', e => {
       this.applyMapBonus = e.currentTarget.checked;
       this._loopThroughInput();
     });
   }
 
   _initSearchPart() {
-    const searchEl = document.querySelector(".js-search-part");
+    const searchEl = document.querySelector('.js-search-part');
     let timerId;
-    searchEl.addEventListener("keyup", e => {
+    searchEl.addEventListener('keyup', e => {
       this.searchPart = e.currentTarget.value;
       clearTimeout(timerId);
       timerId = setTimeout(() => {
@@ -934,7 +914,7 @@ class GunplaBuild {
     if (currPart && Array.isArray(AllSlots) && AllSlots.indexOf(currPart) > -1) {
       const partInputEl = document.querySelector('.js-input-' + currPart);
       if (partInputEl && partInputEl.dataset.combo) {
-        document.querySelector(".js-input-" + partInputEl.dataset.combo).disabled = false;
+        document.querySelector('.js-input-' + partInputEl.dataset.combo).disabled = false;
         for (let i = 0; i < this.comboParts.length; i++) {
           if (this.comboParts[i].part == currPart) {
             this.comboParts.splice(i, 1);
@@ -952,7 +932,7 @@ class GunplaBuild {
 
   _initRemove() {
     const removePartEl = document.querySelector('.js-remove-part');
-    removePartEl.addEventListener("click", e => {
+    removePartEl.addEventListener('click', e => {
       this._clearPartBySlot(this.currentPart, true);
     });
 
@@ -983,7 +963,7 @@ class GunplaBuild {
       });
       if (Array.isArray(wordTag)) {
         this.partWTCont.innerHTML = wordTag.reduce((result, tag) => {
-          return result + "<div>" + tag + "</div>";
+          return result + '<div>' + tag + '</div>';
         }, '');
       } else {
         this.partWTCont.innerHTML = '';
@@ -998,12 +978,12 @@ class GunplaBuild {
 
   _createMark(markSlot, currPart) {
     if (markSlot && markSlot.append && currPart) {
-      const markEl = document.createElement("div"),
-          partItem = document.querySelector(".js-input-" + currPart);
+      const markEl = document.createElement('div'),
+          partItem = document.querySelector('.js-input-' + currPart);
       markEl.classList.add('parts-marks__item');
-      markEl.classList.add("js-mark-item");
+      markEl.classList.add('js-mark-item');
       markEl.dataset.value = 0;
-      markEl.addEventListener("click", e => {
+      markEl.addEventListener('click', e => {
         const currTarget = e.currentTarget,
             rarity = +currTarget.dataset.value;
         currTarget.dataset.value = rarity == 0 ? 5 : rarity - 1;
@@ -1016,7 +996,7 @@ class GunplaBuild {
   }
 
   _deleteMarks(partData) {
-    const markSlot = document.querySelector(".js-marks-" + partData);
+    const markSlot = document.querySelector('.js-marks-' + partData);
     if (markSlot && markSlot.innerHTML) {
       markSlot.innerHTML = '';
     }
@@ -1028,8 +1008,8 @@ class GunplaBuild {
 
   _addMarks() {
     const currPart = this.currentPart,
-        markSlot = document.querySelector(".js-marks-" + currPart),
-        markPart = markSlot ? document.querySelector(".js-input-" + currPart) : null,
+        markSlot = document.querySelector('.js-marks-' + currPart),
+        markPart = markSlot ? document.querySelector('.js-input-' + currPart) : null,
         markCount = this._calculateMarkCount(markPart);
     if (markCount) {
       for (let i = 0; i < markCount; i++) {
@@ -1040,7 +1020,7 @@ class GunplaBuild {
 
   _getMarkMultiplier(currPart) {
     let multiplier = 0;
-    Array.prototype.slice.call(document.querySelectorAll(".js-marks-" + currPart + " .js-mark-item")).forEach(markItem => {
+    Array.from(document.querySelectorAll('.js-marks-' + currPart + ' .js-mark-item')).forEach(markItem => {
       if (markItem.dataset.value) {
         multiplier = roundValue(multiplier + MarkWeights[markItem.dataset.value]);
       }
@@ -1049,12 +1029,12 @@ class GunplaBuild {
   }
 
   _hasComboParts(currPart) {
-    const partInput = document.querySelector(".js-input-" + currPart);
+    const partInput = document.querySelector('.js-input-' + currPart);
     return !!(partInput && partInput.dataset.combo);
   }
 
   _hasSelectedPart(currPart) {
-    const partInput = document.querySelector(".js-input-" + currPart);
+    const partInput = document.querySelector('.js-input-' + currPart);
     return !!(partInput && partInput.value.length > 0);
   }
 
@@ -1067,12 +1047,12 @@ class GunplaBuild {
     if (Array.isArray(wordTags) && partEl) {
       partEl.innerHTML = wordTags.reduce((result, wordTag) => {
         const currentTally = this.wordTagsTally[wordTag];
-        return result + ((result == '' ? '' : "<br />") + "<span class=\"" + (currentTally >= ActiveWordTagMin ? "activatedWT" : '') + "\">(" + currentTally + ') ' + wordTag + "</span>");
+        return result + ((result == '' ? '' : '<br />') + '<span class=\'' + (currentTally >= ActiveWordTagMin ? 'activatedWT' : '') + '\'>(' + currentTally + ') ' + wordTag + '</span>');
       }, '');
       if (part.dataset.combo) {
         document.querySelector('.js-wt-' + part.dataset.combo).innerHTML = partEl.innerHTML;
       }
     }
-    return  true;
+    return true;
   }
 }

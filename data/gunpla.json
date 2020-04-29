@@ -20421,6 +20421,79 @@
     }
   }]
 }, {
+  "name": "Unassigned [P]",
+  "attribute": "Power",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": []
+}, {
+  "name": "Unassigned [S]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": []
+}, {
+  "name": "Unassigned [T]",
+  "attribute": "Technique",
+  "rarity": 1,
+  "sokai": 0,
+  "parts": [{
+    "part": "melee",
+    "mark": 4,
+    "a": 287,
+    "ma": 1011,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 190,
+    "pr": 54,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Screw Nail",
+      "description": "Rush forward, carving through foes with claws on both hands. Lowers hit enemy Gunpla's Shot Defense by 14%.",
+      "category": "Physical Melee"
+    },
+    "name": "Claw Module",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "mark": 4,
+    "a": 287,
+    "ma": 1011,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 190,
+    "pr": 54,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Burning Fist",
+      "description": "Charge through enemies in front of you with your fist. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+      "category": "Physical Melee"
+    },
+    "name": "Fist Module",
+    "type": "Physical"
+  }, {
+    "part": "melee",
+    "mark": 4,
+    "a": 287,
+    "ma": 1011,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 190,
+    "pr": 54,
+    "wt": ["Close Combat", "Mobile Fighter"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mobile Fighter\", Melee power boosted 15%"
+    },
+    "name": "Martial Module",
+    "type": "Physical"
+  }]
+}, {
   "name": "Unicorn Gundam",
   "attribute": "Speed",
   "rarity": 4,
