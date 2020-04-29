@@ -43,7 +43,7 @@
 
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
   box-sizing: border-box;
-  font-family: SFPT, Arial, sans-serif;
+  font-family: SF Pro Display, Segoe UI, SFPT, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
 }
