@@ -1,6 +1,19 @@
 @font-face {
-  font-family: SFPDR;
-  src: url("fonts/SFPDR.otf");
+  font-family: SFPT;
+  src: url("fonts/SFPTR.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: SFPT;
+  src: url("fonts/SFPTSB.otf");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: SFPT;
+  src: url("fonts/SFPTRI.otf");
+  font-style: italic;
 }
 
 :root {
@@ -30,7 +43,7 @@
 
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
   box-sizing: border-box;
-  font-family: SF Pro Display, Segoe UI, SFPDR, Arial, sans-serif;
+  font-family: SFPT, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.6;
 }
