@@ -11,6 +11,7 @@ const MeleeType = ["Beam ", "Physical"];
 const MainSlot = ["head", "torso", "arms", "legs", "backpack", "melee", "range", "shield", "pilot"];
 const GearSlot = ["gear-s1ot-1", "gear-s1ot-2", "gear-s1ot-3", "gear-s1ot-4", "gear-s1ot-5"];
 const AllSlots = [...MainSlot, ...GearSlot];
+const MarksAllowed = ["head", "torso", "arms", "legs", "backpack", "melee", "range", "shield"];
 
 const ExCategories = [
   "Beam Shot",

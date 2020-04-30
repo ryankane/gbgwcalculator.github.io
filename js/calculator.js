@@ -311,11 +311,11 @@ class GunplaBuild {
     this.partSkillTraitCont = document.querySelector('.js-part-skill-trait');
     this.partCont = {};
     this.filters = {
-      attr: '',
-      wt1: '',
-      wt2: '',
+      'attr': '',
+      'wt1': '',
+      'wt2': '',
       'ex-cat': '',
-      pt: ''
+      'pt': ''
     };
     this.applyMapBonus = false;
     this.searchPart = '';
@@ -497,7 +497,7 @@ class GunplaBuild {
               removeAllAttributes(partInput);
               Object.assign(partInput.dataset, currTarget.dataset);
               this._deleteMarks(partData);
-              if (['pilot', 'gear-s1ot-1', 'gear-s1ot-2', 'gear-s1ot-3', 'gear-s1ot-4', 'gear-s1ot-5'].indexOf(partData) === -1) {
+              if (MarksAllowed.includes(partData)) {
                 this._addMarks();
               }
               this._displayPartInfo(currTarget);
@@ -763,7 +763,7 @@ class GunplaBuild {
 
   _applyJobLicenseBonus() {
     const selectedPilot = document.querySelector('.js-select-pilot'),
-        pilotInput = this.inputs.pilot;
+        pilotInput = this.inputs['pilot'];
     if (pilotInput && pilotInput.dataset.jl) {
       const jobLicense = this._getJobLicense(pilotInput.dataset.jl);
       if (jobLicense && jobLicense.multiplier && jobLicense.parameters && Array.isArray(jobLicense.parameters)) {
@@ -796,8 +796,9 @@ class GunplaBuild {
   }
 
   _clearWordTag(wordTag) {
-    if (document.querySelector('.js-wt-' + wordTag)) {
-      document.querySelector('.js-wt-' + wordTag).innerHTML = '';
+    let wordTagEl = document.querySelector('.js-wt-' + wordTag);
+    if (wordTagEl) {
+      wordTagEl.innerHTML = '';
     }
   }
 
@@ -829,8 +830,7 @@ class GunplaBuild {
       });
     }
     if (Array.isArray(WordTagData)) {
-      let generalWordTags = WordTagData.filter(wt => wt.type === 'general').map(wt => wt.name).sort();
-      generalWordTags.forEach(wt => {
+      WordTagData.map(wt => wt.name).sort().forEach(wt => {
         const opt = document.createElement('option');
         opt.value = wt;
         opt.text = wt;
@@ -982,17 +982,21 @@ class GunplaBuild {
           partItem = document.querySelector('.js-input-' + currPart);
       markEl.classList.add('parts-marks__item');
       markEl.classList.add('js-mark-item');
-      markEl.dataset.value = 0;
+      markEl.dataset.value = '0';
       markEl.addEventListener('click', e => {
-        const currTarget = e.currentTarget,
-            rarity = +currTarget.dataset.value;
-        currTarget.dataset.value = rarity == 0 ? 5 : rarity - 1;
+        this._updateMark(e.currentTarget);
         this._setSelectedPart(currPart);
         this._displayPartInfo(partItem);
         this._loopThroughInput();
       });
       markSlot.append(markEl);
     }
+  }
+
+  _updateMark(mark) {
+    let rarity = parseInt(mark.dataset.value, 10),
+        newRarity = rarity === 0 ? 5 : rarity - 1;
+    mark.dataset.value = newRarity.toString(10);
   }
 
   _deleteMarks(partData) {
@@ -1047,7 +1051,7 @@ class GunplaBuild {
     if (Array.isArray(wordTags) && partEl) {
       partEl.innerHTML = wordTags.reduce((result, wordTag) => {
         const currentTally = this.wordTagsTally[wordTag];
-        return result + ((result == '' ? '' : '<br />') + '<span class=\'' + (currentTally >= ActiveWordTagMin ? 'activatedWT' : '') + '\'>(' + currentTally + ') ' + wordTag + '</span>');
+        return result + ((result == '' ? '' : '<br />') + '<span class="' + (currentTally >= ActiveWordTagMin ? 'activatedWT' : '') + '">(' + currentTally + ') ' + wordTag + '</span>');
       }, '');
       if (part.dataset.combo) {
         document.querySelector('.js-wt-' + part.dataset.combo).innerHTML = partEl.innerHTML;
