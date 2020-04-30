@@ -38,6 +38,7 @@
   --tooltip-bg-color: #EBF8FF;
   --scrollbar-bg-color: #f2f7f4;
   --scrollbar-thumb-color: #4379ba;
+  --activatedWT-font-color: #206cc9;
 }
 
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
@@ -169,7 +170,7 @@ input:checked + .slider:before {
 }
 
 .activatedWT {
-  color: #206cc9;
+  color: var(--activatedWT-font-color);
 }
 
 .everything {
