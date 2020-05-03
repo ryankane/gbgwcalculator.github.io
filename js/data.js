@@ -5,9 +5,9 @@ const MultiplierBuffFor = 0.01;
 const MultiplierBuffMap = 0.03;
 const MarkWeights = [0, 0.2, 0.25, 0.3, 0.35, 0.4];
 const Attributes = ["Power", "Speed", "Technique"];
-const GearSlotText = ["Torso", "R. Arm", "L. Arm", "R. Leg", "L. Leg"];
 const ExTraitType = ["EX Skill", "Part Traits"];
 const MeleeType = ["Beam ", "Physical"];
+const WeaponSlots = [ "melee", "range" ];
 const MainSlot = ["head", "body", "arms", "legs", "back", "melee", "range", "shield", "pilot"];
 const GearSlot = ["gear-slot-1", "gear-slot-2", "gear-slot-3", "gear-slot-4", "gear-slot-5"];
 const AllSlots = [...MainSlot, ...GearSlot];
@@ -227,4 +227,28 @@ let SlotIconMap = {
   "gear-slot-3": "gear-arm-left",
   "gear-slot-4": "gear-leg-right",
   "gear-slot-5": 'gear-leg-left'
+};
+
+let SlotTextMap = {
+  "head": "Head",
+  "body": "Body",
+  "arms": "Arms",
+  "legs": "Legs",
+  "back": "Back",
+  "melee": "Melee",
+  "range": "Range",
+  "shield": "Shield",
+  "pilot": "Pilot",
+  "gear-slot-1": "Torso",
+  "gear-slot-2": "R. Arm",
+  "gear-slot-3": "L. Arm",
+  "gear-slot-4":  "R. Leg",
+  "gear-slot-5": "L. Leg"
+};
+
+let WeaponIconMap = {
+  "melee-beam": "skill-beam-melee",
+  "melee-physical": "skill-physical-melee",
+  "range-beam": "skill-beam-shot",
+  "range-physical": "skill-physical-shot"
 };

@@ -404,6 +404,15 @@ input:disabled {
   background: var(--color-red);
 }
 
+.weapon-type {
+  float: left;
+  width: 2em;
+  text-align: center;
+}
+.weapon-type span {
+  font-size: 0.75em;
+}
+
 .parts-marks {
   float: right;
   display: flex;
@@ -442,24 +451,28 @@ input:disabled {
   color: var(--rarity-color-1);
 }
 
+.weapon-type span[data-rarity="2"]:before,
 .part-slot-attr span[data-rarity="2"]:before,
 .slot-icon[data-rarity="2"]:before,
 .parts-marks__item[data-value="2"]:after {
   color: var(--rarity-color-2);
 }
 
+.weapon-type span[data-rarity="3"]:before,
 .part-slot-attr span[data-rarity="3"]:before,
 .slot-icon[data-rarity="3"]:before,
 .parts-marks__item[data-value="3"]:after {
   color: var(--rarity-color-3);
 }
 
+.weapon-type span[data-rarity="4"]:before,
 .part-slot-attr span[data-rarity="4"]:before,
 .slot-icon[data-rarity="4"]:before,
 .parts-marks__item[data-value="4"]:after {
   color: var(--rarity-color-4);
 }
 
+.weapon-type span[data-rarity="5"]:before,
 .part-slot-attr span[data-rarity="5"]:before,
 .slot-icon[data-rarity="5"]:before,
 .parts-marks__item[data-value="5"]:after {

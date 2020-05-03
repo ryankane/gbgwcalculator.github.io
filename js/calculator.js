@@ -34,6 +34,9 @@ class GunplaCalculator {
     if ('placeholder' in config) {
       retEl.placeholder = config.placeholder;
     }
+    if ('title' in config) {
+      retEl.setAttribute('title', config.title);
+    }
     if ('disabled' in config) {
       retEl.disabled = config.disabled;
     }
@@ -205,7 +208,8 @@ class GunplaCalculator {
             children: [{
               el: 'label',
               class: ['part-slot-type'],
-              html: this._generateSlotIcon(slot)
+              html: this._generateSlotIcon(slot),
+              title: SlotTextMap[slot]
             }, {
               el: 'span',
               class: ['part-slot-attr']
@@ -219,9 +223,13 @@ class GunplaCalculator {
             el: 'div',
             children: [{
               el: 'div',
-              class: ['parts-marks', 'js-marks-' + slot]
-            }],
-            hidden: slot === 'pilot'
+              class: ['weapon-type'],
+              hidden: !WeaponSlots.includes(slot)
+            }, {
+              el: 'div',
+              class: ['parts-marks', 'js-marks-' + slot],
+              hidden: slot === 'pilot'
+            }]
           }]
         };
       });
@@ -232,6 +240,7 @@ class GunplaCalculator {
     if (Array.isArray(GearSlot)) {
       return GearSlot.map((slotClass, slotIndex) => {
         let disabled = Object.values(GearTypes)[slotIndex].length === 0;
+        let slot = 'gear-slot-' + (slotIndex + 1);
         return {
           el: 'div',
           class: ['row', 'alt-bg', 'height-50', 'js-part-cont'],
@@ -240,7 +249,8 @@ class GunplaCalculator {
             children: [{
               el: 'label',
               class: ['part-slot-type'],
-              html: `${this._generateSlotIcon('gear-slot-' + (slotIndex + 1))}`
+              html: `${this._generateSlotIcon(slot)}`,
+              title: SlotTextMap[slot]
             }, {
               el: 'input',
               type: 'text',
@@ -539,10 +549,20 @@ class GunplaBuild {
       this._displayPartInfo(currTarget);
 
       // Update the icons.
-      let slotIconWrapper = partInput.closest('.row').querySelector('.part-slot-type');
-      slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(currTarget.dataset)}" data-rarity="${currTarget.dataset.rarity}"></span>`;
-      let attrIconWrapper = partInput.closest('.row').querySelector('.part-slot-attr');
-      attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${currTarget.dataset.attribute.toLowerCase()}" data-rarity="${currTarget.dataset.rarity}"></span>`;
+      let slotText = partInput.dataset.category ? partInput.dataset.category : partInput.dataset.jl ? partInput.dataset.jl : SlotTextMap[partInput.dataset.part];
+      let parentRow = partInput.closest('.row');
+      let slotIconWrapper = parentRow.querySelector('.part-slot-type');
+      slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(currTarget.dataset)}" data-rarity="${currTarget.dataset.rarity}" title="${slotText}"></span>`;
+      let attrIconWrapper = parentRow.querySelector('.part-slot-attr');
+      if (attrIconWrapper) {
+        attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${currTarget.dataset.attribute.toLowerCase()}" data-rarity="${currTarget.dataset.rarity}" title="${currTarget.dataset.attribute}"></span>`;
+      }
+
+      if (WeaponSlots.includes(currTarget.dataset.part)) {
+        let cls = WeaponIconMap[`${currTarget.dataset.part}-${currTarget.dataset.type.toLowerCase()}`];
+        let weaponTypeWrapper = parentRow.querySelector('.weapon-type');
+        weaponTypeWrapper.innerHTML = `<span class="gbgw-${cls}" data-rarity="${currTarget.dataset.rarity}" title="${currTarget.dataset.type}"></span>`;
+      }
     }
     this._calculate(partData);
   }
@@ -614,10 +634,11 @@ class GunplaBuild {
         comboInput.disabled = true;
 
         // Update the icons.
+        let slotText = SlotTextMap[partInput.dataset.combo];
         let slotIconWrapper = comboInput.closest('.row').querySelector('.part-slot-type');
-        slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}"></span>`;
+        slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}" title="${slotText}"></span>`;
         let attrIconWrapper = comboInput.closest('.row').querySelector('.part-slot-attr');
-        attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}"></span>`;
+        attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}" title="${partInput.dataset.attribute}"></span>`;
       }
     }
   }
@@ -873,8 +894,11 @@ class GunplaBuild {
       let slotIcon = slotIconWrapper.querySelector('.slot-icon');
       slotIcon.className = `slot-icon gbgw-${SlotIconMap[inputName]}`;
       slotIcon.removeAttribute('data-rarity');
+      slotIcon.setAttribute("title", SlotTextMap[inputName]);
       let attrIconWrapper = parentRow.querySelector('.part-slot-attr');
       if (attrIconWrapper) attrIconWrapper.innerHTML = '';
+      let weaponTypeWrapper = parentRow.querySelector('.weapon-type');
+      if (weaponTypeWrapper) weaponTypeWrapper.innerHTML = '';
     }
   }
 
