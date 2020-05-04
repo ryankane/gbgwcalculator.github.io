@@ -140,12 +140,13 @@ const onReady = () => {
 }
 
 const loadSql = (key) => {
-  let txtara = document.querySelector('#' + key);
-  txtara.value = jsonToSql(key);
+  document.querySelector('#' + key).value = jsonToSql(key);
 };
 
 const jsonToSql = (key) => {
-  const store = stores[key],name = orm[key].name,columns = orm[key].columns;
+  const store = stores[key],
+        name = orm[key].name,
+        columns = orm[key].columns;
 
   return `INSERT INTO \`${name}\` (${columns.map(f => `\`${f.column}\``).join(', ')}) VALUES\n${store.data.map(record => {
     return `(${columns.map(f => {
