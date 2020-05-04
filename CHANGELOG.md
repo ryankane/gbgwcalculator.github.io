@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.4
+
+- Added CSV and SQL data
+- Added tools for generating the JSON and SQL from CSV data
+
 ## 1.1.3
 
 - Added a weapon type filter

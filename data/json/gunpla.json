@@ -5720,7 +5720,7 @@
       "type": "EX Skill",
       "name": "Shield Bash",
       "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
-      "category": "Beam Melee"
+      "category": "Physical Melee"
     },
     "name": "Laminated Anti-Beam Shield [Freedom]"
   }]
@@ -21315,7 +21315,7 @@
       "type": "EX Skill",
       "name": "Shield Bash",
       "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
-      "category": "Beam Melee"
+      "category": "Physical Melee"
     },
     "name": "Shield [Wing]"
   }]

@@ -6,10 +6,10 @@ let Pilots = [];
 let GearTypes = [];
 
 dataStoreManager.addStores({
-  Collections: 'data/gunpla.json',
-  GearTypes: 'data/gears.json',
-  Pilots: 'data/pilots.json',
-  TraitDescriptions: 'data/traits.json'
+  Collections: 'data/json/gunpla.json',
+  GearTypes: 'data/json/gears.json',
+  Pilots: 'data/json/pilots.json',
+  TraitDescriptions: 'data/json/traits.json'
 });
 
 dataStoreManager.reloadAllStores(onAllStoresLoaded);

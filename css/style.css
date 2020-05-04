@@ -29,11 +29,11 @@
   --color-red: #ff5c5c;
   --color-red-alt: #fce1e1;
   --alt-bg-row-color: #f2f7f4;
-  --active-selection-color: #ffca3f;
+  --active-selection-color: #e1b236;
   --rarity-color-1: #FFFFFF;
-  --rarity-color-2: #00d900;
-  --rarity-color-3: #1E90FF;
-  --rarity-color-4: #FF00FF;
+  --rarity-color-2: #56a623;
+  --rarity-color-3: #186fce;
+  --rarity-color-4: #C100C1;
   --rarity-color-5: #FFDF00;
   --marks-bg: rgba(127, 127, 127, 0.25);
   --tooltip-fg-color: #4379ba;
