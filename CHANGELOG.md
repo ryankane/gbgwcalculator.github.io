@@ -4,6 +4,7 @@
 
 - Added CSV and SQL data
 - Added tools for generating the JSON and SQL from CSV data
+- Fixed "Remove" part button not clearing other slot occupied by a combo part
 
 ## 1.1.3
 

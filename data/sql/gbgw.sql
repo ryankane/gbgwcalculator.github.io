@@ -250,6 +250,8 @@ INSERT INTO `word_tag` (`id`, `name`) VALUES
 (25, 'For Base'),
 (26, 'For Computers');
 
+-- Indexes
+
 ALTER TABLE `ai_type`
     ADD PRIMARY KEY (`id`);
 
@@ -302,6 +304,8 @@ ALTER TABLE `unit`
     ADD KEY `FK_UnitAttributeId` (`attribute_id`),
     ADD KEY `FK_UnitSeriesId` (`series_id`);
 
+-- Auto-Increment
+
 ALTER TABLE `weapon_category`
     ADD PRIMARY KEY (`id`);
 
@@ -310,6 +314,47 @@ ALTER TABLE `weapon_type`
 
 ALTER TABLE `word_tag`
     ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `ai_type`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+ALTER TABLE `attribute`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+ALTER TABLE `ex_category`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+ALTER TABLE `ex_skill`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1; -- See: data-only.sql
+
+ALTER TABLE `job_license`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+
+ALTER TABLE `part`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1; -- See: data-only.sql
+
+ALTER TABLE `part_type`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+
+ALTER TABLE `pilot`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1; -- See: data-only.sql
+
+ALTER TABLE `series`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1; -- See: data-only.sql
+
+ALTER TABLE `unit`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1; -- See: data-only.sql
+
+ALTER TABLE `weapon_category`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+
+ALTER TABLE `weapon_type`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+
+ALTER TABLE `word_tag`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
+
+-- Foreign Key Constraints
 
 ALTER TABLE `ex_skill`
     ADD CONSTRAINT `FK_ExSkillCategoryId` FOREIGN KEY (`ex_category_id`) REFERENCES `ex_category` (`id`);

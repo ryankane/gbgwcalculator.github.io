@@ -484,8 +484,8 @@ class GunplaBuild {
       }
     }
     if (this.filters['ex-cat']) {
-      if (part.ex && part.ex.category) {
-        return part.ex.category === this.filters['ex-cat'];
+      if (part.ex && !part.jl) {
+        return part.ex.category && part.ex.category === this.filters['ex-cat'];
       }
     }
     if (this.filters['weapon-type']) {
@@ -1028,12 +1028,8 @@ class GunplaBuild {
       const partInputEl = document.querySelector('.js-input-' + currPart);
       if (partInputEl && partInputEl.dataset.combo) {
         document.querySelector('.js-input-' + partInputEl.dataset.combo).disabled = false;
-        for (let i = 0; i < this.comboParts.length; i++) {
-          if (this.comboParts[i].part == currPart) {
-            this.comboParts.splice(i, 1);
-            break;
-          }
-        }
+        let found = this.comboParts.find(comboPart => comboPart.part == currPart);
+        if (found) this._clearComboPart(found.combo, this.comboParts.indexOf(found));
       }
       this._clearParts(currPart);
       if (forceLoop) {
