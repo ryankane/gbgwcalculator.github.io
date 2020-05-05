@@ -182,6 +182,7 @@ input:disabled {
 }
 
 .app {
+  display: table; /* Fix for Edge 44 */
   width: -moz-fit-content;
   width: fit-content;
   margin-left: auto;

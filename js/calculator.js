@@ -392,9 +392,7 @@ class GunplaBuild {
               }
             }
             gunpla.parts.forEach(part => {
-              const gunplaClone = {
-                ...currGunpla
-              };
+              const gunplaClone = Object.assign({}, currGunpla);
               for (let prop in part) {
                 if (part.hasOwnProperty(prop)) {
                   gunplaClone[prop] = part[prop];

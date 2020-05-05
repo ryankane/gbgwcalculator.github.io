@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.5
+
+- Added support for Microsoft Edge 44
+
 ## 1.1.4
 
 - Added CSV and SQL data
