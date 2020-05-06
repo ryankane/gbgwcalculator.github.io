@@ -2003,7 +2003,7 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1148, 'Tieren Taozi', '25-10-3-01', 184, 3, NULL, 3, 1, 20, 11, 891, 891, 292, 891, 891, 127, 0, 384, NULL, NULL, NULL, 'Arena Coins'),
 (1149, 'Tieren Taozi', '25-10-4-01', 184, 4, NULL, 3, 1, 20, 3, 891, 292, 292, 891, 891, 127, 430, NULL, 'Middle-Shooter Job, Shot spread reduced 15%', NULL, NULL, 'Arena Coins'),
 (1150, 'Tieren Taozi', '25-10-5-01', 184, 5, NULL, 3, 1, 20, 3, 891, 292, 292, 891, 891, 430, 127, NULL, 'With Power attribute (self), Vernier recovery rate boosted 16%', NULL, NULL, 'Arena Coins'),
-(1151, '200mm x 25 Smoothbore Gun', '25-10-7b-01', 184, 7, NULL, 3, 1, 20, 3, 891, 0, 1144, 292, 292, 430, 302, NULL, 'Physical ranged weapon, reload speed boosted 15%', NULL, NULL, 'Arena Coins'),
+(1151, '200mm x 25 Smoothbore Gun', '25-10-7b-01', 184, 7, NULL, 3, 1, 20, 3, 891, 0, 1144, 292, 292, 430, 302, NULL, 'Physical ranged weapon, reload speed boosted 15%', 2, 10, 'Arena Coins'),
 (1152, 'Gundam Tryon 3', '34-03-1-01', 185, 1, NULL, 4, 1, 12, 10, 797, 384, 2785, 384, 384, 213, 418, 278, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (1153, 'Gundam Tryon 3', '34-03-2-01', 185, 2, NULL, 4, 1, 12, 10, 1605, 797, 797, 797, 797, 0, 611, 385, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (1154, 'Gundam Tryon 3', '34-03-3-01', 185, 3, NULL, 4, 1, 12, 10, 797, 2785, 1181, 384, 384, 0, 0, 386, NULL, NULL, NULL, 'Haro Chip Capsule'),

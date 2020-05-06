@@ -24,7 +24,7 @@ const onReady = () => {
     sorter: (a, b) => a.name.localeCompare(b.name),
     format: true
   });
-  populateData('#units', stores.units, {
+  populateData('#gunpla', stores.units, {
     transformer: transformUnitData,
     process: processUnitData,
     //filter: (record) => record['Issue'],

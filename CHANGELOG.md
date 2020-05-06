@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.6
+
+- Fixed weapon data
+
 ## 1.1.5
 
 - Added support for Microsoft Edge 44

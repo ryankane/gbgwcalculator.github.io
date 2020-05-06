@@ -20399,7 +20399,9 @@
       "type": "Part Traits",
       "name": "Physical ranged weapon, reload speed boosted 15%"
     },
-    "name": "200mm x 25 Smoothbore Gun"
+    "name": "200mm x 25 Smoothbore Gun",
+    "type": "Physical",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Turn A Gundam",
