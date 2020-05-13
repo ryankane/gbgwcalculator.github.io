@@ -34,7 +34,8 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 (33, 'Full Throttle Revolution', 'Full Throttle Chip', 0, '2020-03-25'),
 (34, 'Weathered War Machine', 'Weathered Coin', 1, '2020-04-01'),
 (35, 'Supreme Commander of G-ARMS', 'G-ARMS Coin', 0, '2020-04-08'),
-(36, 'Deity of the Deep', 'Deep Coin', 0, '2020-04-15');
+(36, 'Deity of the Deep', 'Deep Coin', 0, '2020-04-15'),
+(37, 'Fists of Iron', 'Iron Coin', 0, '2020-05-13');
 
 INSERT INTO `series` (`id`, `title`, `alternate`) VALUES
 (1, 'Mobile Suit Gundam', 'MSG'),
@@ -519,6 +520,13 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 (434, 'Satellite Cannon', 'Receive microwaves from the moon and fire the converged energy.', 1, 'A+', 'C-', NULL, NULL, 79, 20),
 (435, 'Brave Axe Combo', 'Bring down a wild rush of blows with your equipped axe.', 4, 'D', 'C-', NULL, NULL, 21, 6),
 (436, 'NT-D', 'Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.', 6, NULL, NULL, 51, NULL, 60, 12),
+(437, 'FX Burst Mode', 'Activate FX Burst mode to obtain an aberranthy massive amount of power. Raise your Melee Attack by 29%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.', 6, NULL, NULL, 51, NULL, 60, 12),
+(438, 'Burst Slash', 'Activate FX Burst mode, emit spikes of beam energy, and execute a high-speed rush attack. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.', 3, 'A-', 'B+', NULL, NULL, 79, 8),
+(439, 'C Funnels', 'Launch C Funnels in all directions. You can move freely while this is active.', 3, 'A+', 'D', NULL, NULL, 60, 6),
+(440, 'Barrier Tackle', 'Spin the C Funnels on your back around your Gunpla to prevent damage, and execute a rush attack. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.', 3, 'A-', 'B-', NULL, NULL, 21, 3),
+(441, 'Tactical Arms II', 'Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.', 4, 'D', 'A', NULL, NULL, 79, 20),
+(442, 'Hyper Mode', 'Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.', 6, NULL, NULL, 51, NULL, 60, 12),
+(443, 'Graviton Hammer', 'Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.', 4, 'D', 'B', NULL, NULL, 21, 6),
 (998, 'Homing Missile', 'Launch homing missiles mounted on both your shoulders.', 2, 'D', 'B-', NULL, NULL, 30, 8),
 (999, 'Cross Crusher', 'With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla''s Physical Resist by 20%.', 3, 'B-', 'D', NULL, NULL, 30, 3);
 
@@ -641,7 +649,9 @@ INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarit
 (116, 'Loran Cehack', 20, 4, 'ロラン・セアック', 4, 2, 1, 10, 797, 1181, 1181, 797, 797, 418, 213, 'With Technique attribute (self), Enemy All Power reduced 18%', 4, 1, 6, NULL, NULL, '2020-04-08'),
 (117, 'Jamil Neate', 19, 2, 'ジャミル・ニート', 3, 1, 5, 13, 558, 558, 558, 558, 558, 126, 428, 'With Power attribute (self), Enemy Shooting Power reduced 25%', 2, 2, 5, NULL, NULL, '2020-04-08'),
 (118, 'Master Asia', 16, 7, 'マスター・アジア', 4, 1, 14, 6, 799, 1756, 156, 799, 799, 290, 290, 'While "Mobile Fighter", All DMG output boosted by 35', 3, 1, 5, NULL, NULL, '2020-04-15'),
-(119, 'Chara Soon', 10, 6, 'キャラ・スーン', 3, 3, 17, 9, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), EX Skill piercing boosted 22%', 4, 2, 6, NULL, NULL, '2020-04-15');
+(119, 'Chara Soon', 10, 6, 'キャラ・スーン', 3, 3, 17, 9, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), EX Skill piercing boosted 22%', 4, 2, 6, NULL, NULL, '2020-04-15'),
+(120, 'Yuu Kajima', 4, 1, 'ユウ・カジマ', 4, 1, 19, 6, 795, 795, 795, 795, 795, 609, 211, 'When Armor is 80% or less, Buff EX Skill effect up 22%', 4, 2, 5, NULL, NULL, '2020-05-13'),
+(121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 5, NULL, NULL, '2020-05-13');
 
 INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `name_japanese`, `rarity`, `attribute_id`, `marks`, `obtained_capsule`, `obtained_exchange`, `obtained_banner`, `obtained_sokai`, `release_date`) VALUES
 (1, NULL, 'Unassigned [P]', NULL, 99, NULL, NULL, 1, 1, 4, NULL, NULL, NULL, 0, '2019-07-31'),
@@ -850,6 +860,9 @@ INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `nam
 (204, 'ZGMF-X31S', 'Abyss Gundam', NULL, 22, 6, 'アビスガンダム', 3, 2, 2, NULL, 'Event', NULL, 0, '2020-04-15'),
 (205, 'Gundam Artemis', 'Gundam Artemis', 'Satellite Cannon', 99, 1, NULL, 2, 1, 1, NULL, NULL, NULL, 0, '2020-04-22'),
 (206, 'EB-06', 'Graze', 'Ground/Standard', 28, 10, NULL, 1, 2, 4, NULL, NULL, NULL, 0, '2020-04-22'),
+(207, 'AGE-FX', 'Gundam AGE-FX', NULL, 26, 9, 'ガンダムAGE-FX', 4, 1, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
+(208, 'MBF-P03R', 'Astray Blue Frame 2nd Revise', NULL, 23, 6, 'アストレイ ブルーフレームセカンドリバイ', 4, 3, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
+(209, 'GF13-013NR', 'Bolt Gundam', NULL, 16, 8, 'ボルトガンダム', 3, 1, 2, NULL, 'Event', NULL, 0, '2020-05-13'),
 (999, 'XXXG-01SR', 'Gundam Sandrock', 'Promotional Code', 17, 5, 'ガンダムサンドロック【プロダクトコード持典】', 3, 3, 2, NULL, NULL, 'Promotional', 0, '2019-09-05');
 
 INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `part_augment_type_id`, `rarity`, `attribute_id`, `word_tag_1_id`, `word_tag_2_id`, `armor`, `melee_attack`, `shot_attack`, `melee_defense`, `shot_defense`, `beam_resistance`, `physical_resistance`, `ex_skill_id`, `trait`, `weapon_type_id`, `weapon_category_id`, `notes`) VALUES
@@ -1870,7 +1883,7 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1015, 'Banshee', '12-11-4-01', 162, 4, NULL, 4, 1, 13, 10, 966, 789, 720, 966, 966, 674, 465, NULL, 'With Power attribute (self), EX Skill CD reduced 20%', NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
 (1016, 'Banshee', '12-11-5-01', 162, 5, NULL, 4, 1, 13, 10, 966, 789, 720, 966, 966, 465, 674, 315, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
 (1017, 'Master Gundam', '16-06-1-01', 163, 1, NULL, 4, 1, 14, 10, 1181, 384, 796, 1181, 384, 213, 417, 353, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
-(1018, 'Master Gundam', '16-06-2-01', 163, 2, NULL, 4, 1, 14, 10, 1602, 384, 384, 1602, 796, 0, 611, 77, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
+(1018, 'Master Gundam', '16-06-2-01', 163, 2, NULL, 4, 1, 14, 10, 1602, 384, 384, 1602, 796, 0, 611, 442, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
 (1019, 'Master Gundam', '16-06-3-01', 163, 3, NULL, 4, 1, 14, 10, 384, 3177, 384, 1602, 384, 0, 0, 354, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
 (1020, 'Master Gundam', '16-06-4-01', 163, 4, NULL, 4, 1, 14, 6, 796, 384, 384, 1602, 796, 611, 417, NULL, 'With Power attribute (self), EX Skill Piercing boosted 28%', NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
 (1021, 'Master Gundam', '16-06-5-01', 163, 5, NULL, 4, 1, 14, 6, 796, 384, 384, 1602, 796, 417, 611, 355, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 013] Bonus Coins'),
@@ -2157,6 +2170,24 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1302, 'Battle Axe [Graze]', '28-10-6b-01', 206, 6, NULL, 1, 2, 2, 6, 287, 1011, 0, 0, 0, 54, 190, 435, NULL, 2, 1, 'Friend Point Capsule & Capital Shop'),
 (1303, 'Rifle [Long Barrel/Graze]', '28-10-7b-01', 206, 7, NULL, 1, 2, 2, 25, 287, 0, 1011, 0, 0, 54, 190, NULL, 'When CPWR is under 200000, EX Skill power boosted 25%', 2, 10, 'Friend Point Capsule & Capital Shop'),
 (1304, 'Rifle [Short Barrel/Graze]', '28-10-7c-01', 206, 7, NULL, 1, 2, 2, 24, 287, 0, 1011, 0, 0, 54, 190, NULL, 'When Phy. RES is under 4000, Enemy Shooting power reduced 25%', 2, 9, 'Friend Point Capsule & Capital Shop'),
+(1305, 'Gundam AGE-FX', '26-09-1-01', 207, 1, NULL, 4, 1, 1, 10, 965, 553, 2922, 553, 553, 284, 284, NULL, 'Middle-Shooter Job, Boost Funnel uptime by 50%', NULL, NULL, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1306, 'Gundam AGE-FX', '26-09-2-01', 207, 2, NULL, 4, 1, 1, 10, 1734, 965, 965, 965, 965, 284, 284, 437, NULL, NULL, NULL, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1307, 'Gundam AGE-FX', '26-09-3-01', 207, 3, NULL, 4, 1, 1, 10, 965, 2922, 1356, 553, 553, 0, 0, 438, NULL, NULL, NULL, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1308, 'Gundam AGE-FX', '26-09-4-01', 207, 4, NULL, 4, 1, 1, 13, 965, 965, 553, 965, 965, 555, 555, 439, NULL, NULL, NULL, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1309, 'Gundam AGE-FX', '26-09-5-01', 207, 5, NULL, 4, 1, 1, 13, 965, 965, 553, 965, 965, 555, 555, 440, NULL, NULL, NULL, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1310, 'Stungle Rifle', '26-09-7a-01', 207, 7, NULL, 4, 1, 1, 10, 553, 154, 3690, 0, 0, 464, 464, NULL, 'When buffed, EX Skill power boosted 30%', 1, 8, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1311, 'Daidal Bazooka', '26-09-7d-01', 207, 7, NULL, 4, 1, 1, 10, 553, 154, 3690, 0, 0, 464, 464, NULL, 'With Power attribute (self), Initial EX Skill charge boosted 20%', 1, 12, 'Gundam Battle Festival Gundam AGE-FX Capsule'),
+(1312, 'Astray Blue Frame 2nd Revise', '23-06-1-01', 208, 1, NULL, 4, 3, 3, 20, 1749, 382, 2543, 795, 382, 211, 211, 82, NULL, NULL, NULL, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1313, 'Astray Blue Frame 2nd Revise', '23-06-2-01', 208, 2, NULL, 4, 3, 3, 20, 2150, 795, 726, 974, 974, 324, 324, NULL, 'While "For Space", Shooting power boosted 30%', NULL, NULL, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1314, 'Astray Blue Frame 2nd Revise', '23-06-3-01', 208, 3, NULL, 4, 3, 3, 20, 974, 2860, 556, 1177, 974, 0, 0, NULL, 'With Dual Sabers category equipped, Melee power boosted 30%', NULL, NULL, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1315, 'Astray Blue Frame 2nd Revise', '23-06-4-01', 208, 4, NULL, 4, 3, 3, 6, 1366, 795, 726, 974, 974, 564, 564, 288, NULL, NULL, NULL, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1316, 'Astray Blue Frame 2nd Revise', '23-06-5-01', 208, 5, NULL, 4, 3, 3, 6, 1366, 382, 726, 1366, 974, 473, 473, 441, NULL, NULL, NULL, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1317, 'Armor Schneider [2nd Revise]', '23-06-6-01', 208, 6, NULL, 4, 3, 3, 6, 1432, 3570, 0, 0, 0, 389, 389, NULL, 'When in Multi-Mission Sortie, Initial EX Skill charge boosted 20%', 2, 4, 'Gundam Battle Festival Astray Blue Frame 2nd Revise Capsule'),
+(1318, 'Bolt Gundam', '16-08-1-01', 209, 1, NULL, 3, 1, 14, 11, 891, 292, 891, 891, 558, 127, 302, 3, NULL, NULL, NULL, 'Iron Coins (Weekly Event)'),
+(1319, 'Bolt Gundam', '16-08-2-01', 209, 2, NULL, 3, 1, 14, 6, 1435, 292, 292, 558, 558, 0, 430, 442, NULL, NULL, NULL, 'Iron Coins (Weekly Event)'),
+(1320, 'Bolt Gundam', '16-08-3-01', 209, 3, NULL, 3, 1, 14, 11, 558, 891, 292, 891, 891, 0, 127, 443, NULL, NULL, NULL, 'Iron Coins (Weekly Event)'),
+(1321, 'Bolt Gundam', '16-08-4-01', 209, 4, NULL, 3, 1, 14, 6, 891, 292, 292, 1144, 292, 127, 430, NULL, 'With Power attribute (self), Melee CRIT rate boosted 17%', NULL, NULL, 'Iron Coins (Weekly Event)'),
+(1322, 'Bolt Gundam', '16-08-5-01', 209, 5, NULL, 3, 1, 14, 6, 891, 292, 292, 891, 558, 127, 430, NULL, 'While "Mobile Fighter", Melee power boosted 25%', NULL, NULL, 'Iron Coins (Weekly Event)'),
 (9993, 'Gundam Sandrock', '17-05-1-01', 999, 1, NULL, 3, 3, 11, 21, 570, 187, 570, 570, 364, 139, 139, NULL, 'While "Defender", EX Skill Piercing Boosted 6%', NULL, NULL, 'Japanese-exclusive promotional code redemption'),
 (9994, 'Gundam Sandrock', '17-05-1-01', 999, 2, NULL, 3, 3, 11, 21, 942, 187, 187, 364, 364, 139, 139, 998, NULL, NULL, NULL, 'Japanese-exclusive promotional code redemption'),
 (9995, 'Gundam Sandrock', '17-05-1-01', 999, 3, NULL, 3, 3, 11, 21, 364, 570, 187, 570, 570, 29, 29, NULL, 'When Armor > 70%, Enemy Sp. Shot Power reduced 2%', NULL, NULL, 'Japanese-exclusive promotional code redemption'),

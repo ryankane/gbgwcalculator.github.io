@@ -435,5 +435,12 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 434,Satellite Cannon,Receive microwaves from the moon and fire the converged energy.,1,A+,C-,,,79,20
 435,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,D,C-,,,21,6
 436,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
+437,FX Burst Mode,Activate FX Burst mode to obtain an aberranthy massive amount of power. Raise your Melee Attack by 29%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+438,Burst Slash,"Activate FX Burst mode, emit spikes of beam energy, and execute a high-speed rush attack. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",3,A-,B+,,,79,8
+439,C Funnels,Launch C Funnels in all directions. You can move freely while this is active.,3,A+,D,,,60,6
+440,Barrier Tackle,"Spin the C Funnels on your back around your Gunpla to prevent damage, and execute a rush attack. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",3,A-,B-,,,21,3
+441,Tactical Arms II,Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.,4,D,A,,,79,20
+442,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
+443,Graviton Hammer,Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.,4,D,B,,,21,6
 998,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,30,8
 999,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%.",3,B-,D,,,30,3

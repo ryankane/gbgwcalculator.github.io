@@ -1162,6 +1162,111 @@
     "name": "Anti-Beam Shield [Blue Frame]"
   }]
 }, {
+  "name": "Astray Blue Frame 2nd Revise",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1749,
+    "ma": 382,
+    "sa": 2543,
+    "md": 795,
+    "sd": 382,
+    "br": 211,
+    "pr": 211,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Igelstellung",
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 2150,
+    "ma": 795,
+    "sa": 726,
+    "md": 974,
+    "sd": 974,
+    "br": 324,
+    "pr": 324,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"For Space\", Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 974,
+    "ma": 2860,
+    "sa": 556,
+    "md": 1177,
+    "sd": 974,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Dual Sabers category equipped, Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 1366,
+    "ma": 795,
+    "sa": 726,
+    "md": 974,
+    "sd": 974,
+    "br": 564,
+    "pr": 564,
+    "wt": ["Ace Excl.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Serpent Bite",
+      "description": "Attack with dual sabers held in a backhand grip, striking enemies like a snake striking its prey.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 1366,
+    "ma": 382,
+    "sa": 726,
+    "md": 1366,
+    "sd": 974,
+    "br": 473,
+    "pr": 473,
+    "wt": ["Ace Excl.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Tactical Arms II",
+      "description": "Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1432,
+    "ma": 3570,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 389,
+    "pr": 389,
+    "wt": ["Ace Excl.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When in Multi-Mission Sortie, Initial EX Skill charge boosted 20%"
+    },
+    "name": "Armor Schneider [2nd Revise]",
+    "type": "Physical",
+    "category": "Dual Sabers"
+  }]
+}, {
   "name": "Astray Gold Frame Amatsu",
   "attribute": "Technique",
   "rarity": 4,
@@ -2326,6 +2431,93 @@
       "name": "With Power attribute (self), Buff EX Skill Time up 15%"
     },
     "name": "Shield [BD1]"
+  }]
+}, {
+  "name": "Bolt Gundam",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 891,
+    "ma": 292,
+    "sa": 891,
+    "md": 891,
+    "sd": 558,
+    "br": 127,
+    "pr": 302,
+    "wt": ["Mobile Fighter", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1435,
+    "ma": 292,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 430,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Mode",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "category": "Awakening"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 558,
+    "ma": 891,
+    "sa": 292,
+    "md": 891,
+    "sd": 891,
+    "br": 0,
+    "pr": 127,
+    "wt": ["Mobile Fighter", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Graviton Hammer",
+      "description": "Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 1144,
+    "sd": 292,
+    "br": 127,
+    "pr": 430,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Melee CRIT rate boosted 17%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 891,
+    "ma": 292,
+    "sa": 292,
+    "md": 891,
+    "sd": 558,
+    "br": 127,
+    "pr": 430,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mobile Fighter\", Melee power boosted 25%"
+    }
   }]
 }, {
   "name": "Build Burning Gundam",
@@ -8831,6 +9023,131 @@
       "name": "Middle-Shooter Job, Sp. Shot CRIT Rate boosted 21%"
     },
     "name": "Shield [AGE-2]"
+  }]
+}, {
+  "name": "Gundam AGE-FX",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 965,
+    "ma": 553,
+    "sa": 2922,
+    "md": 553,
+    "sd": 553,
+    "br": 284,
+    "pr": 284,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Boost Funnel uptime by 50%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1734,
+    "ma": 965,
+    "sa": 965,
+    "md": 965,
+    "sd": 965,
+    "br": 284,
+    "pr": 284,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "FX Burst Mode",
+      "description": "Activate FX Burst mode to obtain an aberranthy massive amount of power. Raise your Melee Attack by 29%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 965,
+    "ma": 2922,
+    "sa": 1356,
+    "md": 553,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Burst Slash",
+      "description": "Activate FX Burst mode, emit spikes of beam energy, and execute a high-speed rush attack. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 555,
+    "pr": 555,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "C Funnels",
+      "description": "Launch C Funnels in all directions. You can move freely while this is active.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 965,
+    "ma": 965,
+    "sa": 553,
+    "md": 965,
+    "sd": 965,
+    "br": 555,
+    "pr": 555,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Barrier Tackle",
+      "description": "Spin the C Funnels on your back around your Gunpla to prevent damage, and execute a rush attack. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 154,
+    "sa": 3690,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 464,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When buffed, EX Skill power boosted 30%"
+    },
+    "name": "Stungle Rifle",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 154,
+    "sa": 3690,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 464,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
+    },
+    "name": "Daidal Bazooka",
+    "type": "Beam",
+    "category": "Bazooka"
   }]
 }, {
   "name": "Gundam Artemis",

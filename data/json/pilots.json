@@ -305,6 +305,23 @@
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
+  "name": "Chibodee Crocket",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 1142,
+  "sa": 291,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 302,
+  "wt": ["Mobile Fighter", "For Urban Area"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), All Shot Attack raised 14%"
+  }
+}, {
   "name": "Chloe Croce",
   "jl": "Out-Fighter",
   "attribute": "Speed",
@@ -1986,6 +2003,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), 20% chance to not recoil"
+  }
+}, {
+  "name": "Yuu Kajima",
+  "jl": "Out-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 795,
+  "ma": 795,
+  "sa": 795,
+  "md": 795,
+  "sd": 795,
+  "br": 609,
+  "pr": 211,
+  "wt": ["GM Type", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Armor is 80% or less, Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Yzak Joule",
