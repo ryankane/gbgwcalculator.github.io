@@ -2903,6 +2903,7 @@
       "name": "With Technique attribute (self), Job Gauge Increase boosted 17%"
     },
     "name": "Enhanced Beam Rifle [Build Strike]",
+    "type": "Beam",
     "category": "Rifle"
   }, {
     "part": "shield",
@@ -6853,6 +6854,7 @@
       "category": "Beam Shot"
     },
     "name": "Beam Machine Gun [Gerbera Tetra]",
+    "type": "Beam",
     "category": "Machine Gun"
   }]
 }, {
