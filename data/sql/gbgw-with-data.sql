@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 13, 2020 at 06:53 AM
+-- Generation Time: May 14, 2020 at 09:04 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.11
 
@@ -27,26 +27,46 @@ USE `gbgw`;
 -- --------------------------------------------------------
 
 --
--- Table structure for table `ai_type`
+-- Table structure for table `ai_priority`
 --
 
-DROP TABLE IF EXISTS `ai_type`;
-CREATE TABLE `ai_type` (
-  `id` int(11) NOT NULL,
-  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+DROP TABLE IF EXISTS `ai_priority`;
+CREATE TABLE IF NOT EXISTS `ai_priority` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data for table `ai_type`
+-- Dumping data for table `ai_priority`
 --
 
-INSERT INTO `ai_type` (`id`, `name`) VALUES
-(1, 'Short-Range'),
-(2, 'Mid-Range'),
-(3, 'Long-Range'),
-(4, 'Balanced'),
-(5, 'Solo'),
-(6, 'Support');
+INSERT INTO `ai_priority` (`id`, `value`) VALUES
+(1, 'Solo'),
+(2, 'Balanced'),
+(3, 'Support');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `ai_range`
+--
+
+DROP TABLE IF EXISTS `ai_range`;
+CREATE TABLE IF NOT EXISTS `ai_range` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `ai_range`
+--
+
+INSERT INTO `ai_range` (`id`, `value`) VALUES
+(1, 'Short'),
+(2, 'Mid'),
+(3, 'Long');
 
 -- --------------------------------------------------------
 
@@ -55,10 +75,11 @@ INSERT INTO `ai_type` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `attribute`;
-CREATE TABLE `attribute` (
-  `id` int(11) NOT NULL,
-  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `attribute` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `attribute`
@@ -76,12 +97,13 @@ INSERT INTO `attribute` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `event`;
-CREATE TABLE `event` (
+CREATE TABLE IF NOT EXISTS `event` (
   `id` int(11) NOT NULL,
   `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `exchange` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `blueprints` tinyint(1) NOT NULL,
-  `start_date` date DEFAULT NULL
+  `start_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -134,10 +156,11 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 --
 
 DROP TABLE IF EXISTS `ex_category`;
-CREATE TABLE `ex_category` (
-  `id` int(11) NOT NULL,
-  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `ex_category` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `ex_category`
@@ -160,8 +183,8 @@ INSERT INTO `ex_category` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `ex_skill`;
-CREATE TABLE `ex_skill` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `ex_skill` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `description` varchar(256) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `ex_category_id` int(11) NOT NULL,
@@ -170,8 +193,10 @@ CREATE TABLE `ex_skill` (
   `duration` int(11) DEFAULT NULL,
   `magazine` int(11) DEFAULT NULL,
   `cooldown` int(11) NOT NULL,
-  `cooldown_initial` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `cooldown_initial` int(11) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_ExSkillCategoryId` (`ex_category_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `ex_skill`
@@ -632,10 +657,11 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 --
 
 DROP TABLE IF EXISTS `job_license`;
-CREATE TABLE `job_license` (
-  `id` int(11) NOT NULL,
-  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `job_license` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `job_license`
@@ -657,8 +683,8 @@ INSERT INTO `job_license` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `part`;
-CREATE TABLE `part` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `part` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `collection_id` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `unit_id` int(11) DEFAULT NULL,
@@ -679,8 +705,18 @@ CREATE TABLE `part` (
   `trait` varchar(1024) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `weapon_type_id` int(11) DEFAULT NULL,
   `weapon_category_id` int(11) DEFAULT NULL,
-  `notes` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `notes` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_PartAttributeId` (`attribute_id`),
+  KEY `FK_PartExSkillId` (`ex_skill_id`),
+  KEY `FK_PartPartAugmentTypeId` (`part_augment_type_id`),
+  KEY `FK_PartPartTypeId` (`part_type_id`),
+  KEY `FK_PartUnitId` (`unit_id`),
+  KEY `FK_PartWeaponCategoryId` (`weapon_category_id`),
+  KEY `FK_PartWeaponTypeId` (`weapon_type_id`),
+  KEY `FK_PartWordTag1Id` (`word_tag_1_id`),
+  KEY `FK_PartWordTag2Id` (`word_tag_2_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10000 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `part`
@@ -1841,7 +1877,7 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1148, 'Tieren Taozi', '25-10-3-01', 184, 3, NULL, 3, 1, 20, 11, 891, 891, 292, 891, 891, 127, 0, 384, NULL, NULL, NULL, 'Arena Coins'),
 (1149, 'Tieren Taozi', '25-10-4-01', 184, 4, NULL, 3, 1, 20, 3, 891, 292, 292, 891, 891, 127, 430, NULL, 'Middle-Shooter Job, Shot spread reduced 15%', NULL, NULL, 'Arena Coins'),
 (1150, 'Tieren Taozi', '25-10-5-01', 184, 5, NULL, 3, 1, 20, 3, 891, 292, 292, 891, 891, 430, 127, NULL, 'With Power attribute (self), Vernier recovery rate boosted 16%', NULL, NULL, 'Arena Coins'),
-(1151, '200mm x 25 Smoothbore Gun', '25-10-7b-01', 184, 7, NULL, 3, 1, 20, 3, 891, 0, 1144, 292, 292, 430, 302, NULL, 'Physical ranged weapon, reload speed boosted 15%', NULL, NULL, 'Arena Coins'),
+(1151, '200mm x 25 Smoothbore Gun', '25-10-7b-01', 184, 7, NULL, 3, 1, 20, 3, 891, 0, 1144, 292, 292, 430, 302, NULL, 'Physical ranged weapon, reload speed boosted 15%', 2, 10, 'Arena Coins'),
 (1152, 'Gundam Tryon 3', '34-03-1-01', 185, 1, NULL, 4, 1, 12, 10, 797, 384, 2785, 384, 384, 213, 418, 278, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (1153, 'Gundam Tryon 3', '34-03-2-01', 185, 2, NULL, 4, 1, 12, 10, 1605, 797, 797, 797, 797, 0, 611, 385, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (1154, 'Gundam Tryon 3', '34-03-3-01', 185, 3, NULL, 4, 1, 12, 10, 797, 2785, 1181, 384, 384, 0, 0, 386, NULL, NULL, NULL, 'Haro Chip Capsule'),
@@ -2028,10 +2064,11 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 --
 
 DROP TABLE IF EXISTS `part_type`;
-CREATE TABLE `part_type` (
-  `id` int(11) NOT NULL,
-  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `part_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(16) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `part_type`
@@ -2055,8 +2092,8 @@ INSERT INTO `part_type` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `pilot`;
-CREATE TABLE `pilot` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `pilot` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `series_id` int(11) NOT NULL,
   `issue` int(11) NOT NULL,
@@ -2074,139 +2111,147 @@ CREATE TABLE `pilot` (
   `physical_resistance` int(11) NOT NULL,
   `trait` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `job_license_id` int(11) NOT NULL,
-  `ai_type_1_id` int(11) NOT NULL,
-  `ai_type_2_id` int(11) NOT NULL,
+  `ai_range_id` int(11) NOT NULL,
+  `ai_priority_id` int(11) NOT NULL,
   `obtained_capsule` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `obtained_exchange` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
-  `release_date` date NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `release_date` date NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_PilotAiType1Id` (`ai_range_id`),
+  KEY `FK_PilotAiType2Id` (`ai_priority_id`),
+  KEY `FK_PilotAttributeId` (`attribute_id`),
+  KEY `FK_PilotJobLicenseId` (`job_license_id`),
+  KEY `FK_PilotSeriesId` (`series_id`),
+  KEY `FK_PilotWordTag1Id` (`word_tag_1_id`),
+  KEY `FK_PilotWordTag2Id` (`word_tag_2_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=122 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `pilot`
 --
 
-INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarity`, `attribute_id`, `word_tag_1_id`, `word_tag_2_id`, `armor`, `melee_attack`, `shot_attack`, `melee_defense`, `shot_defense`, `beam_resistance`, `physical_resistance`, `trait`, `job_license_id`, `ai_type_1_id`, `ai_type_2_id`, `obtained_capsule`, `obtained_exchange`, `release_date`) VALUES
-(1, 'Amuro Ray (Pre-Registration Reward)', 1, 3, 'アムロ・レイ【事前登録報酬】', 2, 1, 13, 16, 363, 363, 363, 363, 363, 80, 280, 'With Power attribute (self), EX Skill CD reduced 11%', 4, 2, 6, NULL, NULL, '2019-07-31'),
-(2, 'Gaia', 1, 16, 'ガイア', 2, 1, 8, 23, 364, 187, 187, 570, 570, 201, 201, 'With Power attribute (self), EX Skill Recovery boosted 85', 2, 1, 6, NULL, NULL, '2019-07-31'),
-(3, 'Juri Wu Nien', 21, 12, 'ジュリ・ウー・ニェン', 2, 1, 2, 25, 364, 187, 187, 570, 570, 201, 201, 'With Power attribute (self), EX Skill CD reduced 11%', 5, 2, 4, NULL, NULL, '2019-07-31'),
-(4, 'Kai Shiden', 1, 5, 'カイ・シデン', 2, 1, 7, 16, 755, 187, 187, 364, 364, 81, 281, 'With Power attribute (self), EX Skill Recovery boosted 18%', 6, 2, 6, NULL, NULL, '2019-07-31'),
-(5, 'Poe Aijee', 20, 3, 'ポゥ・エイジ', 2, 1, 8, 15, 755, 187, 187, 364, 364, 281, 81, 'With Power attribute (self), Shot guidance boosted 14%', 6, 3, 6, NULL, NULL, '2019-07-31'),
-(6, 'Reccoa Londe', 8, 4, 'レコア・ロンド', 2, 1, 10, 20, 570, 187, 570, 364, 364, 201, 201, 'With Power attribute (self), Debuff EX Skill Effect up 12%', 6, 3, 5, NULL, NULL, '2019-07-31'),
-(7, 'Sigh Argyle', 21, 4, 'サイ・アーガイル', 2, 1, 8, 13, 570, 364, 187, 570, 364, 281, 81, 'With Power attribute (self), Projectile Speed boosted 12%', 7, 2, 4, NULL, NULL, '2019-07-31'),
-(8, 'Sleggar Law', 1, 8, 'スレッガー・ロウ', 2, 1, 15, 16, 364, 187, 754, 364, 364, 201, 81, 'With Power attribute (self), EX Skill Piercing boosted 15%', 3, 3, 4, NULL, NULL, '2019-07-31'),
-(9, 'Sochie Heim', 20, 1, 'ソシエ・ハイム', 2, 1, 4, 15, 363, 186, 186, 569, 569, 80, 280, 'With Power attribute (self), 10% chance to survive a fatal blow', 7, 1, 4, NULL, NULL, '2019-07-31'),
-(10, 'Dozle Zabi', 1, 13, 'ドズル・ザビ', 3, 1, 10, 18, 558, 891, 891, 558, 558, 127, 302, 'With Power attribute (self), EX Skill Piercing boosted 22%', 2, 1, 4, NULL, NULL, '2019-07-31'),
-(11, 'Ginias Sahalin', 3, 3, 'ギニアス・サハリン', 3, 1, 8, 17, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Vernier Recovery Rate boosted 16%', 2, 3, 5, NULL, NULL, '2019-07-31'),
-(12, 'Christina Mackenzie', 6, 1, 'クリスチーナ・マッケンジー', 4, 1, 6, 24, 795, 382, 382, 1179, 1179, 609, 211, 'With Power attribute (self), EX Skill Piercing boosted 28%', 5, 1, 4, NULL, NULL, '2019-07-31'),
-(13, 'Asagi Caldwell', 21, 10, 'アサギ・コードウェル', 2, 3, 2, 20, 364, 187, 757, 364, 364, 201, 201, 'With Speed attribute (self), Shot Spread reduced 12%', 7, 2, 5, NULL, NULL, '2019-07-31'),
-(14, 'Eledore Massis', 3, 1, 'エレドア・マシス', 2, 3, 8, 15, 755, 187, 187, 364, 364, 81, 281, 'With Speed attribute (self), Initial EX Skill Charge boosted 11%', 7, 3, 5, NULL, NULL, '2019-07-31'),
-(15, 'Mayura Labatt', 21, 11, 'マユラ・ラバッツ', 2, 3, 2, 24, 364, 364, 364, 364, 364, 201, 201, 'With Speed attribute (self), Buff EX Skill Effect up 12%', 4, 2, 6, NULL, NULL, '2019-07-31'),
-(16, 'Ortega', 1, 18, 'オルテガ', 2, 3, 23, 17, 365, 187, 571, 571, 365, 81, 282, 'With Speed attribute (self), Job Gauge Charge Rate up 11%', 5, 3, 4, NULL, NULL, '2019-07-31'),
-(17, 'Garma Zabi', 1, 12, 'ガルマ・ザビ', 3, 3, 5, 23, 559, 294, 294, 559, 559, 432, 432, 'With Speed attribute (self), Buff EX Skill Time up 15%', 5, 2, 5, NULL, NULL, '2019-07-31'),
-(18, 'Jerid Messa', 8, 3, 'ジェリド・メサ', 3, 3, 12, 7, 558, 891, 891, 558, 558, 127, 302, 'With Speed attribute (self), Vernier Recovery Rate boosted 16%', 4, 2, 5, NULL, NULL, '2019-07-31'),
-(19, 'Selene McGriff', 24, 1, 'セレーネ・マクグリフ', 3, 3, 1, 15, 558, 291, 1142, 558, 558, 302, 126, 'With Speed attribute (self), Enemy EX Skill Penetration reduced 22%', 7, 3, 5, NULL, NULL, '2019-07-31'),
-(20, 'Lowe Guele', 23, 1, 'ロウ・ギュール', 4, 3, 1, 10, 1180, 1180, 383, 796, 796, 212, 610, 'With Speed attribute (self), All CRIT Rate boosted 14%', 3, 1, 4, NULL, NULL, '2019-07-31'),
-(21, 'Haro', 1, 1, 'ハロ', 1, 2, 12, 26, 287, 138, 138, 287, 287, 194, 194, 'EX Skill Recovery boosted 110', 1, 2, 6, NULL, NULL, '2019-07-31'),
-(22, 'Akahana', 1, 19, 'アカハナ', 2, 2, 4, 17, 755, 187, 187, 364, 364, 281, 81, 'With Technique attribute (self), EX Skill Recovery boosted 18%', 7, 1, 5, NULL, NULL, '2019-07-31'),
-(23, 'Apolly Bay', 8, 1, 'アポリー・ベイ', 2, 2, 9, 15, 363, 363, 363, 363, 363, 280, 80, 'With Technique attribute (self), Strong Melee DMG Output Boosted 15%', 4, 2, 6, NULL, NULL, '2019-07-31'),
-(24, 'Hayato Kobayashi', 1, 6, 'ハヤト・コバヤシ', 2, 2, 8, 16, 570, 364, 187, 364, 570, 201, 201, '10% chance to prevent vernier consumption when stepping', 6, 3, 5, NULL, NULL, '2019-07-31'),
-(25, 'Heero Yuy (Pre-Registration Reward)', 17, 2, 'ヒイロ・ユイ【事前登録報酬】', 2, 2, 12, 13, 570, 187, 570, 364, 364, 281, 81, '10% chance to prevent vernier consumption when stepping', 2, 3, 4, NULL, NULL, '2019-07-31'),
-(26, 'Mash', 1, 17, 'マッシュ', 2, 2, 11, 23, 570, 364, 187, 364, 570, 281, 81, 'EX Skill Piercing boosted 16%', 4, 2, 4, NULL, NULL, '2019-07-31'),
-(27, 'Roberto', 8, 2, 'ロベルト', 2, 2, 9, 20, 363, 363, 363, 363, 363, 80, 280, 'With Technique attribute (self), Debuff EX Skill Effect up 12%', 3, 2, 5, NULL, NULL, '2019-07-31'),
-(28, 'Ryu Jose', 1, 7, 'リュウ・ホセイ', 2, 2, 8, 16, 570, 187, 570, 364, 364, 201, 201, 'With Technique attribute (self), Buff EX Skill Time up 15%', 2, 3, 4, NULL, NULL, '2019-07-31'),
-(29, 'Sergei Smirnov', 25, 2, 'セルゲイ・スミルノフ', 2, 2, 3, 5, 757, 187, 187, 364, 364, 281, 281, 'With Technique attribute (self), 11% chance to not recoil', 4, 2, 5, NULL, NULL, '2019-07-31'),
-(30, 'M\'Quve', 1, 15, 'マ・クベ', 3, 2, 6, 21, 558, 291, 291, 889, 889, 428, 126, 'With Technique attribute (self), Debuff EX Skill Effect up 15%', 3, 1, 5, NULL, NULL, '2019-07-31'),
-(31, 'Mu La Flaga', 21, 3, 'ムウ・ラ・フラガ', 3, 2, 15, 20, 558, 558, 558, 558, 558, 428, 126, 'With Technique attribute (self), EX Skill Piercing boosted 22%', 6, 3, 4, NULL, NULL, '2019-07-31'),
-(32, 'Ramba Ral', 1, 14, 'ランバ・ラル', 3, 2, 6, 21, 558, 1142, 291, 558, 558, 126, 302, 'All-Rounder Job, Vernier Recovery Rate boosted 16%', 2, 1, 5, NULL, NULL, '2019-07-31'),
-(33, 'Treize Khushrenada', 17, 9, 'トレーズ・クシュリナーダ', 3, 2, 5, 20, 558, 558, 558, 558, 558, 302, 302, 'With Technique attribute (self), 14% chance to survive a fatal blow', 3, 1, 5, NULL, NULL, '2019-07-31'),
-(34, 'Amuro Ray', 1, 2, 'アムロ・レイ', 4, 2, 13, 16, 796, 384, 1602, 796, 796, 213, 417, 'Beam Ranged Reload up 20%', 6, 2, 6, NULL, NULL, '2019-07-31'),
-(35, 'Sai Saici', 16, 1, 'サイ・サイシー', 4, 2, 14, 9, 796, 1602, 384, 796, 796, 417, 213, 'EX Skill CD reduced 20%', 4, 1, 4, NULL, NULL, '2019-07-31'),
-(36, 'Yzak Joule', 21, 7, 'イザーク・ジュール', 3, 1, 11, 10, 1145, 292, 292, 559, 559, 430, 430, 'With Power attribute (self), Buff EX Skill Effect up 15%', 5, 1, 6, NULL, NULL, '2019-08-07'),
-(37, 'Harry Ord', 20, 2, 'ハリー・オード', 3, 3, 3, 6, 558, 1142, 291, 558, 558, 302, 126, 'Beam ranged weapon magazine boosted 20%', 2, 2, 5, NULL, 'Arena', '2019-08-07'),
-(38, 'Char Aznable', 1, 9, 'シャア・アズナブル', 4, 3, 3, 5, 795, 795, 795, 795, 795, 609, 211, 'With Speed attribute (self), All DMG taken reduced 20', 4, 2, 5, NULL, NULL, '2019-08-07'),
-(39, 'Kou Uraki', 7, 1, 'コウ・ウラキ', 4, 1, 1, 16, 1606, 384, 384, 799, 799, 612, 612, '14% chance to survive fatal blow', 2, 2, 5, NULL, NULL, '2019-08-14'),
-(40, 'Cecily Fairchild', 13, 3, 'セシリー・フェアチャイルド', 3, 3, 3, 24, 889, 291, 889, 558, 558, 126, 428, 'With Speed attribute (self), All DMG taken reduced 20', 7, 2, 4, NULL, NULL, '2019-08-14'),
-(41, 'Dearka Elsman', 21, 8, 'ディアッカ・エルスマン', 3, 1, 8, 15, 558, 291, 1142, 558, 558, 302, 126, 'With Power attribute (self), Shot Guidance boosted 14%', 6, 3, 6, NULL, NULL, '2019-08-21'),
-(42, 'Seabook Arno', 13, 1, 'シーブック・アノー', 4, 2, 1, 24, 796, 384, 1602, 796, 796, 417, 213, 'With Technique attribute (self), Enemy All Power reduced 18%', 5, 2, 5, NULL, NULL, '2019-08-21'),
-(43, 'Nicol Amalfi', 21, 9, 'ニコル・アマルフィ', 3, 3, 9, 15, 889, 889, 291, 558, 558, 126, 428, 'With Speed attribute (self), EX Skill Piercing boosted 22%', 7, 1, 5, NULL, NULL, '2019-08-28'),
-(44, 'Bernard Wiseman', 6, 2, 'バーナード・ワイズマン', 4, 2, 9, 18, 795, 795, 795, 795, 795, 211, 609, 'When Armor < 60%, Recover 10 Armor gradually', 3, 1, 6, NULL, NULL, '2019-08-28'),
-(45, 'Flit Asuno', 26, 1, 'フリット・アスノ', 3, 1, 7, 6, 558, 558, 558, 558, 558, 302, 302, 'With Power attribute (self), Buff EX Skill time up 15%', 3, 2, 5, NULL, NULL, '2019-09-04'),
-(46, 'Kira Yamato', 21, 1, 'キラ・ヤマト', 4, 3, 1, 25, 799, 384, 1184, 1184, 799, 614, 213, 'With Speed attribute (self), EX Skill Recovery boosted 140', 5, 3, 4, NULL, NULL, '2019-09-04'),
-(47, 'Mikazuki Augus', 28, 1, '三日月・オーガス', 4, 1, 1, 21, 384, 1182, 1182, 799, 799, 420, 420, 'With Power attribute (self), Initial EX Skill Charge boosted 20%', 2, 1, 4, NULL, NULL, '2019-09-11'),
-(48, 'Cima Garahau', 7, 3, 'シーマ・ガラハウ', 3, 3, 3, 17, 891, 292, 891, 558, 558, 302, 302, 'With Speed attribute (self), Debuff EX Skill Effect up 15%', 2, 2, 6, NULL, NULL, '2019-09-11'),
-(49, 'Patrick Colasour', 25, 1, 'パトリック・コーラサワー', 3, 1, 2, 24, 1144, 292, 292, 558, 558, 127, 430, 'With Power attribute (self), Buff EX Skill Effect up 15%', 5, 2, 5, NULL, NULL, '2019-09-17'),
-(50, 'George de Sand', 16, 4, 'ジョルジュ・ド・サンド', 4, 2, 14, 8, 795, 382, 382, 1179, 1179, 609, 211, 'With Technique attribute (self), EX Skill CD reduced 20%', 4, 3, 5, NULL, NULL, '2019-09-17'),
-(51, 'Sayla Mass', 1, 4, 'セイラ・マス', 3, 3, 15, 26, 1144, 292, 292, 558, 558, 430, 127, 'With Speed attribute (self), Vernier Consumption reduced 15%', 7, 2, 6, NULL, NULL, '2019-09-25'),
-(52, 'Duo Maxwell', 17, 3, 'デュオ・マックスウェル', 4, 3, 6, 23, 796, 1602, 384, 796, 796, 213, 417, 'With Speed attribute (self), 20% chance to not recoil', 3, 1, 4, NULL, NULL, '2019-09-25'),
-(53, 'Cagalli Yula Athha', 21, 13, 'カガリ・ユラ・アスハ', 3, 3, 25, 7, 559, 294, 893, 893, 559, 432, 129, 'With Speed attribute (self), Projectile Speed boosted 14%', 5, 2, 6, NULL, 'Arena', '2019-10-01'),
-(54, 'Sven Cal Bayang', 24, 2, 'スウェン・カル・バヤン', 3, 3, 9, 20, 889, 889, 291, 558, 558, 302, 302, 'With Speed attribute (self), Initial EX Skill Charge boosted 12%', 4, 2, 6, NULL, 'Arena', '2019-10-01'),
-(55, 'Kamille Bidan', 8, 5, 'カミーユ・ビダン', 4, 3, 1, 6, 796, 796, 796, 796, 796, 417, 417, 'With Speed attribute (self), EX Skill Piercing boosted 28%', 5, 2, 4, NULL, NULL, '2019-10-02'),
-(56, 'Elle Vianno', 10, 3, 'エル・ビアンノ', 3, 2, 24, 15, 561, 893, 294, 561, 893, 215, 215, 'With Technique attribute (self), EX Skill Recovery boosted 16%', 4, 2, 6, NULL, NULL, '2019-10-02'),
-(57, 'Yazan Gable', 8, 8, 'ヤザン・ゲーブル', 3, 1, 16, 12, 891, 558, 292, 891, 558, 430, 127, 'With Power attribute (self), 20% chance to not recoil', 3, 1, 4, NULL, NULL, '2019-10-09'),
-(58, 'Haman Karn', 8, 11, 'ハマーン・カーン', 4, 1, 5, 17, 796, 384, 1602, 796, 796, 417, 213, 'With Power attribute (self), Job Gauge Increase boosted 17%', 6, 2, 4, NULL, NULL, '2019-10-09'),
-(59, 'Emma Sheen', 8, 7, 'エマ・シーン', 3, 1, 7, 13, 559, 294, 893, 893, 559, 129, 432, 'With Power attribute (self), Debuff EX Skill Effect up 15%', 5, 2, 5, NULL, NULL, '2019-10-16'),
-(60, 'Chang Wufei', 17, 4, '張五飛', 4, 2, 6, 3, 1181, 1181, 384, 796, 796, 417, 417, 'With Technique attribute (self), Strong Melee DMG Output boosted 35 (flat)', 3, 1, 4, NULL, NULL, '2019-10-16'),
-(61, 'Marida Cruz', 12, 1, 'マリーダ・クルス', 3, 1, 17, 26, 561, 893, 294, 561, 893, 215, 215, 'With Power attribute (self), Long Shot Attack raised 14%', 6, 2, 5, NULL, NULL, '2019-10-23'),
-(62, 'Athrun Zala', 21, 5, 'アスラン・ザラ', 4, 3, 12, 7, 799, 1182, 384, 799, 1182, 612, 213, '20% chance to prevent vernier consumption when stepping', 3, 1, 4, NULL, NULL, '2019-10-23'),
-(63, 'Shinn Asuka', 22, 1, 'シン・アスカ', 4, 1, 9, 1, 797, 1181, 1181, 797, 797, 418, 213, 'Initial EX Skill Charge boosted 15%', 4, 1, 5, NULL, NULL, '2019-10-30'),
-(64, 'Elpeo Ple', 10, 1, 'エルピー・プル', 3, 2, 20, 8, 559, 294, 893, 893, 559, 432, 129, 'With Technique attribute (self), Vernier Recovery Rate boosted 16%', 6, 2, 5, NULL, NULL, '2019-10-30'),
-(65, 'Trowa Barton', 17, 5, 'トロワ・バートン', 3, 2, 25, 10, 891, 292, 891, 558, 558, 302, 302, 'All ranged weapon magazine boosted 14%', 5, 3, 4, NULL, 'Event', '2019-10-30'),
-(66, 'Shiro Amada', 3, 4, 'シロー・アマダ', 4, 1, 23, 21, 1180, 1180, 383, 796, 796, 610, 212, 'With Power attribute (self), Enemy Shooting Power reduced 30%', 4, 2, 6, NULL, NULL, '2019-11-06'),
-(67, 'Rosamia Badam', 8, 9, 'ロザミア・バダム', 3, 2, 20, 12, 889, 558, 291, 558, 889, 428, 126, 'With Technique attribute (self), Enemy EX Skill Penetration reduced 22%', 7, 3, 5, NULL, NULL, '2019-11-06'),
-(68, 'Zechs Marquise', 17, 7, 'ゼクス・マーキス', 4, 3, 9, 5, 795, 795, 795, 795, 795, 211, 609, 'With Speed attribute (self), Vernier Recovery Rate boosted 20%', 3, 1, 4, NULL, NULL, '2019-11-13'),
-(69, 'Lucrezia Noin', 17, 8, 'ルクレツィア・ノイン', 3, 2, 12, 2, 559, 294, 893, 893, 559, 303, 303, 'With Technique attribute (self), Debuff EX Skill Time up 22%', 2, 2, 6, NULL, NULL, '2019-11-13'),
-(70, 'Roux Louka', 10, 2, 'ルー・ルカ', 3, 1, 12, 7, 559, 292, 1144, 559, 559, 303, 303, 'With Power attribute (self), Job Gauge Increase boosted 13%', 5, 2, 6, NULL, NULL, '2019-11-20'),
-(71, 'Paptimus Scirocco', 8, 10, 'パプテマス・シロッコ', 4, 2, 12, 5, 1180, 1180, 383, 796, 796, 212, 610, 'With Technique attribute (self), Shot Guidance boosted 14%', 4, 2, 4, NULL, NULL, '2019-11-20'),
-(72, 'Garrod Ran', 19, 1, 'ガロード・ラン', 4, 3, 1, 6, 797, 1181, 1181, 797, 797, 213, 418, 'When Armor < 80%, All Power boosted 30%', 4, 2, 6, NULL, NULL, '2019-11-27'),
-(73, 'Fa Yuiry', 8, 14, 'ファ・ユイリィ', 3, 2, 12, 15, 891, 292, 891, 558, 558, 302, 302, 'Support Job, EX Skill Recovery boosted 16%', 7, 3, 5, NULL, NULL, '2019-11-27'),
-(74, 'Johnny Ridden', 2, 1, 'ジョニー・ライデン', 3, 2, 17, 20, 558, 1142, 291, 558, 558, 126, 302, 'With Technique attribute (self), Buff EX Skill Effect up 15%', 3, 2, 4, NULL, 'Arena', '2019-12-01'),
-(75, 'Judau Ashta', 10, 4, 'ジュドー・アーシタ', 4, 1, 1, 12, 796, 384, 1602, 796, 796, 417, 213, 'With Power attribute (self), Buff EX Skill Time up 22%', 5, 1, 6, NULL, NULL, '2019-12-04'),
-(76, 'Lunamaria Hawke', 22, 2, 'ルナマリア・ホーク', 3, 2, 25, 18, 558, 291, 1142, 558, 558, 302, 126, 'With Technique attribute (self), Long Shot Attack raised 14%', 6, 2, 5, NULL, NULL, '2019-12-04'),
-(77, 'Carozzo Ronah', 13, 4, 'カロッゾ・ロナ', 4, 1, 10, 26, 799, 384, 384, 799, 799, 614, 614, 'With Power attribute (self), Debuff EX Skill Effect up 15%', 2, 3, 4, NULL, NULL, '2019-12-11'),
-(78, 'Chloe Croce', 5, 1, 'クロエ・クローチェ', 3, 3, 9, 23, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), Vernier Consumption reduced 15%', 4, 1, 4, NULL, NULL, '2019-12-11'),
-(79, 'Lila Milla Rira', 8, 13, 'ライラ・ミラ・ライラ', 3, 1, 16, 20, 292, 891, 891, 559, 559, 303, 303, 'With Power attribute (self), Projectile Speed boosted 14%', 5, 2, 6, NULL, NULL, '2019-12-18'),
-(80, 'Gaelio Bauduin', 28, 3, 'ガエリオ・ボードウィン', 4, 2, 11, 20, 796, 1602, 384, 796, 796, 417, 213, 'When Armor > 60%, All Power boosted 30%', 2, 1, 4, NULL, NULL, '2019-12-18'),
-(81, 'Neo Roanoke', 22, 4, 'ネオ・ロアノーク', 4, 3, 5, 20, 797, 1181, 1181, 797, 797, 418, 213, 'With Speed attribute (self), 14% chance to survive a fatal blow', 5, 2, 4, 'Akatsuki Ticket', NULL, '2019-12-25'),
-(82, 'Quattro Bajeena', 8, 12, 'クワトロ・バジーナ', 4, 3, 5, 3, 797, 1181, 1181, 797, 797, 213, 418, 'With Speed attribute (self), All DMG Output boosted 35 (flat)', 5, 3, 6, NULL, NULL, '2019-12-25'),
-(83, 'Kayra Su', 11, 1, 'ケーラ・スゥ', 3, 2, 7, 16, 889, 558, 291, 558, 889, 126, 428, 'With Technique attribute (self), Shot Guidance boosted 14%', 2, 1, 5, NULL, NULL, '2019-12-25'),
-(84, 'Gai Murakumo', 23, 2, '叢雲劾', 4, 3, 23, 13, 796, 384, 1602, 796, 796, 417, 213, 'With Speed attribute (self), EX Skill Recovery boosted 28%', 5, 1, 4, NULL, NULL, '2020-01-01'),
-(85, 'Aina Sahalin', 3, 2, 'アイナ・サハリン', 3, 2, 8, 18, 559, 292, 1144, 559, 559, 303, 303, 'With Technique attribute (self), Buff EX Skill Effect up 15%', 6, 2, 5, NULL, NULL, '2020-01-01'),
-(86, 'Jean-Luc Duval', 37, 1, 'ジャン・リュック・デュバル', 3, 3, 17, 9, 891, 558, 292, 891, 558, 430, 127, 'With Speed attribute (self),. Vernier Consumption reduced 15%', 2, 2, 4, NULL, NULL, '2020-01-08'),
-(87, 'Üso Ewin', 15, 1, 'ウッソ・エヴィン', 4, 2, 1, 23, 795, 795, 795, 795, 795, 609, 211, 'With Technique attribute (self), Buff EX Skill Time up 22%', 4, 2, 6, NULL, NULL, '2020-01-08'),
-(88, 'Domon Kasshu', 16, 6, 'ドモン・カッシュ', 4, 1, 14, 24, 796, 1753, 155, 977, 643, 417, 213, 'With Power attribute (self), All CRIT Rate boosted 14%', 3, 1, 4, NULL, NULL, '2020-01-15'),
-(89, 'Rey Za Burrel', 22, 3, 'レイ・ザ・バレル', 3, 3, 3, 7, 559, 294, 893, 893, 559, 303, 303, 'All ranged weapon magazine boosted 14%', 5, 3, 5, NULL, NULL, '2020-01-15'),
-(90, 'Anavel Gato', 7, 4, 'アナベル・ガトー', 4, 1, 3, 17, 1180, 1180, 383, 796, 796, 212, 610, 'With Power attribute (self), All DMG Output boosted 35 (flat)', 2, 1, 5, NULL, NULL, '2020-01-22'),
-(91, 'Quatre Raberba Winner', 17, 6, 'カトル・ラバーバ・ウィナー', 3, 3, 25, 21, 558, 291, 291, 889, 889, 126, 428, 'With Speed attribute (self), Enemy All Power reduced 13%', 7, 1, 6, NULL, NULL, '2020-01-22'),
-(92, 'Mr. Bushido', 25, 3, 'ミスター・ブシドー', 3, 1, 6, 9, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), EX Skill CD reduced 15%', 3, 2, 6, NULL, 'Event', '2020-01-29'),
-(93, 'Shiho Hahnenfuss', 46, 1, 'シホ・ハーネンフース', 3, 3, 8, 3, 558, 291, 1142, 558, 558, 302, 126, 'All ranged weapon magazine boosted 14%', 6, 2, 5, NULL, NULL, '2020-01-29'),
-(94, 'Rau Le Creuset', 21, 14, 'ラウ・ル・クルーゼ', 4, 2, 5, 3, 1181, 384, 1181, 796, 796, 611, 213, 'With Technique attribute (self), Buff EX Skill Time up 22%', 6, 2, 6, NULL, NULL, '2020-01-29'),
-(95, 'Setsuna F. Seiei', 25, 5, '刹那・F・セイエイ', 4, 3, 1, 13, 796, 1602, 384, 796, 796, 417, 213, 'While \"Gundam Type\", Buff EX Skill Effect up 22%', 3, 1, 6, NULL, NULL, '2020-02-05'),
-(96, 'Auel Neider', 22, 8, 'アウル・ニーダ', 3, 2, 4, 7, 889, 291, 889, 558, 558, 126, 428, 'With Technique attribute (self), Debuff EX Skill Effect up 15%', 2, 1, 4, NULL, NULL, '2020-02-05'),
-(97, 'Louise Halevy', 25, 7, 'ルイス・ハレヴィ', 3, 1, 15, 20, 1144, 292, 292, 558, 558, 430, 127, 'With Power attribute (self), Enemy All power reduced 13%', 2, 2, 4, NULL, NULL, '2020-02-12'),
-(98, 'Lalah Sune', 1, 11, 'ララァ・スン', 4, 2, 8, 3, 799, 384, 1184, 1184, 799, 614, 213, 'With Technique attribute (self), Debuff EX Skill Effect up 22%', 7, 3, 4, NULL, NULL, '2020-02-12'),
-(99, 'Stella Loussier', 22, 6, 'ステラ・ルーシェ', 3, 3, 12, 6, 558, 891, 891, 558, 558, 127, 302, 'With Speed attribute (self), Job Gauge Increase boosted 13%', 4, 2, 6, NULL, NULL, '2020-02-19'),
-(100, 'Lockon Stratos', 25, 6, 'ロックオン・ストラトス', 4, 2, 10, 8, 799, 384, 1606, 799, 799, 420, 420, 'With Technique attribute (self), Long Shot Attack raised 20%', 6, 3, 6, NULL, NULL, '2020-02-19'),
-(101, 'Nena Trinity', 25, 10, 'ネーナ・トリニティ', 3, 3, 15, 13, 891, 558, 292, 891, 558, 127, 430, 'With Speed attribute (self), EX Skill Recovery boosted 16%', 7, 2, 4, NULL, 'Event', '2020-02-26'),
-(102, 'Sarah Zabiarov', 8, 15, 'サラ・ザビアロフ', 3, 3, 7, 15, 558, 291, 291, 889, 889, 428, 126, 'With Speed attribute (self), Debuff EX Skill Effect up 15%', 7, 2, 4, NULL, NULL, '2020-02-26'),
-(103, 'Full Frontal', 12, 3, 'フル・フロンタル', 4, 1, 5, 17, 384, 1182, 1182, 799, 799, 420, 420, 'While \"Zeon\", Initial EX Skill Charge boosted 20%', 4, 2, 6, NULL, NULL, '2020-02-26'),
-(104, 'Soma Peries', 25, 4, 'ソーマ・ピーリス', 3, 1, 7, 20, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Enemy Shooting power reduced 25%', 5, 2, 4, NULL, 'Arena', '2020-03-02'),
-(105, 'Lacus Clyne', 21, 16, 'ラクス・クライン', 4, 2, 5, 20, 795, 795, 795, 795, 795, 211, 609, 'With Technique attribute (self), EX Skill recovery boosted 140', 7, 3, 6, NULL, NULL, '2020-03-04'),
-(106, 'Heine Westenfluss', 22, 5, 'ハイネ・ヴェステンフルス', 3, 3, 6, 5, 561, 893, 294, 561, 893, 215, 215, 'With Speed attribute (self), Debuff EX Skill effect up 15%', 2, 1, 5, NULL, NULL, '2020-03-04'),
-(107, 'Milliardo Peacecraft', 17, 10, 'ミリアルド・ピースクラフト', 4, 2, 6, 9, 796, 1602, 384, 796, 796, 213, 417, 'With Technique attribute (self), Vernier consumption reduced 20%', 4, 1, 5, NULL, NULL, '2020-03-11'),
-(108, 'Mashymre Cello', 10, 5, 'マシュマー・セロ', 3, 1, 17, 20, 889, 889, 291, 558, 558, 302, 302, 'With Power attribute (self), Debuff EX Skill time up 16%', 2, 1, 6, NULL, NULL, '2020-03-11'),
-(109, 'Tobia Arronax', 14, 1, 'トビア・アロナクス', 4, 3, 1, 6, 796, 1602, 384, 796, 796, 417, 213, 'With Speed attribute (self), Buff EX Skill effect up 22%', 3, 1, 4, NULL, NULL, '2020-03-18'),
-(110, 'Andrew Waltfeld', 21, 15, 'アンドリュー・バルトフェルド', 3, 1, 21, 3, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Enemy EX Skill penetration reduced 22%', 5, 2, 5, NULL, NULL, '2020-03-18'),
-(111, 'Ribbons Almark', 25, 9, 'リボンズ・アルマーク', 4, 1, 13, 20, 797, 1181, 1181, 797, 797, 418, 213, 'All ranged weapon reload speed boosted 18%', 6, 3, 6, NULL, NULL, '2020-03-25'),
-(112, 'Quess Paraya', 11, 2, 'クェス・パラヤ', 3, 2, 10, 20, 558, 291, 291, 889, 889, 428, 126, 'With Technique attribute (self), 14% change to survive a fatal blow', 6, 3, 6, NULL, NULL, '2020-03-25'),
-(113, 'Tieria Erde', 25, 8, 'ティエリア・アーデ', 3, 1, 13, 10, 559, 292, 1144, 559, 559, 303, 303, 'All ranged weapon magazine boosted 14%', 6, 3, 6, NULL, 'Event', '2020-03-25'),
-(114, 'Heero Yuy', 17, 1, 'ヒイロ・ユイ', 4, 3, 10, 12, 796, 384, 1602, 796, 796, 417, 213, 'With Speed attribute (self), All DMG output boosted by 35', 6, 3, 5, NULL, NULL, '2020-04-01'),
-(115, 'Angelo Sauper', 12, 2, 'アンジェロ・ザウパー', 3, 2, 17, 20, 558, 558, 558, 558, 558, 302, 302, '12% chance of attacks penetrating super armor', 4, 1, 4, NULL, NULL, '2020-04-01'),
-(116, 'Loran Cehack', 20, 4, 'ロラン・セアック', 4, 2, 1, 10, 797, 1181, 1181, 797, 797, 418, 213, 'With Technique attribute (self), Enemy All Power reduced 18%', 4, 1, 6, NULL, NULL, '2020-04-08'),
-(117, 'Jamil Neate', 19, 2, 'ジャミル・ニート', 3, 1, 5, 13, 558, 558, 558, 558, 558, 126, 428, 'With Power attribute (self), Enemy Shooting Power reduced 25%', 2, 2, 5, NULL, NULL, '2020-04-08'),
-(118, 'Master Asia', 16, 7, 'マスター・アジア', 4, 1, 14, 6, 799, 1756, 156, 799, 799, 290, 290, 'While \"Mobile Fighter\", All DMG output boosted by 35', 3, 1, 5, NULL, NULL, '2020-04-15'),
-(119, 'Chara Soon', 10, 6, 'キャラ・スーン', 3, 3, 17, 9, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), EX Skill piercing boosted 22%', 4, 2, 6, NULL, NULL, '2020-04-15'),
-(120, 'Yuu Kajima', 4, 1, 'ユウ・カジマ', 4, 1, 19, 6, 795, 795, 795, 795, 795, 609, 211, 'When Armor is 80% or less, Buff EX Skill effect up 22%', 4, 2, 5, NULL, NULL, '2020-05-13'),
-(121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 5, NULL, NULL, '2020-05-13');
+INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarity`, `attribute_id`, `word_tag_1_id`, `word_tag_2_id`, `armor`, `melee_attack`, `shot_attack`, `melee_defense`, `shot_defense`, `beam_resistance`, `physical_resistance`, `trait`, `job_license_id`, `ai_range_id`, `ai_priority_id`, `obtained_capsule`, `obtained_exchange`, `release_date`) VALUES
+(1, 'Amuro Ray (Pre-Registration Reward)', 1, 3, 'アムロ・レイ【事前登録報酬】', 2, 1, 13, 16, 363, 363, 363, 363, 363, 80, 280, 'With Power attribute (self), EX Skill CD reduced 11%', 4, 2, 3, NULL, NULL, '2019-07-31'),
+(2, 'Gaia', 1, 16, 'ガイア', 2, 1, 8, 23, 364, 187, 187, 570, 570, 201, 201, 'With Power attribute (self), EX Skill Recovery boosted 85', 2, 1, 3, NULL, NULL, '2019-07-31'),
+(3, 'Juri Wu Nien', 21, 12, 'ジュリ・ウー・ニェン', 2, 1, 2, 25, 364, 187, 187, 570, 570, 201, 201, 'With Power attribute (self), EX Skill CD reduced 11%', 5, 2, 2, NULL, NULL, '2019-07-31'),
+(4, 'Kai Shiden', 1, 5, 'カイ・シデン', 2, 1, 7, 16, 755, 187, 187, 364, 364, 81, 281, 'With Power attribute (self), EX Skill Recovery boosted 18%', 6, 2, 3, NULL, NULL, '2019-07-31'),
+(5, 'Poe Aijee', 20, 3, 'ポゥ・エイジ', 2, 1, 8, 15, 755, 187, 187, 364, 364, 281, 81, 'With Power attribute (self), Shot guidance boosted 14%', 6, 3, 3, NULL, NULL, '2019-07-31'),
+(6, 'Reccoa Londe', 8, 4, 'レコア・ロンド', 2, 1, 10, 20, 570, 187, 570, 364, 364, 201, 201, 'With Power attribute (self), Debuff EX Skill Effect up 12%', 6, 3, 1, NULL, NULL, '2019-07-31'),
+(7, 'Sigh Argyle', 21, 4, 'サイ・アーガイル', 2, 1, 8, 13, 570, 364, 187, 570, 364, 281, 81, 'With Power attribute (self), Projectile Speed boosted 12%', 7, 2, 2, NULL, NULL, '2019-07-31'),
+(8, 'Sleggar Law', 1, 8, 'スレッガー・ロウ', 2, 1, 15, 16, 364, 187, 754, 364, 364, 201, 81, 'With Power attribute (self), EX Skill Piercing boosted 15%', 3, 3, 2, NULL, NULL, '2019-07-31'),
+(9, 'Sochie Heim', 20, 1, 'ソシエ・ハイム', 2, 1, 4, 15, 363, 186, 186, 569, 569, 80, 280, 'With Power attribute (self), 10% chance to survive a fatal blow', 7, 1, 2, NULL, NULL, '2019-07-31'),
+(10, 'Dozle Zabi', 1, 13, 'ドズル・ザビ', 3, 1, 10, 18, 558, 891, 891, 558, 558, 127, 302, 'With Power attribute (self), EX Skill Piercing boosted 22%', 2, 1, 2, NULL, NULL, '2019-07-31'),
+(11, 'Ginias Sahalin', 3, 3, 'ギニアス・サハリン', 3, 1, 8, 17, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Vernier Recovery Rate boosted 16%', 2, 3, 1, NULL, NULL, '2019-07-31'),
+(12, 'Christina Mackenzie', 6, 1, 'クリスチーナ・マッケンジー', 4, 1, 6, 24, 795, 382, 382, 1179, 1179, 609, 211, 'With Power attribute (self), EX Skill Piercing boosted 28%', 5, 1, 2, NULL, NULL, '2019-07-31'),
+(13, 'Asagi Caldwell', 21, 10, 'アサギ・コードウェル', 2, 3, 2, 20, 364, 187, 757, 364, 364, 201, 201, 'With Speed attribute (self), Shot Spread reduced 12%', 7, 2, 1, NULL, NULL, '2019-07-31'),
+(14, 'Eledore Massis', 3, 1, 'エレドア・マシス', 2, 3, 8, 15, 755, 187, 187, 364, 364, 81, 281, 'With Speed attribute (self), Initial EX Skill Charge boosted 11%', 7, 3, 1, NULL, NULL, '2019-07-31'),
+(15, 'Mayura Labatt', 21, 11, 'マユラ・ラバッツ', 2, 3, 2, 24, 364, 364, 364, 364, 364, 201, 201, 'With Speed attribute (self), Buff EX Skill Effect up 12%', 4, 2, 3, NULL, NULL, '2019-07-31'),
+(16, 'Ortega', 1, 18, 'オルテガ', 2, 3, 23, 17, 365, 187, 571, 571, 365, 81, 282, 'With Speed attribute (self), Job Gauge Charge Rate up 11%', 5, 3, 2, NULL, NULL, '2019-07-31'),
+(17, 'Garma Zabi', 1, 12, 'ガルマ・ザビ', 3, 3, 5, 23, 559, 294, 294, 559, 559, 432, 432, 'With Speed attribute (self), Buff EX Skill Time up 15%', 5, 2, 1, NULL, NULL, '2019-07-31'),
+(18, 'Jerid Messa', 8, 3, 'ジェリド・メサ', 3, 3, 12, 7, 558, 891, 891, 558, 558, 127, 302, 'With Speed attribute (self), Vernier Recovery Rate boosted 16%', 4, 2, 1, NULL, NULL, '2019-07-31'),
+(19, 'Selene McGriff', 24, 1, 'セレーネ・マクグリフ', 3, 3, 1, 15, 558, 291, 1142, 558, 558, 302, 126, 'With Speed attribute (self), Enemy EX Skill Penetration reduced 22%', 7, 3, 1, NULL, NULL, '2019-07-31'),
+(20, 'Lowe Guele', 23, 1, 'ロウ・ギュール', 4, 3, 1, 10, 1180, 1180, 383, 796, 796, 212, 610, 'With Speed attribute (self), All CRIT Rate boosted 14%', 3, 1, 2, NULL, NULL, '2019-07-31'),
+(21, 'Haro', 1, 1, 'ハロ', 1, 2, 12, 26, 287, 138, 138, 287, 287, 194, 194, 'EX Skill Recovery boosted 110', 1, 2, 3, NULL, NULL, '2019-07-31'),
+(22, 'Akahana', 1, 19, 'アカハナ', 2, 2, 4, 17, 755, 187, 187, 364, 364, 281, 81, 'With Technique attribute (self), EX Skill Recovery boosted 18%', 7, 1, 1, NULL, NULL, '2019-07-31'),
+(23, 'Apolly Bay', 8, 1, 'アポリー・ベイ', 2, 2, 9, 15, 363, 363, 363, 363, 363, 280, 80, 'With Technique attribute (self), Strong Melee DMG Output Boosted 15%', 4, 2, 3, NULL, NULL, '2019-07-31'),
+(24, 'Hayato Kobayashi', 1, 6, 'ハヤト・コバヤシ', 2, 2, 8, 16, 570, 364, 187, 364, 570, 201, 201, '10% chance to prevent vernier consumption when stepping', 6, 3, 1, NULL, NULL, '2019-07-31'),
+(25, 'Heero Yuy (Pre-Registration Reward)', 17, 2, 'ヒイロ・ユイ【事前登録報酬】', 2, 2, 12, 13, 570, 187, 570, 364, 364, 281, 81, '10% chance to prevent vernier consumption when stepping', 2, 3, 2, NULL, NULL, '2019-07-31'),
+(26, 'Mash', 1, 17, 'マッシュ', 2, 2, 11, 23, 570, 364, 187, 364, 570, 281, 81, 'EX Skill Piercing boosted 16%', 4, 2, 2, NULL, NULL, '2019-07-31'),
+(27, 'Roberto', 8, 2, 'ロベルト', 2, 2, 9, 20, 363, 363, 363, 363, 363, 80, 280, 'With Technique attribute (self), Debuff EX Skill Effect up 12%', 3, 2, 1, NULL, NULL, '2019-07-31'),
+(28, 'Ryu Jose', 1, 7, 'リュウ・ホセイ', 2, 2, 8, 16, 570, 187, 570, 364, 364, 201, 201, 'With Technique attribute (self), Buff EX Skill Time up 15%', 2, 3, 2, NULL, NULL, '2019-07-31'),
+(29, 'Sergei Smirnov', 25, 2, 'セルゲイ・スミルノフ', 2, 2, 3, 5, 757, 187, 187, 364, 364, 281, 281, 'With Technique attribute (self), 11% chance to not recoil', 4, 2, 1, NULL, NULL, '2019-07-31'),
+(30, 'M\'Quve', 1, 15, 'マ・クベ', 3, 2, 6, 21, 558, 291, 291, 889, 889, 428, 126, 'With Technique attribute (self), Debuff EX Skill Effect up 15%', 3, 1, 1, NULL, NULL, '2019-07-31'),
+(31, 'Mu La Flaga', 21, 3, 'ムウ・ラ・フラガ', 3, 2, 15, 20, 558, 558, 558, 558, 558, 428, 126, 'With Technique attribute (self), EX Skill Piercing boosted 22%', 6, 3, 2, NULL, NULL, '2019-07-31'),
+(32, 'Ramba Ral', 1, 14, 'ランバ・ラル', 3, 2, 6, 21, 558, 1142, 291, 558, 558, 126, 302, 'All-Rounder Job, Vernier Recovery Rate boosted 16%', 2, 1, 1, NULL, NULL, '2019-07-31'),
+(33, 'Treize Khushrenada', 17, 9, 'トレーズ・クシュリナーダ', 3, 2, 5, 20, 558, 558, 558, 558, 558, 302, 302, 'With Technique attribute (self), 14% chance to survive a fatal blow', 3, 1, 1, NULL, NULL, '2019-07-31'),
+(34, 'Amuro Ray', 1, 2, 'アムロ・レイ', 4, 2, 13, 16, 796, 384, 1602, 796, 796, 213, 417, 'Beam Ranged Reload up 20%', 6, 2, 3, NULL, NULL, '2019-07-31'),
+(35, 'Sai Saici', 16, 1, 'サイ・サイシー', 4, 2, 14, 9, 796, 1602, 384, 796, 796, 417, 213, 'EX Skill CD reduced 20%', 4, 1, 2, NULL, NULL, '2019-07-31'),
+(36, 'Yzak Joule', 21, 7, 'イザーク・ジュール', 3, 1, 11, 10, 1145, 292, 292, 559, 559, 430, 430, 'With Power attribute (self), Buff EX Skill Effect up 15%', 5, 1, 3, NULL, NULL, '2019-08-07'),
+(37, 'Harry Ord', 20, 2, 'ハリー・オード', 3, 3, 3, 6, 558, 1142, 291, 558, 558, 302, 126, 'Beam ranged weapon magazine boosted 20%', 2, 2, 1, NULL, 'Arena', '2019-08-07'),
+(38, 'Char Aznable', 1, 9, 'シャア・アズナブル', 4, 3, 3, 5, 795, 795, 795, 795, 795, 609, 211, 'With Speed attribute (self), All DMG taken reduced 20', 4, 2, 1, NULL, NULL, '2019-08-07'),
+(39, 'Kou Uraki', 7, 1, 'コウ・ウラキ', 4, 1, 1, 16, 1606, 384, 384, 799, 799, 612, 612, '14% chance to survive fatal blow', 2, 2, 1, NULL, NULL, '2019-08-14'),
+(40, 'Cecily Fairchild', 13, 3, 'セシリー・フェアチャイルド', 3, 3, 3, 24, 889, 291, 889, 558, 558, 126, 428, 'With Speed attribute (self), All DMG taken reduced 20', 7, 2, 2, NULL, NULL, '2019-08-14'),
+(41, 'Dearka Elsman', 21, 8, 'ディアッカ・エルスマン', 3, 1, 8, 15, 558, 291, 1142, 558, 558, 302, 126, 'With Power attribute (self), Shot Guidance boosted 14%', 6, 3, 3, NULL, NULL, '2019-08-21'),
+(42, 'Seabook Arno', 13, 1, 'シーブック・アノー', 4, 2, 1, 24, 796, 384, 1602, 796, 796, 417, 213, 'With Technique attribute (self), Enemy All Power reduced 18%', 5, 2, 1, NULL, NULL, '2019-08-21'),
+(43, 'Nicol Amalfi', 21, 9, 'ニコル・アマルフィ', 3, 3, 9, 15, 889, 889, 291, 558, 558, 126, 428, 'With Speed attribute (self), EX Skill Piercing boosted 22%', 7, 1, 1, NULL, NULL, '2019-08-28'),
+(44, 'Bernard Wiseman', 6, 2, 'バーナード・ワイズマン', 4, 2, 9, 18, 795, 795, 795, 795, 795, 211, 609, 'When Armor < 60%, Recover 10 Armor gradually', 3, 1, 3, NULL, NULL, '2019-08-28'),
+(45, 'Flit Asuno', 26, 1, 'フリット・アスノ', 3, 1, 7, 6, 558, 558, 558, 558, 558, 302, 302, 'With Power attribute (self), Buff EX Skill time up 15%', 3, 2, 1, NULL, NULL, '2019-09-04'),
+(46, 'Kira Yamato', 21, 1, 'キラ・ヤマト', 4, 3, 1, 25, 799, 384, 1184, 1184, 799, 614, 213, 'With Speed attribute (self), EX Skill Recovery boosted 140', 5, 3, 2, NULL, NULL, '2019-09-04'),
+(47, 'Mikazuki Augus', 28, 1, '三日月・オーガス', 4, 1, 1, 21, 384, 1182, 1182, 799, 799, 420, 420, 'With Power attribute (self), Initial EX Skill Charge boosted 20%', 2, 1, 2, NULL, NULL, '2019-09-11'),
+(48, 'Cima Garahau', 7, 3, 'シーマ・ガラハウ', 3, 3, 3, 17, 891, 292, 891, 558, 558, 302, 302, 'With Speed attribute (self), Debuff EX Skill Effect up 15%', 2, 2, 3, NULL, NULL, '2019-09-11'),
+(49, 'Patrick Colasour', 25, 1, 'パトリック・コーラサワー', 3, 1, 2, 24, 1144, 292, 292, 558, 558, 127, 430, 'With Power attribute (self), Buff EX Skill Effect up 15%', 5, 2, 1, NULL, NULL, '2019-09-17'),
+(50, 'George de Sand', 16, 4, 'ジョルジュ・ド・サンド', 4, 2, 14, 8, 795, 382, 382, 1179, 1179, 609, 211, 'With Technique attribute (self), EX Skill CD reduced 20%', 4, 3, 1, NULL, NULL, '2019-09-17'),
+(51, 'Sayla Mass', 1, 4, 'セイラ・マス', 3, 3, 15, 26, 1144, 292, 292, 558, 558, 430, 127, 'With Speed attribute (self), Vernier Consumption reduced 15%', 7, 2, 3, NULL, NULL, '2019-09-25'),
+(52, 'Duo Maxwell', 17, 3, 'デュオ・マックスウェル', 4, 3, 6, 23, 796, 1602, 384, 796, 796, 213, 417, 'With Speed attribute (self), 20% chance to not recoil', 3, 1, 2, NULL, NULL, '2019-09-25'),
+(53, 'Cagalli Yula Athha', 21, 13, 'カガリ・ユラ・アスハ', 3, 3, 25, 7, 559, 294, 893, 893, 559, 432, 129, 'With Speed attribute (self), Projectile Speed boosted 14%', 5, 2, 3, NULL, 'Arena', '2019-10-01'),
+(54, 'Sven Cal Bayang', 24, 2, 'スウェン・カル・バヤン', 3, 3, 9, 20, 889, 889, 291, 558, 558, 302, 302, 'With Speed attribute (self), Initial EX Skill Charge boosted 12%', 4, 2, 3, NULL, 'Arena', '2019-10-01'),
+(55, 'Kamille Bidan', 8, 5, 'カミーユ・ビダン', 4, 3, 1, 6, 796, 796, 796, 796, 796, 417, 417, 'With Speed attribute (self), EX Skill Piercing boosted 28%', 5, 2, 2, NULL, NULL, '2019-10-02'),
+(56, 'Elle Vianno', 10, 3, 'エル・ビアンノ', 3, 2, 24, 15, 561, 893, 294, 561, 893, 215, 215, 'With Technique attribute (self), EX Skill Recovery boosted 16%', 4, 2, 3, NULL, NULL, '2019-10-02'),
+(57, 'Yazan Gable', 8, 8, 'ヤザン・ゲーブル', 3, 1, 16, 12, 891, 558, 292, 891, 558, 430, 127, 'With Power attribute (self), 20% chance to not recoil', 3, 1, 2, NULL, NULL, '2019-10-09'),
+(58, 'Haman Karn', 8, 11, 'ハマーン・カーン', 4, 1, 5, 17, 796, 384, 1602, 796, 796, 417, 213, 'With Power attribute (self), Job Gauge Increase boosted 17%', 6, 2, 2, NULL, NULL, '2019-10-09'),
+(59, 'Emma Sheen', 8, 7, 'エマ・シーン', 3, 1, 7, 13, 559, 294, 893, 893, 559, 129, 432, 'With Power attribute (self), Debuff EX Skill Effect up 15%', 5, 2, 1, NULL, NULL, '2019-10-16'),
+(60, 'Chang Wufei', 17, 4, '張五飛', 4, 2, 6, 3, 1181, 1181, 384, 796, 796, 417, 417, 'With Technique attribute (self), Strong Melee DMG Output boosted 35 (flat)', 3, 1, 2, NULL, NULL, '2019-10-16'),
+(61, 'Marida Cruz', 12, 1, 'マリーダ・クルス', 3, 1, 17, 26, 561, 893, 294, 561, 893, 215, 215, 'With Power attribute (self), Long Shot Attack raised 14%', 6, 2, 1, NULL, NULL, '2019-10-23'),
+(62, 'Athrun Zala', 21, 5, 'アスラン・ザラ', 4, 3, 12, 7, 799, 1182, 384, 799, 1182, 612, 213, '20% chance to prevent vernier consumption when stepping', 3, 1, 2, NULL, NULL, '2019-10-23'),
+(63, 'Shinn Asuka', 22, 1, 'シン・アスカ', 4, 1, 9, 1, 797, 1181, 1181, 797, 797, 418, 213, 'Initial EX Skill Charge boosted 15%', 4, 1, 1, NULL, NULL, '2019-10-30'),
+(64, 'Elpeo Ple', 10, 1, 'エルピー・プル', 3, 2, 20, 8, 559, 294, 893, 893, 559, 432, 129, 'With Technique attribute (self), Vernier Recovery Rate boosted 16%', 6, 2, 1, NULL, NULL, '2019-10-30'),
+(65, 'Trowa Barton', 17, 5, 'トロワ・バートン', 3, 2, 25, 10, 891, 292, 891, 558, 558, 302, 302, 'All ranged weapon magazine boosted 14%', 5, 3, 2, NULL, 'Event', '2019-10-30'),
+(66, 'Shiro Amada', 3, 4, 'シロー・アマダ', 4, 1, 23, 21, 1180, 1180, 383, 796, 796, 610, 212, 'With Power attribute (self), Enemy Shooting Power reduced 30%', 4, 2, 3, NULL, NULL, '2019-11-06'),
+(67, 'Rosamia Badam', 8, 9, 'ロザミア・バダム', 3, 2, 20, 12, 889, 558, 291, 558, 889, 428, 126, 'With Technique attribute (self), Enemy EX Skill Penetration reduced 22%', 7, 3, 1, NULL, NULL, '2019-11-06'),
+(68, 'Zechs Marquise', 17, 7, 'ゼクス・マーキス', 4, 3, 9, 5, 795, 795, 795, 795, 795, 211, 609, 'With Speed attribute (self), Vernier Recovery Rate boosted 20%', 3, 1, 2, NULL, NULL, '2019-11-13'),
+(69, 'Lucrezia Noin', 17, 8, 'ルクレツィア・ノイン', 3, 2, 12, 2, 559, 294, 893, 893, 559, 303, 303, 'With Technique attribute (self), Debuff EX Skill Time up 22%', 2, 2, 3, NULL, NULL, '2019-11-13'),
+(70, 'Roux Louka', 10, 2, 'ルー・ルカ', 3, 1, 12, 7, 559, 292, 1144, 559, 559, 303, 303, 'With Power attribute (self), Job Gauge Increase boosted 13%', 5, 2, 3, NULL, NULL, '2019-11-20'),
+(71, 'Paptimus Scirocco', 8, 10, 'パプテマス・シロッコ', 4, 2, 12, 5, 1180, 1180, 383, 796, 796, 212, 610, 'With Technique attribute (self), Shot Guidance boosted 14%', 4, 2, 2, NULL, NULL, '2019-11-20'),
+(72, 'Garrod Ran', 19, 1, 'ガロード・ラン', 4, 3, 1, 6, 797, 1181, 1181, 797, 797, 213, 418, 'When Armor < 80%, All Power boosted 30%', 4, 2, 3, NULL, NULL, '2019-11-27'),
+(73, 'Fa Yuiry', 8, 14, 'ファ・ユイリィ', 3, 2, 12, 15, 891, 292, 891, 558, 558, 302, 302, 'Support Job, EX Skill Recovery boosted 16%', 7, 3, 1, NULL, NULL, '2019-11-27'),
+(74, 'Johnny Ridden', 2, 1, 'ジョニー・ライデン', 3, 2, 17, 20, 558, 1142, 291, 558, 558, 126, 302, 'With Technique attribute (self), Buff EX Skill Effect up 15%', 3, 2, 2, NULL, 'Arena', '2019-12-01'),
+(75, 'Judau Ashta', 10, 4, 'ジュドー・アーシタ', 4, 1, 1, 12, 796, 384, 1602, 796, 796, 417, 213, 'With Power attribute (self), Buff EX Skill Time up 22%', 5, 1, 3, NULL, NULL, '2019-12-04'),
+(76, 'Lunamaria Hawke', 22, 2, 'ルナマリア・ホーク', 3, 2, 25, 18, 558, 291, 1142, 558, 558, 302, 126, 'With Technique attribute (self), Long Shot Attack raised 14%', 6, 2, 1, NULL, NULL, '2019-12-04'),
+(77, 'Carozzo Ronah', 13, 4, 'カロッゾ・ロナ', 4, 1, 10, 26, 799, 384, 384, 799, 799, 614, 614, 'With Power attribute (self), Debuff EX Skill Effect up 15%', 2, 3, 2, NULL, NULL, '2019-12-11'),
+(78, 'Chloe Croce', 5, 1, 'クロエ・クローチェ', 3, 3, 9, 23, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), Vernier Consumption reduced 15%', 4, 1, 2, NULL, NULL, '2019-12-11'),
+(79, 'Lila Milla Rira', 8, 13, 'ライラ・ミラ・ライラ', 3, 1, 16, 20, 292, 891, 891, 559, 559, 303, 303, 'With Power attribute (self), Projectile Speed boosted 14%', 5, 2, 3, NULL, NULL, '2019-12-18'),
+(80, 'Gaelio Bauduin', 28, 3, 'ガエリオ・ボードウィン', 4, 2, 11, 20, 796, 1602, 384, 796, 796, 417, 213, 'When Armor > 60%, All Power boosted 30%', 2, 1, 2, NULL, NULL, '2019-12-18'),
+(81, 'Neo Roanoke', 22, 4, 'ネオ・ロアノーク', 4, 3, 5, 20, 797, 1181, 1181, 797, 797, 418, 213, 'With Speed attribute (self), 14% chance to survive a fatal blow', 5, 2, 2, 'Akatsuki Ticket', NULL, '2019-12-25'),
+(82, 'Quattro Bajeena', 8, 12, 'クワトロ・バジーナ', 4, 3, 5, 3, 797, 1181, 1181, 797, 797, 213, 418, 'With Speed attribute (self), All DMG Output boosted 35 (flat)', 5, 3, 3, NULL, NULL, '2019-12-25'),
+(83, 'Kayra Su', 11, 1, 'ケーラ・スゥ', 3, 2, 7, 16, 889, 558, 291, 558, 889, 126, 428, 'With Technique attribute (self), Shot Guidance boosted 14%', 2, 1, 1, NULL, NULL, '2019-12-25'),
+(84, 'Gai Murakumo', 23, 2, '叢雲劾', 4, 3, 23, 13, 796, 384, 1602, 796, 796, 417, 213, 'With Speed attribute (self), EX Skill Recovery boosted 28%', 5, 1, 2, NULL, NULL, '2020-01-01'),
+(85, 'Aina Sahalin', 3, 2, 'アイナ・サハリン', 3, 2, 8, 18, 559, 292, 1144, 559, 559, 303, 303, 'With Technique attribute (self), Buff EX Skill Effect up 15%', 6, 2, 1, NULL, NULL, '2020-01-01'),
+(86, 'Jean-Luc Duval', 37, 1, 'ジャン・リュック・デュバル', 3, 3, 17, 9, 891, 558, 292, 891, 558, 430, 127, 'With Speed attribute (self),. Vernier Consumption reduced 15%', 2, 2, 2, NULL, NULL, '2020-01-08'),
+(87, 'Üso Ewin', 15, 1, 'ウッソ・エヴィン', 4, 2, 1, 23, 795, 795, 795, 795, 795, 609, 211, 'With Technique attribute (self), Buff EX Skill Time up 22%', 4, 2, 3, NULL, NULL, '2020-01-08'),
+(88, 'Domon Kasshu', 16, 6, 'ドモン・カッシュ', 4, 1, 14, 24, 796, 1753, 155, 977, 643, 417, 213, 'With Power attribute (self), All CRIT Rate boosted 14%', 3, 1, 2, NULL, NULL, '2020-01-15'),
+(89, 'Rey Za Burrel', 22, 3, 'レイ・ザ・バレル', 3, 3, 3, 7, 559, 294, 893, 893, 559, 303, 303, 'All ranged weapon magazine boosted 14%', 5, 3, 1, NULL, NULL, '2020-01-15'),
+(90, 'Anavel Gato', 7, 4, 'アナベル・ガトー', 4, 1, 3, 17, 1180, 1180, 383, 796, 796, 212, 610, 'With Power attribute (self), All DMG Output boosted 35 (flat)', 2, 1, 1, NULL, NULL, '2020-01-22'),
+(91, 'Quatre Raberba Winner', 17, 6, 'カトル・ラバーバ・ウィナー', 3, 3, 25, 21, 558, 291, 291, 889, 889, 126, 428, 'With Speed attribute (self), Enemy All Power reduced 13%', 7, 1, 3, NULL, NULL, '2020-01-22'),
+(92, 'Mr. Bushido', 25, 3, 'ミスター・ブシドー', 3, 1, 6, 9, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), EX Skill CD reduced 15%', 3, 2, 3, NULL, 'Event', '2020-01-29'),
+(93, 'Shiho Hahnenfuss', 46, 1, 'シホ・ハーネンフース', 3, 3, 8, 3, 558, 291, 1142, 558, 558, 302, 126, 'All ranged weapon magazine boosted 14%', 6, 2, 1, NULL, NULL, '2020-01-29'),
+(94, 'Rau Le Creuset', 21, 14, 'ラウ・ル・クルーゼ', 4, 2, 5, 3, 1181, 384, 1181, 796, 796, 611, 213, 'With Technique attribute (self), Buff EX Skill Time up 22%', 6, 2, 3, NULL, NULL, '2020-01-29'),
+(95, 'Setsuna F. Seiei', 25, 5, '刹那・F・セイエイ', 4, 3, 1, 13, 796, 1602, 384, 796, 796, 417, 213, 'While \"Gundam Type\", Buff EX Skill Effect up 22%', 3, 1, 3, NULL, NULL, '2020-02-05'),
+(96, 'Auel Neider', 22, 8, 'アウル・ニーダ', 3, 2, 4, 7, 889, 291, 889, 558, 558, 126, 428, 'With Technique attribute (self), Debuff EX Skill Effect up 15%', 2, 1, 2, NULL, NULL, '2020-02-05'),
+(97, 'Louise Halevy', 25, 7, 'ルイス・ハレヴィ', 3, 1, 15, 20, 1144, 292, 292, 558, 558, 430, 127, 'With Power attribute (self), Enemy All power reduced 13%', 2, 2, 2, NULL, NULL, '2020-02-12'),
+(98, 'Lalah Sune', 1, 11, 'ララァ・スン', 4, 2, 8, 3, 799, 384, 1184, 1184, 799, 614, 213, 'With Technique attribute (self), Debuff EX Skill Effect up 22%', 7, 3, 2, NULL, NULL, '2020-02-12'),
+(99, 'Stella Loussier', 22, 6, 'ステラ・ルーシェ', 3, 3, 12, 6, 558, 891, 891, 558, 558, 127, 302, 'With Speed attribute (self), Job Gauge Increase boosted 13%', 4, 2, 3, NULL, NULL, '2020-02-19'),
+(100, 'Lockon Stratos', 25, 6, 'ロックオン・ストラトス', 4, 2, 10, 8, 799, 384, 1606, 799, 799, 420, 420, 'With Technique attribute (self), Long Shot Attack raised 20%', 6, 3, 3, NULL, NULL, '2020-02-19'),
+(101, 'Nena Trinity', 25, 10, 'ネーナ・トリニティ', 3, 3, 15, 13, 891, 558, 292, 891, 558, 127, 430, 'With Speed attribute (self), EX Skill Recovery boosted 16%', 7, 2, 2, NULL, 'Event', '2020-02-26'),
+(102, 'Sarah Zabiarov', 8, 15, 'サラ・ザビアロフ', 3, 3, 7, 15, 558, 291, 291, 889, 889, 428, 126, 'With Speed attribute (self), Debuff EX Skill Effect up 15%', 7, 2, 2, NULL, NULL, '2020-02-26'),
+(103, 'Full Frontal', 12, 3, 'フル・フロンタル', 4, 1, 5, 17, 384, 1182, 1182, 799, 799, 420, 420, 'While \"Zeon\", Initial EX Skill Charge boosted 20%', 4, 2, 3, NULL, NULL, '2020-02-26'),
+(104, 'Soma Peries', 25, 4, 'ソーマ・ピーリス', 3, 1, 7, 20, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Enemy Shooting power reduced 25%', 5, 2, 2, NULL, 'Arena', '2020-03-02'),
+(105, 'Lacus Clyne', 21, 16, 'ラクス・クライン', 4, 2, 5, 20, 795, 795, 795, 795, 795, 211, 609, 'With Technique attribute (self), EX Skill recovery boosted 140', 7, 3, 3, NULL, NULL, '2020-03-04'),
+(106, 'Heine Westenfluss', 22, 5, 'ハイネ・ヴェステンフルス', 3, 3, 6, 5, 561, 893, 294, 561, 893, 215, 215, 'With Speed attribute (self), Debuff EX Skill effect up 15%', 2, 1, 1, NULL, NULL, '2020-03-04'),
+(107, 'Milliardo Peacecraft', 17, 10, 'ミリアルド・ピースクラフト', 4, 2, 6, 9, 796, 1602, 384, 796, 796, 213, 417, 'With Technique attribute (self), Vernier consumption reduced 20%', 4, 1, 1, NULL, NULL, '2020-03-11'),
+(108, 'Mashymre Cello', 10, 5, 'マシュマー・セロ', 3, 1, 17, 20, 889, 889, 291, 558, 558, 302, 302, 'With Power attribute (self), Debuff EX Skill time up 16%', 2, 1, 3, NULL, NULL, '2020-03-11'),
+(109, 'Tobia Arronax', 14, 1, 'トビア・アロナクス', 4, 3, 1, 6, 796, 1602, 384, 796, 796, 417, 213, 'With Speed attribute (self), Buff EX Skill effect up 22%', 3, 1, 2, NULL, NULL, '2020-03-18'),
+(110, 'Andrew Waltfeld', 21, 15, 'アンドリュー・バルトフェルド', 3, 1, 21, 3, 558, 291, 291, 889, 889, 428, 126, 'With Power attribute (self), Enemy EX Skill penetration reduced 22%', 5, 2, 1, NULL, NULL, '2020-03-18'),
+(111, 'Ribbons Almark', 25, 9, 'リボンズ・アルマーク', 4, 1, 13, 20, 797, 1181, 1181, 797, 797, 418, 213, 'All ranged weapon reload speed boosted 18%', 6, 3, 3, NULL, NULL, '2020-03-25'),
+(112, 'Quess Paraya', 11, 2, 'クェス・パラヤ', 3, 2, 10, 20, 558, 291, 291, 889, 889, 428, 126, 'With Technique attribute (self), 14% change to survive a fatal blow', 6, 3, 3, NULL, NULL, '2020-03-25'),
+(113, 'Tieria Erde', 25, 8, 'ティエリア・アーデ', 3, 1, 13, 10, 559, 292, 1144, 559, 559, 303, 303, 'All ranged weapon magazine boosted 14%', 6, 3, 3, NULL, 'Event', '2020-03-25'),
+(114, 'Heero Yuy', 17, 1, 'ヒイロ・ユイ', 4, 3, 10, 12, 796, 384, 1602, 796, 796, 417, 213, 'With Speed attribute (self), All DMG output boosted by 35', 6, 3, 1, NULL, NULL, '2020-04-01'),
+(115, 'Angelo Sauper', 12, 2, 'アンジェロ・ザウパー', 3, 2, 17, 20, 558, 558, 558, 558, 558, 302, 302, '12% chance of attacks penetrating super armor', 4, 1, 2, NULL, NULL, '2020-04-01'),
+(116, 'Loran Cehack', 20, 4, 'ロラン・セアック', 4, 2, 1, 10, 797, 1181, 1181, 797, 797, 418, 213, 'With Technique attribute (self), Enemy All Power reduced 18%', 4, 1, 3, NULL, NULL, '2020-04-08'),
+(117, 'Jamil Neate', 19, 2, 'ジャミル・ニート', 3, 1, 5, 13, 558, 558, 558, 558, 558, 126, 428, 'With Power attribute (self), Enemy Shooting Power reduced 25%', 2, 2, 1, NULL, NULL, '2020-04-08'),
+(118, 'Master Asia', 16, 7, 'マスター・アジア', 4, 1, 14, 6, 799, 1756, 156, 799, 799, 290, 290, 'While \"Mobile Fighter\", All DMG output boosted by 35', 3, 1, 1, NULL, NULL, '2020-04-15'),
+(119, 'Chara Soon', 10, 6, 'キャラ・スーン', 3, 3, 17, 9, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), EX Skill piercing boosted 22%', 4, 2, 3, NULL, NULL, '2020-04-15'),
+(120, 'Yuu Kajima', 4, 1, 'ユウ・カジマ', 4, 1, 19, 6, 795, 795, 795, 795, 795, 609, 211, 'When Armor is 80% or less, Buff EX Skill effect up 22%', 4, 2, 1, NULL, NULL, '2020-05-13'),
+(121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 1, NULL, NULL, '2020-05-13');
 
 -- --------------------------------------------------------
 
@@ -2215,11 +2260,12 @@ INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarit
 --
 
 DROP TABLE IF EXISTS `series`;
-CREATE TABLE `series` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `series` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
-  `alternate` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `alternate` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=100 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `series`
@@ -2278,8 +2324,8 @@ INSERT INTO `series` (`id`, `title`, `alternate`) VALUES
 --
 
 DROP TABLE IF EXISTS `unit`;
-CREATE TABLE `unit` (
-  `id` int(11) NOT NULL,
+CREATE TABLE IF NOT EXISTS `unit` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `model` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `name` varchar(128) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `subname` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
@@ -2293,8 +2339,11 @@ CREATE TABLE `unit` (
   `obtained_exchange` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `obtained_banner` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `obtained_sokai` tinyint(1) NOT NULL,
-  `release_date` date DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+  `release_date` date DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK_UnitAttributeId` (`attribute_id`),
+  KEY `FK_UnitSeriesId` (`series_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=1000 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `unit`
@@ -2519,10 +2568,11 @@ INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `nam
 --
 
 DROP TABLE IF EXISTS `weapon_category`;
-CREATE TABLE `weapon_category` (
-  `id` int(11) NOT NULL,
-  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `weapon_category` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `weapon_category`
@@ -2549,10 +2599,11 @@ INSERT INTO `weapon_category` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `weapon_type`;
-CREATE TABLE `weapon_type` (
-  `id` int(11) NOT NULL,
-  `name` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `weapon_type` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(11) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `weapon_type`
@@ -2569,10 +2620,11 @@ INSERT INTO `weapon_type` (`id`, `name`) VALUES
 --
 
 DROP TABLE IF EXISTS `word_tag`;
-CREATE TABLE `word_tag` (
-  `id` int(11) NOT NULL,
-  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+CREATE TABLE IF NOT EXISTS `word_tag` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=27 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `word_tag`
@@ -2607,195 +2659,6 @@ INSERT INTO `word_tag` (`id`, `name`) VALUES
 (26, 'For Computers');
 
 --
--- Indexes for dumped tables
---
-
---
--- Indexes for table `ai_type`
---
-ALTER TABLE `ai_type`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `attribute`
---
-ALTER TABLE `attribute`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `event`
---
-ALTER TABLE `event`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `ex_category`
---
-ALTER TABLE `ex_category`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `ex_skill`
---
-ALTER TABLE `ex_skill`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `FK_ExSkillCategoryId` (`ex_category_id`);
-
---
--- Indexes for table `job_license`
---
-ALTER TABLE `job_license`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `part`
---
-ALTER TABLE `part`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `FK_PartAttributeId` (`attribute_id`),
-  ADD KEY `FK_PartExSkillId` (`ex_skill_id`),
-  ADD KEY `FK_PartPartAugmentTypeId` (`part_augment_type_id`),
-  ADD KEY `FK_PartPartTypeId` (`part_type_id`),
-  ADD KEY `FK_PartUnitId` (`unit_id`),
-  ADD KEY `FK_PartWeaponCategoryId` (`weapon_category_id`),
-  ADD KEY `FK_PartWeaponTypeId` (`weapon_type_id`),
-  ADD KEY `FK_PartWordTag1Id` (`word_tag_1_id`),
-  ADD KEY `FK_PartWordTag2Id` (`word_tag_2_id`);
-
---
--- Indexes for table `part_type`
---
-ALTER TABLE `part_type`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `pilot`
---
-ALTER TABLE `pilot`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `FK_PilotAiType1Id` (`ai_type_1_id`),
-  ADD KEY `FK_PilotAiType2Id` (`ai_type_2_id`),
-  ADD KEY `FK_PilotAttributeId` (`attribute_id`),
-  ADD KEY `FK_PilotJobLicenseId` (`job_license_id`),
-  ADD KEY `FK_PilotSeriesId` (`series_id`),
-  ADD KEY `FK_PilotWordTag1Id` (`word_tag_1_id`),
-  ADD KEY `FK_PilotWordTag2Id` (`word_tag_2_id`);
-
---
--- Indexes for table `series`
---
-ALTER TABLE `series`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `unit`
---
-ALTER TABLE `unit`
-  ADD PRIMARY KEY (`id`),
-  ADD KEY `FK_UnitAttributeId` (`attribute_id`),
-  ADD KEY `FK_UnitSeriesId` (`series_id`);
-
---
--- Indexes for table `weapon_category`
---
-ALTER TABLE `weapon_category`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `weapon_type`
---
-ALTER TABLE `weapon_type`
-  ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `word_tag`
---
-ALTER TABLE `word_tag`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `ai_type`
---
-ALTER TABLE `ai_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
-
---
--- AUTO_INCREMENT for table `attribute`
---
-ALTER TABLE `attribute`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
-
---
--- AUTO_INCREMENT for table `ex_category`
---
-ALTER TABLE `ex_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-
---
--- AUTO_INCREMENT for table `ex_skill`
---
-ALTER TABLE `ex_skill`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=444;
-
---
--- AUTO_INCREMENT for table `job_license`
---
-ALTER TABLE `job_license`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
-
---
--- AUTO_INCREMENT for table `part`
---
-ALTER TABLE `part`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1323;
-
---
--- AUTO_INCREMENT for table `part_type`
---
-ALTER TABLE `part_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
-
---
--- AUTO_INCREMENT for table `pilot`
---
-ALTER TABLE `pilot`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=122;
-
---
--- AUTO_INCREMENT for table `series`
---
-ALTER TABLE `series`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=100;
-
---
--- AUTO_INCREMENT for table `unit`
---
-ALTER TABLE `unit`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=210;
-
---
--- AUTO_INCREMENT for table `weapon_category`
---
-ALTER TABLE `weapon_category`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
-
---
--- AUTO_INCREMENT for table `weapon_type`
---
-ALTER TABLE `weapon_type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-
---
--- AUTO_INCREMENT for table `word_tag`
---
-ALTER TABLE `word_tag`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=27;
-
---
 -- Constraints for dumped tables
 --
 
@@ -2823,8 +2686,8 @@ ALTER TABLE `part`
 -- Constraints for table `pilot`
 --
 ALTER TABLE `pilot`
-  ADD CONSTRAINT `FK_PilotAiType1Id` FOREIGN KEY (`ai_type_1_id`) REFERENCES `ai_type` (`id`),
-  ADD CONSTRAINT `FK_PilotAiType2Id` FOREIGN KEY (`ai_type_2_id`) REFERENCES `ai_type` (`id`),
+  ADD CONSTRAINT `FK_PilotAiPriorityId` FOREIGN KEY (`ai_priority_id`) REFERENCES `ai_priority` (`id`),
+  ADD CONSTRAINT `FK_PilotAiRangeId` FOREIGN KEY (`ai_range_id`) REFERENCES `ai_range` (`id`),
   ADD CONSTRAINT `FK_PilotAttributeId` FOREIGN KEY (`attribute_id`) REFERENCES `attribute` (`id`),
   ADD CONSTRAINT `FK_PilotJobLicenseId` FOREIGN KEY (`job_license_id`) REFERENCES `job_license` (`id`),
   ADD CONSTRAINT `FK_PilotSeriesId` FOREIGN KEY (`series_id`) REFERENCES `series` (`id`),

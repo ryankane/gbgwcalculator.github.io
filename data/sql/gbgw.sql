@@ -11,19 +11,27 @@ SET time_zone = "+00:00";
 CREATE DATABASE IF NOT EXISTS `gbgw` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `gbgw`;
 
-DROP TABLE IF EXISTS `ai_type`;
-CREATE TABLE `ai_type` (
+DROP TABLE IF EXISTS `ai_range`;
+CREATE TABLE `ai_range` (
     `id` int(11) NOT NULL,
-    `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+    `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `ai_type` (`id`, `name`) VALUES
-(1, 'Short-Range'),
-(2, 'Mid-Range'),
-(3, 'Long-Range'),
-(4, 'Balanced'),
-(5, 'Solo'),
-(6, 'Support');
+INSERT INTO `ai_range` (`id`, `value`) VALUES
+(1, 'Short'),
+(2, 'Mid'),
+(3, 'Long');
+
+DROP TABLE IF EXISTS `ai_priority`;
+CREATE TABLE `ai_priority` (
+   `id` int(11) NOT NULL,
+   `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+INSERT INTO `ai_priority` (`id`, `value`) VALUES
+(1, 'Solo'),
+(2, 'Balanced'),
+(3, 'Support');
 
 DROP TABLE IF EXISTS `attribute`;
 CREATE TABLE `attribute` (
@@ -153,8 +161,8 @@ CREATE TABLE `pilot` (
     `physical_resistance` int(11) NOT NULL,
     `trait` varchar(512) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
     `job_license_id` int(11) NOT NULL,
-    `ai_type_1_id` int(11) NOT NULL,
-    `ai_type_2_id` int(11) NOT NULL,
+    `ai_range_id` int(11) NOT NULL,
+    `ai_priority_id` int(11) NOT NULL,
     `obtained_capsule` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
     `obtained_exchange` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
     `release_date` date NOT NULL
@@ -252,7 +260,10 @@ INSERT INTO `word_tag` (`id`, `name`) VALUES
 
 -- Indexes
 
-ALTER TABLE `ai_type`
+ALTER TABLE `ai_range`
+    ADD PRIMARY KEY (`id`);
+
+ALTER TABLE `ai_priority`
     ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `attribute`
@@ -288,8 +299,8 @@ ALTER TABLE `part_type`
 
 ALTER TABLE `pilot`
     ADD PRIMARY KEY (`id`),
-    ADD KEY `FK_PilotAiType1Id` (`ai_type_1_id`),
-    ADD KEY `FK_PilotAiType2Id` (`ai_type_2_id`),
+    ADD KEY `FK_PilotAiType1Id` (`ai_range_id`),
+    ADD KEY `FK_PilotAiType2Id` (`ai_priority_id`),
     ADD KEY `FK_PilotAttributeId` (`attribute_id`),
     ADD KEY `FK_PilotJobLicenseId` (`job_license_id`),
     ADD KEY `FK_PilotSeriesId` (`series_id`),
@@ -315,8 +326,11 @@ ALTER TABLE `weapon_type`
 ALTER TABLE `word_tag`
     ADD PRIMARY KEY (`id`);
 
-ALTER TABLE `ai_type`
-    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+ALTER TABLE `ai_range`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+ALTER TABLE `ai_priority`
+    MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 ALTER TABLE `attribute`
     MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
@@ -371,8 +385,8 @@ ALTER TABLE `part`
     ADD CONSTRAINT `FK_PartWordTag2Id` FOREIGN KEY (`word_tag_2_id`) REFERENCES `word_tag` (`id`);
 
 ALTER TABLE `pilot`
-    ADD CONSTRAINT `FK_PilotAiType1Id` FOREIGN KEY (`ai_type_1_id`) REFERENCES `ai_type` (`id`),
-    ADD CONSTRAINT `FK_PilotAiType2Id` FOREIGN KEY (`ai_type_2_id`) REFERENCES `ai_type` (`id`),
+    ADD CONSTRAINT `FK_PilotAiRangeId` FOREIGN KEY (`ai_range_id`) REFERENCES `ai_range` (`id`),
+    ADD CONSTRAINT `FK_PilotAiPriorityId` FOREIGN KEY (`ai_priority_id`) REFERENCES `ai_priority` (`id`),
     ADD CONSTRAINT `FK_PilotAttributeId` FOREIGN KEY (`attribute_id`) REFERENCES `attribute` (`id`),
     ADD CONSTRAINT `FK_PilotJobLicenseId` FOREIGN KEY (`job_license_id`) REFERENCES `job_license` (`id`),
     ADD CONSTRAINT `FK_PilotSeriesId` FOREIGN KEY (`series_id`) REFERENCES `series` (`id`),
