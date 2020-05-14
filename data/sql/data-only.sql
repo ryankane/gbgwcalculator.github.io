@@ -34,8 +34,8 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 (33, 'Full Throttle Revolution', 'Full Throttle Chip', 0, '2020-03-25'),
 (34, 'Weathered War Machine', 'Weathered Coin', 1, '2020-04-01'),
 (35, 'Supreme Commander of G-ARMS', 'G-ARMS Coin', 0, '2020-04-08'),
-(36, 'Deity of the Deep', 'Deep Coin', 0, '2020-04-15'),
-(37, 'Fists of Iron', 'Iron Coin', 0, '2020-05-13');
+(36, 'Deity of the Deep', 'Deep Coin', 1, '2020-04-15'),
+(37, 'Fists of Iron', 'Iron Coin', 1, '2020-05-13');
 
 INSERT INTO `series` (`id`, `title`, `alternate`) VALUES
 (1, 'Mobile Suit Gundam', 'MSG'),
