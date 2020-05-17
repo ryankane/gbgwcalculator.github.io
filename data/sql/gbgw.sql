@@ -14,10 +14,10 @@ USE `gbgw`;
 DROP TABLE IF EXISTS `ai_range`;
 CREATE TABLE `ai_range` (
     `id` int(11) NOT NULL,
-    `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+    `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `ai_range` (`id`, `value`) VALUES
+INSERT INTO `ai_range` (`id`, `name`) VALUES
 (1, 'Short'),
 (2, 'Mid'),
 (3, 'Long');
@@ -25,10 +25,10 @@ INSERT INTO `ai_range` (`id`, `value`) VALUES
 DROP TABLE IF EXISTS `ai_priority`;
 CREATE TABLE `ai_priority` (
    `id` int(11) NOT NULL,
-   `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
+   `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
-INSERT INTO `ai_priority` (`id`, `value`) VALUES
+INSERT INTO `ai_priority` (`id`, `name`) VALUES
 (1, 'Solo'),
 (2, 'Balanced'),
 (3, 'Support');
@@ -136,9 +136,9 @@ INSERT INTO `part_type` (`id`, `name`) VALUES
 (3, 'Arms'),
 (4, 'Legs'),
 (5, 'Back'),
-(6, 'Shield'),
-(7, 'Melee'),
-(8, 'Ranged'),
+(6, 'Melee'),
+(7, 'Ranged'),
+(8, 'Shield'),
 (9, 'Pilot');
 
 DROP TABLE IF EXISTS `pilot`;

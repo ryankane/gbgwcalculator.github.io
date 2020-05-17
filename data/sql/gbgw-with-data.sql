@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 14, 2020 at 09:04 PM
+-- Generation Time: May 16, 2020 at 09:49 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.11
 
@@ -33,7 +33,7 @@ USE `gbgw`;
 DROP TABLE IF EXISTS `ai_priority`;
 CREATE TABLE IF NOT EXISTS `ai_priority` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `ai_priority` (
 -- Dumping data for table `ai_priority`
 --
 
-INSERT INTO `ai_priority` (`id`, `value`) VALUES
+INSERT INTO `ai_priority` (`id`, `name`) VALUES
 (1, 'Solo'),
 (2, 'Balanced'),
 (3, 'Support');
@@ -55,7 +55,7 @@ INSERT INTO `ai_priority` (`id`, `value`) VALUES
 DROP TABLE IF EXISTS `ai_range`;
 CREATE TABLE IF NOT EXISTS `ai_range` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `value` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
+  `name` varchar(32) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -63,7 +63,7 @@ CREATE TABLE IF NOT EXISTS `ai_range` (
 -- Dumping data for table `ai_range`
 --
 
-INSERT INTO `ai_range` (`id`, `value`) VALUES
+INSERT INTO `ai_range` (`id`, `name`) VALUES
 (1, 'Short'),
 (2, 'Mid'),
 (3, 'Long');
@@ -2080,9 +2080,9 @@ INSERT INTO `part_type` (`id`, `name`) VALUES
 (3, 'Arms'),
 (4, 'Legs'),
 (5, 'Back'),
-(6, 'Shield'),
-(7, 'Melee'),
-(8, 'Ranged'),
+(6, 'Melee'),
+(7, 'Ranged'),
+(8, 'Shield'),
 (9, 'Pilot');
 
 -- --------------------------------------------------------
