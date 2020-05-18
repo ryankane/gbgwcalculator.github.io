@@ -8910,6 +8910,129 @@
     }
   }]
 }, {
+  "name": "Gundam AGE-2 Dark Hound",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 558,
+    "md": 889,
+    "sd": 558,
+    "br": 126,
+    "pr": 302,
+    "wt": ["For Space", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"For Space\", EX Skill power boosted 25%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1433,
+    "ma": 558,
+    "sa": 291,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 428,
+    "wt": ["For Space", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Flash-Eye",
+      "description": "Release an intense flash of light from the device on your chest to blind enemies.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 558,
+    "ma": 1991,
+    "sa": 0,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["For Space", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Anchor Shot",
+      "description": "Discharge the anchor mounted on your arm.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 558,
+    "br": 302,
+    "pr": 428,
+    "wt": ["For Space", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Stream Slash",
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 558,
+    "br": 302,
+    "pr": 428,
+    "wt": ["For Space", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Lance category equipped, Melee DMG output boosted by 20"
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 889,
+    "ma": 2589,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 302,
+    "wt": ["For Space", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"For Space\", Strong Melee CRIT rate boosted 17%"
+    },
+    "name": "DODS Lancer",
+    "type": "Beam",
+    "category": "Lance"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 889,
+    "ma": 0,
+    "sa": 1699,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 428,
+    "wt": ["For Space", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Shooting DMG output boosted by 20"
+    },
+    "name": "DODS Gun",
+    "type": "Beam",
+    "category": "Rifle"
+  }]
+}, {
   "name": "Gundam AGE-2 Normal",
   "attribute": "Technique",
   "rarity": 3,

@@ -152,6 +152,23 @@
     "name": "With Speed attribute (self), Shot Spread reduced 12%"
   }
 }, {
+  "name": "Asemu Asuno",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 302,
+  "pr": 302,
+  "wt": ["Transformer", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Transformer\", All power boosted 25%"
+  }
+}, {
   "name": "Athrun Zala",
   "jl": "In-Fighter",
   "attribute": "Speed",
