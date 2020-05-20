@@ -1810,6 +1810,148 @@
     "category": "Dual Sabers"
   }]
 }, {
+  "name": "Atlas Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 795,
+    "ma": 382,
+    "sa": 2377,
+    "md": 795,
+    "sd": 795,
+    "br": 416,
+    "pr": 0,
+    "wt": ["Amphib.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1601,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 0,
+    "wt": ["Amphib.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 795,
+    "ma": 2377,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Amphib.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Stream Slash",
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 795,
+    "ma": 382,
+    "sa": 382,
+    "md": 1179,
+    "sd": 1179,
+    "br": 609,
+    "pr": 416,
+    "wt": ["Amphib.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Sub Leg [Flight Form]",
+      "description": "Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 795,
+    "ma": 3173,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 609,
+    "pr": 211,
+    "wt": ["Amphib.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
+    },
+    "name": "Beam Saber [Atlas]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 795,
+    "ma": 0,
+    "sa": 3173,
+    "md": 0,
+    "sd": 0,
+    "br": 609,
+    "pr": 211,
+    "wt": ["Amphib.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon, reload speed boosted 20%"
+    },
+    "name": "Railgun [Atlas]",
+    "type": "Physical",
+    "category": "Long Rifle"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 795,
+    "ma": 0,
+    "sa": 3173,
+    "md": 0,
+    "sd": 0,
+    "br": 609,
+    "pr": 211,
+    "wt": ["Amphib.", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting DMG output boosted by 35"
+    },
+    "name": "Assault Rifle",
+    "type": "Physical",
+    "category": "Machine Gun"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 795,
+    "ma": 0,
+    "sa": 0,
+    "md": 1601,
+    "sd": 1601,
+    "br": 805,
+    "pr": 211,
+    "wt": ["Amphib.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Shield Bash",
+      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+      "category": "Physical Melee"
+    },
+    "name": "Blade Shield"
+  }]
+}, {
   "name": "Banshee",
   "attribute": "Power",
   "rarity": 4,
@@ -9148,6 +9290,90 @@
       "name": "Middle-Shooter Job, Sp. Shot CRIT Rate boosted 21%"
     },
     "name": "Shield [AGE-2]"
+  }]
+}, {
+  "name": "Gundam AGE-3 Fortress",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 1999,
+    "md": 559,
+    "sd": 294,
+    "br": 129,
+    "pr": 0,
+    "wt": ["High Firepower", "Long-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Long-Range\", Shooting DMG taken reduced by 20"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 893,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 559,
+    "br": 432,
+    "pr": 0,
+    "wt": ["High Firepower", "Long-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Shooting power boosted 25%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1146,
+    "ma": 1438,
+    "sa": 294,
+    "md": 2305,
+    "sd": 1146,
+    "br": 594,
+    "pr": 129,
+    "wt": ["High Firepower", "For Desert"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Fortress Four Booster",
+      "description": "Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",
+      "category": "Beam Shot"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 559,
+    "md": 893,
+    "sd": 294,
+    "br": 432,
+    "pr": 303,
+    "wt": ["High Firepower", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Shot ATK is over 16000, Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 294,
+    "md": 1146,
+    "sd": 294,
+    "br": 432,
+    "pr": 303,
+    "wt": ["High Firepower", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Vernier Consumption=0 for 10 sec."
+    }
   }]
 }, {
   "name": "Gundam AGE-FX",

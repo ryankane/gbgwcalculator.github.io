@@ -101,6 +101,23 @@
     "name": "With Power attribute (self), Enemy EX Skill penetration reduced 22%"
   }
 }, {
+  "name": "Andrew Waltfeld [Destiny]",
+  "jl": "Defender",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 795,
+  "ma": 795,
+  "sa": 795,
+  "md": 795,
+  "sd": 795,
+  "br": 211,
+  "pr": 609,
+  "wt": ["Transformer", "Commander"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When in Multi-Mission Sortie, Shot guidance boosted 17%"
+  }
+}, {
   "name": "Angelo Sauper",
   "jl": "Out-Fighter",
   "attribute": "Technique",
@@ -694,6 +711,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Vernier Recovery Rate boosted 16%"
+  }
+}, {
+  "name": "Giri Gadeucca Aspis",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 891,
+  "sa": 891,
+  "md": 558,
+  "sd": 558,
+  "br": 302,
+  "pr": 127,
+  "wt": ["Close Combat", "Commander"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 2 enemies shot down, All CRIT rate boosted 17%"
   }
 }, {
   "name": "Haman Karn",
