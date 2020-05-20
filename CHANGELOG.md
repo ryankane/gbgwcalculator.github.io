@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.7
+
+- Altered the `pilot` table
+
 ## 1.1.6
 
 - Fixed weapon data
