@@ -35,7 +35,8 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 (34, 'Weathered War Machine', 'Weathered Coin', 1, '2020-04-01'),
 (35, 'Supreme Commander of G-ARMS', 'G-ARMS Coin', 0, '2020-04-08'),
 (36, 'Deity of the Deep', 'Deep Coin', 1, '2020-04-15'),
-(37, 'Fists of Iron', 'Iron Coin', 1, '2020-05-13');
+(37, 'Fists of Iron', 'Iron Coin', 1, '2020-05-13'),
+(38, 'The Roving Azure Fortress', 'Fortress Device A', 0, '2020-05-20');
 
 INSERT INTO `series` (`id`, `title`, `alternate`) VALUES
 (1, 'Mobile Suit Gundam', 'MSG'),
@@ -527,6 +528,11 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 (441, 'Tactical Arms II', 'Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.', 4, 'D', 'A', NULL, NULL, 79, 20),
 (442, 'Hyper Mode', 'Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.', 6, NULL, NULL, 51, NULL, 60, 12),
 (443, 'Graviton Hammer', 'Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.', 4, 'D', 'B', NULL, NULL, 21, 6),
+(444, 'Flash-Eye', 'Release an intense flash of light from the device on your chest to blind enemies.', 2, NULL, NULL, NULL, NULL, 19, 5),
+(445, 'Anchor Shot', 'Discharge the anchor mounted on your arm.', 4, 'D', 'C', NULL, NULL, 21, 3),
+(446, 'Sub Leg [Flight Form]', 'Activate your sub legs'' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla''s Melee Defense by 19%.', 4, 'A+', 'D', NULL, NULL, 19, 2),
+(447, 'Shield Bash', 'Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla''s Melee Attack by 19%.', 4, 'B+', 'B-', NULL, NULL, 19, 2),
+(448, 'Fortress Four Booster', 'Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.', 1, 'D', 'B-', NULL, NULL, 60, 15),
 (998, 'Homing Missile', 'Launch homing missiles mounted on both your shoulders.', 2, 'D', 'B-', NULL, NULL, 30, 8),
 (999, 'Cross Crusher', 'With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla''s Physical Resist by 20%.', 3, 'B-', 'D', NULL, NULL, 30, 3);
 
@@ -651,7 +657,10 @@ INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarit
 (118, 'Master Asia', 16, 7, 'マスター・アジア', 4, 1, 14, 6, 799, 1756, 156, 799, 799, 290, 290, 'While "Mobile Fighter", All DMG output boosted by 35', 3, 1, 1, NULL, NULL, '2020-04-15'),
 (119, 'Chara Soon', 10, 6, 'キャラ・スーン', 3, 3, 17, 9, 559, 1144, 292, 559, 559, 303, 303, 'With Speed attribute (self), EX Skill piercing boosted 22%', 4, 2, 3, NULL, NULL, '2020-04-15'),
 (120, 'Yuu Kajima', 4, 1, 'ユウ・カジマ', 4, 1, 19, 6, 795, 795, 795, 795, 795, 609, 211, 'When Armor is 80% or less, Buff EX Skill effect up 22%', 4, 2, 1, NULL, NULL, '2020-05-13'),
-(121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 1, NULL, NULL, '2020-05-13');
+(121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 1, NULL, NULL, '2020-05-13'),
+(122, 'Asemu Asuno', 26, 3, 'アセム・アスノ', 3, 2, 12, 3, 558, 558, 558, 558, 558, 302, 302, 'While "Transformer", All power boosted 25%', 5, 2, 2, NULL, 'Arena', '2020-05-18'),
+(123, 'Andrew Waltfeld [Destiny]', 22, 10, 'アンドリュー・バルトフェルト［DESTINY］', 4, 3, 12, 5, 795, 795, 795, 795, 795, 211, 609, 'When in Multi-Mission Sortie, Shot guidance boosted 17%', 2, 2, 2, NULL, NULL, '2020-05-20'),
+(124, 'Giri Gadeucca Aspis', 14, 3, 'ギリ・ガデューカ・アスピス', 3, 1, 6, 5, 558, 891, 891, 558, 558, 302, 127, 'When 2 enemies shot down, All CRIT rate boosted 17%', 3, 1, 1, NULL, NULL, '2020-05-20');
 
 INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `name_japanese`, `rarity`, `attribute_id`, `marks`, `obtained_capsule`, `obtained_exchange`, `obtained_banner`, `obtained_sokai`, `release_date`) VALUES
 (1, NULL, 'Unassigned [P]', NULL, 99, NULL, NULL, 1, 1, 4, NULL, NULL, NULL, 0, '2019-07-31'),
@@ -863,6 +872,9 @@ INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `nam
 (207, 'AGE-FX', 'Gundam AGE-FX', NULL, 26, 9, 'ガンダムAGE-FX', 4, 1, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
 (208, 'MBF-P03R', 'Astray Blue Frame 2nd Revise', NULL, 23, 6, 'アストレイ ブルーフレームセカンドリバイ', 4, 3, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
 (209, 'GF13-013NR', 'Bolt Gundam', NULL, 16, 8, 'ボルトガンダム', 3, 1, 2, NULL, 'Event', NULL, 0, '2020-05-13'),
+(210, 'AGE-2DH', 'Gundam AGE-2 Dark Hound', NULL, 26, 10, 'ガンダムAGE-2_ダークハウンド', 3, 3, 2, NULL, 'Arena', NULL, 0, '2020-05-18'),
+(211, 'RX-78AL', 'Atlas Gundam', NULL, 38, 2, 'アトラスガンダム', 4, 1, 1, NULL, NULL, NULL, 0, '2020-05-20'),
+(212, 'AGE-3F', 'Gundam AGE-3 Fortress', NULL, 26, 11, 'ガンダムAGE-3_フォートレス', 3, 2, 2, NULL, 'Event', NULL, 0, '2020-05-20'),
 (999, 'XXXG-01SR', 'Gundam Sandrock', 'Promotional Code', 17, 5, 'ガンダムサンドロック【プロダクトコード持典】', 3, 3, 2, NULL, NULL, 'Promotional', 0, '2019-09-05');
 
 INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `part_augment_type_id`, `rarity`, `attribute_id`, `word_tag_1_id`, `word_tag_2_id`, `armor`, `melee_attack`, `shot_attack`, `melee_defense`, `shot_defense`, `beam_resistance`, `physical_resistance`, `ex_skill_id`, `trait`, `weapon_type_id`, `weapon_category_id`, `notes`) VALUES
@@ -2188,6 +2200,26 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1320, 'Bolt Gundam', '16-08-3-01', 209, 3, NULL, 3, 1, 14, 11, 558, 891, 292, 891, 891, 0, 127, 443, NULL, NULL, NULL, 'Iron Coins (Weekly Event)'),
 (1321, 'Bolt Gundam', '16-08-4-01', 209, 4, NULL, 3, 1, 14, 6, 891, 292, 292, 1144, 292, 127, 430, NULL, 'With Power attribute (self), Melee CRIT rate boosted 17%', NULL, NULL, 'Iron Coins (Weekly Event)'),
 (1322, 'Bolt Gundam', '16-08-5-01', 209, 5, NULL, 3, 1, 14, 6, 891, 292, 292, 891, 558, 127, 430, NULL, 'While "Mobile Fighter", Melee power boosted 25%', NULL, NULL, 'Iron Coins (Weekly Event)'),
+(1323, 'Gundam AGE-2 Dark Hound', '26-10-1-01', 210, 1, NULL, 3, 3, 20, 6, 889, 291, 558, 889, 558, 126, 302, NULL, 'While "For Space", EX Skill power boosted 25%', NULL, NULL, 'Arena Coins'),
+(1324, 'Gundam AGE-2 Dark Hound', '26-10-2-01', 210, 2, NULL, 3, 3, 20, 6, 1433, 558, 291, 558, 558, 0, 428, 444, NULL, NULL, NULL, 'Arena Coins'),
+(1325, 'Gundam AGE-2 Dark Hound', '26-10-3-01', 210, 3, NULL, 3, 3, 20, 6, 558, 1991, 0, 889, 889, 0, 0, 445, NULL, NULL, NULL, 'Arena Coins'),
+(1326, 'Gundam AGE-2 Dark Hound', '26-10-4-01', 210, 4, NULL, 3, 3, 20, 12, 889, 291, 291, 889, 558, 302, 428, 331, NULL, NULL, NULL, 'Arena Coins'),
+(1327, 'Gundam AGE-2 Dark Hound', '26-10-5-01', 210, 5, NULL, 3, 3, 20, 12, 889, 291, 291, 889, 558, 302, 428, NULL, 'With Lance category equipped, Melee DMG output boosted by 20', NULL, NULL, 'Arena Coins'),
+(1328, 'DODS Lancer', '26-10-6d-01', 210, 6, NULL, 3, 3, 20, 6, 889, 2589, 0, 0, 0, 126, 302, NULL, 'While "For Space", Strong Melee CRIT rate boosted 17%', 1, 6, 'Arena Coins'),
+(1329, 'DODS Gun', '26-10-7a-01', 210, 7, NULL, 3, 3, 20, 12, 889, 0, 1699, 0, 0, 126, 428, NULL, 'With Speed attribute (self), Shooting DMG output boosted by 20', 1, 8, 'Arena Coins'),
+(1330, 'Atlas Gundam', '38-02-1-01', 211, 1, NULL, 4, 1, 4, 16, 795, 382, 2377, 795, 795, 416, 0, NULL, 'When Armor is 80% or less, EX Skill power boosted 30%', NULL, NULL, 'Early Summer Step-Up Capsules'),
+(1331, 'Atlas Gundam', '38-02-2-01', 211, 2, NULL, 4, 1, 4, 16, 1601, 382, 382, 1179, 1179, 609, 0, NULL, 'With Power attribute (self), EX Skill CD reduced 20%', NULL, NULL, 'Early Summer Step-Up Capsules'),
+(1332, 'Atlas Gundam', '38-02-3-01', 211, 3, NULL, 4, 1, 4, 9, 795, 2377, 382, 1179, 1179, 0, 0, 331, NULL, NULL, NULL, 'Early Summer Step-Up Capsules'),
+(1333, 'Atlas Gundam', '38-02-4-01', 211, 4, NULL, 4, 1, 4, 9, 795, 382, 382, 1179, 1179, 609, 416, 446, NULL, NULL, NULL, 'Early Summer Step-Up Capsules'),
+(1334, 'Beam Saber [Atlas]', '38-02-6a-01', 211, 6, NULL, 4, 1, 4, 16, 795, 3173, 0, 0, 0, 609, 211, NULL, 'With Power attribute (self), Initial EX Skill charge boosted 20%', 1, 2, 'Early Summer Step-Up Capsules'),
+(1335, 'Railgun [Atlas]', '38-02-7b-01', 211, 7, NULL, 4, 1, 4, 16, 795, 0, 3173, 0, 0, 609, 211, NULL, 'Physical ranged weapon, reload speed boosted 20%', 2, 10, 'Early Summer Step-Up Capsules'),
+(1336, 'Assault Rifle', '38-02-7c-01', 211, 7, NULL, 4, 1, 4, 9, 795, 0, 3173, 0, 0, 609, 211, NULL, 'With Power attribute (self), Shooting DMG output boosted by 35', 2, 9, 'Early Summer Step-Up Capsules'),
+(1337, 'Blade Shield', '38-02-8-01', 211, 8, NULL, 4, 1, 4, 9, 795, 0, 0, 1601, 1601, 805, 211, 447, NULL, NULL, NULL, 'Early Summer Step-Up Capsules'),
+(1338, 'Gundam AGE-3 Fortress', '26-11-1-01', 212, 1, NULL, 3, 2, 10, 8, 559, 294, 1999, 559, 294, 129, 0, NULL, 'While "Long-Range", Shooting DMG taken reduced by 20', NULL, NULL, 'Fortress Device A (Event)'),
+(1339, 'Gundam AGE-3 Fortress', '26-11-2-01', 212, 2, NULL, 3, 2, 10, 8, 893, 294, 294, 1146, 559, 432, 0, NULL, 'Long-Shooter Job, Shooting power boosted 25%', NULL, NULL, 'Fortress Device A (Event)'),
+(1340, 'Gundam AGE-3 Fortress', '26-11-3-01', 212, 3, 8, 3, 2, 10, 21, 1146, 1438, 294, 2305, 1146, 594, 129, 448, NULL, NULL, NULL, 'Fortress Device A (Event)'),
+(1341, 'Gundam AGE-3 Fortress', '26-11-4-01', 212, 4, NULL, 3, 2, 10, 21, 559, 294, 559, 893, 294, 432, 303, NULL, 'When Shot ATK is over 16000, Projectile speed boosted 14%', NULL, NULL, 'Fortress Device A (Event)'),
+(1342, 'Gundam AGE-3 Fortress', '26-11-5-01', 212, 5, NULL, 3, 2, 10, 24, 559, 294, 294, 1146, 294, 432, 303, NULL, 'When 2 enemies shot down, Vernier Consumption=0 for 10 sec.', NULL, NULL, 'Fortress Device A (Event)'),
 (9993, 'Gundam Sandrock', '17-05-1-01', 999, 1, NULL, 3, 3, 11, 21, 570, 187, 570, 570, 364, 139, 139, NULL, 'While "Defender", EX Skill Piercing Boosted 6%', NULL, NULL, 'Japanese-exclusive promotional code redemption'),
 (9994, 'Gundam Sandrock', '17-05-1-01', 999, 2, NULL, 3, 3, 11, 21, 942, 187, 187, 364, 364, 139, 139, 998, NULL, NULL, NULL, 'Japanese-exclusive promotional code redemption'),
 (9995, 'Gundam Sandrock', '17-05-1-01', 999, 3, NULL, 3, 3, 11, 21, 364, 570, 187, 570, 570, 29, 29, NULL, 'When Armor > 70%, Enemy Sp. Shot Power reduced 2%', NULL, NULL, 'Japanese-exclusive promotional code redemption'),
