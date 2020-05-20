@@ -442,5 +442,10 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 441,Tactical Arms II,Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.,4,D,A,,,79,20
 442,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
 443,Graviton Hammer,Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.,4,D,B,,,21,6
+444,Flash-Eye,Release an intense flash of light from the device on your chest to blind enemies.,2,,,,,19,5
+445,Anchor Shot,Discharge the anchor mounted on your arm.,4,D,C,,,21,3
+446,Sub Leg [Flight Form],"Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",4,A+,D,,,19,2
+447,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,B-,,,19,2
+448,Fortress Four Booster,"Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",1,D,B-,,,60,15
 998,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,30,8
 999,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%.",3,B-,D,,,30,3
