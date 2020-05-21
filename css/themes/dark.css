@@ -24,4 +24,8 @@
   --scrollbar-bg-color: #1d1d1d;
   --scrollbar-thumb-color: #223440;
   --activated-wt-font-color: #56b4f7;
+  --link-default-color: #4475ff;
+  --link-visited-link-color: #4475ff;
+  --link-hover-color: #5e91ff;
+  --link-active-color: #4475ff;
 }

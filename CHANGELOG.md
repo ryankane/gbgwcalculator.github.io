@@ -2,6 +2,7 @@
 
 ## 1.1.7
 
+- Added a footer to the page
 - Altered the `pilot` table
 
 ## 1.1.6

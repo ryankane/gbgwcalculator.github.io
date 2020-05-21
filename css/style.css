@@ -41,6 +41,10 @@
   --scrollbar-bg-color: #f2f7f4;
   --scrollbar-thumb-color: #4379ba;
   --activated-wt-font-color: #206cc9;
+  --link-default-color: #1a3ea5;
+  --link-visited-link-color: #1a3ea5;
+  --link-hover-color: #1a42f1;
+  --link-active-color: #1a3ea5;
 }
 
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
@@ -91,6 +95,23 @@ h3 {
   font-weight: normal;
   margin: 0;
   padding: 0 10px;
+}
+
+a {
+  color: var(--link-default-color);
+  text-decoration: none;
+}
+
+a:visited {
+  color: var(--link-visited-link-color);
+}
+
+a:hover {
+  color: var(--link-hover-color);
+}
+
+a:active {
+  color: var(--link-active-color);
 }
 
 /* Theme toggle */
@@ -182,17 +203,17 @@ input:disabled {
 }
 
 .app {
-  display: table; /* Fix for Edge 44 */
-  width: -moz-fit-content;
-  width: fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
 }
 
 .container {
   display: flex;
   flex-flow: row nowrap;
   margin: 0 auto;
+  z-index: 100;
+  background-color: var(--primary-color);
 }
 
 .container > * {
@@ -201,6 +222,33 @@ input:disabled {
 
 .js-apply-map-bonus {
   margin-left: 0.5em;
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 0.5em;
+  z-index: 1;
+}
+
+.footer .notice {
+  font-size: 0.667em;
+}
+
+.footer .brands {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 1em;
+  justify-content: space-evenly;
+}
+
+.brand-badge-wrapper {
+  margin: 0 0.5em;
 }
 
 .reset-btn {
