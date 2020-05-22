@@ -1,3 +1,5 @@
+USE `gbgw`;
+
 INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUES
 (1, 'Ultimate Bullseye! Rising Arrow', 'Bullseye Coin', 0, '2019-08-07'),
 (2, 'Unseen Assault', 'Assault Coin', 0, '2019-08-14'),
@@ -1281,13 +1283,13 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (401, 'Gundam Exia', '25-01-5-01', 66, 5, NULL, 4, 3, 13, 25, 796, 384, 384, 1602, 796, 417, 611, 137, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (402, 'GN Sword', '25-01-6a-01', 66, 6, NULL, 4, 3, 13, 6, 1181, 2380, 0, 0, 384, 417, 213, NULL, 'With Speed attribute (self), Initial EX Skill Charge boosted 20%', 2, 2, 'Haro Chip Capsule'),
 (403, 'GN Sword Rifle Mode', '25-01-7a-01', 66, 7, NULL, 4, 3, 13, 6, 1181, 0, 3177, 0, 0, 611, 213, NULL, 'When Armor > 40%, Enemy Strong Melee Power Reduced 30%', 1, 8, 'Haro Chip Capsule'),
-(404, 'GN Shield [Exia]', '25-01-8-01', 66, 8, NULL, 4, 3, 6, 13, 796, 0, 0, 2380, 796, 0, 1028, NULL, 'When Armor > 40%, EX Skill DMG output boosted by 35', NULL, NULL, 'Haro Chip Capsule'),
-(405, 'Gundam Dynames', '25-02-1-01', 67, 1, NULL, 4, 2, 13, 8, 384, 384, 3181, 384, 1182, 0, 0, 138, NULL, NULL, NULL, 'Haro Chip Capsule'),
+(404, 'GN Shield [Exia]', '25-01-8-01', 66, 8, NULL, 4, 3, 13, 6, 796, 0, 0, 2380, 796, 0, 1028, NULL, 'When Armor > 40%, EX Skill DMG output boosted by 35', NULL, NULL, 'Haro Chip Capsule'),
+(405, 'Gundam Dynames', '25-02-1-01', 67, 1, NULL, 4, 2, 8, 13, 384, 384, 3181, 384, 1182, 0, 0, 138, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (406, 'Gundam Dynames', '25-02-2-01', 67, 2, NULL, 4, 2, 8, 21, 1606, 384, 384, 799, 1606, 290, 290, NULL, 'Long-Shooter Job, Shooting Power boosted 30%', NULL, NULL, 'Haro Chip Capsule'),
 (407, 'Gundam Dynames', '25-02-3-01', 67, 3, NULL, 4, 2, 8, 10, 1182, 799, 384, 384, 1606, 290, 290, NULL, 'Long-Shooter Job, Shot Guidance boosted 17%', NULL, NULL, 'Haro Chip Capsule'),
 (408, 'Gundam Dynames', '25-02-4-01', 67, 4, NULL, 4, 2, 8, 21, 799, 384, 384, 799, 1606, 420, 420, 139, NULL, NULL, NULL, 'Haro Chip Capsule'),
-(409, 'Gundam Dynames', '25-02-5-01', 67, 5, NULL, 4, 2, 8, 21, 799, 384, 384, 799, 1606, 420, 420, 140, NULL, NULL, NULL, 'Haro Chip Capsule'),
-(410, 'GN Sniper Rifle', '25-02-7b-01', 67, 7, NULL, 4, 2, 10, 8, 384, 0, 4004, 0, 0, 290, 290, NULL, 'Beam ranged weapon reload speed boosted 20%', 1, 10, 'Haro Chip Capsule'),
+(409, 'Gundam Dynames', '25-02-5-01', 67, 5, NULL, 4, 2, 8, 13, 799, 384, 384, 799, 1606, 420, 420, 140, NULL, NULL, NULL, 'Haro Chip Capsule'),
+(410, 'GN Sniper Rifle', '25-02-7b-01', 67, 7, NULL, 4, 2, 8, 10, 384, 0, 4004, 0, 0, 290, 290, NULL, 'Beam ranged weapon reload speed boosted 20%', 1, 10, 'Haro Chip Capsule'),
 (411, 'Gundam X Divider', '19-02-1-01', 68, 1, NULL, 4, 1, 7, 13, 1181, 384, 1181, 1181, 797, 418, 213, 141, NULL, NULL, NULL, 'Haro Chip Capsule'),
 (412, 'Gundam X Divider', '19-02-2-01', 68, 2, NULL, 4, 1, 7, 13, 1978, 384, 384, 797, 797, 611, 0, NULL, 'With Blade Category equipped, Strong Melee Power boosted 30%', NULL, NULL, 'Haro Chip Capsule'),
 (413, 'Gundam X Divider', '19-02-3-01', 68, 3, NULL, 4, 1, 7, 10, 797, 1181, 384, 1181, 1181, 213, 0, NULL, 'Out-Fighter Job, Enemy Shooting Power reduced 30%', NULL, NULL, 'Haro Chip Capsule'),

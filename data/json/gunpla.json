@@ -10687,7 +10687,7 @@
     "sd": 1182,
     "br": 0,
     "pr": 0,
-    "wt": ["Gundam Type", "Long-Range"],
+    "wt": ["Long-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance γ",
@@ -10751,7 +10751,7 @@
     "sd": 1606,
     "br": 420,
     "pr": 420,
-    "wt": ["Long-Range", "For Desert"],
+    "wt": ["Long-Range", "Gundam Type"],
     "ex": {
       "type": "EX Skill",
       "name": "Trans-Am",
@@ -10768,7 +10768,7 @@
     "sd": 0,
     "br": 290,
     "pr": 290,
-    "wt": ["High Firepower", "Long-Range"],
+    "wt": ["Long-Range", "High Firepower"],
     "ex": {
       "type": "Part Traits",
       "name": "Beam ranged weapon reload speed boosted 20%"
@@ -10911,7 +10911,7 @@
     "sd": 796,
     "br": 0,
     "pr": 1028,
-    "wt": ["Close Combat", "Gundam Type"],
+    "wt": ["Gundam Type", "Close Combat"],
     "ex": {
       "type": "Part Traits",
       "name": "When Armor > 40%, EX Skill DMG output boosted by 35"
