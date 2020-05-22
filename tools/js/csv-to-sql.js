@@ -46,8 +46,8 @@ const orm = {
       {column: 'part_augment_type_id', field: 'X Part', type: 'int'},
       {column: 'rarity', field: 'Rarity', type: 'int'},
       {column: 'attribute_id', field: 'Attr', type: 'int'},
-      {column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      {column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      //{column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
+      //{column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
       {column: 'armor', field: 'Armor', type: 'int'},
       {column: 'melee_attack', field: 'Melee ATK', type: 'int'},
       {column: 'shot_attack', field: 'Shot ATK', type: 'int'},
@@ -72,8 +72,8 @@ const orm = {
       {column: 'name_japanese', field: 'Japanese'},
       {column: 'rarity', field: 'Rarity', type: 'int'},
       {column: 'attribute_id', field: 'Attr', type: 'int'},
-      {column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      {column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      //{column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
+      //{column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
       {column: 'armor', field: 'Armor', type: 'int'},
       {column: 'melee_attack', field: 'Melee ATK', type: 'int'},
       {column: 'shot_attack', field: 'Shot ATK', type: 'int'},
@@ -132,6 +132,24 @@ const orm = {
       {column: 'obtained_sokai', field: 'Sokai', type: 'boolean'},
       {column: 'release_date', field: 'Release Date'}
     ]
+  },
+  partTags: {
+    name: 'part_tag',
+    join: {
+      table: 'part',
+      primaryKey: 'id',
+      fields: [ 'W Tag 1', 'W Tag 2' ],
+      as: [ 'part_id', 'tag_id' ]
+    }
+  },
+  pilotTags: {
+    name: 'pilot_tag',
+    join: {
+      table: 'pilot',
+      primaryKey: 'id',
+      fields: [ 'W Tag 1', 'W Tag 2' ],
+      as: [ 'pilot_id', 'tag_id' ]
+    }
   }
 };
 
@@ -144,11 +162,31 @@ const loadSql = (key) => {
 };
 
 const jsonToSql = (key) => {
-  const store = stores[key],
-        name = orm[key].name,
-        columns = orm[key].columns;
+  if (orm[key].join) {
+    return joinTable(key);
+  } else {
+    return oneToOneInsert(key);
+  }
+};
 
-  return `INSERT INTO \`${name}\` (${columns.map(f => `\`${f.column}\``).join(', ')}) VALUES\n${store.data.map(record => {
+const joinTable = (key) => {
+  const _orm = orm[key],
+      table = Object.values(orm).find(v => v.name === _orm.join.table),
+      storeKey = Object.keys(orm).filter(key => orm[key] === table),
+      store = stores[storeKey],
+      keyField = table.columns.find(col => col.column === _orm.join.primaryKey).field;
+  return `INSERT INTO \`${_orm.name}\` (${_orm.join.as.map(f => `\`${f}\``).join(', ')}) VALUES\n${store.data.flatMap(record => {
+    return _orm.join.fields.map(joinField => {
+      return `(${record[keyField]}, ${record[joinField]})`;
+    });
+  }).join(',\n')};`;
+};
+
+const oneToOneInsert = (key) => {
+  const _orm = orm[key],
+      store = stores[key],
+      columns = _orm.columns;
+  return `INSERT INTO \`${_orm.name}\` (${columns.map(f => `\`${f.column}\``).join(', ')}) VALUES\n${store.data.map(record => {
     return `(${columns.map(f => {
       let value = record[f.field];
       if (value.trim().length === 0 && f.nullable !== true) {
