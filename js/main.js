@@ -28,6 +28,19 @@ function main() {
   new GunplaBuild().init();
 
   toggleTheme();
+  resize();
+}
+
+/**
+ * Stretch the application viewport to fit the min width of the rendered container.
+ * Without this, the filters will wrap.
+ */
+function resize() {
+  const container = document.querySelector('.container');
+
+  if (container.offsetWidth < 1500) {
+    document.querySelector('.app').style.minWidth = `calc(${container.offsetWidth}px + 1em)`;
+  }
 }
 
 function toggleTheme() {

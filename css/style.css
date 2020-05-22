@@ -47,6 +47,11 @@
   --link-active-color: #1a3ea5;
 }
 
+html, body {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
 body, header, div, span, h1, h2, h3, h4, h5, p, label, input, button {
   box-sizing: border-box;
   font-family: SF Pro Display, Segoe UI, SFPD, Arial, sans-serif;
@@ -61,14 +66,8 @@ body {
   padding: 0;
 }
 
-header {
-  display: flex;
-  flex-flow: row nowrap;
-}
-
 h1 {
   display: inline-block;
-  margin-right: 30px;
 }
 
 input,
@@ -116,10 +115,7 @@ a:active {
 
 /* Theme toggle */
 .theme-toggle {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 2em;
+
 }
 
 .theme-switch-wrapper {
@@ -198,14 +194,55 @@ input:disabled {
   font-weight: bold;
 }
 
-.activated-wt {
-  color: var(--activated-wt-font-color);
-}
-
+/* Main layout */
 .app {
+  min-width: calc(100vw - 1em);
+  min-height: calc(100vh - 1em);
   display: flex;
   flex-flow: column;
+  align-items: stretch;
+  padding: 0.5em;
+  justify-content: space-evenly;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .options {
+  display: flex;
+  flex-flow: row;
   align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+header .options > * {
+  margin: 0 0.5em;
+}
+
+.other {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.other > * {
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.filters {
+}
+
+[class*="js-filter-"] {
+  width: 116px;
+}
+
+.js-filter-pt {
+  width: 155px;
 }
 
 .container {
@@ -214,41 +251,55 @@ input:disabled {
   margin: 0 auto;
   z-index: 100;
   background-color: var(--primary-color);
-}
-
-.container > * {
-  flex-shrink: 0;
+  flex: 1; /* Fill until we reach the footer. */
 }
 
 .js-apply-map-bonus {
   margin-left: 0.5em;
 }
 
-.footer {
-  position: absolute;
+footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  bottom: 0;
-  margin-bottom: 0.5em;
-  z-index: 1;
+  margin-top: 3em;
 }
 
-.footer .notice {
+footer .notice {
   font-size: 0.667em;
 }
 
-.footer .brands {
+footer .brands {
   display: flex;
   flex-direction: row;
   align-items: center;
   margin-top: 1em;
-  justify-content: space-evenly;
+}
+
+@media only screen and (max-width: 599px) {
+  header     { }
+  .container { }
+  footer     { }
+  /* .other { flex-flow: column; } */
+}
+@media only screen and (min-width: 600px) and (max-width: 959px) {
+  header     { }
+  .container { }
+  footer     { }
+}
+@media only screen and (min-width: 960px) and (max-width: 1279px) {
+  header     { }
+  .container { }
+  footer     { }
 }
 
 .brand-badge-wrapper {
   margin: 0 0.5em;
+}
+
+.activated-wt {
+  color: var(--activated-wt-font-color);
 }
 
 .reset-btn {
@@ -260,8 +311,7 @@ input:disabled {
 .word-tags,
 .part-trait-ex-skill,
 .parts,
-.gears,
-.part-list {
+.gears {
   margin-right: 10px;
 }
 
@@ -545,31 +595,6 @@ input:disabled {
 .part-skill-trait {
   border-bottom: 1px solid var(--color-red);
   font-size: 12px;
-}
-
-.filters,
-.map-bonus,
-.sort {
-  align-items: center;
-  display: flex;
-  flex-flow: row nowrap;
-}
-
-.filters > *,
-.sort > * {
-  margin-right: 5px;
-}
-
-.map-bonus {
-  padding-left: 20px;
-}
-
-[class*="js-filter-"] {
-  width: 116px;
-}
-
-.js-filter-pt {
-  width: 155px;
 }
 
 /** Balloon CSS */
