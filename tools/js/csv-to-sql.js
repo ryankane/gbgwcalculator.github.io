@@ -24,137 +24,135 @@ const stores = {
   }
 };
 
-const orm = {
+const tables = {
   events: {
     name: 'event',
     columns: [
-      {column: 'id', field: 'Index', type: 'int'},
-      {column: 'name', field: 'Name'},
-      {column: 'exchange', field: 'Exchange'},
-      {column: 'blueprints', field: 'Blueprints', type: 'boolean'},
-      {column: 'start_date', field: 'Date'}
+      {name: 'id', field: 'Index', type: 'int'},
+      {name: 'name', field: 'Name'},
+      {name: 'exchange', field: 'Exchange'},
+      {name: 'blueprints', field: 'Blueprints', type: 'boolean'},
+      {name: 'start_date', field: 'Date'}
     ]
   },
   parts: {
     name: 'part',
     columns: [
-      {column: 'id', field: 'Index', type: 'int'},
-      {column: 'name', field: 'Part Name'},
-      {column: 'collection_id', field: 'Collection ID'},
-      {column: 'unit_id', field: 'Unit ID', type: 'int'},
-      {column: 'part_type_id', field: 'Part Type', type: 'int'},
-      {column: 'part_augment_type_id', field: 'X Part', type: 'int'},
-      {column: 'rarity', field: 'Rarity', type: 'int'},
-      {column: 'attribute_id', field: 'Attr', type: 'int'},
-      //{column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      //{column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
-      {column: 'armor', field: 'Armor', type: 'int'},
-      {column: 'melee_attack', field: 'Melee ATK', type: 'int'},
-      {column: 'shot_attack', field: 'Shot ATK', type: 'int'},
-      {column: 'melee_defense', field: 'Melee DEF', type: 'int'},
-      {column: 'shot_defense', field: 'Shot DEF', type: 'int'},
-      {column: 'beam_resistance', field: 'Beam RES', type: 'int'},
-      {column: 'physical_resistance', field: 'Phys. RES', type: 'int'},
-      {column: 'ex_skill_id', field: 'EX ID', type: 'int'},
-      {column: 'trait', field: 'Trait'},
-      {column: 'weapon_type_id', field: 'Wep Type', type: 'int'},
-      {column: 'weapon_category_id', field: 'Wep Cat', type: 'int'},
-      {column: 'notes', field: 'Notes'}
+      {name: 'id', field: 'Index', type: 'int'},
+      {name: 'name', field: 'Part Name'},
+      {name: 'collection_id', field: 'Collection ID'},
+      {name: 'unit_id', field: 'Unit ID', type: 'int'},
+      {name: 'part_type_id', field: 'Part Type', type: 'int'},
+      {name: 'part_augment_type_id', field: 'X Part', type: 'int'},
+      {name: 'rarity', field: 'Rarity', type: 'int'},
+      {name: 'attribute_id', field: 'Attr', type: 'int'},
+      //{name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
+      //{name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      {name: 'armor', field: 'Armor', type: 'int'},
+      {name: 'melee_attack', field: 'Melee ATK', type: 'int'},
+      {name: 'shot_attack', field: 'Shot ATK', type: 'int'},
+      {name: 'melee_defense', field: 'Melee DEF', type: 'int'},
+      {name: 'shot_defense', field: 'Shot DEF', type: 'int'},
+      {name: 'beam_resistance', field: 'Beam RES', type: 'int'},
+      {name: 'physical_resistance', field: 'Phys. RES', type: 'int'},
+      {name: 'ex_skill_id', field: 'EX ID', type: 'int'},
+      {name: 'trait', field: 'Trait'},
+      {name: 'weapon_type_id', field: 'Wep Type', type: 'int'},
+      {name: 'weapon_category_id', field: 'Wep Cat', type: 'int'},
+      {name: 'notes', field: 'Notes'}
     ]
   },
   pilots: {
     name: 'pilot',
     columns: [
-      {column: 'id', field: 'Index', type: 'int'},
-      {column: 'name', field: 'Name'},
-      {column: 'series_id', field: 'Series', type: 'int'},
-      {column: 'issue', field: 'Issue', type: 'int'},
-      {column: 'name_japanese', field: 'Japanese'},
-      {column: 'rarity', field: 'Rarity', type: 'int'},
-      {column: 'attribute_id', field: 'Attr', type: 'int'},
-      //{column: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      //{column: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
-      {column: 'armor', field: 'Armor', type: 'int'},
-      {column: 'melee_attack', field: 'Melee ATK', type: 'int'},
-      {column: 'shot_attack', field: 'Shot ATK', type: 'int'},
-      {column: 'melee_defense', field: 'Melee DEF', type: 'int'},
-      {column: 'shot_defense', field: 'Shot DEF', type: 'int'},
-      {column: 'beam_resistance', field: 'Beam RES', type: 'int'},
-      {column: 'physical_resistance', field: 'Phys. RES', type: 'int'},
-      {column: 'trait', field: 'Trait'},
-      {column: 'job_license_id', field: 'Job Lic', type: 'int'},
-      {column: 'ai_range_id', field: 'AI Range', type: 'int'},
-      {column: 'ai_priority_id', field: 'AI Priority', type: 'int'},
-      {column: 'obtained_capsule', field: 'Capsule'},
-      {column: 'obtained_exchange', field: 'Exchange'},
-      {column: 'release_date', field: 'Release Date'},
+      {name: 'id', field: 'Index', type: 'int'},
+      {name: 'name', field: 'Name'},
+      {name: 'series_id', field: 'Series', type: 'int'},
+      {name: 'issue', field: 'Issue', type: 'int'},
+      {name: 'name_japanese', field: 'Japanese'},
+      {name: 'rarity', field: 'Rarity', type: 'int'},
+      {name: 'attribute_id', field: 'Attr', type: 'int'},
+      //{name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
+      //{name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      {name: 'armor', field: 'Armor', type: 'int'},
+      {name: 'melee_attack', field: 'Melee ATK', type: 'int'},
+      {name: 'shot_attack', field: 'Shot ATK', type: 'int'},
+      {name: 'melee_defense', field: 'Melee DEF', type: 'int'},
+      {name: 'shot_defense', field: 'Shot DEF', type: 'int'},
+      {name: 'beam_resistance', field: 'Beam RES', type: 'int'},
+      {name: 'physical_resistance', field: 'Phys. RES', type: 'int'},
+      {name: 'trait', field: 'Trait'},
+      {name: 'job_license_id', field: 'Job Lic', type: 'int'},
+      {name: 'ai_range_id', field: 'AI Range', type: 'int'},
+      {name: 'ai_priority_id', field: 'AI Priority', type: 'int'},
+      {name: 'obtained_capsule', field: 'Capsule'},
+      {name: 'obtained_exchange', field: 'Exchange'},
+      {name: 'release_date', field: 'Release Date'},
     ]
   },
   series: {
     name: 'series',
     columns: [
-      {column: 'id', field: 'Id', type: 'int'},
-      {column: 'title', field: 'Title'},
-      {column: 'alternate', field: 'Alternate'}
+      {name: 'id', field: 'Id', type: 'int'},
+      {name: 'title', field: 'Title'},
+      {name: 'alternate', field: 'Alternate'}
     ]
   },
   skills: {
     name: 'ex_skill',
     columns: [
-      {column: 'id', field: 'Index', type: 'int'},
-      {column: 'name', field: 'Name'},
-      {column: 'description', field: 'Description'},
-      {column: 'ex_category_id', field: 'Cat', type: 'int'},
-      {column: 'pierce', field: 'Prc'},
-      {column: 'power', field: 'Pow'},
-      {column: 'duration', field: 'Dur', type: 'int'},
-      {column: 'magazine', field: 'Mag', type: 'int'},
-      {column: 'cooldown', field: 'Cd', type: 'int'},
-      {column: 'cooldown_initial', field: 'Cd I', type: 'int'}
+      {name: 'id', field: 'Index', type: 'int'},
+      {name: 'name', field: 'Name'},
+      {name: 'description', field: 'Description'},
+      {name: 'ex_category_id', field: 'Cat', type: 'int'},
+      {name: 'pierce', field: 'Prc'},
+      {name: 'power', field: 'Pow'},
+      {name: 'duration', field: 'Dur', type: 'int'},
+      {name: 'magazine', field: 'Mag', type: 'int'},
+      {name: 'cooldown', field: 'Cd', type: 'int'},
+      {name: 'cooldown_initial', field: 'Cd I', type: 'int'}
     ]
   },
   units: {
     name: 'unit',
     columns: [
-      {column: 'id', field: 'Index', type: 'int'},
-      {column: 'model', field: 'Model'},
-      {column: 'name', field: 'Name'},
-      {column: 'subname', field: 'Subname'},
-      {column: 'series_id', field: 'Series', type: 'int'},
-      {column: 'issue', field: 'Issue', type: 'int'},
-      {column: 'name_japanese', field: 'Japanese'},
-      {column: 'rarity', field: 'Rarity', type: 'int'},
-      {column: 'attribute_id', field: 'Attr', type: 'int'},
-      {column: 'marks', field: 'Marks', type: 'int'},
-      {column: 'obtained_capsule', field: 'Capsule'},
-      {column: 'obtained_exchange', field: 'Exchange'},
-      {column: 'obtained_banner', field: 'Limited'},
-      {column: 'obtained_sokai', field: 'Sokai', type: 'boolean'},
-      {column: 'release_date', field: 'Release Date'}
+      {name: 'id', field: 'Index', type: 'int'},
+      {name: 'model', field: 'Model'},
+      {name: 'name', field: 'Name'},
+      {name: 'subname', field: 'Subname'},
+      {name: 'series_id', field: 'Series', type: 'int'},
+      {name: 'issue', field: 'Issue', type: 'int'},
+      {name: 'name_japanese', field: 'Japanese'},
+      {name: 'rarity', field: 'Rarity', type: 'int'},
+      {name: 'attribute_id', field: 'Attr', type: 'int'},
+      {name: 'marks', field: 'Marks', type: 'int'},
+      {name: 'obtained_capsule', field: 'Capsule'},
+      {name: 'obtained_exchange', field: 'Exchange'},
+      {name: 'obtained_banner', field: 'Limited'},
+      {name: 'obtained_sokai', field: 'Sokai', type: 'boolean'},
+      {name: 'release_date', field: 'Release Date'}
     ]
   },
   partTags: {
     name: 'part_tag',
-    join: {
-      table: 'part',
-      primaryKey: 'id',
-      fields: [ 'W Tag 1', 'W Tag 2' ],
-      as: [ 'part_id', 'tag_id' ]
-    }
+    join: {store: 'parts', field: 'Index'},
+    columns: [
+      {name: 'part_id', field: 'Index'},
+      {name: 'tag_id', fields: ['W Tag 1', 'W Tag 2']}
+    ]
   },
   pilotTags: {
     name: 'pilot_tag',
-    join: {
-      table: 'pilot',
-      primaryKey: 'id',
-      fields: [ 'W Tag 1', 'W Tag 2' ],
-      as: [ 'pilot_id', 'tag_id' ]
-    }
+    join: {store: 'pilots', field: 'Index'},
+    columns: [
+      {name: 'part_id', field: 'Index'},
+      {name: 'tag_id', fields: ['W Tag 1', 'W Tag 2']}
+    ]
   }
 };
 
 const onReady = () => {
-  Object.keys(orm).forEach(key => loadSql(key));
+  Object.keys(tables).forEach(key => loadSql(key));
 }
 
 const loadSql = (key) => {
@@ -162,42 +160,38 @@ const loadSql = (key) => {
 };
 
 const jsonToSql = (key) => {
-  if (orm[key].join) {
+  if (tables[key].join) {
     return joinTable(key);
-  } else {
-    return oneToOneInsert(key);
   }
+  return oneToOneInsert(key);
 };
 
 const joinTable = (key) => {
-  const _orm = orm[key],
-      table = Object.values(orm).find(v => v.name === _orm.join.table),
-      storeKey = Object.keys(orm).filter(key => orm[key] === table),
-      store = stores[storeKey],
-      keyField = table.columns.find(col => col.column === _orm.join.primaryKey).field;
-  return `INSERT INTO \`${_orm.name}\` (${_orm.join.as.map(f => `\`${f}\``).join(', ')}) VALUES\n${store.data.flatMap(record => {
-    return _orm.join.fields.map(joinField => {
-      return `(${record[keyField]}, ${record[joinField]})`;
+  const table = tables[key],
+      store = stores[table.join.store];
+  return `INSERT INTO \`${table.name}\` (${table.columns.map(col => `\`${col.name}\``).join(', ')}) VALUES\n${store.data.flatMap(record => {
+    return table.columns[1].fields.map(joinField => {
+      return `(${[ record[table.columns[0].field], record[joinField] ].join(', ')})`;
     });
   }).join(',\n')};`;
 };
 
 const oneToOneInsert = (key) => {
-  const _orm = orm[key],
+  const table = tables[key],
       store = stores[key],
-      columns = _orm.columns;
-  return `INSERT INTO \`${_orm.name}\` (${columns.map(f => `\`${f.column}\``).join(', ')}) VALUES\n${store.data.map(record => {
-    return `(${columns.map(f => {
-      let value = record[f.field];
-      if (value.trim().length === 0 && f.nullable !== true) {
-        switch (f.type) {
+      columns = table.columns;
+  return `INSERT INTO \`${table.name}\` (${columns.map(col => `\`${col.name}\``).join(', ')}) VALUES\n${store.data.map(record => {
+    return `(${columns.map(column => {
+      let value = record[column.field];
+      if (value.trim().length === 0 && column.nullable !== true) {
+        switch (column.type) {
           case 'boolean':
             return 0;
           default:
             return `NULL`;
         }
       } else {
-        switch (f.type) {
+        switch (column.type) {
           case 'boolean':
             return value === 'TRUE' || value === true ? 1 : 0;
           case 'int':
