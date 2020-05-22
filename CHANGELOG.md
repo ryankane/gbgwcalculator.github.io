@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.8
+
+- Moved `tag_id` references off the `part` and `pilots` tables
+
 ## 1.1.7
 
 - Added a footer to the page
