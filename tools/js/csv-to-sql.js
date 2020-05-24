@@ -46,8 +46,8 @@ const tables = {
       {name: 'part_augment_type_id', field: 'X Part', type: 'int'},
       {name: 'rarity', field: 'Rarity', type: 'int'},
       {name: 'attribute_id', field: 'Attr', type: 'int'},
-      //{name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      //{name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      {name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'}, // Comment this out, when ready to use a join table...
+      {name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'}, // Comment this out, when ready to use a join table...
       {name: 'armor', field: 'Armor', type: 'int'},
       {name: 'melee_attack', field: 'Melee ATK', type: 'int'},
       {name: 'shot_attack', field: 'Shot ATK', type: 'int'},
@@ -72,8 +72,8 @@ const tables = {
       {name: 'name_japanese', field: 'Japanese'},
       {name: 'rarity', field: 'Rarity', type: 'int'},
       {name: 'attribute_id', field: 'Attr', type: 'int'},
-      //{name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'},
-      //{name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'},
+      {name: 'word_tag_1_id', field: 'W Tag 1', type: 'int'}, // Comment this out, when ready to use a join table...
+      {name: 'word_tag_2_id', field: 'W Tag 2', type: 'int'}, // Comment this out, when ready to use a join table...
       {name: 'armor', field: 'Armor', type: 'int'},
       {name: 'melee_attack', field: 'Melee ATK', type: 'int'},
       {name: 'shot_attack', field: 'Shot ATK', type: 'int'},
