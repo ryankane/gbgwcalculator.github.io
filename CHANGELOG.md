@@ -3,6 +3,8 @@
 ## 1.1.8
 
 - Moved `tag_id` references off the `part` and `pilots` tables
+- Moved the Gundam Sandrock after the Gundam Gusion
+- Re-indexed the `ex_skill` table
 
 ## 1.1.7
 
