@@ -1,5 +1,7 @@
 # Changelog
 
+## 1.1.9
+
 ## 1.1.8
 
 - Updated trait and skill text to match in-game descriptions
