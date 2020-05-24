@@ -13,7 +13,7 @@
   "wt": ["Long-Range", "Zaku Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Buff EX Skill Effect up 15%"
+    "name": "With Technique attribute (self), Buff EX Skill effect up 15%"
   }
 }, {
   "name": "Akahana",
@@ -30,7 +30,7 @@
   "wt": ["Amphib.", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), EX Skill Recovery boosted 18%"
+    "name": "With Technique attribute (self), EX Skill recovery boosted 18%"
   }
 }, {
   "name": "Amuro Ray",
@@ -47,7 +47,7 @@
   "wt": ["Gundam Type", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "Beam Ranged Reload up 20%"
+    "name": "Beam ranged weapon, reload speed boosted 20%"
   }
 }, {
   "name": "Amuro Ray (Pre-Registration Reward)",
@@ -81,7 +81,7 @@
   "wt": ["Ace Excl.", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), All DMG Output boosted 35 (flat)"
+    "name": "With Power attribute (self), All DMG output boosted by 35"
   }
 }, {
   "name": "Andrew Waltfeld",
@@ -149,7 +149,7 @@
   "wt": ["High Mobility", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Strong Melee DMG Output Boosted 15%"
+    "name": "With Technique attribute (self), Strong Melee DMG output boosted 15%"
   }
 }, {
   "name": "Asagi Caldwell",
@@ -166,7 +166,7 @@
   "wt": ["Mass P.", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Shot Spread reduced 12%"
+    "name": "With Speed attribute (self), Shot spread reduced 12%"
   }
 }, {
   "name": "Asemu Asuno",
@@ -200,7 +200,7 @@
   "wt": ["Transformer", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "20% chance to prevent vernier consumption when stepping"
+    "name": "20% chance to prevent Vernier consumption when stepping"
   }
 }, {
   "name": "Auel Neider",
@@ -217,7 +217,7 @@
   "wt": ["Amphib.", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Technique attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Bernard Wiseman",
@@ -234,7 +234,7 @@
   "wt": ["High Mobility", "Zaku Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "When Armor < 60%, Recover 10 Armor gradually"
+    "name": "When Armor is 60% or less, Recover 10 Armor gradually"
   }
 }, {
   "name": "Cagalli Yula Athha",
@@ -251,7 +251,7 @@
   "wt": ["For Base", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Projectile Speed boosted 14%"
+    "name": "With Speed attribute (self), Projectile speed boosted 14%"
   }
 }, {
   "name": "Carozzo Ronah",
@@ -268,7 +268,7 @@
   "wt": ["High Firepower", "For Computers"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Power attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Cecily Fairchild",
@@ -285,7 +285,7 @@
   "wt": ["Ace Excl.", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All DMG taken reduced 20"
+    "name": "With Speed attribute (self), All DMG taken reduced by 20"
   }
 }, {
   "name": "Chang Wufei",
@@ -302,7 +302,7 @@
   "wt": ["Close Combat", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Strong Melee DMG Output boosted 35 (flat)"
+    "name": "With Technique attribute (self), Strong Melee DMG output boosted by 35"
   }
 }, {
   "name": "Char Aznable",
@@ -319,7 +319,7 @@
   "wt": ["Ace Excl.", "Commander"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All DMG taken reduced 20"
+    "name": "With Speed attribute (self), All DMG taken reduced by 20"
   }
 }, {
   "name": "Chara Soon",
@@ -370,7 +370,7 @@
   "wt": ["High Mobility", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Vernier Consumption reduced 15%"
+    "name": "With Speed attribute (self), Vernier consumption reduced 15%"
   }
 }, {
   "name": "Christina Mackenzie",
@@ -387,7 +387,7 @@
   "wt": ["Close Combat", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), EX Skill Piercing boosted 28%"
+    "name": "With Power attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Cima Garahau",
@@ -404,7 +404,7 @@
   "wt": ["Ace Excl.", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Dearka Elsman",
@@ -421,7 +421,7 @@
   "wt": ["Long-Range", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Shot Guidance boosted 14%"
+    "name": "With Power attribute (self), Shot guidance boosted 14%"
   }
 }, {
   "name": "Domon Kasshu",
@@ -438,7 +438,7 @@
   "wt": ["Mobile Fighter", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), All CRIT Rate boosted 14%"
+    "name": "With Power attribute (self), All CRIT rate boosted 14%"
   }
 }, {
   "name": "Dozle Zabi",
@@ -455,7 +455,7 @@
   "wt": ["High Firepower", "Zaku Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), EX Skill Piercing boosted 22%"
+    "name": "With Power attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Duo Maxwell",
@@ -489,7 +489,7 @@
   "wt": ["Long-Range", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Initial EX Skill Charge boosted 11%"
+    "name": "With Speed attribute (self), Initial EX Skill charge boosted 11%"
   }
 }, {
   "name": "Elle Vianno",
@@ -506,7 +506,7 @@
   "wt": ["For Urban Area", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), EX Skill Recovery boosted 16%"
+    "name": "With Technique attribute (self), EX Skill recovery boosted 16%"
   }
 }, {
   "name": "Elpeo Ple",
@@ -523,7 +523,7 @@
   "wt": ["For Space", "Long-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Vernier Recovery Rate boosted 16%"
+    "name": "With Technique attribute (self), Vernier recovery rate boosted 16%"
   }
 }, {
   "name": "Emma Sheen",
@@ -540,7 +540,7 @@
   "wt": ["Mid-Range", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Power attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Fa Yuiry",
@@ -557,7 +557,7 @@
   "wt": ["Transformer", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "Support Job, EX Skill Recovery boosted 16%"
+    "name": "Support Job, EX Skill recovery boosted 16%"
   }
 }, {
   "name": "Flit Asuno",
@@ -591,7 +591,7 @@
   "wt": ["Commander", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"Zeon\", Initial EX Skill Charge boosted 20%"
+    "name": "While \"Zeon\", Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Gaelio Bauduin",
@@ -608,7 +608,7 @@
   "wt": ["Heavy Armor", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "When Armor > 60%, All Power boosted 30%"
+    "name": "When Armor is 60% or more, All power boosted 30%"
   }
 }, {
   "name": "Gai Murakumo",
@@ -625,7 +625,7 @@
   "wt": ["For Forest", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), EX Skill Recovery boosted 28%"
+    "name": "With Speed attribute (self), EX Skill recovery boosted 28%"
   }
 }, {
   "name": "Gaia",
@@ -642,7 +642,7 @@
   "wt": ["Long-Range", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), EX Skill Recovery boosted 85"
+    "name": "With Power attribute (self), EX Skill recovery boosted by 85"
   }
 }, {
   "name": "Garma Zabi",
@@ -659,7 +659,7 @@
   "wt": ["Commander", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Buff EX Skill Time up 15%"
+    "name": "With Speed attribute (self), Buff EX Skill time up 15%"
   }
 }, {
   "name": "Garrod Ran",
@@ -676,7 +676,7 @@
   "wt": ["Protag.", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "When Armor < 80%, All Power boosted 30%"
+    "name": "When Armor is 80% or less, All power boosted 30%"
   }
 }, {
   "name": "George de Sand",
@@ -710,7 +710,7 @@
   "wt": ["Long-Range", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Vernier Recovery Rate boosted 16%"
+    "name": "With Power attribute (self), Vernier recovery rate boosted 16%"
   }
 }, {
   "name": "Giri Gadeucca Aspis",
@@ -744,7 +744,7 @@
   "wt": ["Commander", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Job Gauge Increase boosted 17%"
+    "name": "With Power attribute (self), Job Gauge increase boosted 17%"
   }
 }, {
   "name": "Haro",
@@ -761,7 +761,7 @@
   "wt": ["Transformer", "For Computers"],
   "ex": {
     "type": "Part Traits",
-    "name": "EX Skill Recovery boosted 110"
+    "name": "EX Skill recovery boosted by 110"
   }
 }, {
   "name": "Harry Ord",
@@ -778,7 +778,7 @@
   "wt": ["Ace Excl.", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "Beam ranged weapon magazine boosted 20%"
+    "name": "Beam ranged weapon, magazine boosted 20%"
   }
 }, {
   "name": "Hayato Kobayashi",
@@ -795,7 +795,7 @@
   "wt": ["Long-Range", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "10% chance to prevent vernier consumption when stepping"
+    "name": "10% chance to prevent Vernier consumption when stepping"
   }
 }, {
   "name": "Heero Yuy",
@@ -829,7 +829,7 @@
   "wt": ["Transformer", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "10% chance to prevent vernier consumption when stepping"
+    "name": "10% chance to prevent Vernier consumption when stepping"
   }
 }, {
   "name": "Heine Westenfluss",
@@ -863,7 +863,7 @@
   "wt": ["Commander", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Enemy Shooting Power reduced 25%"
+    "name": "With Power attribute (self), Enemy Shooting power reduced 25%"
   }
 }, {
   "name": "Jean-Luc Duval",
@@ -880,7 +880,7 @@
   "wt": ["Zeon", "High Mobility"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self),. Vernier Consumption reduced 15%"
+    "name": "With Speed attribute (self), Vernier consumption reduced 15%"
   }
 }, {
   "name": "Jerid Messa",
@@ -897,7 +897,7 @@
   "wt": ["Transformer", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Vernier Recovery Rate boosted 16%"
+    "name": "With Speed attribute (self), Vernier recovery rate boosted 16%"
   }
 }, {
   "name": "Johnny Ridden",
@@ -914,7 +914,7 @@
   "wt": ["Zeon", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Buff EX Skill Effect up 15%"
+    "name": "With Technique attribute (self), Buff EX Skill effect up 15%"
   }
 }, {
   "name": "Judau Ashta",
@@ -931,7 +931,7 @@
   "wt": ["Protag.", "Transformer"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Buff EX Skill Time up 22%"
+    "name": "With Power attribute (self), Buff EX Skill time up 22%"
   }
 }, {
   "name": "Juri Wu Nien",
@@ -965,7 +965,7 @@
   "wt": ["Mid-Range", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), EX Skill Recovery boosted 18%"
+    "name": "With Power attribute (self), EX Skill recovery boosted 18%"
   }
 }, {
   "name": "Kamille Bidan",
@@ -982,7 +982,7 @@
   "wt": ["Protag.", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), EX Skill Piercing boosted 28%"
+    "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Kayra Su",
@@ -999,7 +999,7 @@
   "wt": ["Mid-Range", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Shot Guidance boosted 14%"
+    "name": "With Technique attribute (self), Shot guidance boosted 14%"
   }
 }, {
   "name": "Kira Yamato",
@@ -1016,7 +1016,7 @@
   "wt": ["Protag.", "For Base"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), EX Skill Recovery boosted 140"
+    "name": "With Speed attribute (self), EX Skill recovery boosted by 140"
   }
 }, {
   "name": "Kou Uraki",
@@ -1050,7 +1050,7 @@
   "wt": ["Commander", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), EX Skill recovery boosted 140"
+    "name": "With Technique attribute (self), EX Skill recovery boosted by 140"
   }
 }, {
   "name": "Lalah Sune",
@@ -1067,7 +1067,7 @@
   "wt": ["Long-Range", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Debuff EX Skill Effect up 22%"
+    "name": "With Technique attribute (self), Debuff EX Skill effect up 22%"
   }
 }, {
   "name": "Lila Milla Rira",
@@ -1084,7 +1084,7 @@
   "wt": ["Federation", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Projectile Speed boosted 14%"
+    "name": "With Power attribute (self), Projectile speed boosted 14%"
   }
 }, {
   "name": "Lockon Stratos",
@@ -1152,7 +1152,7 @@
   "wt": ["Protag.", "High Firepower"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All CRIT Rate boosted 14%"
+    "name": "With Speed attribute (self), All CRIT rate boosted 14%"
   }
 }, {
   "name": "Lucrezia Noin",
@@ -1169,7 +1169,7 @@
   "wt": ["Transformer", "Mass P."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Debuff EX Skill Time up 22%"
+    "name": "With Technique attribute (self), Debuff EX Skill time up 22%"
   }
 }, {
   "name": "Lunamaria Hawke",
@@ -1203,7 +1203,7 @@
   "wt": ["Close Combat", "For Desert"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Technique attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Marida Cruz",
@@ -1237,7 +1237,7 @@
   "wt": ["Heavy Armor", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "EX Skill Piercing boosted 16%"
+    "name": "EX Skill piercing boosted 16%"
   }
 }, {
   "name": "Mashymre Cello",
@@ -1288,7 +1288,7 @@
   "wt": ["Mass P.", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Buff EX Skill Effect up 12%"
+    "name": "With Speed attribute (self), Buff EX Skill effect up 12%"
   }
 }, {
   "name": "Mikazuki Augus",
@@ -1305,7 +1305,7 @@
   "wt": ["Protag.", "For Desert"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Initial EX Skill Charge boosted 20%"
+    "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Milliardo Peacecraft",
@@ -1356,7 +1356,7 @@
   "wt": ["Support Type", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), EX Skill Piercing boosted 22%"
+    "name": "With Technique attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Nena Trinity",
@@ -1373,7 +1373,7 @@
   "wt": ["Support Type", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), EX Skill Recovery boosted 16%"
+    "name": "With Speed attribute (self), EX Skill recovery boosted 16%"
   }
 }, {
   "name": "Neo Roanoke",
@@ -1390,7 +1390,7 @@
   "wt": ["Commander", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), 14% chance to survive a fatal blow"
+    "name": "14% chance to survive a fatal blow"
   }
 }, {
   "name": "Nicol Amalfi",
@@ -1407,7 +1407,7 @@
   "wt": ["High Mobility", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), EX Skill Piercing boosted 22%"
+    "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Ortega",
@@ -1424,7 +1424,7 @@
   "wt": ["For Forest", "Zeon"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Job Gauge Charge Rate up 11%"
+    "name": "With Speed attribute (self), Job Gauge increase boosted 11%"
   }
 }, {
   "name": "Paptimus Scirocco",
@@ -1441,7 +1441,7 @@
   "wt": ["Transformer", "Commander"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Shot Guidance boosted 14%"
+    "name": "With Technique attribute (self), Shot guidance boosted 14%"
   }
 }, {
   "name": "Patrick Colasour",
@@ -1458,7 +1458,7 @@
   "wt": ["Mass P.", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Buff EX Skill Effect up 15%"
+    "name": "With Power attribute (self), Buff EX Skill effect up 15%"
   }
 }, {
   "name": "Poe Aijee",
@@ -1509,7 +1509,7 @@
   "wt": ["Commander", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), All DMG Output boosted 35 (flat)"
+    "name": "With Speed attribute (self), All DMG output boosted by 35"
   }
 }, {
   "name": "Quess Paraya",
@@ -1526,7 +1526,7 @@
   "wt": ["High Firepower", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), 14% change to survive a fatal blow"
+    "name": "With Technique attribute (self), 14% chance to survive a fatal blow"
   }
 }, {
   "name": "Ramba Ral",
@@ -1543,7 +1543,7 @@
   "wt": ["Close Combat", "For Desert"],
   "ex": {
     "type": "Part Traits",
-    "name": "All-Rounder Job, Vernier Recovery Rate boosted 16%"
+    "name": "All-Rounder Job, Vernier recovery rate boosted 16%"
   }
 }, {
   "name": "Rau Le Creuset",
@@ -1560,7 +1560,7 @@
   "wt": ["Commander", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Buff EX Skill Time up 22%"
+    "name": "With Technique attribute (self), Buff EX Skill time up 22%"
   }
 }, {
   "name": "Reccoa Londe",
@@ -1577,7 +1577,7 @@
   "wt": ["High Firepower", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Debuff EX Skill Effect up 12%"
+    "name": "With Power attribute (self), Debuff EX Skill effect up 12%"
   }
 }, {
   "name": "Rey Za Burrel",
@@ -1594,7 +1594,7 @@
   "wt": ["Ace Excl.", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Ribbons Almark",
@@ -1611,7 +1611,7 @@
   "wt": ["Gundam Type", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon reload speed boosted 18%"
+    "name": "All ranged weapon, reload speed boosted 18%"
   }
 }, {
   "name": "Roberto",
@@ -1628,7 +1628,7 @@
   "wt": ["High Mobility", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Debuff EX Skill Effect up 12%"
+    "name": "With Technique attribute (self), Debuff EX Skill effect up 12%"
   }
 }, {
   "name": "Rosamia Badam",
@@ -1645,7 +1645,7 @@
   "wt": ["For Space", "Transformer"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Enemy EX Skill Penetration reduced 22%"
+    "name": "With Technique attribute (self), Enemy EX Skill penetration reduced 22%"
   }
 }, {
   "name": "Roux Louka",
@@ -1662,7 +1662,7 @@
   "wt": ["Transformer", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Job Gauge Increase boosted 13%"
+    "name": "With Power attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Ryu Jose",
@@ -1679,7 +1679,7 @@
   "wt": ["Long-Range", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Buff EX Skill Time up 15%"
+    "name": "With Technique attribute (self), Buff EX Skill time up 15%"
   }
 }, {
   "name": "Sai Saici",
@@ -1713,7 +1713,7 @@
   "wt": ["Mid-Range", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Debuff EX Skill Effect up 15%"
+    "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
   "name": "Sayla Mass",
@@ -1730,7 +1730,7 @@
   "wt": ["Support Type", "For Computers"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Vernier Consumption reduced 15%"
+    "name": "With Speed attribute (self), Vernier consumption reduced 15%"
   }
 }, {
   "name": "Seabook Arno",
@@ -1764,7 +1764,7 @@
   "wt": ["Protag.", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Enemy EX Skill Penetration reduced 22%"
+    "name": "With Speed attribute (self), Enemy EX Skill penetration reduced 22%"
   }
 }, {
   "name": "Sergei Smirnov",
@@ -1798,7 +1798,7 @@
   "wt": ["Protag.", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"Gundam Type\", Buff EX Skill Effect up 22%"
+    "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Shiho Hahnenfuss",
@@ -1815,7 +1815,7 @@
   "wt": ["Long-Range", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Shinn Asuka",
@@ -1832,7 +1832,7 @@
   "wt": ["High Mobility", "Protag."],
   "ex": {
     "type": "Part Traits",
-    "name": "Initial EX Skill Charge boosted 15%"
+    "name": "Initial EX Skill charge boosted 15%"
   }
 }, {
   "name": "Shiro Amada",
@@ -1849,7 +1849,7 @@
   "wt": ["For Forest", "For Desert"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Enemy Shooting Power reduced 30%"
+    "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
   }
 }, {
   "name": "Sigh Argyle",
@@ -1866,7 +1866,7 @@
   "wt": ["Long-Range", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Projectile Speed boosted 12%"
+    "name": "With Power attribute (self), Projectile speed boosted 12%"
   }
 }, {
   "name": "Sleggar Law",
@@ -1883,7 +1883,7 @@
   "wt": ["Support Type", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), EX Skill Piercing boosted 15%"
+    "name": "With Power attribute (self), EX Skill piercing boosted 15%"
   }
 }, {
   "name": "Sochie Heim",
@@ -1934,7 +1934,7 @@
   "wt": ["Transformer", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Job Gauge Increase boosted 13%"
+    "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Sven Cal Bayang",
@@ -1951,7 +1951,7 @@
   "wt": ["High Mobility", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Initial EX Skill Charge boosted 12%"
+    "name": "With Speed attribute (self), Initial EX Skill charge boosted 12%"
   }
 }, {
   "name": "Tieria Erde",
@@ -1968,7 +1968,7 @@
   "wt": ["Gundam Type", "High Firepower"],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Tobia Arronax",
@@ -2019,7 +2019,7 @@
   "wt": ["For Base", "High Firepower"],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Üso Ewin",
@@ -2036,7 +2036,7 @@
   "wt": ["Protag.", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Buff EX Skill Time up 22%"
+    "name": "With Technique attribute (self), Buff EX Skill time up 22%"
   }
 }, {
   "name": "Yazan Gable",
@@ -2087,7 +2087,7 @@
   "wt": ["Heavy Armor", "High Firepower"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), Buff EX Skill Effect up 15%"
+    "name": "With Power attribute (self), Buff EX Skill effect up 15%"
   }
 }, {
   "name": "Zechs Marquise",
@@ -2104,6 +2104,6 @@
   "wt": ["High Mobility", "Commander"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), Vernier Recovery Rate boosted 20%"
+    "name": "With Speed attribute (self), Vernier recovery rate boosted 20%"
   }
 }]

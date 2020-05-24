@@ -447,5 +447,5 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 446,Sub Leg [Flight Form],"Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",4,A+,D,,,19,2
 447,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,B-,,,19,2
 448,Fortress Four Booster,"Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",1,D,B-,,,60,15
-998,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,30,8
-999,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 20%.",3,B-,D,,,30,3
+998,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,21,6
+999,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,B+,D,,,21,3
