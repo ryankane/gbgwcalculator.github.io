@@ -459,7 +459,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%",
+      "description": "Raise your Physical Resist by 69%.",
       "category": "Buff"
     },
     "combo": "legs"
@@ -564,7 +564,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Kick Combination",
-      "description": "Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%",
+      "description": "Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%.",
       "category": "Beam Melee"
     }
   }, {
@@ -1453,7 +1453,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Sky Jumper",
-      "description": "Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%",
+      "description": "Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%.",
       "category": "Beam Melee"
     },
     "name": "Twin Sword Rifle",
@@ -1545,7 +1545,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Lightning Ball",
-      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%.",
       "category": "Physical Melee"
     }
   }, {
@@ -1670,7 +1670,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Lightning Ball",
-      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "description": "Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%.",
       "category": "Physical Melee"
     }
   }, {
@@ -2610,7 +2610,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
       "category": "Awakening"
     }
   }, {
@@ -2769,7 +2769,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance γ",
-      "description": "Raise Shot Defense of your Squad by 39%",
+      "description": "Raise Shot Defense of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -2801,7 +2801,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up α",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "description": "Raise your Melee and Shot Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -3100,7 +3100,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up β",
-      "description": "Raise Ally Melee and Shot Attack by 29%",
+      "description": "Raise Ally Melee and Shot Attack by 29%.",
       "category": "Buff"
     }
   }, {
@@ -3117,7 +3117,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance γ",
-      "description": "Raise Shot Attack of your Squad by 39%",
+      "description": "Raise Shot Attack of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -3296,7 +3296,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -4135,7 +4135,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%",
+      "description": "Reduce target Melee and Shot Defense by 39%.",
       "category": "Debuff"
     }
   }, {
@@ -4895,7 +4895,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hell Jumper",
-      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%",
+      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "name": "Feilong Flag",
@@ -5076,7 +5076,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack β",
-      "description": "Reduce Shot Defense of all enemies by 24%",
+      "description": "Reduce Shot Defense of all enemies by 24%.",
       "category": "Debuff"
     }
   }, {
@@ -5108,7 +5108,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack β",
-      "description": "Reduce Melee Attack of all enemies by 24%",
+      "description": "Reduce Melee Attack of all enemies by 24%.",
       "category": "Debuff"
     }
   }, {
@@ -5161,7 +5161,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack α",
-      "description": "Reduce target Melee Attack by 39%",
+      "description": "Reduce target Melee Attack by 39%.",
       "category": "Debuff"
     },
     "name": "Anti-Beam Shield [Duel]"
@@ -5683,7 +5683,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Beam Saber",
-      "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%",
+      "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%.",
       "category": "Beam Melee"
     },
     "name": "Hyper Beam Saber [Enhanced ZZ (Ver. Ka)] ",
@@ -5984,7 +5984,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Xiphias Rail Cannon",
-      "description": "Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%",
+      "description": "Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%.",
       "category": "Physical Shot"
     }
   }, {
@@ -6499,7 +6499,7 @@
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 30% or less, Buff EX Skill effect up 12%"
+      "name": "When Armor is 30% or less, Melee DMG taken reduced by 15"
     }
   }, {
     "part": "arms",
@@ -6547,7 +6547,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%",
+      "description": "Reduce target Melee and Shot Defense by 39%.",
       "category": "Debuff"
     }
   }, {
@@ -6626,7 +6626,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance α",
-      "description": "Raise your Melee Defense by 39%",
+      "description": "Raise your Melee Defense by 39%.",
       "category": "Buff"
     }
   }, {
@@ -7065,7 +7065,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance α",
-      "description": "Raise your Melee Defense by 39%",
+      "description": "Raise your Melee Defense by 39%.",
       "category": "Buff"
     }
   }, {
@@ -7254,7 +7254,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Hack α",
-      "description": "Reduce target Shot Attack by 39%",
+      "description": "Reduce target Shot Attack by 39%.",
       "category": "Debuff"
     },
     "name": "Curved Shield [GM Command]"
@@ -7428,7 +7428,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -7589,7 +7589,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance β",
-      "description": "Raise Ally Shot Defense by 29%",
+      "description": "Raise Ally Shot Defense by 29%.",
       "category": "Buff"
     }
   }, {
@@ -7785,7 +7785,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack α",
-      "description": "Reduce target Shot Defense by 39%",
+      "description": "Reduce target Shot Defense by 39%.",
       "category": "Debuff"
     },
     "name": "GN Shield [GN-X]"
@@ -8004,7 +8004,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%",
+      "description": "Reduce target Melee and Shot Defense by 39%.",
       "category": "Debuff"
     },
     "name": "GN-Shield [GN-XIII]"
@@ -8125,7 +8125,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Block Hack α",
-      "description": "Reduce target Melee Defense by 39%",
+      "description": "Reduce target Melee Defense by 39%.",
       "category": "Debuff"
     },
     "name": "Shield [Gouf]"
@@ -8864,7 +8864,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -8911,7 +8911,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Dagger Bites",
-      "description": "Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%",
+      "description": "Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%.",
       "category": "Beam Melee"
     }
   }, {
@@ -8983,7 +8983,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%",
+      "description": "Raise Ally Physical Resist by 39%.",
       "category": "Buff"
     }
   }, {
@@ -9032,7 +9032,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Hack β",
-      "description": "Reduce Shot Attack of all enemies by 24%",
+      "description": "Reduce Shot Attack of all enemies by 24%.",
       "category": "Debuff"
     }
   }, {
@@ -9960,7 +9960,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Menace Shot",
-      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%",
+      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%.",
       "category": "Physical Melee"
     }
   }, {
@@ -10365,7 +10365,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Deadly Circle",
-      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%",
+      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "name": "Beam Scythe",
@@ -10490,7 +10490,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Deadly Circle",
-      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%",
+      "description": "Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "name": "Beam Scissors",
@@ -10691,7 +10691,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance γ",
-      "description": "Raise Shot Attack of your Squad by 39%",
+      "description": "Raise Shot Attack of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -11181,7 +11181,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Hack β",
-      "description": "Reduce Melee Attack of all enemies by 24%",
+      "description": "Reduce Melee Attack of all enemies by 24%.",
       "category": "Debuff"
     }
   }, {
@@ -11263,7 +11263,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up β",
-      "description": "Raise Ally Melee and Shot Attack by 29%",
+      "description": "Raise Ally Melee and Shot Attack by 29%.",
       "category": "Buff"
     },
     "name": "Shield [GP01]"
@@ -11304,7 +11304,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance γ",
-      "description": "Raise Melee Attack of your Squad by 39%",
+      "description": "Raise Melee Attack of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -11391,7 +11391,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance γ",
-      "description": "Raise Melee Attack of your Squad by 39%",
+      "description": "Raise Melee Attack of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -12408,7 +12408,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Hack α",
-      "description": "Reduce target Beam Resist by 69%",
+      "description": "Reduce target Beam Resist by 69%.",
       "category": "Debuff"
     }
   }, {
@@ -12571,7 +12571,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%",
+      "description": "Reduce target Physical Resist by 69%.",
       "category": "Debuff"
     }
   }, {
@@ -14281,7 +14281,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up γ",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "description": "Raise Melee and Shot Attack of your Squad by 39%.",
       "category": "Buff"
     }
   }, {
@@ -14402,7 +14402,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%",
+      "description": "Raise your Shot Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -14489,7 +14489,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -14958,7 +14958,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Hack α",
-      "description": "Reduce target Shot Defense by 39%",
+      "description": "Reduce target Shot Defense by 39%.",
       "category": "Debuff"
     }
   }, {
@@ -15075,7 +15075,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Royal Heart",
-      "description": "Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%",
+      "description": "Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%.",
       "category": "Beam Melee"
     },
     "name": "Beam Saber [Hyaku Shiki]",
@@ -16160,7 +16160,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }]
@@ -16395,7 +16395,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Hack β",
-      "description": "Reduce Beam Resist of all enemies by 39%",
+      "description": "Reduce Beam Resist of all enemies by 39%.",
       "category": "Debuff"
     }
   }, {
@@ -16935,7 +16935,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
       "category": "Awakening"
     }
   }, {
@@ -17083,7 +17083,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Combat Stance α",
-      "description": "Raise your Melee Attack by 39%",
+      "description": "Raise your Melee Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -17681,7 +17681,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%",
+      "description": "Raise Ally Beam Resist by 49%.",
       "category": "Buff"
     }
   }, {
@@ -17788,7 +17788,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%",
+      "description": "Raise Ally Beam Resist by 49%.",
       "category": "Buff"
     }
   }, {
@@ -18482,7 +18482,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%",
+      "description": "Raise Ally Physical Resist by 39%.",
       "category": "Buff"
     }
   }, {
@@ -18567,7 +18567,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection β",
-      "description": "Raise Ally Physical Resist by 39%",
+      "description": "Raise Ally Physical Resist by 39%.",
       "category": "Buff"
     }
   }, {
@@ -18599,7 +18599,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Prominence Fist",
-      "description": "Charge powerfully through enemies with your fist. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%",
+      "description": "Charge powerfully through enemies with your fist. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
       "category": "Physical Melee"
     }
   }, {
@@ -18718,7 +18718,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%",
+      "description": "Reduce target Melee and Shot Defense by 39%.",
       "category": "Debuff"
     }
   }]
@@ -19296,7 +19296,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%",
+      "description": "Reduce target Physical Resist by 69%.",
       "category": "Debuff"
     }
   }, {
@@ -19313,7 +19313,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%",
+      "description": "Raise your Shot Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -19419,7 +19419,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection Hack α",
-      "description": "Reduce target Physical Resist by 69%",
+      "description": "Reduce target Physical Resist by 69%.",
       "category": "Debuff"
     }
   }, {
@@ -19436,7 +19436,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Archer Stance α",
-      "description": "Raise your Shot Attack by 39%",
+      "description": "Raise your Shot Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -19642,7 +19642,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Dragon Fang",
-      "description": "Strike with extended arm, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 24%",
+      "description": "Strike with extended arm, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 24%.",
       "category": "Physical Shot"
     }
   }, {
@@ -19691,7 +19691,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hell Jumper",
-      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%",
+      "description": "Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "name": "Beam Glaive",
@@ -19955,7 +19955,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance α",
-      "description": "Raise your Shot Defense by 39%",
+      "description": "Raise your Shot Defense by 39%.",
       "category": "Buff"
     }
   }, {
@@ -20078,7 +20078,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Barrier Stance α",
-      "description": "Raise your Shot Defense by 39%",
+      "description": "Raise your Shot Defense by 39%.",
       "category": "Buff"
     }
   }, {
@@ -20321,7 +20321,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Railgun & Single-Mounted Cannon",
-      "description": "Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP)",
+      "description": "Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP).",
       "category": "Physical Shot"
     }
   }, {
@@ -20536,7 +20536,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Block Stance γ",
-      "description": "Raise your Melee Defense of your squad by 39%",
+      "description": "Raise your Melee Defense of your squad by 39%.",
       "category": "Buff"
     },
     "combo": "shield"
@@ -20798,7 +20798,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Offense Up α",
-      "description": "Raise Melee and Shot Attack of your Squad by 39%",
+      "description": "Raise your Melee and Shot Attack by 39%.",
       "category": "Buff"
     }
   }, {
@@ -22570,7 +22570,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%",
+      "description": "Raise your Physical Resist by 69%.",
       "category": "Buff"
     }
   }, {
@@ -22711,7 +22711,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Coat β",
-      "description": "Raise Ally Beam Resist by 49%",
+      "description": "Raise Ally Beam Resist by 49%.",
       "category": "Buff"
     }
   }, {
@@ -23042,7 +23042,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Protection α",
-      "description": "Raise your Physical Resist by 69%",
+      "description": "Raise your Physical Resist by 69%.",
       "category": "Buff"
     }
   }, {
@@ -23104,7 +23104,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Defense Hack α",
-      "description": "Reduce target Melee and Shot Defense by 39%",
+      "description": "Reduce target Melee and Shot Defense by 39%.",
       "category": "Debuff"
     }
   }]
@@ -23216,7 +23216,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Beam Saber",
-      "description": "Slay your foes with a single strike powered by your Biosensor. Raise Melee Attack of your Squad by 24%",
+      "description": "Slay your foes with a single strike powered by your Biosensor. Raise Melee Attack of your Squad by 24%.",
       "category": "Beam Melee"
     }
   }, {
@@ -23642,7 +23642,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Menace Shot",
-      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%",
+      "description": "Lowers hit Gunpla's Shot Attack & Melee Defense 14%.",
       "category": "Physical Melee"
     }
   }, {

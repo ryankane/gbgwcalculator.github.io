@@ -158,7 +158,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 157,Jegan,11-02-5-01,28,5,,2,2,7,19,570,187,187,570,570,281,81,,"Beam ranged weapon, magazine boosted 14%",,,Haro Chip Capsule
 158,Shield [Jegan],11-02-8-01,28,8,,2,2,7,19,570,0,0,570,570,462,0,41,,,,Haro Chip Capsule
 159,Geara Doga,11-03-1-01,29,1,,2,2,2,18,570,187,364,570,187,201,81,57,,,,Haro Chip Capsule
-160,Geara Doga,11-03-2-01,29,2,,2,2,2,7,754,187,187,754,364,281,0,,"When Armor is 30% or less, Buff EX Skill effect up 12%",,,Haro Chip Capsule
+160,Geara Doga,11-03-2-01,29,2,,2,2,2,7,754,187,187,754,364,281,0,,"When Armor is 30% or less, Melee DMG taken reduced by 15",,,Haro Chip Capsule
 161,Geara Doga,11-03-3-01,29,3,,2,2,2,7,187,1480,187,754,187,0,0,,"When attacking with Beam, EX Skill power boosted by 15",,,Haro Chip Capsule
 162,Geara Doga,11-03-4-01,29,4,,2,2,2,20,364,187,187,754,364,201,281,58,,,,Haro Chip Capsule
 163,Geara Doga,11-03-5-01,29,5,,2,2,2,20,364,187,187,754,364,281,201,31,,,,Haro Chip Capsule
