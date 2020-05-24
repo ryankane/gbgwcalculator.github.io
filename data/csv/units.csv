@@ -82,133 +82,133 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 81,XXXG-01W,Wing Gundam,,17,1,ウイングガンダム,4,3,1,,,,FALSE,2019-09-11,Dengeki
 82,ZGMF-X56S/α,Force Impulse Gundam,,22,1,フォースインパルスガンダム,4,1,1,,,,FALSE,2019-09-11,Dengeki
 83,ASW-G-11,Gundam Gusion,,28,3,ガンダムグシオン,3,1,2,,Event,,FALSE,2019-09-11,Dengeki
-84,GF13-017NJ,Shining Gundam,,16,1,シャイニングガンダム,4,1,1,,,,FALSE,2019-09-18,Dengeki
-85,GAT-X105,Sword Strike Gundam,,21,2,ソードストライクガンダム,3,2,2,,Event,,FALSE,2019-09-18,Dengeki
-86,侍ノ弐,Sengoku Astray Gundam,,32,1,戦国アストレイ頑駄無,4,2,1,,,,FALSE,2019-09-18,Dengeki
-87,ZGMF-X10A,Freedom Gundam,,21,7,フリーダムガンダム,4,1,1,,,,TRUE,2019-09-25,Dengeki
-88,ZGMF-X09A,Justice Gundam,,21,8,ジャスティスガンダム,4,3,1,,,,TRUE,2019-09-25,Dengeki
-89,GSX-401FW,Stargazer Gundam,,24,1,スターゲイザー,3,3,2,,Event,,FALSE,2019-09-25,Dengeki
-90,AMX-109,Mobile Kapool,,20,2,モビルカプル,1,1,4,,,,FALSE,2019-09-25,Dengeki
-91,MBF-02,Strike Rouge,IWSP,46,1,ストライクルージュ［I.W.S.P.］,3,3,2,,Arena,,FALSE,2019-10-01,Dengeki
-92,RX-80PR,Pale Rider,,5,1,ペイルライダー,4,3,1,,,,FALSE,2019-10-02,Dengeki
-93,GAT-X102,Duel Gundam (Assault Shroud),,21,10,デュエルガンダムアサルトシュラウド,4,1,1,,,,FALSE,2019-10-02,Dengeki
-94,MSN-001A1,Delta Plus,,12,7,デルタプラス,3,1,2,,Event,,FALSE,2019-10-02,Dengeki
-95,xvm-fzc,Gundam Legilis,,26,4,ガンダムレギルス,4,2,1,,,,FALSE,2019-10-09,Dengeki
-96,RX-121-2A,Gundam TR-1,Advanced Hazel w/ Optical Sensor Unit,40,1,ガンダムTR-1［アドバンスド・ヘイズル／光学センサーユニット装備］,3,2,2,,Event,,FALSE,2019-10-09,Dengeki
-97,PFF-X7/E3,EARTHREE GUNDAM,,62,1,アースリィガンダム,4,3,1,,,,FALSE,2019-10-09,Dengeki
-98,RGM-96X,Gundam F91,,13,1,ガンダムF91,4,2,1,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-99,GAT-X103,Buster Gundam,,21,99,バスターガンダム,3,1,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-100,MSM-03C,Hy-Gogg [ALT],,6,5,ハイゴッグ（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-101,MS-18E,Kämpfer [ALT],,6,6,ケンプファー（✧1）（P）,1,1,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-102,ovv-f,Gafran [ALT],,26,3,ガフラン（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-103,RGM-96X,Jesta Cannon [ALT],,12,2,ジェスタ・キャノン（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-104,RGM-89S,Stark Jegan [ALT],,12,3,スタークジェガン（✧1）（P）,1,1,4,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-105,GPB-04B,Beargguy [ALT],,31,2,ベアッガイ（✧1）（T）,1,2,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-106,EMS-10,Zudah [ALT],,37,2,ヅダ（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-107,RMS-099,Rick Dias [ALT],Quattro Bajeena Colors,8,4,リック・ディアス［クワトロ・バジーナカラー］（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-108,PMX-001,Palace Athene [ALT],,8,7,パラス・アテネ（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-109,AMX-014,Döven Wolf [ALT],,10,2,ドーベン・ウルフ（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-110,MMS-01,Serpent Custom [ALT],,18,2,サーペントカスタム（✧1）（P）,1,1,4,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-111,RX-160S,Byarlant Custom [ALT],,12,5,バイアラン・カスタム（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-112,GF13-009NF,Gundam Rose [ALT],,16,4,ガンダムローズ（✧1）（T）,1,2,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
-113,OZ-00MS,Tallgeese,Endless Waltz Ver.,18,4,トールギス［Endless Waltz版］,4,3,1,,,,FALSE,2019-10-16,Dengeki
-114,LM312V04,Victory Gundam,,15,1,ヴィクトリーガンダム,4,2,1,,,,FALSE,2019-10-16,Dengeki
-115,YAMS-132,Rozen Zulu,,12,8,ローゼン・ズール,3,2,2,,Event,,FALSE,2019-10-16,Dengeki
-116,RX-78GP01,Gundam GP01,Zephyranthes,7,1,ガンダム試作1号機［ゼフィランサス］,4,2,1,,,,FALSE,2019-10-23,Dengeki
-117,RX-78GP02A,Gundam GP02A,Physalis,7,7,ガンダム試作2号機［サイサリス］,4,1,1,,,,FALSE,2019-10-23,Dengeki
-118,AGE-1,Gundam AGE Normal,,26,1,ガンダムAGE-1 ノーマル,3,1,2,,Event,,FALSE,2019-10-23,Dengeki
-119,RX-0,Unicorn Gundam,,12,10,ユニコーンガンダム,4,3,1,,,,TRUE,2019-10-30,Dengeki
-120,NZ-666,Kshatriya,,12,9,クシャトリヤ,4,1,1,,,,TRUE,2019-10-30,Dengeki
-121,XXXG-01H,Gundam Heavyarms,,17,4,ガンダムヘビーアームズ,3,2,2,,Event,,FALSE,2019-10-30,Dengeki
-122,Sanakapool,Sanakapool,,99,8,サナカプル,3,1,1,Sanakapool Capsule,,,FALSE,2019-10-30,Dengeki
-123,ASW-G-08,Gundam Barbatos,6th Form,28,5,ガンダムバルバトス［第6形態］,4,3,1,,,,FALSE,2019-11-06,Dengeki
-124,GN-004,Gundam Nadleeh,,25,6,ガンダムナドレ,3,3,2,,Event,,FALSE,2019-11-06,Dengeki
-125,ASW-G-11,Gundam Gusion Rebake,,28,4,ガンダムグシオンリベイク,4,1,1,,,,FALSE,2019-11-06,Dengeki
-126,RX-78GP03S,Gundam GP03,Stamen,7,8,ガンダム試作3号機［ステイメン］,4,2,1,,,,FALSE,2019-11-13,Dengeki
-127,MSN-03,Jagd Doga,Quess Custom,11,4,ヤクト・ドーガ ［クェス専用］,3,2,2,,Event,,FALSE,2019-11-13,Dengeki
-128,PFF-X7/M4,MARSFOUR GUNDAM,,62,2,マーズフォーガンダム,4,1,1,,,,FALSE,2019-11-13,Dengeki
-129,GX-9900,Gundam X,,19,1,ガンダムX,4,3,1,,,,FALSE,2019-11-20,Dengeki
-130,NRX-0013,Gundam Virsago,,19,3,ガンダムヴァサーゴ,4,1,1,,,,FALSE,2019-11-20,Dengeki
-131,GAT-X105,Launcher Strike Gundam,,21,3,ランチャーストライクガンダム,3,1,2,,Event,,FALSE,2019-11-20,Dengeki
-132,GAT-X105E,Strike Noir,,24,2,ストライクノワール,3,3,2,,Event,,FALSE,2019-11-27,Dengeki
-133,MSZ-010S,Enhanced ZZ Gundam,Ver Ka.,10,3,強化型ZZガンダム［Ver.Ka］,4,1,1,,,,TRUE,2019-11-27,Dengeki
-134,FA-93-ν2HWS,Hi-ν Gundam HWS,Ver. Ka,41,1,Hi-νガンダムHWS［Ver.Ka］,4,2,1,,,,TRUE,2019-11-27,Dengeki
-135,OZ-06MS,Leo,,17,7,リーオー,1,1,4,,,,FALSE,2019-11-27,Dengeki
-136,MS-14B,High Mobility Gelgoog,Johnny Ridden,2,4,高機動型ゲルググ［ジョニー・ライデン専用］,3,2,2,,Arena,,FALSE,2019-12-01,Dengeki
-137,MBF-P03,Astray Blue Frame,,23,2,アストレイ ブルーフレーム,4,3,1,,,,FALSE,2019-12-04,Dengeki
-138,GN-003,Gundam Kyrios,,25,7,ガンダムキュリオス,3,2,2,,Event,,FALSE,2019-12-04,Dengeki
-139,PFF-X7/V2,VEETWO GUNDAM,,62,3,ヴィートルーガンダム,4,2,1,,,,FALSE,2019-12-04,Dengeki
-140,RX-78GP01Fb,Gundam GP01Fb,Zephyranthes Fb,7,6,ガンダム試作1号機フルバーニアン［ゼフィランサスFb］,4,1,1,,,,FALSE,2019-12-11,Dengeki
-141,MS-07B-3,Gouf Custom,,3,3,グフ・カスタム,3,1,2,,Event,,FALSE,2019-12-11,Dengeki
-142,ZGMF-X13A,Providence Gundam,,21,11,プロヴィデンスガンダム,4,2,1,,,,FALSE,2019-12-11,Dengeki
-143,GPB-X80-30F,Beginning 30 Gundam,,31,1,ビギニング30ガンダム,4,2,1,,,,FALSE,2019-12-18,Dengeki
-144,XM-X1,Crossbone Gundam X1,,14,1,クロスボーン・ガンダムX1,3,2,2,,Event,,FALSE,2019-12-18,Dengeki
-145,ASW-G-29,Gundam Astaroth,,63,1,ガンダムアスタロト,4,1,1,,,,FALSE,2019-12-18,Dengeki
-146,XXXG-00W0,Wing Gundam 0,Endless Waltz Ver.,18,1,ウイングガンダムゼロ［Endless Waltz版］,4,3,1,,,Christmas,FALSE,2019-12-21,Dengeki
-147,RX-79BD-1,Blue Destiny Unit-1,,4,99,ブルーディスティニー1号機,3,1,2,,Event,,FALSE,2019-12-25,Dengeki
-148,Concept-X6-1-2,Turn X,,20,3,ターンX,4,1,1,,,,TRUE,2019-12-25,Dengeki
-149,ORB-01,Akatsuki,Oowashi Pack,22,2,アカツキ［オオワシパック］,4,3,1,Akatsuki Ticket,,,FALSE,2019-12-25,Dengeki
-150,WD-M01,Turn A Gundam,,20,4,∀ガンダム,4,2,1,,,,TRUE,2019-12-25,Dengeki
-151,GAT-X105B/FP,Build Strike Gundam,Full Package,32,2,ビルドストライクガンダム［フルパッケージ］,4,2,1,,,,FALSE,2020-01-08,Dengeki
-152,MSN-02,Zeong,,1,14,ジオング,4,3,1,,,,FALSE,2020-01-08,Dengeki
-153,VGMM-Git01,Kabakali,,27,1,カバカーリー,3,2,2,,Event,,FALSE,2020-01-08,Dengeki
-154,RX-78NT-1,Gundam NT-1,,6,1,ガンダムNT-1,4,1,1,Capsule Medal,,,FALSE,2020-01-15,Dengeki
-155,AGE-2,Gundam AGE-2 Normal,,26,5,ガンダムAGE-2 ノーマル,3,2,2,,Event,,FALSE,2020-01-15,Dengeki
-156,RX-104FF,Penelope,,43,1,ペーネロペー,4,3,1,,,Update Celebration,FALSE,2020-01-15,Dengeki
-157,GF13-050NSW,Noble Gundam,,16,5,ノーベルガンダム,4,2,1,,,,FALSE,2020-01-22,Dengeki
-158,FA-78,Full Armor Gundam,Thunderbolt Ver.,38,1,フルアーマー・ガンダム［ガンダム サンダーボルト版］,4,3,1,,,,FALSE,2020-01-22,Dengeki
-159,MS-08TX［EXAM］,Efreet Custom,,4,4,イフリート改,3,3,2,,Event,,FALSE,2020-01-22,Dengeki
-160,PMX-003,The O,,8,9,ジ・O,4,2,1,,,,TRUE,2020-01-29,Dengeki
-161,GNX-Y901TW,Susanowo,,25,8,スサノオ,3,1,2,,Event,,FALSE,2020-01-29,Dengeki
-162,RX-0,Banshee,,12,11,バンシィ,4,1,1,,,,TRUE,2020-01-29,Dengeki
-163,GF13-001NHII,Master Gundam,,16,6,マスターガンダム,4,1,1,,,,FALSE,2020-02-05,Dengeki
-164,BG-011B,Build Burning Gundam,,34,1,ビルドバーニングガンダム,4,3,1,,,,FALSE,2020-02-05,Dengeki
-165,ZGMF-X88S,Gaia Gundam,,22,4,ガイアガンダム,3,3,2,,Event,,FALSE,2020-02-05,Dengeki
-166,GNT-0000/FS,00 Qan[T] Full Saber,,56,1,ダブルオークアンタフルセイバー,4,1,1,,,Valentine's Day,FALSE,2020-02-12,Dengeki
-167,GNW-20000,Arche Gundam,,25,9,アルケーガンダム,3,1,2,,Event,,FALSE,2020-02-12,Dengeki
-168,XXXG-01D2,Gundam Deathscythe Hell,Endless Waltz Ver.,18,6,ガンダムデスサイズヘル［Endless Waltz版］,4,3,1,,,,FALSE,2020-02-19,Dengeki
-169,MBF-P01-Re,Astray Gold Frame Amatsu,,23,4,アストレイ ゴールドフレーム天,4,2,1,,,,FALSE,2020-02-19,Dengeki
-170,AMX-107R,Rebawoo,,44,1,リバウ,3,2,2,,Event,,FALSE,2020-02-19,Dengeki
-171,KNIGHT GUNDAM,Knight Gundam,,42,1,騎士ガンダム,4,1,1,,,,TRUE,2020-02-26,Dengeki
-172,MSN-04,Sazabi,,11,5,サザビー,4,2,1,,,,TRUE,2020-02-26,Dengeki
-173,GNW-003,Gundam Throne Drei,,25,15,ガンダムスローネドライ,3,3,2,,Event,,FALSE,2020-02-26,Dengeki
-174,MBF-P02,Astray Red Frame,Beginner Campaign,23,1,アストレイ レッドフレーム［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-175,ZGMF-X56S/α,Force Impulse Gundam,Beginner Campaign,22,1,フォースインパルスガンダム［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-176,RX-80PR,Pale Rider,Beginner Campaign,5,1,ペイルライダー［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-177,GAT-X102,Duel Gundam (Assault Shroud),Beginner Campaign,21,10,デュエルガンダムアサルトシュラウド［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-178,GPB-X80-30F,Beginning 30 Gundam,Beginner Campaign,31,1,ビギニング30ガンダム［ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-179,RX-78GP01Fb,Gundam GP01Fb,Zephyranthes Fb / Beginner Campaign,7,6,ガンダム試作1号機フルバーニアン［ゼフィランサスFb／ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-180,NRX-0013,Gundam Virsago,Beginner Campaign,19,3,ガンダムヴァサーゴ［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-181,OZ-00MS,Tallgeese,Endless Waltz Ver. / Beginner Campaign,18,4,トールギス［Endless Waltz版／ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-182,GN-001,Gundam Exia,Beginner Campaign,25,1,ガンダムエクシア［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-183,LM312V04,Victory Gundam,Beginner Campaign,15,1,ヴィクトリーガンダム［ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
-184,MSJ-06II-SP,Tieren Taozi,,25,10,ティエレンタオツー,3,1,2,,Arena,,FALSE,2020-03-02,Dengeki
-185,最強機動,Gundam Tryon 3,,34,3,ガンダムトライオン3,4,1,1,,,,FALSE,2020-03-04,Dengeki
-186,MBF-P02Kai,Astray Red Frame Custom,,23,5,アストレイ レッドフレーム改,4,2,1,,,,FALSE,2020-03-04,Dengeki
-187,RX-178B,Build Gundam Mk-II,,32,3,ビルドガンダムMk-Ⅱ,3,3,2,,Event,,FALSE,2020-03-04,Dengeki
-188,ASW-G-08,Gundam Barbatos Lupus,,28,6,ガンダムバルバトスルプス,4,2,1,,,,FALSE,2020-03-11,Dengeki
-189,ASW-G-XX,Gundam Vidar,,28,8,ガンダムヴィダール,4,3,1,,,,FALSE,2020-03-11,Dengeki
-190,GF13-006NA,Gundam Maxter,,16,7,ガンダムマックスター,3,1,2,,Event,,FALSE,2020-03-11,Dengeki
-191,XXXG-01Wf,Wing Gundam Fenice,,32,4,ウイングガンダムフェニーチェ,4,2,1,,,,FALSE,2020-03-18,Dengeki
-192,LGZ-91,Lightning Gundam,,34,2,ライトニングガンダム,4,3,1,,,,FALSE,2020-03-18,Dengeki
-193,CAMS-05,Mack Knife,Mask,27,2,マックナイフ［マスク専用機］,3,3,2,,Event,,FALSE,2020-03-18,Dengeki
-194,ZGMF-X42S,Destiny Gundam,,22,5,デスティニーガンダム,4,1,1,,,,TRUE,2020-03-25,Dengeki
-195,YAMISYOUGUN,Yami Syougun,,42,2,闇将軍,4,3,1,,,,TRUE,2020-03-25,Dengeki
-196,GN-005,Gundam Virtue,,25,11,ガンダムヴァーチェ,3,1,2,,Event,,FALSE,2020-03-25,Dengeki
-197,ASW-G-01,Gundam Bael,,28,7,ガンダムバエル,4,2,1,,,,FALSE,2020-04-01,Dengeki
-198,XM-X2,Crossbone Gundam X2,,14,2,クロスボーン・ガンダムX2,4,1,1,,,,FALSE,2020-04-01,Dengeki
-199,EB-06/tc2,Ryusei-Go,Graze Custom II,28,9,流星号［グレイズ改弐］,3,2,2,,Event,,FALSE,2020-04-01,Dengeki
-200,AMS-123X-X,Moon Gundam,,49,1,ムーンガンダム,4,2,1,,,,FALSE,2020-04-08,Dengeki
-201,SDV-04,Command Gundam,,42,3,コマンドガンダム,3,2,2,,Event,,FALSE,2020-04-08,Dengeki
-202,GX-9901-DX,Gundam Double X,,19,4,ガンダムダブルエックス,4,3,1,,,Gundam Battle Festival,FALSE,2020-04-15,Dengeki
-203,GN-0000+GNR-010,00 Raiser,,25,13,ダブルオーライザー,4,2,1,,,Gundam Battle Festival,FALSE,2020-04-15,Dengeki
-204,ZGMF-X31S,Abyss Gundam,,22,6,アビスガンダム,3,2,2,,Event,,FALSE,2020-04-15,Dengeki
-205,Gundam Artemis,Gundam Artemis,Satellite Cannon,99,1,,2,1,1,,,,FALSE,2020-04-22,
-206,EB-06,Graze,Ground/Standard,28,10,,1,2,4,,,,FALSE,2020-04-22,
-207,AGE-FX,Gundam AGE-FX,,26,9,ガンダムAGE-FX,4,1,1,,,Gundam Battle Festival,FALSE,2020-05-13,Dengeki
-208,MBF-P03R,Astray Blue Frame 2nd Revise,,23,6,アストレイ ブルーフレームセカンドリバイ,4,3,1,,,Gundam Battle Festival,FALSE,2020-05-13,Dengeki
-209,GF13-013NR,Bolt Gundam,,16,8,ボルトガンダム,3,1,2,,Event,,FALSE,2020-05-13,Dengeki
-210,AGE-2DH,Gundam AGE-2 Dark Hound,,26,10,ガンダムAGE-2_ダークハウンド,3,3,2,,Arena,,FALSE,2020-05-18,Dengeki
-211,RX-78AL,Atlas Gundam,,38,2,アトラスガンダム,4,1,1,,,,FALSE,2020-05-20,Dengeki
-212,AGE-3F,Gundam AGE-3 Fortress,,26,11,ガンダムAGE-3_フォートレス,3,2,2,,Event,,FALSE,2020-05-20,Dengeki
-999,XXXG-01SR,Gundam Sandrock,Promotional Code,17,5,ガンダムサンドロック【プロダクトコード持典】,3,3,2,,,Promotional,FALSE,2019-09-13,
+84,XXXG-01SR,Gundam Sandrock,Promotional Code,17,5,ガンダムサンドロック【プロダクトコード持典】,3,3,2,,,Promotional,FALSE,2019-09-13,
+85,GF13-017NJ,Shining Gundam,,16,1,シャイニングガンダム,4,1,1,,,,FALSE,2019-09-18,Dengeki
+86,GAT-X105,Sword Strike Gundam,,21,2,ソードストライクガンダム,3,2,2,,Event,,FALSE,2019-09-18,Dengeki
+87,侍ノ弐,Sengoku Astray Gundam,,32,1,戦国アストレイ頑駄無,4,2,1,,,,FALSE,2019-09-18,Dengeki
+88,ZGMF-X10A,Freedom Gundam,,21,7,フリーダムガンダム,4,1,1,,,,TRUE,2019-09-25,Dengeki
+89,ZGMF-X09A,Justice Gundam,,21,8,ジャスティスガンダム,4,3,1,,,,TRUE,2019-09-25,Dengeki
+90,GSX-401FW,Stargazer Gundam,,24,1,スターゲイザー,3,3,2,,Event,,FALSE,2019-09-25,Dengeki
+91,AMX-109,Mobile Kapool,,20,2,モビルカプル,1,1,4,,,,FALSE,2019-09-25,Dengeki
+92,MBF-02,Strike Rouge,IWSP,46,1,ストライクルージュ［I.W.S.P.］,3,3,2,,Arena,,FALSE,2019-10-01,Dengeki
+93,RX-80PR,Pale Rider,,5,1,ペイルライダー,4,3,1,,,,FALSE,2019-10-02,Dengeki
+94,GAT-X102,Duel Gundam (Assault Shroud),,21,10,デュエルガンダムアサルトシュラウド,4,1,1,,,,FALSE,2019-10-02,Dengeki
+95,MSN-001A1,Delta Plus,,12,7,デルタプラス,3,1,2,,Event,,FALSE,2019-10-02,Dengeki
+96,xvm-fzc,Gundam Legilis,,26,4,ガンダムレギルス,4,2,1,,,,FALSE,2019-10-09,Dengeki
+97,RX-121-2A,Gundam TR-1,Advanced Hazel w/ Optical Sensor Unit,40,1,ガンダムTR-1［アドバンスド・ヘイズル／光学センサーユニット装備］,3,2,2,,Event,,FALSE,2019-10-09,Dengeki
+98,PFF-X7/E3,EARTHREE GUNDAM,,62,1,アースリィガンダム,4,3,1,,,,FALSE,2019-10-09,Dengeki
+99,RGM-96X,Gundam F91,,13,1,ガンダムF91,4,2,1,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+100,GAT-X103,Buster Gundam,,21,99,バスターガンダム,3,1,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+101,MSM-03C,Hy-Gogg [ALT],,6,5,ハイゴッグ（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+102,MS-18E,Kämpfer [ALT],,6,6,ケンプファー（✧1）（P）,1,1,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+103,ovv-f,Gafran [ALT],,26,3,ガフラン（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+104,RGM-96X,Jesta Cannon [ALT],,12,2,ジェスタ・キャノン（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+105,RGM-89S,Stark Jegan [ALT],,12,3,スタークジェガン（✧1）（P）,1,1,4,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+106,GPB-04B,Beargguy [ALT],,31,2,ベアッガイ（✧1）（T）,1,2,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+107,EMS-10,Zudah [ALT],,37,2,ヅダ（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+108,RMS-099,Rick Dias [ALT],Quattro Bajeena Colors,8,4,リック・ディアス［クワトロ・バジーナカラー］（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+109,PMX-001,Palace Athene [ALT],,8,7,パラス・アテネ（✧1）（T）,1,2,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+110,AMX-014,Döven Wolf [ALT],,10,2,ドーベン・ウルフ（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+111,MMS-01,Serpent Custom [ALT],,18,2,サーペントカスタム（✧1）（P）,1,1,4,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+112,RX-160S,Byarlant Custom [ALT],,12,5,バイアラン・カスタム（✧1）（S）,1,3,3,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+113,GF13-009NF,Gundam Rose [ALT],,16,4,ガンダムローズ（✧1）（T）,1,2,2,Capsule Medal,,,FALSE,2019-10-09,Dengeki
+114,OZ-00MS,Tallgeese,Endless Waltz Ver.,18,4,トールギス［Endless Waltz版］,4,3,1,,,,FALSE,2019-10-16,Dengeki
+115,LM312V04,Victory Gundam,,15,1,ヴィクトリーガンダム,4,2,1,,,,FALSE,2019-10-16,Dengeki
+116,YAMS-132,Rozen Zulu,,12,8,ローゼン・ズール,3,2,2,,Event,,FALSE,2019-10-16,Dengeki
+117,RX-78GP01,Gundam GP01,Zephyranthes,7,1,ガンダム試作1号機［ゼフィランサス］,4,2,1,,,,FALSE,2019-10-23,Dengeki
+118,RX-78GP02A,Gundam GP02A,Physalis,7,7,ガンダム試作2号機［サイサリス］,4,1,1,,,,FALSE,2019-10-23,Dengeki
+119,AGE-1,Gundam AGE Normal,,26,1,ガンダムAGE-1 ノーマル,3,1,2,,Event,,FALSE,2019-10-23,Dengeki
+120,RX-0,Unicorn Gundam,,12,10,ユニコーンガンダム,4,3,1,,,,TRUE,2019-10-30,Dengeki
+121,NZ-666,Kshatriya,,12,9,クシャトリヤ,4,1,1,,,,TRUE,2019-10-30,Dengeki
+122,XXXG-01H,Gundam Heavyarms,,17,4,ガンダムヘビーアームズ,3,2,2,,Event,,FALSE,2019-10-30,Dengeki
+123,Sanakapool,Sanakapool,,99,8,サナカプル,3,1,1,Sanakapool Capsule,,,FALSE,2019-10-30,Dengeki
+124,ASW-G-08,Gundam Barbatos,6th Form,28,5,ガンダムバルバトス［第6形態］,4,3,1,,,,FALSE,2019-11-06,Dengeki
+125,GN-004,Gundam Nadleeh,,25,6,ガンダムナドレ,3,3,2,,Event,,FALSE,2019-11-06,Dengeki
+126,ASW-G-11,Gundam Gusion Rebake,,28,4,ガンダムグシオンリベイク,4,1,1,,,,FALSE,2019-11-06,Dengeki
+127,RX-78GP03S,Gundam GP03,Stamen,7,8,ガンダム試作3号機［ステイメン］,4,2,1,,,,FALSE,2019-11-13,Dengeki
+128,MSN-03,Jagd Doga,Quess Custom,11,4,ヤクト・ドーガ ［クェス専用］,3,2,2,,Event,,FALSE,2019-11-13,Dengeki
+129,PFF-X7/M4,MARSFOUR GUNDAM,,62,2,マーズフォーガンダム,4,1,1,,,,FALSE,2019-11-13,Dengeki
+130,GX-9900,Gundam X,,19,1,ガンダムX,4,3,1,,,,FALSE,2019-11-20,Dengeki
+131,NRX-0013,Gundam Virsago,,19,3,ガンダムヴァサーゴ,4,1,1,,,,FALSE,2019-11-20,Dengeki
+132,GAT-X105,Launcher Strike Gundam,,21,3,ランチャーストライクガンダム,3,1,2,,Event,,FALSE,2019-11-20,Dengeki
+133,GAT-X105E,Strike Noir,,24,2,ストライクノワール,3,3,2,,Event,,FALSE,2019-11-27,Dengeki
+134,MSZ-010S,Enhanced ZZ Gundam,Ver Ka.,10,3,強化型ZZガンダム［Ver.Ka］,4,1,1,,,,TRUE,2019-11-27,Dengeki
+135,FA-93-ν2HWS,Hi-ν Gundam HWS,Ver. Ka,41,1,Hi-νガンダムHWS［Ver.Ka］,4,2,1,,,,TRUE,2019-11-27,Dengeki
+136,OZ-06MS,Leo,,17,7,リーオー,1,1,4,,,,FALSE,2019-11-27,Dengeki
+137,MS-14B,High Mobility Gelgoog,Johnny Ridden,2,4,高機動型ゲルググ［ジョニー・ライデン専用］,3,2,2,,Arena,,FALSE,2019-12-01,Dengeki
+138,MBF-P03,Astray Blue Frame,,23,2,アストレイ ブルーフレーム,4,3,1,,,,FALSE,2019-12-04,Dengeki
+139,GN-003,Gundam Kyrios,,25,7,ガンダムキュリオス,3,2,2,,Event,,FALSE,2019-12-04,Dengeki
+140,PFF-X7/V2,VEETWO GUNDAM,,62,3,ヴィートルーガンダム,4,2,1,,,,FALSE,2019-12-04,Dengeki
+141,RX-78GP01Fb,Gundam GP01Fb,Zephyranthes Fb,7,6,ガンダム試作1号機フルバーニアン［ゼフィランサスFb］,4,1,1,,,,FALSE,2019-12-11,Dengeki
+142,MS-07B-3,Gouf Custom,,3,3,グフ・カスタム,3,1,2,,Event,,FALSE,2019-12-11,Dengeki
+143,ZGMF-X13A,Providence Gundam,,21,11,プロヴィデンスガンダム,4,2,1,,,,FALSE,2019-12-11,Dengeki
+144,GPB-X80-30F,Beginning 30 Gundam,,31,1,ビギニング30ガンダム,4,2,1,,,,FALSE,2019-12-18,Dengeki
+145,XM-X1,Crossbone Gundam X1,,14,1,クロスボーン・ガンダムX1,3,2,2,,Event,,FALSE,2019-12-18,Dengeki
+146,ASW-G-29,Gundam Astaroth,,63,1,ガンダムアスタロト,4,1,1,,,,FALSE,2019-12-18,Dengeki
+147,XXXG-00W0,Wing Gundam 0,Endless Waltz Ver.,18,1,ウイングガンダムゼロ［Endless Waltz版］,4,3,1,,,Christmas,FALSE,2019-12-21,Dengeki
+148,RX-79BD-1,Blue Destiny Unit-1,,4,99,ブルーディスティニー1号機,3,1,2,,Event,,FALSE,2019-12-25,Dengeki
+149,Concept-X6-1-2,Turn X,,20,3,ターンX,4,1,1,,,,TRUE,2019-12-25,Dengeki
+150,ORB-01,Akatsuki,Oowashi Pack,22,2,アカツキ［オオワシパック］,4,3,1,Akatsuki Ticket,,,FALSE,2019-12-25,Dengeki
+151,WD-M01,Turn A Gundam,,20,4,∀ガンダム,4,2,1,,,,TRUE,2019-12-25,Dengeki
+152,GAT-X105B/FP,Build Strike Gundam,Full Package,32,2,ビルドストライクガンダム［フルパッケージ］,4,2,1,,,,FALSE,2020-01-08,Dengeki
+153,MSN-02,Zeong,,1,14,ジオング,4,3,1,,,,FALSE,2020-01-08,Dengeki
+154,VGMM-Git01,Kabakali,,27,1,カバカーリー,3,2,2,,Event,,FALSE,2020-01-08,Dengeki
+155,RX-78NT-1,Gundam NT-1,,6,1,ガンダムNT-1,4,1,1,Capsule Medal,,,FALSE,2020-01-15,Dengeki
+156,AGE-2,Gundam AGE-2 Normal,,26,5,ガンダムAGE-2 ノーマル,3,2,2,,Event,,FALSE,2020-01-15,Dengeki
+157,RX-104FF,Penelope,,43,1,ペーネロペー,4,3,1,,,Update Celebration,FALSE,2020-01-15,Dengeki
+158,GF13-050NSW,Noble Gundam,,16,5,ノーベルガンダム,4,2,1,,,,FALSE,2020-01-22,Dengeki
+159,FA-78,Full Armor Gundam,Thunderbolt Ver.,38,1,フルアーマー・ガンダム［ガンダム サンダーボルト版］,4,3,1,,,,FALSE,2020-01-22,Dengeki
+160,MS-08TX［EXAM］,Efreet Custom,,4,4,イフリート改,3,3,2,,Event,,FALSE,2020-01-22,Dengeki
+161,PMX-003,The O,,8,9,ジ・O,4,2,1,,,,TRUE,2020-01-29,Dengeki
+162,GNX-Y901TW,Susanowo,,25,8,スサノオ,3,1,2,,Event,,FALSE,2020-01-29,Dengeki
+163,RX-0,Banshee,,12,11,バンシィ,4,1,1,,,,TRUE,2020-01-29,Dengeki
+164,GF13-001NHII,Master Gundam,,16,6,マスターガンダム,4,1,1,,,,FALSE,2020-02-05,Dengeki
+165,BG-011B,Build Burning Gundam,,34,1,ビルドバーニングガンダム,4,3,1,,,,FALSE,2020-02-05,Dengeki
+166,ZGMF-X88S,Gaia Gundam,,22,4,ガイアガンダム,3,3,2,,Event,,FALSE,2020-02-05,Dengeki
+167,GNT-0000/FS,00 Qan[T] Full Saber,,56,1,ダブルオークアンタフルセイバー,4,1,1,,,Valentine's Day,FALSE,2020-02-12,Dengeki
+168,GNW-20000,Arche Gundam,,25,9,アルケーガンダム,3,1,2,,Event,,FALSE,2020-02-12,Dengeki
+169,XXXG-01D2,Gundam Deathscythe Hell,Endless Waltz Ver.,18,6,ガンダムデスサイズヘル［Endless Waltz版］,4,3,1,,,,FALSE,2020-02-19,Dengeki
+170,MBF-P01-Re,Astray Gold Frame Amatsu,,23,4,アストレイ ゴールドフレーム天,4,2,1,,,,FALSE,2020-02-19,Dengeki
+171,AMX-107R,Rebawoo,,44,1,リバウ,3,2,2,,Event,,FALSE,2020-02-19,Dengeki
+172,KNIGHT GUNDAM,Knight Gundam,,42,1,騎士ガンダム,4,1,1,,,,TRUE,2020-02-26,Dengeki
+173,MSN-04,Sazabi,,11,5,サザビー,4,2,1,,,,TRUE,2020-02-26,Dengeki
+174,GNW-003,Gundam Throne Drei,,25,15,ガンダムスローネドライ,3,3,2,,Event,,FALSE,2020-02-26,Dengeki
+175,MBF-P02,Astray Red Frame,Beginner Campaign,23,1,アストレイ レッドフレーム［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+176,ZGMF-X56S/α,Force Impulse Gundam,Beginner Campaign,22,1,フォースインパルスガンダム［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+177,RX-80PR,Pale Rider,Beginner Campaign,5,1,ペイルライダー［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+178,GAT-X102,Duel Gundam (Assault Shroud),Beginner Campaign,21,10,デュエルガンダムアサルトシュラウド［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+179,GPB-X80-30F,Beginning 30 Gundam,Beginner Campaign,31,1,ビギニング30ガンダム［ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+180,RX-78GP01Fb,Gundam GP01Fb,Zephyranthes Fb / Beginner Campaign,7,6,ガンダム試作1号機フルバーニアン［ゼフィランサスFb／ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+181,NRX-0013,Gundam Virsago,Beginner Campaign,19,3,ガンダムヴァサーゴ［ビギナーキャンペーン］（✧1）（T）,1,2,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+182,OZ-00MS,Tallgeese,Endless Waltz Ver. / Beginner Campaign,18,4,トールギス［Endless Waltz版／ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+183,GN-001,Gundam Exia,Beginner Campaign,25,1,ガンダムエクシア［ビギナーキャンペーン］（✧1）（P）,1,1,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+184,LM312V04,Victory Gundam,Beginner Campaign,15,1,ヴィクトリーガンダム［ビギナーキャンペーン］（✧1）（S）,1,3,1,,Beginner Coin,,FALSE,2020-02-26,Dengeki
+185,MSJ-06II-SP,Tieren Taozi,,25,10,ティエレンタオツー,3,1,2,,Arena,,FALSE,2020-03-02,Dengeki
+186,最強機動,Gundam Tryon 3,,34,3,ガンダムトライオン3,4,1,1,,,,FALSE,2020-03-04,Dengeki
+187,MBF-P02Kai,Astray Red Frame Custom,,23,5,アストレイ レッドフレーム改,4,2,1,,,,FALSE,2020-03-04,Dengeki
+188,RX-178B,Build Gundam Mk-II,,32,3,ビルドガンダムMk-Ⅱ,3,3,2,,Event,,FALSE,2020-03-04,Dengeki
+189,ASW-G-08,Gundam Barbatos Lupus,,28,6,ガンダムバルバトスルプス,4,2,1,,,,FALSE,2020-03-11,Dengeki
+190,ASW-G-XX,Gundam Vidar,,28,8,ガンダムヴィダール,4,3,1,,,,FALSE,2020-03-11,Dengeki
+191,GF13-006NA,Gundam Maxter,,16,7,ガンダムマックスター,3,1,2,,Event,,FALSE,2020-03-11,Dengeki
+192,XXXG-01Wf,Wing Gundam Fenice,,32,4,ウイングガンダムフェニーチェ,4,2,1,,,,FALSE,2020-03-18,Dengeki
+193,LGZ-91,Lightning Gundam,,34,2,ライトニングガンダム,4,3,1,,,,FALSE,2020-03-18,Dengeki
+194,CAMS-05,Mack Knife,Mask,27,2,マックナイフ［マスク専用機］,3,3,2,,Event,,FALSE,2020-03-18,Dengeki
+195,ZGMF-X42S,Destiny Gundam,,22,5,デスティニーガンダム,4,1,1,,,,TRUE,2020-03-25,Dengeki
+196,YAMISYOUGUN,Yami Syougun,,42,2,闇将軍,4,3,1,,,,TRUE,2020-03-25,Dengeki
+197,GN-005,Gundam Virtue,,25,11,ガンダムヴァーチェ,3,1,2,,Event,,FALSE,2020-03-25,Dengeki
+198,ASW-G-01,Gundam Bael,,28,7,ガンダムバエル,4,2,1,,,,FALSE,2020-04-01,Dengeki
+199,XM-X2,Crossbone Gundam X2,,14,2,クロスボーン・ガンダムX2,4,1,1,,,,FALSE,2020-04-01,Dengeki
+200,EB-06/tc2,Ryusei-Go,Graze Custom II,28,9,流星号［グレイズ改弐］,3,2,2,,Event,,FALSE,2020-04-01,Dengeki
+201,AMS-123X-X,Moon Gundam,,49,1,ムーンガンダム,4,2,1,,,,FALSE,2020-04-08,Dengeki
+202,SDV-04,Command Gundam,,42,3,コマンドガンダム,3,2,2,,Event,,FALSE,2020-04-08,Dengeki
+203,GX-9901-DX,Gundam Double X,,19,4,ガンダムダブルエックス,4,3,1,,,Gundam Battle Festival,FALSE,2020-04-15,Dengeki
+204,GN-0000+GNR-010,00 Raiser,,25,13,ダブルオーライザー,4,2,1,,,Gundam Battle Festival,FALSE,2020-04-15,Dengeki
+205,ZGMF-X31S,Abyss Gundam,,22,6,アビスガンダム,3,2,2,,Event,,FALSE,2020-04-15,Dengeki
+206,Gundam Artemis,Gundam Artemis,Satellite Cannon,99,1,,2,1,1,,,,FALSE,2020-04-22,
+207,EB-06,Graze,Ground/Standard,28,10,,1,2,4,,,,FALSE,2020-04-22,
+208,AGE-FX,Gundam AGE-FX,,26,9,ガンダムAGE-FX,4,1,1,,,Gundam Battle Festival,FALSE,2020-05-13,Dengeki
+209,MBF-P03R,Astray Blue Frame 2nd Revise,,23,6,アストレイ ブルーフレームセカンドリバイ,4,3,1,,,Gundam Battle Festival,FALSE,2020-05-13,Dengeki
+210,GF13-013NR,Bolt Gundam,,16,8,ボルトガンダム,3,1,2,,Event,,FALSE,2020-05-13,Dengeki
+211,AGE-2DH,Gundam AGE-2 Dark Hound,,26,10,ガンダムAGE-2_ダークハウンド,3,3,2,,Arena,,FALSE,2020-05-18,Dengeki
+212,RX-78AL,Atlas Gundam,,38,2,アトラスガンダム,4,1,1,,,,FALSE,2020-05-20,Dengeki
+213,AGE-3F,Gundam AGE-3 Fortress,,26,11,ガンダムAGE-3_フォートレス,3,2,2,,Event,,FALSE,2020-05-20,Dengeki
