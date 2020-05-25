@@ -22,8 +22,8 @@ Index,Name,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Sho
 21,Haro,1,1,ハロ,1,2,12,26,287,138,138,287,287,194,194,EX Skill recovery boosted by 110,1,2,3,,,2019-07-31,Dengeki
 22,Akahana,1,19,アカハナ,2,2,4,17,755,187,187,364,364,281,81,"With Technique attribute (self), EX Skill recovery boosted 18%",7,1,1,,,2019-07-31,Dengeki
 23,Apolly Bay,8,1,アポリー・ベイ,2,2,9,15,363,363,363,363,363,280,80,"With Technique attribute (self), Strong Melee DMG output boosted 15%",4,2,3,,,2019-07-31,Dengeki
-24,Hayato Kobayashi,1,6,ハヤト・コバヤシ,2,2,8,16,570,364,187,364,570,201,201,10% chance to prevent Vernier consumption when stepping,6,3,1,,,2019-07-31,Dengeki
-25,Heero Yuy (Pre-Registration Reward),17,2,ヒイロ・ユイ【事前登録報酬】,2,2,12,13,570,187,570,364,364,281,81,10% chance to prevent Vernier consumption when stepping,2,3,2,,,2019-07-31,Dengeki
+24,Hayato Kobayashi,1,6,ハヤト・コバヤシ,2,2,8,16,570,364,187,364,570,201,201,20% chance to prevent vernier consumption when stepping,6,3,1,,,2019-07-31,Dengeki
+25,Heero Yuy (Pre-Registration Reward),17,2,ヒイロ・ユイ【事前登録報酬】,2,2,12,13,570,187,570,364,364,281,81,20% chance to prevent vernier consumption when stepping,2,3,2,,,2019-07-31,Dengeki
 26,Mash,1,17,マッシュ,2,2,11,23,570,364,187,364,570,281,81,EX Skill piercing boosted 16%,4,2,2,,,2019-07-31,Dengeki
 27,Roberto,8,2,ロベルト,2,2,9,20,363,363,363,363,363,80,280,"With Technique attribute (self), Debuff EX Skill effect up 12%",3,2,1,,,2019-07-31,Dengeki
 28,Ryu Jose,1,7,リュウ・ホセイ,2,2,8,16,570,187,570,364,364,201,201,"With Technique attribute (self), Buff EX Skill time up 15%",2,3,2,,,2019-07-31,Dengeki
@@ -50,17 +50,17 @@ Index,Name,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Sho
 49,Patrick Colasour,25,1,パトリック・コーラサワー,3,1,2,24,1144,292,292,558,558,127,430,"With Power attribute (self), Buff EX Skill effect up 15%",5,2,1,,,2019-09-17,Dengeki
 50,George de Sand,16,4,ジョルジュ・ド・サンド,4,2,14,8,795,382,382,1179,1179,609,211,"With Technique attribute (self), EX Skill CD reduced 20%",4,3,1,,,2019-09-17,Dengeki
 51,Sayla Mass,1,4,セイラ・マス,3,3,15,26,1144,292,292,558,558,430,127,"With Speed attribute (self), Vernier consumption reduced 15%",7,2,3,,,2019-09-25,Dengeki
-52,Duo Maxwell,17,3,デュオ・マックスウェル,4,3,6,23,796,1602,384,796,796,213,417,"With Speed attribute (self), 20% chance to not recoil",3,1,2,,,2019-09-25,Dengeki
+52,Duo Maxwell,17,3,デュオ・マックスウェル,4,3,6,23,796,1602,384,796,796,213,417,"With Speed attribute (self), 33% chance to not recoil",3,1,2,,,2019-09-25,Dengeki
 53,Cagalli Yula Athha,21,13,カガリ・ユラ・アスハ,3,3,25,7,559,294,893,893,559,432,129,"With Speed attribute (self), Projectile speed boosted 14%",5,2,3,,Arena,2019-10-01,Dengeki
 54,Sven Cal Bayang,24,2,スウェン・カル・バヤン,3,3,9,20,889,889,291,558,558,302,302,"With Speed attribute (self), Initial EX Skill charge boosted 12%",4,2,3,,Arena,2019-10-01,Dengeki
 55,Kamille Bidan,8,5,カミーユ・ビダン,4,3,1,6,796,796,796,796,796,417,417,"With Speed attribute (self), EX Skill piercing boosted 28%",5,2,2,,,2019-10-02,Dengeki
 56,Elle Vianno,10,3,エル・ビアンノ,3,2,24,15,561,893,294,561,893,215,215,"With Technique attribute (self), EX Skill recovery boosted 16%",4,2,3,,,2019-10-02,Dengeki
-57,Yazan Gable,8,8,ヤザン・ゲーブル,3,1,16,12,891,558,292,891,558,430,127,"With Power attribute (self), 20% chance to not recoil",3,1,2,,,2019-10-09,Dengeki
+57,Yazan Gable,8,8,ヤザン・ゲーブル,3,1,16,12,891,558,292,891,558,430,127,"With Power attribute (self), 28% chance to not recoil",3,1,2,,,2019-10-09,Dengeki
 58,Haman Karn,8,11,ハマーン・カーン,4,1,5,17,796,384,1602,796,796,417,213,"With Power attribute (self), Job Gauge increase boosted 17%",6,2,2,,,2019-10-09,Dengeki
 59,Emma Sheen,8,7,エマ・シーン,3,1,7,13,559,294,893,893,559,129,432,"With Power attribute (self), Debuff EX Skill effect up 15%",5,2,1,,,2019-10-16,Dengeki
 60,Chang Wufei,17,4,張五飛,4,2,6,3,1181,1181,384,796,796,417,417,"With Technique attribute (self), Strong Melee DMG output boosted by 35",3,1,2,,,2019-10-16,Dengeki
 61,Marida Cruz,12,1,マリーダ・クルス,3,1,17,26,561,893,294,561,893,215,215,"With Power attribute (self), Long Shot Attack raised 14%",6,2,1,,,2019-10-23,Dengeki
-62,Athrun Zala,21,5,アスラン・ザラ,4,3,12,7,799,1182,384,799,1182,612,213,20% chance to prevent Vernier consumption when stepping,3,1,2,,,2019-10-23,Dengeki
+62,Athrun Zala,21,5,アスラン・ザラ,4,3,12,7,799,1182,384,799,1182,612,213,50% chance to prevent vernier consumption when stepping,3,1,2,,,2019-10-23,Dengeki
 63,Shinn Asuka,22,1,シン・アスカ,4,1,9,1,797,1181,1181,797,797,418,213,Initial EX Skill charge boosted 15%,4,1,1,,,2019-10-30,Dengeki
 64,Elpeo Ple,10,1,エルピー・プル,3,2,20,8,559,294,893,893,559,432,129,"With Technique attribute (self), Vernier recovery rate boosted 16%",6,2,1,,,2019-10-30,Dengeki
 65,Trowa Barton,17,5,トロワ・バートン,3,2,25,10,891,292,891,558,558,302,302,"All ranged weapon, magazine boosted 14%",5,3,2,,Event,2019-10-30,Dengeki
@@ -113,7 +113,7 @@ Index,Name,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Sho
 112,Quess Paraya,11,2,クェス・パラヤ,3,2,10,20,558,291,291,889,889,428,126,"With Technique attribute (self), 14% chance to survive a fatal blow",6,3,3,,,2020-03-25,Dengeki
 113,Tieria Erde,25,8,ティエリア・アーデ,3,1,13,10,559,292,1144,559,559,303,303,"All ranged weapon, magazine boosted 14%",6,3,3,,Event,2020-03-25,Dengeki
 114,Heero Yuy,17,1,ヒイロ・ユイ,4,3,10,12,796,384,1602,796,796,417,213,"With Speed attribute (self), All DMG output boosted by 35",6,3,1,,,2020-04-01,Dengeki
-115,Angelo Sauper,12,2,アンジェロ・ザウパー,3,2,17,20,558,558,558,558,558,302,302,12% chance of attacks penetrating super armor,4,1,2,,,2020-04-01,Dengeki
+115,Angelo Sauper,12,2,アンジェロ・ザウパー,3,2,17,20,558,558,558,558,558,302,302,21% chance of attacks penetrating super armor,4,1,2,,,2020-04-01,Dengeki
 116,Loran Cehack,20,4,ロラン・セアック,4,2,1,10,797,1181,1181,797,797,418,213,"With Technique attribute (self), Enemy All Power reduced 18%",4,1,3,,,2020-04-08,Dengeki
 117,Jamil Neate,19,2,ジャミル・ニート,3,1,5,13,558,558,558,558,558,126,428,"With Power attribute (self), Enemy Shooting power reduced 25%",2,2,1,,,2020-04-08,Dengeki
 118,Master Asia,16,7,マスター・アジア,4,1,14,6,799,1756,156,799,799,290,290,"While ""Mobile Fighter"", All DMG output boosted by 35",3,1,1,,,2020-04-15,Dengeki

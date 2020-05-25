@@ -132,7 +132,7 @@
   "wt": ["Zeon", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "12% chance of attacks penetrating super armor"
+    "name": "21% chance of attacks penetrating super armor"
   }
 }, {
   "name": "Apolly Bay",
@@ -200,7 +200,7 @@
   "wt": ["Transformer", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "20% chance to prevent Vernier consumption when stepping"
+    "name": "50% chance to prevent vernier consumption when stepping"
   }
 }, {
   "name": "Auel Neider",
@@ -472,7 +472,7 @@
   "wt": ["Close Combat", "For Forest"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed attribute (self), 20% chance to not recoil"
+    "name": "With Speed attribute (self), 33% chance to not recoil"
   }
 }, {
   "name": "Eledore Massis",
@@ -795,7 +795,7 @@
   "wt": ["Long-Range", "Federation"],
   "ex": {
     "type": "Part Traits",
-    "name": "10% chance to prevent Vernier consumption when stepping"
+    "name": "20% chance to prevent vernier consumption when stepping"
   }
 }, {
   "name": "Heero Yuy",
@@ -829,7 +829,7 @@
   "wt": ["Transformer", "Gundam Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "10% chance to prevent Vernier consumption when stepping"
+    "name": "20% chance to prevent vernier consumption when stepping"
   }
 }, {
   "name": "Heine Westenfluss",
@@ -2053,7 +2053,7 @@
   "wt": ["Federation", "Transformer"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Power attribute (self), 20% chance to not recoil"
+    "name": "With Power attribute (self), 28% chance to not recoil"
   }
 }, {
   "name": "Yuu Kajima",

@@ -1014,7 +1014,7 @@
     "wt": ["Close Combat", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "12% chance of attacks penetrating super armor"
+      "name": "21% chance of attacks penetrating super armor"
     },
     "name": "GN Buster Sword [Arche]",
     "type": "Physical",
@@ -2287,7 +2287,7 @@
     "wt": ["Gundam Type", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance of attacks penetrating super armor"
+      "name": "26% chance of attacks penetrating super armor"
     },
     "name": "Beam Saber [Beginning 30]",
     "type": "Beam",
@@ -2483,7 +2483,7 @@
     "wt": ["High Mobility", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance to prevent Vernier consumption when stepping"
+      "name": "35% chance to prevent vernier consumption when stepping"
     }
   }]
 }, {
@@ -3652,7 +3652,7 @@
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "12% chance of attacks penetrating super armor"
+      "name": "21% chance of attacks penetrating super armor"
     }
   }, {
     "part": "legs",
@@ -5092,7 +5092,7 @@
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 40% or less, 13% chance to not recoil"
+      "name": "When Armor is 40% or less, 28% chance to not recoil"
     }
   }, {
     "part": "back",
@@ -5386,7 +5386,7 @@
     "wt": ["Protag.", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance of attacks penetrating super armor"
+      "name": "26% chance of attacks penetrating super armor"
     }
   }, {
     "part": "legs",
@@ -6390,7 +6390,7 @@
     "wt": ["Transformer", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed attribute (self), 13% chance to not recoil"
+      "name": "With Speed attribute (self), 28% chance to not recoil"
     }
   }, {
     "part": "back",
@@ -7726,7 +7726,7 @@
     "wt": ["Ace Excl.", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "10% chance of attacks penetrating super armor"
+      "name": "15% chance of attacks penetrating super armor"
     },
     "name": "GN Beam Saber [GN-X]",
     "type": "Beam",
@@ -10259,7 +10259,7 @@
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance of attacks penetrating super armor"
+      "name": "26% chance of attacks penetrating super armor"
     },
     "name": "Twin Maces",
     "type": "Physical",
@@ -12386,7 +12386,7 @@
     "wt": ["Mobile Fighter", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self), 13% chance to not recoil"
+      "name": "With Power attribute (self), 28% chance to not recoil"
     }
   }]
 }, {
@@ -13001,7 +13001,7 @@
     "wt": ["Heavy Armor", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "When Armor is 60% or more, 13% chance to not recoil"
+      "name": "When Armor is 60% or more, 28% chance to not recoil"
     }
   }]
 }, {
@@ -13910,7 +13910,7 @@
     "wt": ["Federation", "Transformer"],
     "ex": {
       "type": "Part Traits",
-      "name": "20% chance to prevent Vernier consumption when stepping"
+      "name": "50% chance to prevent vernier consumption when stepping"
     }
   }, {
     "part": "melee",
@@ -14191,7 +14191,7 @@
     "wt": ["Protag.", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance of attacks penetrating super armor"
+      "name": "26% chance of attacks penetrating super armor"
     }
   }, {
     "part": "legs",
@@ -14206,7 +14206,7 @@
     "wt": ["Protag.", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "20% chance to not recoil"
+      "name": "30% chance to not recoil"
     }
   }, {
     "part": "back",
@@ -18875,7 +18875,7 @@
     "wt": ["Ace Excl.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "12% chance of attacks penetrating super armor"
+      "name": "21% chance of attacks penetrating super armor"
     }
   }, {
     "part": "legs",
@@ -19658,7 +19658,7 @@
     "wt": ["Close Combat", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Technique attribute (self), 20% chance to not recoil"
+      "name": "With Technique attribute (self), 33% chance to not recoil"
     }
   }, {
     "part": "back",
@@ -19800,7 +19800,7 @@
     "wt": ["Mobile Fighter", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "In-Fighter Job, 20% chance to not recoil"
+      "name": "In-Fighter Job, 33% chance to not recoil"
     }
   }]
 }, {
@@ -20232,7 +20232,7 @@
     "wt": ["Gundam Type", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "12% chance of attacks penetrating super armor"
+      "name": "21% chance of attacks penetrating super armor"
     },
     "name": "Fragarach 3-Beam Blade",
     "type": "Beam",
@@ -20464,7 +20464,7 @@
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "15% chance to prevent Vernier consumption when stepping"
+      "name": "35% chance to prevent vernier consumption when stepping"
     }
   }, {
     "part": "melee",
@@ -20659,7 +20659,7 @@
     "wt": ["High Mobility", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, 13% chance to not recoil"
+      "name": "With Saber Category equipped, 28% chance to not recoil"
     }
   }, {
     "part": "back",
