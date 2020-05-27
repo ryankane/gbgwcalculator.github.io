@@ -239,7 +239,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 238,Double Saber Shear,A furry of invisible blows from the saber on your forearm.,3,B,D,,,21,3
 239,Rose Screamer,Deploy the Rose Bits to enclose foes in an electrified space. Stuns enemies for a set period of time.,1,,,,,60,15
 240,Dober Gun,Bathe foes in beams from the Dober gun on your shoulder.,1,A,D,,,60,15
-241,Vertical Saber Spin,"Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%.",3,A,D,,,21,3
+241,Vertical Saber Spin,"Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",3,A,D,,,21,3
 242,Mega Particle Cannon (Incom),Detach and launch your forearm to shoot at a locked-on target.,1,D,B+,,,21,6
 243,Psycho Jammer,"Launch Psycho Jammer, erecting a force field around locked-on target and suppressing movement within.",1,,,,,60,15
 244,Triple-Barrel Mega Particle Cannon,Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield.,1,A-,D,,,60,15
@@ -449,3 +449,12 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 448,Sub Leg [Flight Form],"Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",4,A+,D,,,19,2
 449,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,B-,,,19,2
 450,Fortress Four Booster,"Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",1,D,B-,,,60,15
+451,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.,6,,,51,,60,12
+452,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,1,A+,C-,,,60,6
+453,Reborns Cannon Mode,Perform a combo with your GN Fin Fangs and blow enemies away with your GN Cannon. Raise speed of your Squad 20%. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+454,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,3,A+,C-,,,60,6
+455,Wings of Light,"Increase Minovsky Drive output and rush towards enemies, using your wings of light as beam sabers. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",3,A+,C,,,79,8
+456,CIWS,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.,2,B+,D,,7,60,0
+457,Beam Claw,Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%.,3,A,D,,,21,3
+458,Callidus Kai Dual Phase Beam Cannons,Fire away with the high-energy Callidus Kai Dual Phase Beam Cannons on your back.,1,A-,D,,,60,15
+459,Picus,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while firing.,2,B+,D,,7,60,0

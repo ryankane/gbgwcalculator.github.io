@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: May 25, 2020 at 06:30 PM
+-- Generation Time: May 27, 2020 at 05:56 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.11
 
@@ -148,7 +148,8 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 (35, 'Supreme Commander of G-ARMS', 'G-ARMS Coin', 0, '2020-04-08'),
 (36, 'Deity of the Deep', 'Deep Coin', 1, '2020-04-15'),
 (37, 'Fists of Iron', 'Iron Coin', 1, '2020-05-13'),
-(38, 'The Roving Azure Fortress', 'Fortress Device A', 0, '2020-05-20');
+(38, 'The Roving Azure Fortress', 'Fortress Device A', 0, '2020-05-20'),
+(39, 'Chaotic Assault', 'Chaotic Chips', 0, '2020-05-27');
 
 -- --------------------------------------------------------
 
@@ -197,7 +198,7 @@ CREATE TABLE IF NOT EXISTS `ex_skill` (
   `cooldown_initial` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_ExSkillCategoryId` (`ex_category_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=451 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=460 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `ex_skill`
@@ -444,7 +445,7 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 (238, 'Double Saber Shear', 'A furry of invisible blows from the saber on your forearm.', 3, 'B', 'D', NULL, NULL, 21, 3),
 (239, 'Rose Screamer', 'Deploy the Rose Bits to enclose foes in an electrified space. Stuns enemies for a set period of time.', 1, NULL, NULL, NULL, NULL, 60, 15),
 (240, 'Dober Gun', 'Bathe foes in beams from the Dober gun on your shoulder.', 1, 'A', 'D', NULL, NULL, 60, 15),
-(241, 'Vertical Saber Spin', 'Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla\'s Beam Resist by 39%.', 3, 'A', 'D', NULL, NULL, 21, 3),
+(241, 'Vertical Saber Spin', 'Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla\'s Beam Resist by 39%.', 3, 'A', 'D', NULL, NULL, 21, 3),
 (242, 'Mega Particle Cannon (Incom)', 'Detach and launch your forearm to shoot at a locked-on target.', 1, 'D', 'B+', NULL, NULL, 21, 6),
 (243, 'Psycho Jammer', 'Launch Psycho Jammer, erecting a force field around locked-on target and suppressing movement within.', 1, NULL, NULL, NULL, NULL, 60, 15),
 (244, 'Triple-Barrel Mega Particle Cannon', 'Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield.', 1, 'A-', 'D', NULL, NULL, 60, 15),
@@ -654,7 +655,16 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 (447, 'Anchor Shot', 'Discharge the anchor mounted on your arm.', 4, 'D', 'C', NULL, NULL, 21, 3),
 (448, 'Sub Leg [Flight Form]', 'Activate your sub legs\' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla\'s Melee Defense by 19%.', 4, 'A+', 'D', NULL, NULL, 19, 2),
 (449, 'Shield Bash', 'Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla\'s Melee Attack by 19%.', 4, 'B+', 'B-', NULL, NULL, 19, 2),
-(450, 'Fortress Four Booster', 'Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.', 1, 'D', 'B-', NULL, NULL, 60, 15);
+(450, 'Fortress Four Booster', 'Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.', 1, 'D', 'B-', NULL, NULL, 60, 15),
+(451, 'Trans-Am', 'Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.', 6, NULL, NULL, 51, NULL, 60, 12),
+(452, 'Small GN Fin Fangs', 'Launch GN Fin Fangs at foes in all directions. You can move while this is active.', 1, 'A+', 'C-', NULL, NULL, 60, 6),
+(453, 'Reborns Cannon Mode', 'Perform a combo with your GN Fin Fangs and blow enemies away with your GN Cannon. Raise speed of your Squad 20%. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.', 1, 'D', 'A', NULL, NULL, 79, 20),
+(454, 'Small GN Fin Fangs', 'Launch GN Fin Fangs at foes in all directions. You can move while this is active.', 3, 'A+', 'C-', NULL, NULL, 60, 6),
+(455, 'Wings of Light', 'Increase Minovsky Drive output and rush towards enemies, using your wings of light as beam sabers. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.', 3, 'A+', 'C', NULL, NULL, 79, 8),
+(456, 'CIWS', 'Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.', 2, 'B+', 'D', NULL, 7, 60, 0),
+(457, 'Beam Claw', 'Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%.', 3, 'A', 'D', NULL, NULL, 21, 3),
+(458, 'Callidus Kai Dual Phase Beam Cannons', 'Fire away with the high-energy Callidus Kai Dual Phase Beam Cannons on your back.', 1, 'A-', 'D', NULL, NULL, 60, 15),
+(459, 'Picus', 'Fire the close-range defense system in your chest at foes straight ahead. You can move freely while firing.', 2, 'B+', 'D', NULL, 7, 60, 0);
 
 -- --------------------------------------------------------
 
@@ -722,7 +732,7 @@ CREATE TABLE IF NOT EXISTS `part` (
   KEY `FK_PartWeaponTypeId` (`weapon_type_id`),
   KEY `FK_PartWordTag1Id` (`word_tag_1_id`),
   KEY `FK_PartWordTag2Id` (`word_tag_2_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1350 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1372 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `part`
@@ -2081,7 +2091,30 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1346, 'Gundam AGE-3 Fortress', '26-11-2-01', 213, 2, NULL, 3, 2, 10, 8, 893, 294, 294, 1146, 559, 432, 0, NULL, 'Long-Shooter Job, Shooting power boosted 25%', NULL, NULL, 'Fortress Device A (Event)'),
 (1347, 'Gundam AGE-3 Fortress', '26-11-3-01', 213, 3, 8, 3, 2, 10, 21, 1146, 1438, 294, 2305, 1146, 594, 129, 450, NULL, NULL, NULL, 'Fortress Device A (Event)'),
 (1348, 'Gundam AGE-3 Fortress', '26-11-4-01', 213, 4, NULL, 3, 2, 10, 21, 559, 294, 559, 893, 294, 432, 303, NULL, 'When Shot ATK is over 16000, Projectile speed boosted 14%', NULL, NULL, 'Fortress Device A (Event)'),
-(1349, 'Gundam AGE-3 Fortress', '26-11-5-01', 213, 5, NULL, 3, 2, 10, 24, 559, 294, 294, 1146, 294, 432, 303, NULL, 'When 2 enemies shot down, Vernier consumption=0 for 10 sec.', NULL, NULL, 'Fortress Device A (Event)');
+(1349, 'Gundam AGE-3 Fortress', '26-11-5-01', 213, 5, NULL, 3, 2, 10, 24, 559, 294, 294, 1146, 294, 432, 303, NULL, 'When 2 enemies shot down, Vernier consumption=0 for 10 sec.', NULL, NULL, 'Fortress Device A (Event)'),
+(1350, 'Reborns Gundam', '25-16-1-01', 214, 1, NULL, 4, 1, 13, 10, 0, 378, 3538, 551, 965, 207, 207, NULL, 'With Power attribute (self), Boost Funnel uptime by 50%', NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1351, 'Reborns Gundam', '25-16-2-01', 214, 2, NULL, 4, 1, 13, 6, 1732, 719, 1422, 0, 1355, 491, 491, NULL, 'Long-Shooter Job, Shooting power boosted 30%', NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1352, 'Reborns Gundam', '25-16-3-01', 214, 3, NULL, 4, 1, 13, 6, 1885, 719, 1165, 551, 965, 318, 318, 451, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1353, 'Reborns Gundam', '25-16-4-01', 214, 4, NULL, 4, 1, 13, 10, 965, 551, 965, 965, 1355, 464, 464, 452, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1354, 'Reborns Gundam', '25-16-5-01', 214, 5, NULL, 4, 1, 13, 12, 378, 551, 965, 965, 1732, 554, 554, 453, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1355, 'Large GN Beam Saber', '25-16-6c-01', 214, 6, NULL, 4, 1, 13, 6, 1355, 2521, 0, 0, 0, 554, 554, NULL, 'Before 15s pass, EX Skill power boosted 30%', 1, 5, 'Haro Chip Capsule (Sokai Festival)'),
+(1356, 'GN Buster Rifle', '25-16-7a-01', 214, 7, NULL, 4, 1, 13, 10, 551, 0, 3952, 0, 965, 382, 382, NULL, 'When buffed, Reduce Cooldown by 50% once.', 1, 8, 'Haro Chip Capsule (Sokai Festival)'),
+(1357, 'GN Shield [Reborns]', '25-16-8-01', 214, 8, NULL, 4, 1, 13, 12, 551, 0, 1165, 551, 1732, 464, 464, 454, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1358, 'V2 Gundam', '15-02-1-01', 215, 1, NULL, 4, 3, 13, 9, 965, 720, 2754, 553, 553, 464, 284, 3, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1359, 'V2 Gundam', '15-02-2-01', 215, 2, NULL, 4, 3, 13, 9, 1734, 1098, 789, 965, 965, 673, 0, NULL, 'With Rifle category equipped, Buff EX Skill effect up 22%', NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1360, 'V2 Gundam', '15-02-3-01', 215, 3, 8, 4, 3, 13, 9, 1887, 4177, 1586, 1508, 1508, 1082, 0, 241, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)');
+INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `part_augment_type_id`, `rarity`, `attribute_id`, `word_tag_1_id`, `word_tag_2_id`, `armor`, `melee_attack`, `shot_attack`, `melee_defense`, `shot_defense`, `beam_resistance`, `physical_resistance`, `ex_skill_id`, `trait`, `weapon_type_id`, `weapon_category_id`, `notes`) VALUES
+(1361, 'V2 Gundam', '15-02-4-01', 215, 4, NULL, 4, 3, 13, 1, 965, 1098, 379, 965, 965, 464, 673, NULL, 'While \"Protag.\", Enemy Melee power reduced 30%', NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1362, 'V2 Gundam', '15-02-5-01', 215, 5, NULL, 4, 3, 13, 1, 965, 1098, 379, 965, 965, 673, 464, 455, NULL, NULL, NULL, 'Haro Chip Capsule (Sokai Festival)'),
+(1363, 'Beam Rifle [V2]', '15-02-7a-01', 215, 7, NULL, 4, 3, 13, 1, 720, 154, 3543, 0, 0, 464, 284, NULL, 'With Speed attribute (self), EX Skill power boosted 30%', 1, 8, 'Haro Chip Capsule (Sokai Festival)'),
+(1364, 'Chaos Gundam', '22-07-1-01', 216, 1, NULL, 3, 1, 7, 13, 559, 294, 2000, 559, 294, 53, 53, NULL, 'Middle-Shooter Job, EX Skill DMG output boosted by 20', NULL, NULL, 'Chaotic Chips (Event)'),
+(1365, 'Chaos Gundam', '22-07-2-01', 216, 2, NULL, 3, 1, 7, 13, 893, 294, 294, 1147, 559, 215, 215, 456, NULL, NULL, NULL, 'Chaotic Chips (Event)'),
+(1366, 'Chaos Gundam', '22-07-3-01', 216, 3, NULL, 3, 1, 7, 9, 559, 1440, 294, 893, 559, 0, 0, NULL, 'When 2 enemies shot down, Boost Job Gauge by 40% once.', NULL, NULL, 'Chaotic Chips (Event)'),
+(1367, 'Chaos Gundam', '22-07-4-01', 216, 4, NULL, 3, 1, 7, 9, 559, 294, 559, 893, 294, 352, 352, 457, NULL, NULL, NULL, 'Chaotic Chips (Event)'),
+(1368, 'Chaos Gundam', '22-07-5-01', 216, 5, NULL, 3, 1, 7, 12, 559, 294, 294, 1147, 294, 352, 352, 458, NULL, NULL, NULL, 'Chaotic Chips (Event)'),
+(1369, 'Vajra Beam Saber [Chaos]', '22-07-6a-01', 216, 6, NULL, 3, 1, 7, 13, 559, 1440, 0, 559, 0, 303, 303, NULL, 'When CPWR is under 500000, EX Skill Power boosted 25%', 1, 2, 'Chaotic Chips (Event)'),
+(1370, 'High-Energy Beam Rifle [Chaos]', '22-07-7a-01', 216, 7, NULL, 3, 1, 7, 12, 294, 0, 2600, 559, 0, 215, 215, NULL, 'Middle-Shooter Job. Sp. Shot CRIT Rate boosted 17%', 1, 8, 'Chaotic Chips (Event)'),
+(1371, 'MMI-RG330 Cruising Mobile Shield', '22-07-8-01', 216, 8, NULL, 3, 1, 7, 9, 559, 0, 0, 1440, 559, 352, 352, 459, NULL, NULL, NULL, 'Chaotic Chips (Event)');
 
 -- --------------------------------------------------------
 
@@ -2150,7 +2183,7 @@ CREATE TABLE IF NOT EXISTS `pilot` (
   KEY `FK_PilotSeriesId` (`series_id`),
   KEY `FK_PilotWordTag1Id` (`word_tag_1_id`),
   KEY `FK_PilotWordTag2Id` (`word_tag_2_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=125 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=128 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `pilot`
@@ -2280,7 +2313,10 @@ INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarit
 (121, 'Chibodee Crocket', 16, 2, 'チボデー・クロケット', 3, 1, 14, 24, 558, 1142, 291, 558, 558, 126, 302, 'With Power attribute (self), All Shot Attack raised 14%', 3, 1, 1, NULL, NULL, '2020-05-13'),
 (122, 'Asemu Asuno', 26, 3, 'アセム・アスノ', 3, 2, 12, 3, 558, 558, 558, 558, 558, 302, 302, 'While \"Transformer\", All power boosted 25%', 5, 2, 2, NULL, 'Arena', '2020-05-18'),
 (123, 'Andrew Waltfeld [Destiny]', 22, 10, 'アンドリュー・バルトフェルト［DESTINY］', 4, 3, 12, 5, 795, 795, 795, 795, 795, 211, 609, 'When in Multi-Mission Sortie, Shot guidance boosted 17%', 2, 2, 2, NULL, NULL, '2020-05-20'),
-(124, 'Giri Gadeucca Aspis', 14, 3, 'ギリ・ガデューカ・アスピス', 3, 1, 6, 5, 558, 891, 891, 558, 558, 302, 127, 'When 2 enemies shot down, All CRIT rate boosted 17%', 3, 1, 1, NULL, NULL, '2020-05-20');
+(124, 'Giri Gadeucca Aspis', 14, 3, 'ギリ・ガデューカ・アスピス', 3, 1, 6, 5, 558, 891, 891, 558, 558, 302, 127, 'When 2 enemies shot down, All CRIT rate boosted 17%', 3, 1, 1, NULL, NULL, '2020-05-20'),
+(125, 'Ple-Twelve', 12, 7, 'プルトゥエルブ', 4, 1, 10, 6, 796, 1602, 384, 796, 796, 417, 213, 'When buffed, EX Skill piercing boosted 28%', 4, 1, 3, NULL, NULL, '2020-05-27'),
+(126, 'Rosemary Raspberry', 14, 4, 'ローズマリー・ラズベリー', 3, 2, 7, 20, 292, 891, 891, 559, 559, 303, 303, 'After 15s pass, Projectile speed boosted 14%', 4, 2, 1, NULL, NULL, '2020-05-27'),
+(127, 'Sting Oakley', 22, 7, 'スティング・オークレー', 3, 1, 12, 7, 558, 291, 291, 889, 889, 126, 428, 'When 1 allies shot down, All DMG taken reduced by 20', 5, 3, 3, NULL, 'Event', '2020-05-27');
 
 -- --------------------------------------------------------
 
@@ -2372,7 +2408,7 @@ CREATE TABLE IF NOT EXISTS `unit` (
   PRIMARY KEY (`id`),
   KEY `FK_UnitAttributeId` (`attribute_id`),
   KEY `FK_UnitSeriesId` (`series_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=214 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=217 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `unit`
@@ -2585,13 +2621,16 @@ INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `nam
 (204, 'GN-0000+GNR-010', '00 Raiser', NULL, 25, 13, 'ダブルオーライザー', 4, 2, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-04-15'),
 (205, 'ZGMF-X31S', 'Abyss Gundam', NULL, 22, 6, 'アビスガンダム', 3, 2, 2, NULL, 'Event', NULL, 0, '2020-04-15'),
 (206, 'Gundam Artemis', 'Gundam Artemis', 'Satellite Cannon', 99, 1, NULL, 2, 1, 1, NULL, NULL, NULL, 0, '2020-04-22'),
-(207, 'EB-06', 'Graze', 'Ground/Standard', 28, 10, NULL, 1, 2, 4, NULL, NULL, NULL, 0, '2020-04-22'),
+(207, 'EB-06', 'Graze', 'Ground/Standard', 28, 10, 'グレイズ', 1, 2, 4, NULL, NULL, NULL, 0, '2020-04-22'),
 (208, 'AGE-FX', 'Gundam AGE-FX', NULL, 26, 9, 'ガンダムAGE-FX', 4, 1, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
 (209, 'MBF-P03R', 'Astray Blue Frame 2nd Revise', NULL, 23, 6, 'アストレイ ブルーフレームセカンドリバイ', 4, 3, 1, NULL, NULL, 'Gundam Battle Festival', 0, '2020-05-13'),
 (210, 'GF13-013NR', 'Bolt Gundam', NULL, 16, 8, 'ボルトガンダム', 3, 1, 2, NULL, 'Event', NULL, 0, '2020-05-13'),
 (211, 'AGE-2DH', 'Gundam AGE-2 Dark Hound', NULL, 26, 10, 'ガンダムAGE-2_ダークハウンド', 3, 3, 2, NULL, 'Arena', NULL, 0, '2020-05-18'),
 (212, 'RX-78AL', 'Atlas Gundam', NULL, 38, 2, 'アトラスガンダム', 4, 1, 1, NULL, NULL, NULL, 0, '2020-05-20'),
-(213, 'AGE-3F', 'Gundam AGE-3 Fortress', NULL, 26, 11, 'ガンダムAGE-3_フォートレス', 3, 2, 2, NULL, 'Event', NULL, 0, '2020-05-20');
+(213, 'AGE-3F', 'Gundam AGE-3 Fortress', NULL, 26, 11, 'ガンダムAGE-3_フォートレス', 3, 2, 2, NULL, 'Event', NULL, 0, '2020-05-20'),
+(214, 'CB-0000G/C', 'Reborns Gundam', NULL, 25, 16, 'リボーンズガンダム', 4, 1, 1, NULL, NULL, NULL, 1, '2020-05-27'),
+(215, 'LM314V21', 'V2 Gundam', NULL, 15, 2, 'V2ガンダム', 4, 3, 1, NULL, NULL, NULL, 1, '2020-05-27'),
+(216, 'ZGMF-X24S', 'Chaos Gundam', NULL, 22, 7, 'カオスガンダム', 3, 1, 2, NULL, 'Event', NULL, 0, '2020-05-27');
 
 -- --------------------------------------------------------
 

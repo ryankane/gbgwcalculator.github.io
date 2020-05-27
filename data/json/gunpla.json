@@ -18608,7 +18608,7 @@
   "name": "Reborns Gundam",
   "attribute": "Power",
   "rarity": 4,
-  "sokai": 0,
+  "sokai": 1,
   "parts": [{
     "part": "head",
     "mark": 1,
@@ -18622,7 +18622,7 @@
     "wt": ["Gundam Type", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Power attribute (self), Boost Funnel uptime 50%"
+      "name": "With Power attribute (self), Boost Funnel uptime by 50%"
     }
   }, {
     "part": "body",
@@ -18642,7 +18642,7 @@
   }, {
     "part": "arms",
     "mark": 1,
-    "a": 1855,
+    "a": 1885,
     "ma": 719,
     "sa": 1165,
     "md": 551,
@@ -18713,7 +18713,7 @@
     "mark": 1,
     "a": 551,
     "ma": 0,
-    "sa": 3592,
+    "sa": 3952,
     "md": 0,
     "sd": 965,
     "br": 382,
@@ -18738,8 +18738,10 @@
     "pr": 464,
     "wt": ["Gundam Type", "Transformer"],
     "ex": {
-      "type": "Part Traits",
-      "name": "Launch GN Fin Fangs at foes in all directions. You can move while this is active."
+      "type": "EX Skill",
+      "name": "Small GN Fin Fangs",
+      "description": "Launch GN Fin Fangs at foes in all directions. You can move while this is active.",
+      "category": "Beam Melee"
     },
     "name": "GN Shield [Reborns]"
   }]
@@ -21819,7 +21821,7 @@
   "name": "V2 Gundam",
   "attribute": "Speed",
   "rarity": 4,
-  "sokai": 0,
+  "sokai": 1,
   "parts": [{
     "part": "head",
     "mark": 1,
@@ -21865,7 +21867,7 @@
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "EX Skill",
-      "name": "Vertical Saber",
+      "name": "Vertical Saber Spin",
       "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
@@ -21883,7 +21885,7 @@
     "wt": ["Gundam Type", "Protag."],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Protag.\", Enemy Melee Power reduced 30%"
+      "name": "While \"Protag.\", Enemy Melee power reduced 30%"
     }
   }, {
     "part": "back",
@@ -21904,7 +21906,7 @@
     }
   }, {
     "part": "range",
-    "mark": 2,
+    "mark": 1,
     "a": 720,
     "ma": 154,
     "sa": 3543,
@@ -21915,7 +21917,7 @@
     "wt": ["Gundam Type", "Protag."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Speed Attribute (self), EX Skill Power boosted 30%"
+      "name": "With Speed attribute (self), EX Skill power boosted 30%"
     },
     "name": "Beam Rifle [V2]",
     "type": "Beam",
@@ -22077,7 +22079,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Vertical Saber Spin",
-      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%.",
+      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "combo": "shield"
@@ -22199,7 +22201,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Vertical Saber Spin",
-      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lower hit enemy Gunpla's Beam Resist by 39%.",
+      "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",
       "category": "Beam Melee"
     },
     "combo": "shield"
