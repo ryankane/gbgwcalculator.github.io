@@ -507,8 +507,9 @@ class GunplaBuild {
       this.partList.innerHTML = '';
       if (this.parts && this.parts[partToShow] && Array.isArray(this.parts[partToShow])) {
         const partClone = [...this.parts[partToShow]],
-            sortType = this.sort;
-        if (sortType && GearSlot.indexOf(partToShow) < 0) {
+            sortType = this.sort,
+            isGear = GearSlot.indexOf(partToShow) !== -1;
+        if (sortType && (!isGear || (isGear && sortType === 'rarity'))) {
           partClone.sort((partA, partB) => {
             return partA[sortType] > partB[sortType] ? -1 : 1;
           });
