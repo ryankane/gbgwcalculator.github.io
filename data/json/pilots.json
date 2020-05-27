@@ -1461,6 +1461,23 @@
     "name": "With Power attribute (self), Buff EX Skill effect up 15%"
   }
 }, {
+  "name": "Ple-Twelve",
+  "jl": "Out-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 417,
+  "pr": 213,
+  "wt": ["High Firepower", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When buffed, EX Skill piercing boosted 28%"
+  }
+}, {
   "name": "Poe Aijee",
   "jl": "Long-Shooter",
   "attribute": "Power",
@@ -1646,6 +1663,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Enemy EX Skill penetration reduced 22%"
+  }
+}, {
+  "name": "Rosemary Raspberry",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 292,
+  "ma": 891,
+  "sa": 891,
+  "md": 559,
+  "sd": 559,
+  "br": 303,
+  "pr": 303,
+  "wt": ["Mid-Range", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "After 15s pass, Projectile speed boosted 14%"
   }
 }, {
   "name": "Roux Louka",
@@ -1935,6 +1969,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
+  }
+}, {
+  "name": "Sting Oakley",
+  "jl": "Middle-Shooter",
+  "attribute": "Power",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Transformer", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 1 allies shot down, All DMG taken reduced by 20"
   }
 }, {
   "name": "Sven Cal Bayang",
