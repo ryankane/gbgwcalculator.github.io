@@ -33,6 +33,23 @@
     "name": "With Technique attribute (self), EX Skill recovery boosted 18%"
   }
 }, {
+  "name": "Ali al-Saachez",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 213,
+  "pr": 418,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Melee ATK is over 16000, Job Gauge increase boosted 17%"
+  }
+}, {
   "name": "Amuro Ray",
   "jl": "Long-Shooter",
   "attribute": "Technique",
@@ -915,6 +932,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Buff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Joseph Yaht",
+  "jl": "Defender",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 291,
+  "md": 889,
+  "sd": 889,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Support Type", "For Computers"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Support Type\", EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Judau Ashta",

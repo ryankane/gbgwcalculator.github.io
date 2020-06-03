@@ -6749,6 +6749,143 @@
     "name": "Shield [Geara Doga]"
   }]
 }, {
+  "name": "Gelgoog [Char Aznable]",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 559,
+    "ma": 292,
+    "sa": 1436,
+    "md": 292,
+    "sd": 891,
+    "br": 127,
+    "pr": 303,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Zeon\", Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 891,
+    "ma": 559,
+    "sa": 292,
+    "md": 559,
+    "sd": 1144,
+    "br": 0,
+    "pr": 430,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Revive with 30% Armor one time"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 559,
+    "ma": 1994,
+    "sa": 292,
+    "md": 559,
+    "sd": 891,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Twin Blade category equipped, Melee power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 559,
+    "ma": 292,
+    "sa": 292,
+    "md": 292,
+    "sd": 891,
+    "br": 303,
+    "pr": 430,
+    "wt": ["Zeon", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Comet Shot",
+      "description": "Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla's Shot Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 559,
+    "ma": 292,
+    "sa": 292,
+    "md": 292,
+    "sd": 891,
+    "br": 303,
+    "pr": 430,
+    "wt": ["Zeon", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Twin Blade Slash",
+      "description": "Unleash a barrage of attacks with your twin blades.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 292,
+    "ma": 2594,
+    "sa": 0,
+    "md": 0,
+    "sd": 559,
+    "br": 127,
+    "pr": 303,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Zeon\", Melee DMG output boosted by 20"
+    },
+    "name": "Beam Naginata [Gelgoog (Char Aznable)]",
+    "type": "Beam",
+    "category": "Twin Blade"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 559,
+    "ma": 0,
+    "sa": 1436,
+    "md": 0,
+    "sd": 559,
+    "br": 127,
+    "pr": 430,
+    "wt": ["Zeon", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When in Multi-Mission Sortie, EX Skill power boosted 25%"
+    },
+    "name": "Beam Rifle [Gelgoog (Char Aznable)]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 559,
+    "ma": 0,
+    "sa": 0,
+    "md": 559,
+    "sd": 1436,
+    "br": 127,
+    "pr": 592,
+    "wt": ["Zeon", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or less, Vernier Consumption = 0 for 10 sec."
+    },
+    "name": "Shield [Gelgoog (Char Aznable)]"
+  }]
+}, {
   "name": "Gelgoog [Mass Production Type]",
   "attribute": "Speed",
   "rarity": 1,
@@ -18395,6 +18532,109 @@
     "category": "Rifle"
   }]
 }, {
+  "name": "Psycho Zaku [Thunderbolt Ver.]",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 797,
+    "ma": 384,
+    "sa": 2785,
+    "md": 384,
+    "sd": 384,
+    "br": 418,
+    "pr": 213,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Reuse P Device",
+      "description": "Control your unit with electrical signals sent from the pilot's brain to increase performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your vernier capacity by 75%.",
+      "category": "Awakening"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1605,
+    "ma": 797,
+    "sa": 797,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 70% or less, Buff EX Skill effect up 22%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 797,
+    "ma": 2785,
+    "sa": 1181,
+    "md": 384,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Enemy Melee power reduced 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Zaku Type", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Mid Shot Attack raised 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Zaku Type", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Bump of Living Dead",
+      "description": "Freely control the heavy weaponry on your back and bombard enemies in all directions. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 384,
+    "ma": 0,
+    "sa": 3582,
+    "md": 0,
+    "sd": 0,
+    "br": 418,
+    "pr": 213,
+    "wt": ["Zaku Type", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon, reload speed boosted 20%"
+    },
+    "name": "Giant Bazooka [Psycho Zaku]",
+    "type": "Physical",
+    "category": "Bazooka"
+  }]
+}, {
   "name": "Qubeley",
   "attribute": "Power",
   "rarity": 4,
@@ -19997,6 +20237,131 @@
       "category": "Physical Melee"
     },
     "name": "Shenlong Shield"
+  }]
+}, {
+  "name": "Shenlong Gundam [Endless Waltz Ver.]",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1181,
+    "ma": 384,
+    "sa": 796,
+    "md": 1181,
+    "sd": 384,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Self-Destruct",
+      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 384,
+    "ma": 3177,
+    "sa": 384,
+    "md": 1602,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dragon Fang",
+      "description": "Unleash a burst of flame at enemies ahead of you from your dragon-shaped arm. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 1602,
+    "sd": 796,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Crimson Stinger",
+      "description": "Unleash a storm of blows from your lance. Raise your Melee Defense by 19%.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 384,
+    "ma": 3997,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Before 15s pass, Job Gauge increase boosted 17%"
+    },
+    "name": "Beam Trident",
+    "type": "Beam",
+    "category": "Lance"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 796,
+    "ma": 0,
+    "sa": 0,
+    "md": 2380,
+    "sd": 796,
+    "br": 0,
+    "pr": 1028,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Shield Throw",
+      "description": "Throw your shield to attack.",
+      "category": "Physical Melee"
+    },
+    "name": "Shenlong Shield [Endless Waltz Ver.]"
   }]
 }, {
   "name": "Shining Gundam",
