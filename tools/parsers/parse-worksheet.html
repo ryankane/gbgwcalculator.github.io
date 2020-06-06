@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GBGW Calculator - Parse Worksheet</title>
+  <meta name="description" content="GBGW Calculator Data">
+  <meta name="author" content="rmkane">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/parse-worksheet.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.26.0/moment.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.1.0/papaparse.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/parse-worksheet.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="layout-row height-20">
+    <div class="layout-col">
+      <div class="layout-row">
+        <div class="layout-col">
+          <label class="field-label size-x2">Input</label>
+        </div>
+      </div>
+      <div class="layout-row height-80">
+        <div class="layout-col">
+          <label class="field-label size-x1_5">Worksheet</label>
+          <textarea name="worksheet"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="layout-row height-80">
+    <div class="layout-col">
+      <div class="layout-row">
+        <div class="layout-col">
+          <label class="field-label size-x2">Output</label>
+        </div>
+      </div>
+      <div class="layout-row height-15">
+        <div class="layout-col">
+          <label class="field-label size-x1_5">Units</label>
+          <textarea name="units"></textarea>
+        </div>
+      </div>
+      <div class="layout-row height-30">
+        <div class="layout-col">
+          <label class="field-label size-x1_5">Parts</label>
+          <textarea name="parts"></textarea>
+        </div>
+      </div>
+      <div class="layout-row height-15">
+        <div class="layout-col">
+          <label class="field-label size-x1_5">Pilots</label>
+          <textarea name="pilots"></textarea>
+        </div>
+      </div>
+      <div class="layout-row height-20">
+        <div class="layout-col">
+          <label class="field-label size-x1_5">Skills</label>
+          <textarea name="skills"></textarea>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

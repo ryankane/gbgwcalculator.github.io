@@ -1,0 +1,54 @@
+:root {
+  --background: #111111;
+  --foreground: #EEEEEE;
+  --input-background: #222222;
+  --scroll-track: #111;
+  --scroll-thumb: #575757;
+  --scroll-thumb-hover: #575757;
+}
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--scroll-track);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover);
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: var(--background);
+  font-family: monospace;
+}
+
+body, textarea {
+  color: var(--foreground);
+}
+
+textarea {
+  background: var(--input-background);
+}
+
+.container {
+  padding: 1em;
+  width: calc(100% - 2em);
+  height: calc(100% - 2em);
+}
+
+.container h1 {
+  text-align: center;
+}

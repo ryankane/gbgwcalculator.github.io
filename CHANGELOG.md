@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+
+- Reorganized files to prepare for node integration
+
 ## 1.1.8
 
 - Updated trait and skill text to match in-game descriptions
@@ -7,7 +11,6 @@
 - Re-indexed the `ex_skill` table
 - Future Enhancement:
   - Implemented a join strategy to move `tag_id` references off the `part` and `pilots` tables
-
 
 ## 1.1.7
 

@@ -1,0 +1,464 @@
+Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
+1,Screw Nail,"Rush forward, carving through foes with claws on both hands. Lowers hit enemy Gunpla's Shot Defense by 14%.",4,B-,D,,,21,3
+2,Burning Fist,Charge through enemies in front of you with your fist. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,D,C-,,,21,6
+3,Head-Mounted Vulcan,Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+4,Double Saber Rush,Cleave through enemies with sabers in each hand.,3,D,B-,,,21,6
+5,Crimson Stinger,Unleash a storm of blows from your lance. Raise your Melee Defense by 19%.,3,D,A-,,,21,6
+6,Last Shooting,Stand firm and shoot down foes with your arm rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+7,Archer Stance α,Raise your Shot Attack by 39%.,5,,,51,,33,7
+8,120mm Low-Recoil Cannon,Fire explosive projectiles from the cannon on your shoulder.,2,D,C-,,,21,3
+9,Quadruple Bop Missile Launcher,Launch missiles stored in your forearm. You can move while firing.,2,D,C-,,7,60,0
+10,240mm Cannons,Fire explosive projectiles from the cannon on your shoulder.,2,D,C-,,,21,6
+11,Hand Grenade,Throw a hand grenade mounted on your side armor.,2,D,C,,,21,6
+12,Myriad Snipe,"Ready your long rifle, then bathe foes in powerful beams.",1,B-,D,,,60,15
+13,Block Stance α,Raise your Melee Defense by 39%.,5,,,51,,33,7
+14,Beam Saber Combo,Unleash a combo with the saber in your right hard.,3,D,C-,,,19,5
+15,Protection α,Raise your Physical Resist by 69%.,5,,,51,,33,7
+16,Recovery Tool α,Recover 48% of your maximum Armor.,8,,,,,21,6
+17,Wind Edge,Mow down foes nearby with your axe.,4,D,C-,,,21,6
+18,Beam Coat β,Raise Ally Beam Resist by 49%.,5,,,51,,33,7
+19,Fearless Charge,Charge ferociously toward the enemy.,4,D,B+,,,30,8
+20,Chest-Mounted Scattering Beam Cannon,Bathe foes in low-output beams from your chest beam cannon. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,D-,D,,4,60,0
+21,Heat Saber Combo,Unleash a combo with the saber in your right hard.,4,D,C-,,,19,5
+22,Shock Bringer α,Your attacks stun large foes more easily for a set period.,5,,,51,,33,7
+23,5-Barrel Finger Vulcan,Launch Vulcan shots from your forearm. You can move while firing.,2,B-,D,,11,60,0
+24,Block Hack α,Reduce target Melee Defense by 39%.,7,,,51,,33,7
+25,Arm-Mounted Mega Particle Cannon,Launch rapid-fire beams from your forearm. You can move while firing.,1,B-,D,,11,60,0
+26,240mm 6-Barrel Rocket Launcher,Fire the tracking rocket cannon stowed on your head.,2,D,C-,,,21,6
+27,Planet Breaker,Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,D,C,,,19,5
+28,Combat Stance α,Raise your Melee Attack by 39%.,5,,,51,,33,7
+29,Volcanic Shot,Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,B-,D,,,21,3
+30,Needle Missile,Launch missiles stowed on your shield.,2,B-,D,,,21,0
+31,Defense Hack α,Reduce target Melee and Shot Defense by 39%.,7,,,37,,33,7
+32,Fearless Hurl,Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%.,4,B,D,,,21,3
+33,Charge Axe,Jump and bring a charged axe down on the enemy's head. Raise your Melee Attack by 14%.,4,D,B-,,,21,6
+34,Beam Cannon,Fire a beam in a straight line from the cannon on your back. You can move while firing.,1,D,C-,,7,60,0
+35,Light Up,Activate the light equipped to your chest. You become easier to target for a set period of time.,5,,,27,,60,12
+36,Claw,Grab a foe with a huge engineering claw and cut through them. Lowers hit enemy Gunpla's Physical Resist by 29%.,4,B-,D,,,33,4
+37,Beam Hack α,Reduce target Beam Resist by 69%.,7,,,51,,33,7
+38,Hate Up,You become easier to target for a set period of time.,5,,,51,,33,7
+39,Cross Wave,Slash to create shockwaves that cleave through enemies.,3,D,B,,,21,6
+40,Dual Wave,Hold bazookas in both hands and fire high-power rounds.,2,B+,D,,,21,3
+41,Missile Launcher,Shoot firearms stored in your shield. You can move while firing.,2,D,C,,7,60,0
+42,Protection Hack α,Reduce target Physical Resist by 69%.,7,,,51,,33,7
+43,Hate Down,You become harder to target for a set period of time.,5,,,51,,33,7
+44,Protection β,Raise Ally Physical Resist by 39%.,5,,,51,,33,7
+45,Prominence Fist,Charge powerfully through enemies with your fist. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,4,D,C-,,,21,6
+46,Beam Saber Combo,Unleash a combo with the saber in your right hard.,3,D,B-,,,21,6
+47,Twin Beam Gun & Grenade Launcher,Fire the beam rifle and grenade launcher in your arms. You can move while firing.,2,D,C,,7,60,0
+48,Claw Kick,Unleash a series of kicking combo attacks. Raise your Melee Attack by 14%.,4,B,D,,,21,3
+49,Anti-Ship Large Missile,Launch eight missiles mounted on your back.,2,B+,D,,,21,3
+50,Small Missile,Launch missiles stowed on your shield.,2,B+,D,,,21,3
+51,Missile Pod,Fire missiles from pods on your shoulders at multiple foes.,2,D,C-,,,21,6
+52,Large Missile Launcher,Use the missile launcher on your leg against multiple enemies.,2,D,C-,,,21,6
+53,Mega Particle Cannon,Fire a generator-linked beam cannon in your abdomen at foes.,1,B+,D,,,60,15
+54,Incom,Launch the incom to repeatedly strike foes in all directions. You can move freely while this skill is active.,1,B+,D,,,60,6
+55,Seventh Ray Shot,Bathe foes in high-output beams from your rifle.,1,A,D,,,60,15
+56,Vulcan Pod,Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+57,Shock Bringer β,Ally attacks stun large foes more easily for a set period.,5,,,37,,33,7
+58,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,D,C,,,19,5
+59,Panic Maker,Fire special high-powered rounds from your machine gun.,1,B+,D,,,21,3
+60,Sturm Faust,Fire the portable grenade launcher on your shield. You can move while firing.,2,D,C,,7,60,0
+61,Recovery Tool β,Ally recovers 38% of maximum Armor.,8,,,,,33,7
+62,Crater Maker,Fire stunning rounds from your machine gun.,2,B+,D,,,21,3
+63,Beam Spot Gun,Launch rapid-fire beams from your forearm. You can move while firing.,1,B+,D,,11,60,0
+64,Torpedo,Fire guided torpedoes from the launcher inside the head.,2,B+,D,,,21,3
+65,Beam Cannon,Launch rapid-fire beams from your forearm. You can move while firing.,1,B+,D,,11,60,0
+66,Leg-Mounted Sturm Faust,Fire the Sturm Faust on your leg.,2,D,B+,,,21,6
+67,Giant Bazooka,Fire the giant bazooka on your back. You can move while firing.,2,A-,D,,7,60,0
+68,Archer Hack α,Reduce target Shot Attack by 39%.,7,,,51,,33,7
+69,Armed Aura α,Your Gunpla resists flinching for a set period of time.,5,,,51,,33,7
+70,Dual Beam Guns,Launch rapid-fire beams from your forearm. You can move while firing.,1,B+,D,,11,60,0
+71,Offense Hack α,Reduce target Melee and Shot Defense by 39%.,7,,,37,,33,7
+72,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
+73,Rose Bits,Launch the Rose Bits to strike foes in all directions. You can move freely while this is active.,1,A-,D,,,60,6
+74,Chevalier Saber,Unleash a thrusting attack with the saber at your waist.,4,D,B+,,,30,8
+75,Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,A-,D,,11,60,0
+76,Bazooka,Fire a bazooka suspended on your back. You can move while firing.,2,D,C-,,7,60,0
+77,Double Gatling Guns,Fire beam Gatling guns on both arms toward the enemy.,1,D,D,,11,60,0
+78,Igelstellung,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+79,Barrier Hack β,Reduce Shot Defense of all enemies by 24%.,7,,,51,,33,7
+80,Combat Hack β,Reduce Melee Attack of all enemies by 24%.,7,,,51,,33,7
+81,Combat Hack α,Reduce target Melee Attack by 39%.,7,,,51,,33,7
+82,Assault Cyclone,Slice foes with the beam sabers in both arms. Squad recovers 48% of maximum Armor. Raise Shot Defense of your Squad by 29%.,3,D,A,,,79,20
+83,Kick Combination,Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%.,3,A,D,,,21,3
+84,Shield Throw,Throw your shield to attack.,4,A,D,,,21,3
+85,Twin Sword Rifle,Unleash a combo attack with your Twin Sword Rifle.,3,B,D,,,21,3
+86,Sky Jumper,Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%.,3,B,D,,,21,3
+87,GN Vulcan,Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,D-,D,,,19,5
+88,GN Claw,Raise your Melee ATK 14%.,4,D,C-,,,19,5
+89,Saber Boomerang,"Slash with your saber, then hurl it point-first.",3,D,B-,,,21,6
+90,Barrier Hack α,Reduce target Shot Defense by 39%.,7,,,51,,33,7
+91,Gun Vulcan,Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,D-,D,,,19,5
+92,Screw Fang,"Slice with claws on both hands, then unleash a kick. Raise your Melee Attack by 14%.",4,B,D,,,21,3
+93,Valiant Heart,Thrust a charged sword to cleave through enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.,7,D,B-,,,21,6
+94,Bright Stinger,Unleash a series of light-speed strikes from your lance. Raise your Melee Defense by 14%.,4,D,B-,,,21,6
+95,Barrier Stance β,Raise Ally Shot Defense by 29%.,5,,,51,,33,7
+96,GN Missile,Fire guided missiles propelled by GN particles from your back.,1,B+,D,,,21,3
+97,Beam Lariat,Deploy armor on arms and strike with a rigged beam weapon.,3,D,B+,,,30,8
+98,Archer Hack β,Reduce Shot Attack of all enemies by 24%.,7,,,51,,33,7
+99,Scattering Beam Cannon,Bathe foes in high-output beams from your chest beam cannon.,1,B+,D,,,60,15
+100,Tail Beam Rifle,Launch rapid-fire beam weapon shots from your tail. You can move while firing.,1,B+,D,,7,60,0
+101,Melee Pick,Thrust with your shield pick and follow it up with a kick. Raise your Melee Attack by 14%.,4,B-,D,,,21,3
+102,Saturn Engine,Dramatically boost acceleration with a heavier propellant. Raises speed by 20%. Reduces Melee and Shot Defense by 30%. Raise your vernier capacity by 25%.,6,,,27,,60,12
+103,Signal Flare,Fire a signal flare into the air to send word to your allies. Raise Ally Melee Attack by 19%. Raise Ally Beam Resist by 29%. Raise Ally Physical Resist by 29%.,5,,,27,,60,6
+104,Menace Shot,Lowers hit Gunpla's Shot Attack & Melee Defense 14%.,4,B-,D,,,21,3
+105,2-Tube Missile Launcher,Fire the missile launcher on your back. You can move while firing.,2,D,C,,7,60,0
+106,4-Tube Multi-Launcher,Strafe ahead with the quadruple multi-launcher on your back.,2,D,C,,,21,6
+107,Triple Missile Pod,Fire missiles from pods on your shoulders at multiple foes.,2,D,C-,,,21,6
+108,Barrier Stance α,Raise your Shot Defense by 39%.,5,,,51,,33,7
+109,3-Barrel Beam Cannon,Launch rapid-fire beam cannon shots from your forearm. You can move while firing.,1,D,C-,,,60,0
+110,Tri-Blade,Fire a close-range weapon that has three tracking blades.,2,B-,D,,,21,0
+111,Spinning Axle,"Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%.",3,D,C-,,,21,6
+112,Energy Satellite,Generate an energy bit to provide automatic support fire. You can move freely while this is active.,1,B+,D,,,60,6
+113,Arm-Mounted Mega Particle Cannon,Launch rapid-fire beams from your forearm. You can move while firing.,1,A-,D,,11,60,0
+114,Vernier Up α,Raise your vernier capacity by 25%.,5,,,51,,33,7
+115,Chest-Mounted Beam Cannon,Bathe foes in converging beams from a generator-linked cannon.,1,B-,D,,,60,15
+116,3-Tube Rocket Launcher,Fire the rocket launcher stored in your forearm. You can move while firing.,2,D,C-,,7,60,0
+117,Leg-Mounted Beam Cannon,Bathe foes in converging beams from a generator-linked cannon.,1,B-,D,,,60,15
+118,Iron Impact,Knock back a foe with a mighty blow from your mace. Raise Shot Defense of your Squad by 39%.,4,D,A,,,79,20
+119,Head-Mounted Mega Particle Cannon,Fire the mega particle cannon on your head.,1,A-,D,,,60,15
+120,Beam Recorder,Use the recorder taken from its satchel to bathe foes in beams.,1,A-,D,,,60,15
+121,Beam Saber Combo,Unleash a combo with the saber in your right hard.,3,D,B+,,,21,6
+122,Fin Funnels,Launch fin funnels to strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
+123,Dual Cascade,Hold bazookas in both hands and fire high-power rounds.,2,A,D,,,21,3
+124,CIWS,Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+125,Breast Beam Vulcan,Fire forward with the Beam Vulcan in your chest.,1,D,C,,,21,6
+126,Palma Fiocina Beam Cannon,Turn both palms forward to bathe foes in high-output beams.,1,B+,C-,,,60,15
+127,Rising Arrow,Fire a high-speed beam arrow from the bow on your left arm.,1,A-,D,,,21,3
+128,IF Bunker,Stab a foe frozen by your IF Booster with an I-Field saber.,1,A-,D,,,60,15
+129,Flight Unit,"Accelerate with your flight unit, then detach and launch.",2,A-,D,,,35,4
+130,Storm Edge,Create a whirlwind with your axe to mow down surrounding foes. Raise your Shot Defense by 19%.,3,D,B+,,,21,6
+131,Double Saber Shear,Cleave through enemies with sabers in each hand.,3,D,B+,,,21,6
+132,Edge Fling,Throw the twin blades on your legs.,4,A,D,,,21,3
+133,Trans-Am Raid,Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+134,Archer Stance γ,Raise Shot Attack of your Squad by 39%.,5,,,51,,33,7
+135,GN Missile,Fire guided missiles propelled by GN Particles at multiple foes.,1,A,D,,,21,3
+136,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%.,6,,,51,,60,12
+137,Offense Up γ,Raise Melee and Shot Attack of your Squad by 39%.,5,,,37,,33,7
+138,Twist Buster,"Lift foes with your saber, then knock them back to earth.",3,D,A-,,,21,6
+139,Harmonica Cannon,Bathe foes in beams from the shield's multi-barreled beam cannon.,1,A,D,,,60,35
+140,Rapid Thrust,Unleash a blindingly fast flurry with sabers in each hand.,4,D,A-,,,21,6
+141,Strike Punisher,Slash at high speed to unleash multiple shockwaves.,3,A+,C-,,,79,8
+142,Knight's Nail,Jump high to bring your blade down on the enemy's head.,4,A,D,,,21,3
+143,Mirage Colloid,Go stealthy with colloidal particles on your armor. Raise your Shot Attack by 19%. You become harder to target for a set period of time.,6,,,51,,60,12
+144,Trikeros Rush,"A combo attack with the Trikeros, a composite armament unit.",3,D,B,,,19,5
+145,Lightning Ball,"Charge arms with beam energy, then attack with a rush tackle. Lowers hit enemy Gunpla's Physical Resist by 29%.",4,D,B+,,,21,3
+146,Bisect,Draw the Gerbera Straight to bisect foes with a mighty swing. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,4,D,A,,,79,20
+147,Gerbera Straight,Unleash a barrage of attacks with your blade.,4,A,D,,,21,3
+148,Queue Blade,Attack with the queue blade on your head. Lowers hit enemy Gunpla's Melee Defense by 19%.,4,D,C,,,30,8
+149,Dragon Claw,"Strike with both extended arms, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 19%.",2,D,B-,,,30,8
+150,Hell Jumper,Jump high to deal a powerful blow with your lance from the air. Lower's hit enemy Gunpla's Beam Resist by 39%.,3,A-,D,,,30,3
+151,110mm Autocannon,Fire live ammunition from your forearm. You can move while firing.,2,A-,D,,11,60,0
+152,Hyper Beam Saber,Slay your foes with a single strike powered by your Biosensor. Raise Melee Attack of your Squad by 24%.,3,D,A,,,79,20
+153,Arm-Mounted Grenade Launcher,Launch grenades from your forearm. You can move while firing.,2,D,B,,7,60,0
+154,Recovery Tool γ,Squad recovers 48% of maximum Armor.,8,,,,,33,7
+155,Beam Gun,Launch rapid-fire beams from your forearm. You can move while firing.,1,A,D,,11,60,0
+156,Funnels,Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
+157,Offense Up α,Raise your Melee and Shot Attack by 39%.,5,,,37,,33,7
+158,Dober Gun,Bathe foes in beams from the Dober gun on your shoulder.,1,A-,D,,,60,15
+159,Royal Heart,Thrust your charged sword to cleave cleanly through foes. Lowers hit enemy Gunpla's Beam Resist by 29%.,3,D,B+,,,30,8
+160,Dragon Fang,"Strike with extended arm, then unleash a burst of flame. Lowers hit enemy Gunpla's Shot Defense by 24%.",2,D,B,,,30,8
+161,Armed Aura γ,Your squad resists flinching for a set period of time.,5,,,51,,33,7
+162,Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,A,D,,11,60,0
+163,Hyper Jammer,Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time.,6,,,51,,60,12
+164,Deadly Circle,Brutally swipe at nearby foes with your beam scythe. Lowers hit enemy Gunpla's Beam Resist by 39%.,3,A,D,,,21,3
+165,Buster Shield,Fire your shield toward the enemy.,3,A,D,,,21,3
+166,Assassination,"Blast foes with two sabers, finishing with a grand strike. Raise Melee Attack of your Squad by 19%. Raise Beam Resist of your Squad by 29%. Raise Physical Resist of your Squad by 29%.",3,A-,D,,,60,6
+167,Grave Punisher,Send a shockwave along the ground from your beam scythe.,3,B+,D,,,21,3
+168,Self-Destruct,Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.,4,D,A,,,21,6
+169,Max Output Buster Rifle,Fire a rifle rivaling a warship's main battery at full output.,1,A+,C-,,,79,20
+170,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.,4,D,B+,,,21,3
+171,CIWS,Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting.,2,A,D,,,60,0
+172,Excalibur,Charge forward with the Excalibur you received. Squad recovers 48% of maximum Armor. Raise Beam Resist of your Squad by 49%.,4,D,A,,,79,20
+173,Buster Anchor,Demolish foes from point-blank range with a quad 400mm cannon.,2,D,B+,,,41,11
+174,Gemini Satellite,Generate an energy bit to provide automatic support fire. You can move freely while this is active.,1,A-,D,,,60,6
+175,Hand Grenade,Throw a hand grenade mounted on your side armor.,2,D,B+,,,21,6
+176,Gusion Hammer,Brandish the hammer on your back in a flurry attack.,4,D,B+,,,30,8
+177,Spinning Rave,"Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%.",4,D,B,,,30,8
+178,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,21,6
+179,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,B+,D,,,21,3
+180,Super Mode,Enter Super Mode for enhanced combat prowess. Raises speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+181,Shining Finger Sword,"Crush foes with your love, your anger, and all of your sorrow. Raise Melee Attack of your Squad by 19%. Raise Melee Defense of your Squad by 24%.",3,B,A,,,79,8
+182,Protection Hack β,Reduce Physical Resist of all enemies by 39%.,7,,,51,,31,7
+183,Block Stance γ,Raise your Melee Defense of your squad by 39%.,5,,,51,,33,7
+184,Schwert Gewehr,Jump and bring a charged blade down on the foe's head. Raise your Melee Defense by 19%.,3,D,B,,,30,8
+185,Maelstrom,"Blow through foes, spinning to strike them with your blade.",3,A-,D,,,30,3
+186,Hidden Arm & Samurai Sword,Mow down foes with dual blades hidden in your shoulders. Lowers hit enemy Gunpla's Melee Defense by 19%.,4,D,A-,,,21,6
+187,Particle Fa Jin,"Inject particles into your foe, destroying them from within. Raise Shot Attack of your Squad by 39%.",4,A+,C,,,60,6
+188,Picus,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+189,Xiphias Rail Cannon,Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%.,2,D,A,,,73,19
+190,Balaena Plasma Beam Cannon,Attack enemy ahead by firing highly compressed plasma energy from your Plasma Beam Cannon.,1,A,D,,,60,15
+191,Sagittus,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+192,Bassel Beam Boomerang,Attack locked-on target with boomerang on your shoulder.,3,A,D,,,21,3
+193,Fatum-00,Board lifter attached to back and execute a rush attack. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.,4,D,A,,,79,20
+194,Voiture Lumiere,"Catch solar wind using a ring-shaped quantum field, converting it into propulsive force. Raise speed by 20%. Raises your Shot Attack by 19%. Raises your Shot Defense by 29%.",6,,,51,,60,12
+195,Missile Launcher,Open your chest armor to unleash a missile barrage. You can move while firing.,2,A-,D,,7,60,0
+196,Handgun,Launch rapid-fire Vulcan shots from your forearm. You can move while firing.,2,A-,D,,11,60,0
+197,Sonic Blast,Bathe foes in beams from the beam cannon in your abdomen.,1,B-,D,,,60,15
+198,Rapid Thrust,Unleash a blindingly fast flurry with knives in each hand.,4,D,B+,,,21,6
+199,Railgun & Single-Mounted Cannon,Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP).,2,D,B+,,,21,6
+200,Dual Shredder,Execute suppressive fire with special rounds from your Gatling Gun.,2,A-,C-,,,21,3
+201,HADES System,"Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",6,,,51,,60,12
+202,Leg-Mounted Rocket Launcher,Fire the rocket launcher mounted on your leg.,2,D,B+,,,21,6
+203,180mm Cannon,Hold the cannon on your back under your arm and fire.,2,D,A-,,,21,6
+204,Shock Bringer γ,Squad attacks stun large foes more easily for a set period.,5,,,51,,33,7
+205,Armed Aura β,Allies resist flinching for a set period of time.,5,,,37,,33,7
+206,Shiva & 5-Tube Missile Pod,Fire a railgun and missiles from units on your shoulders. You can move while firing.,2,A-,D,,7,60,0
+207,Grenade Launcher,Launch grenades from your shield. You can move while firing.,2,D,C,,7,60,0
+208,Buster Beam,Bathe foes in high-output beams from your chest Beam Cannon.,1,A,D,,,60,15
+209,Beam Vulcan,Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.,1,A-,D,,11,60,0
+210,Legilis Cannon,Launch beam weapon shots from your tail.,1,A,D,,,21,3
+211,Legilis Bits,"Launch Legilis Bits from your shield, hitting an enemy directly ahead with clusters of energy.",1,A,D,,,60,15
+212,Shoulder Grenade Launcher,Attack enemy with the double-barrel break-action grenade launcher stowed in your shoulder frame.,2,D,B+,,,21,6
+213,Sub-Arm Unit,Fire two Beam Rifles using the sub-arms attached to your waist.,1,D,B+,,,21,6
+214,Shield Booster,Use Shield Booster to temporarily increase performance. Raises speed by 20%. Raises your Melee Attack by 19%. Raises your Physical Resist by 49%.,6,,,51,,60,12
+215,Scattering Beam Cannon,Fire the Scattering Beam Cannon stowed in your shield.,1,A-,C-,,,21,3
+216,Cougar Rush,Execute a combo on target using a Beam Saber in both hands.,3,D,B+,,,21,3
+217,Charge Shot,Attach your shield to your rifle and blast foes with a high-energy beam.,1,D,B+,,,21,6
+218,MEPE Mode,Release your limiters to unleash your Gunpla's full potential. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.,6,,,51,,60,12
+219,Spinning Saber,Spin both hands to mow down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%.,3,A,D,,,21,3
+220,V.S.B.R.,Wedge the cannon on your back under your arm to fire projectiles. You can move while firing.,1,A,D,,7,60,0
+221,Offense Up β,Raise Ally Melee and Shot Attack by 29%.,5,,,37,,33,7
+222,Anti-Armor Shotgun,Fire your Gunlauncher forward and Beam Rifle backward to spray the area with bullets.,2,D,D,,,21,6
+223,Nix Snipe,Briefly bathe foes in powerful beams from your long rifle.,1,B+,C-,,,60,15
+224,120mm Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,B+,D,,11,60,0
+225,Rapid Thrust,Unleash a blindingly fast furry with sabers in each hand.,3,A-,D,,,21,3
+226,Block Stance β,Raise Ally Melee Defense by 29%.,5,,,51,,33,7
+227,Beam Vulcan,Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.,1,B+,D,,11,60,0
+228,Tail Beam Rifle,Launch rapid-fire beam weapon shots from your tail. You can move while firing.,1,B-,D,,4,60,0
+229,Arm-Mounted Grenade Launcher,Launch grenades from your forearm. You can move while firing.,2,D,C-,,11,60,0
+230,Block Hack β,Reduce Melee Defense of all enemies by 24%.,7,,,51,,33,7
+231,6-Tube Missile with Built-in Satchel,Fire guided missiles from the satchel on your back.,2,D,B+,,,21,6
+232,Sturm Faust,Launch the Sturm Faust stored in your forearm shield. You can move while firing.,2,D,C-,,7,60,0
+233,Beam Pistol,Fire the twin pistols mounted on your back.,1,D,B-,,,21,6
+234,Arm-Mounted Scattering Beam Cannon,Fire the beam cannons in your shoulder armor over a wide area. You can move while firing.,1,D,D,,11,60,0
+235,Grenade Launcher,Launch grenades stowed in your body frame.,2,D,B-,,,21,6
+236,Shoulder-Mounted Beam Cannon,Bathe foes in beams from the cannon suspended on your back.,1,B+,D,,,60,15
+237,Beam Cannon,Wedge the beam cannon on your back under your arm to fire beams.,1,B-,D,,,60,15
+238,Double Saber Shear,A furry of invisible blows from the saber on your forearm.,3,B,D,,,21,3
+239,Rose Screamer,Deploy the Rose Bits to enclose foes in an electrified space. Stuns enemies for a set period of time.,1,,,,,60,15
+240,Dober Gun,Bathe foes in beams from the Dober gun on your shoulder.,1,A,D,,,60,15
+241,Vertical Saber Spin,"Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",3,A,D,,,21,3
+242,Mega Particle Cannon (Incom),Detach and launch your forearm to shoot at a locked-on target.,1,D,B+,,,21,6
+243,Psycho Jammer,"Launch Psycho Jammer, erecting a force field around locked-on target and suppressing movement within.",1,,,,,60,15
+244,Triple-Barrel Mega Particle Cannon,Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield.,1,A-,D,,,60,15
+245,Battlecry,"Charge into the fray solo, attacking with your saber. Squad recovers 48% of maximum Armor. Raise Melee Defense of your Squad by 29%.",3,A+,C,,,60,6
+246,Twist Buster,"Lift foes with your saber, then knock them back to earth.",3,A,D,,,21,6
+247,Atomic Bazooka,Fire a nuclear warhead from your bazooka.,2,A+,C-,,,79,12
+248,Beam Dagger Bites,"Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,A-,D,,,33,4
+249,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.,6,,,51,,60,12
+250,Beam Tonfa,Execute a combo using Beam Tonfa attached to forearm. Squad recovers 48% of maximum Armor. Raises Shot Attack of your Squad by 19%. Raises Beam Resist of your Squad by 49%.,3,D,A,,,76,19
+251,Double Saber Rush,Cleave through enemies with sabers in each hand.,3,D,B+,,,21,3
+252,Chest Mega Particle Cannon & I-Field,Fire compressed Mirnovsky particles from Mega Particle Cannons on four of your turrets. Raises your Beam Resist by 59%.,1,A,D,,,60,15
+253,Chest-Mounted Gatling & Machine Cannons,Fire the Gatling and machine cannons in your chest.,2,A-,C-,,,21,3
+254,Aerial Spin,Launch an acrobatic blow with the knife on your forearm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,D,B+,,,21,6
+255,Beam Gatling Gun,Fire the Gatling gun suspended on your back. You can move while firing.,1,A-,D,,11,60,0
+256,Sana's Signature Rabbit Spike,Hop around like a rabbit and strike using the force of a volleyball spike. Squad recovers 38% of maximum Armor. Raises Shot Defense of Squad by 39%.,4,A+,C-,,,79,8
+257,Belly Beam!,Fire a sonic blast with a more straightforward name at target.,1,B+,C-,,,60,15
+258,170mm Autocannon,Attack enemies ahead with the autocannon on your arm.,2,A-,D,,11,60,0
+259,Bloody Wrench,"Bulldoze attacking enemies with your Wrench Mace, then pulverize them into the ground. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.",4,D,A,,,79,20
+260,Mace Rush,"Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",4,D,C-,,,21,6
+261,Trial System,Activate Trial System and stop all Gunpla movement within vicinity for a fixed period of time.,2,,,,,41,11
+262,Halberd,Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%.,4,D,C-,,,21,6
+263,Four-Arm Combat,Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%.,4,D,A,,,79,20
+264,Halberd Throw,Throw the halberd suspended from your shield at an enemy directly ahead.,4,D,B+,,,21,6
+265,Mega-Beam Cannon (Dendrobium),"Summon the armed base Orchis, which fires a beam from its 90m-long turret.",1,A+,C-,,,79,20
+266,Dual Beam Shredder,Execute suppressive fire with special rounds from your Gatling Gun.,1,A-,C-,,,21,3
+267,Quadruple-Barrel Mega Particle Cannon,Fire beams from the Quadruple-Barrel High-Caliber Mega Particle Cannon mounted on your shield.,1,A,D,,,60,15
+268,HEAT REV SWORD,Unleash a two-bladed barrage of attacks.,3,D,B+,,,21,6
+269,Quick Slash,"Unleash a two-hit attack with your blade, knocking enemies away.",4,A,D,,,21,3
+270,Defense Up γ,Raise Melee and Shot Defense of your squad by 39%.,5,,,37,,33,7
+271,Satellite Cannon,Receive microwaves from the moon and fire the converged energy.,1,A+,C-,,,79,20
+272,Mega Sonic Cannon,Unleash high-caliber mega particle beams from your waist.,1,A,D,,,60,15
+273,Strike Claw,"Extend arm to strike, then shoot your beam cannon.",1,D,A-,,,21,6
+274,Beam Hack β,Reduce Beam Resist of all enemies by 39%.,7,,,51,,33,7
+275,Combo Weapon Pod,Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing.,2,A-,D,,7,60,0
+276,Agni,Wedge the Agni cannon on your back under your arm to fire.,1,A-,D,,,60,15
+277,Beam Rifle Shorty,Fire the twin pistols on your legs.,1,A,D,,,21,3
+278,Dual Linear Guns,Bombard enemies with dual railguns. You can move while firing.,2,D,B+,,7,60,0
+279,High Mega Cannon,Fire at enemies ahead with the Mega Particle Cannon in your head.,1,A,D,,,60,15
+280,Biosensor,Temporarily increase energy output using Biosensor. Raise your speed by 20%. Raise your Melee Defense by 29%. Raise your Beam Resist by 49%.,6,,,51,,60,12
+281,Double Cannon & Missile Launcher,Fire Double Cannon and 18-shot missile from your backpack at target.,2,D,B+,,,21,6
+282,Hyper Beam Saber,Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%.,3,D,B+,,,21,3
+283,Chest Missile Launcher,Fire all eight rocket-propelled grenades from your chest's add-on armor at target.,2,D,B+,,,21,6
+284,Hidden Arms,Unleash a combo with dual Beam Sabers hidden in your waist's add-on armor. Lower's hit enemy Gunpla's Melee Defense by 19%.,3,A,D,,,21,6
+285,High-Caliber Mega Particle Cannon,Fire an ultra-wide beam from the two High-Caliber Mega Particle Cannons in your Hi-Mega Shield.,1,A,D,,,60,15
+286,Twin Blade Slash,Unleash a barrage of attacks with your twin blades.,3,D,B+,,,21,6
+287,Offense Hack β,Reduce Melee and Shot Attack of all enemies by 24%.,7,,,37,,33,7
+288,Defense Hack β,Reduce Melee and Shot Defense of all enemies by 24%.,7,,,37,,33,7
+289,Serpent Bite,"Attack with dual sabers held in a backhand grip, striking enemies like a snake striking its prey.",3,B+,B-,,,21,3
+290,Saber Boomerang,"Slash with your saber, then hurl it point-first.",3,D,B,,,21,6
+291,Claw Mode,"Change the tip of your shield into a claw shape, and catch and crush enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.",4,D,B,,,21,3
+292,Hand Missile Pod,Launch missiles stored in your forearm. You can move while firing.,2,A,D,,11,60,0
+293,Missile Pod & Beam Cannon,Attack enemies ahead with the missile and beam cannon on your back.,1,D,B+,,,21,6
+294,Big Beam Bazooka,Fire a high-energy beam at enemies from your bazooka.,1,A,D,,,60,15
+295,Combat Stance γ,Raise Melee Attack of your Squad by 39%.,5,,,51,,33,7
+296,Universal Boost Pod,Transform your propeller-tank-integrated vernier unit at will to boost mobility. Raise speed by 20%. Raise your speed by 20%. Raise your Melee Attack by 19%.,6,,,51,,60,12
+297,Heat Rod,Execute a combo with your whip.,4,A,D,,,21,3
+298,Composite Armed Shield System,Attack enemies with the beam weaponry integrated into your left arm. You can move while firing.,1,A,D,,11,60,0
+299,DRAGOON System,Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.,1,A+,D,,,60,6
+300,Beam Vulcan,Fire the Beam Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.,1,D-,D,,,19,5
+301,IFS Unit Barrier,Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+302,IFS Unit Combo,Attack an enemy with an I-Field control system force field. Raise Shot attack of your Squad by 29%. Raise Beam Resist of your squad by 69%.,1,D,A,,,79,20
+303,Beam Gun,Launch rapid-fire beam guns from your torso. You can move while firing.,1,D,B,,11,60,0
+304,Heat Dagger,Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%.,4,A-,D,,,21,3
+305,Sub-Knuckle,Catch enemies and crush them with the sub-knuckle on your arm. Lowers hit enemy Gunpla's Physical Resist by 29%.,4,D,B+,,,21,3
+306,Knife Attack,Unleash a flurry of attacks with the knife in your right hand.,4,D,B+,,,21,6
+307,Demolition Knife,"Attack the enemy with a large, folded close-quarters weapon longer than a mobile suit.",4,D,B+,,,21,6
+308,Zero System,Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%. You become easier to target for a set period of time.,6,,,51,,60,12
+309,Feather Dive,Attack foes with the beam sabers on your wing binders. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+310,Rolling Buster Rifle,"Hold a detached twin buster rifle in each hand and spin, firing in all directions.",1,A+,C-,,,60,15
+311,EXAM System,Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,37,,60,12
+312,Abdominal Wired Missile,Fire wire-guided missiles.,2,D,B,,,21,6
+313,Moonbeam Butterfly,Fire a straight line of nanomachines upward with your back to the enemy.,1,D,B+,,,60,15
+314,Fusion Destruction Manipulator,Fire beams from your open palm and blast caught enemies with a Shining Finger. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+315,Carapace,Attack enemies with the rifle and bazooka equipped to your weapon platform.,1,D,B+,,,21,6
+316,Close-In Weapons System,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.,2,D-,D,,,19,5
+317,Yata-no-Kagami,Repel beams with nanoscale beam diffraction grating and hyperfine plasma criticality inhibitor layers. Raise your Beam Resist by 109%. Your Gunpla resists flinching for a set period of time.,6,,,37,,60,12
+318,Experimental Twin Beam Saber,"Perform a combo with two detached sabers, then link them for a spinning attack.",3,D,B+,,,21,6
+319,High-Energy Beam Cannon,"Fire a powerful, high-energy beam at enemies.",1,B+,C-,,,60,15
+320,Moonbeam Butterfly,Discharge nanomachines from your rear vanes to fly in and annihilate the enemy. Squad recovers 68% of maximum Armor. Raise Shot Attack of your Squad by 39%.,1,A-,B+,,,79,20
+321,Flip Jump Saber,Brandish sabers in both hands and leap-attack the enemy.,3,A+,D,,,21,3
+322,Flexible Smash,Pulverize the enemy with your hammer.,4,D,B+,,,21,6
+323,Launch Build Booster,"Detach your backpack to have it operate on its own, attacking enemies with a large beam cannon. Raise Melee Attack of your Squad by 24%. Raise Shot Attack of your Squad by 24%.",1,D,A,,,79,29
+324,Point-Blank Shot,"Detach your head unit, and unleash a decisive, destiny-changing attack on the enemy from above. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",1,A+,C-,,,79,4
+325,5-Barrel Mega Particle Cannon,Detach your forearm and fire mega particle cannon beams at the enemy.,1,A+,D,,,21,3
+326,Torso Mega Particle Cannon,Fire at enemies ahead with the mega particle Cannon equipped to your waist.,1,B+,C-,,,60,15
+327,Photon Laser Cannon,Fire highly compressed photon energy from the photon laser cannon on your chest.,1,A,D,,,60,15
+328,Beam Saber,Execute a combo with the saber on the back of your hand.,3,D,B+,,,21,6
+329,Beam Ring,Throw a disk formed from a beam saber forward.,3,A,D,,,21,6
+330,Beam Shotgun,Fire a scattering beam using specialized ammunition.,1,D,B-,,9,60,0
+331,Defense Up β,Raise Ally Melee and Shot Defense by 29%.,5,,,37,,33,7
+332,90mm Gatling Cannon,Rapidly fire rounds from your forearm Gatling Cannon. You can move while firing.,2,A,D,,11,60,0
+333,Seventh Tri-Shot,Bathe foes in triple beams from your rifle.,1,B-,D,,,60,15
+334,Defense Up α,Raise your Melee and Shot Defense by 39%.,5,,,37,,33,7
+335,Stream Slash,Unleash a blindingly fast flurry with sabers in each hand.,3,B+,B-,,,21,6
+336,Flight Unit Combo,"Hammer enemies into the ground with the twin beam sabers, and launch shoulder Funnel Missiles. Raise Melee Attack of your Squad by 29%.",2,D,A,,,79,20
+337,Funnel Missiles,Fire Funnel Missiles to hit foes in all directions. You can move freely while this is active.,2,A+,D,,,60,6
+338,Berserker System,"Activate the Berserker System, temporarily enhancing combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your Melee Defense by 19%.",6,,,37,,60,12
+339,Burning Finger,Gather energy in the palm of your hand and obliterate enemies in your grasp. Lowers hit enemy Gunpla's Physical Resist by 29%.,4,D,B,,,21,3
+340,Beam Hoop,Throw a hoop made from beams like a boomerang.,3,A,D,,,21,3
+341,Beam Ribbon,Deftly manipulate your beam ribbon to perform an elegant sequence of attacks.,3,A,D,,,21,3
+342,7-Barrel Missile Launcher,Attack enemies by launching missiles stowed in your shoulder's add-on armor.,2,D,B+,,,21,6
+343,Twin Beam Rifle & Rocket Launcher,Fire at foes straight ahead with dual large beam rifles and heavy ordnance.,2,D,B+,,,21,6
+344,6-Barrel Missile Launcher,Attack enemies by launching missiles stowed in your knee's add-on armor.,2,D,B+,,,21,6
+345,Free Improvisation,"Crush the enemy with the heavy weaponry on your back, then unleash a thunderous finisher. Raise Shot Attack of your Squad by 39%.",1,D,A,,,79,20
+346,Arm Grenade Launcher,Launch grenades from your forearm. You can move while firing.,2,A-,D,,7,60,0
+347,Leg Missile Pod,Launch missiles from the pod mounted on your leg.,2,D,B,,,21,6
+348,Heat Rush,Ready a saber in each hand and execute a rush attack.,4,A,D,,,21,3
+349,Heaven's Judgement,Hack away at enemies with the beam sword held in the hidden arms equipped to your waist. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,3,A+,C-,,,79,20
+350,Beam Chakram,Launch a ring-shaped beam from your clavicle antenna. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.,1,D-,D,,,19,5
+351,GN Vulcan,"Attack enemies ahead with small, rapid-fire particle beams from your torso.",1,D,B,,7,60,0
+352,Trans-Am Raid,Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.,4,D,B+,,,79,20
+353,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
+354,Armed Armor,Drag foes with your claw unit and crush them with a torrent of light from your dual beam deflector fins. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+355,Choukyuu Haou Den'eidan,"Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball.",4,B+,B,,,19,5
+356,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+357,Sekiha Tenkyouken,Use Master Asia's final art to fire a huge chi bullet made of power borrowed from nature. Raise Melee Defense of your Squad by 29%. Raise Beam Resist of your Squad by 69%.,3,D,A,,,79,20
+358,Juuni Ouhoupai Daishahei,"Use chi to create multiple small clones, and unleash them upon enemies.",4,D,B+,,,21,6
+359,Jigen Haoh Style Gokui,Draw out your Gunpla's latent power with Plavsky Particles to temporarily increase performance. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,44,,60,12
+360,Jigen Haoh Style Shippu-Zuki,"Hit Enemies with Seiken-Zuki and Ryusei Rasen-Ken, and finish with a Shippu-Zuki stab. Raise your Melee Attack by 19%.",4,D,B+,,,21,6
+361,Jigen Haoh Style Seiso-Geri,Use the Jigen Haoh style to make a tornado with Senpu Tatsumaki-Geri and unleash a Seiso-Geri. Raise your Melee Attack by 19%.,4,D,B+,,,21,6
+362,Houou Haoh-Ken,Launch a single phoenix-shaped strike with flame-engulfed arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,4,D,A,,,79,20
+363,MA-81R Beam Assault Cannon,Fire a beam straight at enemies from the beam assault cannon on your back.,1,D,B,,,21,6
+364,Full Saber Attack,Attack using quantum teleports and the Trans-Am System. Raise Melee Attack of your Squad by 29%. Raise Physical Resist of your Squad by 69%.,4,D,A,,,79,20
+365,Wide Cutter Particle Beam,Change direction of the main blade unit to fire a blade beam.,1,A,D,,,21,3
+366,GN Fang,Attack with GN Fangs and fire in all directions. You can move freely while this is active.,3,A+,D,,,60,6
+367,GN Field,Release GN particles to create a force field barrier. Raise your speed by 20%. Raise your Shot Defense by 49%.,6,,,,,60,12
+368,Mirage Colloid,Go Stealthy with colloidal particles on your armor. Raise your Melee and Shot Attack by 19%. You become harder to target for a set period of time.,6,,,51,,60,12
+369,Trikeros Rush,"A combo attack with the Trikeros Kai, a composite armament unit.",3,D,B+,,,19,5
+370,Maga no Ikutachi,"Grab a foe with the unit on your back, then feed it colloidal particles. Recover 48% of your maximum Armor.",4,A+,C-,,,21,3
+371,Beam Vulcan,Fire the Beam Vulcans in your chest at foes straight ahead. You can move while shooting.,1,D,B,,7,60,0
+372,Flexible Beam Gun,Fire the beam gun attached to your flexible thrusters.,1,D,B,,,21,6
+373,Grenade Launcher,Launch grenades from your shield.,2,A-,D,,,21,3
+374,SD Tackle,Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,A-,B-,,,19,2
+375,Super Electrospear,Unleash a barrage of attacks with your Electrospear and follow with a lightning attack.,4,B+,B-,,,21,3
+376,Comet Sword,Unleashes a blinding flash of light with comet-speed swordsmanship that leaves no evil unscathed.,3,D,B+,,,21,6
+377,SD Attack,"After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%.",4,D,B+,,,21,6
+378,Mega Particle Scatter Cannon,Fire the mega particle cannon in your abdomen.,1,A,D,,,60,15
+379,Funnel Combination,"Launch six funnels to fire at the enemy, and throw a beam tomahawk.",1,D,A-,,,79,20
+380,Piercing Axe,Unleash a flurry of thrusting attacks with the weapon in your right hand.,3,B+,C,,,21,3
+381,Small Missiles,Launch small missiles stowed in your shoulder. You can move while firing.,2,D,B,,11,60,0
+382,GN Shield Pod,Launch GN Missiles from your shield. You can move while firing.,1,B+,D,,7,60,0
+383,GN Stealth Field,Release a massive wave of GN particles from your two back units. Support allies over a wide area. Raise Ally Melee and Shot Defense by 19%. Raise Ally Beam and Physical Resist by 29%.,5,,,37,,60,12
+384,IFS Unit,"Create a force field with the I-Field control system, swinging it like a staff to temporarily stun enemies. Lowers hit enemy Gunpla's Melee Defense by 19%.",3,,,,,21,3
+385,Tri-Claw Slash,Grip three beam sabers with your fist in a spinning attack. Raise your Melee Attack by 19%.,3,A,D,,,30,3
+386,Arm-Mounted GN Vulcan,Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing.,1,A,D,,11,60,0
+387,30mm Machine Gun,Attack enemies ahead with the 30mm machine guns in your torso.,2,D,B,,,60,0
+388,200mm x 25 Smoothbore Gun,Attack enemies with the gun on your arm. You can move while firing.,2,D,B,,11,60,0
+389,Hyper Minovsky Chohouken Tryzan,"Restrain enemies with pressure from the liger on your chest, then brandish the Hyper Minovsky Chohouken to deliver an almighty death blow. Raise Melee Attack of your squad by 39%.",3,D,A+,,,79,40
+390,Armed Booster,Detach your forearm and unleash a rocket punch.,4,D,B+,,,21,6
+391,Raptor Breaker,Unleash a pulverizing kick with your shin and crush your enemy when your claws latch on. Lowers hit enemy Gunpla's Melee Attack by 29%.,4,D,B+,,,21,3
+392,Double Cannonade,Fire powerful long-range beams from the cannon on your back.,1,B+,C-,,,60,15
+393,Gerbera Straight/Tiger Pierce,Unleash a combo with the two swords on your waist.,4,B+,B-,,,21,6
+394,Tactical Arms II L,Transform your Tactical Arms into sword form and unleash a combo attack.,4,D,A-,,,21,6
+395,Barrier Stance γ,Raise Shot Defense of your Squad by 39%.,5,,,,,33,7
+396,Alaya-Vijnana Limit Breaker,Break the Alaya-Vijnana System's limits to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.,6,,,44,,60,12
+397,200mm Arm Rifle,Attack enemies with 200mm rifles equipped to your arms.,2,D,B+,,,21,6
+398,Wolf's Howl,Grind enemies to dust with your twin maces. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.,4,D,A,,,79,20
+399,Mace Rush,"Blow away the enemy with your Sword Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",4,D,C,,,21,6
+400,Alaya-Vijnana System [Type E],Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your vernier capacity by 25%.,6,,,44,,60,12
+401,Demon's Hunt,"Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%.",4,A-,A,,,79,20
+402,Cyclone/Burning Machine Gun Punch,Unleash a tornado with your left fist and do up to ten rapid-fire punches with your right.,4,D,B,,,21,6
+403,Gigantic Magnum,Fire the twin pistols on your waist.,1,D,B,,,21,6
+404,Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,D,B,,7,60,0
+405,Verde Fenice,"After readying a rapier and charging an enemy, send it flying with your cloaked fist.",3,D,B+,,,19,5
+406,Meteor Hopper,"Fire the Buster Rifle mounted on your Meteor Hopper, a one-wheeled motorcycle, as you ride it. Raise Shot Attack of your Squad by 39%.",1,D,A,,,79,20
+407,Rapid Thrust,Unleash a blindingly fast flurry with sabers in each hand.,3,D,A-,,,21,6
+408,Missile Pod,Fire micro missiles from your backpack into the air to bombard enemies.,2,B,B,,,21,6
+409,Lightning Snipe,Snipe a target with a precise shot of converging beams.,1,A+,C-,,,21,6
+410,Plasma Claw,Fire thermal plasma beams from your fingertips.,1,B+,B+,,,21,6
+411,Photon Bomb,Launch photon bombs stowed in the lower half of your body.,2,D-,B,,,21,6
+412,Palma Fiocina,"Charge forward, capture an enemy, and fire a beam from your palm at point-blank range. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,B,B+,,,21,3
+413,Arondight,"Form wings of light with radiation pressure from Voiture Lumiere, then rush with Arondight. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",4,D,A,,,79,20
+414,Darkness Sword,Crystalize the wicked power of darkness into a sword and slice enemies to shreds. Recover 38% of your maximum Armor.,4,A+,D,,,21,3
+415,GN Cannon & GN Field,Fire at enemies ahead with dual movable beam turrets on your back. Raise your Beam Resist by 59%.,1,B+,D,,,60,15
+416,GN Bazooka (w/ Particles Unlocked),Widen the barrel of your GN Bazooka and bombard enemies with compressed particles.,1,B,B,,,21,3
+417,Alaya-Vijnana System,Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your attacks stun large foes more easily for a set period.,6,,,44,,60,12
+418,Spirit of Agnika,Attack using the two blades said to symbolize Agnika's strength.,4,D,A-,,,21,3
+419,Electromagnetic Cannon,Attack enemies ahead with the electromagnetic cannons in your wing-shaped thrusters.,2,B+,C,,,21,3
+420,Beam Gun,Launch rapid-fire beam guns from your torso. You can move while firing.,1,B,B+,,,21,6
+421,Heat Dagger,Unleash a barrage of attacks with the daggers in your soles. Raise your Melee Attack by 14%.,4,A,C-,,,21,3
+422,Jovian Stinger,Unleash a frenzied barrage with your lance. Raise your Melee Defense by 19%.,4,D,A-,,,21,6
+423,Alaya-Vijnana System,Enter the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 29%.,6,,,44,,60,12
+424,Wind Edge,Mow down nearby foes with your axe.,4,D,B,,,21,6
+425,Butterfly Edge,Emit a beam saber from the melee weapon on your arm and throw it at enemies.,3,A,D,,,21,3
+426,Psycho Plate,Use psycommu to hit foes in all directions. You can move freely while this skill is active.,4,D,B+,,,60,15
+427,SD Tackle,Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,C,,,19,2
+428,SD Missile Launcher,Fire missiles from the launcher mounted on your back.,2,D,B,,,21,6
+429,SD Attack,"After a rush attack, unleash a barrage of attacks with your equipped weapons. Lowers hit enemy Gunpla's Shot Attack by 19%.",4,D,B,,,21,6
+430,Dual Wave,Hold Grenade Launcher in both hands and fire high-power rounds.,2,A+,D,,,21,3
+431,Chest Launcher,Fire the Vulcan in your chest at foes straight ahead. You can move freely while shooting.,2,D,B,,7,60,0
+432,Twin Satellite Cannon,Receive microwaves from the moon and converge the energy into dual beam blasts.,1,A+,C-,,,79,20
+433,Trans-Am Burst,Discharge a burst of condensed GN particles to engulf a wide area. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee and Shot Defense of your Squad by 19%. Raise Beam and Physical Resist of your Squad by 29%.,6,,,51,,60,12
+434,Raiser Sword,Use a large beam saber formed by outputting a massive amount of energy to cut enemies apart.,3,D,B+,,,21,6
+435,Callidus Multi-Phase Beam Cannon,Fire away with the high-energy Callidus Multi-Phase Beam Cannon on your chest.,1,A-,D,,,60,15
+436,3-Barrel Beam Cannon,Fire at enemies using six beam cannons stowed in your shoulders.,1,A-,D,,,60,15
+437,Balaena Kai Dual Beam Cannons,Attack enemies ahead by firing highly compressed plasma energy from your plasma beam cannon.,1,D,B,,,21,6
+438,Satellite Cannon,Receive microwaves from the moon and fire the converged energy.,1,A+,C-,,,79,20
+439,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,D,C-,,,21,6
+440,FX Burst Mode,Activate FX Burst mode to obtain an aberranthy massive amount of power. Raise your Melee Attack by 29%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+441,Burst Slash,"Activate FX Burst mode, emit spikes of beam energy, and execute a high-speed rush attack. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",3,A-,B+,,,79,8
+442,C Funnels,Launch C Funnels in all directions. You can move freely while this is active.,3,A+,D,,,60,6
+443,Barrier Tackle,"Spin the C Funnels on your back around your Gunpla to prevent damage, and execute a rush attack. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",3,A-,B-,,,21,3
+444,Tactical Arms II,Transform your Tactical Arms into a sword form and Gatling form to attack in waves. Raise Melee and Shot Attacks of your Squad by 24%.,4,D,A,,,79,20
+445,Graviton Hammer,Pulverize enemies to a pulp with the cannonball stored on your shoulder. Raise your Melee Defense by 29%.,4,D,B,,,21,6
+446,Flash-Eye,Release an intense flash of light from the device on your chest to blind enemies.,2,,,,,19,5
+447,Anchor Shot,Discharge the anchor mounted on your arm.,4,D,C,,,21,3
+448,Sub Leg [Flight Form],"Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",4,A+,D,,,19,2
+449,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,B-,,,19,2
+450,Fortress Four Booster,"Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",1,D,B-,,,60,15
+451,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.,6,,,51,,60,12
+452,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,1,A+,C-,,,60,6
+453,Reborns Cannon Mode,Perform a combo with your GN Fin Fangs and blow enemies away with your GN Cannon. Raise speed of your Squad 20%. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+454,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,3,A+,C-,,,60,6
+455,Wings of Light,"Increase Minovsky Drive output and rush towards enemies, using your wings of light as beam sabers. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",3,A+,C,,,79,8
+456,CIWS,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.,2,B+,D,,7,60,0
+457,Beam Claw,Use the saber on your leg in a series of combo attacks. Raise your Melee Attack by 19%.,3,A,D,,,21,3
+458,Callidus Kai Dual Phase Beam Cannons,Fire away with the high-energy Callidus Kai Dual Phase Beam Cannons on your back.,1,A-,D,,,60,15
+459,Picus,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while firing.,2,B+,D,,7,60,0
+460,Reuse P Device,Control your unit with electrical signals sent from the pilot's brain to increase performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your vernier capacity by 75%.,6,,,37,,60,12
+461,Bump of Living Dead,Freely control the heavy weaponry on your back and bombard enemies in all directions. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,2,D,A,,,79,20
+462,Dragon Fang,Unleash a burst of flame at enemies ahead of you from your dragon-shaped arm. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.,4,A+,D,,,21,3
+463,Comet Shot,Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla's Shot Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,D,B,,,21,6
