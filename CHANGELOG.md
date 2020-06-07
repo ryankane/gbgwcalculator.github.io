@@ -3,6 +3,8 @@
 ## 1.2.0
 
 - Reorganized files to prepare for node integration
+- Reformatted a few database tables
+- Updated font glyphs
 
 ## 1.1.8
 
