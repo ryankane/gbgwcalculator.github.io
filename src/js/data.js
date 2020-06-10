@@ -185,7 +185,8 @@ const PilotType = [{
 const Sorters = [{
   "key" : "rarity",
   "name": "Rarity",
-  "slug": "rarity"
+  "slug": "rarity",
+  "isParam": false
 }, {
   "key" : "armor",
   "name": "Armor",

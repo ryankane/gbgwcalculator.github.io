@@ -424,6 +424,23 @@
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Cony Francis",
+  "jl": "Supporter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Mass P.", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Shot DEF is over 12000, Shot guidance boosted 14%"
+  }
+}, {
   "name": "Dearka Elsman",
   "jl": "Long-Shooter",
   "attribute": "Power",
@@ -1068,6 +1085,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "14% chance to survive fatal blow"
+  }
+}, {
+  "name": "Kou Uraki [Military Uniform Ver.]",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 418,
+  "pr": 213,
+  "wt": ["Federation", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When in Arena Sortie, All power boosted 30%"
   }
 }, {
   "name": "Lacus Clyne",

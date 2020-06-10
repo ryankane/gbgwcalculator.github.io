@@ -33,7 +33,7 @@ class GunplaCalculator {
   }
 
   init() {
-    Sorters.forEach(sorter => {
+    Sorters.filter(s => s.isParam !== false).forEach(sorter => {
       this.partParamCont[sorter.slug] = document.querySelector('.js-part-total-' + sorter.slug);
     });
     AllSlots.forEach(slot => {
@@ -445,7 +445,7 @@ class GunplaCalculator {
 
   _resetParameters() {
     this.parametersTotal = {};
-    Sorters.forEach(sorter => {
+    Sorters.filter(s => s.isParam !== false).forEach(sorter => {
       if ('slug' in sorter) {
         this.parametersTotal[sorter.slug] = 0;
       }
@@ -455,7 +455,7 @@ class GunplaCalculator {
   _calculateParameters(inputName) {
     if (inputName && inputName.dataset.part) {
       const markMultiplier = this._getMarkMultiplier(inputName.dataset.part);
-      Sorters.forEach(sorter => {
+      Sorters.filter(s => s.isParam !== false).forEach(sorter => {
         const slug = sorter.slug;
         if (slug && inputName.dataset[slug] && slug in this.parametersTotal) {
           let data = inputName.dataset[slug];
@@ -522,7 +522,7 @@ class GunplaCalculator {
       }
     }
     if (tagTally && this.applyMapBonus && Array.isArray(Sorters)) {
-      Sorters.forEach(sorter => {
+      Sorters.filter(s => s.isParam !== false).forEach(sorter => {
         tallyMap[sorter.slug] = tallyMap[sorter.slug] ? this._roundValue(tallyMap[sorter.slug] + MultiplierBuffMap) : MultiplierBuffMap;
       });
     }
@@ -750,7 +750,7 @@ class GunplaCalculator {
       if (part.nodeName.toLowerCase() === 'input') {
         markMultiplier = this._getMarkMultiplier(part.dataset.part);
       }
-      Sorters.forEach(sorter => {
+      Sorters.filter(s => s.isParam !== false).filter(s => s.isParam !== false).forEach(sorter => {
         let partMultiplier = +part.dataset[sorter.slug];
         this.partParamCont[sorter.slug].textContent = 0;
         if (partMultiplier) {
@@ -823,9 +823,17 @@ class GunplaCalculator {
         multiplier = this._roundValue(multiplier + MarkWeights[markItem.dataset.value]);
       }
     });
-    return multiplier && this._hasComboParts(currPart) ? multiplier / 2 : multiplier;
+    return multiplier;
   }
 
+  /**
+   * @private
+   * @deprecated
+   * This used to be used in {@link GunplaCalculator#_getMarkMultiplier} when returning the multiplier.
+   * If the part had integrated parts, it halved the return value.
+   * @param currPart
+   * @returns {boolean}
+   */
   _hasComboParts(currPart) {
     const partInput = document.querySelector('.js-input-' + currPart);
     return !!(partInput && partInput.dataset.combo);

@@ -68,6 +68,25 @@ const WeaponCategoryIndex = [
   'Twin Blade'
 ];
 
+const MeleeWeaponTypeLookup = {
+  'Axe' : '6b',
+  'Saber': '6a',
+  'Module': null,
+  'Dual Sabers': '6',
+  'Blade': '6c',
+  'Lance': '6d',
+  'Whip': '6',
+  'Twin Blade': '6'
+};
+
+const RangedWeaponTypeLookup = {
+  'Rifle': '7a',
+  'Machine Gun': '7c',
+  'Long Rifle': '7b',
+  'Gatling Gun': '7',
+  'Bazooka': '7d',
+};
+
 const WordTagIndex = [
   'Protag.',
   'Mass P.',

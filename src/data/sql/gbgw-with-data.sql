@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jun 07, 2020 at 01:02 AM
+-- Generation Time: Jun 10, 2020 at 08:31 PM
 -- Server version: 8.0.18
 -- PHP Version: 7.3.11
 
@@ -149,7 +149,9 @@ INSERT INTO `event` (`id`, `name`, `exchange`, `blueprints`, `start_date`) VALUE
 (36, 'Deity of the Deep', 'Deep Coin', 1, '2020-04-15'),
 (37, 'Fists of Iron', 'Iron Coin', 1, '2020-05-13'),
 (38, 'The Roving Azure Fortress', 'Fortress Device A', 0, '2020-05-20'),
-(39, 'Chaotic Assault', 'Chaotic Chips', 0, '2020-05-27');
+(39, 'Chaotic Assault', 'Chaotic Chips', 0, '2020-05-27'),
+(40, 'The Duel in Texas', 'Texas Coin', 1, '2020-06-03'),
+(41, 'Scarlet Shoulders of Terror', 'Scarlet Shoulder Coin', 0, '2020-06-10');
 
 -- --------------------------------------------------------
 
@@ -198,7 +200,7 @@ CREATE TABLE IF NOT EXISTS `ex_skill` (
   `cooldown_initial` int(11) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `FK_ExSkillCategoryId` (`ex_category_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=464 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=472 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `ex_skill`
@@ -668,7 +670,15 @@ INSERT INTO `ex_skill` (`id`, `name`, `description`, `ex_category_id`, `pierce`,
 (460, 'Reuse P Device', 'Control your unit with electrical signals sent from the pilot\'s brain to increase performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your vernier capacity by 75%.', 6, NULL, NULL, 37, NULL, 60, 12),
 (461, 'Bump of Living Dead', 'Freely control the heavy weaponry on your back and bombard enemies in all directions. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.', 2, 'D', 'A', NULL, NULL, 79, 20),
 (462, 'Dragon Fang', 'Unleash a burst of flame at enemies ahead of you from your dragon-shaped arm. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.', 4, 'A+', 'D', NULL, NULL, 21, 3),
-(463, 'Comet Shot', 'Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla\'s Shot Attack by 14%. Lowers hit enemy Gunpla\'s Melee Defense by 14%.', 4, 'D', 'B', NULL, NULL, 21, 6);
+(463, 'Comet Shot', 'Jump up high and hit foes with a flying kick. Lowers hit enemy Gunpla\'s Shot Attack by 14%. Lowers hit enemy Gunpla\'s Melee Defense by 14%.', 4, 'D', 'B', NULL, NULL, 21, 6),
+(464, 'G-Self Combination', 'Blow away the enemy with vigorous punches, then bisect them away with your saber. Raise speed of Squad by 20% Raise Melee Attack of your Squad by 29% Raise Shot Defense of your Squad by 19%.', 3, 'A+', 'C', NULL, NULL, 79, 8),
+(465, 'Laser Pod', 'Fire the laser pods in your main wings. You can move while firing.', 1, 'D', 'B', NULL, 7, 60, 0),
+(466, 'Perfect Assault', 'Preform a combo with the blade on your back, and finish the enemy with Agni fire from on high. Raise Melee and Shot Attack of your Squad by 24%. Raise Shot Defense of your Squad by 19%.', 1, 'D', 'A', NULL, NULL, 79, 20),
+(467, 'Ζ Beam', 'Fire a light ray in the shape of the Ζ Mark on your chest and immobilize rule breakers.', 1, 'D', 'B', NULL, NULL, 21, 6),
+(468, 'Terrible Funnels', 'Fire Terrible Funnels to destroy rule breakers. You can move freely while this is active.', 1, 'D', 'B+', NULL, NULL, 60, 9),
+(469, 'The Axis will fall on rule breakers!', 'Mercilessly deal devine-justice knockout blows to in-game violators of common decency. Uphold the spirit of The Antarctic Treaty! Let\'s protect our GBN!', 2, 'A', 'B', NULL, NULL, 98, 25),
+(470, 'Zeonic Sword [Bowgun Mode]', 'Set up your bowgun-shaped beam weapon and fire a beam to pierce through rule breakers.', 1, 'A-', 'C', NULL, NULL, 60, 15),
+(471, 'Assault Attack', 'Unleash a savage attack from the air with your Chest Vulcan and machine gun.', 2, 'A-', 'B', NULL, NULL, 21, 6);
 
 -- --------------------------------------------------------
 
@@ -736,7 +746,7 @@ CREATE TABLE IF NOT EXISTS `part` (
   KEY `FK_PartWeaponTypeId` (`weapon_type_id`),
   KEY `FK_PartWordTag1Id` (`word_tag_1_id`),
   KEY `FK_PartWordTag2Id` (`word_tag_2_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1393 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1428 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `part`
@@ -1524,11 +1534,11 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (777, 'GN Beam Saber [Nadleeh]', '25-06-6a-01', 125, 6, NULL, 3, 3, 20, 26, 558, 2297, 0, 0, 0, 126, 428, NULL, 'With Speed attribute (self), Enemy Melee power reduced 25%', 1, 2, 'Trial Coins (Event)'),
 (778, 'GN Beam Rifle [Nadleeh]', '25-06-7a-01', 125, 7, NULL, 3, 3, 20, 26, 558, 0, 2297, 0, 0, 126, 426, NULL, 'Middle-Shooter Job, Shooting DMG output boosted by 20', 1, 8, 'Trial Coins (Event)'),
 (779, 'GN Shield [Nadleeh]', '25-06-8-01', 125, 8, NULL, 3, 3, 20, 26, 558, 0, 0, 1140, 1140, 126, 588, NULL, 'Middle-Shooter Job, Debuff EX Skill time up 16%', NULL, NULL, 'Trial Coins (Event)'),
-(780, 'Gusion Rebake', '28-04-1-01', 126, 1, NULL, 1, 1, 11, 21, 795, 384, 1179, 1179, 1179, 416, 0, NULL, 'Physical ranged weapon, magazine boosted 20%', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
-(781, 'Gusion Rebake', '28-04-2-01', 126, 2, NULL, 1, 1, 11, 21, 1601, 384, 0, 1179, 1179, 609, 0, NULL, 'With Axe Category equipped, Shooting DMG taken reduced by 35', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
-(782, 'Gusion Rebake', '28-04-3-01', 126, 3, NULL, 1, 1, 11, 21, 795, 1179, 384, 1179, 1179, 416, 211, NULL, 'Defender Job, Melee DMG taken reduced by 35', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
-(783, 'Gusion Rebake', '28-04-4-01', 126, 4, NULL, 1, 1, 11, 6, 795, 384, 384, 1601, 1601, 211, 416, 262, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
-(784, 'Gusion Rebake', '28-04-5-01', 126, 5, NULL, 1, 1, 11, 6, 795, 384, 384, 1601, 1601, 416, 211, 263, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
+(780, 'Gusion Rebake', '28-04-1-01', 126, 1, NULL, 1, 1, 11, 21, 795, 382, 1179, 1179, 1179, 416, 0, NULL, 'Physical ranged weapon, magazine boosted 20%', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
+(781, 'Gusion Rebake', '28-04-2-01', 126, 2, NULL, 1, 1, 11, 21, 1601, 382, 0, 1179, 1179, 609, 0, NULL, 'With Axe Category equipped, Shooting DMG taken reduced by 35', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
+(782, 'Gusion Rebake', '28-04-3-01', 126, 3, NULL, 1, 1, 11, 21, 795, 1179, 382, 1179, 1179, 416, 211, NULL, 'Defender Job, Melee DMG taken reduced by 35', NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
+(783, 'Gusion Rebake', '28-04-4-01', 126, 4, NULL, 1, 1, 11, 6, 795, 382, 382, 1601, 1601, 211, 416, 262, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
+(784, 'Gusion Rebake', '28-04-5-01', 126, 5, NULL, 1, 1, 11, 6, 795, 382, 382, 1601, 1601, 416, 211, 263, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
 (785, 'Halberd', '28-04-6b-01', 126, 6, NULL, 4, 1, 11, 21, 795, 1601, 0, 795, 795, 609, 416, NULL, 'Defender Job, Job Gauge increase boosted 17%', 2, 1, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
 (786, '120mm Long-Range Rifle', '28-04-7b-01', 126, 7, NULL, 4, 1, 11, 21, 795, 0, 1601, 795, 795, 609, 416, NULL, 'When Armor is 40% or more, Shooting DMG taken reduced by 35', 2, 10, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
 (787, 'Shield [Gusion Rebake]', '28-04-8-01', 126, 8, NULL, 4, 1, 11, 6, 0, 0, 0, 1974, 1974, 805, 211, 264, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 005] Bonus Coins'),
@@ -2139,7 +2149,42 @@ INSERT INTO `part` (`id`, `name`, `collection_id`, `unit_id`, `part_type_id`, `p
 (1389, 'Gelgoog [Char Aznable]', '01-13-5-01', 219, 5, NULL, 3, 3, 17, 3, 559, 292, 292, 292, 891, 303, 430, 286, NULL, NULL, NULL, 'Texas Coins (Event)'),
 (1390, 'Beam Naginata [Gelgoog (Char Aznable)]', '01-13-6-01', 219, 6, NULL, 3, 3, 17, 5, 292, 2594, 0, 0, 559, 127, 303, NULL, 'While \"Zeon\", Melee DMG output boosted by 20', 1, 13, 'Texas Coins (Event)'),
 (1391, 'Beam Rifle [Gelgoog (Char Aznable)]', '01-13-7a-01', 219, 7, NULL, 3, 3, 17, 3, 559, 0, 1436, 0, 559, 127, 430, NULL, 'When in Multi-Mission Sortie, EX Skill power boosted 25%', 1, 8, 'Texas Coins (Event)'),
-(1392, 'Shield [Gelgoog (Char Aznable)]', '01-13-8-01', 219, 8, NULL, 3, 3, 17, 5, 559, 0, 0, 559, 1436, 127, 592, NULL, 'When Armor is 60% or less, Vernier Consumption = 0 for 10 sec.', NULL, NULL, 'Texas Coins (Event)');
+(1392, 'Shield [Gelgoog (Char Aznable)]', '01-13-8-01', 219, 8, NULL, 3, 3, 17, 5, 559, 0, 0, 559, 1436, 127, 592, NULL, 'When Armor is 60% or less, Vernier Consumption = 0 for 10 sec.', NULL, NULL, 'Texas Coins (Event)'),
+(1393, 'Gundam G-Self [Atmospheric Pack Type]', '27-04-1-01', 220, 1, NULL, 4, 1, 1, 9, 796, 383, 2378, 796, 796, 212, 212, NULL, 'When 2 enemies shot down, Close Shot Attack raised 20%', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1394, 'Gundam G-Self [Atmospheric Pack Type]', '27-04-2-01', 220, 2, NULL, 4, 1, 1, 9, 1602, 383, 383, 1180, 1180, 288, 288, 464, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1395, 'Gundam G-Self [Atmospheric Pack Type]', '27-04-3-01', 220, 3, NULL, 4, 1, 1, 13, 796, 2378, 383, 1180, 1180, 0, 0, NULL, 'When Melee ATK is over 16000, Melee power boosted 30%', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1396, 'Gundam G-Self [Atmospheric Pack Type]', '27-04-4-01', 220, 4, NULL, 4, 1, 1, 13, 796, 383, 383, 1180, 1180, 475, 502, NULL, 'Middle-Shooter Job, EX Skill CD reduced 20%', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1397, 'Gundam G-Self [Atmospheric Pack Type]', '27-04-5-01', 220, 5, NULL, 4, 1, 1, 3, 796, 383, 383, 1180, 1180, 502, 475, 465, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1398, 'Beam Saber [G-Self/Atmospheric Pack]', '27-04-6a-01', 220, 6, NULL, 4, 1, 1, 13, 796, 3176, 0, 0, 0, 417, 417, NULL, 'While \"Gundam Type\", Strong Melee CRIT rate boosted 30%', 1, 4, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1399, 'Beam Rifle [G-Self/Atmospheric Pack]', '27-04-7a-01', 220, 7, NULL, 4, 1, 1, 3, 796, 0, 3176, 0, 0, 417, 417, NULL, 'With Power attribute (self), Job Gauge increase boosted 17%', 1, 8, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1400, 'Shield [G-Self/Atmospheric Pack]', '27-04-8-01', 220, 8, NULL, 4, 1, 1, 9, 796, 0, 0, 1602, 1602, 417, 417, NULL, 'When debuffed, Enemy Shooting power reduced 30%', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1401, 'Perfect Strike Gundam', '21-12-1-01', 221, 1, NULL, 4, 2, 10, 7, 799, 384, 2789, 384, 384, 213, 213, 78, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1402, 'Perfect Strike Gundam', '21-12-2-01', 221, 2, NULL, 4, 2, 10, 7, 1606, 799, 799, 799, 799, 290, 290, NULL, 'With Technique attribute (self), Revive with 50% Armor one time', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1403, 'Perfect Strike Gundam', '21-12-3-01', 221, 3, 8, 4, 2, 10, 25, 1606, 3587, 1606, 1182, 1182, 477, 477, 275, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1404, 'Perfect Strike Gundam', '21-12-4-01', 221, 4, NULL, 4, 2, 10, 25, 799, 799, 384, 799, 799, 477, 477, NULL, 'When attacking with Beam, Mid Shot Attack raised 20%', NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1405, 'Perfect Strike Gundam', '21-12-5-01', 221, 5, NULL, 4, 2, 10, 7, 799, 799, 384, 799, 799, 477, 477, 466, NULL, NULL, NULL, 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(1406, 'ν-Zeon Gundam', '62-??-1-01', 222, 1, NULL, 5, 1, 3, 5, 1231, 377, 3298, 0, 377, 206, 460, NULL, 'While \"Ace Excl.\", EX Skill power boosted 30%', NULL, NULL, 'Z Materials (Event Blueprint)'),
+(1407, 'ν-Zeon Gundam', '62-??-2-01', 222, 2, NULL, 5, 1, 3, 10, 1728, 785, 1163, 785, 961, 206, 593, 467, NULL, NULL, NULL, 'Z Materials (Event Blueprint)'),
+(1408, 'ν-Zeon Gundam', '62-??-3-01', 222, 3, NULL, 5, 1, 5, 10, 961, 2910, 1419, 550, 550, 0, 0, NULL, 'With Blade category equipped, Shooting power boosted 30%', NULL, NULL, 'Z Materials (Event Blueprint)'),
+(1409, 'ν-Zeon Gundam', '62-??-4-01', 222, 4, NULL, 5, 1, 5, 10, 961, 785, 632, 785, 961, 667, 489, NULL, 'With Power attribute (self), Shooting CRIT rate boosted 30%', NULL, NULL, 'Z Materials (Event Blueprint)'),
+(1410, 'ν-Zeon Gundam', '62-??-5-01', 222, 5, NULL, 5, 1, 3, 10, 785, 785, 1011, 785, 1350, 406, 667, 468, NULL, NULL, NULL, 'Z Materials (Event Blueprint)'),
+(1411, 'Zeonic Sword [High Mega Saber]', '62-??-6c-01', 222, 6, NULL, 5, 1, 3, 10, 550, 3375, 0, 0, 153, 460, 667, 469, NULL, 2, 5, 'Z Materials (Event Blueprint)'),
+(1412, 'Zeonic Sword [High Mega Bowgun]', '62-??-7b-01', 222, 7, NULL, 5, 1, 3, 5, 0, 0, 3743, 0, 550, 281, 460, 470, NULL, 1, 10, 'Z Materials (Event Blueprint)'),
+(1413, 'Gundam Ez8', '03-??-1-01', 223, 1, NULL, 4, 1, 16, 24, 384, 384, 3177, 384, 1181, 0, 0, 3, NULL, NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1414, 'Gundam Ez8', '03-??-2-01', 223, 2, NULL, 4, 1, 16, 24, 1602, 384, 384, 796, 1602, 0, 611, 471, NULL, NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1415, 'Gundam Ez8', '03-??-3-01', 223, 3, NULL, 4, 1, 16, 24, 1181, 796, 384, 384, 1602, 213, 417, NULL, 'When Armor is 50% or more, Shot guidance boosted 17%', NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1416, 'Gundam Ez8', '03-??-4-01', 223, 4, NULL, 4, 1, 16, 5, 796, 384, 384, 796, 1602, 611, 417, 121, NULL, NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1417, 'Gundam Ez8', '03-??-5-01', 223, 5, NULL, 4, 1, 16, 5, 796, 384, 384, 796, 1602, 417, 611, NULL, 'Physical ranged weapon, magazine boosted 20%', NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1418, 'Beam Rifle [Ez8]', '03-??-7a-01', 223, 7, NULL, 4, 1, 16, 5, 384, 0, 3997, 0, 0, 213, 417, NULL, 'Beam ranged weapon, reload speed boosted 20%', 1, 8, 'Capsule Medals (Event Capsules)'),
+(1419, '100mm Machine Gun [Ez8]', '03-??-7c-01', 223, 7, NULL, 4, 1, 16, 24, 384, 0, 3997, 0, 0, 213, 417, NULL, 'While \"Federation\", Shooting DMG output boosted by 35', 2, 9, 'Capsule Medals (Event Capsules)'),
+(1420, 'Shield [Ez8]', '03-??-8-01', 223, 8, NULL, 4, 1, 16, 5, 796, 0, 0, 796, 2380, 0, 1028, NULL, 'Out-Fighter Job, Enemy Shooting power reduced 30%', NULL, NULL, 'Capsule Medals (Event Capsules)'),
+(1421, 'Blue Destiny Unit-2', '04-02-1-01', 224, 1, NULL, 3, 2, 13, 25, 558, 291, 1700, 558, 558, 126, 126, 311, NULL, NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1422, 'Blue Destiny Unit-2', '04-02-2-01', 224, 2, NULL, 3, 2, 13, 25, 1142, 291, 291, 889, 889, 213, 213, 312, NULL, NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1423, 'Blue Destiny Unit-2', '04-02-3-01', 224, 3, NULL, 3, 2, 13, 17, 558, 1700, 291, 889, 889, 0, 0, NULL, 'When Melee ATK is over 16000, Melee CRIT rate boosted 17%', NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1424, 'Blue Destiny Unit-2', '04-02-4-01', 224, 4, NULL, 3, 2, 13, 17, 558, 291, 291, 889, 889, 349, 375, 121, NULL, NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1425, 'Blue Destiny Unit-2', '04-02-5-01', 224, 5, NULL, 3, 2, 13, 17, 558, 291, 291, 889, 889, 375, 349, NULL, 'Before 15s pass, Vernier consumption reduced 15%', NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1426, 'Beam Rifle [B.D. Unit 2]', '04-02-7a-01', 224, 7, NULL, 3, 2, 13, 17, 558, 0, 2298, 0, 0, 302, 302, NULL, 'When 2 enemies shot down, Job Gauge increase boosted 13%', 1, 8, 'Scarlet Shoulder Coins (Weekly Event)'),
+(1427, 'Shield [B.D. Unit 2]', '04-02-8-01', 224, 8, NULL, 3, 2, 13, 25, 558, 0, 0, 1142, 1142, 302, 302, NULL, 'With Technique attribute (self), Enemy Strong Melee power reduced 25%', NULL, NULL, 'Scarlet Shoulder Coins (Weekly Event)');
 
 -- --------------------------------------------------------
 
@@ -2180,7 +2225,7 @@ CREATE TABLE IF NOT EXISTS `pilot` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL,
   `series_id` int(11) NOT NULL,
-  `issue` int(11) NOT NULL,
+  `issue` int(11) DEFAULT NULL,
   `name_japanese` varchar(64) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
   `rarity` int(11) NOT NULL,
   `attribute_id` int(11) NOT NULL,
@@ -2210,7 +2255,7 @@ CREATE TABLE IF NOT EXISTS `pilot` (
   KEY `FK_PilotSeriesId` (`series_id`),
   KEY `FK_PilotWordTag1Id` (`word_tag_1_id`),
   KEY `FK_PilotWordTag2Id` (`word_tag_2_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=130 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=132 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `pilot`
@@ -2345,7 +2390,9 @@ INSERT INTO `pilot` (`id`, `name`, `series_id`, `issue`, `name_japanese`, `rarit
 (126, 'Rosemary Raspberry', 14, 4, 'ローズマリー・ラズベリー', 3, 2, 7, 20, 292, 891, 891, 559, 559, 303, 303, 'After 15s pass, Projectile speed boosted 14%', 4, 2, 1, NULL, NULL, NULL, '2020-05-27', NULL),
 (127, 'Sting Oakley', 22, 7, 'スティング・オークレー', 3, 1, 12, 7, 558, 291, 291, 889, 889, 126, 428, 'When 1 allies shot down, All DMG taken reduced by 20', 5, 3, 3, NULL, 'Event', NULL, '2020-05-27', NULL),
 (128, 'Ali al-Saachez', 25, 12, 'アリー・アル・サーシェス', 4, 1, 6, 9, 797, 1181, 1181, 797, 797, 213, 418, 'When Melee ATK is over 16000, Job Gauge increase boosted 17%', 3, 1, 2, NULL, NULL, NULL, '2020-06-03', NULL),
-(129, 'Joseph Yaht', 20, 5, 'ジョゼフ・ヨット', 3, 3, 15, 26, 558, 291, 291, 889, 889, 126, 428, 'While \"Support Type\", EX Skill piercing boosted 22%', 2, 1, 3, NULL, NULL, NULL, '2020-06-03', NULL);
+(129, 'Joseph Yaht', 20, 5, 'ジョゼフ・ヨット', 3, 3, 15, 26, 558, 291, 291, 889, 889, 126, 428, 'While \"Support Type\", EX Skill piercing boosted 22%', 2, 1, 3, NULL, NULL, NULL, '2020-06-03', NULL),
+(130, 'Kou Uraki [Military Uniform Ver.]', 7, NULL, 'コウ・ウラキ［軍服ver.］', 4, 3, 16, 6, 797, 1181, 1181, 797, 797, 418, 213, 'When in Arena Sortie, All power boosted 30%', 4, 2, 1, NULL, NULL, NULL, '2020-06-10', NULL),
+(131, 'Cony Francis', 15, NULL, 'コニー・フランシス', 3, 2, 2, 7, 558, 558, 558, 558, 558, 126, 428, 'When Shot DEF is over 12000, Shot guidance boosted 14%', 7, 2, 2, NULL, NULL, NULL, '2020-06-10', NULL);
 
 -- --------------------------------------------------------
 
@@ -2439,7 +2486,7 @@ CREATE TABLE IF NOT EXISTS `unit` (
   PRIMARY KEY (`id`),
   KEY `FK_UnitAttributeId` (`attribute_id`),
   KEY `FK_UnitSeriesId` (`series_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=220 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=225 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `unit`
@@ -2664,7 +2711,12 @@ INSERT INTO `unit` (`id`, `model`, `name`, `subname`, `series_id`, `issue`, `nam
 (216, 'ZGMF-X24S', 'Chaos Gundam', NULL, 22, 7, 'カオスガンダム', 3, 1, 2, NULL, 'Event', NULL, NULL, 0, '2020-05-27', 'Chaotic Chips (Event)'),
 (217, 'MS-06R', 'Psycho Zaku', 'Thunderbolt Ver.', 38, 3, 'サイコ・ザク［ガンダム サンダーボルト版］', 4, 2, 1, 'Standard', NULL, NULL, NULL, 0, '2020-06-03', 'Haro Chip Capsule'),
 (218, 'XXXG-01S', 'Shenlong Gundam', 'Endless Waltz Ver.', 18, 9, 'シェンロンガンダム［Endless Waltz版］', 4, 1, 1, 'Standard', NULL, NULL, NULL, 0, '2020-06-03', 'Haro Chip Capsule'),
-(219, 'MS-14S', 'Gelgoog', 'Char Aznable', 1, 13, 'ゲルググ［シャア・アズナブル専用］', 3, 3, 2, NULL, 'Event', NULL, NULL, 0, '2020-06-03', 'Texas Coins (Event)');
+(219, 'MS-14S', 'Gelgoog', 'Char Aznable', 1, 13, 'ゲルググ［シャア・アズナブル専用］', 3, 3, 2, NULL, 'Event', NULL, NULL, 0, '2020-06-03', 'Texas Coins (Event)'),
+(220, 'YG-111', 'Gundam G-Self', 'Atmospheric Pack Type', 27, 4, 'ガンダム G-セルフ［大気圏用パック装備型］', 4, 1, 1, 'Standard', NULL, NULL, NULL, 0, '2020-06-10', 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(221, 'GAT-X105+AQM/E-YM1', 'Perfect Strike Gundam', NULL, 21, 12, 'パーフェクトストライクガンダム', 4, 2, 1, 'Standard', NULL, NULL, NULL, 0, '2020-06-10', 'Haro Chip Capsule & [No. 021] Bonus Coins'),
+(222, 'RX-93N04', 'ν-Zeon Gundam', NULL, 62, NULL, 'ν-ジオンガンダム', 5, 1, 1, NULL, NULL, NULL, 'Blueprint', 1, '2020-06-10', 'Z Materials (Event Blueprint)'),
+(223, 'RX-79［G］', 'Gundam Ez8', NULL, 3, NULL, 'ガンダムEz8', 4, 1, 1, 'Capsule Medal', NULL, NULL, NULL, 0, '2020-06-10', 'Capsule Medals (Event Capsules)'),
+(224, 'RX-79BD-2', 'Blue Destiny Unit-2', NULL, 4, 2, 'ブルーディスティニー2号機', 3, 2, 2, NULL, 'Event', NULL, NULL, 0, '2020-06-10', 'Scarlet Shoulder Coins (Weekly Event)');
 
 -- --------------------------------------------------------
 

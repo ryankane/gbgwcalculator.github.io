@@ -33,7 +33,7 @@ const tables = {
       {name: 'id', field: 'Index', type: 'int'},
       {name: 'name', field: 'Name'},
       {name: 'exchange', field: 'Exchange'},
-      {name: 'blueprints', field: 'Blueprints', type: 'boolean'},
+      {name: 'blueprints', field: 'Blueprints', type: 'boolean', default: 0},
       {name: 'start_date', field: 'Date'}
     ]
   },
@@ -195,22 +195,24 @@ const oneToOneInsert = (key) => {
   return `INSERT INTO \`${table.name}\` (${columns.map(col => `\`${col.name}\``).join(', ')}) VALUES\n${store.data.map(record => {
     return `(${columns.map(column => {
       let value = record[column.field];
-      if ((value == null || value.trim().length === 0) && column.nullable !== true) {
-        switch (column.type) {
-          case 'boolean':
-            return 0;
-          default:
-            return `NULL`;
+      let valueIsEmpty = value == null || value.trim().length === 0;
+      let isNullable = column.nullable !== false;
+      
+      if (valueIsEmpty) {
+        if (isNullable) {
+          return column.default !== undefined ? column.default : `NULL`;
+        } else {
+          throw new Error(`The "${column.field}" field must not be null for: ${JSON.stringify(record)}`);
         }
-      } else {
-        switch (column.type) {
-          case 'boolean':
-            return value === 'TRUE' || value === true ? 1 : 0;
-          case 'int':
+      }
+
+      switch (column.type) {
+        case 'boolean':
+          return value === 'TRUE' || value === true ? 1 : 0;
+        case 'int':
             return parseInt(value, 10);
-          default:
-            return `'${value.replace(/'/g, "''")}'`;
-        }
+        default:
+          return `'${value.replace(/'/g, "''")}'`;
       }
     }).join(', ')})`
   }).join(',\n')};`

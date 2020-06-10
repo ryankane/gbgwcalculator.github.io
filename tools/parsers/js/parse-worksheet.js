@@ -1,4 +1,4 @@
-const DEBUG = false;
+const DEBUG = true;
 
 const parseOpts = {
   header: true,
@@ -55,16 +55,24 @@ const parsePart = (part, resultCache) => {
 };
 
 const applyPart = (part, resultCache) => {
+  let meleeType = MeleeWeaponTypeLookup[part['Weapon Category']];
+  let rangedType = RangedWeaponTypeLookup[part['Weapon Category']];
+  let tokens = part['Part Type'].match(/(\w[\w ]+)(?:\(\+ (\w+)\))?/);
+  let partType = tokens[1];
+  let xPartType = tokens[2];
   let rarity = parseInt(part['Obtained As'], 10);
-  let type = findByName(PartTypeAltIndex, part['Part Type']);
+  let type = findByName(PartTypeAltIndex, partType);
+  let xtype = xPartType ? findByName(PartTypeAltIndex, xPartType) : null;
+  type = meleeType != null ? 6 : rangedType != null ? 7 : type;
+  let collectionType = meleeType ? meleeType : rangedType ? rangedType : type;
 
   resultCache.parts.push({
     'Index' : resultCache.parts.length + 1,
     'Name': part['Part Name'],
-    'Collection ID' : `00-00-${type}-01`,
+    'Collection ID' : `00-00-${collectionType}-01`,
     'Unit ID' : resultCache.units.length,
     'Part Type' : type,
-    'X Part' : null,
+    'X Part' : xtype,
     'Rarity' : rarity,
     'Attr': findByName(AttributeIndex, part['Attribute']),
     'W Tag 1': findByName(WordTagIndex, part['Word Tags']),

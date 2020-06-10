@@ -2575,6 +2575,127 @@
     "name": "Shield [BD1]"
   }]
 }, {
+  "name": "Blue Destiny Unit-2",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 558,
+    "ma": 291,
+    "sa": 1700,
+    "md": 558,
+    "sd": 558,
+    "br": 126,
+    "pr": 126,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "EXAM System",
+      "description": "Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+      "category": "Awakening"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Abdominal Wired Missile",
+      "description": "Fire wire-guided missiles.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 558,
+    "ma": 1700,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK is over 16000, Melee CRIT rate boosted 17%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 349,
+    "pr": 375,
+    "wt": ["Gundam Type", "Zeon"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo",
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 889,
+    "br": 375,
+    "pr": 349,
+    "wt": ["Gundam Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Before 15s pass, Vernier consumption reduced 15%"
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 558,
+    "ma": 0,
+    "sa": 2298,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 302,
+    "wt": ["Gundam Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Job Gauge increase boosted 13%"
+    },
+    "name": "Beam Rifle [B.D. Unit 2]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 1142,
+    "sd": 1142,
+    "br": 302,
+    "pr": 302,
+    "wt": ["Gundam Type", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Enemy Strong Melee power reduced 25%"
+    },
+    "name": "Shield [B.D. Unit 2]"
+  }]
+}, {
   "name": "Bolt Gundam",
   "attribute": "Power",
   "rarity": 3,
@@ -11282,6 +11403,145 @@
     }
   }]
 }, {
+  "name": "Gundam Ez8",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 384,
+    "ma": 384,
+    "sa": 3177,
+    "md": 384,
+    "sd": 1181,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Federation", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1602,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Federation", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Assault Attack",
+      "description": "Unleash a savage attack from the air with your Chest Vulcan and machine gun.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1181,
+    "ma": 796,
+    "sa": 384,
+    "md": 384,
+    "sd": 1602,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Federation", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 50% or more, Shot guidance boosted 17%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Federation", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo",
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 796,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1602,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Federation", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon, magazine boosted 20%"
+    }
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Federation", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon, reload speed boosted 20%"
+    },
+    "name": "Beam Rifle [Ez8]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 384,
+    "ma": 0,
+    "sa": 3997,
+    "md": 0,
+    "sd": 0,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Federation", "For Urban Area"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Federation\", Shooting DMG output boosted by 35"
+    },
+    "name": "100mm Machine Gun [Ez8]",
+    "type": "Physical",
+    "category": "Machine Gun"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 796,
+    "ma": 0,
+    "sa": 0,
+    "md": 796,
+    "sd": 2380,
+    "br": 0,
+    "pr": 1028,
+    "wt": ["Federation", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Enemy Shooting power reduced 30%"
+    },
+    "name": "Shield [Ez8]"
+  }]
+}, {
   "name": "Gundam F91",
   "attribute": "Technique",
   "rarity": 4,
@@ -11422,6 +11682,143 @@
     "name": "Beam Rifle [F91]",
     "type": "Beam",
     "category": "Rifle"
+  }]
+}, {
+  "name": "Gundam G-Self [Atmospheric Pack Type]",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 796,
+    "ma": 383,
+    "sa": 2378,
+    "md": 796,
+    "sd": 796,
+    "br": 212,
+    "pr": 212,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Close Shot Attack raised 20%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1602,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 1180,
+    "br": 288,
+    "pr": 288,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "G-Self Combination",
+      "description": "Blow away the enemy with vigorous punches, then bisect them away with your saber. Raise speed of Squad by 20% Raise Melee Attack of your Squad by 29% Raise Shot Defense of your Squad by 19%.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 796,
+    "ma": 2378,
+    "sa": 383,
+    "md": 1180,
+    "sd": 1180,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK is over 16000, Melee power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 796,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 1180,
+    "br": 475,
+    "pr": 502,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 796,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 1180,
+    "br": 502,
+    "pr": 475,
+    "wt": ["Protag.", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Laser Pod",
+      "description": "Fire the laser pods in your main wings. You can move while firing.",
+      "category": "Beam Shot"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 796,
+    "ma": 3176,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 417,
+    "wt": ["Protag.", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Gundam Type\", Strong Melee CRIT rate boosted 30%"
+    },
+    "name": "Beam Saber [G-Self/Atmospheric Pack]",
+    "type": "Beam",
+    "category": "Dual Sabers"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 796,
+    "ma": 0,
+    "sa": 3176,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 417,
+    "wt": ["Protag.", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Job Gauge increase boosted 17%"
+    },
+    "name": "Beam Rifle [G-Self/Atmospheric Pack]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 796,
+    "ma": 0,
+    "sa": 0,
+    "md": 1602,
+    "sd": 1602,
+    "br": 417,
+    "pr": 417,
+    "wt": ["Protag.", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When debuffed, Enemy Shooting power reduced 30%"
+    },
+    "name": "Shield [G-Self/Atmospheric Pack]"
   }]
 }, {
   "name": "Gundam GP01 [Zephyranthes]",
@@ -12100,7 +12497,7 @@
     "part": "head",
     "mark": 1,
     "a": 795,
-    "ma": 384,
+    "ma": 382,
     "sa": 1179,
     "md": 1179,
     "sd": 1179,
@@ -12115,7 +12512,7 @@
     "part": "body",
     "mark": 1,
     "a": 1601,
-    "ma": 384,
+    "ma": 382,
     "sa": 0,
     "md": 1179,
     "sd": 1179,
@@ -12131,7 +12528,7 @@
     "mark": 1,
     "a": 795,
     "ma": 1179,
-    "sa": 384,
+    "sa": 382,
     "md": 1179,
     "sd": 1179,
     "br": 416,
@@ -12145,8 +12542,8 @@
     "part": "legs",
     "mark": 1,
     "a": 795,
-    "ma": 384,
-    "sa": 384,
+    "ma": 382,
+    "sa": 382,
     "md": 1601,
     "sd": 1601,
     "br": 211,
@@ -12162,8 +12559,8 @@
     "part": "back",
     "mark": 1,
     "a": 795,
-    "ma": 384,
-    "sa": 384,
+    "ma": 382,
+    "sa": 382,
     "md": 1601,
     "sd": 1601,
     "br": 416,
@@ -17941,6 +18338,131 @@
     "name": "Shield [Nu Ver.Ka]"
   }]
 }, {
+  "name": "Nu-Zeon Gundam",
+  "attribute": "Power",
+  "rarity": 5,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1231,
+    "ma": 377,
+    "sa": 3298,
+    "md": 0,
+    "sd": 377,
+    "br": 206,
+    "pr": 460,
+    "wt": ["Ace Excl.", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Ace Excl.\", EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1728,
+    "ma": 785,
+    "sa": 1163,
+    "md": 785,
+    "sd": 961,
+    "br": 206,
+    "pr": 593,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Ζ Beam",
+      "description": "Fire a light ray in the shape of the Ζ Mark on your chest and immobilize rule breakers.",
+      "category": "Beam Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 961,
+    "ma": 2910,
+    "sa": 1419,
+    "md": 550,
+    "sd": 550,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Commander", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Blade category equipped, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 961,
+    "ma": 785,
+    "sa": 632,
+    "md": 785,
+    "sd": 961,
+    "br": 667,
+    "pr": 489,
+    "wt": ["Commander", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 785,
+    "ma": 785,
+    "sa": 1011,
+    "md": 785,
+    "sd": 1350,
+    "br": 406,
+    "pr": 667,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Terrible Funnels",
+      "description": "Fire Terrible Funnels to destroy rule breakers. You can move freely while this is active.",
+      "category": "Beam Shot"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 550,
+    "ma": 3375,
+    "sa": 0,
+    "md": 0,
+    "sd": 153,
+    "br": 460,
+    "pr": 667,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "The Axis will fall on rule breakers!",
+      "description": "Mercilessly deal devine-justice knockout blows to in-game violators of common decency. Uphold the spirit of The Antarctic Treaty! Let's protect our GBN!",
+      "category": "Physical Shot"
+    },
+    "name": "Zeonic Sword [High Mega Saber]",
+    "type": "Physical",
+    "category": "Blade"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 0,
+    "ma": 0,
+    "sa": 3743,
+    "md": 0,
+    "sd": 550,
+    "br": 281,
+    "pr": 460,
+    "wt": ["Ace Excl.", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Zeonic Sword [Bowgun Mode]",
+      "description": "Set up your bowgun-shaped beam weapon and fire a beam to pierce through rule breakers.",
+      "category": "Beam Shot"
+    },
+    "name": "Zeonic Sword [High Mega Bowgun]",
+    "type": "Beam",
+    "category": "Long Rifle"
+  }]
+}, {
   "name": "Palace Athene",
   "attribute": "Power",
   "rarity": 2,
@@ -18423,6 +18945,94 @@
     "ex": {
       "type": "Part Traits",
       "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
+    }
+  }]
+}, {
+  "name": "Perfect Strike Gundam",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 2789,
+    "md": 384,
+    "sd": 384,
+    "br": 213,
+    "pr": 213,
+    "wt": ["High Firepower", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Igelstellung",
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1606,
+    "ma": 799,
+    "sa": 799,
+    "md": 799,
+    "sd": 799,
+    "br": 290,
+    "pr": 290,
+    "wt": ["High Firepower", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Revive with 50% Armor one time"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1606,
+    "ma": 3587,
+    "sa": 1606,
+    "md": 1182,
+    "sd": 1182,
+    "br": 477,
+    "pr": 477,
+    "wt": ["High Firepower", "For Base"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Combo Weapon Pod",
+      "description": "Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing.",
+      "category": "Physical Shot"
+    },
+    "combo": "shield"
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 799,
+    "ma": 799,
+    "sa": 384,
+    "md": 799,
+    "sd": 799,
+    "br": 477,
+    "pr": 477,
+    "wt": ["High Firepower", "For Base"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, Mid Shot Attack raised 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 799,
+    "ma": 799,
+    "sa": 384,
+    "md": 799,
+    "sd": 799,
+    "br": 477,
+    "pr": 477,
+    "wt": ["High Firepower", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Perfect Assault",
+      "description": "Preform a combo with the blade on your back, and finish the enemy with Agni fire from on high. Raise Melee and Shot Attack of your Squad by 24%. Raise Shot Defense of your Squad by 19%.",
+      "category": "Beam Shot"
     }
   }]
 }, {

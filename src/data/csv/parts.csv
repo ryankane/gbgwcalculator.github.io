@@ -778,11 +778,11 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 777,GN Beam Saber [Nadleeh],25-06-6a-01,125,6,,3,3,20,26,558,2297,0,0,0,126,428,,"With Speed attribute (self), Enemy Melee power reduced 25%",1,2,Trial Coins (Event)
 778,GN Beam Rifle [Nadleeh],25-06-7a-01,125,7,,3,3,20,26,558,0,2297,0,0,126,426,,"Middle-Shooter Job, Shooting DMG output boosted by 20",1,8,Trial Coins (Event)
 779,GN Shield [Nadleeh],25-06-8-01,125,8,,3,3,20,26,558,0,0,1140,1140,126,588,,"Middle-Shooter Job, Debuff EX Skill time up 16%",,,Trial Coins (Event)
-780,Gusion Rebake,28-04-1-01,126,1,,1,1,11,21,795,384,1179,1179,1179,416,0,,"Physical ranged weapon, magazine boosted 20%",,,Haro Chip Capsule & [No. 005] Bonus Coins
-781,Gusion Rebake,28-04-2-01,126,2,,1,1,11,21,1601,384,0,1179,1179,609,0,,"With Axe Category equipped, Shooting DMG taken reduced by 35",,,Haro Chip Capsule & [No. 005] Bonus Coins
-782,Gusion Rebake,28-04-3-01,126,3,,1,1,11,21,795,1179,384,1179,1179,416,211,,"Defender Job, Melee DMG taken reduced by 35",,,Haro Chip Capsule & [No. 005] Bonus Coins
-783,Gusion Rebake,28-04-4-01,126,4,,1,1,11,6,795,384,384,1601,1601,211,416,262,,,,Haro Chip Capsule & [No. 005] Bonus Coins
-784,Gusion Rebake,28-04-5-01,126,5,,1,1,11,6,795,384,384,1601,1601,416,211,263,,,,Haro Chip Capsule & [No. 005] Bonus Coins
+780,Gusion Rebake,28-04-1-01,126,1,,1,1,11,21,795,382,1179,1179,1179,416,0,,"Physical ranged weapon, magazine boosted 20%",,,Haro Chip Capsule & [No. 005] Bonus Coins
+781,Gusion Rebake,28-04-2-01,126,2,,1,1,11,21,1601,382,0,1179,1179,609,0,,"With Axe Category equipped, Shooting DMG taken reduced by 35",,,Haro Chip Capsule & [No. 005] Bonus Coins
+782,Gusion Rebake,28-04-3-01,126,3,,1,1,11,21,795,1179,382,1179,1179,416,211,,"Defender Job, Melee DMG taken reduced by 35",,,Haro Chip Capsule & [No. 005] Bonus Coins
+783,Gusion Rebake,28-04-4-01,126,4,,1,1,11,6,795,382,382,1601,1601,211,416,262,,,,Haro Chip Capsule & [No. 005] Bonus Coins
+784,Gusion Rebake,28-04-5-01,126,5,,1,1,11,6,795,382,382,1601,1601,416,211,263,,,,Haro Chip Capsule & [No. 005] Bonus Coins
 785,Halberd,28-04-6b-01,126,6,,4,1,11,21,795,1601,0,795,795,609,416,,"Defender Job, Job Gauge increase boosted 17%",2,1,Haro Chip Capsule & [No. 005] Bonus Coins
 786,120mm Long-Range Rifle,28-04-7b-01,126,7,,4,1,11,21,795,0,1601,795,795,609,416,,"When Armor is 40% or more, Shooting DMG taken reduced by 35",2,10,Haro Chip Capsule & [No. 005] Bonus Coins
 787,Shield [Gusion Rebake],28-04-8-01,126,8,,4,1,11,6,0,0,0,1974,1974,805,211,264,,,,Haro Chip Capsule & [No. 005] Bonus Coins
@@ -1391,3 +1391,38 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1390,Beam Naginata [Gelgoog (Char Aznable)],01-13-6-01,219,6,,3,3,17,5,292,2594,0,0,559,127,303,,"While ""Zeon"", Melee DMG output boosted by 20",1,13,Texas Coins (Event)
 1391,Beam Rifle [Gelgoog (Char Aznable)],01-13-7a-01,219,7,,3,3,17,3,559,0,1436,0,559,127,430,,"When in Multi-Mission Sortie, EX Skill power boosted 25%",1,8,Texas Coins (Event)
 1392,Shield [Gelgoog (Char Aznable)],01-13-8-01,219,8,,3,3,17,5,559,0,0,559,1436,127,592,,"When Armor is 60% or less, Vernier Consumption = 0 for 10 sec.",,,Texas Coins (Event)
+1393,Gundam G-Self [Atmospheric Pack Type],27-04-1-01,220,1,,4,1,1,9,796,383,2378,796,796,212,212,,"When 2 enemies shot down, Close Shot Attack raised 20%",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1394,Gundam G-Self [Atmospheric Pack Type],27-04-2-01,220,2,,4,1,1,9,1602,383,383,1180,1180,288,288,464,,,,Haro Chip Capsule & [No. 021] Bonus Coins
+1395,Gundam G-Self [Atmospheric Pack Type],27-04-3-01,220,3,,4,1,1,13,796,2378,383,1180,1180,0,0,,"When Melee ATK is over 16000, Melee power boosted 30%",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1396,Gundam G-Self [Atmospheric Pack Type],27-04-4-01,220,4,,4,1,1,13,796,383,383,1180,1180,475,502,,"Middle-Shooter Job, EX Skill CD reduced 20%",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1397,Gundam G-Self [Atmospheric Pack Type],27-04-5-01,220,5,,4,1,1,3,796,383,383,1180,1180,502,475,465,,,,Haro Chip Capsule & [No. 021] Bonus Coins
+1398,Beam Saber [G-Self/Atmospheric Pack],27-04-6a-01,220,6,,4,1,1,13,796,3176,0,0,0,417,417,,"While ""Gundam Type"", Strong Melee CRIT rate boosted 30%",1,4,Haro Chip Capsule & [No. 021] Bonus Coins
+1399,Beam Rifle [G-Self/Atmospheric Pack],27-04-7a-01,220,7,,4,1,1,3,796,0,3176,0,0,417,417,,"With Power attribute (self), Job Gauge increase boosted 17%",1,8,Haro Chip Capsule & [No. 021] Bonus Coins
+1400,Shield [G-Self/Atmospheric Pack],27-04-8-01,220,8,,4,1,1,9,796,0,0,1602,1602,417,417,,"When debuffed, Enemy Shooting power reduced 30%",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1401,Perfect Strike Gundam,21-12-1-01,221,1,,4,2,10,7,799,384,2789,384,384,213,213,78,,,,Haro Chip Capsule & [No. 021] Bonus Coins
+1402,Perfect Strike Gundam,21-12-2-01,221,2,,4,2,10,7,1606,799,799,799,799,290,290,,"With Technique attribute (self), Revive with 50% Armor one time",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1403,Perfect Strike Gundam,21-12-3-01,221,3,8,4,2,10,25,1606,3587,1606,1182,1182,477,477,275,,,,Haro Chip Capsule & [No. 021] Bonus Coins
+1404,Perfect Strike Gundam,21-12-4-01,221,4,,4,2,10,25,799,799,384,799,799,477,477,,"When attacking with Beam, Mid Shot Attack raised 20%",,,Haro Chip Capsule & [No. 021] Bonus Coins
+1405,Perfect Strike Gundam,21-12-5-01,221,5,,4,2,10,7,799,799,384,799,799,477,477,466,,,,Haro Chip Capsule & [No. 021] Bonus Coins
+1406,ν-Zeon Gundam,62-??-1-01,222,1,,5,1,3,5,1231,377,3298,0,377,206,460,,"While ""Ace Excl."", EX Skill power boosted 30%",,,Z Materials (Event Blueprint)
+1407,ν-Zeon Gundam,62-??-2-01,222,2,,5,1,3,10,1728,785,1163,785,961,206,593,467,,,,Z Materials (Event Blueprint)
+1408,ν-Zeon Gundam,62-??-3-01,222,3,,5,1,5,10,961,2910,1419,550,550,0,0,,"With Blade category equipped, Shooting power boosted 30%",,,Z Materials (Event Blueprint)
+1409,ν-Zeon Gundam,62-??-4-01,222,4,,5,1,5,10,961,785,632,785,961,667,489,,"With Power attribute (self), Shooting CRIT rate boosted 30%",,,Z Materials (Event Blueprint)
+1410,ν-Zeon Gundam,62-??-5-01,222,5,,5,1,3,10,785,785,1011,785,1350,406,667,468,,,,Z Materials (Event Blueprint)
+1411,Zeonic Sword [High Mega Saber],62-??-6c-01,222,6,,5,1,3,10,550,3375,0,0,153,460,667,469,,2,5,Z Materials (Event Blueprint)
+1412,Zeonic Sword [High Mega Bowgun],62-??-7b-01,222,7,,5,1,3,5,0,0,3743,0,550,281,460,470,,1,10,Z Materials (Event Blueprint)
+1413,Gundam Ez8,03-??-1-01,223,1,,4,1,16,24,384,384,3177,384,1181,0,0,3,,,,Capsule Medals (Event Capsules)
+1414,Gundam Ez8,03-??-2-01,223,2,,4,1,16,24,1602,384,384,796,1602,0,611,471,,,,Capsule Medals (Event Capsules)
+1415,Gundam Ez8,03-??-3-01,223,3,,4,1,16,24,1181,796,384,384,1602,213,417,,"When Armor is 50% or more, Shot guidance boosted 17%",,,Capsule Medals (Event Capsules)
+1416,Gundam Ez8,03-??-4-01,223,4,,4,1,16,5,796,384,384,796,1602,611,417,121,,,,Capsule Medals (Event Capsules)
+1417,Gundam Ez8,03-??-5-01,223,5,,4,1,16,5,796,384,384,796,1602,417,611,,"Physical ranged weapon, magazine boosted 20%",,,Capsule Medals (Event Capsules)
+1418,Beam Rifle [Ez8],03-??-7a-01,223,7,,4,1,16,5,384,0,3997,0,0,213,417,,"Beam ranged weapon, reload speed boosted 20%",1,8,Capsule Medals (Event Capsules)
+1419,100mm Machine Gun [Ez8],03-??-7c-01,223,7,,4,1,16,24,384,0,3997,0,0,213,417,,"While ""Federation"", Shooting DMG output boosted by 35",2,9,Capsule Medals (Event Capsules)
+1420,Shield [Ez8],03-??-8-01,223,8,,4,1,16,5,796,0,0,796,2380,0,1028,,"Out-Fighter Job, Enemy Shooting power reduced 30%",,,Capsule Medals (Event Capsules)
+1421,Blue Destiny Unit-2,04-02-1-01,224,1,,3,2,13,25,558,291,1700,558,558,126,126,311,,,,Scarlet Shoulder Coins (Weekly Event)
+1422,Blue Destiny Unit-2,04-02-2-01,224,2,,3,2,13,25,1142,291,291,889,889,213,213,312,,,,Scarlet Shoulder Coins (Weekly Event)
+1423,Blue Destiny Unit-2,04-02-3-01,224,3,,3,2,13,17,558,1700,291,889,889,0,0,,"When Melee ATK is over 16000, Melee CRIT rate boosted 17%",,,Scarlet Shoulder Coins (Weekly Event)
+1424,Blue Destiny Unit-2,04-02-4-01,224,4,,3,2,13,17,558,291,291,889,889,349,375,121,,,,Scarlet Shoulder Coins (Weekly Event)
+1425,Blue Destiny Unit-2,04-02-5-01,224,5,,3,2,13,17,558,291,291,889,889,375,349,,"Before 15s pass, Vernier consumption reduced 15%",,,Scarlet Shoulder Coins (Weekly Event)
+1426,Beam Rifle [B.D. Unit 2],04-02-7a-01,224,7,,3,2,13,17,558,0,2298,0,0,302,302,,"When 2 enemies shot down, Job Gauge increase boosted 13%",1,8,Scarlet Shoulder Coins (Weekly Event)
+1427,Shield [B.D. Unit 2],04-02-8-01,224,8,,3,2,13,25,558,0,0,1142,1142,302,302,,"With Technique attribute (self), Enemy Strong Melee power reduced 25%",,,Scarlet Shoulder Coins (Weekly Event)

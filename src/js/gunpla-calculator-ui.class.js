@@ -117,7 +117,7 @@ class GunplaCalculatorUiClass {
         sortClassPrefix = 'js-part-total-';
         alternateRowClass = 'alt-bg--red';
       }
-      return Sorters.map(sorter => {
+      return Sorters.filter(s => s.isParam !== false).map(sorter => {
         return {
           el: 'div',
           class: ['row', alternateRowClass],

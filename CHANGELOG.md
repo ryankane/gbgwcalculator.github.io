@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.2
+
+- Changed the mark formula for integrated parts.
+
 ## 1.2.1
 
 - Integrated node and grunt
