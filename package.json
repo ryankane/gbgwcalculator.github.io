@@ -1,9 +1,45 @@
 {
-  "name": "GBGW Calculator",
-  "version": "1.2.0",
+  "name": "gbgw-calculator",
+  "version": "1.2.1",
   "description": "Gundam Battle Gunpla Warfare - Calculator Improved!",
   "main": "index.html",
   "author": "rmkane",
-  "contributors": ["gbgwcalculator", "autoricecooker"],
-  "license": "MPL 2.0"
+  "private": true,
+  "contributors": [
+    "gbgwcalculator",
+    "autoricecooker"
+  ],
+  "license": "MPL-2.0",
+  "scripts": {
+    "build": "grunt prod",
+    "dev": "grunt dev"
+  },
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-banner": "^0.6.0",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-uglify-es": "^3.3.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-json-minify": "^1.1.0",
+    "jshint-stylish": "^2.2.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmkane/gbgwcalculator.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rmkane/gbgwcalculator.github.io/issues"
+  },
+  "homepage": "https://github.com/rmkane/gbgwcalculator.github.io#readme",
+  "keywords": [
+    "calculator",
+    "gbgw",
+    "gbm",
+    "gunpla",
+    "gundam"
+  ]
 }

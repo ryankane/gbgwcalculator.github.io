@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1
+
+- Integrated node and grunt
+
 ## 1.2.0
 
 - Reorganized files to prepare for node integration
@@ -50,7 +54,7 @@
 ## 1.1.0
 
 - Added a full glyph icon set
-- Changed main slot text to icons
+- Changed index slot text to icons
 - Icons and attributes update based on the type and rarity of the selected part
 - Changed "torso" and "backpack" to "body" and "back" for consistency in app and data
 
