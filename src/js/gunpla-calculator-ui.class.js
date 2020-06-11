@@ -219,6 +219,7 @@ class GunplaCalculatorUiClass {
               el: 'input',
               type: 'text',
               class: 'js-input js-input-' + slot,
+              data: [ { name: 'part', value: slot } ],
               readOnly: true
             }]
           }, {
@@ -259,6 +260,7 @@ class GunplaCalculatorUiClass {
               type: 'text',
               class: 'js-input js-input-' + slotClass,
               readOnly: true,
+              data: [ { name: 'part', value: slot } ],
               disabled: disabled
             }]
           }]

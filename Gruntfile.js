@@ -19,9 +19,19 @@ module.exports = function (grunt) {
 
     uglify: {
       options: {
-        banner: '<%= meta.banner %>\n'
+        banner: '<%= meta.banner %>\n',
+        sourceMap : true
       },
       dev: {
+        files: {'<%= meta.dest %>/js/bundle.js': '<%= meta.src %>/js/**/*.js'},
+        options: {
+          beautify: true,
+          mangle: false,
+          compress: false,
+          sourceMap : false
+        },
+      },
+      prod: {
         files: {
           '<%= meta.dest %>/js/bundle.min.js': [
             '<%= meta.src %>/js/data.js',
@@ -33,9 +43,6 @@ module.exports = function (grunt) {
             '<%= meta.src %>/js/index.js'
           ]
         }
-      },
-      prod: {
-        files: {'<%= meta.dest %>/js/bundle.min.js': '<%= meta.src %>/js/**/*.js'}
       }
     },
 

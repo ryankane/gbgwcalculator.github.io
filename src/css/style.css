@@ -332,6 +332,14 @@ footer .brands {
   margin-right: 0.5em;
 }
 
+.combo-plus {
+  margin-left: 0.5em;
+  white-space: nowrap;
+}
+.combo-plus:before {
+  content: '+';
+}
+
 .ex-cat-icon {
   margin-right: 0.33em;
 }

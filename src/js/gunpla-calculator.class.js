@@ -137,16 +137,18 @@ class GunplaCalculator {
   _initInputClick() {
     const inputs = this.inputs;
     for (let input in inputs) {
-      const currInput = input;
-      if (inputs.hasOwnProperty(currInput) && inputs[currInput]) {
-        inputs[currInput].addEventListener('click', e => {
-          this.currentPart = currInput;
-          this._setSelectedPart(currInput);
-          this._showPartList(currInput);
-          this._displayPartInfo(e.currentTarget);
-        });
+      if (inputs.hasOwnProperty(input) && inputs[input]) {
+        inputs[input].addEventListener('click', e => this._handleInputClick(e.currentTarget));
       }
     }
+  }
+
+  _handleInputClick(input) {
+    const slot = input.dataset.part;
+    this.currentPart = slot;
+    this._setSelectedPart(slot);
+    this._showPartList(slot);
+    this._displayPartInfo(input);
   }
 
   _checkFilter(part) {
@@ -192,25 +194,17 @@ class GunplaCalculator {
     if (this.partList && Collections && Array.isArray(Collections)) {
       this.partList.innerHTML = '';
       if (this.parts && this.parts[partToShow] && Array.isArray(this.parts[partToShow])) {
-        const partClone = [...this.parts[partToShow]],
-            sortType = this.sort,
-            isGear = GearSlot.indexOf(partToShow) !== -1;
-        if (sortType && (!isGear || (isGear && sortType === 'rarity'))) {
-          partClone.sort((partA, partB) => {
-            return partA[sortType] > partB[sortType] ? -1 : 1;
-          });
-        }
-        partClone.forEach(partFilter => {
-          if (!this._checkFilter(partFilter)) {
+        const filteredParts = this._sortPartList([...this.parts[partToShow]]);
+        filteredParts.forEach(currPart => {
+          if (!this._checkFilter(currPart)) {
             return;
           }
           const partEntry = document.createElement('div');
-          let displayText = this._getDisplayText(partFilter);
-          partEntry.dataset.partname = displayText;
-          partEntry.innerHTML = (partFilter.attribute ? this._generateAttrIcon(partFilter.attribute) : '') + displayText;
+          partEntry.dataset.partname = this._getDisplayText(currPart);
+          partEntry.innerHTML = this._renderPartListItem(currPart);
           partEntry.classList.add('part-list__item');
-          for (let prop in partFilter) {
-            partEntry.dataset[prop] = partFilter[prop] instanceof Object ? JSON.stringify(partFilter[prop]) : partFilter[prop];
+          for (let prop in currPart) {
+            partEntry.dataset[prop] = currPart[prop] instanceof Object ? JSON.stringify(currPart[prop]) : currPart[prop];
           }
           partEntry.addEventListener('click', e => this._handlePartSelection(e.currentTarget));
           partEntry.addEventListener('mouseover', e => this._displayPartInfo(e.currentTarget));
@@ -218,6 +212,26 @@ class GunplaCalculator {
         });
       }
     }
+  }
+
+  _sortPartList(parts) {
+    const sortType = this.sort;
+    const isGear = GearSlot.indexOf(parts) !== -1;
+    if (sortType && (!isGear || (isGear && sortType === 'rarity'))) {
+      parts.sort((partA, partB) => {
+        return partA[sortType] > partB[sortType] ? -1 : 1;
+      });
+    }
+    return parts;
+  }
+
+  _renderPartListItem(part) {
+    let result = part.attribute ? this._generateAttrIcon(part.attribute) : '';
+    result += this._getDisplayText(part);
+    if (part.combo) {
+      result += `<span class="combo-plus"><span class="gbgw gbgw-slot-${part.combo}"></span></span>`;
+    }
+    return result;
   }
 
   _getDisplayText(part) {
@@ -565,7 +579,7 @@ class GunplaCalculator {
       if (input.hasOwnProperty(props)) {
         const inputData = this.inputs[props];
         if (inputData) {
-          if (!this._displayWordTags(inputData) && input[props].disabled == false) {
+          if (!this._displayWordTags(inputData) && input[props].disabled === false) {
             this._clearWordTag(props);
           }
         }
@@ -604,55 +618,30 @@ class GunplaCalculator {
     }
   }
 
+  /**
+   * @private
+   * @param {HTMLElement|string} filterEl
+   * @param {Object[]} data
+   */
+  _populateFilter(filterEl, data) {
+    if (typeof filterEl === 'string') {
+      filterEl = document.querySelector(filterEl);
+    }
+    if (Array.isArray(data)) {
+      data.forEach(item => filterEl.appendChild(new Option(item, item)));
+    }
+  }
+
   _initFilters() {
-    const attrFilter = document.querySelector('.js-filter-attr'),
-        wtFilter1 = document.querySelector('.js-filter-wt1'),
-        wtFilter2 = document.querySelector('.js-filter-wt2'),
-        exFilter = document.querySelector('.js-filter-ex-cat'),
-        partTypeFilter = document.querySelector('.js-filter-part-trait'),
-        weaponTypeFilter = document.querySelector('.js-filter-weapon-type');
-    if (Array.isArray(Attributes)) {
-      Attributes.forEach(attr => {
-        const opt = document.createElement('option');
-        opt.value = attr;
-        opt.text = attr;
-        attrFilter.appendChild(opt);
-      });
-    }
-    if (Array.isArray(WordTagData)) {
-      WordTagData.map(wt => wt.name).sort().forEach(wt => {
-        const opt = document.createElement('option');
-        opt.value = wt;
-        opt.text = wt;
-        wtFilter2.appendChild(opt.cloneNode(true));
-        wtFilter1.appendChild(opt);
-      });
-    }
-    if (Array.isArray(ExCategories)) {
-      ExCategories.forEach(category => {
-        const opt = document.createElement('option');
-        opt.value = category;
-        opt.text = category;
-        exFilter.appendChild(opt);
-      });
-    }
-    let TraitDescriptions = this.dataStoreManager.getStoreData('TraitDescriptions');
-    if (Array.isArray(TraitDescriptions)) {
-      TraitDescriptions.forEach(partType => {
-        const opt = document.createElement('option');
-        opt.value = partType;
-        opt.text = partType;
-        partTypeFilter.appendChild(opt);
-      });
-    }
-    if (Array.isArray(WeaponType)) {
-      WeaponType.forEach(weaponType => {
-        const opt = document.createElement('option');
-        opt.value = weaponType;
-        opt.text = weaponType;
-        weaponTypeFilter.appendChild(opt);
-      });
-    }
+    let sortedWordTags = WordTagData.map(wt => wt.name).sort();
+
+    this._populateFilter('.js-filter-attr', Attributes);
+    this._populateFilter('.js-filter-wt1', sortedWordTags);
+    this._populateFilter('.js-filter-wt2', sortedWordTags);
+    this._populateFilter('.js-filter-ex-cat', ExCategories);
+    this._populateFilter('.js-filter-part-trait', this.dataStoreManager.getStoreData('TraitDescriptions'));
+    this._populateFilter('.js-filter-weapon-type', WeaponType);
+
     for (let key in this.filters) {
       const currKey = key;
       if (this.filters.hasOwnProperty(currKey)) {
@@ -715,7 +704,7 @@ class GunplaCalculator {
       const partInputEl = document.querySelector('.js-input-' + currPart);
       if (partInputEl && partInputEl.dataset.combo) {
         document.querySelector('.js-input-' + partInputEl.dataset.combo).disabled = false;
-        let found = this.comboParts.find(comboPart => comboPart.part == currPart);
+        let found = this.comboParts.find(comboPart => comboPart.part === currPart);
         if (found) this._clearComboPart(found.combo, this.comboParts.indexOf(found));
       }
       this._clearParts(currPart);
@@ -742,7 +731,7 @@ class GunplaCalculator {
   }
 
   _displayPartInfo(part) {
-    if (part && part.dataset.part && MainSlot.indexOf(part.dataset.part) > -1) {
+    if (part && part.dataset.partname && MainSlot.indexOf(part.dataset.part) > -1) {
       const wordTag = JSON.parse(part.dataset.wt),
           ex = JSON.parse(part.dataset.ex);
       let markMultiplier = 0;
@@ -869,7 +858,10 @@ class GunplaCalculator {
   _removeAllAttributes(el) {
     if (el.dataset) {
       for (let prop in el.dataset) {
-        el.removeAttribute('data-' + this._formatDataTag(prop));
+        // Do not remove the part property.
+        if (prop !== 'part') {
+          el.removeAttribute('data-' + this._formatDataTag(prop));
+        }
       }
     }
   }
