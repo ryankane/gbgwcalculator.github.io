@@ -94,8 +94,22 @@ const transformUnitData = (unit) => {
             Object.assign(result.ex, {
               "name": exSkill['Name'],
               "description": exSkill['Description'],
-              "category": ExCategoryIndex[exSkill['Cat'] - 1]
-            })
+              "category": ExCategoryIndex[exSkill['Cat'] - 1],
+              "stats": {
+                "Prc" : exSkill['Prc'],
+                "Pow" : exSkill['Pow'],
+                "Dur" : exSkill['Dur'],
+                "Mag" : exSkill['Mag'],
+                "Cd" : [ exSkill['Cd'], exSkill['Cd I'] ]
+              }
+            });
+
+            // Prune null and undefined key-value pairs
+            Object.keys(result.ex.stats).forEach(key => {
+              if (result.ex.stats[key] == null) {
+                delete result.ex.stats[key];
+              }
+            });
           }
 
           if (part['X Part']) {

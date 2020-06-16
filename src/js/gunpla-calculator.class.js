@@ -380,7 +380,7 @@ class GunplaCalculator {
         exData = JSON.parse(partInput.dataset.ex);
         if (exData.type && exData.name && partTrait) {
           partTrait.innerHTML = exData.type === 'EX Skill' ?
-              this._generateSkillIcon(exData) + exData.name : exData.name.replace(/,/, '<br>');
+              this._generateSkillIcon(exData) + exData.name + this._appendExStats(exData) : exData.name.replace(/,/, '<br>');
           if (exData.description) {
             this._applyAttributes(partTrait, {
               'aria-label': '[' + exData.category + '] ' + exData.description,
@@ -399,6 +399,32 @@ class GunplaCalculator {
         this._clearSkillTrait(partData);
       }
     }
+  }
+
+  _appendExStats(exSkill) {
+    if (exSkill.stats) {
+      let result = [];
+
+      if (exSkill.stats.Prc && exSkill.stats.Pow) {
+        result.push(`Spread: ${exSkill.stats.Prc}/${exSkill.stats.Pow}`);
+      }
+
+      if (exSkill.stats.Dur) {
+        result.push(`Dur: ${exSkill.stats.Dur}s`);
+      }
+
+      if (exSkill.stats.Mag) {
+        result.push(`Mag: ${exSkill.stats.Mag}`);
+      }
+
+      if (exSkill.stats.Cd) {
+        result.push(`CD: ${exSkill.stats.Cd[0]}s (${exSkill.stats.Cd[1]}s)`);
+      }
+
+      return `<div class="ex-stats">${result.map(stat => `<span class="ex-stat">${stat}</span>`).join(`<span class="ex-stat-spacer"></span>`)}</div>`;
+    }
+
+    return '';
   }
 
   _clearSkillTrait(partData) {
@@ -755,7 +781,7 @@ class GunplaCalculator {
       }
       this.partSkillTraitCont.innerHTML = ex.type && ex.name ?
           ex.type === 'EX Skill' ?
-              `<span>${(this._generateSkillIcon(ex) + ex.name)}</span>` : ex.name : '';
+              `<span>${(this._generateSkillIcon(ex) + ex.name)}</span>` + this._appendExStats(ex) : ex.name : '';
     }
   }
 

@@ -358,6 +358,24 @@ footer .brands {
   font-size: larger;
 }
 
+.ex-stats {
+  margin-top: 0.5em;
+  font-style: italic;
+}
+.ex-stat {
+  display: inline-block;
+  font-size: smaller;
+}
+.ex-stat-spacer {
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+  font-size: smaller;
+}
+.ex-stat-spacer:after {
+  content: '\2022';
+  color: var(--secondary-color);
+}
+
 .parts {
   width: 230px;
 }
