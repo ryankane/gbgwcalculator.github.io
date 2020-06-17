@@ -221,5 +221,9 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 220,YG-111,Gundam G-Self,Atmospheric Pack Type,27,4,ガンダム G-セルフ［大気圏用パック装備型］,4,1,1,Standard,,,,FALSE,2020-06-10,Haro Chip Capsule & [No. 021] Bonus Coins,Dengeki
 221,GAT-X105+AQM/E-YM1,Perfect Strike Gundam,,21,12,パーフェクトストライクガンダム,4,2,1,Standard,,,,FALSE,2020-06-10,Haro Chip Capsule & [No. 021] Bonus Coins,Dengeki
 222,RX-93N04,ν-Zeon Gundam,,62,,ν-ジオンガンダム,5,1,1,,,,Blueprint,TRUE,2020-06-10,Z Materials (Event Blueprint),Dengeki
-223,RX-79［G］,Gundam Ez8,,3,,ガンダムEz8,4,1,1,Capsule Medal,,,,FALSE,2020-06-10,Capsule Medals (Event Capsules),Dengeki
+223,RX-79［G］,Gundam Ez8,,3,2,ガンダムEz8,4,1,1,Capsule Medal,,,,FALSE,2020-06-10,Capsule Medals (Event Capsules),Dengeki
 224,RX-79BD-2,Blue Destiny Unit-2,,4,2,ブルーディスティニー2号機,3,2,2,,Event,,,FALSE,2020-06-10,Scarlet Shoulder Coins (Weekly Event),Dengeki
+225,ASW-G-64,Gundam Flauros,Ryusei-Go,28,,ガンダム・フラウロス,4,3,1,Gundam Battle Festival,,,,TRUE,2020-06-17,Haro Chip Capsule (Gundam Battle Festival),Dengeki
+226,ASW-G-11,Gundam Gusion Rebake Fullcity,,28,,ガンダム・グシオンリベイクフルシティ,4,2,1,Gundam Battle Festival,,,,TRUE,2020-06-17,Haro Chip Capsule (Gundam Battle Festival),Dengeki
+227,ASW-G-66,Gundam Kimaris,,28,,ガンダム・キマリス,4,2,1,,,,,FALSE,2020-06-17,Iron-Blooded Step-Up Capsules,Dengeki
+228,AMX-011S,Zaku III Custom,,10,,ザクIII改,3,1,2,,Event,,,FALSE,2020-06-17,Knight Coins (Weekly Event),Dengeki

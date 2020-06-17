@@ -237,6 +237,23 @@
     "name": "With Technique attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Banagher Links",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 213,
+  "pr": 418,
+  "wt": ["Gundam Type", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
+  }
+}, {
   "name": "Bernard Wiseman",
   "jl": "In-Fighter",
   "attribute": "Technique",
@@ -1034,6 +1051,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
+  }
+}, {
+  "name": "Karen Joshua",
+  "jl": "Defender",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 428,
+  "pr": 126,
+  "wt": ["Federation", "For Forest"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Phys. RES is over 6000, Long Shot Attack raised 14%"
   }
 }, {
   "name": "Kayra Su",

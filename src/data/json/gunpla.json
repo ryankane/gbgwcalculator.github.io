@@ -11684,6 +11684,129 @@
     "category": "Rifle"
   }]
 }, {
+  "name": "Gundam Flauros [Ryusei-Go]",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 965,
+    "ma": 0,
+    "sa": 3309,
+    "md": 551,
+    "sd": 551,
+    "br": 464,
+    "pr": 282,
+    "wt": ["Transformer", "For Desert"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Alaya-Vijnana System",
+      "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Shot Attack by 39%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1732,
+    "ma": 551,
+    "sa": 551,
+    "md": 965,
+    "sd": 1732,
+    "br": 672,
+    "pr": 75,
+    "wt": ["Transformer", "For Desert"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Super Galaxy Cannon",
+      "description": "Shoulder your special-warhead-equipped railgun and fire an ultra-high-speed round.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 965,
+    "ma": 1355,
+    "sa": 551,
+    "md": 551,
+    "sd": 1732,
+    "br": 75,
+    "pr": 75,
+    "wt": ["Transformer", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Transformer\", Enemy Melee power reduced 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 965,
+    "ma": 551,
+    "sa": 551,
+    "md": 965,
+    "sd": 1732,
+    "br": 672,
+    "pr": 464,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Before 30s pass, Enemy EX Skill power reduced 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 965,
+    "ma": 551,
+    "sa": 551,
+    "md": 965,
+    "sd": 1732,
+    "br": 672,
+    "pr": 464,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Long Barrel Cannon & Machine Gun",
+      "description": "Rapidly fire your regular-warhead-equipped railgun and machine guns in your hands.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 969,
+    "ma": 3318,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 675,
+    "pr": 208,
+    "wt": ["Transformer", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Initial EX Skill charge boosted 20%"
+    },
+    "name": "Assault Knife",
+    "type": "Physical",
+    "category": "Dual Sabers"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 551,
+    "ma": 153,
+    "sa": 4105,
+    "md": 153,
+    "sd": 0,
+    "br": 672,
+    "pr": 282,
+    "wt": ["Transformer", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Firepower\", Shooting DMG output boosted by 35"
+    },
+    "name": "Flauros Machine Gun",
+    "type": "Physical",
+    "category": "Machine Gun"
+  }]
+}, {
   "name": "Gundam G-Self [Atmospheric Pack Type]",
   "attribute": "Power",
   "rarity": 4,
@@ -12628,6 +12751,127 @@
     "name": "Shield [Gusion Rebake]"
   }]
 }, {
+  "name": "Gundam Gusion Rebake Fullcity",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 970,
+    "ma": 380,
+    "sa": 2685,
+    "md": 380,
+    "sd": 1514,
+    "br": 285,
+    "pr": 285,
+    "wt": ["Gundam Type", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1361,
+    "ma": 792,
+    "sa": 722,
+    "md": 792,
+    "sd": 1894,
+    "br": 285,
+    "pr": 285,
+    "wt": ["Gundam Type", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mid-Range\" EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 970,
+    "ma": 2849,
+    "sa": 970,
+    "md": 380,
+    "sd": 1514,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Arm-Mounted Rocket Cannon",
+      "description": "Fire the rocket cannon in your main arm. You can move while firing.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 970,
+    "ma": 380,
+    "sa": 722,
+    "md": 380,
+    "sd": 1514,
+    "br": 469,
+    "pr": 469,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Scissor-Variable Rear Armor",
+      "description": "Transform your rear armor into scissors and ferociously crush your captured enemy. Raise Melee Attack of your Squad by 39%.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 970,
+    "ma": 380,
+    "sa": 722,
+    "md": 380,
+    "sd": 1514,
+    "br": 469,
+    "pr": 469,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Sub-Arm Railgun",
+      "description": "Rapidly fire the railgun, long-range rifle, and smoothbore cannon on your arms and sub arms.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 792,
+    "ma": 0,
+    "sa": 3486,
+    "md": 0,
+    "sd": 722,
+    "br": 285,
+    "pr": 285,
+    "wt": ["Gundam Type", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more, Enemy EX Skill power reduced 30%"
+    },
+    "name": "Railgun [Gusion Rebake Fullcity]",
+    "type": "Physical",
+    "category": "Long Rifle"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 970,
+    "ma": 0,
+    "sa": 0,
+    "md": 792,
+    "sd": 2315,
+    "br": 469,
+    "pr": 469,
+    "wt": ["Gundam Type", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Gundam Type\", Shooting DMG taken reduced by 35"
+    },
+    "name": "Scissor-Variable Rear Armor [Large Shield]"
+  }]
+}, {
   "name": "Gundam Heavyarms",
   "attribute": "Technique",
   "rarity": 3,
@@ -12732,6 +12976,113 @@
     "name": "Beam Gatling Gun [with Shield]",
     "type": "Beam",
     "category": "Gatling Gun"
+  }]
+}, {
+  "name": "Gundam Kimaris",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 797,
+    "ma": 384,
+    "sa": 2785,
+    "md": 384,
+    "sd": 384,
+    "br": 418,
+    "pr": 213,
+    "wt": ["Gundam Type", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Flash Bang",
+      "description": "Fire flash bangs meant for retreat from four muzzles to paralyze enemies for a fixed period of time.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1605,
+    "ma": 797,
+    "sa": 797,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Gundam Type", "Heavy Armor"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 797,
+    "ma": 2785,
+    "sa": 1181,
+    "md": 384,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Slash Disk",
+      "description": "Launch a disk made with rare metal composite materials spinning at lightning speed.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 418,
+    "pr": 611,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Combat Knife",
+      "description": "Unleash a flurry of attacks with the knife in your right hand.",
+      "category": "Physical Melee"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 797,
+    "ma": 797,
+    "sa": 384,
+    "md": 797,
+    "sd": 797,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Lance category equipped, Melee power boosted 30%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 384,
+    "ma": 3582,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 611,
+    "pr": 418,
+    "wt": ["Gundam Type", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Demolishing Fall",
+      "description": "Toss foes skyward, then smash them down with your lance. Squad recovers 48% of maximum Armor. Raise Physical Resist of your Squad by 49%.",
+      "category": "Physical Melee"
+    },
+    "name": "Gungnir",
+    "type": "Physical",
+    "category": "Lance"
   }]
 }, {
   "name": "Gundam Kyrios",
@@ -24385,6 +24736,129 @@
     "name": "Magella-Top Cannon",
     "type": "Physical",
     "category": "Long Rifle"
+  }]
+}, {
+  "name": "Zaku III Custom",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 558,
+    "md": 889,
+    "sd": 558,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Zaku Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less, Recover 10 Armor gradually"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1433,
+    "ma": 558,
+    "sa": 291,
+    "md": 558,
+    "sd": 558,
+    "br": 428,
+    "pr": 0,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Psyco Power",
+      "description": "Unleash the power of thoughts to paralyze enemies for a fixed period of time.",
+      "category": "Beam Melee"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 558,
+    "ma": 1991,
+    "sa": 0,
+    "md": 889,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hide Bomb",
+      "description": "Plant the mines stowed in your shoulder.",
+      "category": "Physical Shot"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 558,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Zaku Type", "Zeon"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Waist Beam Cannon",
+      "description": "Fire at eneimies using the forward-facing dual beam cannons stowed on your waist.",
+      "category": "Beam Shot"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 889,
+    "sd": 558,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Zaku Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), EX Skill piercing boosted 22%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 889,
+    "ma": 2589,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Zaku Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Phys. RES is over 6000, Strong Melee CRIT rate boosted 17%"
+    },
+    "name": "Beam Saber [Zaku III Custom]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 889,
+    "ma": 0,
+    "sa": 1699,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Zaku Type", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Shot DEF is under 6000, Enemy EX Skill power reduced 25%"
+    },
+    "name": "Beam Rifle [Zaku III Custom]",
+    "type": "Beam",
+    "category": "Rifle"
   }]
 }, {
   "name": "Zaku Minelayer",
