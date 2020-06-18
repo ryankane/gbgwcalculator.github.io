@@ -13216,7 +13216,11 @@
       "type": "EX Skill",
       "name": "Alaya-Vijnana System",
       "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Shot Attack by 39%. Your Gunpla resists flinching for a set period of time.",
-      "category": "Awakening"
+      "category": "Awakening",
+      "stats": {
+        "Dur": 44,
+        "Cd": [60, 12]
+      }
     }
   }, {
     "part": "body",
@@ -13233,7 +13237,12 @@
       "type": "EX Skill",
       "name": "Super Galaxy Cannon",
       "description": "Shoulder your special-warhead-equipped railgun and fire an ultra-high-speed round.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 20]
+      }
     }
   }, {
     "part": "arms",
@@ -13280,7 +13289,12 @@
       "type": "EX Skill",
       "name": "Long Barrel Cannon & Machine Gun",
       "description": "Rapidly fire your regular-warhead-equipped railgun and machine guns in your hands.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
     }
   }, {
     "part": "melee",
@@ -14443,7 +14457,13 @@
       "type": "EX Skill",
       "name": "Arm-Mounted Rocket Cannon",
       "description": "Fire the rocket cannon in your main arm. You can move while firing.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Mag": 7,
+        "Cd": [60, 0]
+      }
     }
   }, {
     "part": "legs",
@@ -14460,7 +14480,12 @@
       "type": "EX Skill",
       "name": "Scissor-Variable Rear Armor",
       "description": "Transform your rear armor into scissors and ferociously crush your captured enemy. Raise Melee Attack of your Squad by 39%.",
-      "category": "Physical Melee"
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 20]
+      }
     }
   }, {
     "part": "back",
@@ -14477,7 +14502,12 @@
       "type": "EX Skill",
       "name": "Sub-Arm Railgun",
       "description": "Rapidly fire the railgun, long-range rifle, and smoothbore cannon on your arms and sub arms.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "B",
+        "Cd": [21, 3]
+      }
     }
   }, {
     "part": "range",
@@ -14656,7 +14686,10 @@
       "type": "EX Skill",
       "name": "Flash Bang",
       "description": "Fire flash bangs meant for retreat from four muzzles to paralyze enemies for a fixed period of time.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Cd": [21, 6]
+      }
     }
   }, {
     "part": "body",
@@ -14688,7 +14721,12 @@
       "type": "EX Skill",
       "name": "Slash Disk",
       "description": "Launch a disk made with rare metal composite materials spinning at lightning speed.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "C-",
+        "Cd": [21, 3]
+      }
     }
   }, {
     "part": "legs",
@@ -14705,7 +14743,12 @@
       "type": "EX Skill",
       "name": "Combat Knife",
       "description": "Unleash a flurry of attacks with the knife in your right hand.",
-      "category": "Physical Melee"
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
     }
   }, {
     "part": "back",
@@ -14737,7 +14780,12 @@
       "type": "EX Skill",
       "name": "Demolishing Fall",
       "description": "Toss foes skyward, then smash them down with your lance. Squad recovers 48% of maximum Armor. Raise Physical Resist of your Squad by 49%.",
-      "category": "Physical Melee"
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 20]
+      }
     },
     "name": "Gungnir",
     "type": "Physical",
@@ -27989,7 +28037,12 @@
       "type": "EX Skill",
       "name": "Psyco Power",
       "description": "Unleash the power of thoughts to paralyze enemies for a fixed period of time.",
-      "category": "Beam Melee"
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
     }
   }, {
     "part": "arms",
@@ -28006,7 +28059,13 @@
       "type": "EX Skill",
       "name": "Hide Bomb",
       "description": "Plant the mines stowed in your shoulder.",
-      "category": "Physical Shot"
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
     }
   }, {
     "part": "legs",
@@ -28023,7 +28082,12 @@
       "type": "EX Skill",
       "name": "Waist Beam Cannon",
       "description": "Fire at eneimies using the forward-facing dual beam cannons stowed on your waist.",
-      "category": "Beam Shot"
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
     }
   }, {
     "part": "back",
