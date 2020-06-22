@@ -2,12 +2,13 @@
 
 ## 1.2.3
 
-- Added integrated part icons to the parts list.
-- Minor optimizations and improvements to the build.
+- Added integrated part icons to the parts list
+- Added EX Skill stats
+- Minor optimizations and improvements to the build
 
 ## 1.2.2
 
-- Changed the mark formula for integrated parts.
+- Changed the mark formula for integrated parts
 
 ## 1.2.1
 
