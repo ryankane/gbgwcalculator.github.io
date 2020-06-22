@@ -405,8 +405,12 @@ class GunplaCalculator {
     if (exSkill.stats) {
       let result = [];
 
-      if (exSkill.stats.Prc && exSkill.stats.Pow) {
-        result.push(`Spread: ${exSkill.stats.Prc}/${exSkill.stats.Pow}`);
+      if (exSkill.stats.Prc) {
+        result.push(`Prc: ${exSkill.stats.Prc}`);
+      }
+
+      if (exSkill.stats.Pow) {
+        result.push(`Pow: ${exSkill.stats.Pow}`);
       }
 
       if (exSkill.stats.Dur) {

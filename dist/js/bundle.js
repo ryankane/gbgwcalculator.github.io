@@ -1,5 +1,5 @@
 /*
- gbgw-calculator 1.2.3 2020-06-17 
+ gbgw-calculator 1.2.3 2020-06-22 
 */
 
 class DataStoreManager {
@@ -1041,8 +1041,11 @@ class GunplaCalculator {
     _appendExStats(exSkill) {
         if (exSkill.stats) {
             let result = [];
-            if (exSkill.stats.Prc && exSkill.stats.Pow) {
-                result.push(`Spread: ${exSkill.stats.Prc}/${exSkill.stats.Pow}`);
+            if (exSkill.stats.Prc) {
+                result.push(`Prc: ${exSkill.stats.Prc}`);
+            }
+            if (exSkill.stats.Pow) {
+                result.push(`Pow: ${exSkill.stats.Pow}`);
             }
             if (exSkill.stats.Dur) {
                 result.push(`Dur: ${exSkill.stats.Dur}s`);

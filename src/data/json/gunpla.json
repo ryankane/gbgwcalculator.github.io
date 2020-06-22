@@ -24663,8 +24663,8 @@
     "wt": ["Gundam Type", "For Space"],
     "ex": {
       "type": "EX Skill",
-      "name": "Head-Mounted Vulcan",
-      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "name": "Todesschrecken",
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
       "category": "Physical Shot",
       "stats": {
         "Prc": "D-",
