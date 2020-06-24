@@ -2495,6 +2495,88 @@
     }
   }]
 }, {
+  "name": "Beargguy III",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 559,
+    "ma": 294,
+    "sa": 893,
+    "md": 559,
+    "sd": 559,
+    "br": 303,
+    "pr": 303,
+    "wt": ["Amphib.", "Support Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Cotton",
+      "description": "Expel the cotton in your body from your mouth, entangling hit enemies for a set period of time",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 893,
+    "ma": 559,
+    "sa": 559,
+    "md": 1438,
+    "sd": 1438,
+    "br": 881,
+    "pr": 881,
+    "wt": ["Amphib.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Amphib.\", Shooting power boosted 25%"
+    },
+    "combo": "legs"
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 294,
+    "ma": 893,
+    "sa": 294,
+    "md": 559,
+    "sd": 559,
+    "br": 432,
+    "pr": 432,
+    "wt": ["Amphib.", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Arm-Mounted Mega Particle Cannon",
+      "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 294,
+    "ma": 294,
+    "sa": 294,
+    "md": 893,
+    "sd": 893,
+    "br": 432,
+    "pr": 432,
+    "wt": ["Amphib.", "Support Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Supporter Job, Close Shot Attack raised 14%"
+    }
+  }]
+}, {
   "name": "Beginning 30 Gundam",
   "attribute": "Technique",
   "rarity": 4,
@@ -14667,6 +14749,150 @@
     "category": "Gatling Gun"
   }]
 }, {
+  "name": "Gundam Heavyarms [Endless Waltz Ver.]",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 384,
+    "ma": 384,
+    "sa": 3181,
+    "md": 384,
+    "sd": 1182,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Long-Range", "Heavy Armor"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Long-Range\", Long Shot Attack raised 20%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1606,
+    "ma": 384,
+    "sa": 384,
+    "md": 799,
+    "sd": 1606,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Long-Range", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Chest-Mounted Gatling & Machine Cannons",
+      "description": "Fire the Gatling and machine cannons in your chest.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "C-",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1182,
+    "ma": 799,
+    "sa": 384,
+    "md": 384,
+    "sd": 1606,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Long-Range", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Micro Missile",
+      "description": "Fire micro missiles from pods in your shoulders.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 799,
+    "sd": 1606,
+    "br": 420,
+    "pr": 420,
+    "wt": ["Long-Range", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Homing Missile & Machine Cannon",
+      "description": "Spray homing missiles from the launcher pods on your legs.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 799,
+    "sd": 1606,
+    "br": 420,
+    "pr": 420,
+    "wt": ["Long-Range", "Heavy Armor"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Gatling Gun",
+      "description": "Fire the Gatling gun suspended on your back. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 384,
+    "ma": 0,
+    "sa": 4004,
+    "md": 0,
+    "sd": 0,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Long-Range", "Heavy Armor"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Heavy Armor\", Initial EX Skill charge boosted 20%"
+    },
+    "name": "Beam Gatling Gun [Endless Waltz Ver.]",
+    "type": "Beam",
+    "category": "Gatling Gun"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 799,
+    "ma": 0,
+    "sa": 0,
+    "md": 799,
+    "sd": 2384,
+    "br": 477,
+    "pr": 477,
+    "wt": ["Long-Range", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Shooting DMG output boosted by 35"
+    },
+    "name": "Shield [Heavyarms] [Endless Waltz Ver.]"
+  }]
+}, {
   "name": "Gundam Kimaris",
   "attribute": "Technique",
   "rarity": 4,
@@ -16513,6 +16739,117 @@
       "name": "With Technique attribute (self), Buff EX Skill effect 15%"
     },
     "name": "Shield Booster"
+  }]
+}, {
+  "name": "Gundam TR-6 [Wondwart]",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1181,
+    "ma": 384,
+    "sa": 2380,
+    "md": 384,
+    "sd": 384,
+    "br": 417,
+    "pr": 213,
+    "wt": ["Mid-Range", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D-",
+        "Pow": "D",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1977,
+    "ma": 384,
+    "sa": 796,
+    "md": 796,
+    "sd": 796,
+    "br": 611,
+    "pr": 0,
+    "wt": ["Mid-Range", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mid-Range\", EX Skill DMG taken reduced by 35"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1181,
+    "ma": 796,
+    "sa": 796,
+    "md": 1181,
+    "sd": 1181,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mid-Range", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Composite Shield Booster",
+      "description": "Transform your shield into a rifle, blade, and claw to carry out a flurry of attacks. Raise Melee and Shot Attack of your Squad by 24%.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C",
+        "Cd": [79, 8]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 1181,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1181,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Mid-Range", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Shooting CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 1181,
+    "ma": 384,
+    "sa": 384,
+    "md": 796,
+    "sd": 1181,
+    "br": 611,
+    "pr": 417,
+    "wt": ["Mid-Range", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Before 15s pass, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 1181,
+    "ma": 0,
+    "sa": 0,
+    "md": 796,
+    "sd": 1602,
+    "br": 806,
+    "pr": 213,
+    "wt": ["Mid-Range", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mid-Range\", Enemy Shooting power reduced 30%"
+    },
+    "name": "Composite Shield Booster"
   }]
 }, {
   "name": "Gundam Tryon 3",

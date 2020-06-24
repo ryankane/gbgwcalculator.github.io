@@ -50,6 +50,40 @@
     "name": "When Melee ATK is over 16000, Job Gauge increase boosted 17%"
   }
 }, {
+  "name": "Allelujah Haptism",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 800,
+  "ma": 1185,
+  "sa": 385,
+  "md": 800,
+  "sd": 1185,
+  "br": 292,
+  "pr": 292,
+  "wt": ["Transformer", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Transformer\", Vernier consumption reduced 20%"
+  }
+}, {
+  "name": "Allenby Beardsley",
+  "jl": "In-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 559,
+  "ma": 1144,
+  "sa": 292,
+  "md": 559,
+  "sd": 559,
+  "br": 303,
+  "pr": 303,
+  "wt": ["Mobile Fighter", "For Urban Area"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When buffed, 28% chance to not recoil"
+  }
+}, {
   "name": "Amuro Ray",
   "jl": "Long-Shooter",
   "attribute": "Technique",

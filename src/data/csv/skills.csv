@@ -484,3 +484,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 483,Psyco Power,Unleash the power of thoughts to paralyze enemies for a fixed period of time.,3,A,D,,,21,3
 484,Hide Bomb,Plant the mines stowed in your shoulder.,2,D,B,,11,60,0
 485,Waist Beam Cannon,Fire at eneimies using the forward-facing dual beam cannons stowed on your waist.,1,D,B,,,21,6
+486,Composite Shield Booster,"Transform your shield into a rifle, blade, and claw to carry out a flurry of attacks. Raise Melee and Shot Attack of your Squad by 24%.",1,A+,C,,,79,8
+487,Micro Missile,Fire micro missiles from pods in your shoulders.,2,D,B+,,,21,6
+488,Homing Missile & Machine Cannon,Spray homing missiles from the launcher pods on your legs.,2,D,B+,,,21,6
+489,Cotton,"Expel the cotton in your body from your mouth, entangling hit enemies for a set period of time",2,D,B+,,,60,15
