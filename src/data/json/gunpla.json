@@ -3709,6 +3709,114 @@
     "name": "Chobham Shield"
   }]
 }, {
+  "name": "Burning Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1182,
+    "ma": 384,
+    "sa": 799,
+    "md": 1182,
+    "sd": 384,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Mobile Fighter", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Choukyuu Haou Den'eidan",
+      "description": "Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "B",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1606,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 290,
+    "pr": 290,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Mode",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 384,
+    "ma": 3181,
+    "sa": 384,
+    "md": 1606,
+    "sd": 384,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mobile Fighter", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Sekiha Tenkyo Burning Finger",
+      "description": "Create a humongous fist with Sekiha Tenkyoken energy and crush enemies in your grasp. Raise speed of your Squad by 20% Raise Melee Attack of your Squad by 39%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A+",
+        "Cd": [79, 40]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 420,
+    "pr": 290,
+    "wt": ["Mobile Fighter", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Bakunetsu Burning Slash",
+      "description": "Concentrate your energy into a Burning Slash and unleash a high-powered three-strike attack.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A-",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 799,
+    "ma": 384,
+    "sa": 384,
+    "md": 1606,
+    "sd": 799,
+    "br": 290,
+    "pr": 420,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mobile Fighter\", Melee power boosted 30%"
+    }
+  }]
+}, {
   "name": "Buster Gundam",
   "attribute": "Power",
   "rarity": 3,
@@ -5121,6 +5229,114 @@
     "name": "Shot Lancer [Heavy Machine Gun]",
     "type": "Physical",
     "category": "Machine Gun"
+  }]
+}, {
+  "name": "Denial Gundam",
+  "attribute": "Technique",
+  "rarity": 4,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 966,
+    "ma": 720,
+    "sa": 2754,
+    "md": 553,
+    "sd": 553,
+    "br": 284,
+    "pr": 465,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Imitation Houou Haoh-Ken",
+      "description": "Copy a Kamiki Gunpla Style technique to make a beast-shaped strike with blazing, violet arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 20]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1734,
+    "ma": 1098,
+    "sa": 789,
+    "md": 966,
+    "sd": 966,
+    "br": 0,
+    "pr": 673,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Burning Burst System",
+      "description": "Maximize particle emissions from your Gunpla to temporarily boost its capabilities. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 44,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 966,
+    "ma": 3074,
+    "sa": 1168,
+    "md": 553,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Mobility", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Heat Rush",
+      "description": "Execute a rush attack with the beam swords on your forearms.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 966,
+    "ma": 1098,
+    "sa": 379,
+    "md": 966,
+    "sd": 966,
+    "br": 673,
+    "pr": 465,
+    "wt": ["High Mobility", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Jigen Haoh Style Seiso-Geri",
+      "description": "Use the Jigen Haoh style to make a tornado with Senpu Tatsumaki-Geri and unleash a Seiso-Geri. Raise your Melee Attack by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 966,
+    "ma": 1098,
+    "sa": 379,
+    "md": 966,
+    "sd": 966,
+    "br": 465,
+    "pr": 673,
+    "wt": ["High Mobility", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Melee power boosted 30%"
+    }
   }]
 }, {
   "name": "Destiny Gundam",

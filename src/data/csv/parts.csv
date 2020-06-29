@@ -1453,20 +1453,30 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1452,Zaku III Custom,10-04-5-01,228,5,,3,1,18,17,889,291,291,889,558,428,302,,"With Power attribute (self), EX Skill piercing boosted 22%",,,Knight Coins (Weekly Event)
 1453,Beam Saber [Zaku III Custom],10-04-6a-01,228,6,,3,1,18,6,889,2589,0,0,0,302,126,,"When Phys. RES is over 6000, Strong Melee CRIT rate boosted 17%",1,2,Knight Coins (Weekly Event)
 1454,Beam Rifle [Zaku III Custom],10-04-7a-01,228,7,,3,1,18,17,889,0,1699,0,0,428,126,,"When Shot DEF is under 6000, Enemy EX Skill power reduced 25%",1,8,Knight Coins (Weekly Event)
-1455,Gundam TR-6 [Wondwart],00-00-1-01,229,1,,4,2,7,9,1181,384,2380,384,384,417,213,3,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1456,Gundam TR-6 [Wondwart],00-00-2-01,229,2,,4,2,7,9,1977,384,796,796,796,611,0,,"While ""Mid-Range"", EX Skill DMG taken reduced by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1457,Gundam TR-6 [Wondwart],00-00-3-01,229,3,,4,2,7,12,1181,796,796,1181,1181,0,0,486,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1458,Gundam TR-6 [Wondwart],00-00-4-01,229,4,,4,2,7,12,1181,384,384,796,1181,611,417,,"With Technique attribute (self), Shooting CRIT rate boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1459,Gundam TR-6 [Wondwart],00-00-5-01,229,5,,4,2,7,9,1181,384,384,796,1181,611,417,,"Before 15s pass, Shooting power boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1460,Composite Shield Booster,00-00-8-01,229,8,,4,2,7,12,1181,0,0,796,1602,806,213,,"While ""Mid-Range"", Enemy Shooting power reduced 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1461,Gundam Heavyarms [Endless Waltz Ver.],00-00-1-01,230,1,,4,3,8,11,384,384,3181,384,1182,0,0,,"While ""Long-Range"", Long Shot Attack raised 20%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1462,Gundam Heavyarms [Endless Waltz Ver.],00-00-2-01,230,2,,4,3,8,11,1606,384,384,799,1606,290,290,253,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1463,Gundam Heavyarms [Endless Waltz Ver.],00-00-3-01,230,3,,4,3,8,13,1182,799,384,384,1606,290,290,487,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1464,Gundam Heavyarms [Endless Waltz Ver.],00-00-4-01,230,4,,4,3,8,13,799,384,384,799,1606,420,420,488,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1465,Gundam Heavyarms [Endless Waltz Ver.],00-00-5-01,230,5,,4,3,8,11,799,384,384,799,1606,420,420,255,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1466,Beam Gatling Gun [Endless Waltz Ver.],00-00-7-01,230,7,,4,3,8,11,384,0,4004,0,0,290,290,,"While ""Heavy Armor"", Initial EX Skill charge boosted 20%",1,11,Haro Chip Capsule & [No. 022] Bonus Coins
-1467,Shield [Heavyarms] [Endless Waltz Ver.],00-00-8-01,230,8,,4,3,8,13,799,0,0,799,2384,477,477,,"With Speed attribute (self), Shooting DMG output boosted by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1468,Beargguy III,00-00-1-01,231,1,,3,2,4,15,559,294,893,559,559,303,303,489,,,,Beargguy Device A (Weekly Event)
-1469,Beargguy III,00-00-2-01,231,2,4,3,2,4,26,893,559,559,1438,1438,881,881,,"While ""Amphib."", Shooting power boosted 25%",,,Beargguy Device A (Weekly Event)
-1470,Beargguy III,00-00-3-01,231,3,,3,2,4,26,294,893,294,559,559,432,432,113,,,,Beargguy Device A (Weekly Event)
-1471,Beargguy III,00-00-5-01,231,5,,3,2,4,15,294,294,294,893,893,432,432,,"Supporter Job, Close Shot Attack raised 14%",,,Beargguy Device A (Weekly Event)
+1455,Gundam TR-6 [Wondwart],40-??-1-01,229,1,,4,2,7,9,1181,384,2380,384,384,417,213,3,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1456,Gundam TR-6 [Wondwart],40-??-2-01,229,2,,4,2,7,9,1977,384,796,796,796,611,0,,"While ""Mid-Range"", EX Skill DMG taken reduced by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1457,Gundam TR-6 [Wondwart],40-??-3-01,229,3,,4,2,7,12,1181,796,796,1181,1181,0,0,486,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1458,Gundam TR-6 [Wondwart],40-??-4-01,229,4,,4,2,7,12,1181,384,384,796,1181,611,417,,"With Technique attribute (self), Shooting CRIT rate boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1459,Gundam TR-6 [Wondwart],40-??-5-01,229,5,,4,2,7,9,1181,384,384,796,1181,611,417,,"Before 15s pass, Shooting power boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1460,Composite Shield Booster,40-??-8-01,229,8,,4,2,7,12,1181,0,0,796,1602,806,213,,"While ""Mid-Range"", Enemy Shooting power reduced 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1461,Gundam Heavyarms [Endless Waltz Ver.],18-??-1-01,230,1,,4,3,8,11,384,384,3181,384,1182,0,0,,"While ""Long-Range"", Long Shot Attack raised 20%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1462,Gundam Heavyarms [Endless Waltz Ver.],18-??-2-01,230,2,,4,3,8,11,1606,384,384,799,1606,290,290,253,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1463,Gundam Heavyarms [Endless Waltz Ver.],18-??-3-01,230,3,,4,3,8,13,1182,799,384,384,1606,290,290,487,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1464,Gundam Heavyarms [Endless Waltz Ver.],18-??-4-01,230,4,,4,3,8,13,799,384,384,799,1606,420,420,488,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1465,Gundam Heavyarms [Endless Waltz Ver.],18-??-5-01,230,5,,4,3,8,11,799,384,384,799,1606,420,420,255,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1466,Beam Gatling Gun [Endless Waltz Ver.],18-??-7-01,230,7,,4,3,8,11,384,0,4004,0,0,290,290,,"While ""Heavy Armor"", Initial EX Skill charge boosted 20%",1,11,Haro Chip Capsule & [No. 022] Bonus Coins
+1467,Shield [Heavyarms] [Endless Waltz Ver.],18-??-8-01,230,8,,4,3,8,13,799,0,0,799,2384,477,477,,"With Speed attribute (self), Shooting DMG output boosted by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1468,Beargguy III,32-??-1-01,231,1,,3,2,4,15,559,294,893,559,559,303,303,489,,,,Beargguy Device A (Weekly Event)
+1469,Beargguy III,32-??-2-01,231,2,4,3,2,4,26,893,559,559,1438,1438,881,881,,"While ""Amphib."", Shooting power boosted 25%",,,Beargguy Device A (Weekly Event)
+1470,Beargguy III,32-??-3-01,231,3,,3,2,4,26,294,893,294,559,559,432,432,113,,,,Beargguy Device A (Weekly Event)
+1471,Beargguy III,32-??-5-01,231,5,,3,2,4,15,294,294,294,893,893,432,432,,"Supporter Job, Close Shot Attack raised 14%",,,Beargguy Device A (Weekly Event)
+1472,Burning Gundam,16-??-1-01,232,1,,4,1,14,1,1182,384,799,1182,384,290,290,356,,,,Haro Chip Capsule (Sokai Festival)
+1473,Burning Gundam,16-??-2-01,232,2,,4,1,14,6,1606,384,384,1606,799,290,290,490,,,,Haro Chip Capsule (Sokai Festival)
+1474,Burning Gundam,16-??-3-01,232,3,,4,1,14,1,384,3181,384,1606,384,0,0,491,,,,Haro Chip Capsule (Sokai Festival)
+1475,Burning Gundam,16-??-4-01,232,4,,4,1,14,1,799,384,384,1606,799,420,290,492,,,,Haro Chip Capsule (Sokai Festival)
+1476,Burning Gundam,16-??-5-01,232,5,,4,1,14,6,799,384,384,1606,799,290,420,,"While ""Mobile Fighter"", Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1477,Denial Gundam,34-??-1-01,233,1,,4,2,9,6,966,720,2754,553,553,284,465,493,,,,Haro Chip Capsule (Sokai Festival)
+1478,Denial Gundam,34-??-2-01,233,2,,4,2,9,6,1734,1098,789,966,966,0,673,494,,,,Haro Chip Capsule (Sokai Festival)
+1479,Denial Gundam,34-??-3-01,233,3,,4,2,9,6,966,3074,1168,553,553,0,0,495,,,,Haro Chip Capsule (Sokai Festival)
+1480,Denial Gundam,34-??-4-01,233,4,,4,2,9,26,966,1098,379,966,966,673,465,362,,,,Haro Chip Capsule (Sokai Festival)
+1481,Denial Gundam,34-??-5-01,233,5,,4,2,9,26,966,1098,379,966,966,465,673,,"With Technique attribute (self), Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
