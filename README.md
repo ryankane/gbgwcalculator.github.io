@@ -26,3 +26,10 @@ npm run build
 ## Changelog
 
 For version history, please view the [change log](./CHANGELOG.md).
+
+## Contributions
+
+* [AutoRiceCooker @ GitHub](https://github.com/autoricecooker)
+* [Acylos @ Reddit](https://www.reddit.com/user/Acylos)
+* [SmilyT1 @ GamePress](https://gamepress.gg/user/684586)
+* And many others @ [GBGW: Newtype Labs](https://discord.gg/6aMUnBD)
