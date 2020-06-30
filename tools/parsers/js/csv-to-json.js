@@ -15,6 +15,9 @@ const stores = {
   },
   skills: {
     filename: `../../src/data/csv/skills.csv`
+  },
+  integrated: {
+    filename: `../../src/data/csv/integrated.csv`
   }
 };
 
@@ -34,9 +37,9 @@ const onReady = () => {
 }
 
 const processUnitData = (units) => units.map(unit => {
-  if (unit['Name'].startsWith('ν')) {
-    unit['Name'] = unit['Name'].replace('ν', 'Nu');
-  }
+  //if (unit['Name'].startsWith('ν')) {
+  //  unit['Name'] = unit['Name'].replace('ν', 'Nu');
+  //}
   return unit;
 });
 
@@ -113,7 +116,11 @@ const transformUnitData = (unit) => {
           }
 
           if (part['X Part']) {
-            result.combo = findByIndex(PartTypeIndex, part['X Part']);
+            const info = stores.integrated.data.find(integrated => integrated['Part ID'] === part['Index']);
+            result.combo = {
+              type: findByIndex(PartTypeIndex, info['Integrated Part Type']),
+              name: info['Integrated Part Name']
+            };
           }
 
           if (part['Part Type'] > 5) {

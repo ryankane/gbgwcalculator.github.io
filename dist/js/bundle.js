@@ -1,5 +1,5 @@
 /*
- gbgw-calculator 1.2.3 2020-06-29 
+ gbgw-calculator 1.2.4 2020-06-30 
 */
 
 class DataStoreManager {
@@ -833,8 +833,9 @@ class GunplaCalculator {
             }
         }
         if (this.searchPart.trim().length > 0) {
-            const value = (part.ms ? part.ms : "") + " " + (part.name ? part.name : "");
-            if (!new RegExp(this.searchPart.trim(), "i").test(value)) {
+            let msMatches = part.ms ? GunplaCalculator.containsNormalized(part.ms, this.searchPart) : false;
+            let nameMatches = part.name ? GunplaCalculator.containsNormalized(part.name, this.searchPart) : false;
+            if (!(msMatches || nameMatches)) {
                 return false;
             }
         }
@@ -878,7 +879,7 @@ class GunplaCalculator {
         let result = part.attribute ? this._generateAttrIcon(part.attribute) : "";
         result += this._getDisplayText(part);
         if (part.combo) {
-            result += `<span class="combo-plus"><span class="gbgw gbgw-slot-${part.combo}"></span></span>`;
+            result += `<span class="combo-plus"><span class="gbgw gbgw-slot-${part.combo.type}"></span></span>`;
         }
         return result;
     }
@@ -971,25 +972,32 @@ class GunplaCalculator {
                         if (comboPart.part == partInput.dataset.part) {
                             this._clearComboPart(comboPart.combo, i);
                             break;
-                        } else if (partInput.dataset.combo && partInput.dataset.combo == comboPart.combo) {
-                            this._clearParts(comboPart.part);
-                            this._clearComboPart(comboPart.combo, i);
-                            break;
+                        } else if (partInput.dataset.combo) {
+                            const comboData = JSON.parse(partInput.dataset.combo);
+                            if (comboData.type === comboPart.combo) {
+                                this._clearParts(comboPart.part);
+                                this._clearComboPart(comboPart.combo, i);
+                                break;
+                            }
                         }
                     }
                 }
             }
             if (partInput.dataset.combo && partInput.dataset.part) {
-                this._clearParts(partInput.dataset.combo);
+                const partRarity = partInput.dataset.rarity;
+                const comboData = JSON.parse(partInput.dataset.combo);
+                this._clearParts(comboData.type);
                 this.comboParts.push({
                     part: partInput.dataset.part,
-                    combo: partInput.dataset.combo
+                    combo: comboData.type
                 });
-                let comboInput = this.inputs[partInput.dataset.combo];
+                let comboInput = this.inputs[comboData.type];
+                comboInput.value = comboData.name;
+                comboInput.dataset.rarity = partRarity;
                 comboInput.disabled = true;
-                let slotText = SlotTextMap[partInput.dataset.combo];
+                let slotText = SlotTextMap[comboData.type];
                 let slotIconWrapper = comboInput.closest(".row").querySelector(".part-slot-type");
-                slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(null, partInput.dataset.combo)}" data-rarity="${partInput.dataset.rarity}" title="${slotText}"></span>`;
+                slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(null, comboData.type)}" data-rarity="${partInput.dataset.rarity}" title="${slotText}"></span>`;
                 let attrIconWrapper = comboInput.closest(".row").querySelector(".part-slot-attr");
                 attrIconWrapper.innerHTML = `<span class="gbgw-attribute-${partInput.dataset.attribute.toLowerCase()}" data-rarity="${partInput.dataset.rarity}" title="${partInput.dataset.attribute}"></span>`;
             }
@@ -1328,7 +1336,8 @@ class GunplaCalculator {
         if (currPart && Array.isArray(AllSlots) && AllSlots.indexOf(currPart) > -1) {
             const partInputEl = document.querySelector(".js-input-" + currPart);
             if (partInputEl && partInputEl.dataset.combo) {
-                document.querySelector(".js-input-" + partInputEl.dataset.combo).disabled = false;
+                const comboData = JSON.parse(partInputEl.dataset.combo);
+                document.querySelector(".js-input-" + comboData.type).disabled = false;
                 let found = this.comboParts.find(comboPart => comboPart.part === currPart);
                 if (found) this._clearComboPart(found.combo, this.comboParts.indexOf(found));
             }
@@ -1441,7 +1450,8 @@ class GunplaCalculator {
                 return result + ((result == "" ? "" : "<br />") + '<span class="' + (currentTally >= ActiveWordTagMin ? "activated-wt" : "") + '">(' + currentTally + ") " + wordTag + "</span>");
             }, "");
             if (part.dataset.combo) {
-                document.querySelector(".js-wt-" + part.dataset.combo).innerHTML = partEl.innerHTML;
+                const comboData = JSON.parse(part.dataset.combo);
+                document.querySelector(".js-wt-" + comboData.type).innerHTML = partEl.innerHTML;
             }
         }
         return true;
@@ -1462,6 +1472,166 @@ class GunplaCalculator {
         return Math.round(value * 1e12) / 1e12;
     }
 }
+
+GunplaCalculator.greekDict = {
+    "Α": {
+        upper: "Α",
+        lower: "α",
+        name: "alpha",
+        romanized: "a"
+    },
+    "Β": {
+        upper: "Β",
+        lower: "β",
+        name: "beta",
+        romanized: "b"
+    },
+    "Γ": {
+        upper: "Γ",
+        lower: "γ",
+        name: "gamma",
+        romanized: "g"
+    },
+    "Δ": {
+        upper: "Δ",
+        lower: "δ",
+        name: "delta",
+        romanized: "d"
+    },
+    "Ε": {
+        upper: "Ε",
+        lower: "ε",
+        name: "epsilon",
+        romanized: "e"
+    },
+    "Ζ": {
+        upper: "Ζ",
+        lower: "ζ",
+        name: "zeta",
+        romanized: "z"
+    },
+    "Η": {
+        upper: "Η",
+        lower: "η",
+        name: "eta",
+        romanized: "h"
+    },
+    "Θ": {
+        upper: "Θ",
+        lower: "θ",
+        name: "theta",
+        romanized: "th"
+    },
+    "Ι": {
+        upper: "Ι",
+        lower: "ι",
+        name: "iota",
+        romanized: "i"
+    },
+    "Κ": {
+        upper: "Κ",
+        lower: "κ",
+        name: "kappa",
+        romanized: "k"
+    },
+    "Λ": {
+        upper: "Λ",
+        lower: "λ",
+        name: "lambda",
+        romanized: "l"
+    },
+    "Μ": {
+        upper: "Μ",
+        lower: "μ",
+        name: "mu",
+        romanized: "m"
+    },
+    "Ν": {
+        upper: "Ν",
+        lower: "ν",
+        name: "nu",
+        romanized: "n"
+    },
+    "Ξ": {
+        upper: "Ξ",
+        lower: "ξ",
+        name: "xi",
+        romanized: "x"
+    },
+    "Ο": {
+        upper: "Ο",
+        lower: "ο",
+        name: "omicron",
+        romanized: "o"
+    },
+    "Π": {
+        upper: "Π",
+        lower: "π",
+        name: "pi",
+        romanized: "p"
+    },
+    "Ρ": {
+        upper: "Ρ",
+        lower: "ρ",
+        name: "rho",
+        romanized: "r"
+    },
+    "Σ": {
+        upper: "Σ",
+        lower: "σ",
+        name: "sigma",
+        romanized: "s",
+        alt: "ς"
+    },
+    "Τ": {
+        upper: "Τ",
+        lower: "τ",
+        name: "tau",
+        romanized: "t"
+    },
+    "Υ": {
+        upper: "Υ",
+        lower: "υ",
+        name: "upsilon",
+        romanized: "u"
+    },
+    "Φ": {
+        upper: "Φ",
+        lower: "φ",
+        name: "phi",
+        romanized: "ph"
+    },
+    "Χ": {
+        upper: "Χ",
+        lower: "χ",
+        name: "chi",
+        romanized: "ch"
+    },
+    "Ψ": {
+        upper: "Ψ",
+        lower: "ψ",
+        name: "psi",
+        romanized: "ps"
+    },
+    "Ω": {
+        upper: "Ω",
+        lower: "ω",
+        name: "omega",
+        romanized: "o"
+    }
+};
+
+GunplaCalculator.greekPattern = new RegExp(`[${Object.keys(GunplaCalculator.greekDict).join("")}]`, "i");
+
+GunplaCalculator.replaceGreek = (symbol => GunplaCalculator.greekDict[symbol.toUpperCase()].name);
+
+GunplaCalculator.normalizeString = (str => {
+    return str.toLowerCase().trim().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(GunplaCalculator.greekPattern, GunplaCalculator.replaceGreek).replace(/[\s.-]/g, "");
+});
+
+GunplaCalculator.containsNormalized = ((str, term) => {
+    return GunplaCalculator.normalizeString(str).indexOf(GunplaCalculator.normalizeString(term)) !== -1;
+});
 
 const BASE_DATA_DIR = "dist/data";
 

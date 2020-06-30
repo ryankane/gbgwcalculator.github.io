@@ -517,7 +517,10 @@
         "Cd": [33, 7]
       }
     },
-    "combo": "legs"
+    "combo": {
+      "type": "legs",
+      "name": "Acguy"
+    }
   }, {
     "part": "arms",
     "mark": 4,
@@ -2281,7 +2284,10 @@
         "Cd": [79, 20]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Armed Armor VN"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -2362,7 +2368,10 @@
       "type": "Part Traits",
       "name": "With Module Category equipped, Buff EX Skill effect up 15%"
     },
-    "combo": "legs"
+    "combo": {
+      "type": "legs",
+      "name": "Beargguy"
+    }
   }, {
     "part": "arms",
     "mark": 2,
@@ -2449,7 +2458,10 @@
       "type": "Part Traits",
       "name": "With Module Category equipped, Buff EX Skill effect up 15%"
     },
-    "combo": "legs"
+    "combo": {
+      "type": "legs",
+      "name": "Beargguy"
+    }
   }, {
     "part": "arms",
     "mark": 2,
@@ -2536,7 +2548,10 @@
       "type": "Part Traits",
       "name": "While \"Amphib.\", Shooting power boosted 25%"
     },
-    "combo": "legs"
+    "combo": {
+      "type": "legs",
+      "name": "Beargguy III"
+    }
   }, {
     "part": "arms",
     "mark": 2,
@@ -2633,7 +2648,10 @@
       "type": "Part Traits",
       "name": "Out-Fighter Job, Melee power boosted 30%"
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Field Shield"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -2775,7 +2793,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Field Shield [Beginner Campaign]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -5156,7 +5177,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [Den'an Zon]"
+    }
   }, {
     "part": "legs",
     "mark": 3,
@@ -6983,7 +7007,10 @@
       "type": "Part Traits",
       "name": "With Power attribute (self), Strong Melee DMG output boosted by 35"
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Wing Shield [Enhanced ZZ Gundam (Ver. Ka)]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -7542,7 +7569,10 @@
         "Cd": [21, 6]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield Gundam Full Armor"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -10129,7 +10159,10 @@
       "type": "Part Traits",
       "name": "Beam ranged weapon, magazine boosted 20%"
     },
-    "combo": "shield",
+    "combo": {
+      "type": "shield",
+      "name": "Gatling Shield"
+    },
     "name": "Gatling Shield",
     "type": "Physical",
     "category": "Gatling Gun"
@@ -11304,7 +11337,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "SigMaxiss Cannon Armor"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -11551,7 +11587,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [Gundam Artemis]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -11704,7 +11743,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Sub-Knuckle"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -13393,7 +13435,10 @@
       "type": "Part Traits",
       "name": "With Bazooka Category equipped, Sp. Shot power boosted 30%"
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [F91]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -14959,7 +15004,10 @@
       "type": "Part Traits",
       "name": "Beam ranged weapon, magazine boosted 20%"
     },
-    "combo": "shield",
+    "combo": {
+      "type": "shield",
+      "name": "Beam Gatling Gun [with Shield]"
+    },
     "name": "Beam Gatling Gun [with Shield]",
     "type": "Beam",
     "category": "Gatling Gun"
@@ -16379,7 +16427,10 @@
         "Cd": [60, 6]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Gundam Rose]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -16498,7 +16549,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Gundam Rose]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -16742,7 +16796,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "GN Shield [Throne Drei]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -18510,7 +18567,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "head"
+    "combo": {
+      "type": "head",
+      "name": "Hy-Gogg"
+    }
   }, {
     "part": "arms",
     "mark": 3,
@@ -18593,7 +18653,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "head"
+    "combo": {
+      "type": "head",
+      "name": "Hy-Gogg"
+    }
   }, {
     "part": "arms",
     "mark": 3,
@@ -20241,7 +20304,10 @@
         "Cd": [60, 6]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Flexible Binder"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -20417,7 +20483,10 @@
         "Cd": [19, 5]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Leo]"
+    }
   }, {
     "part": "legs",
     "mark": 4,
@@ -21001,7 +21070,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "head"
+    "combo": {
+      "type": "head",
+      "name": "Mobile Kapool"
+    }
   }, {
     "part": "arms",
     "mark": 4,
@@ -21550,323 +21622,6 @@
     "name": "Beam Ribbon",
     "type": "Beam",
     "category": "Whip"
-  }]
-}, {
-  "name": "Nu Gundam [Ver. Ka]",
-  "attribute": "Speed",
-  "rarity": 4,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "mark": 1,
-    "a": 553,
-    "ma": 553,
-    "sa": 3312,
-    "md": 553,
-    "sd": 1356,
-    "br": 0,
-    "pr": 0,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When attacking with Beam, EX Skill power boosted 30%"
-    }
-  }, {
-    "part": "body",
-    "mark": 1,
-    "a": 1734,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 0,
-    "pr": 673,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When attacking with Beam, Shooting power boosted 30%"
-    }
-  }, {
-    "part": "arms",
-    "mark": 1,
-    "a": 1356,
-    "ma": 966,
-    "sa": 553,
-    "md": 553,
-    "sd": 1734,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard.",
-      "category": "Beam Melee",
-      "stats": {
-        "Prc": "D",
-        "Pow": "B+",
-        "Cd": [21, 6]
-      }
-    }
-  }, {
-    "part": "legs",
-    "mark": 1,
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 673,
-    "pr": 465,
-    "wt": ["For Space", "Gundam Type"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor is 40% or more, EX Skill CD reduced 20%"
-    }
-  }, {
-    "part": "back",
-    "mark": 1,
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 465,
-    "pr": 673,
-    "wt": ["For Space", "Gundam Type"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Fin Funnels",
-      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
-      "category": "Beam Shot",
-      "stats": {
-        "Prc": "A+",
-        "Pow": "D",
-        "Cd": [60, 6]
-      }
-    }
-  }, {
-    "part": "melee",
-    "mark": 1,
-    "a": 1356,
-    "ma": 2523,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 465,
-    "pr": 673,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Speed attribute (self), Strong Melee power boosted 30%"
-    },
-    "name": "Beam Saber [Nu Ver.Ka]",
-    "type": "Beam",
-    "category": "Saber"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 553,
-    "ma": 0,
-    "sa": 4110,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor is 40% or more, Enemy Strong Melee power reduced 30%"
-    },
-    "name": "Beam Rifle [Nu Ver.Ka]",
-    "type": "Beam",
-    "category": "Rifle"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 553,
-    "ma": 0,
-    "sa": 4110,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Dual Cascade",
-      "description": "Hold bazookas in both hands and fire high-power rounds.",
-      "category": "Physical Shot",
-      "stats": {
-        "Prc": "A",
-        "Pow": "D",
-        "Cd": [21, 3]
-      }
-    },
-    "name": "New Hyper Bazooka [Nu Ver.Ka]",
-    "type": "Physical",
-    "category": "Bazooka"
-  }, {
-    "part": "shield",
-    "mark": 1,
-    "a": 966,
-    "ma": 0,
-    "sa": 0,
-    "md": 966,
-    "sd": 2523,
-    "br": 0,
-    "pr": 1082,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
-    },
-    "name": "Shield [Nu Ver.Ka]"
-  }]
-}, {
-  "name": "Nu-Zeon Gundam",
-  "attribute": "Power",
-  "rarity": 5,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "mark": 1,
-    "a": 1231,
-    "ma": 377,
-    "sa": 3298,
-    "md": 0,
-    "sd": 377,
-    "br": 206,
-    "pr": 460,
-    "wt": ["Ace Excl.", "Commander"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "While \"Ace Excl.\", EX Skill power boosted 30%"
-    }
-  }, {
-    "part": "body",
-    "mark": 1,
-    "a": 1728,
-    "ma": 785,
-    "sa": 1163,
-    "md": 785,
-    "sd": 961,
-    "br": 206,
-    "pr": 593,
-    "wt": ["Ace Excl.", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Ζ Beam",
-      "description": "Fire a light ray in the shape of the Ζ Mark on your chest and immobilize rule breakers.",
-      "category": "Beam Shot",
-      "stats": {
-        "Prc": "D",
-        "Pow": "B",
-        "Cd": [21, 6]
-      }
-    }
-  }, {
-    "part": "arms",
-    "mark": 1,
-    "a": 961,
-    "ma": 2910,
-    "sa": 1419,
-    "md": 550,
-    "sd": 550,
-    "br": 0,
-    "pr": 0,
-    "wt": ["Commander", "High Firepower"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Blade category equipped, Shooting power boosted 30%"
-    }
-  }, {
-    "part": "legs",
-    "mark": 1,
-    "a": 961,
-    "ma": 785,
-    "sa": 632,
-    "md": 785,
-    "sd": 961,
-    "br": 667,
-    "pr": 489,
-    "wt": ["Commander", "High Firepower"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Power attribute (self), Shooting CRIT rate boosted 30%"
-    }
-  }, {
-    "part": "back",
-    "mark": 1,
-    "a": 785,
-    "ma": 785,
-    "sa": 1011,
-    "md": 785,
-    "sd": 1350,
-    "br": 406,
-    "pr": 667,
-    "wt": ["Ace Excl.", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Terrible Funnels",
-      "description": "Fire Terrible Funnels to destroy rule breakers. You can move freely while this is active.",
-      "category": "Beam Shot",
-      "stats": {
-        "Prc": "D",
-        "Pow": "B+",
-        "Cd": [60, 9]
-      }
-    }
-  }, {
-    "part": "melee",
-    "mark": 1,
-    "a": 550,
-    "ma": 3375,
-    "sa": 0,
-    "md": 0,
-    "sd": 153,
-    "br": 460,
-    "pr": 667,
-    "wt": ["Ace Excl.", "High Firepower"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "The Axis will fall on rule breakers!",
-      "description": "Mercilessly deal devine-justice knockout blows to in-game violators of common decency. Uphold the spirit of The Antarctic Treaty! Let's protect our GBN!",
-      "category": "Physical Shot",
-      "stats": {
-        "Prc": "A",
-        "Pow": "B",
-        "Cd": [98, 25]
-      }
-    },
-    "name": "Zeonic Sword [High Mega Saber]",
-    "type": "Physical",
-    "category": "Blade"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 0,
-    "ma": 0,
-    "sa": 3743,
-    "md": 0,
-    "sd": 550,
-    "br": 281,
-    "pr": 460,
-    "wt": ["Ace Excl.", "Commander"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Zeonic Sword [Bowgun Mode]",
-      "description": "Set up your bowgun-shaped beam weapon and fire a beam to pierce through rule breakers.",
-      "category": "Beam Shot",
-      "stats": {
-        "Prc": "A-",
-        "Pow": "C",
-        "Cd": [60, 15]
-      }
-    },
-    "name": "Zeonic Sword [High Mega Bowgun]",
-    "type": "Beam",
-    "category": "Long Rifle"
   }]
 }, {
   "name": "Palace Athene",
@@ -22495,7 +22250,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Fuselage Canister [Perfect Strike]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -22599,7 +22357,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Composite Armed Shield System"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -23736,7 +23497,10 @@
       "type": "Part Traits",
       "name": "With Power attribute (self), EX Skill piercing boosted 28%"
     },
-    "combo": "head"
+    "combo": {
+      "type": "head",
+      "name": "Sanakapool"
+    }
   }, {
     "part": "arms",
     "mark": 1,
@@ -24885,7 +24649,10 @@
       "type": "Part Traits",
       "name": "Beam ranged weapon, reload speed boosted 15%"
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [Stargazer Gundam]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -25460,7 +25227,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield",
+    "combo": {
+      "type": "shield",
+      "name": "Combine Shield"
+    },
     "name": "Combine Shield",
     "type": "Physical",
     "category": "Gatling Gun"
@@ -25664,7 +25434,10 @@
         "Cd": [33, 7]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Fuselage Canister [Sword Strike]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -25785,7 +25558,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Tallgeese/Endless Waltz Ver. (Beginner Campaign)]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -25874,7 +25650,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Tallgeese/Endless Waltz Ver.]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -25987,7 +25766,10 @@
         "Cd": [60, 15]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Tallgeese II]"
+    }
   }, {
     "part": "legs",
     "mark": 2,
@@ -26833,7 +26615,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [V2]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -27075,7 +26860,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [Victory]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -27207,7 +26995,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Shield [Victory (Beginner Campaign)]"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -27739,7 +27530,10 @@
         "Cd": [19, 5]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Beam Cloak"
+    }
   }, {
     "part": "legs",
     "mark": 1,
@@ -27972,7 +27766,10 @@
         "Cd": [21, 6]
       }
     },
-    "combo": "legs"
+    "combo": {
+      "type": "legs",
+      "name": "Z'Gok"
+    }
   }, {
     "part": "arms",
     "mark": 4,
@@ -29144,7 +28941,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Zudah]"
+    }
   }, {
     "part": "legs",
     "mark": 4,
@@ -29265,7 +29065,10 @@
         "Cd": [60, 0]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Zudah]"
+    }
   }, {
     "part": "legs",
     "mark": 3,
@@ -29391,7 +29194,10 @@
         "Cd": [21, 3]
       }
     },
-    "combo": "shield"
+    "combo": {
+      "type": "shield",
+      "name": "Shield [Zudah]"
+    }
   }, {
     "part": "legs",
     "mark": 3,
@@ -29435,5 +29241,322 @@
         "Cd": [60, 12]
       }
     }
+  }]
+}, {
+  "name": "Nu Gundam [Ver. Ka]",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 553,
+    "ma": 553,
+    "sa": 3312,
+    "md": 553,
+    "sd": 1356,
+    "br": 0,
+    "pr": 0,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1734,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 0,
+    "pr": 673,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1356,
+    "ma": 966,
+    "sa": 553,
+    "md": 553,
+    "sd": 1734,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo",
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 673,
+    "pr": 465,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 40% or more, EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 465,
+    "pr": 673,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Fin Funnels",
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "D",
+        "Cd": [60, 6]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1356,
+    "ma": 2523,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 673,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Strong Melee power boosted 30%"
+    },
+    "name": "Beam Saber [Nu Ver.Ka]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 0,
+    "sa": 4110,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 40% or more, Enemy Strong Melee power reduced 30%"
+    },
+    "name": "Beam Rifle [Nu Ver.Ka]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 0,
+    "sa": 4110,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dual Cascade",
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    },
+    "name": "New Hyper Bazooka [Nu Ver.Ka]",
+    "type": "Physical",
+    "category": "Bazooka"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 966,
+    "ma": 0,
+    "sa": 0,
+    "md": 966,
+    "sd": 2523,
+    "br": 0,
+    "pr": 1082,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+    },
+    "name": "Shield [Nu Ver.Ka]"
+  }]
+}, {
+  "name": "ν-Zeon Gundam",
+  "attribute": "Power",
+  "rarity": 5,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1231,
+    "ma": 377,
+    "sa": 3298,
+    "md": 0,
+    "sd": 377,
+    "br": 206,
+    "pr": 460,
+    "wt": ["Ace Excl.", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Ace Excl.\", EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1728,
+    "ma": 785,
+    "sa": 1163,
+    "md": 785,
+    "sd": 961,
+    "br": 206,
+    "pr": 593,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Ζ Beam",
+      "description": "Fire a light ray in the shape of the Ζ Mark on your chest and immobilize rule breakers.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 961,
+    "ma": 2910,
+    "sa": 1419,
+    "md": 550,
+    "sd": 550,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Commander", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Blade category equipped, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 961,
+    "ma": 785,
+    "sa": 632,
+    "md": 785,
+    "sd": 961,
+    "br": 667,
+    "pr": 489,
+    "wt": ["Commander", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting CRIT rate boosted 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 785,
+    "ma": 785,
+    "sa": 1011,
+    "md": 785,
+    "sd": 1350,
+    "br": 406,
+    "pr": 667,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Terrible Funnels",
+      "description": "Fire Terrible Funnels to destroy rule breakers. You can move freely while this is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [60, 9]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 550,
+    "ma": 3375,
+    "sa": 0,
+    "md": 0,
+    "sd": 153,
+    "br": 460,
+    "pr": 667,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "The Axis will fall on rule breakers!",
+      "description": "Mercilessly deal devine-justice knockout blows to in-game violators of common decency. Uphold the spirit of The Antarctic Treaty! Let's protect our GBN!",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "B",
+        "Cd": [98, 25]
+      }
+    },
+    "name": "Zeonic Sword [High Mega Saber]",
+    "type": "Physical",
+    "category": "Blade"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 0,
+    "ma": 0,
+    "sa": 3743,
+    "md": 0,
+    "sd": 550,
+    "br": 281,
+    "pr": 460,
+    "wt": ["Ace Excl.", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Zeonic Sword [Bowgun Mode]",
+      "description": "Set up your bowgun-shaped beam weapon and fire a beam to pierce through rule breakers.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "C",
+        "Cd": [60, 15]
+      }
+    },
+    "name": "Zeonic Sword [High Mega Bowgun]",
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }]

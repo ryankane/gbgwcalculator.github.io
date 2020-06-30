@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.4
+
+- Improved part search
+
 ## 1.2.3
 
 - Added integrated part icons to the parts list
