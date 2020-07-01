@@ -3718,7 +3718,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Beam Gun",
-      "description": "Launch rapid-fire beam guns from your torso. You can move while firing.",
+      "description": "Launch rapid-fire beam gun shots from your shield. You can move while firing.",
       "category": "Beam Shot",
       "stats": {
         "Prc": "D",
@@ -4666,7 +4666,7 @@
       "stats": {
         "Prc": "D",
         "Pow": "B",
-        "Mag": 11,
+        "Mag": 7,
         "Cd": [60, 0]
       }
     }
