@@ -3,6 +3,7 @@
 ## 1.2.4
 
 - Improved part search
+- Added integrated part text
 
 ## 1.2.3
 

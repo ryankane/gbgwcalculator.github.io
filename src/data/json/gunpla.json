@@ -6178,6 +6178,143 @@
     "category": "Saber"
   }]
 }, {
+  "name": "Dreadnought Gundam",
+  "attribute": "Technique",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 291,
+    "ma": 291,
+    "sa": 2300,
+    "md": 291,
+    "sd": 889,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Shooting DMG taken reduced by 20"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1142,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 1142,
+    "br": 0,
+    "pr": 428,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less, EX Skill DMG output boosted by 20"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 889,
+    "ma": 558,
+    "sa": 291,
+    "md": 291,
+    "sd": 1142,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Enemy Sp. Shot power reduced 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 1142,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Pristis Beam Reamer",
+      "description": "Launch a beam from the experimental DRAGOON System on your waist.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 558,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 1142,
+    "br": 302,
+    "pr": 428,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "DRAGOON System",
+      "description": "Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "D",
+        "Cd": [60, 6]
+      }
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 291,
+    "ma": 0,
+    "sa": 2867,
+    "md": 0,
+    "sd": 0,
+    "br": 126,
+    "pr": 302,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Enemy EX Skill power reduced 25%"
+    },
+    "name": "Beam Rifle [Dreadnought]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 558,
+    "ma": 0,
+    "sa": 0,
+    "md": 558,
+    "sd": 1701,
+    "br": 0,
+    "pr": 716,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Composite Armed Shield System",
+      "description": "Launch rapid-fire beams from your shield. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B-",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    },
+    "name": "Composite Armed Shield System [Dreadnought]"
+  }]
+}, {
   "name": "Dreissen [Unicorn Ver.]",
   "attribute": "Power",
   "rarity": 1,
@@ -21624,6 +21761,178 @@
     "category": "Whip"
   }]
 }, {
+  "name": "Nu Gundam [Ver. Ka]",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 553,
+    "ma": 553,
+    "sa": 3312,
+    "md": 553,
+    "sd": 1356,
+    "br": 0,
+    "pr": 0,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1734,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 0,
+    "pr": 673,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 1356,
+    "ma": 966,
+    "sa": 553,
+    "md": 553,
+    "sd": 1734,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Saber Combo",
+      "description": "Unleash a combo with the saber in your right hard.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 673,
+    "pr": 465,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 40% or more, EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 966,
+    "sd": 1734,
+    "br": 465,
+    "pr": 673,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Fin Funnels",
+      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "D",
+        "Cd": [60, 6]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1356,
+    "ma": 2523,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 673,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Strong Melee power boosted 30%"
+    },
+    "name": "Beam Saber [Nu Ver.Ka]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 0,
+    "sa": 4110,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 40% or more, Enemy Strong Melee power reduced 30%"
+    },
+    "name": "Beam Rifle [Nu Ver.Ka]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 553,
+    "ma": 0,
+    "sa": 4110,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dual Cascade",
+      "description": "Hold bazookas in both hands and fire high-power rounds.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    },
+    "name": "New Hyper Bazooka [Nu Ver.Ka]",
+    "type": "Physical",
+    "category": "Bazooka"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 966,
+    "ma": 0,
+    "sa": 0,
+    "md": 966,
+    "sd": 2523,
+    "br": 0,
+    "pr": 1082,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+    },
+    "name": "Shield [Nu Ver.Ka]"
+  }]
+}, {
   "name": "Palace Athene",
   "attribute": "Power",
   "rarity": 2,
@@ -29241,178 +29550,6 @@
         "Cd": [60, 12]
       }
     }
-  }]
-}, {
-  "name": "Nu Gundam [Ver. Ka]",
-  "attribute": "Speed",
-  "rarity": 4,
-  "sokai": 0,
-  "parts": [{
-    "part": "head",
-    "mark": 1,
-    "a": 553,
-    "ma": 553,
-    "sa": 3312,
-    "md": 553,
-    "sd": 1356,
-    "br": 0,
-    "pr": 0,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When attacking with Beam, EX Skill power boosted 30%"
-    }
-  }, {
-    "part": "body",
-    "mark": 1,
-    "a": 1734,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 0,
-    "pr": 673,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When attacking with Beam, Shooting power boosted 30%"
-    }
-  }, {
-    "part": "arms",
-    "mark": 1,
-    "a": 1356,
-    "ma": 966,
-    "sa": 553,
-    "md": 553,
-    "sd": 1734,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Beam Saber Combo",
-      "description": "Unleash a combo with the saber in your right hard.",
-      "category": "Beam Melee",
-      "stats": {
-        "Prc": "D",
-        "Pow": "B+",
-        "Cd": [21, 6]
-      }
-    }
-  }, {
-    "part": "legs",
-    "mark": 1,
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 673,
-    "pr": 465,
-    "wt": ["For Space", "Gundam Type"],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor is 40% or more, EX Skill CD reduced 20%"
-    }
-  }, {
-    "part": "back",
-    "mark": 1,
-    "a": 966,
-    "ma": 553,
-    "sa": 553,
-    "md": 966,
-    "sd": 1734,
-    "br": 465,
-    "pr": 673,
-    "wt": ["For Space", "Gundam Type"],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Fin Funnels",
-      "description": "Launch fin funnels to strike foes in all directions. You can move freely while this is active.",
-      "category": "Beam Shot",
-      "stats": {
-        "Prc": "A+",
-        "Pow": "D",
-        "Cd": [60, 6]
-      }
-    }
-  }, {
-    "part": "melee",
-    "mark": 1,
-    "a": 1356,
-    "ma": 2523,
-    "sa": 0,
-    "md": 0,
-    "sd": 0,
-    "br": 465,
-    "pr": 673,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Speed attribute (self), Strong Melee power boosted 30%"
-    },
-    "name": "Beam Saber [Nu Ver.Ka]",
-    "type": "Beam",
-    "category": "Saber"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 553,
-    "ma": 0,
-    "sa": 4110,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "When Armor is 40% or more, Enemy Strong Melee power reduced 30%"
-    },
-    "name": "Beam Rifle [Nu Ver.Ka]",
-    "type": "Beam",
-    "category": "Rifle"
-  }, {
-    "part": "range",
-    "mark": 1,
-    "a": 553,
-    "ma": 0,
-    "sa": 4110,
-    "md": 0,
-    "sd": 0,
-    "br": 284,
-    "pr": 465,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "EX Skill",
-      "name": "Dual Cascade",
-      "description": "Hold bazookas in both hands and fire high-power rounds.",
-      "category": "Physical Shot",
-      "stats": {
-        "Prc": "A",
-        "Pow": "D",
-        "Cd": [21, 3]
-      }
-    },
-    "name": "New Hyper Bazooka [Nu Ver.Ka]",
-    "type": "Physical",
-    "category": "Bazooka"
-  }, {
-    "part": "shield",
-    "mark": 1,
-    "a": 966,
-    "ma": 0,
-    "sa": 0,
-    "md": 966,
-    "sd": 2523,
-    "br": 0,
-    "pr": 1082,
-    "wt": ["For Space", "Ace Excl."],
-    "ex": {
-      "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
-    },
-    "name": "Shield [Nu Ver.Ka]"
   }]
 }, {
   "name": "ν-Zeon Gundam",

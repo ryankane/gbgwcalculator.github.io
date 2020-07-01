@@ -132,5 +132,8 @@ Index,Name,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Sho
 131,Cony Francis,15,,コニー・フランシス,3,2,2,7,558,558,558,558,558,126,428,"When Shot DEF is over 12000, Shot guidance boosted 14%",7,2,2,,,,2020-06-10,,Dengeki
 132,Banagher Links,12,6,バナージ・リンクス,4,3,13,10,797,1181,1181,797,797,213,418,"While ""Gundam Type"", Buff EX Skill effect up 22%",4,2,1,,,,2020-06-17,,Dengeki
 133,Karen Joshua,3,6,カレン・ジョシュワ,3,3,16,23,558,558,558,558,558,428,126,"When Phys. RES is over 6000, Long Shot Attack raised 14%",2,2,2,,,,2020-06-17,,Dengeki
-134,Allelujah Haptism,25,,アレルヤ・ハプティズム,4,2,12,9,800,1185,385,800,1185,292,292,"While ""Transformer"", Vernier consumption reduced 20%",4,2,2,,,,2020-06-24,,Dengeki
-135,Allenby Beardsley,16,,アレンビー・ビアズリー,3,2,14,24,559,1144,292,559,559,303,303,"When buffed, 28% chance to not recoil",3,1,1,,,,2020-06-24,,Dengeki
+134,Allelujah Haptism,25,11,アレルヤ・ハプティズム,4,2,12,9,800,1185,385,800,1185,292,292,"While ""Transformer"", Vernier consumption reduced 20%",4,2,2,,,,2020-06-24,,Dengeki
+135,Allenby Beardsley,16,8,アレンビー・ビアズリー,3,2,14,24,559,1144,292,559,559,303,303,"When buffed, 28% chance to not recoil",3,1,1,,,,2020-06-24,,Dengeki
+136,Gym Ghingham,20,,ギム・ギンガナム,4,1,9,12,797,1181,1181,797,797,213,418,"When Melee ATK is over 16000, EX Skill CD reduced 20%",3,2,1,,,,2020-07-01,,Dengeki
+137,Kate Bush,15,,ケイト・ブッシュ,3,3,2,15,891,558,292,891,558,430,127,"With Speed attribute (self), 14% chance to survive a fatal blow",2,2,3,,,,2020-07-01,,Dengeki
+138,Prayer Reverie,50,1,プレア・レヴェリー,3,2,3,20,558,291,1142,558,558,126,302,"While ""For Space"", Recover 10 Armor gradually",6,3,3,,Event,,2020-07-01,,Dengeki

@@ -815,6 +815,23 @@
     "name": "When 2 enemies shot down, All CRIT rate boosted 17%"
   }
 }, {
+  "name": "Gym Ghingham",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "a": 797,
+  "ma": 1181,
+  "sa": 1181,
+  "md": 797,
+  "sd": 797,
+  "br": 213,
+  "pr": 418,
+  "wt": ["High Mobility", "Transformer"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Melee ATK is over 16000, EX Skill CD reduced 20%"
+  }
+}, {
   "name": "Haman Karn",
   "jl": "Long-Shooter",
   "attribute": "Power",
@@ -1102,6 +1119,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Phys. RES is over 6000, Long Shot Attack raised 14%"
+  }
+}, {
+  "name": "Kate Bush",
+  "jl": "Defender",
+  "attribute": "Speed",
+  "rarity": 3,
+  "a": 891,
+  "ma": 558,
+  "sa": 292,
+  "md": 891,
+  "sd": 558,
+  "br": 430,
+  "pr": 127,
+  "wt": ["Mass P.", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), 14% chance to survive a fatal blow"
   }
 }, {
   "name": "Kayra Su",
@@ -1629,6 +1663,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Shot guidance boosted 14%"
+  }
+}, {
+  "name": "Prayer Reverie",
+  "jl": "Long-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 1142,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 302,
+  "wt": ["Ace Excl.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"For Space\", Recover 10 Armor gradually"
   }
 }, {
   "name": "Quatre Raberba Winner",

@@ -494,3 +494,6 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 493,Imitation Houou Haoh-Ken,"Copy a Kamiki Gunpla Style technique to make a beast-shaped strike with blazing, violet arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",4,D,A,,,79,20
 494,Burning Burst System,Maximize particle emissions from your Gunpla to temporarily boost its capabilities. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,44,,60,12
 495,Heat Rush,Execute a rush attack with the beam swords on your forearms.,3,A,D,,,21,3
+496,Pristis Beam Reamer,Launch a beam from the experimental DRAGOON System on your waist.,1,A,D,,,21,3
+497,DRAGOON System,Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.,1,A+,D,,,60,6
+498,Composite Armed Shield System,Launch rapid-fire beams from your shield. You can move while firing.,1,D,B-,,11,60,0

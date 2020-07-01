@@ -532,11 +532,11 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 531,Shining Gundam,16-01-3-01,85,3,,4,1,14,6,796,2781,0,1180,1180,0,0,181,,,,Haro Chip Capsule
 532,Shining Gundam,16-01-4-01,85,4,,4,1,14,24,1180,383,383,1180,796,417,610,140,,,,Haro Chip Capsule
 533,Shining Gundam,16-01-5-01,85,5,,4,1,14,6,1180,383,383,1180,796,417,610,,"In-Fighter Job, 33% chance to not recoil",,,Haro Chip Capsule
-534,Sword Strike,21-02-1-01,86,1,,3,1,10,6,558,292,1993,292,292,302,127,182,,,,Sword Coins (Event)
-535,Sword Strike,21-02-2-01,86,2,,3,1,10,6,1144,558,558,558,558,430,0,,"Against a large enemy, Enemy Strong Melee power reduced 25%",,,Sword Coins (Event)
-536,Sword Strike,21-02-3-01,86,3,8,3,1,10,6,1144,2593,1144,891,891,718,0,183,,,,Sword Coins (Event)
-537,Sword Strike,21-02-4-01,86,4,,3,1,10,13,558,558,292,558,558,302,430,,"Against a large enemy, Melee CRIT rate boosted 17%",,,Sword Coins (Event)
-538,Sword Strike,21-02-5-01,86,5,,3,1,10,13,558,558,292,558,558,430,302,184,,,,Sword Coins (Event)
+534,Sword Strike Gundam,21-02-1-01,86,1,,3,1,10,6,558,292,1993,292,292,302,127,182,,,,Sword Coins (Event)
+535,Sword Strike Gundam,21-02-2-01,86,2,,3,1,10,6,1144,558,558,558,558,430,0,,"Against a large enemy, Enemy Strong Melee power reduced 25%",,,Sword Coins (Event)
+536,Sword Strike Gundam,21-02-3-01,86,3,8,3,1,10,6,1144,2593,1144,891,891,718,0,183,,,,Sword Coins (Event)
+537,Sword Strike Gundam,21-02-4-01,86,4,,3,1,10,13,558,558,292,558,558,302,430,,"Against a large enemy, Melee CRIT rate boosted 17%",,,Sword Coins (Event)
+538,Sword Strike Gundam,21-02-5-01,86,5,,3,1,10,13,558,558,292,558,558,430,302,184,,,,Sword Coins (Event)
 539,Schwert Gewehr,21-02-6c-01,86,6,,3,2,10,6,292,2593,0,0,0,430,302,185,,1,5,Sword Coins (Event)
 540,Sengoku Astray Gundam,32-01-1-01,87,1,,4,2,11,13,1180,383,796,1180,796,417,212,,"In-Fighter Job, EX Skill piercing boosted 28%",,,Haro Chip Capsule
 541,Sengoku Astray Gundam,32-01-2-01,87,2,,4,2,11,6,1976,796,383,796,796,610,0,,"In-Fighter Job, EX Skill CD reduced 20%",,,Haro Chip Capsule
@@ -1404,13 +1404,13 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1403,Perfect Strike Gundam,21-12-3-01,221,3,8,4,2,10,25,1606,3587,1606,1182,1182,477,477,275,,,,Haro Chip Capsule & [No. 021] Bonus Coins
 1404,Perfect Strike Gundam,21-12-4-01,221,4,,4,2,10,25,799,799,384,799,799,477,477,,"When attacking with Beam, Mid Shot Attack raised 20%",,,Haro Chip Capsule & [No. 021] Bonus Coins
 1405,Perfect Strike Gundam,21-12-5-01,221,5,,4,2,10,7,799,799,384,799,799,477,477,467,,,,Haro Chip Capsule & [No. 021] Bonus Coins
-1406,ν-Zeon Gundam,62-??-1-01,222,1,,5,1,3,5,1231,377,3298,0,377,206,460,,"While ""Ace Excl."", EX Skill power boosted 30%",,,Z Materials (Event Blueprint)
-1407,ν-Zeon Gundam,62-??-2-01,222,2,,5,1,3,10,1728,785,1163,785,961,206,593,468,,,,Z Materials (Event Blueprint)
-1408,ν-Zeon Gundam,62-??-3-01,222,3,,5,1,5,10,961,2910,1419,550,550,0,0,,"With Blade category equipped, Shooting power boosted 30%",,,Z Materials (Event Blueprint)
-1409,ν-Zeon Gundam,62-??-4-01,222,4,,5,1,5,10,961,785,632,785,961,667,489,,"With Power attribute (self), Shooting CRIT rate boosted 30%",,,Z Materials (Event Blueprint)
-1410,ν-Zeon Gundam,62-??-5-01,222,5,,5,1,3,10,785,785,1011,785,1350,406,667,469,,,,Z Materials (Event Blueprint)
-1411,Zeonic Sword [High Mega Saber],62-??-6c-01,222,6,,5,1,3,10,550,3375,0,0,153,460,667,470,,2,5,Z Materials (Event Blueprint)
-1412,Zeonic Sword [High Mega Bowgun],62-??-7b-01,222,7,,5,1,3,5,0,0,3743,0,550,281,460,471,,1,10,Z Materials (Event Blueprint)
+1406,ν-Zeon Gundam,62-04-1-01,222,1,,5,1,3,5,1231,377,3298,0,377,206,460,,"While ""Ace Excl."", EX Skill power boosted 30%",,,Z Materials (Event Blueprint)
+1407,ν-Zeon Gundam,62-04-2-01,222,2,,5,1,3,10,1728,785,1163,785,961,206,593,468,,,,Z Materials (Event Blueprint)
+1408,ν-Zeon Gundam,62-04-3-01,222,3,,5,1,5,10,961,2910,1419,550,550,0,0,,"With Blade category equipped, Shooting power boosted 30%",,,Z Materials (Event Blueprint)
+1409,ν-Zeon Gundam,62-04-4-01,222,4,,5,1,5,10,961,785,632,785,961,667,489,,"With Power attribute (self), Shooting CRIT rate boosted 30%",,,Z Materials (Event Blueprint)
+1410,ν-Zeon Gundam,62-04-5-01,222,5,,5,1,3,10,785,785,1011,785,1350,406,667,469,,,,Z Materials (Event Blueprint)
+1411,Zeonic Sword [High Mega Saber],62-04-6c-01,222,6,,5,1,3,10,550,3375,0,0,153,460,667,470,,2,5,Z Materials (Event Blueprint)
+1412,Zeonic Sword [High Mega Bowgun],62-04-7b-01,222,7,,5,1,3,5,0,0,3743,0,550,281,460,471,,1,10,Z Materials (Event Blueprint)
 1413,Gundam Ez8,03-02-1-01,223,1,,4,1,16,24,384,384,3177,384,1181,0,0,3,,,,Capsule Medals (Event Capsules)
 1414,Gundam Ez8,03-02-2-01,223,2,,4,1,16,24,1602,384,384,796,1602,0,611,472,,,,Capsule Medals (Event Capsules)
 1415,Gundam Ez8,03-02-3-01,223,3,,4,1,16,24,1181,796,384,384,1602,213,417,,"When Armor is 50% or more, Shot guidance boosted 17%",,,Capsule Medals (Event Capsules)
@@ -1453,30 +1453,37 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1452,Zaku III Custom,10-04-5-01,228,5,,3,1,18,17,889,291,291,889,558,428,302,,"With Power attribute (self), EX Skill piercing boosted 22%",,,Knight Coins (Weekly Event)
 1453,Beam Saber [Zaku III Custom],10-04-6a-01,228,6,,3,1,18,6,889,2589,0,0,0,302,126,,"When Phys. RES is over 6000, Strong Melee CRIT rate boosted 17%",1,2,Knight Coins (Weekly Event)
 1454,Beam Rifle [Zaku III Custom],10-04-7a-01,228,7,,3,1,18,17,889,0,1699,0,0,428,126,,"When Shot DEF is under 6000, Enemy EX Skill power reduced 25%",1,8,Knight Coins (Weekly Event)
-1455,Gundam TR-6 [Wondwart],40-??-1-01,229,1,,4,2,7,9,1181,384,2380,384,384,417,213,3,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1456,Gundam TR-6 [Wondwart],40-??-2-01,229,2,,4,2,7,9,1977,384,796,796,796,611,0,,"While ""Mid-Range"", EX Skill DMG taken reduced by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1457,Gundam TR-6 [Wondwart],40-??-3-01,229,3,,4,2,7,12,1181,796,796,1181,1181,0,0,486,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1458,Gundam TR-6 [Wondwart],40-??-4-01,229,4,,4,2,7,12,1181,384,384,796,1181,611,417,,"With Technique attribute (self), Shooting CRIT rate boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1459,Gundam TR-6 [Wondwart],40-??-5-01,229,5,,4,2,7,9,1181,384,384,796,1181,611,417,,"Before 15s pass, Shooting power boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1460,Composite Shield Booster,40-??-8-01,229,8,,4,2,7,12,1181,0,0,796,1602,806,213,,"While ""Mid-Range"", Enemy Shooting power reduced 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1461,Gundam Heavyarms [Endless Waltz Ver.],18-??-1-01,230,1,,4,3,8,11,384,384,3181,384,1182,0,0,,"While ""Long-Range"", Long Shot Attack raised 20%",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1462,Gundam Heavyarms [Endless Waltz Ver.],18-??-2-01,230,2,,4,3,8,11,1606,384,384,799,1606,290,290,253,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1463,Gundam Heavyarms [Endless Waltz Ver.],18-??-3-01,230,3,,4,3,8,13,1182,799,384,384,1606,290,290,487,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1464,Gundam Heavyarms [Endless Waltz Ver.],18-??-4-01,230,4,,4,3,8,13,799,384,384,799,1606,420,420,488,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1465,Gundam Heavyarms [Endless Waltz Ver.],18-??-5-01,230,5,,4,3,8,11,799,384,384,799,1606,420,420,255,,,,Haro Chip Capsule & [No. 022] Bonus Coins
-1466,Beam Gatling Gun [Endless Waltz Ver.],18-??-7-01,230,7,,4,3,8,11,384,0,4004,0,0,290,290,,"While ""Heavy Armor"", Initial EX Skill charge boosted 20%",1,11,Haro Chip Capsule & [No. 022] Bonus Coins
-1467,Shield [Heavyarms] [Endless Waltz Ver.],18-??-8-01,230,8,,4,3,8,13,799,0,0,799,2384,477,477,,"With Speed attribute (self), Shooting DMG output boosted by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
-1468,Beargguy III,32-??-1-01,231,1,,3,2,4,15,559,294,893,559,559,303,303,489,,,,Beargguy Device A (Weekly Event)
-1469,Beargguy III,32-??-2-01,231,2,4,3,2,4,26,893,559,559,1438,1438,881,881,,"While ""Amphib."", Shooting power boosted 25%",,,Beargguy Device A (Weekly Event)
-1470,Beargguy III,32-??-3-01,231,3,,3,2,4,26,294,893,294,559,559,432,432,113,,,,Beargguy Device A (Weekly Event)
-1471,Beargguy III,32-??-5-01,231,5,,3,2,4,15,294,294,294,893,893,432,432,,"Supporter Job, Close Shot Attack raised 14%",,,Beargguy Device A (Weekly Event)
-1472,Burning Gundam,16-??-1-01,232,1,,4,1,14,1,1182,384,799,1182,384,290,290,356,,,,Haro Chip Capsule (Sokai Festival)
-1473,Burning Gundam,16-??-2-01,232,2,,4,1,14,6,1606,384,384,1606,799,290,290,490,,,,Haro Chip Capsule (Sokai Festival)
-1474,Burning Gundam,16-??-3-01,232,3,,4,1,14,1,384,3181,384,1606,384,0,0,491,,,,Haro Chip Capsule (Sokai Festival)
-1475,Burning Gundam,16-??-4-01,232,4,,4,1,14,1,799,384,384,1606,799,420,290,492,,,,Haro Chip Capsule (Sokai Festival)
-1476,Burning Gundam,16-??-5-01,232,5,,4,1,14,6,799,384,384,1606,799,290,420,,"While ""Mobile Fighter"", Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
-1477,Denial Gundam,34-??-1-01,233,1,,4,2,9,6,966,720,2754,553,553,284,465,493,,,,Haro Chip Capsule (Sokai Festival)
-1478,Denial Gundam,34-??-2-01,233,2,,4,2,9,6,1734,1098,789,966,966,0,673,494,,,,Haro Chip Capsule (Sokai Festival)
-1479,Denial Gundam,34-??-3-01,233,3,,4,2,9,6,966,3074,1168,553,553,0,0,495,,,,Haro Chip Capsule (Sokai Festival)
-1480,Denial Gundam,34-??-4-01,233,4,,4,2,9,26,966,1098,379,966,966,673,465,362,,,,Haro Chip Capsule (Sokai Festival)
-1481,Denial Gundam,34-??-5-01,233,5,,4,2,9,26,966,1098,379,966,966,465,673,,"With Technique attribute (self), Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1455,Gundam TR-6 [Wondwart],40-03-1-01,229,1,,4,2,7,9,1181,384,2380,384,384,417,213,3,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1456,Gundam TR-6 [Wondwart],40-03-2-01,229,2,,4,2,7,9,1977,384,796,796,796,611,0,,"While ""Mid-Range"", EX Skill DMG taken reduced by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1457,Gundam TR-6 [Wondwart],40-03-3-01,229,3,,4,2,7,12,1181,796,796,1181,1181,0,0,486,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1458,Gundam TR-6 [Wondwart],40-03-4-01,229,4,,4,2,7,12,1181,384,384,796,1181,611,417,,"With Technique attribute (self), Shooting CRIT rate boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1459,Gundam TR-6 [Wondwart],40-03-5-01,229,5,,4,2,7,9,1181,384,384,796,1181,611,417,,"Before 15s pass, Shooting power boosted 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1460,Composite Shield Booster,40-03-8-01,229,8,,4,2,7,12,1181,0,0,796,1602,806,213,,"While ""Mid-Range"", Enemy Shooting power reduced 30%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1461,Gundam Heavyarms [Endless Waltz Ver.],18-08-1-01,230,1,,4,3,8,11,384,384,3181,384,1182,0,0,,"While ""Long-Range"", Long Shot Attack raised 20%",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1462,Gundam Heavyarms [Endless Waltz Ver.],18-08-2-01,230,2,,4,3,8,11,1606,384,384,799,1606,290,290,253,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1463,Gundam Heavyarms [Endless Waltz Ver.],18-08-3-01,230,3,,4,3,8,13,1182,799,384,384,1606,290,290,487,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1464,Gundam Heavyarms [Endless Waltz Ver.],18-08-4-01,230,4,,4,3,8,13,799,384,384,799,1606,420,420,488,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1465,Gundam Heavyarms [Endless Waltz Ver.],18-08-5-01,230,5,,4,3,8,11,799,384,384,799,1606,420,420,255,,,,Haro Chip Capsule & [No. 022] Bonus Coins
+1466,Beam Gatling Gun [Endless Waltz Ver.],18-08-7-01,230,7,,4,3,8,11,384,0,4004,0,0,290,290,,"While ""Heavy Armor"", Initial EX Skill charge boosted 20%",1,11,Haro Chip Capsule & [No. 022] Bonus Coins
+1467,Shield [Heavyarms] [Endless Waltz Ver.],18-08-8-01,230,8,,4,3,8,13,799,0,0,799,2384,477,477,,"With Speed attribute (self), Shooting DMG output boosted by 35",,,Haro Chip Capsule & [No. 022] Bonus Coins
+1468,Beargguy III,32-05-1-01,231,1,,3,2,4,15,559,294,893,559,559,303,303,489,,,,Beargguy Device A (Weekly Event)
+1469,Beargguy III,32-05-2-01,231,2,4,3,2,4,26,893,559,559,1438,1438,881,881,,"While ""Amphib."", Shooting power boosted 25%",,,Beargguy Device A (Weekly Event)
+1470,Beargguy III,32-05-3-01,231,3,,3,2,4,26,294,893,294,559,559,432,432,113,,,,Beargguy Device A (Weekly Event)
+1471,Beargguy III,32-05-5-01,231,5,,3,2,4,15,294,294,294,893,893,432,432,,"Supporter Job, Close Shot Attack raised 14%",,,Beargguy Device A (Weekly Event)
+1472,Burning Gundam,16-09-1-01,232,1,,4,1,14,1,1182,384,799,1182,384,290,290,356,,,,Haro Chip Capsule (Sokai Festival)
+1473,Burning Gundam,16-09-2-01,232,2,,4,1,14,6,1606,384,384,1606,799,290,290,490,,,,Haro Chip Capsule (Sokai Festival)
+1474,Burning Gundam,16-09-3-01,232,3,,4,1,14,1,384,3181,384,1606,384,0,0,491,,,,Haro Chip Capsule (Sokai Festival)
+1475,Burning Gundam,16-09-4-01,232,4,,4,1,14,1,799,384,384,1606,799,420,290,492,,,,Haro Chip Capsule (Sokai Festival)
+1476,Burning Gundam,16-09-5-01,232,5,,4,1,14,6,799,384,384,1606,799,290,420,,"While ""Mobile Fighter"", Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1477,Denial Gundam,34-04-1-01,233,1,,4,2,9,6,966,720,2754,553,553,284,465,493,,,,Haro Chip Capsule (Sokai Festival)
+1478,Denial Gundam,34-04-2-01,233,2,,4,2,9,6,1734,1098,789,966,966,0,673,494,,,,Haro Chip Capsule (Sokai Festival)
+1479,Denial Gundam,34-04-3-01,233,3,,4,2,9,6,966,3074,1168,553,553,0,0,495,,,,Haro Chip Capsule (Sokai Festival)
+1480,Denial Gundam,34-04-4-01,233,4,,4,2,9,26,966,1098,379,966,966,673,465,362,,,,Haro Chip Capsule (Sokai Festival)
+1481,Denial Gundam,34-04-5-01,233,5,,4,2,9,26,966,1098,379,966,966,465,673,,"With Technique attribute (self), Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1482,Dreadnought Gundam,50-01-1-01,234,1,,3,2,3,20,291,291,2300,291,889,0,0,,"Long-Shooter Job, Shooting DMG taken reduced by 20",,,Dreadnought Chips (Weekly Event)
+1483,Dreadnought Gundam,50-01-2-01,234,2,,3,2,3,20,1142,291,291,558,1142,0,428,,"When Armor is 80% or less, EX Skill DMG output boosted by 20",,,Dreadnought Chips (Weekly Event)
+1484,Dreadnought Gundam,50-01-3-01,234,3,,3,2,3,20,889,558,291,291,1142,126,302,,"With Technique attribute (self), Enemy Sp. Shot power reduced 25%",,,Dreadnought Chips (Weekly Event)
+1485,Dreadnought Gundam,50-01-4-01,234,4,,3,2,3,7,558,291,291,558,1142,428,302,496,,,,Dreadnought Chips (Weekly Event)
+1486,Dreadnought Gundam,50-01-5-01,234,5,,3,2,3,7,558,291,291,558,1142,302,428,497,,,,Dreadnought Chips (Weekly Event)
+1487,Beam Rifle [Dreadnought],50-01-7a-01,234,7,,3,2,3,7,291,0,2867,0,0,126,302,,"Long-Shooter Job, Enemy EX Skill power reduced 25%",1,8,Dreadnought Chips (Weekly Event)
+1488,Composite Armed Shield System [Dreadnought],50-01-8-01,234,8,,3,2,3,20,558,0,0,558,1701,0,716,498,,,,Dreadnought Chips (Weekly Event)
