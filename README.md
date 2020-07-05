@@ -1,3 +1,5 @@
+![Build and Deploy](https://github.com/anthonychwong/gbgwcalculator/workflows/Build%20and%20Deploy/badge.svg)
+
 # GBGW Calculator
 
 ## About
