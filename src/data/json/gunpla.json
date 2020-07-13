@@ -6734,7 +6734,7 @@
     "wt": ["Heavy Armor", "Zeon"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Shooting DMG output boosted 10%"
+      "name": "With Bazooka Category equipped, Shooting DMG output boosted by 10"
     },
     "name": "Giant Bazooka [Dreissen]",
     "type": "Physical",
@@ -21310,7 +21310,7 @@
     "wt": ["Transformer", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Transformer\", Shooting DMG output boosted by 20%"
+      "name": "While \"Transformer\", Shooting DMG output boosted by 20"
     }
   }]
 }, {
