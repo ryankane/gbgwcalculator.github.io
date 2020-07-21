@@ -1,0 +1,147 @@
+{
+  "events": [
+    {
+      "type": "Weekly Event",
+      "images": [
+        {
+          "id": "WeeklyEvent",
+          "text": "The Cardinal Gale",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200715/156/news_156_en.png"
+        }
+      ],
+      "info": [
+        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Premium Materials Campaign",
+      "images": [
+        {
+          "id": "PremiumLogin",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200715/152/news_152_en.png"
+        }
+      ],
+      "info": [
+        "[Part 4] 7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Arena",
+      "images": [
+        {
+          "id": "Arena",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200518/86/news_86_en.png"
+        }
+      ],
+      "info": [
+        "7/12/2020 8:00 PM (PDT) – 7/19 1:00 PM (PDT)",
+        "In accordance with the implementation of the Ver2.0 Update in the upcoming days, Arenas will be temporarily suspended after 7/19 (PDT)."
+      ]
+    }
+  ],
+  "capsules": [
+    {
+      "type": "Special",
+      "images": [
+        {
+          "id": "HyperBattleFestival",
+          "text": "Hyper Gundam Battle Festival",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200717/221/gacha_221_en.png"
+        }
+      ],
+      "info": [
+        "Gundam Barbatos Lupus (4★)",
+        "Gundam Vidar (4★)",
+        "00 Raiser (4★)",
+        "Gundam Double X (4★)",
+        "Gundam AGE-FX (4★)",
+        "Astray Blue Frame 2nd Revise (4★)",
+        "Gundam Flauros [Ryusei-Go] (4★)",
+        "Gundam Gusion Rebake Fullcity (4★)",
+        "7/16/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Weekly",
+      "images": [
+        {
+          "id": "WeeklyBannerA",
+          "text": "Star Build Strike Gundam",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/171/gacha_171_en.png"
+        },
+        {
+          "id": "WeeklyBannerB",
+          "text": "Gundam Exia Dark Matter",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/172/gacha_172_en.png"
+        }
+      ],
+      "info": [
+        "Star Build Strike Gundam (4★)",
+        "Gundam Exia Dark Matter (4★)",
+        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "AI Pilots Pick-Up Capsules",
+      "images": [
+        {
+          "id": "AiPickup",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/173/gacha_173_en.png"
+        }
+      ],
+      "info": [
+        "Anavel Gato [Military Uniform Ver.] (4★)",
+        "Hugues Courand (3★)",
+        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Standard Pick-Up Capsule",
+      "images": [
+        {
+          "id": "StandardPickup",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200720/123/gacha_123_en.png"
+        }
+      ],
+      "info": [
+        "Gundam GP02A [Physalis] (4★)",
+        "Aile Strike Gundam (4★)",
+        "7/19/2020 8:00 PM (PDT) – 7/26 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Sanakapool",
+      "images": [
+        {
+          "id": "Sanakapool",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20191009/0000045/gacha_0000045_en.png"
+        }
+      ],
+      "info": [
+        "Sanakapool (3★)",
+        "7/14/2020 8:00 PM (PDT) – 7/28 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Daily",
+      "notice": "Standard Capsule *free* pulls all reset at 1PM PDT each day.",
+      "images": [
+        {
+          "id": "StandardGunplaParts",
+          "text": "Standard Gunpla Parts Capsule",
+          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000042/gacha_0000042_en.png"
+        },
+        {
+          "id": "AIStandard",
+          "text": "Standard AI Pilots Capsule",
+          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000043/gacha_0000043_en.png"
+        },
+        {
+          "id": "FriendCapsule",
+          "text": "Friend Points Capsule",
+          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000044/gacha_0000044_en.png"
+        }
+      ]
+    }
+  ]
+}
