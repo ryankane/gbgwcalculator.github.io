@@ -5,12 +5,12 @@
       "images": [
         {
           "id": "WeeklyEvent",
-          "text": "The Cardinal Gale",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200715/156/news_156_en.png"
+          "text": "The Man from Jupiter's Transformer - 1st Anniversary Event",
+          "url": "<UPDATE URL>"
         }
       ],
       "info": [
-        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+        "7/21/2020 8:00 PM (PDT) – 7/28 8:00 PM (PDT)"
       ]
     },
     {
@@ -44,41 +44,34 @@
       "type": "Special",
       "images": [
         {
-          "id": "HyperBattleFestival",
-          "text": "Hyper Gundam Battle Festival",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200717/221/gacha_221_en.png"
+          "id": "",
+          "text": "",
+          "url": ""
         }
       ],
       "info": [
-        "Gundam Barbatos Lupus (4★)",
-        "Gundam Vidar (4★)",
-        "00 Raiser (4★)",
-        "Gundam Double X (4★)",
-        "Gundam AGE-FX (4★)",
-        "Astray Blue Frame 2nd Revise (4★)",
-        "Gundam Flauros [Ryusei-Go] (4★)",
-        "Gundam Gusion Rebake Fullcity (4★)",
-        "7/16/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
-      ]
+
+      ],
+      "hidden": true
     },
     {
       "type": "Weekly",
       "images": [
         {
           "id": "WeeklyBannerA",
-          "text": "Star Build Strike Gundam",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/171/gacha_171_en.png"
+          "text": "Gundam Delta Kai",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/174/gacha_174_en.png"
         },
         {
           "id": "WeeklyBannerB",
-          "text": "Gundam Exia Dark Matter",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/172/gacha_172_en.png"
+          "text": "Wing Gundam - Endless Waltz Ver.",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/199/gacha_199_en.png"
         }
       ],
       "info": [
-        "Star Build Strike Gundam (4★)",
-        "Gundam Exia Dark Matter (4★)",
-        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+        "Gundam Delta Kai (5★)",
+        "Wing Gundam [Endless Waltz Ver.] (5★)",
+        "7/21/2020 8:00 PM (PDT) – 7/28 8:00 PM (PDT)"
       ]
     },
     {
@@ -86,13 +79,13 @@
       "images": [
         {
           "id": "AiPickup",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200715/173/gacha_173_en.png"
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/175/gacha_175_en.png"
         }
       ],
       "info": [
-        "Anavel Gato [Military Uniform Ver.] (4★)",
-        "Hugues Courand (3★)",
-        "7/14/2020 8:00 PM (PDT) – 7/21 8:00 PM (PDT)"
+        "Trowa Barton [Endless Waltz Ver.] (4★)",
+        "Monique Cadillac (3★)",
+        "7/21/2020 8:00 PM (PDT) – 7/28 8:00 PM (PDT)"
       ]
     },
     {
@@ -129,17 +122,17 @@
         {
           "id": "StandardGunplaParts",
           "text": "Standard Gunpla Parts Capsule",
-          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000042/gacha_0000042_en.png"
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000123/gacha_0000123_en.png"
         },
         {
           "id": "AIStandard",
           "text": "Standard AI Pilots Capsule",
-          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000043/gacha_0000043_en.png"
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000127/gacha_0000127_en.png"
         },
         {
           "id": "FriendCapsule",
           "text": "Friend Points Capsule",
-          "url": "https://gb-sp-web.gb-sp.channel.or.jp/gacha/20191016/0000044/gacha_0000044_en.png"
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000124/gacha_0000124_en.png"
         }
       ]
     }
