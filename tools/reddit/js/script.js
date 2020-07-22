@@ -95,14 +95,20 @@ const generateStyleSubSection = (section, image) => {
 /* Sidebar Image - ${image.text || section.type} */
 .side a[href="${image.url}"] {
   display: inline-block;
-  height: 120px; width: 100%;
-  background: url(%%${image.id}%%) no-repeat;
-  background-size: contain;
+  width: 100%;
+  height: ${calculateImageHeight(image, 300)}px;
+  background-image: url(%%${image.id}%%);
+  background-repeat: no-repeat;
+  background-size: contain !important;
   color: transparent;
 }
 a[href="${image.url}"] { background-position: 0 0px; }
 
   `.trim();
+};
+
+const calculateImageHeight = (image, width) => {
+  return Math.floor((width * image.dimensions.height) / image.dimensions.width);
 };
 
 const generateStyleBanner = (title) => `
