@@ -1,0 +1,205 @@
+{
+  "events": [
+    {
+      "type": "Weekly Event",
+      "images": [
+        {
+          "id": "Weekly-Event-20200722",
+          "text": "The Man from Jupiter's Transformer - 1st Anniversary Event",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200722/157/news_157_en.png",
+          "dimensions": {
+            "width": 640,
+            "height": 573
+          }
+        }
+      ],
+      "info": [
+        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Multi-Mission",
+      "images": [
+        {
+          "id": "Multi-Mission-20200722",
+          "text": "Dawn of Mass Production",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/mission/20200722/event/event_146_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 279
+          }
+        }
+      ],
+      "info": [
+        "7/21/2020 8:00 PM – 8/04 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Premium Materials Campaign",
+      "images": [
+        {
+          "id": "Premium-Login-20200722",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200722/197/news_197_en.png",
+          "dimensions": {
+            "width": 640,
+            "height": 766
+          }
+        }
+      ],
+      "info": [
+        "7/21/2020 8:00 PM – 8/18 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Arena",
+      "images": [
+        {
+          "id": "Arena-20200518",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200518/86/news_86_en.png",
+          "dimensions": {
+            "width": 647,
+            "height": 504
+          }
+        }
+      ],
+      "info": [
+        "7/12/2020 8:00 PM – 7/19 1:00 PM (PDT)",
+        "In accordance with the implementation of the Ver2.0 Update in the upcoming days, Arenas will be temporarily suspended after 7/19 (PDT)."
+      ]
+    }
+  ],
+  "capsules": [
+    {
+      "type": "Special",
+      "images": [
+        {
+          "id": "",
+          "text": "",
+          "url": "",
+          "dimensions": {
+            "width": 0,
+            "height": 0
+          }
+        }
+      ],
+      "info": [
+
+      ],
+      "hidden": true
+    },
+    {
+      "type": "Weekly",
+      "images": [
+        {
+          "id": "Weekly-Banner-A-20200722",
+          "text": "Gundam Delta Kai",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/174/gacha_174_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        },
+        {
+          "id": "Weekly-Banner-B-20200722",
+          "text": "Wing Gundam EW",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/199/gacha_199_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        }
+      ],
+      "info": [
+        "Gundam Delta Kai (5★)",
+        "Wing Gundam [Endless Waltz Ver.] (5★)",
+        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "AI Pilots Pick-Up Capsules",
+      "images": [
+        {
+          "id": "Ai-Pickup-200722",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/175/gacha_175_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        }
+      ],
+      "info": [
+        "Trowa Barton [Endless Waltz Ver.] (4★)",
+        "Monique Cadillac (3★)",
+        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Standard Pick-Up Capsule",
+      "images": [
+        {
+          "id": "Standard-Pickup-20200720",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200720/123/gacha_123_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        }
+      ],
+      "info": [
+        "Gundam GP02A [Physalis] (4★)",
+        "Aile Strike Gundam (4★)",
+        "7/19/2020 8:00 PM – 7/26 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Sanakapool",
+      "images": [
+        {
+          "id": "Sanakapool-20191009",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20191009/0000045/gacha_0000045_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        }
+      ],
+      "info": [
+        "Sanakapool (3★)",
+        "7/14/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+      ]
+    },
+    {
+      "type": "Daily",
+      "notice": "Standard Capsule *free* pulls all reset at 1PM PDT each day.",
+      "images": [
+        {
+          "id": "Standard-Gunpla-Parts-20200115",
+          "text": "Standard Gunpla Parts Capsule",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000123/gacha_0000123_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        },
+        {
+          "id": "Standard-AI-Pilots-20200115",
+          "text": "Standard AI Pilots Capsule",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000127/gacha_0000127_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        },
+        {
+          "id": "Friend-Points-20200115",
+          "text": "Friend Points Capsule",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200115/0000124/gacha_0000124_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1043,6 +1043,133 @@
     "name": "Type 71 Experimental Defensive Shield"
   }]
 }, {
+  "name": "Altron Gundam [Endless Waltz Ver.]",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1181,
+    "ma": 796,
+    "sa": 796,
+    "md": 384,
+    "sd": 1602,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D-",
+        "Pow": "D",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1602,
+    "ma": 796,
+    "sa": 796,
+    "md": 0,
+    "sd": 1602,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Self-Destruct",
+      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 0,
+    "ma": 3177,
+    "sa": 384,
+    "md": 384,
+    "sd": 796,
+    "br": 0,
+    "pr": 611,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dragon Fang",
+      "description": "Unleash a burst of flame at enemies ahead of you from your dragon-shaped arm.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 796,
+    "ma": 796,
+    "sa": 384,
+    "md": 796,
+    "sd": 1181,
+    "br": 213,
+    "pr": 611,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Enemy Melee power reduced 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 796,
+    "ma": 796,
+    "sa": 384,
+    "md": 796,
+    "sd": 1181,
+    "br": 417,
+    "pr": 611,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 384,
+    "ma": 2783,
+    "sa": 0,
+    "md": 0,
+    "sd": 796,
+    "br": 213,
+    "pr": 417,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Twin Blade Attack",
+      "description": "Unleash a barrage of attacks with your twin blades.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "B-",
+        "Cd": [21, 3]
+      }
+    },
+    "name": "Twin Beam Trident",
+    "type": "Beam",
+    "category": "Twin Blade"
+  }]
+}, {
   "name": "Arche Gundam",
   "attribute": "Power",
   "rarity": 3,
@@ -4776,6 +4903,167 @@
     "name": "ABC Cloak"
   }]
 }, {
+  "name": "Crossbone Gundam X1 Kai Kai",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1180,
+    "ma": 383,
+    "sa": 796,
+    "md": 1180,
+    "sd": 796,
+    "br": 417,
+    "pr": 212,
+    "wt": ["High Mobility", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1976,
+    "ma": 796,
+    "sa": 383,
+    "md": 796,
+    "sd": 796,
+    "br": 610,
+    "pr": 0,
+    "wt": ["High Mobility", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Saber Shear",
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "B-",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 796,
+    "ma": 2781,
+    "sa": 0,
+    "md": 1180,
+    "sd": 1180,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Mobility", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Brand Marker",
+      "description": "Unleash a barrage of attacks with two beam sabers extending from your brass knuckles.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 1180,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 796,
+    "br": 610,
+    "pr": 417,
+    "wt": ["High Mobility", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Skull Heart Shot",
+      "description": "Launch a combo attack using the daggers in your soles against an enemy restrained by your scissor anchors. Squad recovers 48% of maximum Armor.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A+",
+        "Cd": [79, 40]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 1180,
+    "ma": 383,
+    "sa": 383,
+    "md": 1180,
+    "sd": 796,
+    "br": 610,
+    "pr": 417,
+    "wt": ["High Mobility", "Protag."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 1180,
+    "ma": 3577,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 417,
+    "pr": 212,
+    "wt": ["High Mobility", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "In-Fighter Job, Melee DMG output boosted by 35"
+    },
+    "name": "Screw Whip",
+    "type": "Physical",
+    "category": "Whip"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 1180,
+    "ma": 0,
+    "sa": 2378,
+    "md": 0,
+    "sd": 0,
+    "br": 610,
+    "pr": 212,
+    "wt": ["High Mobility", "Protag."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Peacock Smasher",
+      "description": "Fire eight beams, splayed out like the feathers of a peacock, from your rifle.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [60, 15]
+      }
+    },
+    "name": "Peacock Smasher",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 1180,
+    "ma": 0,
+    "sa": 0,
+    "md": 1601,
+    "sd": 796,
+    "br": 805,
+    "pr": 212,
+    "wt": ["High Mobility", "Protag."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more, Enemy Shooting power reduced 30%"
+    },
+    "name": "ABC Cloak [X-1 Kai Kai]"
+  }]
+}, {
   "name": "Crossbone Gundam X2",
   "attribute": "Power",
   "rarity": 4,
@@ -6446,7 +6734,7 @@
     "wt": ["Heavy Armor", "Zeon"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Shooting DMG output boosted 10%"
+      "name": "With Bazooka Category equipped, Shooting DMG output boosted by 10"
     },
     "name": "Giant Bazooka [Dreissen]",
     "type": "Physical",
@@ -7626,7 +7914,7 @@
       "type": "EX Skill",
       "name": "Shield Bash",
       "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
-      "category": "Physical Melee",
+      "category": "Beam Melee",
       "stats": {
         "Prc": "D",
         "Pow": "B+",
@@ -8114,6 +8402,116 @@
       }
     },
     "name": "Mobile Shield [Gaia]"
+  }]
+}, {
+  "name": "Gaplant TR-5 [Hrairoo]",
+  "attribute": "Power",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 1701,
+    "md": 291,
+    "sd": 291,
+    "br": 302,
+    "pr": 126,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting DMG output boosted by 20"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1433,
+    "ma": 291,
+    "sa": 558,
+    "md": 558,
+    "sd": 558,
+    "br": 428,
+    "pr": 0,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Vernier Consumption=0 for 10 sec."
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1701,
+    "ma": 558,
+    "sa": 558,
+    "md": 1433,
+    "sd": 1992,
+    "br": 590,
+    "pr": 126,
+    "wt": ["Transformer", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Cannon",
+      "description": "Fire beams from your arm beam cannons and the long blade on your shoulder unit.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B-",
+        "Cd": [21, 6]
+      }
+    },
+    "combo": {
+      "type": "shield",
+      "name": "Movable Shield Binder [Hrairoo]"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Transformer", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Mid-Range\", Sp. Shot power boosted 25%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 889,
+    "ma": 291,
+    "sa": 291,
+    "md": 558,
+    "sd": 889,
+    "br": 428,
+    "pr": 302,
+    "wt": ["Transformer", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Vernier recovery rate boosted 16%"
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 889,
+    "ma": 0,
+    "sa": 2300,
+    "md": 0,
+    "sd": 0,
+    "br": 428,
+    "pr": 126,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shooting DMG output boosted by 20"
+    },
+    "name": "Long Blade Rifle",
+    "type": "Beam",
+    "category": "Long Rifle"
   }]
 }, {
   "name": "Geara Doga",
@@ -11981,7 +12379,7 @@
     },
     "name": "Rifle [Astaroth]",
     "type": "Physical",
-    "category": "Rifle"
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Gundam Bael",
@@ -13361,6 +13759,161 @@
         "Cd": [60, 12]
       }
     }
+  }]
+}, {
+  "name": "Gundam Exia Dark Matter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1356,
+    "ma": 553,
+    "sa": 966,
+    "md": 1356,
+    "sd": 553,
+    "br": 284,
+    "pr": 465,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When buffed, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1734,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 0,
+    "pr": 673,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Dual Sabers category equipped, Buff EX Skill effect up 22%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 553,
+    "ma": 3312,
+    "sa": 553,
+    "md": 1734,
+    "sd": 553,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Arm-Mounted GN Vulcan",
+      "description": "Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 673,
+    "pr": 465,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Brinicle & Prominence",
+      "description": "Modify Plavsky Particles to wield fire in your right hand and ice in your left, and attack. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 8]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 966,
+    "ma": 553,
+    "sa": 553,
+    "md": 1734,
+    "sd": 966,
+    "br": 465,
+    "pr": 673,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Dark Matter Blades",
+      "description": "Attach Dark Matter Booster wings yo your arms and carve up enemies with your keen blades. Raise your Melee Attack by 24%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "B-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 553,
+    "ma": 4110,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 284,
+    "pr": 465,
+    "wt": ["Close Combat", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 1 enemies shot down, Enemy EX Skill power reduced 30%"
+    },
+    "name": "Prominence Blade/ Brinicle Blade",
+    "type": "Physical",
+    "category": "Dual Sabers"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 1356,
+    "ma": 0,
+    "sa": 3312,
+    "md": 0,
+    "sd": 0,
+    "br": 465,
+    "pr": 673,
+    "wt": ["Close Combat", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "After 20s pass, Reduce Cooldown by 50% once."
+    },
+    "name": "Dark Matter Rifle",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 966,
+    "ma": 0,
+    "sa": 0,
+    "md": 2523,
+    "sd": 966,
+    "br": 0,
+    "pr": 1082,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “For Space”, EX Skill DMG output boosted 35"
+    },
+    "name": "GN Shield [Exia Dark Matter]"
   }]
 }, {
   "name": "Gundam Ez8",
@@ -20656,7 +21209,7 @@
     },
     "name": "105mm Rifle",
     "type": "Physical",
-    "category": "Rifle"
+    "category": "Machine Gun"
   }]
 }, {
   "name": "Lightning Gundam",
@@ -20912,7 +21465,7 @@
     "wt": ["Transformer", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "While \"Transformer\", Shooting DMG output boosted by 20%"
+      "name": "While \"Transformer\", Shooting DMG output boosted by 20"
     }
   }]
 }, {
@@ -23856,6 +24409,153 @@
     }
   }]
 }, {
+  "name": "Saviour Gundam",
+  "attribute": "Speed",
+  "rarity": 3,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 558,
+    "ma": 292,
+    "sa": 1993,
+    "md": 292,
+    "sd": 292,
+    "br": 127,
+    "pr": 302,
+    "wt": ["Transformer", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Middle-Shooter Job, Shooting DMG taken reduced 20"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1144,
+    "ma": 558,
+    "sa": 558,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 430,
+    "wt": ["Transformer", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor ≥ 60%, EX Skill CD reduced 15%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 558,
+    "ma": 1993,
+    "sa": 891,
+    "md": 292,
+    "sd": 292,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Transformer", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Saber Shear",
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 558,
+    "ma": 558,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 430,
+    "pr": 302,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Transformer”, Close Shot Attack raised 14%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 558,
+    "ma": 558,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 302,
+    "pr": 430,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "M106 Amfortas Plasma Beam Cannon",
+      "description": "Attack enemies ahead by firing highly compressed plasma energy from your Plasma Beam Cannon.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 292,
+    "ma": 2593,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 302,
+    "pr": 430,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Enemy Melee power reduced 25%"
+    },
+    "name": "Vajra Beam Saber [Saviour]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 292,
+    "ma": 0,
+    "sa": 2593,
+    "md": 0,
+    "sd": 0,
+    "br": 127,
+    "pr": 302,
+    "wt": ["Transformer", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon, magazine boosted 20%"
+    },
+    "name": "High-Energy Beam Rifle [Saviour]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 558,
+    "ma": 558,
+    "sa": 292,
+    "md": 558,
+    "sd": 558,
+    "br": 0,
+    "pr": 718,
+    "wt": ["Transformer", "Commander"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Rifle category equipped, Sp. Shot CRIT rate boosted 17%"
+    },
+    "name": "MMI-RD11 Aerodynamic Shield"
+  }]
+}, {
   "name": "Sazabi",
   "attribute": "Technique",
   "rarity": 4,
@@ -24907,6 +25607,173 @@
       "type": "Part Traits",
       "name": "In-Fighter Job, 33% chance to not recoil"
     }
+  }]
+}, {
+  "name": "Star Build Strike Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 1,
+    "a": 1236,
+    "ma": 379,
+    "sa": 3310,
+    "md": 0,
+    "sd": 379,
+    "br": 464,
+    "pr": 208,
+    "wt": ["Protag.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Mid-Range”, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 1,
+    "a": 1733,
+    "ma": 789,
+    "sa": 1098,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 0,
+    "wt": ["Protag.", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 1,
+    "a": 965,
+    "ma": 2836,
+    "sa": 1423,
+    "md": 552,
+    "sd": 552,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "RG Double Build Knuckles",
+      "description": "Gather power from the RG System into your fist to hammer enemies with powerful punches.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 1,
+    "a": 965,
+    "ma": 789,
+    "sa": 720,
+    "md": 965,
+    "sd": 965,
+    "br": 464,
+    "pr": 673,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Star Funnels",
+      "description": "Form Discharge System particle bits and attack with your Plavsky-Power-Gate-bypassing saber.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 1,
+    "a": 965,
+    "ma": 789,
+    "sa": 720,
+    "md": 965,
+    "sd": 965,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Star Beam Cannon",
+      "description": "Fire at enemies using the dual beam cannons stowed on your waist. Raise your speed by 20%.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 1,
+    "a": 552,
+    "ma": 3689,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 673,
+    "pr": 464,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "After 20s pass, Reduce Cooldown by 50% once."
+    },
+    "name": "Beam Saber [Star Build Strike]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 1,
+    "a": 720,
+    "ma": 0,
+    "sa": 3689,
+    "md": 0,
+    "sd": 0,
+    "br": 464,
+    "pr": 283,
+    "wt": ["Protag.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Discharge System [Rifle Mode]",
+      "description": "Fill your rifle with Plavsky Particles and fire a powerful, Plavsky-Power-Gate-bypassing beam.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    },
+    "name": "Star Beam Rifle",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 1,
+    "a": 965,
+    "ma": 965,
+    "sa": 552,
+    "md": 379,
+    "sd": 965,
+    "br": 1471,
+    "pr": 0,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Absorb Shield",
+      "description": "Deploy your shield to temporarily mitigate damage from beam attacks. Raise your Beam Resist by 100%. Your Gunpla resists flinching for a set period of time.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 1,
+        "Cd": [41, 9]
+      }
+    },
+    "name": "Absorb Shield"
   }]
 }, {
   "name": "Stargazer Gundam",
@@ -27490,12 +28357,12 @@
     "ex": {
       "type": "EX Skill",
       "name": "Shield Bash",
-      "description": "Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+      "description": "Unleash attacks with the beam saber in your shield. Raise your Melee Attack by 19%.",
       "category": "Physical Melee",
       "stats": {
         "Prc": "D",
         "Pow": "B+",
-        "Cd": [21, 3]
+        "Cd": [21, 6]
       }
     },
     "name": "Shield [Wing]"

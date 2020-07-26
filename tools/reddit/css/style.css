@@ -1,0 +1,48 @@
+:root {
+  --background: #111;
+  --color: #FFF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+div, textarea {
+  background: var(--background);
+  color: var(--color);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  width: 100%;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  flex: 1;
+}
+
+.heading {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 0.25em 1em;
+  text-align: center;
+}
+
+.content {
+  padding: 1em 1em;
+  flex: 1;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+}

@@ -134,6 +134,7 @@ const applyPilot = (part, resultCache) => {
     'AI Priority': findByName(AiPriorityIndex, part['AI Type 2']),
     'Capsule': null,
     'Exchange': null,
+    'Other': null,
     'Release Date': currWeek,
     'Link': null
   });

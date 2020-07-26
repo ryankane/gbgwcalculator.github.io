@@ -225,11 +225,17 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 224,RX-79BD-2,Blue Destiny Unit-2,,4,2,ブルーディスティニー2号機,3,2,2,,Event,,,FALSE,2020-06-10,Scarlet Shoulder Coins (Weekly Event),Dengeki
 225,ASW-G-64,Gundam Flauros,Ryusei-Go,28,11,ガンダム・フラウロス,4,3,1,Gundam Battle Festival,,,,TRUE,2020-06-17,Haro Chip Capsule (Gundam Battle Festival),Dengeki
 226,ASW-G-11,Gundam Gusion Rebake Fullcity,,28,12,ガンダム・グシオンリベイクフルシティ,4,2,1,Gundam Battle Festival,,,,TRUE,2020-06-17,Haro Chip Capsule (Gundam Battle Festival),Dengeki
-227,ASW-G-66,Gundam Kimaris,,28,2,ガンダム・キマリス,4,2,1,,,,,FALSE,2020-06-17,Iron-Blooded Step-Up Capsules,Dengeki
+227,ASW-G-66,Gundam Kimaris,,28,2,ガンダム・キマリス,4,2,1,Standard,,,,FALSE,2020-06-17,Iron-Blooded Step-Up Capsules,Dengeki
 228,AMX-011S,Zaku III Custom,,10,4,ザクIII改,3,1,2,,Event,,,FALSE,2020-06-17,Knight Coins (Weekly Event),Dengeki
-229,RX-124,Gundam TR-6,Wondwart,40,3,ガンダムTR-6［ウーンドウォート］,4,2,1,,,,,FALSE,2020-06-24,Haro Chip Capsule & [No. 022] Bonus Coins,Dengeki
-230,XXXG-01H,Gundam Heavyarms,Endless Waltz Ver.,18,8,ガンダムヘビーアームズ［Endless Waltz版］,4,3,1,,,,,FALSE,2020-06-24,Haro Chip Capsule & [No. 022] Bonus Coins,Dengeki
+229,RX-124,Gundam TR-6,Wondwart,40,3,ガンダムTR-6［ウーンドウォート］,4,2,1,Standard,,,,FALSE,2020-06-24,Haro Chip Capsule & [No. 022] Bonus Coins,Dengeki
+230,XXXG-01H,Gundam Heavyarms,Endless Waltz Ver.,18,8,ガンダムヘビーアームズ［Endless Waltz版］,4,3,1,Standard,,,,FALSE,2020-06-24,Haro Chip Capsule & [No. 022] Bonus Coins,Dengeki
 231,KUMA-03,Beargguy III,,32,5,ベアッガイⅢ,3,2,2,,Event,,,FALSE,2020-06-24,Beargguy Device A (Weekly Event),Dengeki
 232,GF13-017NJII,Burning Gundam,,16,9,ゴッドガンダム,4,1,1,Sokai Festival,,,,TRUE,2020-06-29,Haro Chip Capsule (Sokai Festival),Dengeki
 233,NK-13J,Denial Gundam,,34,4,ディナイアルガンダム,4,2,1,Sokai Festival,,,,TRUE,2020-06-29,Haro Chip Capsule (Sokai Festival),Dengeki
 234,YMF-X000A,Dreadnought Gundam,,50,1,ドレッドノートガンダム,3,2,2,,Event,,,FALSE,2020-07-01,Dreadnought Chips (Weekly Event),Dengeki
+235,XM-X1,Crossbone Gundam X1 Kai Kai,,14,,クロスボーン・ガンダムX1改・改,4,1,1,Standard,,,,FALSE,2020-07-08,Haro Chip Capsule & [No. 023] Bonus Coins,Dengeki
+236,XXXG-01S2,Altron Gundam,Endless Waltz Ver.,18,10,アルトロンガンダム［Endless Waltz版］,4,3,1,Standard,,,,FALSE,2020-07-08,Haro Chip Capsule & [No. 023] Bonus Coins,Dengeki
+237,ORX-005,Gaplant TR-5,Hrairoo,40,2,ギャプランTR-5［フライルー］,3,1,2,,Event,,,FALSE,2020-07-08,Zone Coins (Weekly Event),Dengeki
+238,GAT-X105B/ST,Star Build Strike Gundam,,32,7,スタービルドストライクガンダム	,4,1,1,Gundam Battle Festival,,,,TRUE,2020-07-15,Haro Chip Capsule (Gundam Battle Festival),Dengeki
+239,PPGN-001,Gundam Exia Dark Matter,,32,6,ガンダムエクシアダークマター,4,3,1,Gundam Battle Festival,,,,TRUE,2020-07-15,Haro Chip Capsule (Gundam Battle Festival),Dengeki
+240,ZGMF-X23S,Saviour Gundam,,22,8,セイバーガンダム,3,3,2,,Event,,,FALSE,2020-07-15,Cardinal Coins (Weekly Event),Dengeki

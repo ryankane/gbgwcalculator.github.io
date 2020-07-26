@@ -135,6 +135,23 @@
     "name": "With Power attribute (self), All DMG output boosted by 35"
   }
 }, {
+  "name": "Anavel Gato [Military Uniform ver.]",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "a": 796,
+  "ma": 1602,
+  "sa": 384,
+  "md": 796,
+  "sd": 796,
+  "br": 213,
+  "pr": 417,
+  "wt": ["Commander", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When buffed, EX Skill CD reduced 20%"
+  }
+}, {
   "name": "Andrew Waltfeld",
   "jl": "Middle-Shooter",
   "attribute": "Power",
@@ -662,6 +679,23 @@
     "name": "With Power attribute (self), Buff EX Skill time up 15%"
   }
 }, {
+  "name": "Fuala Griffon",
+  "jl": "Long-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 291,
+  "sa": 1142,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 302,
+  "wt": ["Long-Range", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 2 enemies shot down, Boost Job Gauge by 40% once"
+  }
+}, {
   "name": "Full Frontal",
   "jl": "Out-Fighter",
   "attribute": "Power",
@@ -949,6 +983,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Hugues Courand",
+  "jl": "In-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "a": 558,
+  "ma": 558,
+  "sa": 558,
+  "md": 558,
+  "sd": 558,
+  "br": 126,
+  "pr": 428,
+  "wt": ["Federation", "Protag."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When in Multi-Mission Sortie, EX Skill CD reduced 15%"
   }
 }, {
   "name": "Jamil Neate",
@@ -2020,6 +2071,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
+  }
+}, {
+  "name": "Shagia Frost",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "a": 1181,
+  "ma": 384,
+  "sa": 1181,
+  "md": 796,
+  "sd": 796,
+  "br": 213,
+  "pr": 611,
+  "wt": ["Ace Excl.", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Beam, Long Shot Attack raised 20%"
   }
 }, {
   "name": "Shiho Hahnenfuss",
