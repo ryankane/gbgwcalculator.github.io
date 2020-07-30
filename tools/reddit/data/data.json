@@ -4,17 +4,17 @@
       "type": "Weekly Event",
       "images": [
         {
-          "id": "Weekly-Event-20200722",
-          "text": "The Man from Jupiter's Transformer - 1st Anniversary Event",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200722/157/news_157_en.png",
+          "id": "Weekly-Event-20200729",
+          "text": "The Golden Overseer - 1st Anniversary Event",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200729/158/news_158_en.png",
           "dimensions": {
             "width": 640,
-            "height": 573
+            "height": 693
           }
         }
       ],
       "info": [
-        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+        "07/28/2020 8:00 PM – 08/04 8:00 PM (PDT)"
       ]
     },
     {
@@ -31,15 +31,15 @@
         }
       ],
       "info": [
-        "7/21/2020 8:00 PM – 8/04 8:00 PM (PDT)"
+        "07/21/2020 8:00 PM – 08/04 8:00 PM (PDT)"
       ]
     },
     {
       "type": "Premium Materials Campaign",
       "images": [
         {
-          "id": "Premium-Login-20200722",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200722/197/news_197_en.png",
+          "id": "Premium-Login-20200729",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/news/20200729/198/news_198_en.png",
           "dimensions": {
             "width": 640,
             "height": 766
@@ -47,7 +47,7 @@
         }
       ],
       "info": [
-        "7/21/2020 8:00 PM – 8/18 8:00 PM (PDT)"
+        "07/21/2020 8:00 PM – 08/18 8:00 PM (PDT)"
       ]
     },
     {
@@ -63,8 +63,7 @@
         }
       ],
       "info": [
-        "7/12/2020 8:00 PM – 7/19 1:00 PM (PDT)",
-        "In accordance with the implementation of the Ver2.0 Update in the upcoming days, Arenas will be temporarily suspended after 7/19 (PDT)."
+        "05/17/2020 8:00 PM – 08/02 7:00 PM (PDT)"
       ]
     }
   ],
@@ -91,18 +90,27 @@
       "type": "Weekly",
       "images": [
         {
-          "id": "Weekly-Banner-A-20200722",
-          "text": "Gundam Delta Kai",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/174/gacha_174_en.png",
+          "id": "Weekly-Banner-A-20200729",
+          "text": "Gundam Epyon EW",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200729/178/gacha_178_en.png",
           "dimensions": {
             "width": 512,
             "height": 199
           }
         },
         {
-          "id": "Weekly-Banner-B-20200722",
-          "text": "Wing Gundam EW",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/199/gacha_199_en.png",
+          "id": "Weekly-Banner-B-20200729",
+          "text": "V2 Assault Buster Gundam",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200729/233/gacha_233_en.png",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        },
+        {
+          "id": "Weekly-Banner-C-20200729",
+          "text": "Wing Gundam 0 EW",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200729/234/gacha_234_en.png",
           "dimensions": {
             "width": 512,
             "height": 199
@@ -110,17 +118,18 @@
         }
       ],
       "info": [
-        "Gundam Delta Kai (5★)",
-        "Wing Gundam [Endless Waltz Ver.] (5★)",
-        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+        "Gundam Epyon [Endless Waltz Ver.] (5★)",
+        "V2 Assault Buster Gundam (5★)",
+        "Wing Gundam 0 [Endless Waltz Ver.] (5★)",
+        "07/28/2020 8:00 PM – 08/04 8:00 PM (PDT)"
       ]
     },
     {
       "type": "AI Pilots Pick-Up Capsules",
       "images": [
         {
-          "id": "Ai-Pickup-200722",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200722/175/gacha_175_en.png",
+          "id": "Ai-Pickup-200729",
+          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200729/179/gacha_179_en.png",
           "dimensions": {
             "width": 512,
             "height": 199
@@ -128,17 +137,25 @@
         }
       ],
       "info": [
-        "Trowa Barton [Endless Waltz Ver.] (4★)",
-        "Monique Cadillac (3★)",
-        "7/21/2020 8:00 PM – 7/28 8:00 PM (PDT)"
+        "Rain Mikamura (4★)",
+        "South Burning (3★)",
+        "07/28/2020 8:00 PM – 08/04 8:00 PM (PDT)"
       ]
     },
     {
       "type": "Standard Pick-Up Capsule",
       "images": [
         {
-          "id": "Standard-Pickup-20200720",
-          "url": "https://gb-sp-media.gb-sp.channel.or.jp/gacha/20200720/123/gacha_123_en.png",
+          "id": "Standard-Pickup-A-20200727",
+          "url": "https://twitter.com/GundamBattleGW/status/1287651637062823937/photo/1",
+          "dimensions": {
+            "width": 512,
+            "height": 199
+          }
+        },
+        {
+          "id": "Standard-Pickup-B-20200727",
+          "url": "https://twitter.com/GundamBattleGW/status/1287651637062823937/photo/2",
           "dimensions": {
             "width": 512,
             "height": 199
@@ -146,9 +163,9 @@
         }
       ],
       "info": [
-        "Gundam GP02A [Physalis] (4★)",
-        "Aile Strike Gundam (4★)",
-        "7/19/2020 8:00 PM – 7/26 8:00 PM (PDT)"
+        "Gundam Exia (4★)",
+        "Gundam Dynames (4★)",
+        "07/26/2020 8:00 PM – 08/02 8:00 PM (PDT)"
       ]
     },
     {

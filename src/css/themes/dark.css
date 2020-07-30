@@ -28,4 +28,6 @@
   --link-visited-link-color: #4475ff;
   --link-hover-color: #5e91ff;
   --link-active-color: #4475ff;
+  --color-error: #F66;
+  --color-success: #6F6;
 }

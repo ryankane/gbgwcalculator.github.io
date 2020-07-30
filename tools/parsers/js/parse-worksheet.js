@@ -49,7 +49,7 @@ const renderText = (key, data) => {
 
 const parsePart = (part, resultCache) => {
   if (part['Part Type'] === 'Pilot') { applyPilot(part, resultCache); return; }
-  if (part['Part Type'] === 'Head') applyUnit(part, resultCache);
+  if (part['Part Type'] === 'Head' || part['Part Type'] === 'Torso (+ Head)') applyUnit(part, resultCache);
   if (part['EX/TRAIT'] === 'EX') applySkill(part, resultCache);
   applyPart(part, resultCache);
 };
@@ -136,6 +136,7 @@ const applyPilot = (part, resultCache) => {
     'Exchange': null,
     'Other': null,
     'Release Date': currWeek,
+    'Level': 99,
     'Link': null
   });
 }
@@ -167,6 +168,7 @@ const applyUnit = (part, resultCache) => {
     'Other': null,
     'Limited': null,
     'Release Date': currWeek,
+    'Level': 99,
     'Notes': part['Obtained From']
   });
 };

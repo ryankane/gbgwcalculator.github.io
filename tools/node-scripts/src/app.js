@@ -26,31 +26,37 @@ const main = async (argv) => {
   logger.info('main :: argv', {argv: argv});
 
   if (DEBUG) {
-    if (argv.latest === true) {
-      logger.info('main :: Caching manifest...');
-      await cacheManifest(manifestPath)
-          .then(() => {
-            logger.info('cacheManifest :: Manifest were successfully cached.')
-          });
-    }
-    if (!fs.existsSync(dataFile)) {
-      logger.warn('main :: Manifest has not been cached yet!');
-      return 1;
-    }
-    await readData(path.join(__dirname, '..', dataFile))
-        .then(entries => {
-          writeImages(manifestPath, outputDir, entries['ListBucketResult']['Contents'].filter(filterEnglishOnly));
-        });
+    await cacheLegacyImages();
   }
+  await cacheLatestImages();
+  return 0;
+};
 
+const cacheLatestImages = async () => {
   if (DEBUG) {
     request('https://gb-sp-web.gb-sp.channel.or.jp/gb-sp-web/static/en/')
         .pipe(fs.createWriteStream(htmlFile));
   }
 
   await readHtml(path.join(__dirname, '..', htmlFile), outputDir);
+};
 
-  return 0;
+const cacheLegacyImages = async () => {
+  if (argv.latest === true) {
+    logger.info('main :: Caching manifest...');
+    await cacheManifest(manifestPath)
+        .then(() => {
+          logger.info('cacheManifest :: Manifest were successfully cached.')
+        });
+  }
+  if (!fs.existsSync(dataFile)) {
+    logger.warn('main :: Manifest has not been cached yet!');
+    return 1;
+  }
+  await readData(path.join(__dirname, '..', dataFile))
+      .then(entries => {
+        writeImages(manifestPath, outputDir, entries['ListBucketResult']['Contents'].filter(filterEnglishOnly));
+      });
 };
 
 const argv = yargs

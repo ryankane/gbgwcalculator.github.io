@@ -70,7 +70,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 69,Armed Aura α,Your Gunpla resists flinching for a set period of time.,5,,,51,,33,7
 70,Dual Beam Guns,Launch rapid-fire beams from your forearm. You can move while firing.,1,B+,D,,11,60,0
 71,Offense Hack α,Reduce target Melee and Shot Defense by 39%.,7,,,37,,33,7
-72,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
+72,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
 73,Rose Bits,Launch the Rose Bits to strike foes in all directions. You can move freely while this is active.,1,A-,D,,,60,6
 74,Chevalier Saber,Unleash a thrusting attack with the saber at your waist.,4,D,B+,,,30,8
 75,Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,A-,D,,11,60,0
@@ -178,7 +178,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 177,Spinning Rave,"Ready your axe, then spin to attack nearby foes. Lowers hit enemy Gunpla's Shot Attack by 19%.",4,D,B,,,30,8
 178,Homing Missile,Launch homing missiles mounted on both your shoulders.,2,D,B-,,,21,6
 179,Cross Crusher,"With shield, backpack, and shotels equipped onto arms, any enemy grabbed is crushed. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,B+,D,,,21,3
-180,Super Mode,Enter Super Mode for enhanced combat prowess. Raises speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+180,Super Mode,Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
 181,Shining Finger Sword,"Crush foes with your love, your anger, and all of your sorrow. Raise Melee Attack of your Squad by 19%. Raise Melee Defense of your Squad by 24%.",3,B,A,,,79,8
 182,Protection Hack β,Reduce Physical Resist of all enemies by 39%.,7,,,51,,31,7
 183,Block Stance γ,Raise your Melee Defense of your squad by 39%.,5,,,51,,33,7
@@ -261,7 +261,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 260,Bloody Wrench,"Bulldoze attacking enemies with your Wrench Mace, then pulverize them into the ground. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.",4,D,A,,,79,20
 261,Mace Rush,"Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",4,D,C-,,,21,6
 262,Trial System,Activate Trial System and stop all Gunpla movement within vicinity for a fixed period of time.,2,,,,,41,11
-263,Halberd,Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%.,4,D,C-,,,21,6
+263,Halberd,Unleash a barrage of attacks with the halberd in your right hand. Raise your Melee Attack by 24%.,4,D,C-,,,21,6
 264,Four-Arm Combat,Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%.,4,D,A,,,79,20
 265,Halberd Throw,Throw the halberd suspended from your shield at an enemy directly ahead.,4,D,B+,,,21,6
 266,Mega-Beam Cannon (Dendrobium),"Summon the armed base Orchis, which fires a beam from its 90m-long turret.",1,A+,C-,,,79,20
@@ -357,7 +357,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 356,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
 357,Armed Armor,Drag foes with your claw unit and crush them with a torrent of light from your dual beam deflector fins. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
 358,Choukyuu Haou Den'eidan,"Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball.",4,B+,B,,,19,5
-359,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+359,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
 360,Sekiha Tenkyouken,Use Master Asia's final art to fire a huge chi bullet made of power borrowed from nature. Raise Melee Defense of your Squad by 29%. Raise Beam Resist of your Squad by 69%.,3,D,A,,,79,20
 361,Juuni Ouhoupai Daishahei,"Use chi to create multiple small clones, and unleash them upon enemies.",4,D,B+,,,21,6
 362,Jigen Haoh Style Gokui,Draw out your Gunpla's latent power with Plavsky Particles to temporarily increase performance. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,44,,60,12
@@ -490,7 +490,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 489,Micro Missile,Fire micro missiles from pods in your shoulders.,2,D,B+,,,21,6
 490,Homing Missile & Machine Cannon,Spray homing missiles from the launcher pods on your legs.,2,D,B+,,,21,6
 491,Cotton,"Expel the cotton in your body from your mouth, entangling hit enemies for a set period of time",2,D,B+,,,60,15
-492,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+492,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.,6,,,51,,60,12
 493,Sekiha Tenkyo Burning Finger,Create a humongous fist with Sekiha Tenkyoken energy and crush enemies in your grasp. Raise speed of your Squad by 20% Raise Melee Attack of your Squad by 39%.,4,D,A+,,,79,40
 494,Bakunetsu Burning Slash,Concentrate your energy into a Burning Slash and unleash a high-powered three-strike attack.,3,D,A-,,,21,3
 495,Imitation Houou Haoh-Ken,"Copy a Kamiki Gunpla Style technique to make a beast-shaped strike with blazing, violet arms. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",4,D,A,,,79,20
@@ -513,3 +513,27 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 512,Brinicle & Prominence,"Modify Plavsky Particles to wield fire in your right hand and ice in your left, and attack. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",4,D,A,,,79,8
 513,Dark Matter Blades,Attach Dark Matter Booster wings yo your arms and carve up enemies with your keen blades. Raise your Melee Attack by 24%.,4,A-,B-,,,21,6
 514,M106 Amfortas Plasma Beam Cannon,Attack enemies ahead by firing highly compressed plasma energy from your Plasma Beam Cannon.,1,A+,C-,,,60,15
+515,Nitro System,"Activate your psycommu device, which gives even regular soldiers the abilities of Newtypes. Raise your speed by 20%. Raise your Shot Attack by 49%. Reduces your Shot Defense by 30%. Raise your vernier capacity by 25%.",6,,,51,,60,12
+516,Proto Fin Funnels,Launch Proto Fin Funnels in all directions. You can move while this is active.,1,D,C,,,60,15
+517,High Mega Cannon,Fire high-density mega particles at enemies in front of you from the barrel of your shield.,1,A,D,,,60,15
+518,Auto-Repair α,Continuously recover 5% of your maximum Armor at a time.,5,,,30,,33,7
+519,Pressure,"Use the force of your pilot's pressure to bombard enemies, temporarily immobalizing them.",2,,,,,19,1
+520,Grenade Launcher,Attack enemies with the grenade launcher in your arms.,2,D,B,,,21,6
+521,Back Mega Particle Cannon,Fire the mega particle cannon on your back.,1,B+,D,,,60,15
+522,Palma Fiocina Cannon [Rapid-Fire],"Turn both palms forward to bathe foes in rapid-fire, controlled output beams.",1,D,B+,,,21,6
+523,Twin-Phaser Satellite Cannon,Divert the explosive propulsion energy of your back wing unit into dual beam blasts.,1,D,B+,,,79,20
+524,180mm Recoilless Cannon,Fire cannonballs from the cannon mounted on your upper turret.,2,D,C,,,21,6
+525,Ball Tackle,Execute a rush attack using your whole body.,4,D,C,,,21,3
+526,Hyper Jammer,Activate a powerful radio wave jammer to hide your position. Raise your Melee Attack by 29%. You become harder to target for a set period of time.,6,,,51,,60,12
+527,Menace Shot,Jump up high and deliver a brutal flying kick to the enemy. Lowers hit enemy Gunpla's Shot Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,B-,D,,,21,3
+528,Buster Beam,Beathe foes in high-output beams from your chest Beam Cannon.,1,A,D,,,60,15
+529,Zero System,Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Shot Attack by 19%. You become easier to target for a set period of time.,6,,,51,,60,12
+530,Epyon Claw,Execute a rush attack with the claws on your forearms. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.,4,A-,B-,,,21,3
+531,Max Output Beam Sword,Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%.,3,D,A-,,,21,6
+532,Heat Rod,Execute a combo with the heat rod attached to your shield. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.,4,D,B+,,,21,3
+533,V.S.B.R. & Micro Missiles,Attack in waves with the micro missiles and cannon attached to your waist.,1,D,B+,,,21,6
+534,Assault & Buster,"With your wings of light, charge your enemy and fire your spray beam pod and mega beam cannon. Raise Shot Attack of your Squad by 39%.",1,A+,C,,,79,20
+535,MEPE Rush,Release your Gunpla's limiter to unleash a full-power combo. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 29%.,3,D,A,,,79,20
+536,Mega Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,D,B,,11,60,0
+537,V.S.B.R.,Wedge the cannon on your back under your arm to fire projectiles. You can move while firing.,1,D,B+,,7,60,0
+538,Claw Arm [Alvatore],"Merge with the giant golden Mobile Armor, attack with your arm claws, and fire close-range beams.",4,D,B+,,,21,6

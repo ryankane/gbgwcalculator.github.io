@@ -65,7 +65,8 @@ const WeaponCategoryIndex = [
   'Long Rifle',
   'Gatling Gun',
   'Bazooka',
-  'Twin Blade'
+  'Twin Blade',
+  'Twin Rifle'
 ];
 
 const MeleeWeaponTypeLookup = {
@@ -85,6 +86,7 @@ const RangedWeaponTypeLookup = {
   'Long Rifle': '7b',
   'Gatling Gun': '7',
   'Bazooka': '7d',
+  'Twin Rifle': '7'
 };
 
 const WordTagIndex = [

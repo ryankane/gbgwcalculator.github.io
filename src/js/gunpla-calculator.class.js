@@ -66,7 +66,8 @@ class GunplaCalculator {
         Collections.forEach(gunpla => {
           if (gunpla.parts && Array.isArray(gunpla.parts)) {
             const currGunpla = {
-              ms: gunpla.name
+              ms: gunpla.name,
+              level: gunpla.level
             };
             for (let part in gunpla) {
               if (gunpla.hasOwnProperty(part) && part !== 'parts' && part !== 'name') {
@@ -231,6 +232,9 @@ class GunplaCalculator {
     result += this._getDisplayText(part);
     if (part.combo) {
       result += `<span class="combo-plus"><span class="gbgw gbgw-slot-${part.combo.type}"></span></span>`;
+    }
+    if (part.level) {
+      result += `<span class="part-level" data-level="${part.level}">${part.level}</span>`;
     }
     return result;
   }
@@ -830,7 +834,7 @@ class GunplaCalculator {
   }
 
   _calculateMarkCount(part) {
-    return parseInt(part.dataset.mark ? part.dataset.mark : (5 - part.dataset.rarity), 10);
+    return parseInt(part.dataset.mark ? part.dataset.mark : (6 - part.dataset.rarity), 10);
   }
 
   _addMarks() {

@@ -45,6 +45,8 @@
   --link-visited-link-color: #1a3ea5;
   --link-hover-color: #1a42f1;
   --link-active-color: #1a3ea5;
+  --color-error: #F22;
+  --color-success: #0A0;
 }
 
 html, body {
@@ -507,6 +509,28 @@ footer .brands {
   overflow-y: scroll;
 }
 
+.part-list__list .part-level {
+  margin-left: 0.5em;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.part-list__list .part-level:before {
+  content: '[LVL ';
+}
+
+.part-list__list .part-level:after {
+  content: ']';
+}
+
+.part-list__list .part-level[data-level="80"] {
+  color: var(--color-error);
+}
+
+.part-list__list .part-level[data-level="99"] {
+  color: var(--color-success);
+}
+
 .part-list__search {
   border: 1px solid var(--secondary-color);
   border-radius: 5px;
@@ -556,7 +580,7 @@ footer .brands {
   height: 1.33em;
   margin-top: 0.25em;
   padding-bottom: 0.125em;
-  width: 5em;
+  width: 6.33em;
 }
 
 .parts-marks__item {

@@ -1,6 +1,6 @@
 const fs = require('fs');
 const https = require('https');
-const jsdom = require("jsdom");
+const jsdom = require('jsdom');
 const path = require('path');
 const url = require('url');
 const xml2js = require('xml2js');
