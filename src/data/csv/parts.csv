@@ -1062,7 +1062,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1061,Martial Module,,3,6,,1,2,6,14,287,1011,0,0,0,190,54,,"While ""Mobile Fighter"", Melee power boosted 15%",2,3,"Free Missions, Friend Point Capsule, Capital Shop (Added 2020-02-16)"
 1062,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-1-01,169,1,,4,3,13,6,1180,383,796,1180,796,417,212,3,,,,Haro Chip Capsule
 1063,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-2-01,169,2,,4,3,13,6,1976,796,383,796,796,610,0,168,,,,Haro Chip Capsule
-1064,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-3-01,169,3,,4,3,13,9,796,2781,0,1180,1180,0,0,163,,,,Haro Chip Capsule
+1064,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-3-01,169,3,,4,3,13,9,796,2781,0,1180,1180,0,0,526,,,,Haro Chip Capsule
 1065,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-4-01,169,4,,4,3,13,9,1180,383,383,1180,796,610,417,,"With Axe Category equipped, Melee CRIT rate boosted 30%",,,Haro Chip Capsule
 1066,Gundam Deathscythe Hell [Endless Waltz Ver.],18-06-5-01,169,5,,4,3,13,9,1180,383,383,1180,796,610,417,,"In-Fighter Job, EX Skill piercing boosted 28%",,,Haro Chip Capsule
 1067,Beam Scissors,18-06-6b-01,169,6,,4,3,13,6,1180,3577,0,0,0,417,212,164,,1,1,Haro Chip Capsule
@@ -1531,3 +1531,114 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1530,Vajra Beam Saber [Saviour],22-08-6a-01,240,6,,3,3,12,5,292,2593,0,0,0,302,430,,"When 2 enemies shot down, Enemy Melee power reduced 25%",1,2,Cardinal Coins (Weekly Event)
 1531,High-Energy Beam Rifle [Saviour],22-08-7a-01,240,7,,3,3,12,3,292,0,2593,0,0,127,302,,"Beam ranged weapon, magazine boosted 20%",1,8,Cardinal Coins (Weekly Event)
 1532,MMI-RD11 Aerodynamic Shield,22-08-8-01,240,8,,3,3,12,5,558,558,292,558,558,0,718,,"With Rifle category equipped, Sp. Shot CRIT rate boosted 17%",,,Cardinal Coins (Weekly Event)
+1533,Gundam Delta Kai,44-02-1-01,241,1,,5,3,16,3,1044,507,3106,1044,1044,0,551,3,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1534,Gundam Delta Kai,44-02-2-01,241,2,,5,3,16,3,2081,507,507,1534,1534,0,793,515,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1535,Gundam Delta Kai,44-02-3-01,241,3,,5,3,16,12,1044,3106,507,1534,1534,0,0,,"When Armor is 80% or less, Reduce Cooldown by 50% once.",,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1536,Gundam Delta Kai,44-02-4-01,241,4,,5,3,16,12,1044,507,507,1534,1534,551,793,,"With Long Rifle category equipped, Long Shot Attack raised 20%",,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1537,Gundam Delta Kai,44-02-5-01,241,5,,5,3,16,12,1044,507,507,1534,1534,551,793,516,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1538,Long Mega Buster,44-02-7b-01,241,7,,5,3,16,3,1044,0,4132,0,0,279,793,,"When buffed, EX Skill power boosted 30%",1,10,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1539,Shield [Delta Kai],44-02-8-01,241,8,,5,3,16,12,1044,0,0,2081,2081,279,1038,517,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1540,Wing Gundam [Endless Waltz Ver.],18-05-1-01,242,1,,5,1,3,7,1049,509,3629,509,509,281,281,518,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1541,Wing Gundam [Endless Waltz Ver.],18-05-2-01,242,2,,5,1,3,7,2087,1049,1049,1049,1049,382,382,162,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1542,Wing Gundam [Endless Waltz Ver.],18-05-3-01,242,3,,5,1,3,12,1049,3629,1538,509,509,0,0,,"With Power attribute (self), Shot guidance boosted 17%",,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1543,Wing Gundam [Endless Waltz Ver.],18-05-4-01,242,4,,5,1,3,12,1049,1049,509,1049,1049,618,618,,"While “Transformer”, Enemy EX Skill power reduced 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1544,Wing Gundam [Endless Waltz Ver.],18-05-5-01,242,5,,5,1,3,9,1049,1049,509,1049,1049,618,618,,"With Rifle category equipped, Shooting power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1545,Buster Rifle [Wing] [Endless Waltz Ver.],18-05-7a-01,242,7,,5,1,3,7,509,0,4674,0,0,556,556,169,,1,8,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1546,Shield [Wing] [Endless Waltz Ver.],18-05-8-01,242,8,,5,1,3,9,1049,1049,509,1049,1049,618,618,170,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
+1547,Messala,08-10-2-01,243,2,1,3,2,12,9,2066,1545,2422,1735,1248,0,713,519,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
+1548,Messala,08-10-3-01,243,3,,3,2,12,9,1398,2066,1178,1935,2422,152,526,520,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
+1549,Messala,08-10-4-01,243,4,,3,2,12,20,687,355,355,1082,1082,374,526,,"While “Transformer”, Shooting CRIT rate boosted 17%",,,[Part 1] 1st Anniversary Device A (Weekly Event)
+1550,Messala,08-10-5-01,243,5,,3,2,12,20,687,355,355,1082,1082,374,526,521,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
+1551,Beam Saber [Messala],08-10-6a-01,243,6,,3,2,12,20,687,2793,0,0,0,152,526,,"With Technique attribute (self), Melee DMG output boosted by 20",1,2,[Part 1] 1st Anniversary Device A (Weekly Event)
+1552,Gundam Areus,99-09-1-01,244,1,,2,3,1,26,1046,508,3107,508,1535,0,553,,"While “For Computers”, EX Skill power boosted 30%",,,Friend Point Capsule & Capital Shop
+1553,Gundam Areus,99-09-2-01,244,2,,2,3,1,26,2081,508,508,1535,1535,0,794,,"With Speed attribute (self), Enemy EX Skill power reduced 30%",,,Friend Point Capsule & Capital Shop
+1554,Gundam Areus,99-09-3-01,244,3,8,2,3,1,10,2081,3107,508,3616,3616,553,553,522,,,,Friend Point Capsule & Capital Shop
+1555,Gundam Areus,99-09-4-01,244,4,,2,3,1,26,1046,508,508,1535,1535,553,794,,"When Armor is 50% or more, EX Skill CD reduced 20%",,,Friend Point Capsule & Capital Shop
+1556,Gundam Areus,99-09-5-01,244,5,,2,3,1,10,1046,508,508,1535,1535,553,794,523,,,,Friend Point Capsule & Capital Shop
+1557,Arondight [Coupled/Areus],99-09-6-01,244,6,,2,3,1,10,1045,4135,0,0,0,280,794,,26% chance of attacks penetrating super armor,1,13,Friend Point Capsule & Capital Shop
+1558,Beam Rifle [Areus],99-09-7a-01,244,7,,2,3,1,26,1045,0,4135,0,0,280,794,,"With Twin Blade category equipped, EX Skill power boosted 30%",1,8,Friend Point Capsule & Capital Shop
+1559,Ball,01-15-1-01,245,1,,1,1,16,2,0,200,1717,268,483,79,79,524,,,,"Capital Shop, Blueprint"
+1560,Ball,01-15-2-01,245,2,,1,1,16,2,838,332,700,0,634,213,213,525,,,,"Capital Shop, Blueprint"
+1561,Ball,01-15-3-01,245,3,,1,1,16,20,899,332,556,268,483,156,156,,"With Power attribute (self), Sp. Shot power boosted 18%",,,"Capital Shop, Blueprint"
+1562,Ball,01-15-4-01,245,4,,1,1,16,20,483,268,483,483,634,209,209,,"When Armor is 60% or more, Projectile speed boosted 10%",,,"Capital Shop, Blueprint"
+1563,Ball,01-15-5-01,245,5,,1,1,16,20,200,268,483,483,838,255,255,,"While “Federation”, Mid Shot Attack raised 10%",,,"Capital Shop, Blueprint"
+1564,Gundam Gusion Rebake [Beginner Campaign],28-04-1-01,246,1,,1,3,11,21,840,514,1352,1352,1352,429,0,,"When Melee ATK is over 2000, Projectile speed boosted 14%",,,Beginner Coins (Head)
+1565,Gundam Gusion Rebake [Beginner Campaign],28-04-2-01,246,2,,1,3,11,21,1898,514,0,1352,1352,678,0,,"When Armor is 80% or more, Enemy EX Skill power reduced 25%",,,Beginner Coins (Torso)
+1566,Gundam Gusion Rebake [Beginner Campaign],28-04-3-01,246,3,,1,3,11,21,840,1352,514,1352,1352,429,286,,"When attacking with Physical, Melee DMG taken reduced by 20",,,Beginner Coins (Arms)
+1567,Gundam Gusion Rebake [Beginner Campaign],28-04-4-01,246,4,,1,3,11,6,840,514,514,1898,1898,286,429,263,,,,Beginner Coins (Legs)
+1568,Gundam Gusion Rebake [Beginner Campaign],28-04-5-01,246,5,,1,3,11,6,840,514,514,1898,1898,429,286,,"With Speed attribute (self), Vernier recovery rate boosted 16%",,,Beginner Coins (Back)
+1569,Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign],18-06-1-01,247,1,,1,2,13,6,1353,514,840,1353,840,429,286,3,,,,Beginner Coins (Head)
+1570,Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign],18-06-2-01,247,2,,1,2,13,6,2393,840,514,840,840,679,0,168,,,,Beginner Coins (Torso)
+1571,Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign],18-06-3-01,247,3,,1,2,13,9,840,3450,0,1353,1353,0,0,526,,,,Beginner Coins (Arms)
+1572,Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign],18-06-4-01,247,4,,1,2,13,9,1353,514,514,1353,840,679,429,,"With Axe category equipped, EX Skill DMG taken reduced by 20",,,Beginner Coins (Legs)
+1573,Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign],18-06-5-01,247,5,,1,2,13,9,1353,514,514,1353,840,679,429,,"While “Gundam Type”, Melee DMG output boosted by 20",,,Beginner Coins (Back)
+1574,Gundam Barbatos [4th Form / Beginner Campaign],28-01-1-01,248,1,,1,3,1,23,842,515,2398,515,1356,431,287,,When Melee ATK is over 2000 EX Skill DMG output boosted by 20,,,Beginner Coins (Head)
+1575,Gundam Barbatos [4th Form / Beginner Campaign],28-01-2-01,248,2,,1,3,1,23,1356,842,515,842,1902,682,0,32,,,,Beginner Coins (Torso)
+1576,Gundam Barbatos [4th Form / Beginner Campaign],28-01-3-01,248,3,,1,3,1,6,842,3456,515,842,1356,0,0,,"While “Close Combat”, Melee CRIT rate boosted 17%",,,Beginner Coins (Arms)
+1577,Gundam Barbatos [4th Form / Beginner Campaign],28-01-4-01,248,4,,1,3,1,6,842,515,515,515,1356,682,431,527,,,,Beginner Coins (Legs)
+1578,Gundam Barbatos [4th Form / Beginner Campaign],28-01-5-01,248,5,,1,3,1,6,842,515,515,515,1356,682,431,,"When CPWR is over 100000, EX Skill piercing boosted 22%",,,Beginner Coins (Back)
+1579,Gundam Legilis [Beginner Campaign],26-04-1-01,249,1,,1,1,20,7,1353,514,2944,514,514,286,429,,"While “Mid-Range”, Projectile speed boosted 14%",,,Beginner Coins (Head)
+1580,Gundam Legilis [Beginner Campaign],26-04-2-01,249,2,,1,1,20,7,2391,514,840,840,840,0,679,528,,,,Beginner Coins (Torso)
+1581,Gundam Legilis [Beginner Campaign],26-04-3-01,249,3,,1,1,20,7,1460,947,947,1460,1460,0,0,210,,,,Beginner Coins (Arms)
+1582,Gundam Legilis [Beginner Campaign],26-04-4-01,249,4,,1,1,20,13,1353,514,514,840,1353,429,679,,"When Melee DEF is over 2000, EX Skill CD reduced 15%",,,Beginner Coins (Legs)
+1583,Gundam Legilis [Beginner Campaign],26-04-5-01,249,5,,1,1,20,13,1353,514,514,840,1353,429,679,211,,,,Beginner Coins (Back)
+1584,Psycho Zaku [Thunderbolt Ver. / Beginner Campaign],38-03-1-01,250,1,,1,1,18,10,842,515,3458,515,515,431,287,463,,,,Beginner Coins (Head)
+1585,Psycho Zaku [Thunderbolt Ver. / Beginner Campaign],38-03-2-01,250,2,,1,1,18,10,1902,842,842,842,842,682,0,,"When Phys. RES is over 2000, Enemy EX Skill power reduced 25%",,,Beginner Coins (Torso)
+1586,Psycho Zaku [Thunderbolt Ver. / Beginner Campaign],38-03-3-01,250,3,,1,1,18,10,842,3458,1356,515,515,0,0,,"While “High Firepower”, EX Skill piercing boosted 22%",,,Beginner Coins (Arms)
+1587,Psycho Zaku [Thunderbolt Ver. / Beginner Campaign],38-03-4-01,250,4,,1,1,18,20,842,842,515,842,842,431,682,,"Long-Shooter Job, 28% chance to not recoil",,,Beginner Coins (Legs)
+1588,Psycho Zaku [Thunderbolt Ver. / Beginner Campaign],38-03-5-01,250,5,,1,1,18,20,842,842,515,842,842,682,431,,"When Shot ATK is over 5000, Shooting power boosted 25%",,,Beginner Coins (Back)
+1589,Zeong [Beginner Campaign],01-14-1-01,251,1,,1,2,17,20,516,516,3955,516,1358,0,0,,"When Melee DEF is over 2000, Long Shot Attack raised 14%",,,Beginner Coins (Head)
+1590,Zeong [Beginner Campaign],01-14-2-01,251,2,,1,2,17,20,1903,516,516,842,1903,288,288,,"While “For Space”, Shooting power boosted 25%",,,Beginner Coins (Torso)
+1591,Zeong [Beginner Campaign],01-14-3-01,251,3,,1,2,17,20,1358,842,516,516,2112,288,288,328,,,,Beginner Coins (Arms)
+1592,Zeong [Beginner Campaign],01-14-4-01,251,4,,1,2,17,8,842,516,516,842,1903,431,431,329,,,,Beginner Coins (Legs)
+1593,Shining Gundam [Beginner Campaign],16-01-1-01,252,1,,1,3,14,6,1353,514,840,1353,840,286,429,,"While “Mobile Fighter”, Enemy Shooting power reduced 25%",,,Beginner Coins (Head)
+1594,Shining Gundam [Beginner Campaign],16-01-2-01,252,2,,1,3,14,24,2393,840,514,840,840,0,679,180,,,,Beginner Coins (Torso)
+1595,Shining Gundam [Beginner Campaign],16-01-3-01,252,3,,1,3,14,6,840,3450,0,1353,1353,0,0,,"ln-Fighter Job, Melee power boosted 25%",,,Beginner Coins (Arms)
+1596,Shining Gundam [Beginner Campaign],16-01-4-01,252,4,,1,3,14,24,1353,514,514,1353,840,429,679,410,,,,Beginner Coins (Legs)
+1597,Shining Gundam [Beginner Campaign],16-01-5-01,252,5,,1,3,14,6,1353,514,514,1353,840,429,679,,"When Melee ATK is over 2000, Melee DMG output boosted by 20",,,Beginner Coins (Back)
+1598,Providence Gundam [Beginner Campaign],21-11-1-01,253,1,,1,1,3,10,1352,514,2944,514,514,428,286,188,,,,Beginner Coins (Head)
+1599,Providence Gundam [Beginner Campaign],21-11-2-01,253,2,,1,1,3,10,2391,514,839,839,839,678,0,,"Long-Shooter Job, Shooting power boosted 25%",,,Beginner Coins (Torso)
+1600,Providence Gundam [Beginner Campaign],21-11-3-01,253,3,8,1,1,3,10,2944,839,839,2391,3449,945,286,300,,,,Beginner Coins (Arms)
+1601,Providence Gundam [Beginner Campaign],21-11-4-01,253,4,,1,1,3,20,1352,514,514,839,1352,678,428,,"When attacking with Beam, EX Skill piercing boosted 22%",,,Beginner Coins (Legs)
+1602,Providence Gundam [Beginner Campaign],21-11-5-01,253,5,,1,1,3,20,1352,514,514,839,1352,678,428,301,,,,Beginner Coins (Back)
+1603,Master Gundam [Beginner Campaign],16-06-1-01,254,1,,1,3,14,10,1353,514,840,1353,514,286,429,,"While “Mobile Fighter”, EX Skill piercing boosted 22%",,,Beginner Coins (Head)
+1604,Master Gundam [Beginner Campaign],16-06-2-01,254,2,,1,3,14,10,1898,514,514,1898,840,0,679,359,,,,Beginner Coins (Torso)
+1605,Master Gundam [Beginner Campaign],16-06-3-01,254,3,,1,3,14,10,514,3943,514,1898,514,0,0,,21% chance of attacks penetrating super armor,,,Beginner Coins (Arms)
+1606,Master Gundam [Beginner Campaign],16-06-4-01,254,4,,1,3,14,6,840,514,514,1898,840,679,429,,"ln-Fighter Job, Melee CRIT rate boosted 17%",,,Beginner Coins (Legs)
+1607,Master Gundam [Beginner Campaign],16-06-5-01,254,5,,1,3,14,6,840,514,514,1898,840,429,679,,"With Speed attribute (self), 28% chance to not recoil",,,Beginner Coins (Back)
+1608,Lightning Gundam [Beginner Campaign],34-02-1-01,255,1,,1,2,8,26,514,514,3943,514,1352,0,0,,"With Long Rifle category equipped, Shooting power boosted 25%",,,Beginner Coins (Head)
+1609,Lightning Gundam [Beginner Campaign],34-02-2-01,255,2,,1,2,8,26,1897,514,514,839,1897,678,0,,"While “For Computers”, Enemy EX Skill penetration reduced 22%",,,Beginner Coins (Torso)
+1610,Lightning Gundam [Beginner Campaign],34-02-3-01,255,3,,1,2,8,26,1352,839,514,514,1897,428,286,210,,,,Beginner Coins (Arms)
+1611,Lightning Gundam [Beginner Campaign],34-02-4-01,255,4,,1,2,8,10,839,514,514,839,1897,428,678,410,,,,Beginner Coins (Legs)
+1612,Lightning Gundam [Beginner Campaign],34-02-5-01,255,5,,1,2,8,10,839,514,514,839,1897,678,428,411,,,,Beginner Coins (Back)
+1613,Gundam Epyon [Endless Waltz Ver.],18-12-1-01,256,1,,5,2,6,10,2486,1532,935,723,1265,378,551,,"With Technique attribute (self), EX Skill power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1614,Gundam Epyon [Endless Waltz Ver.],18-12-2-01,256,2,,5,2,6,10,2270,1873,935,0,1783,0,891,529,,,,Haro Chip Capsule (Sokai Festival)
+1615,Gundam Epyon [Endless Waltz Ver.],18-12-3-01,256,3,,5,2,6,10,0,4655,507,723,1265,0,551,530,,,,Haro Chip Capsule (Sokai Festival)
+1616,Gundam Epyon [Endless Waltz Ver.],18-12-4-01,256,4,,5,2,6,12,1265,1265,723,1265,1783,891,378,531,,,,Haro Chip Capsule (Sokai Festival)
+1617,Gundam Epyon [Endless Waltz Ver.],18-12-5-01,256,5,,5,2,6,12,507,1873,723,1265,1783,612,891,,"While ""Transformer"", Melee power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1618,Beam Sword [Epyon/Endless Waltz. Ver],18-12-6c-01,256,6,,5,2,6,10,723,5196,0,0,0,378,612,,"When buffed, EX Skill power boosted 30%",1,5,Haro Chip Capsule (Sokai Festival)
+1619,Heat Rod [Epyon/Endless Waltz. Ver],18-12-6-01,256,6,,5,2,6,12,723,5196,0,0,0,378,612,,"When 2 enemies shot down, Melee DMG output boosted by 35",2,7,Haro Chip Capsule (Sokai Festival)
+1620,Shield [Epyon/Endless Waltz. Ver],18-12-8-01,256,8,,5,2,6,12,1265,0,0,1265,3314,0,1423,532,,,,Haro Chip Capsule (Sokai Festival)
+1621,Gundam V2 Assault Buster,15-??-1-01,257,1,,5,1,10,13,1616,495,4310,0,510,597,282,,"When Shot ATK is over 7000, EX Skill power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1622,Gundam V2 Assault Buster,15-??-2-01,257,2,,5,1,10,13,2255,1027,1436,1258,1254,870,0,,"While “High Firepower”, Shooting power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1623,Gundam V2 Assault Buster,15-??-3-01,257,3,,5,1,10,13,1252,3684,1856,719,719,0,0,220,,,,Haro Chip Capsule (Sokai Festival)
+1624,Gundam V2 Assault Buster,15-??-4-01,257,4,,5,1,10,9,1260,1042,935,1260,1252,597,874,533,,,,Haro Chip Capsule (Sokai Festival)
+1625,Gundam V2 Assault Buster,15-??-5-01,257,5,,5,1,10,9,1247,1034,931,1262,1254,883,608,534,,,,Haro Chip Capsule (Sokai Festival)
+1626,Mega Beam Rifle [V2 Assault Buster],15-??-7b-01,257,7,,5,1,10,9,925,0,4813,0,0,607,378,,"When buffed, EX Skill power boosted 30%",1,10,Haro Chip Capsule (Sokai Festival)
+1627,Beam Rifle [Multi-Tube Grenade Launcher/V2 Assault Buster],15-??-7a-01,257,7,,5,1,10,13,925,0,4813,0,0,607,378,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,8,Haro Chip Capsule (Sokai Festival)
+1628,Mega Beam Shield [V2 Assault Buster],15-??-8-01,257,8,,5,1,10,9,1246,1260,721,1260,1259,1401,0,,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Haro Chip Capsule (Sokai Festival)
+1629,F91 [ALT],13-01-1-01,258,1,,5,3,1,10,1267,1135,3612,935,0,614,279,535,,,,F Materials (Event Blueprint)
+1630,F91 [ALT],13-01-2-01,258,2,,5,3,16,10,2272,1532,1044,1784,507,728,279,536,,,,F Materials (Event Blueprint)
+1631,F91 [ALT],13-01-3-01,258,3,8,5,3,1,16,2486,5485,2079,1979,1532,1425,0,,While “Federation” Melee power boosted 30%,,,F Materials (Event Blueprint)
+1632,F91 [ALT],13-01-4-01,258,4,,5,3,1,10,1267,1442,507,1267,1044,662,892,,"With Saber category equipped, Enemy EX Skill power reduced 30%",,,F Materials (Event Blueprint)
+1633,F91 [ALT],13-01-5-01,258,5,,5,3,16,10,1044,1442,724,1784,724,892,551,537,,,,F Materials (Event Blueprint)
+1634,Beam Saber [ALT] [F91],13-01-6a-01,258,6,,5,3,1,16,507,4937,0,724,0,892,614,,"When Melee ATK > 15000, EX Skill power boosted 30%",1,2,F Materials (Event Blueprint)
+1635,Beam Rifle [ALT] [F91],13-01-7a-01,258,7,,5,3,1,10,935,196,4656,507,0,614,379,,"While “Protag.”, Enemy Shooting power reduced 30%",1,8,F Materials (Event Blueprint)
+1636,Beam Launcher [ALT] [F91],13-01-7d-01,258,7,,5,3,16,10,935,196,4656,507,0,614,379,,"When 1 enemies shot down, Reduce Cooldown by 50% once",1,12,F Materials (Event Blueprint)
+1637,Alvaaron,25-17-1-01,259,1,,3,1,20,10,357,357,2803,357,1085,0,0,,"With Twin Rifle category equipped, EX Skill power boosted 25%",,,[Part 2] 1st Anniversary Coins (Weekly Event)
+1638,Alvaaron,25-17-2-01,259,2,,3,1,20,10,1403,357,357,689,1403,262,262,,"When in Arena Sortie, Shooting DMG taken reduced 20",,,[Part 2] 1st Anniversary Coins (Weekly Event)
+1639,Alvaaron,25-17-3-01,259,3,,3,1,20,10,1085,689,357,357,1403,262,262,,"With Power attribute (self), Sp. Shot power boosted 25%",,,[Part 2] 1st Anniversary Coins (Weekly Event)
+1640,Alvaaron,25-17-4-01,259,4,,3,1,20,3,689,357,357,689,1403,376,376,,"While ""For Space"", Projectile speed boosted 14%",,,[Part 2] 1st Anniversary Coins (Weekly Event)
+1641,Alvaaron,25-17-5-01,259,5,,3,1,20,3,689,357,357,689,1403,376,376,538,,,,[Part 2] 1st Anniversary Coins (Weekly Event)
+1642,GN Beam Saber [Alvaaron],25-17-6-01,259,6,,3,1,20,3,1085,2072,0,0,0,427,427,,"When Melee DEF is under 1000, Strong Melee CRIT rate boosted 17%",1,4,[Part 2] 1st Anniversary Coins (Weekly Event)
+1643,GN Beam Rifle [Alvaaron],25-17-7-01,259,7,,3,1,20,10,357,0,3499,0,0,262,262,,"Long-Shooter Job, Job Gauge increase boosted 13%",1,14,[Part 2] 1st Anniversary Coins (Weekly Event)

@@ -2,6 +2,7 @@
   "name": "00 Qan[T] Full Saber",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -198,6 +199,7 @@
   "name": "00 Raiser",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -353,6 +355,7 @@
   "name": "Abyss Gundam",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -473,6 +476,7 @@
   "name": "Acguy",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -564,6 +568,7 @@
   "name": "Aegis Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -707,6 +712,7 @@
   "name": "Aile Strike Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -886,6 +892,7 @@
   "name": "Akatsuki [Oowashi Pack]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1046,6 +1053,7 @@
   "name": "Altron Gundam [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1170,9 +1178,135 @@
     "category": "Twin Blade"
   }]
 }, {
+  "name": "Alvaaron",
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 3,
+    "a": 357,
+    "ma": 357,
+    "sa": 2803,
+    "md": 357,
+    "sd": 1085,
+    "br": 0,
+    "pr": 0,
+    "wt": ["For Space", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Twin Rifle category equipped, EX Skill power boosted 25%"
+    }
+  }, {
+    "part": "body",
+    "mark": 3,
+    "a": 1403,
+    "ma": 357,
+    "sa": 357,
+    "md": 689,
+    "sd": 1403,
+    "br": 262,
+    "pr": 262,
+    "wt": ["For Space", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When in Arena Sortie, Shooting DMG taken reduced 20"
+    }
+  }, {
+    "part": "arms",
+    "mark": 3,
+    "a": 1085,
+    "ma": 689,
+    "sa": 357,
+    "md": 357,
+    "sd": 1403,
+    "br": 262,
+    "pr": 262,
+    "wt": ["For Space", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Sp. Shot power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 3,
+    "a": 689,
+    "ma": 357,
+    "sa": 357,
+    "md": 689,
+    "sd": 1403,
+    "br": 376,
+    "pr": 376,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"For Space\", Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "back",
+    "mark": 3,
+    "a": 689,
+    "ma": 357,
+    "sa": 357,
+    "md": 689,
+    "sd": 1403,
+    "br": 376,
+    "pr": 376,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Claw Arm [Alvatore]",
+      "description": "Merge with the giant golden Mobile Armor, attack with your arm claws, and fire close-range beams.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 3,
+    "a": 1085,
+    "ma": 2072,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 427,
+    "pr": 427,
+    "wt": ["For Space", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee DEF is under 1000, Strong Melee CRIT rate boosted 17%"
+    },
+    "name": "GN Beam Saber [Alvaaron]",
+    "type": "Beam",
+    "category": "Dual Sabers"
+  }, {
+    "part": "range",
+    "mark": 3,
+    "a": 357,
+    "ma": 0,
+    "sa": 3499,
+    "md": 0,
+    "sd": 0,
+    "br": 262,
+    "pr": 262,
+    "wt": ["For Space", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Job Gauge increase boosted 13%"
+    },
+    "name": "GN Beam Rifle [Alvaaron]",
+    "type": "Beam",
+    "category": "Twin Rifle"
+  }]
+}, {
   "name": "Arche Gundam",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1318,6 +1452,7 @@
   "name": "Astray Blue Frame",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1441,6 +1576,7 @@
   "name": "Astray Blue Frame 2nd Revise",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1561,6 +1697,7 @@
   "name": "Astray Gold Frame Amatsu",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1662,6 +1799,7 @@
   "name": "Astray Green Frame",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1823,6 +1961,7 @@
   "name": "Astray Red Frame",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -1973,6 +2112,7 @@
   "name": "Astray Red Frame [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2075,6 +2215,7 @@
   "name": "Astray Red Frame Custom",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2188,6 +2329,7 @@
   "name": "Atlas Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2342,9 +2484,106 @@
     "name": "Blade Shield"
   }]
 }, {
+  "name": "Ball",
+  "attribute": "Power",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 5,
+    "a": 0,
+    "ma": 200,
+    "sa": 1717,
+    "md": 268,
+    "sd": 483,
+    "br": 79,
+    "pr": 79,
+    "wt": ["Federation", "Mass P."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "180mm Recoilless Cannon",
+      "description": "Fire cannonballs from the cannon mounted on your upper turret.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "C",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 5,
+    "a": 838,
+    "ma": 332,
+    "sa": 700,
+    "md": 0,
+    "sd": 634,
+    "br": 213,
+    "pr": 213,
+    "wt": ["Federation", "Mass P."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Ball Tackle",
+      "description": "Execute a rush attack using your whole body.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "C",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 5,
+    "a": 899,
+    "ma": 332,
+    "sa": 556,
+    "md": 268,
+    "sd": 483,
+    "br": 156,
+    "pr": 156,
+    "wt": ["Federation", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Sp. Shot power boosted 18%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 5,
+    "a": 483,
+    "ma": 268,
+    "sa": 483,
+    "md": 483,
+    "sd": 634,
+    "br": 209,
+    "pr": 209,
+    "wt": ["Federation", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more, Projectile speed boosted 10%"
+    }
+  }, {
+    "part": "back",
+    "mark": 5,
+    "a": 200,
+    "ma": 268,
+    "sa": 483,
+    "md": 483,
+    "sd": 838,
+    "br": 255,
+    "pr": 255,
+    "wt": ["Federation", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Federation”, Mid Shot Attack raised 10%"
+    }
+  }]
+}, {
   "name": "Banshee",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -2457,6 +2696,7 @@
   "name": "Beargguy",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2549,6 +2789,7 @@
   "name": "Beargguy [ALT]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2637,6 +2878,7 @@
   "name": "Beargguy III",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2722,6 +2964,7 @@
   "name": "Beginning 30 Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2863,6 +3106,7 @@
   "name": "Beginning 30 Gundam [Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -2966,6 +3210,7 @@
   "name": "Blitz Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3065,6 +3310,7 @@
   "name": "Blue Destiny Unit-1",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3167,6 +3413,7 @@
   "name": "Blue Destiny Unit-2",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3302,6 +3549,7 @@
   "name": "Bolt Gundam",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3339,7 +3587,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -3403,6 +3651,7 @@
   "name": "Build Burning Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3511,6 +3760,7 @@
   "name": "Build Gundam Mk-II",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3698,6 +3948,7 @@
   "name": "Build Strike Gundam [Full Package]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -3860,6 +4111,7 @@
   "name": "Burning Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -3897,7 +4149,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -3968,6 +4220,7 @@
   "name": "Buster Gundam",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4093,6 +4346,7 @@
   "name": "Byarlant Custom",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4202,6 +4456,7 @@
   "name": "Byarlant Custom [ALT]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4302,6 +4557,7 @@
   "name": "Chaos Gundam",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4465,6 +4721,7 @@
   "name": "Code ϕ",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4588,6 +4845,7 @@
   "name": "Command Gundam",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4751,6 +5009,7 @@
   "name": "Crossbone Gundam X1",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -4906,6 +5165,7 @@
   "name": "Crossbone Gundam X1 Kai Kai",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -5067,6 +5327,7 @@
   "name": "Crossbone Gundam X2",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -5257,6 +5518,7 @@
   "name": "Delta Plus",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -5405,6 +5667,7 @@
   "name": "Den'an Zon",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -5546,6 +5809,7 @@
   "name": "Denial Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -5654,6 +5918,7 @@
   "name": "Destiny Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -5801,6 +6066,7 @@
   "name": "Dom",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -5904,6 +6170,7 @@
   "name": "Dom Tropen",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6015,6 +6282,7 @@
   "name": "Dom Tropen [Sand Brown]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6103,6 +6371,7 @@
   "name": "Döven Wolf",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6230,6 +6499,7 @@
   "name": "Döven Wolf [ALT]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6343,6 +6613,7 @@
   "name": "Dragon Gundam",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6380,7 +6651,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -6469,6 +6740,7 @@
   "name": "Dreadnought Gundam",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6606,6 +6878,7 @@
   "name": "Dreissen [Unicorn Ver.]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6744,6 +7017,7 @@
   "name": "Duel Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6902,6 +7176,7 @@
   "name": "Duel Gundam (Assault Shroud)",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -6997,6 +7272,7 @@
   "name": "Duel Gundam (Assault Shroud) [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -7092,6 +7368,7 @@
   "name": "EARTHREE GUNDAM",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -7246,6 +7523,7 @@
   "name": "Efreet Custom",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -7373,6 +7651,7 @@
   "name": "Enhanced ZZ Gundam [Ver. Ka]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -7503,6 +7782,7 @@
   "name": "Force Impulse Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -7664,6 +7944,7 @@
   "name": "Force Impulse Gundam [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -7766,6 +8047,7 @@
   "name": "Freedom Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -7927,6 +8209,7 @@
   "name": "Full Armor Gundam [Thunderbolt Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8047,6 +8330,7 @@
   "name": "Gafran",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8150,6 +8434,7 @@
   "name": "Gafran [ALT]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8253,6 +8538,7 @@
   "name": "Gaia Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8407,6 +8693,7 @@
   "name": "Gaplant TR-5 [Hrairoo]",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8517,6 +8804,7 @@
   "name": "Geara Doga",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8684,6 +8972,7 @@
   "name": "Gelgoog [Char Aznable]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8831,6 +9120,7 @@
   "name": "Gelgoog [Mass Production Type]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -8936,6 +9226,7 @@
   "name": "Gelgoog Cannon",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9025,6 +9316,7 @@
   "name": "Gelgoog Jäger",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9139,6 +9431,7 @@
   "name": "Gerbera Tetra",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9260,6 +9553,7 @@
   "name": "GM",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9395,6 +9689,7 @@
   "name": "GM Command [Space Type]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9548,6 +9843,7 @@
   "name": "GM Custom",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9664,6 +9960,7 @@
   "name": "GM II",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9765,6 +10062,7 @@
   "name": "GM III",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9874,6 +10172,7 @@
   "name": "GN Archer",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -9980,6 +10279,7 @@
   "name": "GN-X",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10172,6 +10472,7 @@
   "name": "GN-XIII",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10425,6 +10726,7 @@
   "name": "Gouf",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10560,6 +10862,7 @@
   "name": "Gouf Custom",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10706,6 +11009,7 @@
   "name": "Graze [Ground/Standard]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10833,6 +11137,7 @@
   "name": "Guncannon",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -10960,6 +11265,7 @@
   "name": "Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11157,6 +11463,7 @@
   "name": "Gundam [Pre-Registration Reward]",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11333,6 +11640,7 @@
   "name": "Gundam AGE Normal",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11461,6 +11769,7 @@
   "name": "Gundam AGE-1 Titus",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11561,6 +11870,7 @@
   "name": "Gundam AGE-2 Dark Hound",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11697,6 +12007,7 @@
   "name": "Gundam AGE-2 Normal",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11819,6 +12130,7 @@
   "name": "Gundam AGE-3 Fortress",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -11911,6 +12223,7 @@
   "name": "Gundam AGE-FX",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12052,9 +12365,146 @@
     "category": "Bazooka"
   }]
 }, {
+  "name": "Gundam Areus",
+  "attribute": "Speed",
+  "rarity": 2,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1046,
+    "ma": 508,
+    "sa": 3107,
+    "md": 508,
+    "sd": 1535,
+    "br": 0,
+    "pr": 553,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “For Computers”, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2081,
+    "ma": 508,
+    "sa": 508,
+    "md": 1535,
+    "sd": 1535,
+    "br": 0,
+    "pr": 794,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Enemy EX Skill power reduced 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 2081,
+    "ma": 3107,
+    "sa": 508,
+    "md": 3616,
+    "sd": 3616,
+    "br": 553,
+    "pr": 553,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Palma Fiocina Cannon [Rapid-Fire]",
+      "description": "Turn both palms forward to bathe foes in rapid-fire, controlled output beams.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    },
+    "combo": {
+      "type": "shield",
+      "name": "Gundam Areus"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1046,
+    "ma": 508,
+    "sa": 508,
+    "md": 1535,
+    "sd": 1535,
+    "br": 553,
+    "pr": 794,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 50% or more, EX Skill CD reduced 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1046,
+    "ma": 508,
+    "sa": 508,
+    "md": 1535,
+    "sd": 1535,
+    "br": 553,
+    "pr": 794,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Twin-Phaser Satellite Cannon",
+      "description": "Divert the explosive propulsion energy of your back wing unit into dual beam blasts.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [79, 20]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 1045,
+    "ma": 4135,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 280,
+    "pr": 794,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "26% chance of attacks penetrating super armor"
+    },
+    "name": "Arondight [Coupled/Areus]",
+    "type": "Beam",
+    "category": "Twin Blade"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 1045,
+    "ma": 0,
+    "sa": 4135,
+    "md": 0,
+    "sd": 0,
+    "br": 280,
+    "pr": 794,
+    "wt": ["Protag.", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Twin Blade category equipped, EX Skill power boosted 30%"
+    },
+    "name": "Beam Rifle [Areus]",
+    "type": "Beam",
+    "category": "Rifle"
+  }]
+}, {
   "name": "Gundam Artemis",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12197,6 +12647,7 @@
   "name": "Gundam Artemis [Satellite Cannon]",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "back",
@@ -12225,6 +12676,7 @@
   "name": "Gundam Astaroth",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12385,6 +12837,7 @@
   "name": "Gundam Bael",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12501,9 +12954,106 @@
     "category": "Dual Sabers"
   }]
 }, {
+  "name": "Gundam Barbatos [4th Form / Beginner Campaign]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 842,
+    "ma": 515,
+    "sa": 2398,
+    "md": 515,
+    "sd": 1356,
+    "br": 431,
+    "pr": 287,
+    "wt": ["Protag.", "For Forest"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK is over 2000 EX Skill DMG output boosted by 20"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1356,
+    "ma": 842,
+    "sa": 515,
+    "md": 842,
+    "sd": 1902,
+    "br": 682,
+    "pr": 0,
+    "wt": ["Protag.", "For Forest"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Fearless Hurl",
+      "description": "Charge mercilessly toward the enemy. Lowers hit enemy Gunpla's Beam Resist by 19%. Lowers hit enemy Gunpla's Physical Resist by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "B",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 842,
+    "ma": 3456,
+    "sa": 515,
+    "md": 842,
+    "sd": 1356,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Close Combat”, Melee CRIT rate boosted 17%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 842,
+    "ma": 515,
+    "sa": 515,
+    "md": 515,
+    "sd": 1356,
+    "br": 682,
+    "pr": 431,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Menace Shot",
+      "description": "Jump up high and deliver a brutal flying kick to the enemy. Lowers hit enemy Gunpla's Shot Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "B-",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 842,
+    "ma": 515,
+    "sa": 515,
+    "md": 515,
+    "sd": 1356,
+    "br": 682,
+    "pr": 431,
+    "wt": ["Protag.", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When CPWR is over 100000, EX Skill piercing boosted 22%"
+    }
+  }]
+}, {
   "name": "Gundam Barbatos [4th Form]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12660,6 +13210,7 @@
   "name": "Gundam Barbatos [6th Form]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12781,6 +13332,7 @@
   "name": "Gundam Barbatos Lupus",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -12925,6 +13477,7 @@
   "name": "Gundam Deathscythe",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13072,9 +13625,112 @@
     "name": "Buster Shield"
   }]
 }, {
+  "name": "Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign]",
+  "attribute": "Technique",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 840,
+    "md": 1353,
+    "sd": 840,
+    "br": 429,
+    "pr": 286,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D-",
+        "Pow": "D",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2393,
+    "ma": 840,
+    "sa": 514,
+    "md": 840,
+    "sd": 840,
+    "br": 679,
+    "pr": 0,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Self-Destruct",
+      "description": "Self-destruct in an explosion that envelops foes around you. Take 90% damage to max Armor.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 840,
+    "ma": 3450,
+    "sa": 0,
+    "md": 1353,
+    "sd": 1353,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Jammer",
+      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Melee Attack by 29%. You become harder to target for a set period of time.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 1353,
+    "sd": 840,
+    "br": 679,
+    "pr": 429,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Axe category equipped, EX Skill DMG taken reduced by 20"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 1353,
+    "sd": 840,
+    "br": 679,
+    "pr": 429,
+    "wt": ["Gundam Type", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Gundam Type”, Melee DMG output boosted by 20"
+    }
+  }]
+}, {
   "name": "Gundam Deathscythe Hell [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13134,7 +13790,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Jammer",
-      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Shot Attack by 19%. You become harder to target for a set period of time.",
+      "description": "Activate a powerful radio wave jammer to hide your position. Raise your Melee Attack by 29%. You become harder to target for a set period of time.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -13198,9 +13854,153 @@
     "category": "Axe"
   }]
 }, {
+  "name": "Gundam Delta Kai",
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1044,
+    "ma": 507,
+    "sa": 3106,
+    "md": 1044,
+    "sd": 1044,
+    "br": 0,
+    "pr": 551,
+    "wt": ["Federation", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Head-Mounted Vulcan",
+      "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D-",
+        "Pow": "D",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2081,
+    "ma": 507,
+    "sa": 507,
+    "md": 1534,
+    "sd": 1534,
+    "br": 0,
+    "pr": 793,
+    "wt": ["Federation", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Nitro System",
+      "description": "Activate your psycommu device, which gives even regular soldiers the abilities of Newtypes. Raise your speed by 20%. Raise your Shot Attack by 49%. Reduces your Shot Defense by 30%. Raise your vernier capacity by 25%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1044,
+    "ma": 3106,
+    "sa": 507,
+    "md": 1534,
+    "sd": 1534,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Federation", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or less, Reduce Cooldown by 50% once."
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1044,
+    "ma": 507,
+    "sa": 507,
+    "md": 1534,
+    "sd": 1534,
+    "br": 551,
+    "pr": 793,
+    "wt": ["Federation", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Long Rifle category equipped, Long Shot Attack raised 20%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1044,
+    "ma": 507,
+    "sa": 507,
+    "md": 1534,
+    "sd": 1534,
+    "br": 551,
+    "pr": 793,
+    "wt": ["Federation", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Proto Fin Funnels",
+      "description": "Launch Proto Fin Funnels in all directions. You can move while this is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "C",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 1044,
+    "ma": 0,
+    "sa": 4132,
+    "md": 0,
+    "sd": 0,
+    "br": 279,
+    "pr": 793,
+    "wt": ["Federation", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When buffed, EX Skill power boosted 30%"
+    },
+    "name": "Long Mega Buster",
+    "type": "Beam",
+    "category": "Long Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 1044,
+    "ma": 0,
+    "sa": 0,
+    "md": 2081,
+    "sd": 2081,
+    "br": 279,
+    "pr": 1038,
+    "wt": ["Federation", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "High Mega Cannon",
+      "description": "Fire high-density mega particles at enemies in front of you from the barrel of your shield.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [60, 15]
+      }
+    },
+    "name": "Shield [Delta Kai]"
+  }]
+}, {
   "name": "Gundam Double X",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13392,6 +14192,7 @@
   "name": "Gundam Dynames",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13507,9 +14308,171 @@
     "category": "Long Rifle"
   }]
 }, {
+  "name": "Gundam Epyon [Endless Waltz Ver.]",
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 2486,
+    "ma": 1532,
+    "sa": 935,
+    "md": 723,
+    "sd": 1265,
+    "br": 378,
+    "pr": 551,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2270,
+    "ma": 1873,
+    "sa": 935,
+    "md": 0,
+    "sd": 1783,
+    "br": 0,
+    "pr": 891,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Zero System",
+      "description": "Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Shot Attack by 19%. You become easier to target for a set period of time.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 0,
+    "ma": 4655,
+    "sa": 507,
+    "md": 723,
+    "sd": 1265,
+    "br": 0,
+    "pr": 551,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Epyon Claw",
+      "description": "Execute a rush attack with the claws on your forearms. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "B-",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1265,
+    "ma": 1265,
+    "sa": 723,
+    "md": 1265,
+    "sd": 1783,
+    "br": 891,
+    "pr": 378,
+    "wt": ["Close Combat", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Max Output Beam Sword",
+      "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 507,
+    "ma": 1873,
+    "sa": 723,
+    "md": 1265,
+    "sd": 1783,
+    "br": 612,
+    "pr": 891,
+    "wt": ["Close Combat", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Transformer\", Melee power boosted 30%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 723,
+    "ma": 5196,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 378,
+    "pr": 612,
+    "wt": ["Close Combat", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When buffed, EX Skill power boosted 30%"
+    },
+    "name": "Beam Sword [Epyon/Endless Waltz. Ver]",
+    "type": "Beam",
+    "category": "Blade"
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 723,
+    "ma": 5196,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 378,
+    "pr": 612,
+    "wt": ["Close Combat", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Melee DMG output boosted by 35"
+    },
+    "name": "Heat Rod [Epyon/Endless Waltz. Ver]",
+    "type": "Physical",
+    "category": "Whip"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 1265,
+    "ma": 0,
+    "sa": 0,
+    "md": 1265,
+    "sd": 3314,
+    "br": 0,
+    "pr": 1423,
+    "wt": ["Close Combat", "Transformer"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Heat Rod",
+      "description": "Execute a combo with the heat rod attached to your shield. Raise your Melee Attack by 19%. Raise your Melee Defense by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 3]
+      }
+    },
+    "name": "Shield [Epyon/Endless Waltz. Ver]"
+  }]
+}, {
   "name": "Gundam Exia",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13669,6 +14632,7 @@
   "name": "Gundam Exia [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13764,6 +14728,7 @@
   "name": "Gundam Exia Dark Matter",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -13919,6 +14884,7 @@
   "name": "Gundam Ez8",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14073,6 +15039,7 @@
   "name": "Gundam F91",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14230,9 +15197,173 @@
     "category": "Rifle"
   }]
 }, {
+  "name": "Gundam F91",
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1267,
+    "ma": 1135,
+    "sa": 3612,
+    "md": 935,
+    "sd": 0,
+    "br": 614,
+    "pr": 279,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "MEPE Rush",
+      "description": "Release your Gunpla's limiter to unleash a full-power combo. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 29%.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A",
+        "Cd": [79, 20]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2272,
+    "ma": 1532,
+    "sa": 1044,
+    "md": 1784,
+    "sd": 507,
+    "br": 728,
+    "pr": 279,
+    "wt": ["Federation", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Mega Machine Cannon",
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 2486,
+    "ma": 5485,
+    "sa": 2079,
+    "md": 1979,
+    "sd": 1532,
+    "br": 1425,
+    "pr": 0,
+    "wt": ["Protag.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Federation” Melee power boosted 30%"
+    },
+    "combo": {
+      "type": "shield",
+      "name": "F91 [ALT]"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1267,
+    "ma": 1442,
+    "sa": 507,
+    "md": 1267,
+    "sd": 1044,
+    "br": 662,
+    "pr": 892,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Saber category equipped, Enemy EX Skill power reduced 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1044,
+    "ma": 1442,
+    "sa": 724,
+    "md": 1784,
+    "sd": 724,
+    "br": 892,
+    "pr": 551,
+    "wt": ["Federation", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "V.S.B.R.",
+      "description": "Wedge the cannon on your back under your arm to fire projectiles. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Mag": 7,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 507,
+    "ma": 4937,
+    "sa": 0,
+    "md": 724,
+    "sd": 0,
+    "br": 892,
+    "pr": 614,
+    "wt": ["Protag.", "Federation"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK > 15000, EX Skill power boosted 30%"
+    },
+    "name": "Beam Saber [ALT] [F91]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 935,
+    "ma": 196,
+    "sa": 4656,
+    "md": 507,
+    "sd": 0,
+    "br": 614,
+    "pr": 379,
+    "wt": ["Protag.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Protag.”, Enemy Shooting power reduced 30%"
+    },
+    "name": "Beam Rifle [ALT] [F91]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 935,
+    "ma": 196,
+    "sa": 4656,
+    "md": 507,
+    "sd": 0,
+    "br": 614,
+    "pr": 379,
+    "wt": ["Federation", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 1 enemies shot down, Reduce Cooldown by 50% once"
+    },
+    "name": "Beam Launcher [ALT] [F91]",
+    "type": "Beam",
+    "category": "Bazooka"
+  }]
+}, {
   "name": "Gundam Flauros [Ryusei-Go]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14370,6 +15501,7 @@
   "name": "Gundam G-Self [Atmospheric Pack Type]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14518,6 +15650,7 @@
   "name": "Gundam GP01 [Zephyranthes]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14659,6 +15792,7 @@
   "name": "Gundam GP01Fb [Zephyranthes Fb / Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14759,6 +15893,7 @@
   "name": "Gundam GP01Fb [Zephyranthes Fb]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14859,6 +15994,7 @@
   "name": "Gundam GP02A [Physalis]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -14995,6 +16131,7 @@
   "name": "Gundam GP03 [Stamen]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15131,6 +16268,7 @@
   "name": "Gundam Gusion",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15290,6 +16428,7 @@
   "name": "Gundam Gusion Rebake",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15350,7 +16489,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Halberd",
-      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raises your Melee Attack by 24%.",
+      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raise your Melee Attack by 24%.",
       "category": "Physical Melee",
       "stats": {
         "Prc": "D",
@@ -15441,9 +16580,99 @@
     "name": "Shield [Gusion Rebake]"
   }]
 }, {
+  "name": "Gundam Gusion Rebake [Beginner Campaign]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 840,
+    "ma": 514,
+    "sa": 1352,
+    "md": 1352,
+    "sd": 1352,
+    "br": 429,
+    "pr": 0,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK is over 2000, Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1898,
+    "ma": 514,
+    "sa": 0,
+    "md": 1352,
+    "sd": 1352,
+    "br": 678,
+    "pr": 0,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 80% or more, Enemy EX Skill power reduced 25%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 840,
+    "ma": 1352,
+    "sa": 514,
+    "md": 1352,
+    "sd": 1352,
+    "br": 429,
+    "pr": 286,
+    "wt": ["Heavy Armor", "For Desert"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Physical, Melee DMG taken reduced by 20"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 840,
+    "ma": 514,
+    "sa": 514,
+    "md": 1898,
+    "sd": 1898,
+    "br": 286,
+    "pr": 429,
+    "wt": ["Heavy Armor", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Halberd",
+      "description": "Unleash a barrage of attacks with the halberd in your right hand. Raise your Melee Attack by 24%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "C-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 840,
+    "ma": 514,
+    "sa": 514,
+    "md": 1898,
+    "sd": 1898,
+    "br": 429,
+    "pr": 286,
+    "wt": ["Heavy Armor", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Vernier recovery rate boosted 16%"
+    }
+  }]
+}, {
   "name": "Gundam Gusion Rebake Fullcity",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15581,6 +16810,7 @@
   "name": "Gundam Heavyarms",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15706,6 +16936,7 @@
   "name": "Gundam Heavyarms [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15850,6 +17081,7 @@
   "name": "Gundam Kimaris",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -15975,6 +17207,7 @@
   "name": "Gundam Kyrios",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16110,6 +17343,7 @@
   "name": "Gundam Legilis",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16251,9 +17485,114 @@
     "name": "Shield [Legilis]"
   }]
 }, {
+  "name": "Gundam Legilis [Beginner Campaign]",
+  "attribute": "Power",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 2944,
+    "md": 514,
+    "sd": 514,
+    "br": 286,
+    "pr": 429,
+    "wt": ["For Space", "Mid-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Mid-Range”, Projectile speed boosted 14%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2391,
+    "ma": 514,
+    "sa": 840,
+    "md": 840,
+    "sd": 840,
+    "br": 0,
+    "pr": 679,
+    "wt": ["For Space", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Buster Beam",
+      "description": "Beathe foes in high-output beams from your chest Beam Cannon.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1460,
+    "ma": 947,
+    "sa": 947,
+    "md": 1460,
+    "sd": 1460,
+    "br": 0,
+    "pr": 0,
+    "wt": ["For Space", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Vulcan",
+      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 840,
+    "sd": 1353,
+    "br": 429,
+    "pr": 679,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee DEF is over 2000, EX Skill CD reduced 15%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 840,
+    "sd": 1353,
+    "br": 429,
+    "pr": 679,
+    "wt": ["For Space", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Legilis Cannon",
+      "description": "Launch beam weapon shots from your tail.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }]
+}, {
   "name": "Gundam Maxter",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16284,7 +17623,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -16355,6 +17694,7 @@
   "name": "Gundam Mk-II [A.E.U.G. Design]",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16547,6 +17887,7 @@
   "name": "Gundam Mk-II [Titans Design]",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16671,6 +18012,7 @@
   "name": "Gundam Nadleeh",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16809,6 +18151,7 @@
   "name": "Gundam NT-1",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -16965,6 +18308,7 @@
   "name": "Gundam NT-1 [Chobham Armor]",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17058,6 +18402,7 @@
   "name": "Gundam Rose",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17088,7 +18433,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -17181,6 +18526,7 @@
   "name": "Gundam Rose [ALT]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17303,6 +18649,7 @@
   "name": "Gundam Sandrock [Promotional Code]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17432,6 +18779,7 @@
   "name": "Gundam Throne Drei",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17549,6 +18897,7 @@
   "name": "Gundam TR-1 [Advanced Hazel w/ Optical Sensor Unit]",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17707,6 +19056,7 @@
   "name": "Gundam TR-6 [Wondwart]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17818,6 +19168,7 @@
   "name": "Gundam Tryon 3",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -17970,6 +19321,7 @@
   "name": "Gundam Vidar",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18100,6 +19452,7 @@
   "name": "Gundam Virsago",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18238,6 +19591,7 @@
   "name": "Gundam Virsago [Beginner Campaign]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18340,6 +19694,7 @@
   "name": "Gundam Virtue",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18460,6 +19815,7 @@
   "name": "Gundam X",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18590,6 +19946,7 @@
   "name": "Gundam X Divider",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18725,6 +20082,7 @@
   "name": "Guntank",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18827,6 +20185,7 @@
   "name": "Gyan",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -18962,6 +20321,7 @@
   "name": "Hi-nu Gundam HWS [Ver. Ka]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -19112,6 +20472,7 @@
   "name": "High Mobility Gelgoog [Johnny Ridden]",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -19234,6 +20595,7 @@
   "name": "Hy-Gogg",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "body",
@@ -19319,6 +20681,7 @@
   "name": "Hy-Gogg [ALT]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "body",
@@ -19411,6 +20774,7 @@
   "name": "Hyaku Shiki",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -19574,6 +20938,7 @@
   "name": "Jagd Doga [Quess Custom]",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -19735,6 +21100,7 @@
   "name": "Jegan",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -19854,6 +21220,7 @@
   "name": "Jesta",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -19975,6 +21342,7 @@
   "name": "Jesta Cannon",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20088,6 +21456,7 @@
   "name": "Jesta Cannon [ALT]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20202,6 +21571,7 @@
   "name": "Juaggu [Unicorn Ver.]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20305,6 +21675,7 @@
   "name": "Justice Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -20430,6 +21801,7 @@
   "name": "Kabakali",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20576,6 +21948,7 @@
   "name": "Kämpfer",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20679,6 +22052,7 @@
   "name": "Kämpfer [ALT]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -20773,6 +22147,7 @@
   "name": "Knight Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -20934,6 +22309,7 @@
   "name": "Kshatriya",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -21018,6 +22394,7 @@
   "name": "Launcher Strike Gundam",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21120,6 +22497,7 @@
   "name": "Leo",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21215,6 +22593,7 @@
   "name": "Lightning Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21374,9 +22753,114 @@
     "name": "Shield [Lightning]"
   }]
 }, {
+  "name": "Lightning Gundam [Beginner Campaign]",
+  "attribute": "Technique",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 514,
+    "ma": 514,
+    "sa": 3943,
+    "md": 514,
+    "sd": 1352,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Long Rifle category equipped, Shooting power boosted 25%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1897,
+    "ma": 514,
+    "sa": 514,
+    "md": 839,
+    "sd": 1897,
+    "br": 678,
+    "pr": 0,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “For Computers”, Enemy EX Skill penetration reduced 22%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1352,
+    "ma": 839,
+    "sa": 514,
+    "md": 514,
+    "sd": 1897,
+    "br": 428,
+    "pr": 286,
+    "wt": ["Long-Range", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Beam Vulcan",
+      "description": "Launch rapid-fire Beam Vulcan shots from your forearm. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 839,
+    "ma": 514,
+    "sa": 514,
+    "md": 839,
+    "sd": 1897,
+    "br": 428,
+    "pr": 678,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Rapid Thrust",
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 839,
+    "ma": 514,
+    "sa": 514,
+    "md": 839,
+    "sd": 1897,
+    "br": 678,
+    "pr": 428,
+    "wt": ["Long-Range", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Missile Pod",
+      "description": "Fire micro missiles from your backpack into the air to bombard enemies.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "B",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
+    }
+  }]
+}, {
   "name": "Mack Knife [Mask]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21472,6 +22956,7 @@
   "name": "MARSFOUR GUNDAM",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21610,6 +23095,7 @@
   "name": "Master Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21647,7 +23133,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Hyper Mode",
-      "description": "Enter Hyper Mode for enhanced combat prowess. Raise speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -21733,9 +23219,206 @@
     "category": "Whip"
   }]
 }, {
+  "name": "Master Gundam [Beginner Campaign]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 840,
+    "md": 1353,
+    "sd": 514,
+    "br": 286,
+    "pr": 429,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Mobile Fighter”, EX Skill piercing boosted 22%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1898,
+    "ma": 514,
+    "sa": 514,
+    "md": 1898,
+    "sd": 840,
+    "br": 0,
+    "pr": 679,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Hyper Mode",
+      "description": "Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 514,
+    "ma": 3943,
+    "sa": 514,
+    "md": 1898,
+    "sd": 514,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mobile Fighter", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "21% chance of attacks penetrating super armor"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 840,
+    "ma": 514,
+    "sa": 514,
+    "md": 1898,
+    "sd": 840,
+    "br": 679,
+    "pr": 429,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "ln-Fighter Job, Melee CRIT rate boosted 17%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 840,
+    "ma": 514,
+    "sa": 514,
+    "md": 1898,
+    "sd": 840,
+    "br": 429,
+    "pr": 679,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), 28% chance to not recoil"
+    }
+  }]
+}, {
+  "name": "Messala",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "body",
+    "mark": 3,
+    "a": 2066,
+    "ma": 1545,
+    "sa": 2422,
+    "md": 1735,
+    "sd": 1248,
+    "br": 0,
+    "pr": 713,
+    "wt": ["Transformer", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Pressure",
+      "description": "Use the force of your pilot's pressure to bombard enemies, temporarily immobalizing them.",
+      "category": "Physical Shot",
+      "stats": {
+        "Cd": [19, 1]
+      }
+    },
+    "combo": {
+      "type": "head",
+      "name": "Messala"
+    }
+  }, {
+    "part": "arms",
+    "mark": 3,
+    "a": 1398,
+    "ma": 2066,
+    "sa": 1178,
+    "md": 1935,
+    "sd": 2422,
+    "br": 152,
+    "pr": 526,
+    "wt": ["Transformer", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Grenade Launcher",
+      "description": "Attack enemies with the grenade launcher in your arms.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 3,
+    "a": 687,
+    "ma": 355,
+    "sa": 355,
+    "md": 1082,
+    "sd": 1082,
+    "br": 374,
+    "pr": 526,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Transformer”, Shooting CRIT rate boosted 17%"
+    }
+  }, {
+    "part": "back",
+    "mark": 3,
+    "a": 687,
+    "ma": 355,
+    "sa": 355,
+    "md": 1082,
+    "sd": 1082,
+    "br": 374,
+    "pr": 526,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Back Mega Particle Cannon",
+      "description": "Fire the mega particle cannon on your back.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "D",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 3,
+    "a": 687,
+    "ma": 2793,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 152,
+    "pr": 526,
+    "wt": ["Transformer", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Technique attribute (self), Melee DMG output boosted by 20"
+    },
+    "name": "Beam Saber [Messala]",
+    "type": "Beam",
+    "category": "Saber"
+  }]
+}, {
   "name": "Mobile Kapool",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "body",
@@ -21814,6 +23497,7 @@
   "name": "Mobile SUMO [Gold Type]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -21958,6 +23642,7 @@
   "name": "Mobile Worker",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22068,6 +23753,7 @@
   "name": "Moon Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22199,6 +23885,7 @@
   "name": "Noble Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22317,6 +24004,7 @@
   "name": "Nu Gundam [Ver. Ka]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22489,6 +24177,7 @@
   "name": "Palace Athene",
   "attribute": "Power",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22621,6 +24310,7 @@
   "name": "Palace Athene [ALT]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22732,6 +24422,7 @@
   "name": "Pale Rider",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22855,6 +24546,7 @@
   "name": "Pale Rider [Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -22956,6 +24648,7 @@
   "name": "Penelope",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23051,6 +24744,7 @@
   "name": "Perfect Strike Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23158,6 +24852,7 @@
   "name": "Providence Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23280,9 +24975,206 @@
     "category": "Rifle"
   }]
 }, {
+  "name": "Providence Gundam [Beginner Campaign]",
+  "attribute": "Power",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1352,
+    "ma": 514,
+    "sa": 2944,
+    "md": 514,
+    "sd": 514,
+    "br": 428,
+    "pr": 286,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Picus",
+      "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D-",
+        "Pow": "D",
+        "Cd": [19, 5]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2391,
+    "ma": 514,
+    "sa": 839,
+    "md": 839,
+    "sd": 839,
+    "br": 678,
+    "pr": 0,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, Shooting power boosted 25%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 2944,
+    "ma": 839,
+    "sa": 839,
+    "md": 2391,
+    "sd": 3449,
+    "br": 945,
+    "pr": 286,
+    "wt": ["Ace Excl.", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Composite Armed Shield System",
+      "description": "Attack enemies with the beam weaponry integrated into your left arm. You can move while firing.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    },
+    "combo": {
+      "type": "shield",
+      "name": "Providence Gundam [Beginner Campaign]"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1352,
+    "ma": 514,
+    "sa": 514,
+    "md": 839,
+    "sd": 1352,
+    "br": 678,
+    "pr": 428,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When attacking with Beam, EX Skill piercing boosted 22%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1352,
+    "ma": 514,
+    "sa": 514,
+    "md": 839,
+    "sd": 1352,
+    "br": 678,
+    "pr": 428,
+    "wt": ["Ace Excl.", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "DRAGOON System",
+      "description": "Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "D",
+        "Cd": [60, 6]
+      }
+    }
+  }]
+}, {
+  "name": "Psycho Zaku [Thunderbolt Ver. / Beginner Campaign]",
+  "attribute": "Power",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 842,
+    "ma": 515,
+    "sa": 3458,
+    "md": 515,
+    "sd": 515,
+    "br": 431,
+    "pr": 287,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Reuse P Device",
+      "description": "Control your unit with electrical signals sent from the pilot's brain to increase performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your vernier capacity by 75%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 37,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1902,
+    "ma": 842,
+    "sa": 842,
+    "md": 842,
+    "sd": 842,
+    "br": 682,
+    "pr": 0,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Phys. RES is over 2000, Enemy EX Skill power reduced 25%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 842,
+    "ma": 3458,
+    "sa": 1356,
+    "md": 515,
+    "sd": 515,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zaku Type", "High Firepower"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “High Firepower”, EX Skill piercing boosted 22%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 842,
+    "ma": 842,
+    "sa": 515,
+    "md": 842,
+    "sd": 842,
+    "br": 431,
+    "pr": 682,
+    "wt": ["Zaku Type", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Long-Shooter Job, 28% chance to not recoil"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 842,
+    "ma": 842,
+    "sa": 515,
+    "md": 842,
+    "sd": 842,
+    "br": 682,
+    "pr": 431,
+    "wt": ["Zaku Type", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Shot ATK is over 5000, Shooting power boosted 25%"
+    }
+  }]
+}, {
   "name": "Psycho Zaku [Thunderbolt Ver.]",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23395,6 +25287,7 @@
   "name": "Qubeley",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -23496,6 +25389,7 @@
   "name": "Rebawoo",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23641,6 +25535,7 @@
   "name": "Reborns Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -23801,6 +25696,7 @@
   "name": "Rick Dias [ALT] [Quattro Bajeena Colors]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23895,6 +25791,7 @@
   "name": "Rick Dias [Quattro Bajeena Colors]",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -23996,6 +25893,7 @@
   "name": "Rising Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24097,6 +25995,7 @@
   "name": "Rozen Zulu",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24213,6 +26112,7 @@
   "name": "Ryusei-Go [Graze Custom II]",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24343,6 +26243,7 @@
   "name": "Sanakapool",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "body",
@@ -24412,6 +26313,7 @@
   "name": "Saviour Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24559,6 +26461,7 @@
   "name": "Sazabi",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -24739,6 +26642,7 @@
   "name": "Sengoku Astray Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24850,6 +26754,7 @@
   "name": "Serpent Custom",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -24987,6 +26892,7 @@
   "name": "Serpent Custom [ALT]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25123,6 +27029,7 @@
   "name": "Serpent Custom [Double Gatling Gun]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25212,6 +27119,7 @@
   "name": "Shenlong Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25361,6 +27269,7 @@
   "name": "Shenlong Gundam [Endless Waltz Ver.]",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25511,6 +27420,7 @@
   "name": "Shining Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25541,7 +27451,7 @@
     "ex": {
       "type": "EX Skill",
       "name": "Super Mode",
-      "description": "Enter Super Mode for enhanced combat prowess. Raises speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "description": "Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
       "category": "Awakening",
       "stats": {
         "Dur": 51,
@@ -25609,9 +27519,105 @@
     }
   }]
 }, {
+  "name": "Shining Gundam [Beginner Campaign]",
+  "attribute": "Speed",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 840,
+    "md": 1353,
+    "sd": 840,
+    "br": 286,
+    "pr": 429,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Mobile Fighter”, Enemy Shooting power reduced 25%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2393,
+    "ma": 840,
+    "sa": 514,
+    "md": 840,
+    "sd": 840,
+    "br": 0,
+    "pr": 679,
+    "wt": ["Mobile Fighter", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Super Mode",
+      "description": "Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 840,
+    "ma": 3450,
+    "sa": 0,
+    "md": 1353,
+    "sd": 1353,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "ln-Fighter Job, Melee power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 1353,
+    "sd": 840,
+    "br": 429,
+    "pr": 679,
+    "wt": ["Mobile Fighter", "For Urban Area"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Rapid Thrust",
+      "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "A-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1353,
+    "ma": 514,
+    "sa": 514,
+    "md": 1353,
+    "sd": 840,
+    "br": 429,
+    "pr": 679,
+    "wt": ["Mobile Fighter", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee ATK is over 2000, Melee DMG output boosted by 20"
+    }
+  }]
+}, {
   "name": "Star Build Strike Gundam",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25779,6 +27785,7 @@
   "name": "Stargazer Gundam",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -25870,6 +27877,7 @@
   "name": "Stark Jegan",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26007,6 +28015,7 @@
   "name": "Stark Jegan [ALT]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26145,6 +28154,7 @@
   "name": "Strike Noir",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26266,6 +28276,7 @@
   "name": "Strike Rouge [IWSP]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26431,6 +28442,7 @@
   "name": "Susanowo",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26552,6 +28564,7 @@
   "name": "Sword Strike Gundam",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26681,6 +28694,7 @@
   "name": "Tallgeese [Endless Waltz Ver. / Beginner Campaign]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26773,6 +28787,7 @@
   "name": "Tallgeese [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26883,6 +28898,7 @@
   "name": "Tallgeese II",
   "attribute": "Technique",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -26981,6 +28997,7 @@
   "name": "The O",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -27094,6 +29111,7 @@
   "name": "Tieren Taozi",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -27208,6 +29226,7 @@
   "name": "Turn A Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -27365,6 +29384,7 @@
   "name": "Turn X",
   "attribute": "Power",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -27467,18 +29487,21 @@
   "name": "Unassigned [P]",
   "attribute": "Power",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": []
 }, {
   "name": "Unassigned [S]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": []
 }, {
   "name": "Unassigned [T]",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "melee",
@@ -27553,6 +29576,7 @@
   "name": "Unicorn Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -27728,9 +29752,165 @@
     "name": "Shield [Unicorn]"
   }]
 }, {
+  "name": "V2 Assault Buster Gundam",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 1,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1616,
+    "ma": 495,
+    "sa": 4310,
+    "md": 0,
+    "sd": 510,
+    "br": 597,
+    "pr": 282,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Shot ATK is over 7000, EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2255,
+    "ma": 1027,
+    "sa": 1436,
+    "md": 1258,
+    "sd": 1254,
+    "br": 870,
+    "pr": 0,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “High Firepower”, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1252,
+    "ma": 3684,
+    "sa": 1856,
+    "md": 719,
+    "sd": 719,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Spinning Saber",
+      "description": "Spin both hands to mow down nearby foes with your saber. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1260,
+    "ma": 1042,
+    "sa": 935,
+    "md": 1260,
+    "sd": 1252,
+    "br": 597,
+    "pr": 874,
+    "wt": ["High Firepower", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "V.S.B.R. & Micro Missiles",
+      "description": "Attack in waves with the micro missiles and cannon attached to your waist.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1247,
+    "ma": 1034,
+    "sa": 931,
+    "md": 1262,
+    "sd": 1254,
+    "br": 883,
+    "pr": 608,
+    "wt": ["High Firepower", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Assault & Buster",
+      "description": "With your wings of light, charge your enemy and fire your spray beam pod and mega beam cannon. Raise Shot Attack of your Squad by 39%.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C",
+        "Cd": [79, 20]
+      }
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 925,
+    "ma": 0,
+    "sa": 4813,
+    "md": 0,
+    "sd": 0,
+    "br": 607,
+    "pr": 378,
+    "wt": ["High Firepower", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When buffed, EX Skill power boosted 30%"
+    },
+    "name": "Mega Beam Rifle [V2 Assault Buster]",
+    "type": "Beam",
+    "category": "Long Rifle"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 925,
+    "ma": 0,
+    "sa": 4813,
+    "md": 0,
+    "sd": 0,
+    "br": 607,
+    "pr": 378,
+    "wt": ["High Firepower", "Gundam Type"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
+    },
+    "name": "Beam Rifle [Multi-Tube Grenade Launcher/V2 Assault Buster]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 1246,
+    "ma": 1260,
+    "sa": 721,
+    "md": 1260,
+    "sd": 1259,
+    "br": 1401,
+    "pr": 0,
+    "wt": ["High Firepower", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+    },
+    "name": "Mega Beam Shield [V2 Assault Buster]"
+  }]
+}, {
   "name": "V2 Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -27855,6 +30035,7 @@
   "name": "VEETWO GUNDAM",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -27976,6 +30157,7 @@
   "name": "Victory Gundam",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28111,6 +30293,7 @@
   "name": "Victory Gundam [Beginner Campaign]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28210,6 +30393,7 @@
   "name": "Wing Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28368,9 +30552,154 @@
     "name": "Shield [Wing]"
   }]
 }, {
+  "name": "Wing Gundam [Endless Waltz Ver.]",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1049,
+    "ma": 509,
+    "sa": 3629,
+    "md": 509,
+    "sd": 509,
+    "br": 281,
+    "pr": 281,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Auto-Repair α",
+      "description": "Continuously recover 5% of your maximum Armor at a time.",
+      "category": "Buff",
+      "stats": {
+        "Dur": 30,
+        "Cd": [33, 7]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2087,
+    "ma": 1049,
+    "sa": 1049,
+    "md": 1049,
+    "sd": 1049,
+    "br": 382,
+    "pr": 382,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Machine Cannon",
+      "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1049,
+    "ma": 3629,
+    "sa": 1538,
+    "md": 509,
+    "sd": 509,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Ace Excl.", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Shot guidance boosted 17%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1049,
+    "ma": 1049,
+    "sa": 509,
+    "md": 1049,
+    "sd": 1049,
+    "br": 618,
+    "pr": 618,
+    "wt": ["Ace Excl.", "Transformer"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “Transformer”, Enemy EX Skill power reduced 30%"
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1049,
+    "ma": 1049,
+    "sa": 509,
+    "md": 1049,
+    "sd": 1049,
+    "br": 618,
+    "pr": 618,
+    "wt": ["Ace Excl.", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Rifle category equipped, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 509,
+    "ma": 0,
+    "sa": 4674,
+    "md": 0,
+    "sd": 0,
+    "br": 556,
+    "pr": 556,
+    "wt": ["Ace Excl.", "Mid-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Max Output Buster Rifle",
+      "description": "Fire a rifle rivaling a warship's main battery at full output.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [79, 20]
+      }
+    },
+    "name": "Buster Rifle [Wing] [Endless Waltz Ver.]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 1049,
+    "ma": 1049,
+    "sa": 509,
+    "md": 1049,
+    "sd": 1049,
+    "br": 618,
+    "pr": 618,
+    "wt": ["Ace Excl.", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Shield Bash",
+      "description": "Unleash attacks with the beam saber in your shield. Raise your Melee Attack by 19%.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    },
+    "name": "Shield [Wing] [Endless Waltz Ver.]"
+  }]
+}, {
   "name": "Wing Gundam [Pre-Registration Reward]",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28519,6 +30848,7 @@
   "name": "Wing Gundam 0 [Endless Waltz Ver.]",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28638,6 +30968,7 @@
   "name": "Wing Gundam Fenice",
   "attribute": "Technique",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -28788,6 +31119,7 @@
   "name": "Yami Syougun",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -28919,6 +31251,7 @@
   "name": "Z'Gok",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "body",
@@ -29009,6 +31342,7 @@
   "name": "Zaku II",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29162,6 +31496,7 @@
   "name": "Zaku II [Char Aznable]",
   "attribute": "Speed",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29256,6 +31591,7 @@
   "name": "Zaku II Kai",
   "attribute": "Technique",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29369,6 +31705,7 @@
   "name": "Zaku II Type FS [Garma Zabi]",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29532,6 +31869,7 @@
   "name": "Zaku III Custom",
   "attribute": "Power",
   "rarity": 3,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29671,6 +32009,7 @@
   "name": "Zaku Minelayer",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29764,6 +32103,7 @@
   "name": "Zeong",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -29848,9 +32188,91 @@
     }
   }]
 }, {
+  "name": "Zeong [Beginner Campaign]",
+  "attribute": "Technique",
+  "rarity": 1,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 516,
+    "ma": 516,
+    "sa": 3955,
+    "md": 516,
+    "sd": 1358,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Zeon", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Melee DEF is over 2000, Long Shot Attack raised 14%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1903,
+    "ma": 516,
+    "sa": 516,
+    "md": 842,
+    "sd": 1903,
+    "br": 288,
+    "pr": 288,
+    "wt": ["Zeon", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While “For Space”, Shooting power boosted 25%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1358,
+    "ma": 842,
+    "sa": 516,
+    "md": 516,
+    "sd": 2112,
+    "br": 288,
+    "pr": 288,
+    "wt": ["Zeon", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "5-Barrel Mega Particle Cannon",
+      "description": "Detach your forearm and fire mega particle cannon beams at the enemy.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 842,
+    "ma": 516,
+    "sa": 516,
+    "md": 842,
+    "sd": 1903,
+    "br": 431,
+    "pr": 431,
+    "wt": ["Zeon", "Long-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Torso Mega Particle Cannon",
+      "description": "Fire at enemies ahead with the mega particle Cannon equipped to your waist.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    }
+  }]
+}, {
   "name": "Zeta Gundam",
   "attribute": "Speed",
   "rarity": 4,
+  "level": 80,
   "sokai": 1,
   "parts": [{
     "part": "head",
@@ -30064,6 +32486,7 @@
   "name": "Zudah",
   "attribute": "Technique",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -30187,6 +32610,7 @@
   "name": "Zudah [ALT]",
   "attribute": "Speed",
   "rarity": 1,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -30311,6 +32735,7 @@
   "name": "Zudah [Commander Type]",
   "attribute": "Speed",
   "rarity": 2,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",
@@ -30422,6 +32847,7 @@
   "name": "ν-Zeon Gundam",
   "attribute": "Power",
   "rarity": 5,
+  "level": 80,
   "sokai": 0,
   "parts": [{
     "part": "head",

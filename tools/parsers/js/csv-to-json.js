@@ -49,6 +49,7 @@ const transformPilotData = (record) => {
     "jl": findByIndex(JobLicenseIndex, record['Job Lic']),
     "attribute": findByIndex(AttributeIndex, record['Attr']),
     "rarity": record['Rarity'],
+    "level": record['Level'],
     "a": record['Armor'],
     "ma": record['Melee ATK'],
     "sa": record['Shot ATK'],
@@ -71,6 +72,7 @@ const transformUnitData = (unit) => {
     "name": unit['Name'] + (unit['Subname'] ? ` [${unit['Subname']}]` : ''),
     "attribute": findByIndex(AttributeIndex, unit['Attr']),
     "rarity": unit['Rarity'],
+    "level": unit['Level'],
     "sokai": isSokai(unit) ? 1 : 0,
     "parts": stores.parts.data
         .filter(part => part['Unit ID'] === unit['Index'])
@@ -134,15 +136,6 @@ const transformUnitData = (unit) => {
           return result;
         })
   };
-
-  /**
-   switch (unit['Name']) {
-    case 'Gundam Artemis':
-    case 'Code ϕ':
-      resultUnit.specialRarity = 4;
-      break;
-  }
-   */
 
   return resultUnit;
 };

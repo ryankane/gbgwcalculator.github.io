@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.0
+
+- Added initial support for level 99 parts
+- Added part level indicators
+- Added Twin Rifle
+
 ## 1.2.4
 
 - Improved part search
