@@ -2,6 +2,8 @@ name: Merge upstream branches every Thursday 00:00
 on:
   schedule:
     - cron:  '0 */12 * * *'
+  workflow_dispatch:
+
 jobs:
   merge:
     runs-on: ubuntu-latest
