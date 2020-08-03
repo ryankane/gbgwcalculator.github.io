@@ -56,7 +56,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 55,Seventh Ray Shot,Bathe foes in high-output beams from your rifle.,1,A,D,,,60,15
 56,Vulcan Pod,Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 57,Shock Bringer β,Ally attacks stun large foes more easily for a set period.,5,,,37,,33,7
-58,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,D,C,,,19,5
+58,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,B,D,,,19,5
 59,Panic Maker,Fire special high-powered rounds from your machine gun.,1,B+,D,,,21,3
 60,Sturm Faust,Fire the portable grenade launcher on your shield. You can move while firing.,2,D,C,,7,60,0
 61,Recovery Tool β,Ally recovers 38% of maximum Armor.,8,,,,,33,7
@@ -537,3 +537,6 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 536,Mega Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,D,B,,11,60,0
 537,V.S.B.R.,Wedge the cannon on your back under your arm to fire projectiles. You can move while firing.,1,D,B+,,7,60,0
 538,Claw Arm [Alvatore],"Merge with the giant golden Mobile Armor, attack with your arm claws, and fire close-range beams.",4,D,B+,,,21,6
+539,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,3,D,B,,,21,6
+540,Sturm Faust,Fire the portable grenade launcher on your shield. You can move while firing.,2,A-,D,,11,60,0
+541,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,4,D,C,,,19,5
