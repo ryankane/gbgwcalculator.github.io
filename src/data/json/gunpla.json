@@ -1045,7 +1045,7 @@
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+      "name": "With Rifle category equipped, Enemy Shooting power reduced 30%"
     },
     "name": "Type 71 Experimental Defensive Shield"
   }]
@@ -2186,7 +2186,7 @@
     "wt": ["Protag.", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Enemy EX Skill penetration reduced 22%"
+      "name": "With Saber category equipped, Enemy EX Skill penetration reduced 22%"
     }
   }, {
     "part": "back",
@@ -2576,7 +2576,7 @@
     "wt": ["Federation", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Federation”, Mid Shot Attack raised 10%"
+      "name": "While \"Federation\", Mid Shot Attack raised 10%"
     }
   }]
 }, {
@@ -2733,7 +2733,7 @@
     "wt": ["Amphib.", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, Buff EX Skill effect up 15%"
+      "name": "With Module category equipped, Buff EX Skill effect up 15%"
     },
     "combo": {
       "type": "legs",
@@ -2824,7 +2824,7 @@
     "wt": ["Amphib.", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, Buff EX Skill effect up 15%"
+      "name": "With Module category equipped, Buff EX Skill effect up 15%"
     },
     "combo": {
       "type": "legs",
@@ -4383,7 +4383,7 @@
     "wt": ["Long-Range", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, Buff EX Skill effect up 12%"
+      "name": "With Module category equipped, Buff EX Skill effect up 12%"
     }
   }, {
     "part": "arms",
@@ -4529,7 +4529,7 @@
     "wt": ["High Mobility", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, Close Shot Attack raised 10%"
+      "name": "With Module category equipped, Close Shot Attack raised 10%"
     }
   }, {
     "part": "back",
@@ -5570,7 +5570,7 @@
     "wt": ["Transformer", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Sp. Shot DMG taken reduced by 20"
+      "name": "With Rifle category equipped, Sp. Shot DMG taken reduced by 20"
     }
   }, {
     "part": "legs",
@@ -5948,7 +5948,7 @@
     "wt": ["Gundam Type", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, Melee power boosted 30%"
+      "name": "With Blade category equipped, Melee power boosted 30%"
     }
   }, {
     "part": "arms",
@@ -6272,7 +6272,7 @@
     "wt": ["Heavy Armor", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Enemy Shooting power reduced 10%"
+      "name": "With Bazooka category equipped, Enemy Shooting power reduced 10%"
     },
     "name": "Raketen Bazooka",
     "type": "Physical",
@@ -7007,7 +7007,7 @@
     "wt": ["Heavy Armor", "Zeon"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Shooting DMG output boosted by 10"
+      "name": "With Bazooka category equipped, Shooting DMG output boosted by 10"
     },
     "name": "Giant Bazooka [Dreissen]",
     "type": "Physical",
@@ -7054,7 +7054,7 @@
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Sp. Shot power boosted 25%"
+      "name": "With Bazooka category equipped, Sp. Shot power boosted 25%"
     }
   }, {
     "part": "arms",
@@ -7728,7 +7728,7 @@
     "wt": ["Gundam Type", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, EX Skill CD reduced 20%"
+      "name": "With Blade category equipped, EX Skill CD reduced 20%"
     }
   }, {
     "part": "back",
@@ -7777,6 +7777,280 @@
     "name": "Hyper Beam Saber [Enhanced ZZ (Ver. Ka)] ",
     "type": "Beam",
     "category": "Blade"
+  }]
+}, {
+  "name": "Extreme Gundam",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 3,
+    "a": 687,
+    "ma": 356,
+    "sa": 2066,
+    "md": 687,
+    "sd": 687,
+    "br": 0,
+    "pr": 374,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Saber category equipped, Shooting power boosted 25%"
+    }
+  }, {
+    "part": "body",
+    "mark": 3,
+    "a": 1398,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 0,
+    "pr": 527,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Buff EX Skill effect up 15%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 3,
+    "a": 687,
+    "ma": 2066,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Gundam Type", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Speed attribute (self), Melee power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 3,
+    "a": 687,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 374,
+    "pr": 527,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Before 60s pass, Enemy Melee power reduced 25%"
+    }
+  }, {
+    "part": "back",
+    "mark": 3,
+    "a": 687,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 374,
+    "pr": 527,
+    "wt": ["Gundam Type", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Double Saber Rush",
+      "description": "Cleave through enemies with sabers in each hand.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B-",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "melee",
+    "mark": 3,
+    "a": 687,
+    "ma": 2794,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 153,
+    "pr": 527,
+    "wt": ["Gundam Type", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "21% chance of attacks penetrating super armor"
+    },
+    "name": "Beam Saber [Extreme]",
+    "type": "Beam",
+    "category": "Saber"
+  }, {
+    "part": "range",
+    "mark": 3,
+    "a": 687,
+    "ma": 0,
+    "sa": 2794,
+    "md": 0,
+    "sd": 0,
+    "br": 153,
+    "pr": 527,
+    "wt": ["Gundam Type", "Ace Excl."],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Beam ranged weapon, reload speed boosted 15%"
+    },
+    "name": "Beam Rifle [Extreme]",
+    "type": "Beam",
+    "category": "Rifle"
+  }, {
+    "part": "shield",
+    "mark": 3,
+    "a": 687,
+    "ma": 0,
+    "sa": 0,
+    "md": 1398,
+    "sd": 1398,
+    "br": 153,
+    "pr": 713,
+    "wt": ["Gundam Type", "Ace Excl."],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Extreme Tension",
+      "description": "Strum the guitar stowed in your shield to raise your spirits. Recover 48% of your maximum Armor. Raise your Melee and Shot Attack by 19%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 51,
+        "Cd": [60, 12]
+      }
+    },
+    "name": "Shield [Extreme]"
+  }]
+}, {
+  "name": "Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color]",
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 509,
+    "ma": 509,
+    "sa": 4137,
+    "md": 509,
+    "sd": 1537,
+    "br": 0,
+    "pr": 0,
+    "wt": ["High Firepower", "Long-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Extreme Burst",
+      "description": "Activate your EX Burst to temporarily boost performance by a wide margin. Raise your speed by 20%. Raise your Shot Attack by 39%.",
+      "category": "Awakening",
+      "stats": {
+        "Dur": 44,
+        "Cd": [60, 12]
+      }
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2082,
+    "ma": 509,
+    "sa": 509,
+    "md": 1046,
+    "sd": 2082,
+    "br": 0,
+    "pr": 796,
+    "wt": ["High Firepower", "Long-Range"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"High Firepower”, Shooting power boosted 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 1537,
+    "ma": 1046,
+    "sa": 509,
+    "md": 509,
+    "sd": 2082,
+    "br": 281,
+    "pr": 553,
+    "wt": ["High Firepower", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Carnage Striker & Eclipse Cluster",
+      "description": "Fire a mass of energy from your shoulder Carnage Striker, as well as a myriad of small missiles.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1046,
+    "ma": 509,
+    "sa": 509,
+    "md": 1046,
+    "sd": 2082,
+    "br": 796,
+    "pr": 553,
+    "wt": ["High Firepower", "For Computers"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Single-Warhead Missile",
+      "description": "Fire missiles from the launchers mounted on your waist.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B+",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1046,
+    "ma": 509,
+    "sa": 509,
+    "md": 1046,
+    "sd": 2082,
+    "br": 553,
+    "pr": 796,
+    "wt": ["High Firepower", "Long-Range"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "EXA Full Burst",
+      "description": "Briefly activate EXA Phase, rapidly accelerating evolution, and fire your rifle and funnels. Raise your speed by 20%. Raise your Shot Attack by 39%.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "A+",
+        "Pow": "C-",
+        "Cd": [60, 15]
+      }
+    }
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 509,
+    "ma": 0,
+    "sa": 5207,
+    "md": 0,
+    "sd": 0,
+    "br": 281,
+    "pr": 553,
+    "wt": ["High Firepower", "For Computers"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Armor is 60% or more, Job Gauge increase boosted 17%"
+    },
+    "name": "Variable Psyco Rifle [Extreme Eclipse-F/ EXVS. 10th Anniv. Color]",
+    "type": "Beam",
+    "category": "Twin Rifle"
   }]
 }, {
   "name": "Force Impulse Gundam",
@@ -7893,7 +8167,7 @@
     "wt": ["Gundam Type", "For Tundra"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Initial EX Skill charge boosted 20%"
+      "name": "With Rifle category equipped, Initial EX Skill charge boosted 20%"
     },
     "name": "Vajra Beam Saber",
     "type": "Beam",
@@ -7911,7 +8185,7 @@
     "wt": ["Gundam Type", "Protag."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+      "name": "With Rifle category equipped, Enemy Shooting power reduced 30%"
     },
     "name": "MA-BAR72 High-Energy Beam Rifle",
     "type": "Beam",
@@ -7959,7 +8233,7 @@
     "wt": ["Gundam Type", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 25%"
+      "name": "With Rifle category equipped, Enemy Shooting power reduced 25%"
     }
   }, {
     "part": "body",
@@ -8345,7 +8619,7 @@
     "wt": ["Mass P.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, Close Shot Attack raised 10%"
+      "name": "With Module category equipped, Close Shot Attack raised 10%"
     }
   }, {
     "part": "body",
@@ -8404,7 +8678,7 @@
     "wt": ["Mass P.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, EX Skill recovery boosted 18%"
+      "name": "With Module category equipped, EX Skill recovery boosted 18%"
     }
   }, {
     "part": "back",
@@ -9312,7 +9586,7 @@
     "wt": ["Mass P.", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Strong Melee DMG taken reduced by 10"
+      "name": "With Rifle category equipped, Strong Melee DMG taken reduced by 10"
     }
   }, {
     "part": "arms",
@@ -9397,7 +9671,7 @@
     "wt": ["Long-Range", "For Tundra"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Shot spread reduced 10%"
+      "name": "With Machine Gun category equipped, Shot spread reduced 10%"
     }
   }, {
     "part": "body",
@@ -9547,7 +9821,7 @@
     "wt": ["Mid-Range", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot power boosted 18%"
+      "name": "With Machine Gun category equipped, Sp. Shot power boosted 18%"
     }
   }, {
     "part": "back",
@@ -9577,7 +9851,7 @@
     "wt": ["Mid-Range", "Zeon"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot power boosted 18%"
+      "name": "With Machine Gun category equipped, Sp. Shot power boosted 18%"
     },
     "name": "Large Beam Machine Gun [Gelgoog Jäger]",
     "type": "Beam",
@@ -9761,7 +10035,7 @@
     "wt": ["Mass P.", "GM Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Melee DMG taken reduced by 10"
+      "name": "With Saber category equipped, Melee DMG taken reduced by 10"
     }
   }, {
     "part": "legs",
@@ -9882,7 +10156,7 @@
     "wt": ["Commander", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Strong Melee DMG taken reduced by 10"
+      "name": "With Rifle category equipped, Strong Melee DMG taken reduced by 10"
     }
   }, {
     "part": "arms",
@@ -9897,7 +10171,7 @@
     "wt": ["Commander", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Sp. Shot DMG taken reduced by 10"
+      "name": "With Rifle category equipped, Sp. Shot DMG taken reduced by 10"
     }
   }, {
     "part": "legs",
@@ -11458,7 +11732,7 @@
     "wt": ["Protag.", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Melee power boosted 30%"
+      "name": "With Saber category equipped, Melee power boosted 30%"
     }
   }, {
     "part": "arms",
@@ -11788,7 +12062,7 @@
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Debuff EX Skill effect up 15%"
+      "name": "With Rifle category equipped, Debuff EX Skill effect up 15%"
     },
     "name": "Shield [Gundam / Pre-Registration Reward]"
   }]
@@ -12539,7 +12813,7 @@
     "wt": ["Protag.", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “For Computers”, EX Skill power boosted 30%"
+      "name": "While \"For Computers\", EX Skill power boosted 30%"
     }
   }, {
     "part": "body",
@@ -12862,7 +13136,7 @@
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, EX Skill DMG output boosted by 35"
+      "name": "With Blade category equipped, EX Skill DMG output boosted by 35"
     }
   }, {
     "part": "arms",
@@ -12983,7 +13257,7 @@
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, Shooting DMG taken reduced by 35"
+      "name": "With Blade category equipped, Shooting DMG taken reduced by 35"
     },
     "name": "Rifle [Astaroth]",
     "type": "Physical",
@@ -13165,7 +13439,7 @@
     "wt": ["Protag.", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Close Combat”, Melee CRIT rate boosted 17%"
+      "name": "While \"Close Combat\", Melee CRIT rate boosted 17%"
     }
   }, {
     "part": "legs",
@@ -13381,7 +13655,7 @@
     "wt": ["For Urban Area", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, EX Skill DMG output boosted by 35"
+      "name": "With Blade category equipped, EX Skill DMG output boosted by 35"
     }
   }, {
     "part": "body",
@@ -13693,7 +13967,7 @@
     "wt": ["High Mobility", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Mid Shot Attack raised 20%"
+      "name": "With Axe category equipped, Mid Shot Attack raised 20%"
     }
   }, {
     "part": "legs",
@@ -13708,7 +13982,7 @@
     "wt": ["High Mobility", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, EX Skill CD reduced 20%"
+      "name": "With Axe category equipped, EX Skill CD reduced 20%"
     }
   }, {
     "part": "back",
@@ -13879,7 +14153,7 @@
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Gundam Type”, Melee DMG output boosted by 20"
+      "name": "While \"Gundam Type\", Melee DMG output boosted by 20"
     }
   }]
 }, {
@@ -13966,7 +14240,7 @@
     "wt": ["Gundam Type", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Melee CRIT rate boosted 30%"
+      "name": "With Axe category equipped, Melee CRIT rate boosted 30%"
     }
   }, {
     "part": "back",
@@ -15032,7 +15306,7 @@
     "wt": ["Close Combat", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “For Space”, EX Skill DMG output boosted 35"
+      "name": "While \"For Space\", EX Skill DMG output boosted 35"
     },
     "name": "GN Shield [Exia Dark Matter]"
   }]
@@ -15231,7 +15505,7 @@
     "wt": ["Protag.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, EX Skill DMG output boosted by 35"
+      "name": "With Saber category equipped, EX Skill DMG output boosted by 35"
     }
   }, {
     "part": "arms",
@@ -15246,7 +15520,7 @@
     "wt": ["Protag.", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Sp. Shot power boosted 30%"
+      "name": "With Bazooka category equipped, Sp. Shot power boosted 30%"
     },
     "combo": {
       "type": "shield",
@@ -15310,7 +15584,7 @@
     "wt": ["Protag.", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Melee DMG output boosted by 35"
+      "name": "With Rifle category equipped, Melee DMG output boosted by 35"
     },
     "name": "Beam Saber [F91]",
     "type": "Beam",
@@ -15328,7 +15602,7 @@
     "wt": ["Protag.", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, EX Skill power boosted 30%"
+      "name": "With Saber category equipped, EX Skill power boosted 30%"
     },
     "name": "Beam Launcher [F91]",
     "type": "Beam",
@@ -15346,7 +15620,7 @@
     "wt": ["Protag.", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Initial EX Skill charge boosted 20%"
+      "name": "With Saber category equipped, Initial EX Skill charge boosted 20%"
     },
     "name": "Beam Rifle [F91]",
     "type": "Beam",
@@ -15416,7 +15690,7 @@
     "wt": ["Protag.", "Federation"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Federation” Melee power boosted 30%"
+      "name": "While \"Federation\" Melee power boosted 30%"
     },
     "combo": {
       "type": "shield",
@@ -15491,7 +15765,7 @@
     "wt": ["Protag.", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Protag.”, Enemy Shooting power reduced 30%"
+      "name": "While \"Protag.\", Enemy Shooting power reduced 30%"
     },
     "name": "Beam Rifle [ALT] [F91]",
     "type": "Beam",
@@ -16239,7 +16513,7 @@
     "wt": ["Zeon", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Debuff EX Skill effect up 22%"
+      "name": "With Bazooka category equipped, Debuff EX Skill effect up 22%"
     }
   }, {
     "part": "range",
@@ -16614,7 +16888,7 @@
     "wt": ["Heavy Armor", "For Desert"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Shooting DMG taken reduced by 35"
+      "name": "With Axe category equipped, Shooting DMG taken reduced by 35"
     }
   }, {
     "part": "arms",
@@ -17378,7 +17652,7 @@
     "wt": ["Transformer", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Enemy Shooting power reduced 25%"
+      "name": "With Machine Gun category equipped, Enemy Shooting power reduced 25%"
     }
   }, {
     "part": "body",
@@ -17514,7 +17788,7 @@
     "wt": ["For Space", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Projectile speed boosted 15%"
+      "name": "With Rifle category equipped, Projectile speed boosted 15%"
     }
   }, {
     "part": "body",
@@ -17574,7 +17848,7 @@
     "wt": ["For Space", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, EX Skill CD reduced 20%"
+      "name": "With Saber category equipped, EX Skill CD reduced 20%"
     }
   }, {
     "part": "back",
@@ -17659,7 +17933,7 @@
     "wt": ["For Space", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Mid-Range”, Projectile speed boosted 14%"
+      "name": "While \"Mid-Range\", Projectile speed boosted 14%"
     }
   }, {
     "part": "body",
@@ -18657,7 +18931,7 @@
     "wt": ["Mobile Fighter", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Buff EX Skill time up 15%"
+      "name": "With Saber category equipped, Buff EX Skill time up 15%"
     }
   }, {
     "part": "melee",
@@ -18780,7 +19054,7 @@
     "wt": ["Mobile Fighter", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Buff EX Skill time up 15%"
+      "name": "With Saber category equipped, Buff EX Skill time up 15%"
     }
   }, {
     "part": "melee",
@@ -18872,7 +19146,7 @@
     "wt": ["Heavy Armor", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Enemy Strong Melee power reduced 18%"
+      "name": "With Machine Gun category equipped, Enemy Strong Melee power reduced 18%"
     }
   }, {
     "part": "back",
@@ -19895,7 +20169,7 @@
     "wt": ["Heavy Armor", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Sp. Shot power boosted 25%"
+      "name": "With Bazooka category equipped, Sp. Shot power boosted 25%"
     }
   }, {
     "part": "legs",
@@ -20138,7 +20412,7 @@
     "wt": ["Mid-Range", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Blade Category equipped, Strong Melee power boosted 30%"
+      "name": "With Blade category equipped, Strong Melee power boosted 30%"
     }
   }, {
     "part": "arms",
@@ -20392,7 +20666,7 @@
     "wt": ["Close Combat", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, Sp. Shot DMG output boosted by 10"
+      "name": "With Saber category equipped, Sp. Shot DMG output boosted by 10"
     }
   }, {
     "part": "legs",
@@ -20643,7 +20917,7 @@
     "wt": ["Ace Excl.", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, EX Skill power boosted 25%"
+      "name": "With Bazooka category equipped, EX Skill power boosted 25%"
     }
   }, {
     "part": "body",
@@ -21004,7 +21278,7 @@
     "wt": ["Commander", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Shot spread reduced 15%"
+      "name": "With Bazooka category equipped, Shot spread reduced 15%"
     }
   }, {
     "part": "back",
@@ -21183,7 +21457,7 @@
     "wt": ["For Space", "Long-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Gatling Gun Category equipped, Mid Shot Attack raised 14%"
+      "name": "With Gatling Gun category equipped, Mid Shot Attack raised 14%"
     }
   }, {
     "part": "melee",
@@ -21308,7 +21582,7 @@
     "wt": ["Mid-Range", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Sp. Shot DMG output boosted by 15"
+      "name": "With Bazooka category equipped, Sp. Shot DMG output boosted by 15"
     }
   }, {
     "part": "legs",
@@ -21602,7 +21876,7 @@
     "wt": ["Long-Range", "Support Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot DMG output boosted by 15"
+      "name": "With Machine Gun category equipped, Sp. Shot DMG output boosted by 15"
     },
     "name": "Beam Rifle [Jesta Cannon]",
     "type": "Beam",
@@ -21717,7 +21991,7 @@
     "wt": ["Long-Range", "Support Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot DMG output boosted by 15"
+      "name": "With Machine Gun category equipped, Sp. Shot DMG output boosted by 15"
     },
     "name": "Beam Rifle [ALT] [Jesta Cannon]",
     "type": "Beam",
@@ -22031,7 +22305,7 @@
     "wt": ["Mid-Range", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Whip Category equipped, Mid Shot Attack raised 14%"
+      "name": "With Whip category equipped, Mid Shot Attack raised 14%"
     }
   }, {
     "part": "back",
@@ -22668,7 +22942,7 @@
     "wt": ["Mass P.", "For Base"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot power boosted by 10"
+      "name": "With Machine Gun category equipped, Sp. Shot power boosted by 10"
     }
   }, {
     "part": "body",
@@ -22942,7 +23216,7 @@
     "wt": ["Long-Range", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “For Computers”, Enemy EX Skill penetration reduced 22%"
+      "name": "While \"For Computers\", Enemy EX Skill penetration reduced 22%"
     }
   }, {
     "part": "arms",
@@ -23393,7 +23667,7 @@
     "wt": ["Mobile Fighter", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Mobile Fighter”, EX Skill piercing boosted 22%"
+      "name": "While \"Mobile Fighter\", EX Skill piercing boosted 22%"
     }
   }, {
     "part": "body",
@@ -23527,7 +23801,7 @@
     "wt": ["Transformer", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Transformer”, Shooting CRIT rate boosted 17%"
+      "name": "While \"Transformer\", Shooting CRIT rate boosted 17%"
     }
   }, {
     "part": "back",
@@ -23813,7 +24087,7 @@
     "wt": ["Close Combat", "Zeon"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, EX Skill DMG output boosted by 10"
+      "name": "With Axe category equipped, EX Skill DMG output boosted by 10"
     }
   }, {
     "part": "body",
@@ -23886,7 +24160,7 @@
     "wt": ["Close Combat", "For Urban Area"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Debuff EX Skill effect up 10%"
+      "name": "With Axe category equipped, Debuff EX Skill effect up 10%"
     }
   }, {
     "part": "shield",
@@ -24325,7 +24599,7 @@
     "wt": ["For Space", "Ace Excl."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+      "name": "With Rifle category equipped, Enemy Shooting power reduced 30%"
     },
     "name": "Shield [Nu Ver.Ka]"
   }]
@@ -24819,7 +25093,7 @@
     "wt": ["Ace Excl.", "High Mobility"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Shooting power reduced 30%"
+      "name": "With Rifle category equipped, Enemy Shooting power reduced 30%"
     }
   }, {
     "part": "body",
@@ -25293,7 +25567,7 @@
     "wt": ["Zaku Type", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “High Firepower”, EX Skill piercing boosted 22%"
+      "name": "While \"High Firepower\", EX Skill piercing boosted 22%"
     }
   }, {
     "part": "legs",
@@ -25847,6 +26121,102 @@
       }
     },
     "name": "GN Shield [Reborns]"
+  }]
+}, {
+  "name": "Reginlaze Julia",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 1537,
+    "ma": 509,
+    "sa": 1046,
+    "md": 1537,
+    "sd": 509,
+    "br": 553,
+    "pr": 281,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Close Combat\", EX Skill power boosted 30%"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 2082,
+    "ma": 509,
+    "sa": 509,
+    "md": 2082,
+    "sd": 1046,
+    "br": 796,
+    "pr": 0,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Power attribute (self), Enemy EX Skill power reduced 30%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 509,
+    "ma": 4137,
+    "sa": 509,
+    "md": 2082,
+    "sd": 509,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Close Combat", "High Mobility"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Julian Sword",
+      "description": "Change the blades equipped to your arms into blade-whips and attack your enemies.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "A",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 1046,
+    "ma": 509,
+    "sa": 509,
+    "md": 2082,
+    "sd": 1046,
+    "br": 553,
+    "pr": 796,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Whirlwind Kick",
+      "description": "Unleash a whirlwind of attacks using the sharp edges of your legs.",
+      "category": "Physical Melee",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 1046,
+    "ma": 509,
+    "sa": 509,
+    "md": 2082,
+    "sd": 1046,
+    "br": 796,
+    "pr": 553,
+    "wt": ["Close Combat", "For Space"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Physical ranged weapon, magazine boosted 20%"
+    }
   }]
 }, {
   "name": "Rick Dias [ALT] [Quattro Bajeena Colors]",
@@ -26536,7 +26906,7 @@
     "wt": ["Transformer", "Commander"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Transformer”, Close Shot Attack raised 14%"
+      "name": "While \"Transformer\", Close Shot Attack raised 14%"
     }
   }, {
     "part": "back",
@@ -26865,7 +27235,7 @@
     "wt": ["Heavy Armor", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Module Category equipped, EX Skill piercing boosted 28%"
+      "name": "With Module category equipped, EX Skill piercing boosted 28%"
     }
   }, {
     "part": "back",
@@ -27693,7 +28063,7 @@
     "wt": ["Mobile Fighter", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Mobile Fighter”, Enemy Shooting power reduced 25%"
+      "name": "While \"Mobile Fighter\", Enemy Shooting power reduced 25%"
     }
   }, {
     "part": "body",
@@ -27788,7 +28158,7 @@
     "wt": ["Protag.", "Mid-Range"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Mid-Range”, Shooting power boosted 30%"
+      "name": "While \"Mid-Range\", Shooting power boosted 30%"
     }
   }, {
     "part": "body",
@@ -28347,7 +28717,7 @@
     "wt": ["Gundam Type", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Dual Sabers Category equipped, EX Skill DMG output boosted by 20"
+      "name": "With Dual Sabers category equipped, EX Skill DMG output boosted by 20"
     }
   }, {
     "part": "arms",
@@ -28658,7 +29028,7 @@
     "wt": ["Close Combat", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Dual Sabers Category equipped, Melee power boosted 25%"
+      "name": "With Dual Sabers category equipped, Melee power boosted 25%"
     }
   }, {
     "part": "legs",
@@ -28921,7 +29291,7 @@
     "wt": ["High Mobility", "Close Combat"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Saber Category equipped, 28% chance to not recoil"
+      "name": "With Saber category equipped, 28% chance to not recoil"
     }
   }, {
     "part": "back",
@@ -29456,7 +29826,7 @@
     "wt": ["Protag.", "High Firepower"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Enemy Melee power reduced 30%"
+      "name": "With Rifle category equipped, Enemy Melee power reduced 30%"
     }
   }, {
     "part": "melee",
@@ -29941,7 +30311,7 @@
     "wt": ["High Firepower", "Gundam Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “High Firepower”, Shooting power boosted 30%"
+      "name": "While \"High Firepower\", Shooting power boosted 30%"
     }
   }, {
     "part": "arms",
@@ -30259,7 +30629,7 @@
     "wt": ["Ace Excl.", "For Computers"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Bazooka Category equipped, Projectile speed boosted 15%"
+      "name": "With Bazooka category equipped, Projectile speed boosted 15%"
     }
   }, {
     "part": "back",
@@ -30350,7 +30720,7 @@
     "wt": ["For Forest", "Protag."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, EX Skill piercing boosted 28%"
+      "name": "With Rifle category equipped, EX Skill piercing boosted 28%"
     }
   }, {
     "part": "arms",
@@ -30391,7 +30761,7 @@
     "wt": ["For Forest", "Mass P."],
     "ex": {
       "type": "Part Traits",
-      "name": "With Rifle Category equipped, Close Shot Attack raised 20%"
+      "name": "With Rifle category equipped, Close Shot Attack raised 20%"
     }
   }, {
     "part": "back",
@@ -30785,7 +31155,7 @@
     "wt": ["Ace Excl.", "Transformer"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “Transformer”, Enemy EX Skill power reduced 30%"
+      "name": "While \"Transformer\", Enemy EX Skill power reduced 30%"
     }
   }, {
     "part": "back",
@@ -31569,7 +31939,7 @@
     "wt": ["Mass P.", "Zaku Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Axe Category equipped, Shooting DMG taken reduced by 10"
+      "name": "With Axe category equipped, Shooting DMG taken reduced by 10"
     }
   }, {
     "part": "back",
@@ -31584,7 +31954,7 @@
     "wt": ["Mass P.", "Zaku Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Sp. Shot power boosted 18%"
+      "name": "With Machine Gun category equipped, Sp. Shot power boosted 18%"
     }
   }, {
     "part": "melee",
@@ -31762,7 +32132,7 @@
     "wt": ["High Mobility", "For Forest"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Close Shot Attack raised 10%"
+      "name": "With Machine Gun category equipped, Close Shot Attack raised 10%"
     }
   }, {
     "part": "body",
@@ -31792,7 +32162,7 @@
     "wt": ["High Mobility", "Zaku Type"],
     "ex": {
       "type": "Part Traits",
-      "name": "With Machine Gun Category equipped, Melee DMG output boosted 15%"
+      "name": "With Machine Gun category equipped, Melee DMG output boosted 15%"
     }
   }, {
     "part": "legs",
@@ -32377,7 +32747,7 @@
     "wt": ["Zeon", "For Space"],
     "ex": {
       "type": "Part Traits",
-      "name": "While “For Space”, Shooting power boosted 25%"
+      "name": "While \"For Space\", Shooting power boosted 25%"
     }
   }, {
     "part": "arms",
