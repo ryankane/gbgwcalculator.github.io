@@ -917,6 +917,24 @@
     "name": "When 2 enemies shot down, All CRIT rate boosted 17%"
   }
 }, {
+  "name": "Glemy Toto",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1083,
+  "ma": 356,
+  "sa": 1083,
+  "md": 687,
+  "sd": 687,
+  "br": 527,
+  "pr": 153,
+  "wt": ["Transformer", "Zeon"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "After 15s pass, Long Shot Attack raised 14%"
+  }
+}, {
   "name": "Gym Ghingham",
   "jl": "In-Fighter",
   "attribute": "Power",
@@ -1761,6 +1779,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
+  "name": "Orga Itsuka",
+  "jl": "Defender",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 509,
+  "ma": 1538,
+  "sa": 1538,
+  "md": 1049,
+  "sd": 1049,
+  "br": 556,
+  "pr": 556,
+  "wt": ["Commander", "For Urban Area"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When buffed, Enemy Shooting power reduced 30%"
   }
 }, {
   "name": "Ortega",
