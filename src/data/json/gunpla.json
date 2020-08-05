@@ -8872,10 +8872,10 @@
       "type": "EX Skill",
       "name": "Brave Axe Combo",
       "description": "Bring down a wild rush of blows with your equipped axe.",
-      "category": "Physical Melee",
+      "category": "Beam Melee",
       "stats": {
-        "Prc": "D",
-        "Pow": "C",
+        "Prc": "B",
+        "Pow": "D",
         "Cd": [19, 5]
       }
     }
@@ -8967,6 +8967,162 @@
       }
     },
     "name": "Shield [Geara Doga]"
+  }]
+}, {
+  "name": "Geara Doga [Rezin Schnyder Custom]",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "sokai": 0,
+  "parts": [{
+    "part": "head",
+    "mark": 2,
+    "a": 687,
+    "ma": 356,
+    "sa": 2068,
+    "md": 687,
+    "sd": 687,
+    "br": 153,
+    "pr": 153,
+    "wt": ["Commander", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "Out-Fighter Job, Recover 10 Armor gradually"
+    }
+  }, {
+    "part": "body",
+    "mark": 2,
+    "a": 1400,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 262,
+    "pr": 262,
+    "wt": ["Commander", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "With Axe category equipped, EX Skill CD reduced 15%"
+    }
+  }, {
+    "part": "arms",
+    "mark": 2,
+    "a": 687,
+    "ma": 2068,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 0,
+    "pr": 0,
+    "wt": ["Commander", "Close Combat"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When Phys. RES is under 5000, Melee Power boosted 25%"
+    }
+  }, {
+    "part": "legs",
+    "mark": 2,
+    "a": 687,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 424,
+    "pr": 452,
+    "wt": ["Commander", "Zeon"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Brave Axe Combo",
+      "description": "Bring down a wild rush of blows with your equipped axe.",
+      "category": "Beam Melee",
+      "stats": {
+        "Prc": "D",
+        "Pow": "B",
+        "Cd": [21, 6]
+      }
+    }
+  }, {
+    "part": "back",
+    "mark": 2,
+    "a": 687,
+    "ma": 356,
+    "sa": 356,
+    "md": 1083,
+    "sd": 1083,
+    "br": 452,
+    "pr": 424,
+    "wt": ["Commander", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "When 2 enemies shot down, Melee power boosted 25%"
+    }
+  }, {
+    "part": "melee",
+    "mark": 2,
+    "a": 687,
+    "ma": 2795,
+    "sa": 0,
+    "md": 0,
+    "sd": 0,
+    "br": 374,
+    "pr": 374,
+    "wt": ["Commander", "Zeon"],
+    "ex": {
+      "type": "Part Traits",
+      "name": "While \"Commander\", Enemy Melee power reduced 25%"
+    },
+    "name": "Beam Sword/Axe [Geara Doga (Rezin Schnyder)]",
+    "type": "Beam",
+    "category": "Axe"
+  }, {
+    "part": "range",
+    "mark": 2,
+    "a": 687,
+    "ma": 0,
+    "sa": 2795,
+    "md": 0,
+    "sd": 0,
+    "br": 374,
+    "pr": 374,
+    "wt": ["Commander", "Zeon"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Panic Maker",
+      "description": "Fire special high-powered rounds from your machine gun.",
+      "category": "Beam Shot",
+      "stats": {
+        "Prc": "B+",
+        "Pow": "D",
+        "Cd": [21, 3]
+      }
+    },
+    "name": "Beam Machine Gun [Geara Doga (Rezin Schnyder)]",
+    "type": "Beam",
+    "category": "Machine Gun"
+  }, {
+    "part": "shield",
+    "mark": 2,
+    "a": 687,
+    "ma": 0,
+    "sa": 0,
+    "md": 1400,
+    "sd": 1400,
+    "br": 374,
+    "pr": 374,
+    "wt": ["Commander", "Close Combat"],
+    "ex": {
+      "type": "EX Skill",
+      "name": "Sturm Faust",
+      "description": "Fire the portable grenade launcher on your shield. You can move while firing.",
+      "category": "Physical Shot",
+      "stats": {
+        "Prc": "A-",
+        "Pow": "D",
+        "Mag": 11,
+        "Cd": [60, 0]
+      }
+    },
+    "name": "Shield [Geara Doga (Rezin Schnyder)]"
   }]
 }, {
   "name": "Gelgoog [Char Aznable]",
