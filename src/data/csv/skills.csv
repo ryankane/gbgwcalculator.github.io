@@ -546,5 +546,19 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 545,EXA Full Burst,"Briefly activate EXA Phase, rapidly accelerating evolution, and fire your rifle and funnels. Raise your speed by 20%. Raise your Shot Attack by 39%.",1,A+,C-,,,60,15
 546,Julian Sword,Change the blades equipped to your arms into blade-whips and attack your enemies.,4,A,D,,,21,3
 547,Whirlwind Kick,Unleash a whirlwind of attacks using the sharp edges of your legs.,4,B+,B,,,21,6
-4,Double Saber Rush,Cleave through enemies with sabers in each hand.,3,D,B-,,,21,6
 548,Extreme Tension,Strum the guitar stowed in your shield to raise your spirits. Recover 48% of your maximum Armor. Raise your Melee and Shot Attack by 19%.,6,,,51,,60,12
+549,Hull Unit,Attach your hull unit and fire the myriad mega particle cannon gun ports on your Gunpla. Raise your Shot Attack by 39%.,1,D,C,,,60,6
+550,Beam Tonfa,Execute a combo using Beam Tonfa attached to forearm.,3,D,B+,,,21,6
+551,Meteorite Kick,Perform slashing attacks with your beam axe and unleash a brutal meteoric kick. Raise your speed by 20%. Raise your Melee Attack by 24%.,4,D,B+,,,21,6
+552,Rocket Bazooka,Launch the Bazooka straped to the bottom of your rifle. You can move while firing.,2,D,B,,11,41,0
+553,Beam Axe,Unfold the beam axe stored in your shield and execute a rush attack.,3,D,B+,,,21,3
+554,Golden Raiment,Perform a combo attack with your gleaming wings and Mega Beam Blaster. Raise Shot Attack of your Squad by 29%. Raise Melee and Shot Defense of your Squad by 19%.,1,A+,C,,,79,8
+555,Hien Tatsumaki-kaeshi,Perform your secret technique and become an evil-vanquishing tornado of fire.,4,D,B+,,,21,6
+556,Handgun,Fire three rounds from the pistol equipped in your left hand.,2,D,B,,,21,6
+557,Rocket Launcher,Fire the rocket launcher equipped to your back.,2,D,B,,,21,6
+558,Heat Rush,Ready a Heat Nata in each hand and execute a rush attack.,4,A,D,,,21,3
+559,Amazing Knife,Attack with the knife stored in the holster on your waist.,4,D,B+,,,21,6
+560,Amazing Winner,Use the knife and rifle in your weapon binder to perform a flurry of attacks. Raise Shot Attack of your Squad by 39%.,1,D,A,,,79,20
+561,Cross Edge,Unleash a blindingly fast flurry with heat shotels in each hand.,4,A-,B-,,,21,6
+562,Excalibur,"Perform a combo with two detached swords, then link them for a spinning attack.",3,D,B,,,21,3
+563,Shield Throw,Throw your shield to attack.,4,A-,D,,,21,3
