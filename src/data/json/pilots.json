@@ -737,6 +737,24 @@
     "name": "With Power attribute (self), Buff EX Skill time up 15%"
   }
 }, {
+  "name": "Fon Spaak",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1049,
+  "ma": 1538,
+  "sa": 509,
+  "md": 1049,
+  "sd": 1538,
+  "br": 281,
+  "pr": 797,
+  "wt": ["Gundam Type", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 2 enemies shot down, All power boosted 30%"
+  }
+}, {
   "name": "Fuala Griffon",
   "jl": "Long-Shooter",
   "attribute": "Technique",
@@ -1637,6 +1655,24 @@
     "name": "With Speed attribute (self), Buff EX Skill effect up 12%"
   }
 }, {
+  "name": "Meer Campbell",
+  "jl": "Supporter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1537,
+  "ma": 509,
+  "sa": 1537,
+  "md": 1047,
+  "sd": 1047,
+  "br": 554,
+  "pr": 554,
+  "wt": ["Zaku Type", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Debuff EX Skill effect up 22%"
+  }
+}, {
   "name": "Mikazuki Augus",
   "jl": "Defender",
   "attribute": "Power",
@@ -1779,6 +1815,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
+  "name": "Norba Shino",
+  "jl": "Middle-Shooter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 687,
+  "sa": 687,
+  "md": 687,
+  "sd": 687,
+  "br": 374,
+  "pr": 374,
+  "wt": ["High Firepower", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Armor ≥ 60%, All Shot Attack raised 14%"
   }
 }, {
   "name": "Orga Itsuka",
@@ -2103,6 +2157,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Debuff EX Skill effect up 12%"
+  }
+}, {
+  "name": "Rondo Gina Sahaku",
+  "jl": "Out-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 687,
+  "sa": 687,
+  "md": 687,
+  "sd": 687,
+  "br": 527,
+  "pr": 153,
+  "wt": ["Commander", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While “High Mobility”, Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Rosamia Badam",

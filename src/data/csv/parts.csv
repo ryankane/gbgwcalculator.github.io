@@ -43,7 +43,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 42,Zaku II,01-05-2-01,9,2,,1,2,2,17,640,137,137,287,287,191,0,16,,,,"Free Missions, Friend Point Capsule, Capital Shop"
 43,Zaku II,01-05-3-01,9,3,,1,2,2,18,287,373,137,373,373,54,0,,"All-Rounder Job, Enemy Sp. Shot power reduced 10%",,,"Free Missions, Friend Point Capsule, Capital Shop"
 44,Zaku II,01-05-4-01,9,4,,1,2,2,18,373,137,137,511,137,191,54,,"With Axe category equipped, Shooting DMG taken reduced by 10",,,"Free Missions, Friend Point Capsule, Capital Shop"
-45,Zaku II,01-05-5-01,9,5,,1,2,2,18,373,137,137,373,287,191,54,,"With Machine Gun category equipped, Sp. Shot power boosted 18%",,,"Free Missions, Friend Point Capsule, Capital Shop"
+45,Zaku II,01-05-5-01,9,5,,1,2,2,18,373,137,137,373,287,191,54,,"With Axe category equipped, Debuff EX Skill effect up to 10%",,,"Free Missions, Friend Point Capsule, Capital Shop"
 46,Heat Hawk,01-05-6b-01,9,6,,1,2,2,17,373,798,0,287,0,138,54,17,,2,1,"Free Missions, Friend Point Capsule, Capital Shop"
 47,Zaku Bazooka,01-05-7d-01,9,7,,1,2,2,7,373,0,798,287,0,191,54,,Enemy Strong Melee power reduced 10%,2,12,"Free Missions, Friend Point Capsule, Capital Shop"
 48,Zaku Machine Gun [Zaku II],01-05-7c-01,9,7,,1,2,2,7,373,0,798,287,0,191,54,,Initial EX Skill charge boosted 10%,2,9,"Free Missions, Friend Point Capsule, Capital Shop"
@@ -1651,16 +1651,16 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1650,Beam Machine Gun [Geara Doga (Rezin Schnyder)],11-07-7c-01,260,7,,3,2,5,17,687,0,2795,0,0,374,374,59,,1,9,Arena Exchange
 1651,Shield [Geara Doga (Rezin Schnyder)],11-07-8-01,260,8,,3,2,5,6,687,0,0,1400,1400,374,374,540,,,,Arena Exchange
 1652,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-1-01,261,1,,5,2,10,8,509,509,4137,509,1537,0,0,542,,,,Pick-Up Drop Rate Step-Up Capsules
-1653,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-2-01,261,2,,5,2,10,8,2082,509,509,1046,2082,0,796,,"While ""High Firepower”, Shooting power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1653,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-2-01,261,2,,5,2,10,8,2082,509,509,1046,2082,0,796,,"While ""High Firepower"", Shooting power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
 1654,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-3-01,261,3,,5,2,10,26,1537,1046,509,509,2082,281,553,543,,,,Pick-Up Drop Rate Step-Up Capsules
 1655,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-4-01,261,4,,5,2,10,26,1046,509,509,1046,2082,796,553,544,,,,Pick-Up Drop Rate Step-Up Capsules
 1656,Extreme Gundam Eclipse-F [EXVS. 10th Anniv. Color],47-01-5-01,261,5,,5,2,10,8,1046,509,509,1046,2082,553,796,545,,,,Pick-Up Drop Rate Step-Up Capsules
 1657,Variable Psyco Rifle [Extreme Eclipse-F/ EXVS. 10th Anniv. Color],47-01-7-01,261,7,,5,2,10,26,509,0,5207,0,0,281,553,,"When Armor is 60% or more, Job Gauge increase boosted 17%",1,14,Pick-Up Drop Rate Step-Up Capsules
-1658,Reginlaze Julia,28-00-1-01,262,1,,5,1,6,9,1537,509,1046,1537,509,553,281,,"While ""Close Combat"", EX Skill power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
-1659,Reginlaze Julia,28-00-2-01,262,2,,5,1,6,9,2082,509,509,2082,1046,796,0,,"With Power attribute (self), Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules
-1660,Reginlaze Julia,28-00-3-01,262,3,,5,1,6,9,509,4137,509,2082,509,0,0,546,,,,Pick-Up Drop Rate Step-Up Capsules
-1661,Reginlaze Julia,28-00-4-01,262,4,,5,1,6,20,1046,509,509,2082,1046,553,796,547,,,,Pick-Up Drop Rate Step-Up Capsules
-1662,Reginlaze Julia,28-00-5-01,262,5,,5,1,6,20,1046,509,509,2082,1046,796,553,,"Physical ranged weapon, magazine boosted 20%",,,Pick-Up Drop Rate Step-Up Capsules
+1658,Reginlaze Julia,28-13-1-01,262,1,,5,1,6,9,1537,509,1046,1537,509,553,281,,"While ""Close Combat"", EX Skill power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1659,Reginlaze Julia,28-13-2-01,262,2,,5,1,6,9,2082,509,509,2082,1046,796,0,,"With Power attribute (self), Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1660,Reginlaze Julia,28-13-3-01,262,3,,5,1,6,9,509,4137,509,2082,509,0,0,546,,,,Pick-Up Drop Rate Step-Up Capsules
+1661,Reginlaze Julia,28-13-4-01,262,4,,5,1,6,20,1046,509,509,2082,1046,553,796,547,,,,Pick-Up Drop Rate Step-Up Capsules
+1662,Reginlaze Julia,28-13-5-01,262,5,,5,1,6,20,1046,509,509,2082,1046,796,553,,"Physical ranged weapon, magazine boosted 20%",,,Pick-Up Drop Rate Step-Up Capsules
 1663,Extreme Gundam,47-02-1-01,263,1,,3,3,13,6,687,356,2066,687,687,0,374,,"With Saber category equipped, Shooting power boosted 25%",,,Extreme Coins (Weekly Event)
 1664,Extreme Gundam,47-02-2-01,263,2,,3,3,13,6,1398,356,356,1083,1083,0,527,,"Out-Fighter Job, Buff EX Skill effect up 15%",,,Extreme Coins (Weekly Event)
 1665,Extreme Gundam,47-02-3-01,263,3,,3,3,13,3,687,2066,356,1083,1083,0,0,,"With Speed attribute (self), Melee power boosted 25%",,,Extreme Coins (Weekly Event)
@@ -1669,3 +1669,52 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1668,Beam Saber [Extreme],47-02-6a-01,263,6,,3,3,13,6,687,2794,0,0,0,153,527,,21% chance of attacks penetrating super armor,1,2,Extreme Coins (Weekly Event)
 1669,Beam Rifle [Extreme],47-02-7a-01,263,7,,3,3,13,3,687,0,2794,0,0,153,527,,"Beam ranged weapon, reload speed boosted 15%",1,8,Extreme Coins (Weekly Event)
 1670,Shield [Extreme],47-02-8-01,263,8,,3,3,13,3,687,0,0,1398,1398,153,713,548,,,,Extreme Coins (Weekly Event)
+1671,Sinanju,12-12-1-01,264,1,,5,1,5,6,1257,1321,3467,1254,504,0,0,,"While ""Commander"", Enemy Shooting power reduced 30%",,,Haro Chip Capsule (Gundam Battle Festival)
+1672,Sinanju,12-12-2-01,264,2,,5,1,5,6,2247,1037,1418,1251,1767,0,764,549,,,,Haro Chip Capsule (Gundam Battle Festival)
+1673,Sinanju,12-12-3-01,264,3,,5,1,5,6,1598,3976,1518,1512,492,0,0,550,,,,Haro Chip Capsule (Gundam Battle Festival)
+1674,Sinanju,12-12-4-01,264,4,,5,1,5,17,1593,1424,502,1769,1249,769,531,551,,,,Haro Chip Capsule (Gundam Battle Festival)
+1675,Sinanju,12-12-5-01,264,5,,5,1,5,17,1594,1415,508,1767,1254,542,778,,"Out-Fighter Job, Melee power boosted 30%",,,Haro Chip Capsule (Gundam Battle Festival)
+1676,Beam Axe,12-12-6b-01,264,6,,5,1,5,6,927,4983,0,1040,0,368,362,383,,1,1,Haro Chip Capsule (Gundam Battle Festival)
+1677,Beam Naginata [Sinanju],12-12-6-01,264,6,,5,1,5,6,927,4983,0,1040,0,368,362,,"While ""Close Combat"", EX Skill power boosted 30%",1,13,Haro Chip Capsule (Gundam Battle Festival)
+1678,Beam Rifle [Rocket Bazooka/Sinanju],12-12-7a-01,264,7,,5,1,5,17,1315,193,4590,0,0,274,541,552,,1,8,Haro Chip Capsule (Gundam Battle Festival)
+1679,Shield [Sinanju],12-12-8-01,264,8,,5,1,5,17,1947,1309,507,1763,1258,0,1168,553,,,,Haro Chip Capsule (Gundam Battle Festival)
+1680,Musha Victory [Golden Raiment],42-05-1-01,265,1,,5,2,9,26,1594,500,4278,0,1240,490,302,,"With Saber category equipped, EX Skill power boosted 30%",,,Haro Chip Capsule (Gundam Battle Festival)
+1681,Musha Victory [Golden Raiment],42-05-2-01,265,2,,5,2,9,10,2233,1427,1037,1755,1247,493,305,377,,,,Haro Chip Capsule (Gundam Battle Festival)
+1682,Musha Victory [Golden Raiment],42-05-3-01,265,3,,5,2,9,26,1037,3669,1844,411,2240,0,0,,"With Technique attribute (self), Melee power boosted 30%",,,Haro Chip Capsule (Gundam Battle Festival)
+1683,Musha Victory [Golden Raiment],42-05-4-01,265,4,,5,2,9,10,1254,1026,916,1240,1952,712,715,,"While ""High Mobility"", Close Shot Attack raised 20%",,,Haro Chip Capsule (Gundam Battle Festival)
+1684,Musha Victory [Golden Raiment],42-05-5-01,265,5,,5,2,9,13,1250,1037,915,1241,1756,763,767,554,,,,Haro Chip Capsule (Gundam Battle Festival)
+1685,Ressen-maru,42-05-6a-01,265,6,,5,2,9,26,1244,4777,0,0,0,711,713,555,,1,2,Haro Chip Capsule (Gundam Battle Festival)
+1686,Mega Beam Rifle,42-05-7b-01,265,7,,5,2,9,13,928,0,4980,0,1023,486,483,,"While ""Gundam Type"", EX Skill power boosted 30%",1,10,Haro Chip Capsule (Gundam Battle Festival)
+1687,Hawk Armor,42-05-8-01,265,8,,5,2,9,10,1250,1034,919,1026,1949,763,767,,"With Saber category equipped, Enemy Shooting power reduced 30%",,,Haro Chip Capsule (Gundam Battle Festival)
+1688,Zaku Amazing,38-10-1-01,266,1,,3,1,18,11,1403,357,1085,687,687,374,0,,"While ""Zaku Type"", EX Skill piercing boosted 22%",,,Meijin Coins (Weekly Event)
+1689,Zaku Amazing,38-10-2-01,266,2,,3,1,18,11,2071,357,357,687,687,529,0,,"With Dual Sabers category equipped, EX Skill DMG output boosted 20 (flat)",,,Meijin Coins (Weekly Event)
+1690,Zaku Amazing,38-10-3-01,266,3,,3,1,18,11,1085,1085,357,1085,1085,154,0,,When CPWR > 100000 Melee power boosted 25%,,,Meijin Coins (Weekly Event)
+1691,Zaku Amazing,38-10-4-01,266,4,,3,1,18,26,1085,357,357,1085,1085,154,529,556,,,,Meijin Coins (Weekly Event)
+1692,Zaku Amazing,38-10-5-01,266,5,,3,1,18,26,1085,357,357,1085,1085,529,154,557,,,,Meijin Coins (Weekly Event)
+1693,Heat Nata,38-10-6-01,266,6,,3,1,18,11,1085,1403,0,357,357,529,374,558,,2,4,Meijin Coins (Weekly Event)
+1694,Long Rifle [Zaku Amazing],38-10-7b-01,266,7,,3,1,18,26,1085,0,1403,357,357,529,374,,"With Power attribute (self), Shooting power boosted 25%",2,10,Meijin Coins (Weekly Event)
+1695,Kämpfer Amazing,32-07-1-01,267,1,,5,2,9,3,1049,509,3626,1049,620,102,102,,"While ""High Mobility"", Shooting power boosted 30%",,,Build Training Step-Up Capsules
+1696,Kämpfer Amazing,32-07-2-01,267,2,,5,2,9,24,1538,509,620,2087,1049,382,382,,"When Shot DEF is over 3000, Shooting power boosted 30%",,,Build Training Step-Up Capsules
+1697,Kämpfer Amazing,32-07-3-01,267,3,,5,2,9,10,1049,2587,727,1538,1049,0,0,,"When 1 enemies shot down, Reduce Cooldown by 50% once",,,Build Training Step-Up Capsules
+1698,Kämpfer Amazing,32-07-4-01,267,4,,5,2,9,24,1049,509,1139,1538,509,618,618,559,,,,Build Training Step-Up Capsules
+1699,Kämpfer Amazing,32-07-5-01,267,5,,5,2,9,10,1049,509,620,2087,509,618,618,560,,,,Build Training Step-Up Capsules
+1700,Amazing Knife,32-07-6-01,267,6,,5,2,9,24,1271,2587,0,1049,0,556,556,,"With Technique attribute (self), Enemy Melee power reduced 30%",2,4,Build Training Step-Up Capsules
+1701,Beam Saber [Kämpfer Amazing],32-07-6a-01,267,6,,5,2,9,3,1271,2587,0,1049,0,556,556,,"When Armor is 80% or less, EX Skill power boosted 30%",1,2,Build Training Step-Up Capsules
+1702,Amazing Rifle,32-07-7a-01,267,7,,5,2,9,3,620,0,4761,1049,0,382,382,,"While ""High Mobility"", Job Gauge increase boosted 17%",1,8,Build Training Step-Up Capsules
+1703,Amazing Long-Range Rifle,32-07-7b-01,267,7,,5,2,9,10,620,0,4761,1049,0,382,382,,"After 10s pass, EX Skill power boosted 30%",1,10,Build Training Step-Up Capsules
+1704,Amazing Pistol,32-07-7-01,267,7,,5,2,9,24,620,0,4761,1049,0,382,382,,"With Technique attribute (self), Shooting DMG output boosted 35",1,14,Build Training Step-Up Capsules
+1705,Gundam Sandrock Custom [Endless Waltz Ver.],18-11-1-01,268,1,,5,1,13,6,1044,618,3101,1134,1044,551,0,3,,,,Build Training Step-Up Capsules
+1706,Gundam Sandrock Custom [Endless Waltz Ver.],18-11-2-01,268,2,,5,1,13,25,2076,618,507,1623,1530,789,0,168,,,,Build Training Step-Up Capsules
+1707,Gundam Sandrock Custom [Endless Waltz Ver.],18-11-3-01,268,3,,5,1,13,6,1044,3207,507,1530,1530,0,0,,"While ""Close Combat"", Melee power boosted 30%",,,Build Training Step-Up Capsules
+1708,Gundam Sandrock Custom [Endless Waltz Ver.],18-11-4-01,268,4,,5,1,13,25,1044,618,507,1623,1530,789,551,,"With Dual Sabers category equipped, Enemy Melee power reduced 30%",,,Build Training Step-Up Capsules
+1709,Gundam Sandrock Custom [Endless Waltz Ver.],18-11-5-01,268,5,,5,1,13,25,1044,618,507,1623,1530,789,551,561,,,,Build Training Step-Up Capsules
+1710,Heat Shotel [Sandrock Custom/Endless Waltz Ver.],18-11-6-01,268,6,,5,1,13,25,1044,4232,0,0,0,789,279,,"When Melee DEF is over 12000, Enemy Melee power reduced 30%",2,4,Build Training Step-Up Capsules
+1711,Anti-Beam Coating Cloak,18-11-8-01,268,8,,5,1,13,25,1044,0,0,2148,2076,1033,279,,"With Dual Sabers category equipped, EX Skill DMG output boosted 35",,,Build Training Step-Up Capsules
+1712,Sword Impulse Gundam,22-11-1-01,269,1,,3,2,6,25,1083,356,687,1083,687,153,374,,"With Technique attribute (self), Recover 10 Armor gradually",,,Blade Device A (Weekly Event)
+1713,Sword Impulse Gundam,22-11-2-01,269,2,,3,2,6,25,1737,687,356,687,687,0,527,,"Out-Fighter Job, EX Skill piercing boosted 22%",,,Blade Device A (Weekly Event)
+1714,Sword Impulse Gundam,22-11-3-01,269,3,,3,2,6,25,687,2424,0,1083,1083,0,0,,"With Twin Blade category equipped, Melee power boosted 25%",,,Blade Device A (Weekly Event)
+1715,Sword Impulse Gundam,22-11-4-01,269,4,,3,2,6,13,1083,356,356,1083,687,374,527,,"When Melee ATK is over 7000, EX Skill CD reduced 15%",,,Blade Device A (Weekly Event)
+1716,Sword Impulse Gundam,22-11-5-01,269,5,,3,2,6,13,1083,356,356,1083,687,374,527,562,,,,Blade Device A (Weekly Event)
+1717,Excalibur Anti-Ship Laser Sword [Coupled/Sword Impulse],22-11-6-01,269,6,,3,2,6,13,1083,3151,0,0,0,153,374,,"While ""Gundam Type"", Initial EX Skill charge boosted 12%",1,13,Blade Device A (Weekly Event)
+1718,Excalibur Anti-Ship Laser Sword [Uncoupled/Sword Impulse],22-11-6c-01,269,6,,3,2,6,25,1083,3151,0,0,0,153,374,,"Out-Fighter Job, Strong Melee CRIT rate boosted 17%",1,5,Blade Device A (Weekly Event)
+1719,Mobile Shield [Sword Impulse],22-11-8-01,269,8,,3,2,6,25,1083,0,0,1400,687,153,715,563,,,,Blade Device A (Weekly Event)
