@@ -629,6 +629,24 @@
     "name": "With Speed attribute (self), 33% chance to not recoil"
   }
 }, {
+  "name": "Ein Dalton",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1083,
+  "ma": 1083,
+  "sa": 356,
+  "md": 687,
+  "sd": 687,
+  "br": 527,
+  "pr": 153,
+  "wt": ["Close Combat", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When CPWR is over 150000, 28% chance to not recoil"
+  }
+}, {
   "name": "Eledore Massis",
   "jl": "Supporter",
   "attribute": "Speed",
@@ -1691,6 +1709,24 @@
     "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
   }
 }, {
+  "name": "Mikhail Kaminsky",
+  "jl": "Defender",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 1085,
+  "sa": 1085,
+  "md": 687,
+  "sd": 687,
+  "br": 374,
+  "pr": 154,
+  "wt": ["Zeon", "For Tundra"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "21% Chance of attacks penetrating Super armor"
+  }
+}, {
   "name": "Milliardo Peacecraft",
   "jl": "Out-Fighter",
   "attribute": "Technique",
@@ -1905,6 +1941,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Buff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Ple Two",
+  "jl": "Middle-Shooter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1044,
+  "ma": 1044,
+  "sa": 1044,
+  "md": 1044,
+  "sd": 1044,
+  "br": 279,
+  "pr": 793,
+  "wt": ["Long-Range", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Long-Range\", Long Shot Attack raised 14%"
   }
 }, {
   "name": "Ple-Twelve",
@@ -2174,7 +2228,7 @@
   "wt": ["Commander", "High Mobility"],
   "ex": {
     "type": "Part Traits",
-    "name": "While “High Mobility”, Job Gauge increase boosted 13%"
+    "name": "While \"High Mobility\", Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Rosamia Badam",
