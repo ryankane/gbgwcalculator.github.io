@@ -57,7 +57,7 @@ const parsePart = (part, resultCache) => {
 const applyPart = (part, resultCache) => {
   let meleeType = MeleeWeaponTypeLookup[part['Weapon Category']];
   let rangedType = RangedWeaponTypeLookup[part['Weapon Category']];
-  let tokens = part['Part Type'].match(/(\w[\w ]+)(?:\(\+ (\w+)\))?/);
+  let tokens = part['Part Type'].match(/(\w[\w ]+)(?:\(\+ (\w+)\))?/).map(v => v ? v.trim() : v);
   let partType = tokens[1];
   let xPartType = tokens[2];
   let rarity = parseInt(part['Obtained As'], 10);
@@ -136,6 +136,7 @@ const applyPilot = (part, resultCache) => {
     'Exchange': null,
     'Other': null,
     'Release Date': currWeek,
+    'Notes': null,
     'Level': 99,
     'Link': null
   });
@@ -161,14 +162,14 @@ const applyUnit = (part, resultCache) => {
     'Japanese': null,
     'Rarity': rarity,
     'Attr': findByName(AttributeIndex, part['Attribute']),
-    'Marks': 5 - rarity,
+    'Marks': 6 - rarity,
     'Capsule': null,
     'Exchange': null,
     'Mission': null,
     'Other': null,
     'Limited': null,
     'Release Date': currWeek,
-    'Level': 99,
-    'Notes': part['Obtained From']
+    'Notes': part['Obtained From'],
+    'Level': 99
   });
 };
