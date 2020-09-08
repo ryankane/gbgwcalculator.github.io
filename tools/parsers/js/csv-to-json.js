@@ -34,6 +34,11 @@ const onReady = () => {
     sorter: (a, b) => a.name.localeCompare(b.name),
     format: true
   });
+
+  setTimeout(() => {
+    const gunplaJson = document.querySelector('#gunpla').value;
+    saveToDisk(gunplaJson, 'gunpla.json');
+  }, 3000);
 }
 
 const processUnitData = (units) => units.map(unit => {
