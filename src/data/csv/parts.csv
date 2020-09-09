@@ -1739,3 +1739,26 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1738,Graze Ein,25-14-4-01,272,4,,3,3,11,6,687,356,356,1400,687,374,527,572,,,,Madly Dancing Coins (Weekly Event)
 1739,Graze Ein,25-14-5-01,272,5,,3,3,11,6,687,356,356,1400,687,527,374,573,,,,Madly Dancing Coins (Weekly Event)
 1740,Large Axe [Graze Ein],25-14-6-01,272,6,,3,3,11,6,356,3494,0,0,0,374,153,,"With Speed attribute (self), Enemy Melee power reduced 25%",2,4,Madly Dancing Coins (Weekly Event)
+1741,Shin Musha Gundam [Sengoku no Jin],30-01-1-01,273,1,,4,3,11,13,1537,509,1046,1537,509,281,553,,"With Speed attribute (self), Shooting CRIT rate boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1742,Shin Musha Gundam [Sengoku no Jin],30-01-2-01,273,2,,4,3,11,13,2082,509,509,2082,1046,0,796,,"While ""Heavy Armor"", Shooting power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1743,Shin Musha Gundam [Sengoku no Jin],30-01-3-01,273,3,,4,3,11,26,509,4137,509,2082,509,0,0,,"When attacking with Physical, Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1744,Shin Musha Gundam [Sengoku no Jin],30-01-4-01,273,4,,4,3,11,26,1046,509,509,2082,1046,796,553,574,,,,Pick-Up Drop Rate Step-Up Capsules
+1745,Shin Musha Gundam [Sengoku no Jin],30-01-5-01,273,5,,4,3,11,6,1046,509,509,2082,1046,553,796,575,,,,Pick-Up Drop Rate Step-Up Capsules
+1746,Nichirin-maru,30-01-6a-01,273,6,,4,3,11,6,509,5207,0,0,0,281,553,,"While ""Close Combat"", EX Skill power boosted 30%",2,2,Pick-Up Drop Rate Step-Up Capsules
+1747,Sanko-maru,30-01-6d-01,273,6,,4,3,11,13,509,5207,0,0,0,281,553,,"With Speed attribute (self), Enemy Melee power reduced 30%",2,6,Pick-Up Drop Rate Step-Up Capsules
+1748,Denko-maru,30-01-6-01,273,6,,4,3,11,6,509,5207,0,0,0,281,553,576,,2,13,Pick-Up Drop Rate Step-Up Capsules
+1749,Tanegashima,30-01-7b-01,273,7,,4,3,11,26,1537,0,3110,0,0,553,796,,"With Speed attribute (self), Initial EX Skill charge boosted 20%",2,10,Pick-Up Drop Rate Step-Up Capsules
+1750,Star Burning Gundam,32-08-1-01,274,1,,4,1,13,26,1047,509,3621,509,509,554,281,,"While ""For Computers"", Recover 20 Armor gradually",,,Pick-Up Drop Rate Step-Up Capsules
+1751,Star Burning Gundam,32-08-2-01,274,2,,4,1,13,26,2086,1047,1047,1047,1047,796,0,577,,,,Pick-Up Drop Rate Step-Up Capsules
+1752,Star Burning Gundam,32-08-3-01,274,3,,4,1,13,6,1047,3621,1537,509,509,0,0,578,,,,Pick-Up Drop Rate Step-Up Capsules
+1753,Star Burning Gundam,32-08-4-01,274,4,,4,1,13,6,1047,1047,509,1047,1047,554,796,579,,,,Pick-Up Drop Rate Step-Up Capsules
+1754,Star Burning Gundam,32-08-5-01,274,5,,4,1,13,1,1047,1047,509,1047,1047,796,554,,"Out-Fighter Job, Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1755,Beam Rifle [Star Burning],32-08-7a-01,274,7,,4,1,13,6,509,0,4668,0,0,554,281,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,8,Pick-Up Drop Rate Step-Up Capsules
+1756,Beam Rifle [Retractable Barrel/Star Burning],32-08-7b-01,274,7,,4,1,13,1,509,0,4668,0,0,554,281,,"When 2 enemies shot down, Reduce Cooldown by 50% once.",1,10,Pick-Up Drop Rate Step-Up Capsules
+1757,Shield [Star Burning],32-08-8-01,274,8,,4,1,13,1,1047,1047,509,1047,1047,1331,0,,"When Melee ATK is over 16000, Sp. Shot CRIT rate boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1758,Gundam AGE-3 Normal,26-08-1-01,275,1,,3,1,13,7,687,356,1083,1083,1083,0,374,,"Long-Shooter Job, Shooting CRIT rate boosted 17%",,,Three Generations Coins (Weekly Event)
+1759,Gundam AGE-3 Normal,26-08-2-01,275,2,,3,1,13,7,1398,356,0,1083,1083,0,527,580,,,,Three Generations Coins (Weekly Event)
+1760,Gundam AGE-3 Normal,26-08-3-01,275,3,,3,1,13,7,687,1083,356,1083,1083,153,374,581,,,,Three Generations Coins (Weekly Event)
+1761,Gundam AGE-3 Normal,26-08-4-01,275,4,,3,1,13,24,687,356,356,1398,1398,374,153,,"When Shot ATK is over 10000, Projectile speed boosted 14%",,,Three Generations Coins (Weekly Event)
+1762,Gundam AGE-3 Normal,26-08-5-01,275,5,,3,1,13,24,687,356,356,1398,1398,153,374,,"When Phys. RES is over 5000, Shooting DMG output boosted by 20",,,Three Generations Coins (Weekly Event)
+1763,SigMaxiss Rifle,26-08-7b-01,275,7,,3,1,13,7,687,0,1398,687,687,374,527,,"Beam ranged weapon, reload speed boosted 15%",1,10,Three Generations Coins (Weekly Event)
