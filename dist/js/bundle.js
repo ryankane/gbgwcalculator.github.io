@@ -1,5 +1,5 @@
 /*
- gbgw-calculator 1.3.0 2020-09-08 
+ gbgw-calculator 1.3.0 2020-09-09 
 */
 
 class DataStoreManager {

@@ -3384,7 +3384,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -3487,7 +3487,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -15630,7 +15630,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -21977,7 +21977,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -25313,6 +25313,172 @@
         "category": "Whip"
     }]
 }, {
+    "name": "Nu Gundam",
+    "attribute": "Power",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1255,
+        "ma": 202,
+        "sa": 4299,
+        "md": 507,
+        "sd": 1959,
+        "br": 279,
+        "pr": 269,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Ace Excl.\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2251,
+        "ma": 714,
+        "sa": 1040,
+        "md": 1260,
+        "sd": 2458,
+        "br": 366,
+        "pr": 373,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1037,
+        "ma": 4088,
+        "sa": 1042,
+        "md": 1243,
+        "sd": 713,
+        "br": 272,
+        "pr": 275,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Saber Combo",
+            "description": "Unleash a combo with the saber in your right hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1255,
+        "ma": 721,
+        "sa": 1031,
+        "md": 1761,
+        "sd": 2055,
+        "br": 592,
+        "pr": 606,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Strong Melee CRIT rate boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 719,
+        "ma": 721,
+        "sa": 1326,
+        "md": 1256,
+        "sd": 2244,
+        "br": 708,
+        "pr": 704,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Fin Funnel Combo",
+            "description": "Perform consecutive melee attacks and follow up with a fin funnel barrage. Raise Shot Attack of your Squad by 39%. Raise Shot Defense of your Squad by 24%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C",
+                "Cd": [79, 8]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1760,
+        "ma": 4290,
+        "sa": 0,
+        "md": 0,
+        "sd": 719,
+        "br": 376,
+        "pr": 374,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, EX Skill power boosted 30%"
+        },
+        "name": "Beam Saber [Nu]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 720,
+        "ma": 0,
+        "sa": 5339,
+        "md": 0,
+        "sd": 716,
+        "br": 364,
+        "pr": 364,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Ace Excl.\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Beam Rifle [Nu]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 720,
+        "ma": 0,
+        "sa": 5339,
+        "md": 0,
+        "sd": 716,
+        "br": 364,
+        "pr": 364,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill power boosted 30%"
+        },
+        "name": "New Hyper Bazooka [Nu]",
+        "type": "Physical",
+        "category": "Bazooka"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1259,
+        "ma": 0,
+        "sa": 505,
+        "md": 1245,
+        "sd": 3279,
+        "br": 708,
+        "pr": 704,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Buff EX Skill time up 22%"
+        },
+        "name": "Shield [Nu]"
+    }]
+}, {
     "name": "Nu Gundam [Ver. Ka]",
     "attribute": "Speed",
     "rarity": 4,
@@ -25362,7 +25528,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -31310,7 +31476,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Saber Combo",
-            "description": "Unleash a combo with the saber in your right hard.",
+            "description": "Unleash a combo with the saber in your right hand.",
             "category": "Beam Melee",
             "stats": {
                 "Prc": "D",
@@ -32617,6 +32783,99 @@
         "ex": {
             "type": "Part Traits",
             "name": "When attacking with Beam, Melee power boosted 25%"
+        }
+    }]
+}, {
+    "name": "Victory Gundam Hexa",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 689,
+        "ma": 359,
+        "sa": 2434,
+        "md": 689,
+        "sd": 359,
+        "br": 156,
+        "pr": 0,
+        "wt": ["Transformer", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 90% or less, EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1088,
+        "ma": 359,
+        "sa": 359,
+        "md": 1405,
+        "sd": 689,
+        "br": 532,
+        "pr": 0,
+        "wt": ["Transformer", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When in Multi-Mission Sortie, Shooting power boosted 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1405,
+        "ma": 1743,
+        "sa": 359,
+        "md": 2804,
+        "sd": 1405,
+        "br": 720,
+        "pr": 156,
+        "wt": ["Transformer", "Mass P."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Vertical Saber Spin",
+            "description": "Spin your right wrist, attacking enemies with an oscillating Beam Saber. Lowers hit enemy Gunpla's Beam Resist by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Beam Shield [Victory Hexa]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 689,
+        "ma": 359,
+        "sa": 689,
+        "md": 1088,
+        "sd": 359,
+        "br": 532,
+        "pr": 376,
+        "wt": ["Transformer", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Beam RES is over 3000, EX Skill DMG taken reduced 20"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 689,
+        "ma": 359,
+        "sa": 359,
+        "md": 1405,
+        "sd": 359,
+        "br": 532,
+        "pr": 376,
+        "wt": ["Transformer", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Long Shot Attack raised 14%"
         }
     }]
 }, {

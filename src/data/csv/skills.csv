@@ -119,7 +119,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 118,Iron Impact,Knock back a foe with a mighty blow from your mace. Raise Shot Defense of your Squad by 39%.,4,D,A,,,79,20
 119,Head-Mounted Mega Particle Cannon,Fire the mega particle cannon on your head.,1,A-,D,,,60,15
 120,Beam Recorder,Use the recorder taken from its satchel to bathe foes in beams.,1,A-,D,,,60,15
-121,Beam Saber Combo,Unleash a combo with the saber in your right hard.,3,D,B+,,,21,6
+121,Beam Saber Combo,Unleash a combo with the saber in your right hand.,3,D,B+,,,21,6
 122,Fin Funnels,Launch fin funnels to strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
 123,Dual Cascade,Hold bazookas in both hands and fire high-power rounds.,2,A,D,,,21,3
 124,CIWS,Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
@@ -580,3 +580,4 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 579,Dual Saber Combo,Cleave through enemies with sabers in each hand.,3,B+,B-,,,21,3
 580,Blustia Cannon,Link a small photon ring ray to your SigMaxiss rifle and fire a gigantic beam.,1,A-,D,,,60,15
 581,In-Shield Beam Saber,A flurry of invisible blows from the saber on your forearm.,3,D,B+,,,21,6
+582,Fin Funnel Combo,Perform consecutive melee attacks and follow up with a fin funnel barrage. Raise Shot Attack of your Squad by 39%. Raise Shot Defense of your Squad by 24%.,1,A+,C,,,79,8
