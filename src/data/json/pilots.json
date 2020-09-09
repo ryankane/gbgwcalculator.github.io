@@ -35,6 +35,24 @@
     "name": "With Technique attribute (self), EX Skill recovery boosted 18%"
   }
 }, {
+  "name": "Akihiro Altland",
+  "jl": "In-Fighter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1049,
+  "ma": 1538,
+  "sa": 509,
+  "md": 1049,
+  "sd": 1538,
+  "br": 797,
+  "pr": 281,
+  "wt": ["Close Combat", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Armor is 90% or less, Enemy Shooting power reduced 30%"
+  }
+}, {
   "name": "Alejandro Corner",
   "jl": "Long-Shooter",
   "attribute": "Power",
@@ -1491,6 +1509,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Projectile speed boosted 14%"
+  }
+}, {
+  "name": "Lilia Flaubert",
+  "jl": "Long-Shooter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1083,
+  "ma": 356,
+  "sa": 1083,
+  "md": 687,
+  "sd": 687,
+  "br": 153,
+  "pr": 527,
+  "wt": ["Zeon", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Shot ATK is over 10000, Long Shot Attack raised 14%"
   }
 }, {
   "name": "Lockon Stratos",
