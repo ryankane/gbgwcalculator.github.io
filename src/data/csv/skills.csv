@@ -1,7 +1,7 @@
 Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 1,Screw Nail,"Rush forward, carving through foes with claws on both hands. Lowers hit enemy Gunpla's Shot Defense by 14%.",4,B-,D,,,21,3
 2,Burning Fist,Charge through enemies in front of you with your fist. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,D,C-,,,21,6
-3,Head-Mounted Vulcan,Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+3,Head-Mounted Vulcan,Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 4,Double Saber Rush,Cleave through enemies with sabers in each hand.,3,D,B-,,,21,6
 5,Crimson Stinger,Unleash a storm of blows from your lance. Raise your Melee Defense by 19%.,3,D,A-,,,21,6
 6,Last Shooting,Stand firm and shoot down foes with your arm rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
@@ -54,7 +54,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 53,Mega Particle Cannon,Fire a generator-linked beam cannon in your abdomen at foes.,1,B+,D,,,60,15
 54,Incom,Launch the incom to repeatedly strike foes in all directions. You can move freely while this skill is active.,1,B+,D,,,60,6
 55,Seventh Ray Shot,Bathe foes in high-output beams from your rifle.,1,A,D,,,60,15
-56,Vulcan Pod,Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+56,Vulcan Pod,Fire the Vulcan in your head at foes straight ahead.  Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 57,Shock Bringer β,Ally attacks stun large foes more easily for a set period.,5,,,37,,33,7
 58,Brave Axe Combo,Bring down a wild rush of blows with your equipped axe.,3,B,D,,,19,5
 59,Panic Maker,Fire special high-powered rounds from your machine gun.,1,B+,D,,,21,3
@@ -76,7 +76,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 75,Machine Cannon,Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.,2,A-,D,,11,60,0
 76,Bazooka,Fire a bazooka suspended on your back. You can move while firing.,2,D,C-,,7,60,0
 77,Double Gatling Guns,Fire beam Gatling guns on both arms toward the enemy.,1,D,D,,11,60,0
-78,Igelstellung,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+78,Igelstellung,Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 79,Barrier Hack β,Reduce Shot Defense of all enemies by 24%.,7,,,51,,33,7
 80,Combat Hack β,Reduce Melee Attack of all enemies by 24%.,7,,,51,,33,7
 81,Combat Hack α,Reduce target Melee Attack by 39%.,7,,,51,,33,7
@@ -85,7 +85,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 84,Shield Throw,Throw your shield to attack.,4,A,D,,,21,3
 85,Twin Sword Rifle,Unleash a combo attack with your Twin Sword Rifle.,3,B,D,,,21,3
 86,Sky Jumper,Jump high to deal a blow with your lance from the air. Lowers hit enemy Gunpla's Beam Resist by 19%.,3,B,D,,,21,3
-87,GN Vulcan,Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,D-,D,,,19,5
+87,GN Vulcan,Fire the GN Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,D-,D,,,19,5
 88,GN Claw,Raise your Melee ATK 14%.,4,D,C-,,,19,5
 89,Saber Boomerang,"Slash with your saber, then hurl it point-first.",3,D,B-,,,21,6
 90,Barrier Hack α,Reduce target Shot Defense by 39%.,7,,,51,,33,7
@@ -122,7 +122,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 121,Beam Saber Combo,Unleash a combo with the saber in your right hand.,3,D,B+,,,21,6
 122,Fin Funnels,Launch fin funnels to strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
 123,Dual Cascade,Hold bazookas in both hands and fire high-power rounds.,2,A,D,,,21,3
-124,CIWS,Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+124,CIWS,Fire the close-range defense system in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 125,Breast Beam Vulcan,Fire forward with the Beam Vulcan in your chest.,1,D,C,,,21,6
 126,Palma Fiocina Beam Cannon,Turn both palms forward to bathe foes in high-output beams.,1,B+,C-,,,60,15
 127,Rising Arrow,Fire a high-speed beam arrow from the bow on your left arm.,1,A-,D,,,21,3
@@ -186,11 +186,11 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 185,Maelstrom,"Blow through foes, spinning to strike them with your blade.",3,A-,D,,,30,3
 186,Hidden Arm & Samurai Sword,Mow down foes with dual blades hidden in your shoulders. Lowers hit enemy Gunpla's Melee Defense by 19%.,4,D,A-,,,21,6
 187,Particle Fa Jin,"Inject particles into your foe, destroying them from within. Raise Shot Attack of your Squad by 39%.",4,A+,C,,,60,6
-188,Picus,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+188,Picus,Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 189,Xiphias Rail Cannon,Slash with your saber and fire high-speed rounds from both your railguns at mid-air enemy. Squad recovers 48% of maximum Armor. Raises your Shot Attack by 29%.,2,D,A,,,73,19
 190,Balaena Plasma Beam Cannon,Attack enemy ahead by firing highly compressed plasma energy from your Plasma Beam Cannon.,1,A,D,,,60,15
 191,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Shot Defense by 19%.,3,D,B+,,,21,3
-192,Sagittus,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+192,Sagittus,Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 193,Bassel Beam Boomerang,Attack locked-on target with boomerang on your shoulder.,3,A,D,,,21,3
 194,Fatum-00,Board lifter attached to back and execute a rush attack. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.,4,D,A,,,79,20
 195,Voiture Lumiere,"Catch solar wind using a ring-shaped quantum field, converting it into propulsive force. Raise speed by 20%. Raises your Shot Attack by 19%. Raises your Shot Defense by 29%.",6,,,51,,60,12
@@ -276,7 +276,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 275,Beam Hack β,Reduce Beam Resist of all enemies by 39%.,7,,,51,,33,7
 276,Combo Weapon Pod,Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing.,2,A-,D,,7,60,0
 277,Agni,Wedge the Agni cannon on your back under your arm to fire.,1,A-,D,,,60,15
-278,Todesschrecken,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+278,Todesschrecken,Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
 279,Beam Rifle Shorty,Fire the twin pistols on your legs.,1,A,D,,,21,3
 280,Dual Linear Guns,Bombard enemies with dual railguns. You can move while firing.,2,D,B+,,7,60,0
 281,High Mega Cannon,Fire at enemies ahead with the Mega Particle Cannon in your head.,1,A,D,,,60,15
@@ -300,7 +300,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 299,Heat Rod,Execute a combo with your whip.,4,A,D,,,21,3
 300,Composite Armed Shield System,Attack enemies with the beam weaponry integrated into your left arm. You can move while firing.,1,A,D,,11,60,0
 301,DRAGOON System,Use the DRAGOON System to hit foes in all directions. You can move freely while this skill is active.,1,A+,D,,,60,6
-302,Beam Vulcan,Fire the Beam Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.,1,D-,D,,,19,5
+302,Beam Vulcan,Fire the Beam Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.,1,D-,D,,,19,5
 303,IFS Unit Barrier,Create a force field barrier through the I-Field control system. Raise your Shot Defense by 19%. Raise your Beam Resist by 29%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
 304,IFS Unit Combo,Attack an enemy with an I-Field control system force field. Raise Shot attack of your Squad by 29%. Raise Beam Resist of your squad by 69%.,1,D,A,,,79,20
 305,Beam Gun,Launch rapid-fire beam guns from your torso. You can move while firing.,1,D,B,,7,60,0
@@ -316,7 +316,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 315,Moonbeam Butterfly,Fire a straight line of nanomachines upward with your back to the enemy.,1,D,B+,,,60,15
 316,Fusion Destruction Manipulator,Fire beams from your open palm and blast caught enemies with a Shining Finger. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
 317,Carapace,Attack enemies with the rifle and bazooka equipped to your weapon platform.,1,D,B+,,,21,6
-318,Close-In Weapons System,Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.,2,D-,D,,,19,5
+318,Close-In Weapons System,Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.,2,D-,D,,,19,5
 319,Yata-no-Kagami,Repel beams with nanoscale beam diffraction grating and hyperfine plasma criticality inhibitor layers. Raise your Beam Resist by 109%. Your Gunpla resists flinching for a set period of time.,6,,,37,,60,12
 320,Experimental Twin Beam Saber,"Perform a combo with two detached sabers, then link them for a spinning attack.",3,D,B+,,,21,6
 321,High-Energy Beam Cannon,"Fire a powerful, high-energy beam at enemies.",1,B+,C-,,,60,15
@@ -351,7 +351,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 350,Leg Missile Pod,Launch missiles from the pod mounted on your leg.,2,D,B,,,21,6
 351,Heat Rush,Ready a saber in each hand and execute a rush attack.,4,A,D,,,21,3
 352,Heaven's Judgement,Hack away at enemies with the beam sword held in the hidden arms equipped to your waist. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,3,A+,C-,,,79,20
-353,Beam Chakram,Launch a ring-shaped beam from your clavicle antenna. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.,1,D-,D,,,19,5
+353,Beam Chakram,Launch a ring-shaped beam from your clavicle antenna. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.,1,D-,D,,,19,5
 354,GN Vulcan,"Attack enemies ahead with small, rapid-fire particle beams from your torso.",1,D,B,,7,60,0
 355,Trans-Am Raid,Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.,4,D,B+,,,79,20
 356,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
@@ -600,3 +600,5 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 599,Spinning Saber,Spin both hands to mow down nearby foes with your saber.,3,D,B+,,,21,6
 600,V.S.B.R. Funnels,Detach your back cannon to strike foes in all directions. You can move while this is active. Raise your speed by 20%. Raise your Shot Attack by 24%.,1,A+,C-,,,60,6
 601,DG Cells,Continuously recover 5% of max Armor at a time using the 3 major theories of metallic cells.,5,,,15,,33,7
+602,CIWS,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.,2,A,D,,11,60,0
+603,Head-Mounted Vulcan & Flare,Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5

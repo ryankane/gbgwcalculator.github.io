@@ -506,14 +506,14 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 505,Buster Rifle,17-01-7a-01,81,7,,4,3,12,8,384,0,3582,0,0,417,213,169,,1,8,Haro Chip Capsule
 506,Shield [Wing],17-01-8-01,81,8,,4,3,12,8,797,797,384,797,797,1029,0,170,,,,Haro Chip Capsule
 507,Force Impulse Gundam,22-01-1-01,82,1,,4,1,13,22,795,382,2377,795,795,0,416,,"When Armor is 40% or more, Shooting CRIT rate boosted 30%",,,Haro Chip Capsule
-508,Force Impulse Gundam,22-01-2-01,82,2,,4,1,13,22,1601,382,382,1179,1179,0,609,171,,,,Haro Chip Capsule
+508,Force Impulse Gundam,22-01-2-01,82,2,,4,1,13,22,1601,382,382,1179,1179,0,609,602,,,,Haro Chip Capsule
 509,Force Impulse Gundam,22-01-3-01,82,3,,4,1,13,7,795,2377,382,1179,1179,0,0,,"With Power attribute (self), Strong Melee CRIT rate boosted 30%",,,Haro Chip Capsule
 510,Force Impulse Gundam,22-01-4-01,82,4,,4,1,13,7,795,382,382,1179,1179,416,609,140,,,,Haro Chip Capsule
 511,Force Impulse Gundam,22-01-5-01,82,5,,4,1,13,7,795,382,382,1179,1179,416,609,172,,,,Haro Chip Capsule
 512,Vajra Beam Saber,22-01-6a-01,82,6,,4,1,13,22,795,3173,0,0,0,211,609,,"With Rifle category equipped, Initial EX Skill charge boosted 20%",1,2,Haro Chip Capsule
 513,MA-BAR72 High-Energy Beam Rifle,22-01-7a-01,82,7,,4,1,13,1,795,0,3173,0,0,211,609,,"With Rifle category equipped, Enemy Shooting power reduced 30%",1,8,Haro Chip Capsule
 514,Mobile Shield,22-01-8-01,82,8,,4,1,13,1,795,0,0,1601,1601,211,805,84,,,,Haro Chip Capsule
-515,Gusion,28-03-1-01,83,1,,1,1,11,20,1144,292,891,558,558,0,302,3,,,,Colossus Coins (Event)
+515,Gusion,28-03-1-01,83,1,,1,1,11,20,1144,292,891,558,558,0,302,603,,,,Colossus Coins (Event)
 516,Gusion,28-03-2-01,83,2,,1,1,11,20,1702,292,292,558,558,0,430,173,,,,Colossus Coins (Event)
 517,Gusion,28-03-3-01,83,3,,1,1,11,7,891,891,292,891,891,0,127,174,,,,Colossus Coins (Event)
 518,Gusion,28-03-4-01,83,4,,1,1,11,10,891,292,292,891,891,430,127,175,,,,Colossus Coins (Event)
@@ -1107,7 +1107,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1106,Astray Red Frame [Beginner Campaign],23-01-4-01,175,4,,1,1,1,24,1040,389,389,1040,651,430,430,,"With Saber category equipped, Enemy EX Skill penetration reduced 22%",,,Beginner Coin Exchange
 1107,Astray Red Frame [Beginner Campaign],23-01-5-01,175,5,,1,1,1,24,1040,389,389,1040,651,430,430,4,,,,Beginner Coin Exchange
 1108,Force Impulse Gundam [Beginner Campaign],22-01-1-01,176,1,,1,2,13,7,648,388,2268,648,648,0,332,,"With Rifle category equipped, Enemy Shooting power reduced 25%",,,Beginner Coin Exchange
-1109,Force Impulse Gundam [Beginner Campaign],22-01-2-01,176,2,,1,2,13,22,1454,388,388,1036,1036,0,514,171,,,,Beginner Coin Exchange
+1109,Force Impulse Gundam [Beginner Campaign],22-01-2-01,176,2,,1,2,13,22,1454,388,388,1036,1036,0,514,602,,,,Beginner Coin Exchange
 1110,Force Impulse Gundam [Beginner Campaign],22-01-3-01,176,3,,1,2,13,7,648,2268,388,1036,1036,0,0,,"With Technique attribute (self), Strong Melee CRIT rate boosted 17%",,,Beginner Coin Exchange
 1111,Force Impulse Gundam [Beginner Campaign],22-01-4-01,176,4,,1,2,13,7,648,388,388,1036,1036,332,514,140,,,,Beginner Coin Exchange
 1112,Force Impulse Gundam [Beginner Campaign],22-01-5-01,176,5,,1,2,13,1,648,388,388,1036,1036,332,514,4,,,,Beginner Coin Exchange
