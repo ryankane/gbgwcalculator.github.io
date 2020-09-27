@@ -581,3 +581,22 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 580,Blustia Cannon,Link a small photon ring ray to your SigMaxiss rifle and fire a gigantic beam.,1,A-,D,,,60,15
 581,In-Shield Beam Saber,A flurry of invisible blows from the saber on your forearm.,3,D,B+,,,21,6
 582,Fin Funnel Combo,Perform consecutive melee attacks and follow up with a fin funnel barrage. Raise Shot Attack of your Squad by 39%. Raise Shot Defense of your Squad by 24%.,1,A+,C,,,79,8
+583,Rampage,Use wild particles to summon three destructive weapons and wipe enemies out of existence. Raise your Shot Attack by 24%.,1,D,B+,,,21,6
+584,Beam Cannon,Bombard enemies with the beam rifle stowed in your movable shield binder.,1,D,B+,,,21,6
+585,Saber Boomerang,"Slash with your saber, then hurl it point-first.",3,D,B+,,,21,6
+586,Missile Pod & Beam Cannon,Fire the missile pod and cannon on your arms. You can move while firing.,1,A-,D,,11,60,0
+587,Cruise Missiles,Launch the two cruise missiles mounted on your legs.,2,D,B+,,,21,6
+588,Mega Beam Cannon,Bathe foes in high-power beams from your back cannon.,1,B+,C-,,,60,15
+589,TRY Arm Sword,A flurry of invisible blows from the saber in your forearm.,3,D,B+,,,21,6
+590,Try Age Eternity Shot,"Summon the equipment from the Gundam AGE series with a special card, and throw your TRY Slash Blade",1,D,B,,,21,6
+591,Chest Gatling Cannon,Fire the Gatling cannon in your chest at foes straight ahead.,2,B+,B-,,,21,3
+592,l-Field Generator,Activate the I-Field from the I-Field Generator. Raise your Shot Defense by 29%. Raise your Beam and Physical Resist 29%.,6,,,51,,60,12
+593,Muramasa Blaster [Max Output],"Emit 14 beams from the side and tip of your beam saber, then perform a melee attack.",3,D,B+,,,21,6
+594,Beam Javelin,Attack by throwing the beam javelin in your right hand.,3,D,B+,,,21,6
+595,Last Shooting,Stand firm and shoot down foes with your arm rifle. Raise Melee and Shot Attack of your Squad 24%. Squad attacks stun large foes more easily for a set period.,1,D,A,,,79,20
+596,Claw,Grab and slice through a foe with the claw arm on your right hand. Lowers hit enemy Gunpla's Physical Resist 29%.,4,B-,D,,,33,4
+597,S.A.N.A. Mode,Switch to S.A.N.A. [Super Absolute Noble Afterimage] Mode—named by Sana—by briefly dispersing your Gunpla's crystals as particles. Raise your speed by 20%. Raise your Shot Attack by 39%.,6,,,44,,60,12
+598,Chest Vulcan,Fire the Beam Vulcan in your chest at foes straight ahead. You can move while firing.,1,A,D,,11,60,0
+599,Spinning Saber,Spin both hands to mow down nearby foes with your saber.,3,D,B+,,,21,6
+600,V.S.B.R. Funnels,Detach your back cannon to strike foes in all directions. You can move while this is active. Raise your speed by 20%. Raise your Shot Attack by 24%.,1,A+,C-,,,60,6
+601,DG Cells,Continuously recover 5% of max Armor at a time using the 3 major theories of metallic cells.,5,,,15,,33,7

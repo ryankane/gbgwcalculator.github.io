@@ -611,6 +611,24 @@
     "name": "With Power attribute (self), Shot guidance boosted 14%"
   }
 }, {
+  "name": "Demeziere Sonnen",
+  "jl": "Long-Shooter",
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 685,
+  "ma": 354,
+  "sa": 1540,
+  "md": 685,
+  "sd": 754,
+  "br": 372,
+  "pr": 372,
+  "wt": ["Zeon", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "Melee Attack down 10% Long Shot Attack raised 14%"
+  }
+}, {
   "name": "Domon Kasshu",
   "jl": "In-Fighter",
   "attribute": "Power",
@@ -1655,6 +1673,24 @@
     "name": "With Technique attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Marbet Fingerhat",
+  "jl": "Long-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 689,
+  "ma": 359,
+  "sa": 359,
+  "md": 689,
+  "sd": 689,
+  "br": 532,
+  "pr": 532,
+  "wt": ["Transformer", "For Forest"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon, magazine boosted 14%"
+  }
+}, {
   "name": "Marida Cruz",
   "jl": "Long-Shooter",
   "attribute": "Power",
@@ -1707,6 +1743,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Debuff EX Skill time up 16%"
+  }
+}, {
+  "name": "Mask",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1047,
+  "ma": 1537,
+  "sa": 1537,
+  "md": 1047,
+  "sd": 1047,
+  "br": 281,
+  "pr": 554,
+  "wt": ["Commander", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Recover 20 Armor gradually"
   }
 }, {
   "name": "Master Asia",
@@ -1941,6 +1995,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Armor ≥ 60%, All Shot Attack raised 14%"
+  }
+}, {
+  "name": "Odin Barnet",
+  "jl": "Out-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1046,
+  "ma": 2082,
+  "sa": 509,
+  "md": 1046,
+  "sd": 1046,
+  "br": 553,
+  "pr": 281,
+  "wt": ["Protag.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), All power boosted 30%"
   }
 }, {
   "name": "Orga Itsuka",
