@@ -1830,3 +1830,23 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1829,Dark Army,16-12-4-01,285,4,,1,3,2,10,488,488,268,641,488,214,214,,Cooldown time up 10% Melee CRIT rate boosted 10%,,,"Capital Shop, Blueprint"
 1830,Club-Shaped Beam Rifle [Strike],16-12-6b-01,285,6,,1,3,2,10,268,1952,0,0,0,161,161,,"With Speed attribute (self), Enemy Melee power reduced 10%",2,1,"Capital Shop, Blueprint"
 1831,Club-Shaped Beam Rifle [Ranged],16-12-7a-01,285,7,,1,3,2,21,641,0,1240,488,0,261,261,,"When Shot ATK is over 3000, Shooting DMG output boosted 10",1,8,"Capital Shop, Blueprint"
+1832,Full Armor Unicorn Gundam,12-14-1-01,286,1,,5,2,1,10,1324,610,4284,0,820,401,642,604,,,,Sokai Festival
+1833,Full Armor Unicorn Gundam,12-14-2-01,286,2,,5,2,1,13,2329,1121,1519,1318,1310,0,899,,"While ""Gundam Type"", Shooting power boosted 30%",,,Sokai Festival
+1834,Full Armor Unicorn Gundam,12-14-3-01,286,3,8,5,2,1,10,2627,4870,2998,2122,2550,0,1483,605,,,,Sokai Festival
+1835,Full Armor Unicorn Gundam,12-14-4-01,286,4,,5,2,1,13,1321,1127,1032,1308,1316,894,634,,"With Technique attribute (self), Mid Shot Attack raised 20%",,,Sokai Festival
+1836,Full Armor Unicorn Gundam,12-14-5-01,286,5,,5,2,1,3,1325,1125,1038,1316,1316,634,895,606,,,,Sokai Festival
+1837,Hyper Beam Javelin,12-14-6d-01,286,6,,5,2,1,10,816,4775,0,0,415,644,905,,26% chance of attacks penetrating Super armor,1,6,Sokai Festival
+1838,Beam Gatling Gun,12-14-7-01,286,7,,5,2,1,13,818,195,5122,0,0,399,638,,"Middle-Shooter Job, Shooting power boosted 30%",1,11,Sokai Festival
+1839,Beam Gatling Gun [Coupled],12-14-7-01,286,7,,5,2,1,10,818,195,5122,0,0,399,638,,"With Technique attribute (self), EX Skill power boosted 30%",1,11,Sokai Festival
+1840,Banshee Norn,12-15-1-01,287,1,,5,3,10,13,1320,823,3846,820,824,409,635,607,,,,Sokai Festival
+1841,Banshee Norn,12-15-2-01,287,2,,5,3,10,6,2338,1318,1309,1506,1511,0,890,,"While ""High Firepower"", Shooting power boosted 30%",,,Sokai Festival
+1842,Banshee Norn,12-15-3-01,287,3,,5,3,10,13,1316,3846,1857,816,816,0,0,,"With Speed attribute (self), Melee power boosted 30%",,,Sokai Festival
+1843,Banshee Norn,12-15-4-01,287,4,,5,3,10,6,1322,1318,813,1312,1316,903,644,,"With Rifle category equipped, EX Skill CD reduced 20 %",,,Sokai Festival
+1844,Banshee Norn,12-15-5-01,287,5,,5,3,10,6,1323,1324,811,1313,1314,638,891,608,,,,Sokai Festival
+1845,Beam Magnum [Revolving Launcher],12-15-7a-01,287,7,,5,3,10,6,808,294,4864,0,0,400,635,,"While ""High Firepower"", EX Skill power boosted 30%",1,8,Sokai Festival
+1846,Armed Armor DE [Banshee Norn],12-15-8-01,287,8,,5,3,10,13,1313,1308,808,1314,1310,0,1440,609,,,,Sokai Festival
+1847,Shining Gundam [T],16-01-1-01,288,1,,5,2,14,6,1323,1399,3490,1523,0,418,659,,"While ""Mobile Fighter"", EX Skill power boosted 30%",,,SH Materials (Event Blueprint)
+1848,Shining Gundam [T],16-01-2-01,288,2,,5,2,14,6,2352,1680,607,2071,824,0,905,610,,,,SH Materials (Event Blueprint)
+1849,Shining Gundam [T],16-01-3-01,288,3,,5,2,14,6,1328,4537,1259,1333,609,0,0,611,,,,SH Materials (Event Blueprint)
+1850,Shining Gundam [T],16-01-4-01,288,4,,5,2,14,6,1328,1525,306,1861,929,909,652,,"In-Fighter Job, EX Skill CD reduced 20%",,,SH Materials (Event Blueprint)
+1851,Shining Gundam [T],16-01-5-01,288,5,,5,2,14,6,1333,1774,0,2141,924,654,909,,"With Technique attribute (self), Melee power boosted 30%",,,SH Materials (Event Blueprint)

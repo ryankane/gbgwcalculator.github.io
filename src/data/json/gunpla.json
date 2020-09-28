@@ -2621,7 +2621,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "NT-D",
-            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.",
+            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.",
             "category": "Awakening",
             "stats": {
                 "Dur": 51,
@@ -2691,6 +2691,143 @@
                 "Cd": [21, 3]
             }
         }
+    }]
+}, {
+    "name": "Banshee Norn",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1320,
+        "ma": 823,
+        "sa": 3846,
+        "md": 820,
+        "sd": 824,
+        "br": 409,
+        "pr": 635,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "NT-D",
+            "description": "Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2338,
+        "ma": 1318,
+        "sa": 1309,
+        "md": 1506,
+        "sd": 1511,
+        "br": 0,
+        "pr": 890,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1316,
+        "ma": 3846,
+        "sa": 1857,
+        "md": 816,
+        "sd": 816,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1322,
+        "ma": 1318,
+        "sa": 813,
+        "md": 1312,
+        "sd": 1316,
+        "br": 903,
+        "pr": 644,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, EX Skill CD reduced 20 %"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1323,
+        "ma": 1324,
+        "sa": 811,
+        "md": 1313,
+        "sd": 1314,
+        "br": 638,
+        "pr": 891,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Armed Armor XC",
+            "description": "Charge with your lion-mane-like shield from your back and execute a melee/revolving launcher combo. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 808,
+        "ma": 294,
+        "sa": 4864,
+        "md": 0,
+        "sd": 0,
+        "br": 400,
+        "pr": 635,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", EX Skill power boosted 30%"
+        },
+        "name": "Beam Magnum [Revolving Launcher]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1313,
+        "ma": 1308,
+        "sa": 808,
+        "md": 1314,
+        "sd": 1310,
+        "br": 0,
+        "pr": 1440,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Cannon",
+            "description": "Attack enemy with Mega Cannon mounted on the tip of your shield. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "Armed Armor DE [Banshee Norn]"
     }]
 }, {
     "name": "Baund Doc",
@@ -8977,6 +9114,166 @@
                 "Cd": [79, 20]
             }
         }
+    }]
+}, {
+    "name": "Full Armor Unicorn Gundam",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1324,
+        "ma": 610,
+        "sa": 4284,
+        "md": 0,
+        "sd": 820,
+        "br": 401,
+        "pr": 642,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "NT-D",
+            "description": "Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Shot Attack by 39%. Raise your Melee Defense by 39%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2329,
+        "ma": 1121,
+        "sa": 1519,
+        "md": 1318,
+        "sd": 1310,
+        "br": 0,
+        "pr": 899,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2627,
+        "ma": 4870,
+        "sa": 2998,
+        "md": 2122,
+        "sd": 2550,
+        "br": 0,
+        "pr": 1483,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Full Armed Attack",
+            "description": "Execute a combo with your hyper beam javelin and shield funnels from your beam Gatling gun. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 39%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Shield / Beam Gatling Gun"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1321,
+        "ma": 1127,
+        "sa": 1032,
+        "md": 1308,
+        "sd": 1316,
+        "br": 894,
+        "pr": 634,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Mid Shot Attack raised 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1325,
+        "ma": 1125,
+        "sa": 1038,
+        "md": 1316,
+        "sd": 1316,
+        "br": 634,
+        "pr": 895,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Bazooka & Missile Launcher",
+            "description": "Fire the hyper bazooka and 3 missiles from the pods mounted on your back.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 816,
+        "ma": 4775,
+        "sa": 0,
+        "md": 0,
+        "sd": 415,
+        "br": 644,
+        "pr": 905,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "26% chance of attacks penetrating Super armor"
+        },
+        "name": "Hyper Beam Javelin",
+        "type": "Beam",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 818,
+        "ma": 195,
+        "sa": 5122,
+        "md": 0,
+        "sd": 0,
+        "br": 399,
+        "pr": 638,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting power boosted 30%"
+        },
+        "name": "Beam Gatling Gun",
+        "type": "Beam",
+        "category": "Gatling Gun"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 818,
+        "ma": 195,
+        "sa": 5122,
+        "md": 0,
+        "sd": 0,
+        "br": 399,
+        "pr": 638,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill power boosted 30%"
+        },
+        "name": "Beam Gatling Gun [Coupled]",
+        "type": "Beam",
+        "category": "Gatling Gun"
     }]
 }, {
     "name": "Gafran",
@@ -30304,6 +30601,101 @@
         }
     }]
 }, {
+    "name": "Shining Gundam [T]",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1323,
+        "ma": 1399,
+        "sa": 3490,
+        "md": 1523,
+        "sd": 0,
+        "br": 418,
+        "pr": 659,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mobile Fighter\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2352,
+        "ma": 1680,
+        "sa": 607,
+        "md": 2071,
+        "sd": 824,
+        "br": 0,
+        "pr": 905,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Super Mode",
+            "description": "Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1328,
+        "ma": 4537,
+        "sa": 1259,
+        "md": 1333,
+        "sd": 609,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shining Finger",
+            "description": "Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla’s Physical Resist by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1328,
+        "ma": 1525,
+        "sa": 306,
+        "md": 1861,
+        "sd": 929,
+        "br": 909,
+        "pr": 652,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1333,
+        "ma": 1774,
+        "sa": 0,
+        "md": 2141,
+        "sd": 924,
+        "br": 654,
+        "pr": 909,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 30%"
+        }
+    }]
+}, {
     "name": "Sinanju",
     "attribute": "Power",
     "rarity": 4,
@@ -33083,7 +33475,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "NT-D",
-            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
+            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
             "category": "Awakening",
             "stats": {
                 "Dur": 51,

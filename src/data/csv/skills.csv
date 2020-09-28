@@ -248,7 +248,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 247,Twist Buster,"Lift foes with your saber, then knock them back to earth.",3,A,D,,,21,6
 248,Atomic Bazooka,Fire a nuclear warhead from your bazooka.,2,A+,C-,,,79,12
 249,Beam Dagger Bites,"Rush and grab a foe, then strike with a beam dagger combo. Lowers hit enemy Gunpla's Physical Resist by 29%.",3,A-,D,,,33,4
-250,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.,6,,,51,,60,12
+250,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.,6,,,51,,60,12
 251,Beam Tonfa,Execute a combo using Beam Tonfa attached to forearm. Squad recovers 48% of maximum Armor. Raises Shot Attack of your Squad by 19%. Raises Beam Resist of your Squad by 49%.,3,D,A,,,76,19
 252,Double Saber Rush,Cleave through enemies with sabers in each hand.,3,D,B+,,,21,3
 253,Chest Mega Particle Cannon & I-Field,Fire compressed Mirnovsky particles from Mega Particle Cannons on four of your turrets. Raises your Beam Resist by 59%.,1,A,D,,,60,15
@@ -354,7 +354,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 353,Beam Chakram,Launch a ring-shaped beam from your clavicle antenna. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.,1,D-,D,,,19,5
 354,GN Vulcan,"Attack enemies ahead with small, rapid-fire particle beams from your torso.",1,D,B,,7,60,0
 355,Trans-Am Raid,Release particles in your GN Drive for a high-speed attack. Raise Melee Attack of your Squad by 39%.,4,D,B+,,,79,20
-356,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
+356,NT-D,Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.,6,,,51,,60,12
 357,Armed Armor,Drag foes with your claw unit and crush them with a torrent of light from your dual beam deflector fins. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
 358,Choukyuu Haou Den'eidan,"Wrapped in a spiraling aura, launch yourself at the enemy in a straight line, like a cannonball.",4,B+,B,,,19,5
 359,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
@@ -602,3 +602,11 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 601,DG Cells,Continuously recover 5% of max Armor at a time using the 3 major theories of metallic cells.,5,,,15,,33,7
 602,CIWS,Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.,2,A,D,,11,60,0
 603,Head-Mounted Vulcan & Flare,Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,2,D-,D,,,19,5
+604,NT-D,Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Shot Attack by 39%. Raise your Melee Defense by 39%.,6,,,51,,60,12
+605,Full Armed Attack,Execute a combo with your hyper beam javelin and shield funnels from your beam Gatling gun. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 39%.,1,D,A,,,79,20
+606,Bazooka & Missile Launcher,Fire the hyper bazooka and 3 missiles from the pods mounted on your back.,2,D,B+,,,21,6
+607,NT-D,Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,51,,60,12
+608,Armed Armor XC,Charge with your lion-mane-like shield from your back and execute a melee/revolving launcher combo. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+609,Mega Cannon,Attack enemy with Mega Cannon mounted on the tip of your shield. You can move while firing.,1,A,D,,11,60,0
+610,Super Mode,Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+611,Shining Finger,Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla’s Physical Resist by 29%.,4,D,A-,,,21,3
