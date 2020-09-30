@@ -492,7 +492,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -584,7 +584,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -728,7 +728,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -908,7 +908,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Close-In Weapons System",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 14%. Lower's hit enemy Gunpla's Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -1069,7 +1069,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -1468,7 +1468,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -1592,7 +1592,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -1815,7 +1815,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -1977,7 +1977,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -2128,7 +2128,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -2599,7 +2599,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -2621,7 +2621,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "NT-D",
-            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.",
+            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Shot Attack by 29%. Raises your Shot Defense by 19%.",
             "category": "Awakening",
             "stats": {
                 "Dur": 51,
@@ -2691,6 +2691,272 @@
                 "Cd": [21, 3]
             }
         }
+    }]
+}, {
+    "name": "Banshee Norn",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1320,
+        "ma": 823,
+        "sa": 3846,
+        "md": 820,
+        "sd": 824,
+        "br": 409,
+        "pr": 635,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "NT-D",
+            "description": "Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Melee Attack by 39%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2338,
+        "ma": 1318,
+        "sa": 1309,
+        "md": 1506,
+        "sd": 1511,
+        "br": 0,
+        "pr": 890,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1316,
+        "ma": 3846,
+        "sa": 1857,
+        "md": 816,
+        "sd": 816,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1322,
+        "ma": 1318,
+        "sa": 813,
+        "md": 1312,
+        "sd": 1316,
+        "br": 903,
+        "pr": 644,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, EX Skill CD reduced 20 %"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1323,
+        "ma": 1324,
+        "sa": 811,
+        "md": 1313,
+        "sd": 1314,
+        "br": 638,
+        "pr": 891,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Armed Armor XC",
+            "description": "Charge with your lion-mane-like shield from your back and execute a melee/revolving launcher combo. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 808,
+        "ma": 294,
+        "sa": 4864,
+        "md": 0,
+        "sd": 0,
+        "br": 400,
+        "pr": 635,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", EX Skill power boosted 30%"
+        },
+        "name": "Beam Magnum [Revolving Launcher]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1313,
+        "ma": 1308,
+        "sa": 808,
+        "md": 1314,
+        "sd": 1310,
+        "br": 0,
+        "pr": 1440,
+        "wt": ["High Firepower", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Cannon",
+            "description": "Attack enemy with Mega Cannon mounted on the tip of your shield. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "Armed Armor DE [Banshee Norn]"
+    }]
+}, {
+    "name": "Baund Doc",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 754,
+        "ma": 442,
+        "sa": 2554,
+        "md": 356,
+        "sd": 356,
+        "br": 372,
+        "pr": 153,
+        "wt": ["Transformer", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor 60% or more, EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1440,
+        "ma": 754,
+        "sa": 754,
+        "md": 685,
+        "sd": 685,
+        "br": 525,
+        "pr": 0,
+        "wt": ["Transformer", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10% Shooting power boosted 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1541,
+        "ma": 3481,
+        "sa": 1667,
+        "md": 1081,
+        "sd": 1081,
+        "br": 864,
+        "pr": 0,
+        "wt": ["Transformer", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Claw",
+            "description": "Grab and slice through a foe with the claw arm on your right hand. Lowers hit enemy Gunpla's Physical Resist 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B-",
+                "Pow": "D",
+                "Cd": [33, 4]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Arm Shield"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 754,
+        "ma": 754,
+        "sa": 442,
+        "md": 685,
+        "sd": 685,
+        "br": 372,
+        "pr": 525,
+        "wt": ["Transformer", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), 28% chance to not recoil"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 754,
+        "ma": 754,
+        "sa": 442,
+        "md": 685,
+        "sd": 685,
+        "br": 525,
+        "pr": 372,
+        "wt": ["Transformer", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Transformer\", Close Shot Attack raised 14%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 442,
+        "ma": 3260,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 525,
+        "pr": 372,
+        "wt": ["Transformer", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Before 60s pass, Strong Melee power boosted 25%"
+        },
+        "name": "Beam Saber [Baund Doc]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 442,
+        "ma": 0,
+        "sa": 3260,
+        "md": 0,
+        "sd": 0,
+        "br": 372,
+        "pr": 153,
+        "wt": ["Transformer", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee DMG raised 10% Job Gauge increase boosted 13%"
+        },
+        "name": "Beam Rifle [Baund Doc]",
+        "type": "Beam",
+        "category": "Rifle"
     }]
 }, {
     "name": "Beargguy",
@@ -2980,7 +3246,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Vulcan",
-            "description": "Fire the Beam Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.",
+            "description": "Fire the Beam Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee Defense by 14%. Lowers hit enemy Gunpla's Shot Defense by 14%.",
             "category": "Beam Shot",
             "stats": {
                 "Prc": "D-",
@@ -3565,7 +3831,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -3964,7 +4230,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -4737,7 +5003,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -5025,7 +5291,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -5515,6 +5781,253 @@
         "name": "ABC Cloak [X2]"
     }]
 }, {
+    "name": "Crossbone Gundam X3",
+    "attribute": "Speed",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1528,
+        "ma": 722,
+        "sa": 1042,
+        "md": 1619,
+        "sd": 505,
+        "br": 549,
+        "pr": 277,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee DMG raised 10% EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2144,
+        "ma": 722,
+        "sa": 505,
+        "md": 2144,
+        "sd": 1042,
+        "br": 787,
+        "pr": 0,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Chest Gatling Cannon",
+            "description": "Fire the Gatling cannon in your chest at foes straight ahead.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 505,
+        "ma": 4330,
+        "sa": 505,
+        "md": 2144,
+        "sd": 505,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "l-Field Generator",
+            "description": "Activate the I-Field from the I-Field Generator. Raise your Shot Defense by 29%. Raise your Beam and Physical Resist 29%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1042,
+        "ma": 722,
+        "sa": 505,
+        "md": 2144,
+        "sd": 1042,
+        "br": 549,
+        "pr": 787,
+        "wt": ["Gundam Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy EX Skill power reduced 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1042,
+        "ma": 722,
+        "sa": 505,
+        "md": 2144,
+        "sd": 1042,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Gundam Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1133,
+        "ma": 5380,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 549,
+        "pr": 277,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Muramasa Blaster [Max Output]",
+            "description": "Emit 14 beams from the side and tip of your beam saber, then perform a melee attack.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Muramasa Blaster [Close Quarters]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 2074,
+        "ma": 0,
+        "sa": 3094,
+        "md": 0,
+        "sd": 0,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Gundam Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10% EX Skill power boosted 30%"
+        },
+        "name": "Muramasa Blaster [Ranged]",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
+    "name": "Dark Army",
+    "attribute": "Speed",
+    "rarity": 1,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 5,
+        "a": 909,
+        "ma": 561,
+        "sa": 335,
+        "md": 488,
+        "sd": 268,
+        "br": 161,
+        "pr": 161,
+        "wt": ["Mass P.", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "DG Cells",
+            "description": "Continuously recover 5% of max Armor at a time using the 3 major theories of metallic cells.",
+            "category": "Buff",
+            "stats": {
+                "Dur": 15,
+                "Cd": [33, 7]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 5,
+        "a": 843,
+        "ma": 705,
+        "sa": 335,
+        "md": 641,
+        "sd": 0,
+        "br": 161,
+        "pr": 161,
+        "wt": ["Mass P.", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill DMG output boosted 10"
+        }
+    }, {
+        "part": "arms",
+        "mark": 5,
+        "a": 0,
+        "ma": 1732,
+        "sa": 200,
+        "md": 488,
+        "sd": 268,
+        "br": 79,
+        "pr": 79,
+        "wt": ["Mass P.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mass P.\", Melee power boosted 10%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 5,
+        "a": 488,
+        "ma": 488,
+        "sa": 268,
+        "md": 641,
+        "sd": 488,
+        "br": 214,
+        "pr": 214,
+        "wt": ["Mass P.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Cooldown time up 10% Melee CRIT rate boosted 10%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 5,
+        "a": 268,
+        "ma": 1952,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 161,
+        "pr": 161,
+        "wt": ["Mass P.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy Melee power reduced 10%"
+        },
+        "name": "Club-Shaped Beam Rifle [Strike]",
+        "type": "Physical",
+        "category": "Axe"
+    }, {
+        "part": "range",
+        "mark": 5,
+        "a": 641,
+        "ma": 0,
+        "sa": 1240,
+        "md": 488,
+        "sd": 0,
+        "br": 261,
+        "pr": 261,
+        "wt": ["Mass P.", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Shot ATK is over 3000, Shooting DMG output boosted 10"
+        },
+        "name": "Club-Shaped Beam Rifle [Ranged]",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
     "name": "Delta Plus",
     "attribute": "Power",
     "rarity": 3,
@@ -5534,7 +6047,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -6387,7 +6900,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -7033,7 +7546,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -7384,7 +7897,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -8087,11 +8600,12 @@
         "ex": {
             "type": "EX Skill",
             "name": "CIWS",
-            "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting.",
+            "description": "Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "A",
                 "Pow": "D",
+                "Mag": 11,
                 "Cd": [60, 0]
             }
         }
@@ -8249,11 +8763,12 @@
         "ex": {
             "type": "EX Skill",
             "name": "CIWS",
-            "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting.",
+            "description": "Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "A",
                 "Pow": "D",
+                "Mag": 11,
                 "Cd": [60, 0]
             }
         }
@@ -8337,7 +8852,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Picus",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -8499,7 +9014,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -8599,6 +9114,166 @@
                 "Cd": [79, 20]
             }
         }
+    }]
+}, {
+    "name": "Full Armor Unicorn Gundam",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1324,
+        "ma": 610,
+        "sa": 4284,
+        "md": 0,
+        "sd": 820,
+        "br": 401,
+        "pr": 642,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "NT-D",
+            "description": "Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Shot Attack by 39%. Raise your Melee Defense by 39%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2329,
+        "ma": 1121,
+        "sa": 1519,
+        "md": 1318,
+        "sd": 1310,
+        "br": 0,
+        "pr": 899,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2627,
+        "ma": 4870,
+        "sa": 2998,
+        "md": 2122,
+        "sd": 2550,
+        "br": 0,
+        "pr": 1483,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Full Armed Attack",
+            "description": "Execute a combo with your hyper beam javelin and shield funnels from your beam Gatling gun. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 39%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Shield / Beam Gatling Gun"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1321,
+        "ma": 1127,
+        "sa": 1032,
+        "md": 1308,
+        "sd": 1316,
+        "br": 894,
+        "pr": 634,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Mid Shot Attack raised 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1325,
+        "ma": 1125,
+        "sa": 1038,
+        "md": 1316,
+        "sd": 1316,
+        "br": 634,
+        "pr": 895,
+        "wt": ["Protag.", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Bazooka & Missile Launcher",
+            "description": "Fire the hyper bazooka and 3 missiles from the pods mounted on your back.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 816,
+        "ma": 4775,
+        "sa": 0,
+        "md": 0,
+        "sd": 415,
+        "br": 644,
+        "pr": 905,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "26% chance of attacks penetrating Super armor"
+        },
+        "name": "Hyper Beam Javelin",
+        "type": "Beam",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 818,
+        "ma": 195,
+        "sa": 5122,
+        "md": 0,
+        "sd": 0,
+        "br": 399,
+        "pr": 638,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting power boosted 30%"
+        },
+        "name": "Beam Gatling Gun",
+        "type": "Beam",
+        "category": "Gatling Gun"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 818,
+        "ma": 195,
+        "sa": 5122,
+        "md": 0,
+        "sd": 0,
+        "br": 399,
+        "pr": 638,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill power boosted 30%"
+        },
+        "name": "Beam Gatling Gun [Coupled]",
+        "type": "Beam",
+        "category": "Gatling Gun"
     }]
 }, {
     "name": "Gafran",
@@ -8828,7 +9503,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "CIWS",
-            "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the close-range defense system in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -9762,7 +10437,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -9999,7 +10674,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -10135,7 +10810,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -10289,7 +10964,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -10406,7 +11081,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -10508,7 +11183,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -10725,7 +11400,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "GN Vulcan",
-            "description": "Fire the GN Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the GN Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Beam Shot",
             "stats": {
                 "Prc": "D-",
@@ -11710,7 +12385,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -11838,7 +12513,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -12017,6 +12692,197 @@
         "name": "Shield [Gundam]"
     }]
 }, {
+    "name": "Gundam [P]",
+    "attribute": "Power",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1134,
+        "ma": 618,
+        "sa": 3823,
+        "md": 507,
+        "sd": 507,
+        "br": 279,
+        "pr": 279,
+        "wt": ["Ace Excl.", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Torso Parts's EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2149,
+        "ma": 1134,
+        "sa": 1134,
+        "md": 1044,
+        "sd": 1044,
+        "br": 378,
+        "pr": 378,
+        "wt": ["Ace Excl.", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Javelin",
+            "description": "Attack by throwing the beam javelin in your right hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1134,
+        "ma": 3823,
+        "sa": 1623,
+        "md": 507,
+        "sd": 507,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Ace Excl.", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1134,
+        "ma": 1134,
+        "sa": 618,
+        "md": 1044,
+        "sd": 1044,
+        "br": 612,
+        "pr": 612,
+        "wt": ["Ace Excl.", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy EX Skill power reduced 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1134,
+        "ma": 1134,
+        "sa": 618,
+        "md": 1044,
+        "sd": 1044,
+        "br": 612,
+        "pr": 612,
+        "wt": ["Ace Excl.", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Ranged Weapons's EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 618,
+        "ma": 4848,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Ace Excl.", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, EX Skill power boosted 30%"
+        },
+        "name": "Beam Saber [Gundam][P]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 618,
+        "ma": 4848,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Ace Excl.", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Flexible Smash",
+            "description": "Pulverize the enemy with your hammer.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Gundam Hammer [Gundam][P]",
+        "type": "Physical",
+        "category": "Whip"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 618,
+        "ma": 0,
+        "sa": 4848,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Ace Excl.", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Last Shooting",
+            "description": "Stand firm and shoot down foes with your arm rifle. Raise Melee and Shot Attack of your Squad 24%. Squad attacks stun large foes more easily for a set period.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        },
+        "name": "Beam Rifle [Gundam][P]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 618,
+        "ma": 0,
+        "sa": 4848,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Ace Excl.", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Job Gauge increase boosted 17%"
+        },
+        "name": "Hyper Bazooka [Gundam][P]",
+        "type": "Physical",
+        "category": "Bazooka"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1134,
+        "ma": 1134,
+        "sa": 618,
+        "md": 1044,
+        "sd": 1044,
+        "br": 612,
+        "pr": 612,
+        "wt": ["Ace Excl.", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 10s pass, Vernier Consumption = 0 for 16s."
+        },
+        "name": "Shield [Gundam][P]"
+    }]
+}, {
     "name": "Gundam [Pre-Registration Reward]",
     "attribute": "Power",
     "rarity": 2,
@@ -12036,7 +12902,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -13191,7 +14057,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "CIWS",
-            "description": "Fire the close-range defense system in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the close-range defense system in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -14164,7 +15030,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -14315,7 +15181,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -14417,7 +15283,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -14544,7 +15410,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -15571,7 +16437,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -15705,6 +16571,117 @@
             "name": "Out-Fighter Job, Enemy Shooting power reduced 30%"
         },
         "name": "Shield [Ez8]"
+    }]
+}, {
+    "name": "Gundam F90 [S Type]",
+    "attribute": "Technique",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1779,
+        "ma": 0,
+        "sa": 3815,
+        "md": 507,
+        "sd": 1133,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Long-Range", "For Tundra"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Head-Mounted Vulcan",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2792,
+        "ma": 507,
+        "sa": 1263,
+        "md": 1042,
+        "sd": 1042,
+        "br": 725,
+        "pr": 0,
+        "wt": ["Long-Range", "For Tundra"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 70% or less, Vernier Consumption = 0 for 16s"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1620,
+        "ma": 1042,
+        "sa": 723,
+        "md": 1620,
+        "sd": 1530,
+        "br": 502,
+        "pr": 279,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Missile Pod & Beam Cannon",
+            "description": "Fire the missile pod and cannon on your arms. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1530,
+        "ma": 507,
+        "sa": 723,
+        "md": 1042,
+        "sd": 1530,
+        "br": 725,
+        "pr": 549,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Cruise Missiles",
+            "description": "Launch the two cruise missiles mounted on your legs.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1530,
+        "ma": 507,
+        "sa": 723,
+        "md": 1042,
+        "sd": 1530,
+        "br": 725,
+        "pr": 549,
+        "wt": ["Long-Range", "For Tundra"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Beam Cannon",
+            "description": "Bathe foes in high-power beams from your back cannon.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C-",
+                "Cd": [60, 15]
+            }
+        }
     }]
 }, {
     "name": "Gundam F91",
@@ -16337,7 +17314,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -16479,7 +17456,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -16580,7 +17557,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -16681,7 +17658,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -16954,8 +17931,8 @@
         "wt": ["Heavy Armor", "For Space"],
         "ex": {
             "type": "EX Skill",
-            "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "name": "Head-Mounted Vulcan & Flare",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -18838,7 +19815,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -18995,7 +19972,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -19213,7 +20190,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -19466,7 +20443,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -19880,7 +20857,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -20124,6 +21101,156 @@
         "name": "Hyper Beam Saber [Tryon 3]",
         "type": "Beam",
         "category": "Blade"
+    }]
+}, {
+    "name": "Gundam Valkyrie",
+    "attribute": "Technique",
+    "rarity": 2,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 505,
+        "ma": 505,
+        "sa": 4330,
+        "md": 505,
+        "sd": 1619,
+        "br": 277,
+        "pr": 549,
+        "wt": ["Gundam Type", "Support Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "S.A.N.A. Mode",
+            "description": "Switch to S.A.N.A. [Super Absolute Noble Afterimage] Mode—named by Sana—by briefly dispersing your Gunpla's crystals as particles. Raise your speed by 20%. Raise your Shot Attack by 39%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 44,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2144,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 0,
+        "pr": 787,
+        "wt": ["Gundam Type", "Support Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Chest Vulcan",
+            "description": "Fire the Beam Vulcan in your chest at foes straight ahead. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2900,
+        "ma": 1042,
+        "sa": 722,
+        "md": 1528,
+        "sd": 5380,
+        "br": 0,
+        "pr": 1317,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy Melee power reduced 30%"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Beam Shield [Valkyrie]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1042,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Spinning Saber",
+            "description": "Spin both hands to mow down nearby foes with your saber.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1042,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 549,
+        "pr": 787,
+        "wt": ["Gundam Type", "Support Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "V.S.B.R. Funnels",
+            "description": "Detach your back cannon to strike foes in all directions. You can move while this is active. Raise your speed by 20%. Raise your Shot Attack by 24%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 2074,
+        "ma": 3094,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 277,
+        "pr": 549,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "26% chance of attacks penetrating super armor"
+        },
+        "name": "Valkyrie Saber",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1133,
+        "ma": 0,
+        "sa": 5380,
+        "md": 0,
+        "sd": 0,
+        "br": 549,
+        "pr": 787,
+        "wt": ["Gundam Type", "Support Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Before 60s pass, Enemy Shooting power reduced 30%"
+        },
+        "name": "Beam Rifle [Valkyrie]",
+        "type": "Beam",
+        "category": "Rifle"
     }]
 }, {
     "name": "Gundam Vidar",
@@ -21145,7 +22272,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -21598,7 +22725,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -22087,7 +23214,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Vulcan Pod",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead.  Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -22207,7 +23334,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Vulcan Pod",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead.  Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -22662,7 +23789,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Sagittus",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -22935,7 +24062,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -24129,7 +25256,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -24514,6 +25641,10 @@
                 "Pow": "B",
                 "Cd": [21, 6]
             }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Arm Claw/Grenade Launcher"
         }
     }, {
         "part": "legs",
@@ -25213,7 +26344,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -26238,7 +27369,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -26346,7 +27477,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Picus",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -26472,7 +27603,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Picus",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lower hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -27483,7 +28614,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -28213,6 +29344,113 @@
         "name": "Shield [Sazabi]"
     }]
 }, {
+    "name": "Scramble Gundam",
+    "attribute": "Speed",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1131,
+        "ma": 505,
+        "sa": 3393,
+        "md": 1040,
+        "sd": 1260,
+        "br": 547,
+        "pr": 0,
+        "wt": ["Transformer", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Transformer\", Enemy Shooting power reduced 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2263,
+        "ma": 616,
+        "sa": 616,
+        "md": 1617,
+        "sd": 1617,
+        "br": 721,
+        "pr": 0,
+        "wt": ["Transformer", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Rampage",
+            "description": "Use wild particles to summon three destructive weapons and wipe enemies out of existence. Raise your Shot Attack by 24%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2070,
+        "ma": 3704,
+        "sa": 1040,
+        "md": 3809,
+        "sd": 3809,
+        "br": 785,
+        "pr": 277,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Cannon",
+            "description": "Bombard enemies with the beam rifle stowed in your movable shield binder.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Beam Rifle [Shield]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1131,
+        "ma": 616,
+        "sa": 616,
+        "md": 1617,
+        "sd": 1617,
+        "br": 785,
+        "pr": 547,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Saber Boomerang",
+            "description": "Slash with your saber, then hurl it point-first.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1131,
+        "ma": 616,
+        "sa": 616,
+        "md": 1617,
+        "sd": 1617,
+        "br": 785,
+        "pr": 547,
+        "wt": ["Transformer", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"For Computers\", Shooting power boosted 30%"
+        }
+    }]
+}, {
     "name": "Sengoku Astray Gundam",
     "attribute": "Technique",
     "rarity": 4,
@@ -28709,7 +29947,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -28859,7 +30097,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -29360,6 +30598,101 @@
         "ex": {
             "type": "Part Traits",
             "name": "When Melee ATK is over 2000, Melee DMG output boosted by 20"
+        }
+    }]
+}, {
+    "name": "Shining Gundam [T]",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1323,
+        "ma": 1399,
+        "sa": 3490,
+        "md": 1523,
+        "sd": 0,
+        "br": 418,
+        "pr": 659,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mobile Fighter\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2352,
+        "ma": 1680,
+        "sa": 607,
+        "md": 2071,
+        "sd": 824,
+        "br": 0,
+        "pr": 905,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Super Mode",
+            "description": "Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1328,
+        "ma": 4537,
+        "sa": 1259,
+        "md": 1333,
+        "sd": 609,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shining Finger",
+            "description": "Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla’s Physical Resist by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1328,
+        "ma": 1525,
+        "sa": 306,
+        "md": 1861,
+        "sd": 929,
+        "br": 909,
+        "pr": 652,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1333,
+        "ma": 1774,
+        "sa": 0,
+        "md": 2141,
+        "sd": 924,
+        "br": 654,
+        "pr": 909,
+        "wt": ["Mobile Fighter", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 30%"
         }
     }]
 }, {
@@ -29991,7 +31324,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Vulcan Pod",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead.  Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -30129,7 +31462,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Vulcan Pod",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead.  Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -30418,7 +31751,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Todesschrecken",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -30540,7 +31873,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Igelstellung",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -30706,7 +32039,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Beam Chakram",
-            "description": "Launch a ring-shaped beam from your clavicle antenna. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.",
+            "description": "Launch a ring-shaped beam from your clavicle antenna. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee Defense by 19%. Lowers hit enemy Gunpla's Shot Defense by 19%.",
             "category": "Beam Shot",
             "stats": {
                 "Prc": "D-",
@@ -31619,6 +32952,138 @@
         "category": "Long Rifle"
     }]
 }, {
+    "name": "TRY Age Gundam",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 687,
+        "ma": 356,
+        "sa": 2068,
+        "md": 687,
+        "sd": 687,
+        "br": 153,
+        "pr": 153,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"For Computers\", EX Skill power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1400,
+        "ma": 356,
+        "sa": 356,
+        "md": 1083,
+        "sd": 1083,
+        "br": 262,
+        "pr": 262,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, Buff EX Skill effect up 15%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 687,
+        "ma": 2068,
+        "sa": 356,
+        "md": 1083,
+        "sd": 1083,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "TRY Arm Sword",
+            "description": "A flurry of invisible blows from the saber in your forearm.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 687,
+        "ma": 356,
+        "sa": 356,
+        "md": 1083,
+        "sd": 1083,
+        "br": 424,
+        "pr": 452,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy EX Skill power reduced 25%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 687,
+        "ma": 356,
+        "sa": 356,
+        "md": 1083,
+        "sd": 1083,
+        "br": 452,
+        "pr": 424,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Try Age Eternity Shot",
+            "description": "Summon the equipment from the Gundam AGE series with a special card, and throw your TRY Slash Blade",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 687,
+        "ma": 2795,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 374,
+        "pr": 374,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When in Multi-Mission Sortie, Strong Melee CRIT rate boosted 17%"
+        },
+        "name": "TRY Slash Blade",
+        "type": "Beam",
+        "category": "Blade"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 687,
+        "ma": 0,
+        "sa": 2795,
+        "md": 0,
+        "sd": 0,
+        "br": 374,
+        "pr": 374,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Enemy Strong Melee power reduced 25%"
+        },
+        "name": "TRY DODS Rifle",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
     "name": "Turn A Gundam",
     "attribute": "Technique",
     "rarity": 4,
@@ -31988,7 +33453,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -32010,7 +33475,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "NT-D",
-            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
+            "description": "Enter Destroy Mode and Increase your reflexes with Psycho Frame. Raise your speed by 20%. Raises your Melee Attack by 29%. Raises your Melee Defense by 19%.",
             "category": "Awakening",
             "stats": {
                 "Dur": 51,
@@ -32322,7 +33787,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -32569,7 +34034,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -32705,7 +34170,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -32898,7 +34363,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -33204,7 +34669,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -33473,7 +34938,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -34349,7 +35814,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",
@@ -34916,7 +36381,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Head-Mounted Vulcan",
-            "description": "Fire the Vulcan in your head at foes straight ahead. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
             "category": "Physical Shot",
             "stats": {
                 "Prc": "D-",

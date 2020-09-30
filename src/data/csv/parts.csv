@@ -506,14 +506,14 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 505,Buster Rifle,17-01-7a-01,81,7,,4,3,12,8,384,0,3582,0,0,417,213,169,,1,8,Haro Chip Capsule
 506,Shield [Wing],17-01-8-01,81,8,,4,3,12,8,797,797,384,797,797,1029,0,170,,,,Haro Chip Capsule
 507,Force Impulse Gundam,22-01-1-01,82,1,,4,1,13,22,795,382,2377,795,795,0,416,,"When Armor is 40% or more, Shooting CRIT rate boosted 30%",,,Haro Chip Capsule
-508,Force Impulse Gundam,22-01-2-01,82,2,,4,1,13,22,1601,382,382,1179,1179,0,609,171,,,,Haro Chip Capsule
+508,Force Impulse Gundam,22-01-2-01,82,2,,4,1,13,22,1601,382,382,1179,1179,0,609,602,,,,Haro Chip Capsule
 509,Force Impulse Gundam,22-01-3-01,82,3,,4,1,13,7,795,2377,382,1179,1179,0,0,,"With Power attribute (self), Strong Melee CRIT rate boosted 30%",,,Haro Chip Capsule
 510,Force Impulse Gundam,22-01-4-01,82,4,,4,1,13,7,795,382,382,1179,1179,416,609,140,,,,Haro Chip Capsule
 511,Force Impulse Gundam,22-01-5-01,82,5,,4,1,13,7,795,382,382,1179,1179,416,609,172,,,,Haro Chip Capsule
 512,Vajra Beam Saber,22-01-6a-01,82,6,,4,1,13,22,795,3173,0,0,0,211,609,,"With Rifle category equipped, Initial EX Skill charge boosted 20%",1,2,Haro Chip Capsule
 513,MA-BAR72 High-Energy Beam Rifle,22-01-7a-01,82,7,,4,1,13,1,795,0,3173,0,0,211,609,,"With Rifle category equipped, Enemy Shooting power reduced 30%",1,8,Haro Chip Capsule
 514,Mobile Shield,22-01-8-01,82,8,,4,1,13,1,795,0,0,1601,1601,211,805,84,,,,Haro Chip Capsule
-515,Gusion,28-03-1-01,83,1,,1,1,11,20,1144,292,891,558,558,0,302,3,,,,Colossus Coins (Event)
+515,Gusion,28-03-1-01,83,1,,1,1,11,20,1144,292,891,558,558,0,302,603,,,,Colossus Coins (Event)
 516,Gusion,28-03-2-01,83,2,,1,1,11,20,1702,292,292,558,558,0,430,173,,,,Colossus Coins (Event)
 517,Gusion,28-03-3-01,83,3,,1,1,11,7,891,891,292,891,891,0,127,174,,,,Colossus Coins (Event)
 518,Gusion,28-03-4-01,83,4,,1,1,11,10,891,292,292,891,891,430,127,175,,,,Colossus Coins (Event)
@@ -1107,7 +1107,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1106,Astray Red Frame [Beginner Campaign],23-01-4-01,175,4,,1,1,1,24,1040,389,389,1040,651,430,430,,"With Saber category equipped, Enemy EX Skill penetration reduced 22%",,,Beginner Coin Exchange
 1107,Astray Red Frame [Beginner Campaign],23-01-5-01,175,5,,1,1,1,24,1040,389,389,1040,651,430,430,4,,,,Beginner Coin Exchange
 1108,Force Impulse Gundam [Beginner Campaign],22-01-1-01,176,1,,1,2,13,7,648,388,2268,648,648,0,332,,"With Rifle category equipped, Enemy Shooting power reduced 25%",,,Beginner Coin Exchange
-1109,Force Impulse Gundam [Beginner Campaign],22-01-2-01,176,2,,1,2,13,22,1454,388,388,1036,1036,0,514,171,,,,Beginner Coin Exchange
+1109,Force Impulse Gundam [Beginner Campaign],22-01-2-01,176,2,,1,2,13,22,1454,388,388,1036,1036,0,514,602,,,,Beginner Coin Exchange
 1110,Force Impulse Gundam [Beginner Campaign],22-01-3-01,176,3,,1,2,13,7,648,2268,388,1036,1036,0,0,,"With Technique attribute (self), Strong Melee CRIT rate boosted 17%",,,Beginner Coin Exchange
 1111,Force Impulse Gundam [Beginner Campaign],22-01-4-01,176,4,,1,2,13,7,648,388,388,1036,1036,332,514,140,,,,Beginner Coin Exchange
 1112,Force Impulse Gundam [Beginner Campaign],22-01-5-01,176,5,,1,2,13,1,648,388,388,1036,1036,332,514,4,,,,Beginner Coin Exchange
@@ -1546,7 +1546,7 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1545,Buster Rifle [Wing] [Endless Waltz Ver.],18-05-7a-01,242,7,,5,1,3,7,509,0,4674,0,0,556,556,169,,1,8,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
 1546,Shield [Wing] [Endless Waltz Ver.],18-05-8-01,242,8,,5,1,3,9,1049,1049,509,1049,1049,618,618,170,,,,5★ Part Guaranteed Step-Up Capsules & [No. 024] Bonus Coins
 1547,Messala,08-10-2-01,243,2,1,3,2,12,9,2066,1545,2422,1735,1248,0,713,519,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
-1548,Messala,08-10-3-01,243,3,,3,2,12,9,1398,2066,1178,1935,2422,152,526,520,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
+1548,Messala,08-10-3-01,243,3,8,3,2,12,9,1398,2066,1178,1935,2422,152,526,520,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
 1549,Messala,08-10-4-01,243,4,,3,2,12,20,687,355,355,1082,1082,374,526,,"While ""Transformer"", Shooting CRIT rate boosted 17%",,,[Part 1] 1st Anniversary Device A (Weekly Event)
 1550,Messala,08-10-5-01,243,5,,3,2,12,20,687,355,355,1082,1082,374,526,521,,,,[Part 1] 1st Anniversary Device A (Weekly Event)
 1551,Beam Saber [Messala],08-10-6a-01,243,6,,3,2,12,20,687,2793,0,0,0,152,526,,"With Technique attribute (self), Melee DMG output boosted by 20",1,2,[Part 1] 1st Anniversary Device A (Weekly Event)
@@ -1776,3 +1776,77 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1775,Victory Hexa,15-03-3-01,277,3,8,3,2,12,2,1405,1743,359,2804,1405,720,156,242,,,,Transposer Coins (Weekly Event)
 1776,Victory Hexa,15-03-4-01,277,4,,3,2,12,13,689,359,689,1088,359,532,376,,"When Beam RES is over 3000, EX Skill DMG taken reduced 20",,,Transposer Coins (Weekly Event)
 1777,Victory Hexa,15-03-5-01,277,5,,3,2,12,13,689,359,359,1405,359,532,376,,"Long-Shooter Job, Long Shot Attack raised 14%",,,Transposer Coins (Weekly Event)
+1778,Scramble Gundam,34-05-1-01,278,1,,4,3,12,26,1131,505,3393,1040,1260,547,0,,"While ""Transformer"", Enemy Shooting power reduced 30%",,,One 5★ Lv 80 Part Guaranteed Capsule
+1779,Scramble Gundam,34-05-2-01,278,2,,4,3,12,26,2263,616,616,1617,1617,721,0,583,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1780,Scramble Gundam,34-05-3-01,278,3,8,4,3,12,10,2070,3704,1040,3809,3809,785,277,584,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1781,Scramble Gundam,34-05-4-01,278,4,,4,3,12,10,1131,616,616,1617,1617,785,547,585,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1782,Scramble Gundam,34-05-5-01,278,5,,4,3,12,26,1131,616,616,1617,1617,785,547,,"While ""For Computers"", Shooting power boosted 30%",,,One 5★ Lv 80 Part Guaranteed Capsule
+1783,Gundam F90 [S Type],51-01-1-01,279,1,,4,2,8,22,1779,0,3815,507,1133,0,0,3,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1784,Gundam F90 [S Type],51-01-2-01,279,2,,4,2,8,22,2792,507,1263,1042,1042,725,0,,"When Armor is 70% or less, Vernier Consumption = 0 for 16s",,,One 5★ Lv 80 Part Guaranteed Capsule
+1785,Gundam F90 [S Type],51-01-3-01,279,3,,4,2,8,10,1620,1042,723,1620,1530,502,279,586,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1786,Gundam F90 [S Type],51-01-4-01,279,4,,4,2,8,10,1530,507,723,1042,1530,725,549,587,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1787,Gundam F90 [S Type],51-01-5-01,279,5,,4,2,8,22,1530,507,723,1042,1530,725,549,588,,,,One 5★ Lv 80 Part Guaranteed Capsule
+1788,TRY Age Gundam,09-01-1-01,280,1,,3,3,13,26,687,356,2068,687,687,153,153,,"While ""For Computers"", EX Skill power boosted 25%",,,Ace Card Device A (Weekly Event)
+1789,TRY Age Gundam,09-01-2-01,280,2,,3,3,13,26,1400,356,356,1083,1083,262,262,,"When buffed, Buff EX Skill effect up 15%",,,Ace Card Device A (Weekly Event)
+1790,TRY Age Gundam,09-01-3-01,280,3,,3,3,13,10,687,2068,356,1083,1083,0,0,589,,,,Ace Card Device A (Weekly Event)
+1791,TRY Age Gundam,09-01-4-01,280,4,,3,3,13,10,687,356,356,1083,1083,424,452,,"With Speed attribute (self), Enemy EX Skill power reduced 25%",,,Ace Card Device A (Weekly Event)
+1792,TRY Age Gundam,09-01-5-01,280,5,,3,3,13,10,687,356,356,1083,1083,452,424,590,,,,Ace Card Device A (Weekly Event)
+1793,TRY Slash Blade,09-01-6c-01,280,6,,3,3,13,10,687,2795,0,0,0,374,374,,"When in Multi-Mission Sortie, Strong Melee CRIT rate boosted 17%",1,5,Ace Card Device A (Weekly Event)
+1794,TRY DODS Rifle,09-01-7a-01,280,7,,3,3,13,26,687,0,2795,0,0,374,374,,"While ""Gundam Type"", Enemy Strong Melee power reduced 25%",1,8,Ace Card Device A (Weekly Event)
+1795,Crossbone Gundam X3,14-04-1-01,281,1,,5,3,13,6,1528,722,1042,1619,505,549,277,,Melee DMG raised 10% EX Skill power boosted 30%,,,Pick-Up Drop Rate Step-Up Capsules
+1796,Crossbone Gundam X3,14-04-2-01,281,2,,5,3,13,6,2144,722,505,2144,1042,787,0,591,,,,Pick-Up Drop Rate Step-Up Capsules
+1797,Crossbone Gundam X3,14-04-3-01,281,3,,5,3,13,6,505,4330,505,2144,505,0,0,592,,,,Pick-Up Drop Rate Step-Up Capsules
+1798,Crossbone Gundam X3,14-04-4-01,281,4,,5,3,13,20,1042,722,505,2144,1042,549,787,,"With Speed attribute (self), Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1799,Crossbone Gundam X3,14-04-5-01,281,5,,5,3,13,20,1042,722,505,2144,1042,787,549,,"In-Fighter Job, Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1800,Muramasa Blaster [Close Quarters],14-04-6a-01,281,6,,5,3,13,6,1133,5380,0,0,0,549,277,593,,1,2,Pick-Up Drop Rate Step-Up Capsules
+1801,Muramasa Blaster [Ranged],14-04-7a-01,281,7,,5,3,13,20,2074,0,3094,0,0,787,549,,Job Gauge inc. down 10% EX Skill power boosted 30%,1,8,Pick-Up Drop Rate Step-Up Capsules
+1802,Gundam [P],01-01-1-01,282,1,,5,1,3,7,1134,618,3823,507,507,279,279,,Torso Parts's EX Skill power boosted 30%,,,Pick-Up Drop Rate Step-Up Capsules
+1803,Gundam [P],01-01-2-01,282,2,,5,1,3,7,2149,1134,1134,1044,1044,378,378,594,,,,Pick-Up Drop Rate Step-Up Capsules
+1804,Gundam [P],01-01-3-01,282,3,,5,1,3,16,1134,3823,1623,507,507,0,0,,"When 1 enemies shot down, Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1805,Gundam [P],01-01-4-01,282,4,,5,1,3,16,1134,1134,618,1044,1044,612,612,,"With Power attribute (self), Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules
+1806,Gundam [P],01-01-5-01,282,5,,5,1,3,16,1134,1134,618,1044,1044,612,612,,Ranged Weapons's EX Skill power boosted 30%,,,Pick-Up Drop Rate Step-Up Capsules
+1807,Beam Saber [Gundam][P],01-01-6a-01,282,6,,5,1,3,7,618,4848,0,0,0,551,551,,"When 1 enemies shot down, EX Skill power boosted 30%",1,2,Pick-Up Drop Rate Step-Up Capsules
+1808,Gundam Hammer [Gundam][P],01-01-6-01,282,6,,5,1,3,16,618,4848,0,0,0,551,551,324,,2,7,Pick-Up Drop Rate Step-Up Capsules
+1809,Beam Rifle [Gundam][P],01-01-7a-01,282,7,,5,1,3,7,618,0,4848,0,0,551,551,595,,1,8,Pick-Up Drop Rate Step-Up Capsules
+1810,Hyper Bazooka [Gundam][P],01-01-7d-01,282,7,,5,1,3,16,618,0,4848,0,0,551,551,,"With Power attribute (self), Job Gauge increase boosted 17%",2,12,Pick-Up Drop Rate Step-Up Capsules
+1811,Shield [Gundam][P],01-01-8-01,282,8,,5,1,3,7,1134,1134,618,1044,1044,612,612,,"After 10s pass, Vernier Consumption = 0 for 16s.",,,Pick-Up Drop Rate Step-Up Capsules
+1812,Baund Doc,08-11-1-01,283,1,,3,1,12,7,754,442,2554,356,356,372,153,,"When Armor 60% or more, EX Skill piercing boosted 22%",,,Robust Coins (Weekly Event)
+1813,Baund Doc,08-11-2-01,283,2,,3,1,12,7,1440,754,754,685,685,525,0,,Job Gauge inc. down 10% Shooting power boosted 25%,,,Robust Coins (Weekly Event)
+1814,Baund Doc,08-11-3-01,283,3,8,3,1,12,7,1541,3481,1667,1081,1081,864,0,596,,,,Robust Coins (Weekly Event)
+1815,Baund Doc,08-11-4-01,283,4,,3,1,12,20,754,754,442,685,685,372,525,,"With Power attribute (self), 28% chance to not recoil",,,Robust Coins (Weekly Event)
+1816,Baund Doc,08-11-5-01,283,5,,3,1,12,20,754,754,442,685,685,525,372,,"While ""Transformer"", Close Shot Attack raised 14%",,,Robust Coins (Weekly Event)
+1817,Beam Saber [Baund Doc],08-11-6a-01,283,6,,3,1,12,20,442,3260,0,0,0,525,372,,"Before 60s pass, Strong Melee power boosted 25%",1,2,Robust Coins (Weekly Event)
+1818,Beam Rifle [Baund Doc],08-11-7a-01,283,7,,3,1,12,7,442,0,3260,0,0,372,153,,Melee DMG raised 10% Job Gauge increase boosted 13%,1,8,Robust Coins (Weekly Event)
+1819,Gundam Valkyrie,99-10-1-01,284,1,,2,2,13,15,505,505,4330,505,1619,277,549,597,,,,Valkyrie Capsules
+1820,Gundam Valkyrie,99-10-2-01,284,2,,2,2,13,15,2144,505,722,1042,2144,0,787,598,,,,Valkyrie Capsules
+1821,Gundam Valkyrie,99-10-3-01,284,3,8,2,2,13,26,2900,1042,722,1528,5380,0,1317,,"With Technique attribute (self), Enemy Melee power reduced 30%",,,Valkyrie Capsules
+1822,Gundam Valkyrie,99-10-4-01,284,4,,2,2,13,26,1042,505,722,1042,2144,787,549,599,,,,Valkyrie Capsules
+1823,Gundam Valkyrie,99-10-5-01,284,5,,2,2,13,15,1042,505,722,1042,2144,549,787,600,,,,Valkyrie Capsules
+1824,Valkyrie Saber,99-10-6a-01,284,6,,2,2,13,26,2074,3094,0,0,0,277,549,,26% chance of attacks penetrating super armor,1,2,Valkyrie Capsules
+1825,Beam Rifle [Valkyrie],99-10-7a-01,284,7,,2,2,13,15,1133,0,5380,0,0,549,787,,"Before 60s pass, Enemy Shooting power reduced 30%",1,8,Valkyrie Capsules
+1826,Dark Army,16-12-1-01,285,1,,1,3,2,21,909,561,335,488,268,161,161,601,,,,"Capital Shop, Blueprint"
+1827,Dark Army,16-12-2-01,285,2,,1,3,2,21,843,705,335,641,0,161,161,,"With Speed attribute (self), EX Skill DMG output boosted 10",,,"Capital Shop, Blueprint"
+1828,Dark Army,16-12-3-01,285,3,,1,3,2,10,0,1732,200,488,268,79,79,,"While ""Mass P."", Melee power boosted 10%",,,"Capital Shop, Blueprint"
+1829,Dark Army,16-12-4-01,285,4,,1,3,2,10,488,488,268,641,488,214,214,,Cooldown time up 10% Melee CRIT rate boosted 10%,,,"Capital Shop, Blueprint"
+1830,Club-Shaped Beam Rifle [Strike],16-12-6b-01,285,6,,1,3,2,10,268,1952,0,0,0,161,161,,"With Speed attribute (self), Enemy Melee power reduced 10%",2,1,"Capital Shop, Blueprint"
+1831,Club-Shaped Beam Rifle [Ranged],16-12-7a-01,285,7,,1,3,2,21,641,0,1240,488,0,261,261,,"When Shot ATK is over 3000, Shooting DMG output boosted 10",1,8,"Capital Shop, Blueprint"
+1832,Full Armor Unicorn Gundam,12-14-1-01,286,1,,5,2,1,10,1324,610,4284,0,820,401,642,604,,,,Sokai Festival
+1833,Full Armor Unicorn Gundam,12-14-2-01,286,2,,5,2,1,13,2329,1121,1519,1318,1310,0,899,,"While ""Gundam Type"", Shooting power boosted 30%",,,Sokai Festival
+1834,Full Armor Unicorn Gundam,12-14-3-01,286,3,8,5,2,1,10,2627,4870,2998,2122,2550,0,1483,605,,,,Sokai Festival
+1835,Full Armor Unicorn Gundam,12-14-4-01,286,4,,5,2,1,13,1321,1127,1032,1308,1316,894,634,,"With Technique attribute (self), Mid Shot Attack raised 20%",,,Sokai Festival
+1836,Full Armor Unicorn Gundam,12-14-5-01,286,5,,5,2,1,3,1325,1125,1038,1316,1316,634,895,606,,,,Sokai Festival
+1837,Hyper Beam Javelin,12-14-6d-01,286,6,,5,2,1,10,816,4775,0,0,415,644,905,,26% chance of attacks penetrating Super armor,1,6,Sokai Festival
+1838,Beam Gatling Gun,12-14-7-01,286,7,,5,2,1,13,818,195,5122,0,0,399,638,,"Middle-Shooter Job, Shooting power boosted 30%",1,11,Sokai Festival
+1839,Beam Gatling Gun [Coupled],12-14-7-01,286,7,,5,2,1,10,818,195,5122,0,0,399,638,,"With Technique attribute (self), EX Skill power boosted 30%",1,11,Sokai Festival
+1840,Banshee Norn,12-15-1-01,287,1,,5,3,10,13,1320,823,3846,820,824,409,635,607,,,,Sokai Festival
+1841,Banshee Norn,12-15-2-01,287,2,,5,3,10,6,2338,1318,1309,1506,1511,0,890,,"While ""High Firepower"", Shooting power boosted 30%",,,Sokai Festival
+1842,Banshee Norn,12-15-3-01,287,3,,5,3,10,13,1316,3846,1857,816,816,0,0,,"With Speed attribute (self), Melee power boosted 30%",,,Sokai Festival
+1843,Banshee Norn,12-15-4-01,287,4,,5,3,10,6,1322,1318,813,1312,1316,903,644,,"With Rifle category equipped, EX Skill CD reduced 20 %",,,Sokai Festival
+1844,Banshee Norn,12-15-5-01,287,5,,5,3,10,6,1323,1324,811,1313,1314,638,891,608,,,,Sokai Festival
+1845,Beam Magnum [Revolving Launcher],12-15-7a-01,287,7,,5,3,10,6,808,294,4864,0,0,400,635,,"While ""High Firepower"", EX Skill power boosted 30%",1,8,Sokai Festival
+1846,Armed Armor DE [Banshee Norn],12-15-8-01,287,8,,5,3,10,13,1313,1308,808,1314,1310,0,1440,609,,,,Sokai Festival
+1847,Shining Gundam [T],16-01-1-01,288,1,,5,2,14,6,1323,1399,3490,1523,0,418,659,,"While ""Mobile Fighter"", EX Skill power boosted 30%",,,SH Materials (Event Blueprint)
+1848,Shining Gundam [T],16-01-2-01,288,2,,5,2,14,6,2352,1680,607,2071,824,0,905,610,,,,SH Materials (Event Blueprint)
+1849,Shining Gundam [T],16-01-3-01,288,3,,5,2,14,6,1328,4537,1259,1333,609,0,0,611,,,,SH Materials (Event Blueprint)
+1850,Shining Gundam [T],16-01-4-01,288,4,,5,2,14,6,1328,1525,306,1861,929,909,652,,"In-Fighter Job, EX Skill CD reduced 20%",,,SH Materials (Event Blueprint)
+1851,Shining Gundam [T],16-01-5-01,288,5,,5,2,14,6,1333,1774,0,2141,924,654,909,,"With Technique attribute (self), Melee power boosted 30%",,,SH Materials (Event Blueprint)
