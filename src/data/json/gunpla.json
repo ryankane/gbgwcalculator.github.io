@@ -22870,6 +22870,134 @@
         "category": "Bazooka"
     }]
 }, {
+    "name": "Hyperion Gundam",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 683,
+        "ma": 354,
+        "sa": 2143,
+        "md": 683,
+        "sd": 834,
+        "br": 370,
+        "pr": 0,
+        "wt": ["For Space", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting DMG output boosted 20"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1391,
+        "ma": 442,
+        "sa": 442,
+        "md": 1105,
+        "sd": 1105,
+        "br": 521,
+        "pr": 0,
+        "wt": ["For Space", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Revive with 30% Armor one time"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1391,
+        "ma": 2409,
+        "sa": 683,
+        "md": 2545,
+        "sd": 2545,
+        "br": 706,
+        "pr": 151,
+        "wt": ["For Space", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"For Space\", Enemy Melee power reduced 25%"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Lightwave Shield (Armure Lumiere)"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 683,
+        "ma": 442,
+        "sa": 442,
+        "md": 1105,
+        "sd": 1105,
+        "br": 521,
+        "pr": 370,
+        "wt": ["For Space", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10% Mid Shot Attack raised 14%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 683,
+        "ma": 442,
+        "sa": 442,
+        "md": 1105,
+        "sd": 1105,
+        "br": 521,
+        "pr": 370,
+        "wt": ["For Space", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Armure Lumiere",
+            "description": "Deploy the generator stowed in your back and create a lightwave barrier. Raise your speed by 20%. Raise your Shot Attack by 19%. Raise your Shot Defense by 29%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 683,
+        "ma": 2834,
+        "sa": 0,
+        "md": 132,
+        "sd": 0,
+        "br": 521,
+        "pr": 151,
+        "wt": ["For Space", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mid-Range\", Initial EX Skill charge boosted 12%"
+        },
+        "name": "Romteknica RBW Type 7001",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 683,
+        "ma": 0,
+        "sa": 2834,
+        "md": 0,
+        "sd": 132,
+        "br": 521,
+        "pr": 151,
+        "wt": ["For Space", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, EX Skill power boosted 25%"
+        },
+        "name": "Beam Submachine Gun (Zastava Stigmate)",
+        "type": "Beam",
+        "category": "Machine Gun"
+    }]
+}, {
     "name": "Infinite Justice Gundam",
     "attribute": "Technique",
     "rarity": 4,
@@ -27458,6 +27586,115 @@
         }
     }]
 }, {
+    "name": "Petit-Beargguy",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 689,
+        "ma": 359,
+        "sa": 1088,
+        "md": 689,
+        "sd": 689,
+        "br": 376,
+        "pr": 376,
+        "wt": ["Amphib.", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Bubble Barrier",
+            "description": "Envelope yourself in a bubble to temporarily boost your defensive capabilities. Raise your Shot Defense by 29%. Raise your Beam and Physical Resist by 29%.",
+            "category": "Buff",
+            "stats": {
+                "Dur": 37,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1088,
+        "ma": 689,
+        "sa": 689,
+        "md": 1743,
+        "sd": 1743,
+        "br": 1080,
+        "pr": 1080,
+        "wt": ["Amphib.", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Petit Tackle",
+            "description": "Summon a mysterious, spaceflight-capable vehicle and charge at enemies.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "combo": {
+            "type": "legs",
+            "name": "Petit-Beargguy"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 359,
+        "ma": 1088,
+        "sa": 359,
+        "md": 689,
+        "sd": 689,
+        "br": 532,
+        "pr": 532,
+        "wt": ["Amphib.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Soten Guren-Ken",
+            "description": "Dive into your enemy's chest and smash their weak point with your fists.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 9]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 359,
+        "ma": 359,
+        "sa": 359,
+        "md": 1088,
+        "sd": 1088,
+        "br": 532,
+        "pr": 532,
+        "wt": ["Amphib.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Close Shot Attack raised 14%"
+        }
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 689,
+        "ma": 0,
+        "sa": 1405,
+        "md": 0,
+        "sd": 0,
+        "br": 532,
+        "pr": 532,
+        "wt": ["Amphib.", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Amphib.\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Mini Zaku Machine Gun",
+        "type": "Physical",
+        "category": "Machine Gun"
+    }]
+}, {
     "name": "Providence Gundam",
     "attribute": "Technique",
     "rarity": 4,
@@ -30656,7 +30893,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Shining Finger",
-            "description": "Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla’s Physical Resist by 29%.",
+            "description": "Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla's Physical Resist by 29%.",
             "category": "Physical Melee",
             "stats": {
                 "Prc": "D",
@@ -30889,6 +31126,156 @@
             }
         },
         "name": "Shield [Sinanju]"
+    }]
+}, {
+    "name": "Slash Zaku Phantom",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 685,
+        "ma": 470,
+        "sa": 1879,
+        "md": 354,
+        "sd": 1176,
+        "br": 260,
+        "pr": 260,
+        "wt": ["Zaku Type", "Commander"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Recover 10 Armor gradually"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1176,
+        "ma": 838,
+        "sa": 354,
+        "md": 685,
+        "sd": 1437,
+        "br": 268,
+        "pr": 268,
+        "wt": ["Zaku Type", "Commander"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Twin Blade category equipped, EX Skill CD reduced 15 %"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 754,
+        "ma": 2550,
+        "sa": 354,
+        "md": 685,
+        "sd": 1107,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Zaku Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10% Melee power boosted 25%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 685,
+        "ma": 470,
+        "sa": 354,
+        "md": 354,
+        "sd": 1176,
+        "br": 494,
+        "pr": 494,
+        "wt": ["Zaku Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When CPWR is over 100000, Melee CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 685,
+        "ma": 470,
+        "sa": 354,
+        "md": 354,
+        "sd": 1176,
+        "br": 494,
+        "pr": 494,
+        "wt": ["Zaku Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Hydra Gatling Beam Cannon",
+            "description": "Fire the Gatling beam cannon attached to your back.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 354,
+        "ma": 3255,
+        "sa": 0,
+        "md": 0,
+        "sd": 754,
+        "br": 260,
+        "pr": 260,
+        "wt": ["Zaku Type", "Commander"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Zaku Type\", Initial EX Skill charge boosted 12%"
+        },
+        "name": "Beam Tomahawk [Slash Zaku Phantom]",
+        "type": "Beam",
+        "category": "Axe"
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 354,
+        "ma": 3255,
+        "sa": 0,
+        "md": 0,
+        "sd": 754,
+        "br": 260,
+        "pr": 260,
+        "wt": ["Zaku Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Axe Deployment",
+            "description": "Transform your beam axe into a scythe and brutally swipe at nearby foes. Lowers hit enemy Gunpla's Beam Resist by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Falx G7 Beam Axe",
+        "type": "Beam",
+        "category": "Twin Blade"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 685,
+        "ma": 0,
+        "sa": 1731,
+        "md": 0,
+        "sd": 960,
+        "br": 423,
+        "pr": 423,
+        "wt": ["Zaku Type", "Commander"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once"
+        },
+        "name": "Beam Assault Rifle",
+        "type": "Beam",
+        "category": "Machine Gun"
     }]
 }, {
     "name": "Star Build Strike Gundam",
