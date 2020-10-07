@@ -609,4 +609,10 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 608,Armed Armor XC,Charge with your lion-mane-like shield from your back and execute a melee/revolving launcher combo. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
 609,Mega Cannon,Attack enemy with Mega Cannon mounted on the tip of your shield. You can move while firing.,1,A,D,,11,60,0
 610,Super Mode,Enter Super Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
-611,Shining Finger,Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla’s Physical Resist by 29%.,4,D,A-,,,21,3
+611,Shining Finger,Crush and enemy's head with the mercury energy in your palm. Lowers hit enemy Gunpla's Physical Resist by 29%.,4,D,A-,,,21,3
+612,Armure Lumiere,Deploy the generator stowed in your back and create a lightwave barrier. Raise your speed by 20%. Raise your Shot Attack by 19%. Raise your Shot Defense by 29%.,6,,,51,,60,12
+613,Bubble Barrier,Envelope yourself in a bubble to temporarily boost your defensive capabilities. Raise your Shot Defense by 29%. Raise your Beam and Physical Resist by 29%.,5,,,37,,60,12
+614,Petit Tackle,"Summon a mysterious, spaceflight-capable vehicle and charge at enemies.",4,A,D,,,21,3
+615,Soten Guren-Ken,Dive into your enemy's chest and smash their weak point with your fists.,4,D,B,,,21,9
+616,Hydra Gatling Beam Cannon,Fire the Gatling beam cannon attached to your back.,1,D,B,,,21,6
+617,Beam Axe Deployment,Transform your beam axe into a scythe and brutally swipe at nearby foes. Lowers hit enemy Gunpla's Beam Resist by 39%.,3,B+,C,,,21,3

@@ -413,6 +413,24 @@
     "name": "With Speed attribute (self), Projectile speed boosted 14%"
   }
 }, {
+  "name": "Canard Pars",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 683,
+  "ma": 752,
+  "sa": 752,
+  "md": 752,
+  "sd": 752,
+  "br": 521,
+  "pr": 151,
+  "wt": ["Gundam Type", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Enemy Shooting power reduced 25%"
+  }
+}, {
   "name": "Carozzo Ronah",
   "jl": "Defender",
   "attribute": "Power",
@@ -1187,6 +1205,24 @@
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Hiling Care",
+  "jl": "Defender",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1107,
+  "ma": 354,
+  "sa": 1176,
+  "md": 685,
+  "sd": 685,
+  "br": 524,
+  "pr": 151,
+  "wt": ["Ace Excl.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Long Shot Attack raised 14%"
+  }
+}, {
   "name": "Hugues Courand",
   "jl": "In-Fighter",
   "attribute": "Technique",
@@ -1797,6 +1833,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Buff EX Skill effect up 12%"
+  }
+}, {
+  "name": "McGillis Fareed",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 507,
+  "ma": 1782,
+  "sa": 1782,
+  "md": 1044,
+  "sd": 1044,
+  "br": 551,
+  "pr": 279,
+  "wt": ["High Mobility", "Commander"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "Job Gauge inc. down 10% All power boosted 30%"
   }
 }, {
   "name": "Meer Campbell",
@@ -2949,6 +3003,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Buff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Yzak Joule [Destiny]",
+  "jl": "In-Fighter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 685,
+  "ma": 1540,
+  "sa": 354,
+  "md": 752,
+  "sd": 685,
+  "br": 151,
+  "pr": 372,
+  "wt": ["Commander", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Zechs Marquise",

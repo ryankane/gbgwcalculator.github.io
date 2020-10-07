@@ -1850,3 +1850,23 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1849,Shining Gundam [T],16-01-3-01,288,3,,5,2,14,6,1328,4537,1259,1333,609,0,0,611,,,,SH Materials (Event Blueprint)
 1850,Shining Gundam [T],16-01-4-01,288,4,,5,2,14,6,1328,1525,306,1861,929,909,652,,"In-Fighter Job, EX Skill CD reduced 20%",,,SH Materials (Event Blueprint)
 1851,Shining Gundam [T],16-01-5-01,288,5,,5,2,14,6,1333,1774,0,2141,924,654,909,,"With Technique attribute (self), Melee power boosted 30%",,,SH Materials (Event Blueprint)
+1852,Hyperion Gundam,50-02-1-01,289,1,,3,2,20,13,683,354,2143,683,834,370,0,,"Middle-Shooter Job, Shooting DMG output boosted 20",,,Light Shield Coins (Weekly Event)
+1853,Hyperion Gundam,50-02-2-01,289,2,,3,2,20,13,1391,442,442,1105,1105,521,0,,"With Technique attribute (self), Revive with 30% Armor one time",,,Light Shield Coins (Weekly Event)
+1854,Hyperion Gundam,50-02-3-01,289,3,8,3,2,20,13,1391,2409,683,2545,2545,706,151,,"While ""For Space"", Enemy Melee power reduced 25%",,,Light Shield Coins (Weekly Event)
+1855,Hyperion Gundam,50-02-4-01,289,4,,3,2,20,7,683,442,442,1105,1105,521,370,,Job Gauge inc. down 10% Mid Shot Attack raised 14%,,,Light Shield Coins (Weekly Event)
+1856,Hyperion Gundam,50-02-5-01,289,5,,3,2,20,7,683,442,442,1105,1105,521,370,612,,,,Light Shield Coins (Weekly Event)
+1857,Romteknica RBW Type 7001,50-02-6a-01,289,6,,3,2,20,7,683,2834,0,132,0,521,151,,"While ""Mid-Range"", Initial EX Skill charge boosted 12%",1,2,Light Shield Coins (Weekly Event)
+1858,Beam Submachine Gun (Zastava Stigmate),50-02-7c-01,289,7,,3,2,20,7,683,0,2834,0,132,521,151,,"Middle-Shooter Job, EX Skill power boosted 25%",1,9,Light Shield Coins (Weekly Event)
+1859,Petit-Beargguy,34-06-1-01,290,1,,3,1,4,26,689,359,1088,689,689,376,376,613,,,,Capsule Medals (Event Capsules)
+1860,Petit-Beargguy,34-06-2-01,290,2,4,3,1,4,26,1088,689,689,1743,1743,1080,1080,614,,,,Capsule Medals (Event Capsules)
+1861,Petit-Beargguy,34-06-3-01,290,3,,3,1,4,10,359,1088,359,689,689,532,532,615,,,,Capsule Medals (Event Capsules)
+1862,Petit-Beargguy,34-06-5-01,290,5,,3,1,4,10,359,359,359,1088,1088,532,532,,"With Power attribute (self), Close Shot Attack raised 14%",,,Capsule Medals (Event Capsules)
+1863,Mini Zaku Machine Gun,34-06-7c-01,290,7,,3,1,4,26,689,0,1405,0,0,532,532,,"While ""Amphib."", Initial EX Skill charge boosted 20%",2,9,Capsule Medals (Event Capsules)
+1864,Slash Zaku Phantom,22-13-1-01,291,1,,3,3,18,5,685,470,1879,354,1176,260,260,,"In-Fighter Job, Recover 10 Armor gradually",,,Arena Coins
+1865,Slash Zaku Phantom,22-13-2-01,291,2,,3,3,18,5,1176,838,354,685,1437,268,268,,"With Twin Blade category equipped, EX Skill CD reduced 15 %",,,Arena Coins
+1866,Slash Zaku Phantom,22-13-3-01,291,3,,3,3,18,10,754,2550,354,685,1107,0,0,,Job Gauge inc. down 10% Melee power boosted 25%,,,Arena Coins
+1867,Slash Zaku Phantom,22-13-4-01,291,4,,3,3,18,10,685,470,354,354,1176,494,494,,"When CPWR is over 100000, Melee CRIT rate boosted 17%",,,Arena Coins
+1868,Slash Zaku Phantom,22-13-5-01,291,5,,3,3,18,10,685,470,354,354,1176,494,494,616,,,,Arena Coins
+1869,Beam Tomahawk [Slash Zaku Phantom],22-13-6b-01,291,6,,3,3,18,5,354,3255,0,0,754,260,260,,"While ""Zaku Type"", Initial EX Skill charge boosted 12%",1,1,Arena Coins
+1870,Falx G7 Beam Axe,22-13-6-01,291,6,,3,3,18,10,354,3255,0,0,754,260,260,617,,1,13,Arena Coins
+1871,Beam Assault Rifle,22-13-7c-01,291,7,,3,3,18,5,685,0,1731,0,960,423,423,,"When 1 enemies shot down, Reduce Cooldown by 40% once",1,9,Arena Coins
