@@ -4984,6 +4984,163 @@
         "name": "MMI-RG330 Cruising Mobile Shield"
     }]
 }, {
+    "name": "Cherudim Gundam",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 505,
+        "ma": 505,
+        "sa": 4330,
+        "md": 505,
+        "sd": 1619,
+        "br": 549,
+        "pr": 277,
+        "wt": ["Mid-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2144,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 787,
+        "pr": 0,
+        "wt": ["Mid-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee Attack down 10% Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1528,
+        "ma": 1042,
+        "sa": 722,
+        "md": 505,
+        "sd": 2144,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Mid-Range", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Beam ranged weapon, reload speed boosted 20%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1042,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 549,
+        "pr": 787,
+        "wt": ["Mid-Range", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "GN Shield Bits",
+            "description": "Deploy shield bits to nullify beam/physical shot damage. You can move while this is active.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1042,
+        "ma": 505,
+        "sa": 722,
+        "md": 1042,
+        "sd": 2144,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Mid-Range", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "GN Beam Pistol Il",
+            "description": "Fire the twin pistols in each hand.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 2074,
+        "ma": 3094,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 549,
+        "pr": 277,
+        "wt": ["Mid-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Mid-Range\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "GN Beam Pistol II Axe Mode",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1133,
+        "ma": 0,
+        "sa": 5380,
+        "md": 0,
+        "sd": 0,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Mid-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Enemy Shooting power reduced 30%"
+        },
+        "name": "GN Beam Pistol II",
+        "type": "Beam",
+        "category": "Twin Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1133,
+        "ma": 0,
+        "sa": 5380,
+        "md": 0,
+        "sd": 0,
+        "br": 787,
+        "pr": 549,
+        "wt": ["Mid-Range", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Sniping",
+            "description": "Snipe a target with a precise shot of converging beams.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "GN Sniper Rifle II",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }]
+}, {
     "name": "Code ϕ",
     "attribute": "Technique",
     "rarity": 2,
@@ -5783,7 +5940,7 @@
 }, {
     "name": "Crossbone Gundam X3",
     "attribute": "Speed",
-    "rarity": 4,
+    "rarity": 5,
     "level": 99,
     "sokai": 0,
     "parts": [{
@@ -12694,7 +12851,7 @@
 }, {
     "name": "Gundam [P]",
     "attribute": "Power",
-    "rarity": 4,
+    "rarity": 5,
     "level": 99,
     "sokai": 0,
     "parts": [{
@@ -22527,6 +22684,102 @@
         "name": "Shield [High Mobility Gelgoog (Johnny Ridden)]"
     }]
 }, {
+    "name": "High Mobility Psycommu System Zaku",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 685,
+        "ma": 354,
+        "sa": 2550,
+        "md": 754,
+        "sd": 354,
+        "br": 145,
+        "pr": 145,
+        "wt": ["For Space", "Zaku Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, EX Skill power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1176,
+        "ma": 354,
+        "sa": 470,
+        "md": 1437,
+        "sd": 685,
+        "br": 268,
+        "pr": 268,
+        "wt": ["For Space", "Zaku Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Headbutt",
+            "description": "Make use of your mobility to unleash a fierce headbutt attack.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 754,
+        "ma": 1879,
+        "sa": 470,
+        "md": 1176,
+        "sd": 685,
+        "br": 0,
+        "pr": 0,
+        "wt": ["For Space", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Wire-Guided Mega Particle Cannon",
+            "description": "Detatch and launch your forearm and shoot at a locked-on target.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 685,
+        "ma": 354,
+        "sa": 838,
+        "md": 1176,
+        "sd": 354,
+        "br": 494,
+        "pr": 494,
+        "wt": ["For Space", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), 28% chance to not recoil"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 685,
+        "ma": 354,
+        "sa": 470,
+        "md": 1540,
+        "sd": 354,
+        "br": 494,
+        "pr": 494,
+        "wt": ["For Space", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Before 60s pass, Long Shot Attack raised 14%"
+        }
+    }]
+}, {
     "name": "Hy-Gogg",
     "attribute": "Speed",
     "rarity": 2,
@@ -26296,6 +26549,145 @@
         "name": "Beam Rifle [Moon]",
         "type": "Beam",
         "category": "Rifle"
+    }]
+}, {
+    "name": "Musha Gundam [Super Hagane Ver.]",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1044,
+        "ma": 829,
+        "sa": 3611,
+        "md": 723,
+        "sd": 418,
+        "br": 279,
+        "pr": 279,
+        "wt": ["Gundam Type", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2079,
+        "ma": 1334,
+        "sa": 1044,
+        "md": 1265,
+        "sd": 935,
+        "br": 378,
+        "pr": 378,
+        "wt": ["Gundam Type", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "SD Tackle",
+            "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "B-",
+                "Cd": [19, 2]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1044,
+        "ma": 3892,
+        "sa": 1532,
+        "md": 723,
+        "sd": 418,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Gundam Type", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1044,
+        "ma": 1334,
+        "sa": 507,
+        "md": 1265,
+        "sd": 935,
+        "br": 612,
+        "pr": 612,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Bukyumaru",
+            "description": "Unleash a barrage of attacks with your blade.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1044,
+        "ma": 1334,
+        "sa": 507,
+        "md": 1265,
+        "sd": 935,
+        "br": 612,
+        "pr": 612,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shin Sanrai Nichirin-Giri",
+            "description": "Throw your spinning naginata forcefully to bring enemies to heel in a single stroke. Raise Melee Attack of your Squad by 39%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 507,
+        "ma": 4935,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Gundam Type", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When CPWR is over 150000, Enemy Melee power reduced 30%"
+        },
+        "name": "Bukyumaru",
+        "type": "Physical",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 507,
+        "ma": 0,
+        "sa": 4654,
+        "md": 0,
+        "sd": 0,
+        "br": 551,
+        "pr": 551,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Before 60s pass, Job Gauge increase boosted 17%"
+        },
+        "name": "Tanegashima Rifle",
+        "type": "Physical",
+        "category": "Long Rifle"
     }]
 }, {
     "name": "Musha Victory [Golden Raiment]",
