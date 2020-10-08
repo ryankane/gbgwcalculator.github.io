@@ -251,6 +251,24 @@
     "name": "21% chance of attacks penetrating super armor"
   }
 }, {
+  "name": "Annerose Rosenheim",
+  "jl": "Long-Shooter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1042,
+  "ma": 505,
+  "sa": 2265,
+  "md": 1042,
+  "sd": 1133,
+  "br": 549,
+  "pr": 277,
+  "wt": ["Zeon", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "Melee Attack down 10% Long Shot Attack raised 20%"
+  }
+}, {
   "name": "Apolly Bay",
   "jl": "Out-Fighter",
   "attribute": "Technique",
@@ -663,6 +681,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), All CRIT rate boosted 14%"
+  }
+}, {
+  "name": "Domon Kasshu [Super Mode]",
+  "jl": "In-Fighter",
+  "attribute": "Technique",
+  "rarity": 5,
+  "level": 99,
+  "a": 1526,
+  "ma": 2501,
+  "sa": 492,
+  "md": 405,
+  "sd": 405,
+  "br": 521,
+  "pr": 521,
+  "wt": ["Protag.", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Close Combat\", Melee power boosted 30%"
   }
 }, {
   "name": "Dozle Zabi",
@@ -1239,6 +1275,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When in Multi-Mission Sortie, EX Skill CD reduced 15%"
+  }
+}, {
+  "name": "Iok Kujan",
+  "jl": "Supporter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 685,
+  "ma": 354,
+  "sa": 1176,
+  "md": 1107,
+  "sd": 685,
+  "br": 372,
+  "pr": 372,
+  "wt": ["Commander", "For Desert"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Recover 10 Armor gradually"
   }
 }, {
   "name": "Jamil Neate",
