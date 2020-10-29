@@ -1043,6 +1043,24 @@
     "name": "With Technique attribute (self), EX Skill CD reduced 20%"
   }
 }, {
+  "name": "Gilboa Sant",
+  "jl": "Supporter",
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 356,
+  "sa": 356,
+  "md": 1083,
+  "sd": 1083,
+  "br": 153,
+  "pr": 527,
+  "wt": ["Zeon", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), 28% chance to not recoil"
+  }
+}, {
   "name": "Ginias Sahalin",
   "jl": "Defender",
   "attribute": "Power",
@@ -1095,6 +1113,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "After 15s pass, Long Shot Attack raised 14%"
+  }
+}, {
+  "name": "Graham Aker",
+  "jl": "Out-Fighter",
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1042,
+  "ma": 2268,
+  "sa": 507,
+  "md": 113,
+  "sd": 1042,
+  "br": 549,
+  "pr": 549,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Vernier consumption reduced 20%"
   }
 }, {
   "name": "Gym Ghingham",
@@ -1275,6 +1311,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When in Multi-Mission Sortie, EX Skill CD reduced 15%"
+  }
+}, {
+  "name": "Illia Pzaom",
+  "jl": "Middle-Shooter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 682,
+  "ma": 752,
+  "sa": 752,
+  "md": 682,
+  "sd": 682,
+  "br": 418,
+  "pr": 418,
+  "wt": ["Zeon", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Vernier consumption reduced 15%"
   }
 }, {
   "name": "Iok Kujan",
@@ -1527,6 +1581,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill recovery boosted by 140"
+  }
+}, {
+  "name": "Kira Yamato [SEED Awakened]",
+  "jl": "Long-Shooter",
+  "attribute": "Power",
+  "rarity": 5,
+  "level": 99,
+  "a": 1287,
+  "ma": 488,
+  "sa": 2569,
+  "md": 488,
+  "sd": 488,
+  "br": 260,
+  "pr": 827,
+  "wt": ["Ace Excl.", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Shooting power boosted 30%"
   }
 }, {
   "name": "Kou Uraki",
@@ -1925,6 +1997,24 @@
     "name": "With Power attribute (self), Debuff EX Skill effect up 22%"
   }
 }, {
+  "name": "Miguel Aiman",
+  "jl": "Middle-Shooter",
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 354,
+  "ma": 354,
+  "sa": 354,
+  "md": 1305,
+  "sd": 1305,
+  "br": 521,
+  "pr": 151,
+  "wt": ["For Space", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
   "name": "Mikazuki Augus",
   "jl": "Defender",
   "attribute": "Power",
@@ -2103,6 +2193,42 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Armor ≥ 60%, All Shot Attack raised 14%"
+  }
+}, {
+  "name": "Norris Packard",
+  "jl": "In-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1042,
+  "ma": 2265,
+  "sa": 505,
+  "md": 1133,
+  "sd": 1042,
+  "br": 277,
+  "pr": 549,
+  "wt": ["Zeon", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Zeon\", All power boosted 30%"
+  }
+}, {
+  "name": "Odel Barnet",
+  "jl": "Out-Fighter",
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1042,
+  "ma": 2265,
+  "sa": 505,
+  "md": 1133,
+  "sd": 1042,
+  "br": 549,
+  "pr": 277,
+  "wt": ["Protag.", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Odin Barnet",
@@ -2715,6 +2841,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "All ranged weapon, magazine boosted 14%"
+  }
+}, {
+  "name": "Shin Matsunaga",
+  "jl": "In-Fighter",
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 682,
+  "ma": 752,
+  "sa": 752,
+  "md": 682,
+  "sd": 682,
+  "br": 418,
+  "pr": 418,
+  "wt": ["Zeon", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Enemy Shooting power reduced 25%"
   }
 }, {
   "name": "Shinn Asuka",

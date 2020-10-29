@@ -623,3 +623,24 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 622,Shin Sanrai Nichirin-Giri,Throw your spinning naginata forcefully to bring enemies to heel in a single stroke. Raise Melee Attack of your Squad by 39%.,4,D,A,,,79,20
 623,Headbutt,Make use of your mobility to unleash a fierce headbutt attack.,4,B+,C,,,21,3
 624,Wire-Guided Mega Particle Cannon,Detatch and launch your forearm and shoot at a locked-on target.,1,D,B,,,21,6
+625,Ddraig Head,Produce a beam antenna from behind your V-Fin antenna. Raise your speed by 20%. Raise your Melee Attack by 39%.,6,,,51,,60,12
+626,Caledfwlch & Red Impact,Attack by transforming Caledfwich into various tools and finish foes with a glowing red fist. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,4,D,A,,,79,20
+267,Mega Cannon Max Output,"Attack with a heat rod, then fire a max-output, barrel-splitting beam. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",1,D,A,,,79,20
+268,Gatling Gun,Fire live ammunition from your forearm. You can move while firing.,2,A,D,,7,60,0
+269,Large Rifle,Fire the two large rifles attached to your back.,2,D,B,,,21,6
+270,Back Gatling Gun,Fire the Gatling gun attached to your back.,2,D,B,,,21,6
+271,GN Vulcan,Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing.,1,A,D,,11,60,0
+272,High Mobility Mode,Deploy your dash unit backwards to unleash a barrage of kicks. Lowers hit enemy Gunpla's Melee Defense by 19%.,3,A+,B,,,19,2
+273,Avalanche Unit,Execute combo attacks using close-range weapons equipped to the Avalanche Unit on your back. Raise speed of Squad by 20%. Raise Melee Attack of your Squad by 29%.,4,D,A,,,120,30
+274,Alaya-Vijnana System,Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.,6,,,44,,60,12
+275,Mace Throw,Attack by throwing the mace in your right hand.,4,D,B+,,,21,6
+276,Sword Flurry,Unleash a barrage of attacks with your blade.,4,D,B+,,,21,6
+277,Kerberos High-Energy Long-Range Beam Cannon,Fire powerful long-range beams from the cannon on your back.,1,A-,D,,,60,15
+278,Javelin Throw,Attack by throwing the beam javelin in your right hand.,3,D,B+,,,21,6
+279,Hidden Arms,Unleash a combo with the pair of beam sabers hidden in your waist armor. Lowers hit enemy Gunpla's Beam Resist by 39%.,3,A+,B,,,21,3
+280,Funnel Combination,Launch ten funnels to shoot the enemy and fire your Large Mega Beam Rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+281,Micro Missile,Launch missiles stowed in your shield. You can move while firing.,2,D,B,,11,60,0
+282,Arm Machine Gun,Fire live ammunition from your forearm. You can move while firing.,2,D,B,,7,60,0
+283,Hyper Mega Bazooka Launcher,Launch fin funnels in all directions and fire your MS mega particle cannon point-blank. Raise Shot Attack of your Squad by 44%.,1,D,A,,,79,20
+284,Beam Gun,Launch rapid-fire beam gun shots from your shield. You can move while firing.,1,D,B,,7,60,0
+285,White Wolf Tackle,Charge mercilessly toward the enemy.,4,B+,C,,,21,3

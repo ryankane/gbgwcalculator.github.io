@@ -12,6 +12,10 @@
     "a": 1500,
     "rarity": 3
   }, {
+    "name": "Armor[+2000]",
+    "a": 2000,
+    "rarity": 4
+  }, {
     "name": "MeleeAtk[+500]",
     "ma": 500,
     "rarity": 1
@@ -23,6 +27,10 @@
     "name": "MeleeAtk[+1500]",
     "ma": 1500,
     "rarity": 3
+  }, {
+    "name": "MeleeAtk[+2000]",
+    "ma": 2000,
+    "rarity": 4
   }, {
     "name": "ShotAtk[+500]",
     "sa": 500,
@@ -36,6 +44,10 @@
     "sa": 1500,
     "rarity": 3
   }, {
+    "name": "ShotAtk[+2000]",
+    "sa": 2000,
+    "rarity": 4
+  }, {
     "name": "MeleeDef[+500]",
     "md": 500,
     "rarity": 1
@@ -47,6 +59,10 @@
     "name": "MeleeDef[+1500]",
     "md": 1500,
     "rarity": 3
+  }, {
+    "name": "MeleeDef[+2000]",
+    "md": 2000,
+    "rarity": 4
   }, {
     "name": "ShotDef[+500]",
     "sd": 500,
@@ -60,6 +76,10 @@
     "sd": 1500,
     "rarity": 3
   }, {
+    "name": "ShotDef[+2000]",
+    "sd": 2000,
+    "rarity": 4
+  }, {
     "name": "BeamRes[+500]",
     "br": 500,
     "rarity": 1
@@ -72,6 +92,10 @@
     "br": 1500,
     "rarity": 3
   }, {
+    "name": "BeamRes[+2000]",
+    "br": 2000,
+    "rarity": 4
+  }, {
     "name": "PhysRes[+500]",
     "pr": 500,
     "rarity": 1
@@ -83,6 +107,10 @@
     "name": "PhysRes[+1500]",
     "pr": 1500,
     "rarity": 3
+  }, {
+    "name": "PhysRes[+2000]",
+    "pr": 2000,
+    "rarity": 4
   }, {
     "name": "DualAtk[+300]",
     "ma": 300,
@@ -98,6 +126,11 @@
     "ma": 1000,
     "sa": 1000,
     "rarity": 3
+  }, {
+    "name": "DualAtk[+1500]",
+    "ma": 1500,
+    "sa": 1500,
+    "rarity": 4
   }],
   "arm-right" : [{
     "name": "Chg.Mel.[+10%]",
