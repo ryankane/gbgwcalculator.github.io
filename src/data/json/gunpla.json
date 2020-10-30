@@ -3707,8 +3707,8 @@
         "wt": ["Long-Range", "Mid-Range"],
         "ex": {
             "type": "EX Skill",
-            "name": "Agni",
-            "description": "Wedge the Agni cannon on your back under your arm to fire.",
+            "name": "Kerberos High-Energy Long-Range Beam Cannon",
+            "description": "Fire powerful long-range beams from the cannon on your back.",
             "category": "Beam Shot",
             "stats": {
                 "Prc": "A-",
@@ -3729,13 +3729,13 @@
         "wt": ["Long-Range", "For Tundra"],
         "ex": {
             "type": "EX Skill",
-            "name": "Todesschrecken",
-            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while firing. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
-            "category": "Physical Shot",
+            "name": "Javelin Throw",
+            "description": "Attack by throwing the beam javelin in your right hand.",
+            "category": "Beam Melee",
             "stats": {
-                "Prc": "D-",
-                "Pow": "D",
-                "Cd": [19, 5]
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
             }
         },
         "name": "Defiant Beam Javelin",
@@ -14846,12 +14846,14 @@
         "wt": ["Gundam Type", "For Computers"],
         "ex": {
             "type": "EX Skill",
-            "name": "Defense Up γ",
-            "description": "Raise Melee and Shot Defense of your squad by 39%.",
-            "category": "Buff",
+            "name": "GN Vulcan",
+            "description": "Launch rapid-fire GN Vulcan shots from your forearm. You can move while firing.",
+            "category": "Beam Shot",
             "stats": {
-                "Dur": 37,
-                "Cd": [33, 7]
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
             }
         }
     }, {
@@ -14867,13 +14869,13 @@
         "wt": ["Gundam Type", "For Computers"],
         "ex": {
             "type": "EX Skill",
-            "name": "Satellite Cannon",
-            "description": "Receive microwaves from the moon and fire the converged energy.",
-            "category": "Beam Shot",
+            "name": "High Mobility Mode",
+            "description": "Deploy your dash unit backwards to unleash a barrage of kicks. Lowers hit enemy Gunpla's Melee Defense by 19%.",
+            "category": "Beam Melee",
             "stats": {
                 "Prc": "A+",
-                "Pow": "C-",
-                "Cd": [79, 20]
+                "Pow": "B",
+                "Cd": [19, 2]
             }
         }
     }, {
@@ -14889,13 +14891,13 @@
         "wt": ["Gundam Type", "For Computers"],
         "ex": {
             "type": "EX Skill",
-            "name": "Mega Sonic Cannon",
-            "description": "Unleash high-caliber mega particle beams from your waist.",
-            "category": "Beam Shot",
+            "name": "Avalanche Unit",
+            "description": "Execute combo attacks using close-range weapons equipped to the Avalanche Unit on your back. Raise speed of Squad by 20%. Raise Melee Attack of your Squad by 29%.",
+            "category": "Physical Melee",
             "stats": {
-                "Prc": "A",
-                "Pow": "D",
-                "Cd": [60, 15]
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [120, 30]
             }
         }
     }, {
@@ -15309,13 +15311,12 @@
         "wt": ["Gundam Type", "For Desert"],
         "ex": {
             "type": "EX Skill",
-            "name": "Strike Claw",
-            "description": "Extend arm to strike, then shoot your beam cannon.",
-            "category": "Beam Shot",
+            "name": "Alaya-Vijnana System",
+            "description": "Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.",
+            "category": "Awakening",
             "stats": {
-                "Prc": "D",
-                "Pow": "A-",
-                "Cd": [21, 6]
+                "Dur": 44,
+                "Cd": [60, 12]
             }
         }
     }, {
@@ -15376,12 +15377,13 @@
         "wt": ["Gundam Type", "High Firepower"],
         "ex": {
             "type": "EX Skill",
-            "name": "Beam Hack β",
-            "description": "Reduce Beam Resist of all enemies by 39%.",
-            "category": "Debuff",
+            "name": "Mace Throw",
+            "description": "Attack by throwing the mace in your right hand.",
+            "category": "Physical Melee",
             "stats": {
-                "Dur": 51,
-                "Cd": [33, 7]
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
             }
         }
     }, {
@@ -15397,14 +15399,13 @@
         "wt": ["Gundam Type", "For Desert"],
         "ex": {
             "type": "EX Skill",
-            "name": "Combo Weapon Pod",
-            "description": "Fire missiles and a Vulcan from the unit on your shoulder. You can move while firing.",
-            "category": "Physical Shot",
+            "name": "Sword Flurry",
+            "description": "Unleash a barrage of attacks with your blade.",
+            "category": "Physical Melee",
             "stats": {
-                "Prc": "A-",
-                "Pow": "D",
-                "Mag": 7,
-                "Cd": [60, 0]
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
             }
         },
         "name": "Long Sword [Barbatos]",
@@ -23005,12 +23006,14 @@
         "wt": ["Ace Excl.", "Gundam Type"],
         "ex": {
             "type": "EX Skill",
-            "name": "Biosensor",
-            "description": "Temporarily increase energy output using Biosensor. Raise your speed by 20%. Raise your Melee Defense by 29%. Raise your Beam Resist by 49%.",
-            "category": "Awakening",
+            "name": "Arm Machine Gun",
+            "description": "Fire live ammunition from your forearm. You can move while firing.",
+            "category": "Physical Shot",
             "stats": {
-                "Dur": 51,
-                "Cd": [60, 12]
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 7,
+                "Cd": [60, 0]
             }
         }
     }, {
@@ -23041,13 +23044,13 @@
         "wt": ["Ace Excl.", "High Firepower"],
         "ex": {
             "type": "EX Skill",
-            "name": "Double Cannon & Missile Launcher",
-            "description": "Fire Double Cannon and 18-shot missile from your backpack at target.",
-            "category": "Physical Shot",
+            "name": "Hyper Mega Bazooka Launcher",
+            "description": "Launch fin funnels in all directions and fire your MS mega particle cannon point-blank. Raise Shot Attack of your Squad by 44%.",
+            "category": "Beam Shot",
             "stats": {
                 "Prc": "D",
-                "Pow": "B+",
-                "Cd": [21, 6]
+                "Pow": "A",
+                "Cd": [79, 20]
             }
         }
     }, {
@@ -23081,13 +23084,14 @@
         "wt": ["Ace Excl.", "High Firepower"],
         "ex": {
             "type": "EX Skill",
-            "name": "Hyper Beam Saber",
-            "description": "Execute a combo with your gigantic enhanced saber. Raise your Melee Attack by 24%.",
-            "category": "Beam Melee",
+            "name": "Beam Gun",
+            "description": "Launch rapid-fire beam gun shots from your shield. You can move while firing.",
+            "category": "Beam Shot",
             "stats": {
                 "Prc": "D",
-                "Pow": "B+",
-                "Cd": [21, 3]
+                "Pow": "B",
+                "Mag": 7,
+                "Cd": [60, 0]
             }
         },
         "name": "Shield [Hi-nu]]"
@@ -23496,13 +23500,13 @@
         "wt": ["Zeon", "Ace Excl."],
         "ex": {
             "type": "EX Skill",
-            "name": "Chest Missile Launcher",
-            "description": "Fire all eight rocket-propelled grenades from your chest's add-on armor at target.",
-            "category": "Physical Shot",
+            "name": "White Wolf Tackle",
+            "description": "Charge mercilessly toward the enemy.",
+            "category": "Physical Melee",
             "stats": {
-                "Prc": "D",
-                "Pow": "B+",
-                "Cd": [21, 6]
+                "Prc": "B+",
+                "Pow": "C",
+                "Cd": [21, 3]
             }
         }
     }, {
@@ -27680,12 +27684,12 @@
         "wt": ["High Firepower", "Heavy Armor"],
         "ex": {
             "type": "EX Skill",
-            "name": "Beam Rifle Shorty",
-            "description": "Fire the twin pistols on your legs.",
-            "category": "Beam Shot",
+            "name": "Hidden Arms",
+            "description": "Unleash a combo with the pair of beam sabers hidden in your waist armor. Lowers hit enemy Gunpla's Beam Resist by 39%.",
+            "category": "Beam Melee",
             "stats": {
-                "Prc": "A",
-                "Pow": "D",
+                "Prc": "A+",
+                "Pow": "B",
                 "Cd": [21, 3]
             }
         }
@@ -27702,14 +27706,13 @@
         "wt": ["High Firepower", "Heavy Armor"],
         "ex": {
             "type": "EX Skill",
-            "name": "Dual Linear Guns",
-            "description": "Bombard enemies with dual railguns. You can move while firing.",
-            "category": "Physical Shot",
+            "name": "Funnel Combination",
+            "description": "Launch ten funnels to shoot the enemy and fire your Large Mega Beam Rifle. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",
+            "category": "Beam Shot",
             "stats": {
                 "Prc": "D",
-                "Pow": "B+",
-                "Mag": 7,
-                "Cd": [60, 0]
+                "Pow": "A",
+                "Cd": [79, 20]
             }
         }
     }, {
@@ -27761,13 +27764,14 @@
         "wt": ["High Firepower", "Heavy Armor"],
         "ex": {
             "type": "EX Skill",
-            "name": "High Mega Cannon",
-            "description": "Fire at enemies ahead with the Mega Particle Cannon in your head.",
-            "category": "Beam Shot",
+            "name": "Micro Missile",
+            "description": "Launch missiles stowed in your shield. You can move while firing.",
+            "category": "Physical Shot",
             "stats": {
-                "Prc": "A",
-                "Pow": "D",
-                "Cd": [60, 15]
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 11,
+                "Cd": [60, 0]
             }
         },
         "name": "Shield [Nightingale]"
@@ -29063,13 +29067,14 @@
         "wt": ["Heavy Armor", "For Computers"],
         "ex": {
             "type": "EX Skill",
-            "name": "Quadruple-Barrel Mega Particle Cannon",
-            "description": "Fire beams from the Quadruple-Barrel High-Caliber Mega Particle Cannon mounted on your shield.",
-            "category": "Beam Shot",
+            "name": "Gatling Gun",
+            "description": "Fire live ammunition from your forearm. You can move while firing.",
+            "category": "Physical Shot",
             "stats": {
                 "Prc": "A",
                 "Pow": "D",
-                "Cd": [60, 15]
+                "Mag": 7,
+                "Cd": [60, 0]
             }
         }
     }, {
@@ -29100,12 +29105,12 @@
         "wt": ["Heavy Armor", "Mid-Range"],
         "ex": {
             "type": "EX Skill",
-            "name": "HEAT REV SWORD",
-            "description": "Unleash a two-bladed barrage of attacks.",
-            "category": "Beam Melee",
+            "name": "Large Rifle",
+            "description": "Fire the two large rifles attached to your back.",
+            "category": "Physical Shot",
             "stats": {
                 "Prc": "D",
-                "Pow": "B+",
+                "Pow": "B",
                 "Cd": [21, 6]
             }
         }
@@ -29165,13 +29170,13 @@
         "wt": ["Heavy Armor", "For Computers"],
         "ex": {
             "type": "EX Skill",
-            "name": "Quick Slash",
-            "description": "Unleash a two-hit attack with your blade, knocking enemies away.",
-            "category": "Physical Melee",
+            "name": "Back Gatling Gun",
+            "description": "Fire the Gatling gun attached to your back.",
+            "category": "Physical Shot",
             "stats": {
-                "Prc": "A",
-                "Pow": "D",
-                "Cd": [21, 3]
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
             }
         }
     }]
@@ -34645,13 +34650,13 @@
         "wt": ["High Firepower", "Ace Excl."],
         "ex": {
             "type": "EX Skill",
-            "name": "Dual Beam Shredder",
-            "description": "Execute suppressive fire with special rounds from your Gatling Gun.",
+            "name": "Mega Cannon Max Output",
+            "description": "Attack with a heat rod, then fire a max-output, barrel-splitting beam. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",
             "category": "Beam Shot",
             "stats": {
-                "Prc": "A-",
-                "Pow": "C-",
-                "Cd": [21, 3]
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
             }
         },
         "combo": {
