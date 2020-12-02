@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.1
+
+- Changed pilot CSV format
+- Added basic support for multiple job licenses
+
 ## 1.3.0
 
 - Added initial support for level 99 parts

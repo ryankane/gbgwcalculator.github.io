@@ -1913,13 +1913,13 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1912,Beam Machine Gun [Powered GM Cardigan],34-08-7c-01,297,7,,3,1,11,7,1107,0,3255,0,0,524,151,,"When CPWR is over 150000, Sp. Shot CRIT rate boosted 17%",1,9,All-Round Coins (Weekly Event)
 1913,Powered GM Cardigan [Gatling Cannon],34-08-5-01,298,5,,3,1,11,26,1080,354,470,685,1080,494,372,630,,,,All-Round Coins (Weekly Event)
 1914,Gundam Avalanche Exia Dash,56-02-1-01,299,1,,5,1,13,9,1439,827,1042,1620,507,378,378,,"In-Fighter Job, EX Skill Power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
-1915,Gundam Avalanche Exia Dash,56-02-2-01,299,2,,5,1,13,9,2147,934,507,1870,1042,378,378,,"With Power Attribute (self), Buff EX Skill Effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
+1915,Gundam Avalanche Exia Dash,56-02-2-01,299,2,,5,1,13,9,2147,934,507,1870,1042,378,378,,"With Power attribute (self), Buff EX Skill Effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
 1916,Gundam Avalanche Exia Dash,56-02-3-01,299,3,,5,1,13,26,507,4333,507,2147,507,0,0,631,,,,Pick-Up Drop Rate Step-Up Capsules
 1917,Gundam Avalanche Exia Dash,56-02-4-01,299,4,,5,1,13,26,1042,723,507,2147,1042,560,378,632,,,,Pick-Up Drop Rate Step-Up Capsules
 1918,Gundam Avalanche Exia Dash,56-02-5-01,299,5,,5,1,13,26,1042,723,507,2147,1042,378,560,633,,,,Pick-Up Drop Rate Step-Up Capsules
 1919,GN Short Blade/GN Long Blade [Avalanche Exia],56-02-6-01,299,6,,5,1,13,9,1133,5384,0,0,0,549,549,,"When 1 enemies shot down, Reduce Cooldown by 50% once.",2,4,Pick-Up Drop Rate Step-Up Capsules
 1920,Gundam Barbatos [4th Form],28-01-1-01,300,1,,5,2,13,21,1042,827,2792,505,1779,549,277,634,,,,Pick-Up Drop Rate Step-Up Capsules
-1921,Gundam Barbatos [4th Form],28-01-2-01,300,2,,5,1,13,21,1779,1263,505,1042,2144,788,0,,"With Technique Attribute (self), Buff EX Skill Effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
+1921,Gundam Barbatos [4th Form],28-01-2-01,300,2,,5,1,13,21,1779,1263,505,1042,2144,788,0,,"With Technique attribute (self), Buff EX Skill Effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
 1922,Gundam Barbatos [4th Form],28-01-3-01,300,3,,5,1,13,10,113,3814,505,1042,1619,0,0,,Close-Range Weapons's EX Skill Power boosted 30%,,,Pick-Up Drop Rate Step-Up Capsules
 1923,Gundam Barbatos [4th Form],28-01-4-01,300,4,,5,1,13,10,1042,827,505,505,1779,887,549,,"While ""Gundam Type"", Melee CRIT Rate boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
 1924,Gundam Barbatos [4th Form],28-01-5-01,300,5,,5,1,13,10,1042,827,505,505,1779,887,549,635,,,,Pick-Up Drop Rate Step-Up Capsules
@@ -1952,3 +1952,116 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1951,High Mobility Type Zaku II [Shin Matsunaga],02-06-3-01,304,3,,3,2,17,18,682,2141,353,1076,1076,0,0,,"In-Fighter Job, Melee CRIT rate boosted 17%",,,White Wolf Coins (Weekly Event)
 1952,High Mobility Type Zaku II [Shin Matsunaga],02-06-4-01,304,4,,3,2,17,3,682,442,442,1076,1076,520,546,,"With Technique attribute (self), Enemy Melee power reduced 25%",,,White Wolf Coins (Weekly Event)
 1953,High Mobility Type Zaku II [Shin Matsunaga],02-06-5-01,304,5,,3,2,17,3,682,442,442,1076,1076,546,520,,"While ""Zeon"", Melee power boosted 25%",,,White Wolf Coins (Weekly Event)
+1954,ZII,39-01-1-01,305,1,,5,2,12,3,1134,618,3822,507,507,551,279,,"Middle-Shooter Job, Shooting power boosted 17%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1955,ZII,39-01-2-01,305,2,,5,2,12,3,2149,1134,1134,1044,1044,791,0,,"Job Gauge inc. down 10%, EX Skill CD reduced 20%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1956,ZII,39-01-3-01,305,3,,5,2,12,3,1134,3822,1623,507,507,0,0,,"Beam ranged weapon, reload speed boosted 20%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1957,ZII,39-01-4-01,305,4,,5,2,12,9,1134,1134,618,1044,1044,551,791,646,,,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1958,ZII,39-01-5-01,305,5,,5,2,12,9,1134,1134,618,1044,1044,791,551,647,,,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1959,Beam Saber [ZII],39-01-6a-01,305,6,,5,2,12,9,618,4844,0,0,0,791,551,,"With Technique attribute (self), Enemy Melee power reduced 30%",1,2,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1960,Mega Beam Rifle [ZII],39-01-7b-01,305,7,,5,2,12,3,618,0,4844,0,0,551,279,,"While ""Transformer"", Initial EX Skill charge boosted 20%",1,10,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1961,Full Armor Knight Gundam,42-09-1-01,306,1,,5,3,11,13,1775,825,1040,1775,1040,375,375,,"While ""Heavy Armor"", EX Skill power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1962,Full Armor Knight Gundam,42-09-2-01,306,2,,5,3,11,13,2785,1260,505,1040,1040,375,375,648,,,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1963,Full Armor Knight Gundam,42-09-3-01,306,3,,5,3,11,13,1617,3806,0,1526,1526,0,0,377,,,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1964,Full Armor Knight Gundam,42-09-4-01,306,4,,5,3,11,10,1526,1131,505,1526,1040,607,607,,"Melee DMG raised 10%, EX Skill CD reduced 20%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1965,Full Armor Knight Gundam,42-09-5-01,306,5,,5,3,11,10,1775,825,505,1526,1040,607,607,,"With Speed attribute (self), Melee Power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1966,Flame Sword,42-09-6a-01,306,6,,5,3,11,10,1617,4826,0,0,0,375,375,649,,2,2,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1967,Shield of Strength,42-09-8-01,306,8,,5,3,11,13,1970,0,0,2070,1040,607,607,,"After 10s pass, Enemy Shooting power reduced 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 032] Bonus Coins
+1968,Nidaime Gundam Dai-Shogun,42-08-1-01,307,1,,3,1,11,26,1079,470,685,1107,354,151,372,,"When CPWR is over 150000, EX Skill DMG Output boosted by 20",,,Raiou Coins (Weekly Event)
+1969,Nidaime Gundam Dai-Shogun,42-08-2-01,307,2,,3,1,11,26,1437,470,354,1437,685,0,523,,"With Power attribute (self), Buff EX Skill Time up 15%",,,Raiou Coins (Weekly Event)
+1970,Nidaime Gundam Dai-Shogun,42-08-3-01,307,3,,3,1,11,5,354,2902,354,1437,354,0,0,377,,,,Raiou Coins (Weekly Event)
+1971,Nidaime Gundam Dai-Shogun,42-08-4-01,307,4,,3,1,11,5,685,470,354,1437,685,523,372,650,,,,Raiou Coins (Weekly Event)
+1972,Nidaime Gundam Dai-Shogun,42-08-5-01,307,5,,3,1,11,5,685,470,354,1437,685,372,523,651,,,,Raiou Coins (Weekly Event)
+1973,Fan of Light,42-08-6b-01,307,6,,3,1,11,5,752,3609,0,0,0,151,372,,"Cooldown time up 10%, Melee power boosted 25%",2,1,Raiou Coins (Weekly Event)
+1974,Bowgun,42-08-7b-01,307,7,,3,1,11,26,1393,0,2059,0,0,372,523,,"Wpn reload spd down 10%, EX Skill power boosted 25%",1,10,Raiou Coins (Weekly Event)
+1975,Gundam Virsago Chest Break,19-00-1-01,308,1,,5,2,3,10,0,505,4685,1128,1254,775,0,,"With Technique attribute (self), EX Skill power boosted 30%",,,VCB Materials (Event Blueprint)
+1976,Gundam Virsago Chest Break,19-00-2-01,308,2,,5,2,3,10,1763,927,1948,1511,1513,604,0,652,,,,VCB Materials (Event Blueprint)
+1977,Gundam Virsago Chest Break,19-00-3-01,308,3,,5,2,3,10,1129,3772,1852,305,1126,547,0,653,,,,VCB Materials (Event Blueprint)
+1978,Gundam Virsago Chest Break,19-00-4-01,308,4,,5,2,3,10,1507,707,1504,1508,1513,372,873,,"While ""Ace Excl."", EX Skill CD reduced 20%",,,VCB Materials (Event Blueprint)
+1979,Gundam Virsago Chest Break,19-00-5-01,308,5,,5,2,3,10,1036,717,1312,1508,1511,864,600,,"Middle-Shooter Job, Shooting power boosted 30%",,,VCB Materials (Event Blueprint)
+1980,Gundam Zabanya,52-01-1-01,309,1,,5,2,3,10,918,717,4486,715,1509,271,278,,"While ""Ace Excl."", EX Skill power boosted 30%",,,Gundam Battle Festival
+1981,Gundam Zabanya,52-01-2-01,309,2,,5,2,3,10,1941,812,1125,1426,2321,494,488,654,,,,Gundam Battle Festival
+1982,Gundam Zabanya,52-01-3-01,309,3,,5,2,3,13,1757,2986,1509,926,2321,0,0,,"When 2 enemies shot down, Reduce Cooldown by 50% once.",,,Gundam Battle Festival
+1983,Gundam Zabanya,52-01-4-01,309,4,,5,2,3,13,1239,711,927,1319,2235,773,770,655,,,,Gundam Battle Festival
+1984,Gundam Zabanya,52-01-5-01,309,5,,5,2,3,13,1110,810,1599,1254,1601,643,641,136,,,,Gundam Battle Festival
+1985,GN Rifle Bit II,52-01-7b-01,309,7,,5,2,3,10,505,0,5507,0,0,541,540,,"Melee Attack down 10%, EX Skill power boosted 30%",1,10,Gundam Battle Festival
+1986,Gundam Harute,52-02-1-01,310,1,,5,2,12,13,1308,816,3973,823,1023,641,407,,"Melee DMG raised 10%, EX Skill power boosted 30%",,,Gundam Battle Festival
+1987,Gundam Harute,52-02-2-01,310,2,,5,2,12,13,2318,1320,1322,1593,1597,895,0,,"While ""Transformer"", Shooting power boosted 30%",,,Gundam Battle Festival
+1988,Gundam Harute,52-02-3-01,310,3,,5,2,12,13,1425,3979,1840,1030,816,0,0,,"With Technique attribute (self), Melee power boosted 30%",,,Gundam Battle Festival
+1989,Gundam Harute,52-02-4-01,310,4,,5,2,12,10,1322,1311,914,1308,1418,645,899,656,,,,Gundam Battle Festival
+1990,Gundam Harute,52-02-5-01,310,5,,5,2,12,10,1318,1425,809,1412,1312,885,638,657,,,,Gundam Battle Festival
+1991,GN Sword Rifle [Sword Mode],52-02-6-01,310,6,,5,2,12,10,813,4963,0,0,0,895,646,,"While ""Transformer"", Initial EX Skill charge boosted 20%",2,4,Gundam Battle Festival
+1992,GN Sword Rifle [Rifle Mode],52-02-7-01,310,7,,5,2,12,13,822,415,4867,0,0,637,530,,"When 2 enemies shot down, Reduce Cooldown by 50% once.",1,14,Gundam Battle Festival
+1993,Dijeh,08-12-1-01,311,1,,3,3,3,5,752,559,2496,469,469,370,151,,"When 1 enemies shot down, Reduce Cooldown by 40% once.",,,Karaba Coins (Weekly Event)
+1994,Dijeh,08-12-2-01,311,2,,3,3,3,5,1391,752,752,834,834,521,0,,"With Speed attribute (self), EX Skill DMG output boosted by 20",,,Karaba Coins (Weekly Event)
+1995,Dijeh,08-12-3-01,311,3,,3,3,3,5,752,2496,1174,469,469,0,0,,"When Armor is 60% or more, Shot guidance boosted 14%",,,Karaba Coins (Weekly Event)
+1996,Dijeh,08-12-4-01,311,4,,3,3,3,22,752,752,469,834,834,370,521,288,,,,Karaba Coins (Weekly Event)
+1997,Dijeh,08-12-5-01,311,5,,3,3,3,22,752,752,469,834,834,521,370,,"With Twin Blade category equipped, Close Shot Attack raised 14%",,,Karaba Coins (Weekly Event)
+1998,Beam Naginata [Dijeh],08-12-6-01,311,6,,3,3,3,22,442,3133,0,0,0,521,370,,"When attacking with Beam, Job Gauge increase boosted 13%",1,13,Karaba Coins (Weekly Event)
+1999,Beam Rifle [Dijeh],08-12-7a-01,311,7,,3,3,3,5,442,0,3133,0,0,370,151,,"With Twin Blade category equipped, Sp. Shot power boosted 25%",1,8,Karaba Coins (Weekly Event)
+2000,Clay Bazooka [Dijeh],08-12-7d-01,311,7,,3,3,3,22,442,0,3133,0,0,370,151,,"With Speed attribute (self), EX Skill DMG taken reduced by 20",2,12,Karaba Coins (Weekly Event)
+2001,Gundam Geminass 01,33-01-1-01,312,1,,5,1,1,6,1131,720,3809,616,616,547,277,,"Out-Fighter Job, EX Skill piercing boosted 28%",,,Pick-Up Drop Rate Step-Up Capsules
+2002,Gundam Geminass 01,33-01-2-01,312,2,,5,1,1,6,2141,1260,1131,1131,1131,785,99,658,,,,Pick-Up Drop Rate Step-Up Capsules
+2003,Gundam Geminass 01,33-01-3-01,312,3,,5,1,1,6,1131,3809,1775,616,616,99,99,,"With Power attribute (self), Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+2004,Gundam Geminass 01,33-01-4-01,312,4,,5,1,1,20,1131,1260,616,1131,1131,607,883,,"When CPWR is over 150000, Enemy EX Skill power reduced 30%",,,Pick-Up Drop Rate Step-Up Capsules
+2005,Gundam Geminass 01,33-01-5-01,312,5,,5,1,1,20,1131,1260,616,1131,1131,785,547,659,,,,Pick-Up Drop Rate Step-Up Capsules
+2006,Beam Sword [Gundam Geminass 01],33-01-6a-01,312,6,,5,1,1,6,616,4829,0,0,0,785,547,,"While ""Protag."", Strong Melee CRIT rate boosted 30%",1,2,Pick-Up Drop Rate Step-Up Capsules
+2007,Accelerate Rifle,33-01-7a-01,312,7,,5,1,1,20,616,0,4829,0,0,547,277,,"When buffed, Enemy Shooting power reduced 30%",1,8,Pick-Up Drop Rate Step-Up Capsules
+2008,G-Unit Shield,33-01-8-01,312,8,,5,1,1,20,1040,1131,720,930,930,1315,0,,"With Rifle category equipped, Buff EX Skill effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
+2009,Gundam Exia,25-01-1-01,313,1,,5,2,1,9,1775,825,1040,1775,505,607,414,,"Shot DMG raised 10%, EX Skill power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+2010,Gundam Exia,25-01-2-01,313,2,,5,2,1,9,2141,825,505,2141,1040,785,0,,"With Technique attribute (self), EX Skill CD reduced 20%",,,Pick-Up Drop Rate Step-Up Capsules
+2011,Gundam Exia,25-01-3-01,313,3,,5,2,1,9,616,4217,505,2141,505,0,0,,"With Technique attribute (self), Melee power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules
+2012,Gundam Exia,25-01-4-01,313,4,,5,2,1,6,1131,825,505,2141,1040,547,785,660,,,,Pick-Up Drop Rate Step-Up Capsules
+2013,Gundam Exia,25-01-5-01,313,5,,5,2,1,6,1131,825,505,2141,1040,785,547,661,,,,Pick-Up Drop Rate Step-Up Capsules
+2014,GN Sword,25-01-6a-01,313,6,,5,2,1,21,616,5268,0,0,0,607,375,,"When attacking with Physical, EX Skill power boosted 30%",2,2,Pick-Up Drop Rate Step-Up Capsules
+2015,GN Beam Saber [Exia],25-01-6-01,313,6,,5,2,1,9,616,5268,0,0,0,607,375,,"While ""Protag."", Enemy Melee power reduced 30%",2,4,Pick-Up Drop Rate Step-Up Capsules
+2016,GN Short Blade/GN Long Blade [Exia],25-01-6-01,313,6,,5,2,1,6,616,5268,0,0,0,607,375,,"When Armor is 60% or more, Strong Melee CRIT rate boosted 30%",2,4,Pick-Up Drop Rate Step-Up Capsules
+2017,GN Sword Rifle Mode,25-01-7a-01,313,7,,5,2,1,21,1970,0,3090,0,0,785,547,,"In-Fighter Job, Initial EX Skill charge boosted 20%",1,8,Pick-Up Drop Rate Step-Up Capsules
+2018,GN Shield [Exia],25-01-8-01,313,8,,5,2,1,21,1131,0,0,3196,1040,1313,0,,"When CPWR is over 150000, Buff EX Skill effect up 22%",,,Pick-Up Drop Rate Step-Up Capsules
+2019,Gundam Astraea,25-19-1-01,314,1,,3,1,13,9,1173,557,683,1173,354,419,266,28,,,,Justice Device A (Weekly Event)
+2020,Gundam Astraea,25-19-2-01,314,2,,3,1,13,9,1434,557,354,1434,683,521,0,,"With Power attribute (self), Buff EX Skill time up 15%",,,Justice Device A (Weekly Event)
+2021,Gundam Astraea,25-19-3-01,314,3,,3,1,13,7,442,2835,354,1434,354,0,0,,"While ""Gundam Type"", Melee power boosted 25%",,,Justice Device A (Weekly Event)
+2022,Gundam Astraea,25-19-4-01,314,4,,3,1,13,7,752,557,354,1434,683,370,521,662,,,,Justice Device A (Weekly Event)
+2023,Gundam Astraea,25-19-5-01,314,5,,3,1,13,7,752,557,354,1434,683,521,370,,"In-Fighter Job, Melee power boosted 25%",,,Justice Device A (Weekly Event)
+2024,Proto GN Sword,25-19-6a-01,314,6,,3,1,13,7,442,3518,0,0,0,419,259,,"When 2 enemies shot down, Boost Job Gauge by 40% once.",2,2,Justice Device A (Weekly Event)
+2025,GN Launcher,25-19-7d-01,314,7,,3,1,13,9,1304,0,2055,0,0,521,370,,"Beam ranged weapon, reload speed boosted 20%",1,12,Justice Device A (Weekly Event)
+2026,GN Shield [Astraea],25-19-8-01,314,8,,3,1,13,26,752,0,0,2143,683,857,0,,"When 2 enemies shot down, Vernier Consumption=0 for 10 sec.",,,Justice Device A (Weekly Event)
+2027,Unicorn Gundam 03 [Phenex/Narrative Ver.],45-01-1-01,315,1,,5,2,10,9,1415,926,3976,921,811,494,494,,"With Rifle category equipped, EX Skill power boosted 30%",,,Sokai Festival
+2028,Unicorn Gundam 03 [Phenex/Narrative Ver.],45-01-2-01,315,2,,5,2,10,3,2320,1322,1426,1413,1602,494,489,663,,,,Sokai Festival
+2029,Unicorn Gundam 03 [Phenex/Narrative Ver.],45-01-3-01,315,3,,5,2,10,9,1315,4391,1591,1118,499,0,0,664,,,,Sokai Festival
+2030,Unicorn Gundam 03 [Phenex/Narrative Ver.],45-01-4-01,315,4,,5,2,10,3,1424,1318,820,1321,1416,763,765,,"While ""High Firepower"", EX Skill CD reduced 20%",,,Sokai Festival
+2031,Unicorn Gundam 03 [Phenex/Narrative Ver.],45-01-5-01,315,5,,5,2,10,9,1603,1424,823,1424,1315,793,792,665,,,,Sokai Festival
+2032,Beam Saber [Phenex/Narrative Ver.],45-01-6a-01,315,6,,5,2,10,9,1035,4868,0,0,0,711,711,,"When Armor is 60% or more, Enemy Melee power reduced 30%",1,2,Sokai Festival
+2033,Beam Magnum [Phenex/Narrative Ver.],45-01-7a-01,315,7,,5,2,10,3,811,404,5116,0,0,550,545,,"While ""High Firepower"", Shooting power boosted 30%",1,8,Sokai Festival
+2034,00 Gundam [Seven Sword/G],56-03-1-01,316,1,,5,3,6,13,1947,1251,3758,1422,1420,98,98,,"While ""Close Combat"", EX Skill power boosted 30%",,,Sokai Festival
+2035,00 Gundam [Seven Sword/G],56-03-2-01,316,2,,5,3,6,9,2228,1319,823,1590,1605,489,489,,"With Speed attribute (self), Buff EX Skill effect up 22%",,,Sokai Festival
+2036,00 Gundam [Seven Sword/G],56-03-3-01,316,3,,5,3,6,13,0,3976,816,1516,1509,368,368,,"When buffed, Melee power boosted 30%",,,Sokai Festival
+2037,00 Gundam [Seven Sword/G],56-03-4-01,316,4,,5,3,6,9,1427,1757,816,1420,1420,594,594,666,,,,Sokai Festival
+2038,00 Gundam [Seven Sword/G],56-03-5-01,316,5,,5,3,6,9,1239,1591,816,1420,1420,768,768,667,,,,Sokai Festival
+2039,GN Sword II Short/GN Sword II Long,56-03-6-01,316,6,,5,3,6,13,1418,5202,0,0,0,545,545,,"When Armor 60% or more, Job Gauge increase boosted 17%",,4,Sokai Festival
+2040,GN Sword II Blaster [Close Quarters],56-03-6c-01,316,6,,5,3,6,9,1418,5202,0,0,0,545,545,668,,,5,Sokai Festival
+2041,GN Sword II Blaster,56-03-7b-01,316,7,,5,3,6,13,0,415,4670,609,609,594,594,,"While ""Close Combat"", EX Skill power boosted 30%",1,10,Sokai Festival
+2042,GN Sword II Long Rifle Mode,56-03-7b-01,316,7,,5,3,6,9,0,415,4670,609,609,594,594,,"In-Fighter Job, Initial EX Skill charge boosted 20%",1,10,Sokai Festival
+2043,Gundam Unit 6 [Mudrock],57-01-1-01,317,1,,3,2,16,13,442,354,2839,354,1107,55,55,,"While ""Federation"", Long Shot Attack raised 14%",,,Unit 6 Coins (Weekly Event)
+2044,Gundam Unit 6 [Mudrock],57-01-2-01,317,2,,3,2,16,13,1437,354,559,683,1540,260,260,,"Long-Shooter Job, Enemy EX Skill penetration reduced 22%",,,Unit 6 Coins (Weekly Event)
+2045,Gundam Unit 6 [Mudrock],57-01-3-01,317,3,,3,2,16,13,1305,683,559,354,1540,260,260,,"Melee DMG raised 10%, Shot guidance boosted 14%",,,Unit 6 Coins (Weekly Event)
+2046,Gundam Unit 6 [Mudrock],57-01-4-01,317,4,,3,2,16,8,752,354,559,683,1540,370,370,,"With Technique attribute (self), Long Shot Attack raised 14%",,,Unit 6 Coins (Weekly Event)
+2047,Gundam Unit 6 [Mudrock],57-01-5-01,317,5,,3,2,16,8,752,354,559,683,1540,370,370,669,,,,Unit 6 Coins (Weekly Event)
+2048,Beam Rifle [Mudrock],57-01-7a-01,317,7,,3,2,16,13,442,0,3523,0,0,260,260,,"While ""Federation"", Sp. Shot CRIT rate boosted 17%",1,8,Unit 6 Coins (Weekly Event)
+2049,Shield [Mudrock],57-01-8-01,317,8,,3,2,16,8,752,0,0,683,2199,420,420,,"With Technique attribute (self), Shooting CRIT rate boosted 17%",,,Unit 6 Coins (Weekly Event)
+2050,Gundam G-Lucifer,27-00-1-01,318,1,,5,1,20,10,616,505,4220,505,1619,99,99,,"Middle-Shooter Job, EX Skill power boosted 30%",,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2051,Gundam G-Lucifer,27-00-2-01,318,2,,5,1,20,10,2143,505,931,1040,2264,375,375,670,,,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2052,Gundam G-Lucifer,27-00-3-01,318,3,,5,1,20,7,1974,1040,931,505,2264,375,375,,"While ""For Space"", Shooting power boosted 30%",,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2053,Gundam G-Lucifer,27-00-4-01,318,4,,5,1,20,7,1131,505,931,1040,2264,547,547,671,,,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2054,Beam Saber [G-Lucifer],27-00-6-01,318,6,,5,1,20,10,1777,3092,0,0,91,658,658,,"With Power attribute (self), EX Skill power boosted 30%",1,4,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2055,Shadow Gundam,16-11-1-01,319,1,,5,3,14,6,1775,1040,930,1775,505,414,607,672,,,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2056,Shadow Gundam,16-11-2-01,319,2,,5,3,14,6,2141,1040,414,2070,1040,0,785,,"With Speed attribute (self), Enemy EX Skill power reduced 30%",,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2057,Shadow Gundam,16-11-3-01,319,3,,5,3,14,23,616,4111,414,2070,505,0,0,673,,,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2058,Shadow Gundam,16-11-4-01,319,4,,5,3,14,23,1131,1040,414,2141,1040,785,547,674,,,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2059,Shadow Gundam,16-11-5-01,319,5,,5,3,14,23,1131,1040,414,2141,1040,547,785,,"While ""Mobile Fighter"", Melee power boosted 30%",,,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins
+2060,Schwalbe Graze [McGillis],28-05-1-01,320,1,,3,3,5,20,752,559,2498,469,469,151,151,,"While ""Commander"", Recover 10 Armor gradually",,,Hien Coins (Weekly Event)
+2061,Schwalbe Graze [McGillis],28-05-2-01,320,2,,3,3,5,20,1393,752,752,835,835,259,259,,"With Speed attribute (self), Enemy EX Skill power reduced 25%",,,Hien Coins (Weekly Event)
+2062,Schwalbe Graze [McGillis],28-05-3-01,320,3,,3,3,5,20,752,2498,1174,469,469,0,0,675,,,,Hien Coins (Weekly Event)
+2063,Schwalbe Graze [McGillis],28-05-4-01,320,4,,3,3,5,9,752,752,469,835,835,420,420,,"Out-Fighter Job, Melee CRIT rate boosted 17%",,,Hien Coins (Weekly Event)
+2064,Schwalbe Graze [McGillis],28-05-5-01,320,5,,3,3,5,9,752,752,469,835,835,420,420,,"When Melee ATK is over 10000, Melee power boosted 25%",,,Hien Coins (Weekly Event)
+2065,Battle Axe [Schwalbe Graze/McGillis],28-05-6b-01,320,6,,3,3,5,9,442,3134,0,0,0,370,370,,"When attacking with Physical, Melee DMG output boosted by 20",2,1,Hien Coins (Weekly Event)
+2066,Rifle [Schwalbe Graze/McGillis],28-05-7b-01,320,7,,3,3,5,20,442,0,3134,0,0,370,370,,"When attacking with Physical, EX Skill power boosted 25%",2,10,Hien Coins (Weekly Event)

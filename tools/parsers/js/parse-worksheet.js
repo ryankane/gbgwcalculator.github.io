@@ -109,11 +109,22 @@ const applySkill = (part, resultCache) => {
   });
 };
 
+const lookupJobLicense = (jobLicense) =>
+  jobLicense.split('/').map(jl => findByName(JobLicenseIndex, jl)).join('/');
+
 const applyPilot = (part, resultCache) => {
+  let name = part['Part Name'];
+  let subname = null;
   let rarity = parseInt(part['Obtained As'], 10);
+
+  if (name.includes('[')) {
+    subname = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
+    name = name.substring(0, name.indexOf('['));
+  }
   resultCache.pilots.push({
     'Index': resultCache.pilots.length + 1,
-    'Name': part['Part Name'],
+    'Name': name,
+    'Subname': subname,
     'Series': null,
     'Issue': null,
     'Japanese': null,
@@ -129,7 +140,7 @@ const applyPilot = (part, resultCache) => {
     'Beam RES': part['Beam RES'],
     'Phys. RES': part['Phys. RES'],
     'Trait': part['Details'],
-    'Job Lic': findByName(JobLicenseIndex, part['Job License']),
+    'Job Lic': lookupJobLicense(part['Job License']),
     'AI Range': findByName(AiRangeIndex, part['AI Type']),
     'AI Priority': findByName(AiPriorityIndex, part['AI Type 2']),
     'Capsule': null,

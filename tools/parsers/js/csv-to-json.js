@@ -48,10 +48,15 @@ const processUnitData = (units) => units.map(unit => {
   return unit;
 });
 
+const formatName = ({Name, Subname}) => `${Name}${Subname ? ` [${Subname}]` : ''}`;
+
+const lookupJobLicense = (jobLicense) =>
+  `${jobLicense}`.split('/').map(jl => findByIndex(JobLicenseIndex, parseInt(jl, 10)));
+
 const transformPilotData = (record) => {
   return {
-    "name": record['Name'],
-    "jl": findByIndex(JobLicenseIndex, record['Job Lic']),
+    "name": formatName(record),
+    "jl": lookupJobLicense(record['Job Lic']),
     "attribute": findByIndex(AttributeIndex, record['Attr']),
     "rarity": record['Rarity'],
     "level": record['Level'],
@@ -74,7 +79,7 @@ const isSokai = (unit) => unit['Limited'] === true && unit['Capsule'] != null &&
 
 const transformUnitData = (unit) => {
   let resultUnit = {
-    "name": unit['Name'] + (unit['Subname'] ? ` [${unit['Subname']}]` : ''),
+    "name": formatName(unit),
     "attribute": findByIndex(AttributeIndex, unit['Attr']),
     "rarity": unit['Rarity'],
     "level": unit['Level'],

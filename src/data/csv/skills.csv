@@ -452,7 +452,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 451,Sub Leg [Flight Form],"Activate your sub legs' flight form, then unleash a series of kicking combo attacks. Lowers hit enemy Gunpla's Melee Defense by 19%.",4,A+,D,,,19,2
 452,Shield Bash,Unleash a combo with the shield on your right arm. Lowers hit enemy Gunpla's Melee Attack by 19%.,4,B+,B-,,,19,2
 453,Fortress Four Booster,"Gather your four SigMaxiss Cannons together and fire a massive, space-ripping beam.",1,D,B-,,,60,15
-454,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.,6,,,51,,60,12
+454,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.,6,,,51,,60,12
 455,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,1,A+,C-,,,60,6
 456,Reborns Cannon Mode,Perform a combo with your GN Fin Fangs and blow enemies away with your GN Cannon. Raise speed of your Squad 20%. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.,1,D,A,,,79,20
 457,Small GN Fin Fangs,Launch GN Fin Fangs at foes in all directions. You can move while this is active.,3,A+,C-,,,60,6
@@ -644,3 +644,33 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 643,Hyper Mega Bazooka Launcher,Launch fin funnels in all directions and fire your MS mega particle cannon point-blank. Raise Shot Attack of your Squad by 44%.,1,D,A,,,79,20
 644,Beam Gun,Launch rapid-fire beam gun shots from your shield. You can move while firing.,1,D,B,,7,60,0
 645,White Wolf Tackle,Charge mercilessly toward the enemy.,4,B+,C,,,21,3
+646,Rapid Trust,Unleash a blindingly fast flurry with sabers in each hand.,3,D,A-,,,21,6
+647,Dual Wave,Hold bazookas in both hands and fire high-power rounds.,2,A+,D,,,21,3
+648,Arrow of Light,Nock a giant-slaying arrow of light and unleash an attack that obliterates evil.,1,D,B+,,,21,6
+649,Flame Sword,"Reduce evil to ash with your Flame Sword, one of the Three Sacred Treasures.",4,D,B+,,,21,6
+650,Tsunami Slice,Ready your Nichirin Sword and pour all your strength into performing a single blade strike.,4,D,B+,,,21,6
+651,Omega Cannon,Bathe foes in high-power beams from your back.,1,A+,C-,,,60,15
+652,Triple Mega Sonic Cannon,Fire beams from three high-caliber mega particle cannon turrets installed in your abdomen.,1,A-,C,,,60,15
+653,Fierce Tempest,"Extend your strike clar to attack, then shoot your claw beam to ravage enemies. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 30%.",1,D,A,,,79,20
+654,GN Missile,Fire guided missiles propelled by GN particles at multiple foes.,1,A,C,,,21,3
+655,GN Rifle Bit II [Random Fire],Operate the ten rifle bits taken from your GN Holster Bits to remotely shoot targets. Raise Melee and Shot Attack of your Squad by 29%.,1,D,A,,,79,20
+656,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Beam Resist by 49%.,6,,,51,,60,12
+657,GN Scissor Bits & GN Cannons,Slice targets with your container-stowed remote-controlled weapon and fire your GN Cannons. Raise Melee Attack of your Squad by 39%.,4,D,A,,,79,20
+658,PX System Activation,Activate your PX System for enhanced combat prowess. Raise your speed by 20%. Raise your Melee and Shot Attack by 24%. Raise your vernier capacity by 25%.,6,,,51,,60,12
+659,Valiant Heart,Thrust a charged sword to cleave through enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.,3,D,B+,,,21,6
+660,Double Saber Shear,Cleave foes with GN blades in both hands.,4,D,B+,,,21,6
+661,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your speed by 20%. Raise your Melee and Shot Attack by 24%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+662,Edge Fling,Throw the twin sabers on your legs.,3,A,D,,,21,3
+663,NT-D,Enter Destroy Mode and increase your reflexes with Psycho Frame. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Melee Defense by 19%.,6,,,51,,60,12
+664,Beam Tonfa,Execute a combo using the Beam Tonfa attached to your forearm and unleash power from your Psycho Frame. Raise your speed by 20%.,3,D,B+,,,21,6
+665,Phoenix Wing,Attack using your Psycho Frame's repulsive force and then engulf the target in giant wings. Squad recovers 68% of maximum Armor. Raise Physical Resist of your Squad by 29%.,4,D,A,,,79,20
+666,Double Saber Shear,Cleave through enemies with sabers in each hand.,4,D,B+,,,21,6
+667,Buster Combination,Execute a combo with the GN Sword II Blaster and GN Buster Sword in your hands. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.,4,D,A,,,79,20
+668,Trans-Am Raiser Sword,Use a large beam saber formed by outputting a massive amount of energy to cut enemies apart. Raise your Melee Attack by 29%.,3,D,B+,,,21,6
+669,300mm Cannon,Fire explosive projectiles from the cannon on your shoulder.,2,D,B,,,21,6
+670,Moonbeam Butterfly,Temporarily unleash your unit's latent power and increase performance. Raise your speed by 20%. Raise your Shot Attack by 29%. Raise your Shot Defense by 19%.,6,,,51,,60,12
+671,Skirt Funnels,Execute a combo with the mega cannon and six beam cannons mounted on your funnel. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.,1,D,A,,,79,20
+672,German Ninjutsu,Perform German Ninjutsu to temporarily enhance your combat prowess. Raise your speed by 20%. Raise your Melee Attack by 29%. Become harder to target for a set period of time.,6,,,51,,60,12
+673,Sturm Und Drang,"Rapidly spin yourself like a top as you embody ""Storm of Stress"" to carve up enemies.",4,D,B+,,,21,6
+674,Messer Granz,"Attack with dual knives held in a backhand grip, striking enemies like a snake striking its prey.",4,B+,B-,,,21,3
+675,Wire Claw,Discharge the anchor mounted on your arm. Stuns enemies for a set period of time.,4,D,C,,,21,3

@@ -1,5 +1,5 @@
 /*
- gbgw-calculator 1.3.0 2020-10-30 
+ gbgw-calculator 1.3.1 2020-12-02 
 */
 
 class DataStoreManager {
@@ -889,7 +889,7 @@ class GunplaCalculator {
     }
     _getDisplayText(part) {
         if (part.jl) {
-            return `${part.name} (${part.jl})`;
+            return `${part.name} (${part.jl.join("/")})`;
         } else if (part.part.startsWith("gear-") || part.ms.startsWith("Unassigned [")) {
             return `${part.name}`;
         } else if (part.name) {
@@ -911,7 +911,7 @@ class GunplaCalculator {
                 this._addMarks();
             }
             this._displayPartInfo(currTarget);
-            let slotText = partInput.dataset.category ? partInput.dataset.category : partInput.dataset.jl ? partInput.dataset.jl : SlotTextMap[partInput.dataset.part];
+            let slotText = partInput.dataset.category ? partInput.dataset.category : partInput.dataset.jl ? JSON.parse(partInput.dataset.jl).join("/") : SlotTextMap[partInput.dataset.part];
             let parentRow = partInput.closest(".row");
             let slotIconWrapper = parentRow.querySelector(".part-slot-type");
             slotIconWrapper.innerHTML = `<span class="slot-icon ${this._getPartSlotClass(currTarget.dataset)}" data-rarity="${currTarget.dataset.rarity}" title="${slotText}"></span>`;
@@ -944,7 +944,8 @@ class GunplaCalculator {
                 }
                 partClass += dataset.category.toLowerCase().replace(/\s/g, "-");
             } else if (dataset.jl) {
-                partClass += "job-" + dataset.jl.toLowerCase();
+                const [job] = JSON.parse(dataset.jl);
+                partClass += "job-" + job.toLowerCase();
             } else {
                 partClass += SlotIconMap[dataset.part];
             }
@@ -1212,7 +1213,7 @@ class GunplaCalculator {
     _applyJobLicenseBonus() {
         const selectedPilot = document.querySelector(".js-select-pilot"), pilotInput = this.inputs.pilot;
         if (pilotInput && pilotInput.dataset.jl) {
-            const jobLicense = this._getJobLicense(pilotInput.dataset.jl);
+            const jobLicense = this._getJobLicense(pilotInput.dataset.jl[0]);
             if (jobLicense && jobLicense.multiplier && jobLicense.parameters && Array.isArray(jobLicense.parameters)) {
                 jobLicense.parameters.forEach(jobParam => {
                     if (jobParam in this.parametersTotal) {
