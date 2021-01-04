@@ -557,6 +557,24 @@
     "name": "With Power attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Carris Nautilus",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 687,
+  "sa": 687,
+  "md": 687,
+  "sd": 687,
+  "br": 527,
+  "pr": 153,
+  "wt": ["Mid-Range", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Mid-Range\", Shot guidance boosted 14%"
+  }
+}, {
   "name": "Cecily Fairchild",
   "jl": ["Supporter"],
   "attribute": "Speed",
@@ -735,6 +753,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Shot DEF is over 12000, Shot guidance boosted 14%"
+  }
+}, {
+  "name": "Cronicle Asher",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1524,
+  "ma": 929,
+  "sa": 1774,
+  "md": 1039,
+  "sd": 1128,
+  "br": 783,
+  "pr": 276,
+  "wt": ["Ace Excl.", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Armor is 60% or more, EX Skill CD reduced 20%"
   }
 }, {
   "name": "Daguza Mackle",
@@ -1457,6 +1493,24 @@
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Herbert von Kuspen",
+  "jl": ["Defender"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1390,
+  "ma": 1172,
+  "sa": 636,
+  "md": 750,
+  "sd": 681,
+  "br": 150,
+  "pr": 368,
+  "wt": ["Zeon", "For Base"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Recover 10 Armor gradually"
+  }
+}, {
   "name": "Hiling Care",
   "jl": ["Defender"],
   "attribute": "Technique",
@@ -1869,6 +1923,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), EX Skill recovery boosted by 140"
+  }
+}, {
+  "name": "Lafter Frankland",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 681,
+  "ma": 1238,
+  "sa": 353,
+  "md": 681,
+  "sd": 1300,
+  "br": 573,
+  "pr": 258,
+  "wt": ["High Mobility", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\", 14% chance to survive a fatal blow"
   }
 }, {
   "name": "Lalah Sune",
@@ -2627,6 +2699,24 @@
     "name": "While \"For Space\", Recover 10 Armor gradually"
   }
 }, {
+  "name": "Preventer Wind",
+  "jl": ["Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1039,
+  "ma": 504,
+  "sa": 2346,
+  "md": 504,
+  "sd": 1772,
+  "br": 546,
+  "pr": 276,
+  "wt": ["Ace Excl.", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Beam, All power boosted 30%"
+  }
+}, {
   "name": "Quatre Raberba Winner",
   "jl": ["Supporter"],
   "attribute": "Speed",
@@ -2697,6 +2787,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Armor is 60% or more, Buff EX Skill effect up 22%"
+  }
+}, {
+  "name": "Rakan Dahkaran",
+  "jl": ["Defender"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 2049,
+  "ma": 212,
+  "sa": 212,
+  "md": 1071,
+  "sd": 1071,
+  "br": 515,
+  "pr": 515,
+  "wt": ["Zeon", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Zeon\", EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Ramba Ral",
@@ -2967,6 +3075,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Vernier consumption reduced 15%"
+  }
+}, {
+  "name": "Schwarz Bruder",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1039,
+  "ma": 2256,
+  "sa": 504,
+  "md": 1259,
+  "sd": 1039,
+  "br": 276,
+  "pr": 546,
+  "wt": ["Mobile Fighter", "For Forest"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Recover 20 Armor gradually"
   }
 }, {
   "name": "Seabook Arno",
@@ -3417,6 +3543,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), 28% chance to not recoil"
+  }
+}, {
+  "name": "Yurin Luciel",
+  "jl": ["Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 681,
+  "ma": 1075,
+  "sa": 1171,
+  "md": 681,
+  "sd": 833,
+  "br": 368,
+  "pr": 258,
+  "wt": ["Long-Range", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Long Shot Attack raised 14%"
   }
 }, {
   "name": "Yuu Kajima",

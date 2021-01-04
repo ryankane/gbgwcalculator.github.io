@@ -1619,14 +1619,14 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 1618,Beam Sword [Epyon/Endless Waltz. Ver],18-12-6c-01,256,6,,5,2,6,10,723,5196,0,0,0,378,612,,"When buffed, EX Skill power boosted 30%",1,5,Haro Chip Capsule (Sokai Festival)
 1619,Heat Rod [Epyon/Endless Waltz. Ver],18-12-6-01,256,6,,5,2,6,12,723,5196,0,0,0,378,612,,"When 2 enemies shot down, Melee DMG output boosted by 35",2,7,Haro Chip Capsule (Sokai Festival)
 1620,Shield [Epyon/Endless Waltz. Ver],18-12-8-01,256,8,,5,2,6,12,1265,0,0,1265,3314,0,1423,532,,,,Haro Chip Capsule (Sokai Festival)
-1621,Gundam V2 Assault Buster,15-??-1-01,257,1,,5,1,10,13,1616,495,4310,0,510,597,282,,"When Shot ATK is over 7000, EX Skill power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
-1622,Gundam V2 Assault Buster,15-??-2-01,257,2,,5,1,10,13,2255,1027,1436,1258,1254,870,0,,"While ""High Firepower"", Shooting power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
-1623,Gundam V2 Assault Buster,15-??-3-01,257,3,,5,1,10,13,1252,3684,1856,719,719,0,0,220,,,,Haro Chip Capsule (Sokai Festival)
-1624,Gundam V2 Assault Buster,15-??-4-01,257,4,,5,1,10,9,1260,1042,935,1260,1252,597,874,533,,,,Haro Chip Capsule (Sokai Festival)
-1625,Gundam V2 Assault Buster,15-??-5-01,257,5,,5,1,10,9,1247,1034,931,1262,1254,883,608,534,,,,Haro Chip Capsule (Sokai Festival)
-1626,Mega Beam Rifle [V2 Assault Buster],15-??-7b-01,257,7,,5,1,10,9,925,0,4813,0,0,607,378,,"When buffed, EX Skill power boosted 30%",1,10,Haro Chip Capsule (Sokai Festival)
-1627,Beam Rifle [Multi-Tube Grenade Launcher/V2 Assault Buster],15-??-7a-01,257,7,,5,1,10,13,925,0,4813,0,0,607,378,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,8,Haro Chip Capsule (Sokai Festival)
-1628,Mega Beam Shield [V2 Assault Buster],15-??-8-01,257,8,,5,1,10,9,1246,1260,721,1260,1259,1401,0,,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Haro Chip Capsule (Sokai Festival)
+1621,Gundam V2 Assault Buster,15-04-1-01,257,1,,5,1,10,13,1616,495,4310,0,510,597,282,,"When Shot ATK is over 7000, EX Skill power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1622,Gundam V2 Assault Buster,15-04-2-01,257,2,,5,1,10,13,2255,1027,1436,1258,1254,870,0,,"While ""High Firepower"", Shooting power boosted 30%",,,Haro Chip Capsule (Sokai Festival)
+1623,Gundam V2 Assault Buster,15-04-3-01,257,3,,5,1,10,13,1252,3684,1856,719,719,0,0,220,,,,Haro Chip Capsule (Sokai Festival)
+1624,Gundam V2 Assault Buster,15-04-4-01,257,4,,5,1,10,9,1260,1042,935,1260,1252,597,874,533,,,,Haro Chip Capsule (Sokai Festival)
+1625,Gundam V2 Assault Buster,15-04-5-01,257,5,,5,1,10,9,1247,1034,931,1262,1254,883,608,534,,,,Haro Chip Capsule (Sokai Festival)
+1626,Mega Beam Rifle [V2 Assault Buster],15-04-7b-01,257,7,,5,1,10,9,925,0,4813,0,0,607,378,,"When buffed, EX Skill power boosted 30%",1,10,Haro Chip Capsule (Sokai Festival)
+1627,Beam Rifle [Multi-Tube Grenade Launcher/V2 Assault Buster],15-04-7a-01,257,7,,5,1,10,13,925,0,4813,0,0,607,378,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,8,Haro Chip Capsule (Sokai Festival)
+1628,Mega Beam Shield [V2 Assault Buster],15-04-8-01,257,8,,5,1,10,9,1246,1260,721,1260,1259,1401,0,,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Haro Chip Capsule (Sokai Festival)
 1629,F91 [ALT],13-01-1-01,258,1,,5,3,1,10,1267,1135,3612,935,0,614,279,535,,,,F Materials (Event Blueprint)
 1630,F91 [ALT],13-01-2-01,258,2,,5,3,16,10,2272,1532,1044,1784,507,728,279,536,,,,F Materials (Event Blueprint)
 1631,F91 [ALT],13-01-3-01,258,3,8,5,3,1,16,2486,5485,2079,1979,1532,1425,0,,"While ""Federation"" Melee power boosted 30%",,,F Materials (Event Blueprint)
@@ -2088,3 +2088,87 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2087,R-Gyagya,34-10-5-01,323,5,,3,1,11,26,1173,557,354,1077,683,419,419,,"With Power attribute (self), Melee power boosted 25%",,,Shield Coins (Weekly Event)
 2088,Twin Beam Sword [R-Gyagya],34-10-6-01,323,6,,3,1,11,6,1105,3248,0,0,0,259,259,159,,1,13,Shield Coins (Weekly Event)
 2089,Beam Saber [R-Gyagya],34-10-6a-01,323,6,,3,1,11,26,1105,3248,0,0,0,259,259,,21% chance of attacks penetrating super armor,1,2,Shield Coins (Weekly Event)
+2090,Legend Gundam,22-14-1-01,324,1,,5,3,3,5,0,502,4762,300,297,704,865,,"Middle Shooter Job, EX Skill power boosted 30%",,,Gundam Battle Festival
+2091,Legend Gundam,22-14-2-01,324,2,,5,3,3,5,504,1026,1845,1035,1028,761,1528,,"While ""Commander"", Shooting power boosted 30%",,,Gundam Battle Festival
+2092,Legend Gundam,22-14-3-01,324,3,8,5,3,3,20,0,4578,3261,2234,2234,1378,1328,,"While ""Ace Excl."", Shooting power boosted 30%",,,Gundam Battle Festival
+2093,Legend Gundam,22-14-4-01,324,4,,5,3,3,20,499,1412,1425,1316,1313,1057,1275,681,,,,Gundam Battle Festival
+2094,Legend Gundam,22-14-5-01,324,5,,5,3,3,20,706,710,1504,1414,1418,1004,1429,682,,,,Gundam Battle Festival
+2095,Defiant Kai Beam Javelin [Coupled],22-14-6-01,324,6,,5,3,3,20,1025,4854,300,0,0,493,1524,,"When Armor is 60% or more, EX Skill power boosted 30%",1,13,Gundam Battle Festival
+2096,Defiant Kai Beam Javelin [Single],22-14-6a-01,324,6,,5,3,3,5,1025,4854,300,0,0,493,1524,,"With Speed attribute (self), Job Gauge increase boosted 17%",1,2,Gundam Battle Festival
+2097,High Energy Beam Rifle [Legend],22-14-7a-01,324,7,,5,3,3,5,301,0,5201,0,607,495,1050,,"With Speed attribute (self), Enemy EX Skill power reduced 30%",1,8,Gundam Battle Festival
+2098,Transient Gundam,34-09-1-01,325,1,,5,1,6,9,1745,1123,3752,1597,1243,0,278,,"While ""Close Combat"", Melee power boosted 30%",,,Gundam Battle Festival
+2099,Transient Gundam,34-09-2-01,325,2,,5,1,6,9,2230,1413,1425,2043,1117,277,766,683,,,,Gundam Battle Festival
+2100,Transient Gundam,34-09-3-01,325,3,,5,1,6,9,2043,4267,1601,1946,0,0,0,631,,,,Gundam Battle Festival
+2101,Transient Gundam,34-09-4-01,325,4,,5,1,6,13,2113,1597,610,2043,1243,529,534,,"With Dual Sabers category equipped, EX Skill power boosted 30%",,,Gundam Battle Festival
+2102,Transient Gundam,34-09-5-01,325,5,,5,1,6,13,1597,1595,607,1845,1243,534,760,684,,,,Gundam Battle Festival
+2103,GN Partizan [Detached],34-09-6-01,325,6,,5,1,6,13,1834,5198,0,0,0,492,598,685,,2,4,Gundam Battle Festival
+2104,GN Partizan [Coupled],34-09-6d-01,325,6,,5,1,6,9,1834,5198,0,0,0,492,598,686,,2,6,Gundam Battle Festival
+2105,Vayeate,17-08-1-01,326,1,,3,2,20,8,353,468,2891,0,1075,519,0,,"While ""For Space"", EX Skill piercing boosted 22%",,,Spear Device A (Weekly Event)
+2106,Vayeate,17-08-2-01,326,2,,3,2,20,8,681,468,636,681,1389,633,0,,"With Technique attribute (self), EX Skill piercing boosted 22%",,,Spear Device A (Weekly Event)
+2107,Vayeate,17-08-3-01,326,3,,3,2,20,8,353,1389,636,353,1389,519,0,,"When attacking with Beam, Sp. Shot power boosted 25%",,,Spear Device A (Weekly Event)
+2108,Vayeate,17-08-4-01,326,4,,3,2,20,5,681,468,636,681,1389,418,445,,"When Shot ATK is over 5000, Long-Shot Attack raised 14%",,,Spear Device A (Weekly Event)
+2109,Vayeate,17-08-5-01,326,5,,3,2,20,5,681,468,636,681,1389,704,368,687,,,,Spear Device A (Weekly Event)
+2110,Mobile GINN,21-13-1-01,327,1,,1,2,2,7,947,200,556,428,428,79,79,,"When attacking with Physical, Shooting CRIT rate boosted 10%",,,"Free Missions, Capital Shop, Blueprint"
+2111,Mobile GINN,21-13-2-01,327,2,,1,2,2,7,1328,200,200,428,428,155,155,,"When CPWR is over 100000, EX Skill piercing boosted 16%",,,"Free Missions, Capital Shop, Blueprint"
+2112,Mobile GINN,21-13-3-01,327,3,,1,2,2,9,947,556,200,556,556,79,79,,"With Technique attribute (self), Melee DMG output boosted by 10",,,"Free Missions, Capital Shop, Blueprint"
+2113,Mobile GINN,21-13-4-01,327,4,,1,2,2,9,1184,200,200,556,556,203,203,688,,,,"Free Missions, Capital Shop, Blueprint"
+2114,Mobile GINN,21-13-5-01,327,5,,1,2,2,9,1184,200,200,556,556,203,203,,"While ""High Mobility"", Melee power boosted 10%",,,"Free Missions, Capital Shop, Blueprint"
+2115,Mobile GINN,21-13-4-01,327,4,,1,2,2,7,1184,200,200,556,556,203,203,689,,,,"Free Missions, Capital Shop, Blueprint"
+2116,Heavy Sword,21-13-6a-01,327,6,,1,2,2,9,756,756,0,200,200,155,155,,15% chance of attacks penetrating super armor,2,2,"Free Missions, Capital Shop, Blueprint"
+2117,76mm Heavy Assault Machine Gun,21-13-7c-01,327,7,,1,2,2,7,756,0,756,200,200,155,155,,"Physical ranged weapon, magazine boosted 10%",2,9,"Free Missions, Capital Shop, Blueprint"
+2118,Farsia,26-12-1-01,328,1,,3,1,20,8,681,353,2607,353,468,368,258,,"With Power attribute (self), Projectile speed boosted 14%",,,Arena Coins
+2119,Farsia,26-12-2-01,328,2,,3,1,20,8,1389,681,833,681,833,519,101,690,,,,Arena Coins
+2120,Farsia,26-12-3-01,328,3,,3,1,20,8,681,2403,1171,353,468,150,0,210,,,,Arena Coins
+2121,Farsia,26-12-4-01,328,4,,3,1,20,15,833,681,556,681,833,418,519,691,,,,Arena Coins
+2122,Farsia,26-12-5-01,328,5,,3,1,20,15,833,681,556,681,833,519,418,692,,,,Arena Coins
+2123,Astray Gold Frame Amatsu Mina,23-00-1-01,329,1,,5,3,6,26,1039,1259,3590,1614,504,546,0,371,,,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2124,Astray Gold Frame Amatsu Mina,23-00-2-01,329,2,,5,3,6,26,1524,1328,504,2136,1039,783,0,,"With Speed attribute (self), Buff EX Skill effect up 22%",,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2125,Astray Gold Frame Amatsu Mina,23-00-3-01,329,3,,5,3,6,26,504,4106,504,2257,504,0,0,693,,,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2126,Astray Gold Frame Amatsu Mina,23-00-4-01,329,4,,5,3,6,13,1039,1128,504,2136,1039,546,783,694,,,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2127,Astray Gold Frame Amatsu Mina,23-00-5-01,329,5,,5,3,6,13,1039,1328,504,2136,1039,783,546,,"While ""Close Combat"", Melee power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2128,Musha Godmaru [Final Battle Ver.],42-10-1-01,330,1,,5,2,9,26,1866,724,1043,2263,509,549,546,,"In-Fighter Job, Melee power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2129,Musha Godmaru [Final Battle Ver.],42-10-2-01,330,2,,5,2,9,26,2068,1044,499,2469,1039,382,369,377,,,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2130,Musha Godmaru [Final Battle Ver.],42-10-3-01,330,3,,5,2,9,6,512,4428,504,2072,509,0,0,,"With Technique attribute (self), Melee CRIT rate boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2131,Musha Godmaru [Final Battle Ver.],42-10-4-01,330,4,,5,2,9,6,1033,1031,495,2466,1039,557,501,,"While ""High Mobility"", EX Skill power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2132,Musha Godmaru [Final Battle Ver.],42-10-5-01,330,5,,5,2,9,26,1044,1041,496,2466,1037,492,559,695,,,,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2133,Sekiha Tenkyou Sword,42-10-6a-01,330,6,,5,2,9,6,502,5447,0,0,0,548,551,696,,2,2,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins
+2134,Blue Destiny Unit-2 (BD),04-05-1-01,331,1,,3,3,17,6,1390,468,1075,1075,681,150,368,697,,,,Judgement Coins (Weekly Event)
+2135,Blue Destiny Unit-2 (BD),04-05-2-01,331,2,,3,3,17,6,1921,750,353,681,681,0,519,698,,,,Judgement Coins (Weekly Event)
+2136,Blue Destiny Unit-2 (BD),04-05-3-01,331,3,,3,3,17,25,681,2774,0,1075,1075,0,0,,"While ""Zeon"", Buff EX Skill effect up 15%",,,Judgement Coins (Weekly Event)
+2137,Blue Destiny Unit-2 (BD),04-05-4-01,331,4,,3,3,17,25,1075,750,353,1075,681,368,519,,"With Speed attribute (self), Melee CRIT rate boosted 17%",,,Judgement Coins (Weekly Event)
+2138,Blue Destiny Unit-2 (BD),04-05-5-01,331,5,,3,3,17,25,1390,468,353,1075,681,368,519,217,,,,Judgement Coins (Weekly Event)
+2139,Beam Rifle [Blue Destiny Unit-2 (BD)],04-05-7a-01,331,7,,3,3,17,25,1390,0,2050,0,0,368,519,,"While ""Zeon"", Job Gauge increase boosted 13%",1,8,Judgement Coins (Weekly Event)
+2140,Shield [Blue Destiny Unit-2 (BD)],04-05-8-01,331,8,,3,3,17,6,1390,0,0,1390,681,150,705,,"When Melee ATK is over 5000, Enemy Sp. Shot power reduced 25%",,,Judgement Coins (Weekly Event)
+2141,Blue Destiny Unit-3 (BD),04-06-1-01,332,1,,3,1,16,25,681,0,2774,681,1075,150,0,699,,,,Judgement Coins (Weekly Event)
+2142,Blue Destiny Unit-3 (BD),04-06-2-01,332,2,,3,1,16,25,1921,353,750,681,681,519,0,698,,,,Judgement Coins (Weekly Event)
+2143,Blue Destiny Unit-3 (BD),04-06-3-01,332,3,,3,1,16,13,900,1723,833,1075,1075,54,0,,"While ""Federation"", Buff EX Skill time up 15%",,,Judgement Coins (Weekly Event)
+2144,Blue Destiny Unit-3 (BD),04-06-4-01,332,4,,3,1,16,13,1075,353,750,681,1075,519,368,,"With Power attribute (self), Shooting CRIT rate boosted 17%",,,Judgement Coins (Weekly Event)
+2145,Blue Destiny Unit-3 (BD),04-06-5-01,332,5,,3,1,16,13,1390,353,468,681,1075,519,368,217,,,,Judgement Coins (Weekly Event)
+2146,Beam Rifle [Blue Destiny Unit-3 (BD)],04-06-7a-01,332,7,,3,1,16,13,1075,0,3308,0,0,368,150,,"While ""Federation"", Initial EX Skill charge boosted 12%",1,8,Judgement Coins (Weekly Event)
+2147,Shield [Blue Destiny Unit-3 (BD)],04-06-8-01,332,8,,3,1,16,25,1390,0,0,681,1390,705,150,,"When Shot ATK is over 5000, Enemy Strong Melee power reduced 25%",,,Judgement Coins (Weekly Event)
+2148,Destiny Gundam [Heine Westenfluss],22-15-1-01,333,1,,5,3,5,13,1252,616,4390,506,720,0,1218,,When 1 enemies shot down Reduce Cooldown by 50% once.,,,Christmas Capsules
+2149,Destiny Gundam [Heine Westenfluss],22-15-2-01,333,2,,5,3,5,13,2225,1125,1514,1237,1316,0,1334,,"When Shot ATK is over 5000, Shooting power boosted 30%",,,Christmas Capsules
+2150,Destiny Gundam [Heine Westenfluss],22-15-3-01,333,3,,5,3,5,13,302,3969,1948,722,1035,0,760,700,,,,Christmas Capsules
+2151,Destiny Gundam [Heine Westenfluss],22-15-4-01,333,4,,5,3,5,3,1239,1113,1025,1033,1604,600,1385,,"Melee DMG raised 20%, EX Skill power boosted 30%",,,Christmas Capsules
+2152,Destiny Gundam [Heine Westenfluss],22-15-5-01,333,5,,5,3,5,3,1243,808,1035,1316,1426,494,1429,701,,,,Christmas Capsules
+2153,Arondight [Destiny (Heine)],22-15-6c-01,333,6,,5,3,5,13,497,5201,0,0,0,280,1054,,"Blow through foes, spinning to strike them with your blade.",1,5,Christmas Capsules
+2154,High-Energy Beam Rifle [Destiny (Heine)],22-15-7a-01,333,7,,5,3,5,3,506,0,5390,0,0,203,885,,"When attacking with Beam, Shooting power boosted 30%",1,8,Christmas Capsules
+2155,Anti-Beam Shield [Destiny (Heine)],22-15-8-01,333,8,,5,3,5,3,502,928,1125,1250,1502,1751,636,,"With Speed attribute (self), Enemy Shooting power reduced 30%",,,Christmas Capsules
+2156,Gundam Barbatos Lupus Rex,28-16-1-01,334,1,,5,3,1,9,2439,1512,2534,1245,1412,372,540,399,,,,Sokai Festival
+2157,Gundam Barbatos Lupus Rex,28-16-2-01,334,2,,5,3,1,9,2237,1842,911,0,2044,0,1045,,Cooldown time up 10% Melee Power boosted 30%,,,Sokai Festival
+2158,Gundam Barbatos Lupus Rex,28-16-3-01,334,3,,5,3,1,6,0,4576,499,1422,1749,0,535,702,,,,Sokai Festival
+2159,Gundam Barbatos Lupus Rex,28-16-4-01,334,4,,5,3,1,9,1245,1247,717,1507,2044,862,365,,Shot DMG raised 20% EX Skill Power boosted 30%,,,Sokai Festival
+2160,Gundam Barbatos Lupus Rex,28-16-5-01,334,5,,5,3,1,6,504,1842,717,1759,1749,592,862,703,,,,Sokai Festival
+2161,Super-Large Mace,28-16-6c-01,334,6,,5,3,1,6,707,5110,0,712,0,304,766,704,,2,5,Sokai Festival
+2162,Gundam Kimaris Vidar,28-17-1-01,335,1,,5,1,10,11,1241,1028,3753,1953,807,541,0,403,,,,Sokai Festival
+2163,Gundam Kimaris Vidar,28-17-2-01,335,2,,5,1,10,11,2238,1423,1241,1950,1511,585,0,,"With Lance category equipped, Melee power boosted 30%",,,Sokai Festival
+2164,Gundam Kimaris Vidar,28-17-3-01,335,3,,5,1,10,11,1125,4492,1418,2044,410,159,0,,"When attacking with Physical, Melee power boosted 30%",,,Sokai Festival
+2165,Gundam Kimaris Vidar,28-17-4-01,335,4,,5,1,10,6,1846,1602,719,1425,1117,762,787,705,,,,Sokai Festival
+2166,Gundam Kimaris Vidar,28-17-5-01,335,5,,5,1,10,6,1848,1422,614,2327,1514,860,368,706,,,,Sokai Festival
+2167,Sword [Kimaris Vidar],28-17-6a-01,335,6,,5,1,10,6,600,5106,0,709,0,595,302,,"While ""High Firepower"", EX Skill power boosted 30%",2,2,Sokai Festival
+2168,Drill Lance,28-17-6d-01,335,6,,5,1,10,11,819,5452,0,0,0,660,909,,"With Power attribute (self), Job Gauge increase boosted 17%",2,6,Sokai Festival
+2169,Bertigo,19-06-1-01,336,1,,3,2,7,8,681,353,2541,833,833,0,150,,"When attacking with Beam, Shooting power boosted 25%",,,Purple Coins (Weekly Event)
+2170,Bertigo,19-06-2-01,336,2,,3,2,7,8,1075,468,833,1075,1075,0,519,,"Long-Shooter Job, EX Skill piercing boosted 22%",,,Purple Coins (Weekly Event)
+2171,Bertigo,19-06-3-01,336,3,,3,2,7,24,681,1872,1172,900,900,0,0,707,,,,Purple Coins (Weekly Event)
+2172,Bertigo,19-06-4-01,336,4,,3,2,7,24,681,353,681,956,956,390,546,,"While ""Mid-Range"", Mid Shot Attack raised 14%",,,Purple Coins (Weekly Event)
+2173,Beam Saber [Bertigo],19-06-6-01,336,6,,3,2,7,24,681,1723,0,681,681,150,519,,"With Technique attribute (self), Enemy Melee power reduced 25%",1,4,Purple Coins (Weekly Event)

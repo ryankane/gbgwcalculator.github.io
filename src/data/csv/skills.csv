@@ -259,7 +259,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 258,Belly Beam!,Fire a sonic blast with a more straightforward name at target.,1,B+,C-,,,60,15
 259,170mm Autocannon,Attack enemies ahead with the autocannon on your arm.,2,A-,D,,11,60,0
 260,Bloody Wrench,"Bulldoze attacking enemies with your Wrench Mace, then pulverize them into the ground. Squad recovers 48% of maximum Armor. Raises Melee Attack of your Squad by 29%.",4,D,A,,,79,20
-261,Mace Rush,"Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",4,D,C-,,,21,6
+261,Mace Rush,"Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raise your Melee Defense by 24%.",4,D,C-,,,21,6
 262,Trial System,Activate Trial System and stop all Gunpla movement within vicinity for a fixed period of time.,2,,,,,41,11
 263,Halberd,Unleash a barrage of attacks with the halberd in your right hand. Raise your Melee Attack by 24%.,4,D,C-,,,21,6
 264,Four-Arm Combat,Engage in close-quarters combat using your sub-arms and halberd. Squad recovers 48% of maximum Armor. Raises Melee Defense of your Squad by 29%.,4,D,A,,,79,20
@@ -400,8 +400,8 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 399,Alaya-Vijnana Limit Breaker,Break the Alaya-Vijnana System's limits to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Your Gunpla resists flinching for a set period of time.,6,,,44,,60,12
 400,200mm Arm Rifle,Attack enemies with 200mm rifles equipped to your arms.,2,D,B+,,,21,6
 401,Wolf's Howl,Grind enemies to dust with your twin maces. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.,4,D,A,,,79,20
-402,Mace Rush,"Blow away the enemy with your Sword Mace, then leap into the air, pulverizing them on the way down. Raises your Melee Defense by 24%.",4,D,C,,,21,6
-403,Alaya-Vijnana System [Type E],Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your vernier capacity by 25%.,6,,,44,,60,12
+402,Mace Rush,"Blow away the enemy with your Sword Mace, then leap into the air, pulverizing them on the way down. Raise your Melee Defense by 24%.",4,D,C,,,21,6
+403,Alaya-Vijnana System [Type-E],Break the Alaya-Vijnana System to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 39%. Raise your vernier capacity by 50%.,6,,,44,,60,12
 404,Demon's Hunt,"Crush enemies with a combination attack using Hunter's Edge, Handgun, and Burst Saber. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%.",4,A-,A,,,79,20
 405,Cyclone/Burning Machine Gun Punch,Unleash a tornado with your left fist and do up to ten rapid-fire punches with your right.,4,D,B,,,21,6
 406,Gigantic Magnum,Fire the twin pistols on your waist.,1,D,B,,,21,6
@@ -679,3 +679,30 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 678,Serpent Bite,"Attack with dual knives held in a backhand grip, striking enemies like a snake striking its prey.",4,B+,B-,,,21,3
 679,Shield Missiles,Launch missiles stowed on your shield.,2,D,B,,,21,6
 680,Penetrate,Unleash a thrusting attack with the saber at your waist.,3,D,B+,,,30,8
+681,Defiant Kai Beam Javelin,Unleash a barrage of attacks with your twin blades.,3,D,B+,,,21,6
+682,DRAGOON System,Use your two rear DRAGOON Systems to execute a melee attack while firing in all directions. Raise Shot Attack of your Squad by 29%. Raise Beam Resist of your Squad by 29%.,1,A+,C,,,79,8
+683,GN Field,Release GN particles to create a force field barrier. Raise your speed by 20%. Raise your Shot Defense by 49%. Raise your Beam and Physical Resist by 49%.,6,,,37,,60,12
+684,Burst Lance,Execute a rush attack using propulsion generated from wings formed by Plavsky Particles. Raise your Melee and Shot Attack by 19%.,4,D,B+,,,21,6
+685,GN Lance Bits [Photosphere],Fire particle clusters to hit foes in all directions. You can move while firing.,1,A+,C-,,,60,6
+686,Deploy GN Partizan,Fire the particles concentrated in the tip of your weapon forward.,1,D,B,,,60,15
+687,Beam Cannon,Fire the generator-linked beam cannon mounted on your back.,1,A+,C-,,,60,15
+688,Heavy Sword,Unleash a flurry of attacks with the sword in your right hand.,4,D,C,,,21,6
+689,Pardus S. Rng 3-Missile Launcher,Launch missiles from the pod mounted on your leg.,2,D,B-,,,21,6
+690,Chest-Mounted Scattering Beam Cannon,Bathe foes in low-output beams from your chest beam cannon. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.,1,B+,D,,11,60,0
+691,Farsia Sword,Take the sword on your back in hand and execute a high-speed rush attack. Raise your Shot Attack by 19%. Raise your Shot Defense by 19%.,4,D,B+,,,21,6
+692,Farsia Bit,Fire Farsia Bits to release a beam attack.,1,A-,D,,,60,15
+693,Okitsu no Kagami,Use a beam sword to obliterate an enemy caught by beam emitter fired from your left arm. Lowers hit enemy Gunpla's Physical Resist by 29%.,3,B,B+,,,21,3
+694,Totsuka no Tsurugi,Unleash a blindingly fast flurry with sabers in each hand.,4,D,A-,,,21,6
+695,Scorching Spin Slash,Envelop both swords in fire and hurl flames to attack.,4,D,B+,,,21,6
+696,Twin Phoenix Slash,Strike down your foe using the ferocity of flame and clarity of water. Raise your Melee Attack by 24%.,4,D,B+,,,21,6
+697,Exam System (Limiter Off),Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Melee Attack by 29%.,6,,,51,,60,12
+698,Waist Wire-Guided Missiles,Fire wire-guided missiles.,2,D,B,,,21,6
+699,Exam System (Marion),Activate the anti-Newtype OS EXAM System. Raise your speed by 20%. Raise your Shot Attack by 29%.,6,,,51,,60,12
+700,Palma Fiocina,Distract the target with your shoulder boomerang and fire high-output beams from your palm.,1,D,B+,,,21,6
+701,Arondight & Long-Range Beam Cannon,Execute a combo with the blade on your back and fire a high-energy beam from midair to finish your foe. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 39%.,1,D,A,,,79,20
+702,Screw Fang,"Slice with claws on both hands, then unleash a kick. Raise your Melee Attack by 19%.",4,A-,B-,,,21,3
+703,Tail Blade,Perform tail-like maneuvers with your rear wire blade to execute an unpredictable melee attack. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 49%.,4,D,A,,,79,20
+704,Mace Rush,"Blow away the enemy with your Wrench Mace, then leap into the air, pulverizing them on the way down. Raise your Melee Defense by 24%.",4,A+,B,,,21,3
+705,Drill Knee,Impale your foe with the spinning pile bunker in your knees. Lowers hit enemy Gunpla's Shot Attack by 29%.,4,B,B+,,,21,3
+706,Drill Lance,"Execute a charge attack with your drill lance, then connect your shield to fire a Special KEP Bullet. Raise Melee and Shot Attack of your Squad by 29%.",4,D,A,,,79,20
+707,Bits,Launch bits to repeatedly strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
