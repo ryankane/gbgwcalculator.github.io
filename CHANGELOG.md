@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.2
+
+- Added 6-star rarity (parts and marks)
+- Added left-arm gears (job licenses)
+- Units and pilots have updated series IDs
+
 ## 1.3.1
 
 - Changed pilot CSV format

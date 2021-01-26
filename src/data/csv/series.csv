@@ -1,57 +1,65 @@
-Id,Title,Alternate,Twitter Image
-1,Mobile Suit Gundam,MSG,https://twitter.com/GundamBattleGW/status/1193827387147841536/photo/2
-2,Mobile Suit Variations,MSV,https://twitter.com/GundamBattleGW/status/1313026405882449921/photo/2
-3,Mobile Suit Gundam: The 08th MS Team,08th MS Team,https://twitter.com/GundamBattleGW/status/1203974650826412032/photo/2
-4,Mobile Suit Gundam Side Story: The Blue Destiny,Blue Destiny,https://twitter.com/GundamBattleGW/status/1269902406273216517/photo/1
-5,Mobile Suit Gundam Side Story: Missing Link,Missing Link,
-6,Mobile Suit Gundam 0080: War in the Pocket,War in the Pocket,
-7,Mobile Suit Gundam 0083: Stardust Memory,Stardust Memory,https://twitter.com/GundamBattleGW/status/1203974650826412032/photo/1
-8,Mobile Suit Zeta Gundam,Zeta,https://twitter.com/GundamBattleGW/status/1307952802761568258/photo/1
-9,Gundam Try Age,Try Age,
-10,Mobile Suit Gundam ZZ,ZZ,https://twitter.com/GundamBattleGW/status/1272438969754505217/photo/1
-11,Mobile Suit Gundam: Char's Counterattack,CCA,https://twitter.com/GundamBattleGW/status/1193827387147841536/photo/3
-12,Mobile Suit Gundam Unicorn,Unicorn,https://twitter.com/GundamBattleGW/status/1229330944642842624/photo/1
-13,Mobile Suit Gundam F91,F91,https://twitter.com/GundamBattleGW/status/1206511553282895872/photo/1
-14,Mobile Suit Crossbone Gundam,Crossbone Gundam,
-15,Mobile Suit Victory Gundam,Victory Gundam,
-16,Mobile Fighter G Gundam,G Gundam,https://twitter.com/GundamBattleGW/status/1259770919158874113/photo/1
-17,Mobile Suit Gundam Wing,Gundam Wing,
-18,New Mobile Report Gundam Wing: Endless Waltz,Endless Waltz,
-19,After War Gundam X,Gundam X,
-20,∀ Gundam,Turn A Gundam,
-21,Mobile Suit Gundam SEED,SEED,https://twitter.com/GundamBattleGW/status/1196360719777718272/photo/1
-22,Mobile Suit Gundam SEED Destiny,SEED Destiny,https://twitter.com/GundamBattleGW/status/1224257125846671360/photo/1
-23,Mobile Suit Gundam SEED Astray,SEED Astray,https://twitter.com/GundamBattleGW/status/1198897720536121344/photo/1
-24,Mobile Suit Gundam SEED C.E. 73: STARGAZER,SEED Stargazer,https://twitter.com/GundamBattleGW/status/1198897720536121344/photo/2
-25,Mobile Suit Gundam 00,00,https://twitter.com/GundamBattleGW/status/1201437646553112576/photo/1
-26,Mobile Suit Gundam AGE,AGE,https://twitter.com/GundamBattleGW/status/1216653753383673856/photo/1
-27,Gundam Reconguista in G,Reconguista in G,https://twitter.com/GundamBattleGW/status/1239476617530847232/photo/1
-28,Mobile Suit Gundam IRON-BLOODED ORPHANS,IBO,https://twitter.com/GundamBattleGW/status/1297806027564257283/photo/1
-30,Dynasty Warriors: Gundam,Dynasty Warriors,
-31,Model Suit Gunpla Builders Beginning G,Beginning G,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/3
-32,Gundam Build Fighters,GBF,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/1
-33,New Mobile Report Gundam Wing Dual Story: G-Unit,G-Unit,
-34,Gundam Build Fighters Try,GBFT,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/2
-36,Mobile Suit Gundam: The Origin,The Origin,
-37,Mobile Suit Gundam MS IGLOO,IGLOO,
-38,Mobile Suit Gundam Thunderbolt,Thunderbolt,https://twitter.com/GundamBattleGW/status/1313026405882449921/photo/1
-39,Zeta Gundam Mobile Suit Variations,Z-MSV,
-40,Advance of Zeta: The Flag of Titans,Advance of Zeta,
-41,Char's Counterattack Mobile Suit Variations,CCA MSV,
-42,SD Gundam BB Senshi,SD Gundam,https://twitter.com/GundamBattleGW/status/1247086746287796225/photo/1
-43,Mobile Suit Gundam: Hathaway's Flash,Hathaway's Flash,
-44,Gundam Unicorn Mobile Suit Variations,Unicorn MSV,
-45,Mobile Suit Gundam Narrative,NT,
-47,Mobile Suit Gundam Extreme Vs. Maxi Boost ON,Extreme Vs.,
-46,Mobile Suit Gundam SEED MSV,SEED MSV,https://twitter.com/GundamBattleGW/status/1196360719777718272/photo/2
-49,Mobile Suit Moon Gundam,MOON,
-50,Mobile Suit Gundam SEED X Astray,SEED X Astray,
-51,Mobile Suit Gundam F90,F90,
-52,Mobile Suit Gundam 00 The Movie -A Wakening of the Trailblazer-,00 Trailblazer,
-56,Mobile Suit Gundam 00V : Battlefield Record,00V,
-57,Mobile Suit Gundam: Zeonic Front,Zeonic Front,
-58,"Mobile Suit Gundam Side Story: Space, To the End of A Flash",Side Story: Space,
-60,Mobile Suit Gundam: Battlefield Record U.C. 0081,Battlefield Record 0081,
-62,Gundam Build Divers Re:RISE,GBDR,
-63,Mobile Suit Gundam IRON-BLOODED ORPHANS Gekko,IBO Gekko,
-99,Original,ORIGINAL,
+ID,Title,Alternate,Twitter Image
+1,Mobile Suit Gundam: The Origin,The Origin,
+2,Mobile Suit Gundam,MSG,https://twitter.com/GundamBattleGW/status/1193827387147841536/photo/2
+3,Mobile Suit Variations,MSV,https://twitter.com/GundamBattleGW/status/1313026405882449921/photo/2
+4,Mobile Suit Gundam: Zeonic Front,Zeonic Front,
+5,Mobile Suit Gundam MS IGLOO,IGLOO,
+6,Mobile Suit Gundam: The 08th MS Team,08th MS Team,https://twitter.com/GundamBattleGW/status/1203974650826412032/photo/2
+7,Mobile Suit Gundam Side Story: The Blue Destiny,Blue Destiny,https://twitter.com/GundamBattleGW/status/1269902406273216517/photo/1
+8,,,
+9,Mobile Suit Gundam 0080: War in the Pocket,War in the Pocket,
+10,Mobile Suit Gundam Thunderbolt,Thunderbolt,https://twitter.com/GundamBattleGW/status/1313026405882449921/photo/1
+11,"Mobile Suit Gundam Side Story: Space, To the End of A Flash",Side Story: Space,
+12,,,
+13,Mobile Suit Gundam Side Story: Missing Link,Missing Link,
+14,Mobile Suit Gundam: Battlefield Record U.C. 0081,Battlefield Record 0081,
+15,Mobile Suit Gundam 0083: Stardust Memory,Stardust Memory,https://twitter.com/GundamBattleGW/status/1203974650826412032/photo/1
+16,Advance of Zeta: The Flag of Titans,Advance of Zeta,
+17,Mobile Suit Zeta Gundam,Zeta,https://twitter.com/GundamBattleGW/status/1307952802761568258/photo/1
+18,Zeta Gundam Mobile Suit Variations,Z-MSV,
+19,Gundam Sentinel,Sentinel,
+20,Mobile Suit Gundam ZZ,ZZ,https://twitter.com/GundamBattleGW/status/1272438969754505217/photo/1
+21,Mobile Suit Moon Gundam,MOON,
+22,Mobile Suit Gundam: Char's Counterattack,CCA,https://twitter.com/GundamBattleGW/status/1193827387147841536/photo/3
+23,Char's Counterattack Mobile Suit Variations,CCA MSV,
+24,Mobile Suit Gundam Unicorn,Unicorn,https://twitter.com/GundamBattleGW/status/1229330944642842624/photo/1
+25,Gundam Unicorn Mobile Suit Variations,Unicorn MSV,
+26,Mobile Suit Gundam Narrative,NT,
+27,Mobile Suit Gundam: Hathaway's Flash,Hathaway's Flash,
+28,Mobile Suit Gundam F90,F90,
+29,Mobile Suit Gundam F91,F91,https://twitter.com/GundamBattleGW/status/1206511553282895872/photo/1
+30,,,
+31,Mobile Suit Crossbone Gundam,Crossbone Gundam,
+32,Mobile Suit Victory Gundam,Victory Gundam,
+33,Mobile Fighter G Gundam,G Gundam,https://twitter.com/GundamBattleGW/status/1259770919158874113/photo/1
+34,Mobile Suit Gundam Wing,Gundam Wing,
+35,New Mobile Report Gundam Wing: Endless Waltz,Endless Waltz,
+36,,,
+37,New Mobile Report Gundam Wing Dual Story: G-Unit,G-Unit,
+38,,,
+39,After War Gundam X,Gundam X,https://twitter.com/GundamBattleGW/status/1343471959275782144/photo/1
+40,∀ Gundam,Turn A Gundam,
+41,Mobile Suit Gundam SEED,SEED,https://twitter.com/GundamBattleGW/status/1196360719777718272/photo/1
+42,Mobile Suit Gundam SEED MSV,SEED MSV,https://twitter.com/GundamBattleGW/status/1196360719777718272/photo/2
+43,Mobile Suit Gundam SEED Destiny,SEED Destiny,https://twitter.com/GundamBattleGW/status/1224257125846671360/photo/1
+44,Mobile Suit Gundam SEED Astray,SEED Astray,https://twitter.com/GundamBattleGW/status/1198897720536121344/photo/1
+45,Mobile Suit Gundam SEED X Astray,SEED X Astray,
+46,Mobile Suit Gundam SEED C.E. 73: STARGAZER,SEED Stargazer,https://twitter.com/GundamBattleGW/status/1198897720536121344/photo/2
+47,Mobile Suit Gundam 00,00,https://twitter.com/GundamBattleGW/status/1201437646553112576/photo/1
+48,Mobile Suit Gundam 00 The Movie -A Wakening of the Trailblazer-,00 Trailblazer,
+49,Mobile Suit Gundam 00V : Battlefield Record,00V,
+50,Mobile Suit Gundam AGE,AGE,https://twitter.com/GundamBattleGW/status/1216653753383673856/photo/1
+51,Gundam Reconguista in G,Reconguista in G,https://twitter.com/GundamBattleGW/status/1239476617530847232/photo/1
+52,Mobile Suit Gundam IRON-BLOODED ORPHANS,IBO,https://twitter.com/GundamBattleGW/status/1297806027564257283/photo/1
+53,Mobile Suit Gundam IRON-BLOODED ORPHANS Gekko,IBO Gekko,
+54,Model Suit Gunpla Builders Beginning G,Beginning G,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/3
+55,Gundam Build Fighters,GBF,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/1
+56,,,
+57,Gundam Build Fighters Try,GBFT,https://twitter.com/GundamBattleGW/status/1234404288052391938/photo/2
+58,,,
+59,Gundam Build Divers Re:RISE,GBDR,
+60,SD Gundam BB Senshi,SD Gundam,https://twitter.com/GundamBattleGW/status/1247086746287796225/photo/1
+61,Dynasty Warriors: Gundam,Dynasty Warriors,
+62,Mobile Suit Gundam Extreme Vs. Maxi Boost ON,Extreme Vs.,
+63,Gundam Try Age,Try Age,
+64,Original,ORIGINAL,

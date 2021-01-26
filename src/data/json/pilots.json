@@ -395,6 +395,24 @@
     "name": "50% chance to prevent vernier consumption when stepping"
   }
 }, {
+  "name": "Athrun Zala [Destiny]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 497,
+  "ma": 1986,
+  "sa": 1511,
+  "md": 1032,
+  "sd": 1032,
+  "br": 1015,
+  "pr": 0,
+  "wt": ["Gundam Type", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\", Initial EX Skill charge boosted 20%"
+  }
+}, {
   "name": "Auel Neider",
   "jl": ["Defender"],
   "attribute": "Technique",
@@ -575,6 +593,24 @@
     "name": "While \"Mid-Range\", Shot guidance boosted 14%"
   }
 }, {
+  "name": "Carta Issue",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1075,
+  "ma": 353,
+  "sa": 353,
+  "md": 1389,
+  "sd": 1389,
+  "br": 368,
+  "pr": 368,
+  "wt": ["Commander", "For Tundra"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), 28% change to not recoil"
+  }
+}, {
   "name": "Cecily Fairchild",
   "jl": ["Supporter"],
   "attribute": "Speed",
@@ -611,7 +647,7 @@
     "name": "With Technique attribute (self), Strong Melee DMG output boosted by 35"
   }
 }, {
-  "name": "Chang Wufei [Endless Waltz. Ver.]",
+  "name": "Chang Wufei [Endless Waltz Ver.]",
   "jl": ["Out-Fighter"],
   "attribute": "Speed",
   "rarity": 4,
@@ -645,6 +681,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), All DMG taken reduced by 20"
+  }
+}, {
+  "name": "Char Aznable [CCA]",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 0,
+  "ma": 2120,
+  "sa": 1599,
+  "md": 1758,
+  "sd": 1758,
+  "br": 0,
+  "pr": 537,
+  "wt": ["High Firepower", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Firepower\", Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Chara Soon",
@@ -2825,6 +2879,24 @@
     "name": "All-Rounder Job, Vernier recovery rate boosted 16%"
   }
 }, {
+  "name": "Rasid Kurama",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 680,
+  "ma": 468,
+  "sa": 468,
+  "md": 1298,
+  "sd": 1298,
+  "br": 367,
+  "pr": 367,
+  "wt": ["Commander", "For Desert"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Enemy EX Skill penetration reduced 22%"
+  }
+}, {
   "name": "Rau Le Creuset",
   "jl": ["Long-Shooter"],
   "attribute": "Technique",
@@ -2913,6 +2985,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "All ranged weapon, reload speed boosted 18%"
+  }
+}, {
+  "name": "Riddhe Marcenas",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1039,
+  "ma": 1519,
+  "sa": 1962,
+  "md": 1036,
+  "sd": 1036,
+  "br": 495,
+  "pr": 543,
+  "wt": ["Federation", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Roberto",
@@ -3399,6 +3489,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Initial EX Skill charge boosted 12%"
+  }
+}, {
+  "name": "Terry Sanders Jr.",
+  "jl": ["Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 681,
+  "ma": 899,
+  "sa": 899,
+  "md": 899,
+  "sd": 899,
+  "br": 150,
+  "pr": 519,
+  "wt": ["Federation", "For Forest"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Projectile speed boosted 14%"
   }
 }, {
   "name": "Tieria Erde",

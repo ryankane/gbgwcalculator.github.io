@@ -2037,8 +2037,8 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2036,00 Gundam [Seven Sword/G],56-03-3-01,316,3,,5,3,6,13,0,3976,816,1516,1509,368,368,,"When buffed, Melee power boosted 30%",,,Sokai Festival
 2037,00 Gundam [Seven Sword/G],56-03-4-01,316,4,,5,3,6,9,1427,1757,816,1420,1420,594,594,666,,,,Sokai Festival
 2038,00 Gundam [Seven Sword/G],56-03-5-01,316,5,,5,3,6,9,1239,1591,816,1420,1420,768,768,667,,,,Sokai Festival
-2039,GN Sword II Short/GN Sword II Long,56-03-6-01,316,6,,5,3,6,13,1418,5202,0,0,0,545,545,,"When Armor 60% or more, Job Gauge increase boosted 17%",,4,Sokai Festival
-2040,GN Sword II Blaster [Close Quarters],56-03-6c-01,316,6,,5,3,6,9,1418,5202,0,0,0,545,545,668,,,5,Sokai Festival
+2039,GN Sword II Short/GN Sword II Long,56-03-6-01,316,6,,5,3,6,13,1418,5202,0,0,0,545,545,,"When Armor 60% or more, Job Gauge increase boosted 17%",2,4,Sokai Festival
+2040,GN Sword II Blaster [Close Quarters],56-03-6c-01,316,6,,5,3,6,9,1418,5202,0,0,0,545,545,668,,2,5,Sokai Festival
 2041,GN Sword II Blaster,56-03-7b-01,316,7,,5,3,6,13,0,415,4670,609,609,594,594,,"While ""Close Combat"", EX Skill power boosted 30%",1,10,Sokai Festival
 2042,GN Sword II Long Rifle Mode,56-03-7b-01,316,7,,5,3,6,9,0,415,4670,609,609,594,594,,"In-Fighter Job, Initial EX Skill charge boosted 20%",1,10,Sokai Festival
 2043,Gundam Unit 6 [Mudrock],57-01-1-01,317,1,,3,2,16,13,442,354,2839,354,1107,55,55,,"While ""Federation"", Long Shot Attack raised 14%",,,Unit 6 Coins (Weekly Event)
@@ -2172,3 +2172,66 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2171,Bertigo,19-06-3-01,336,3,,3,2,7,24,681,1872,1172,900,900,0,0,707,,,,Purple Coins (Weekly Event)
 2172,Bertigo,19-06-4-01,336,4,,3,2,7,24,681,353,681,956,956,390,546,,"While ""Mid-Range"", Mid Shot Attack raised 14%",,,Purple Coins (Weekly Event)
 2173,Beam Saber [Bertigo],19-06-6-01,336,6,,3,2,7,24,681,1723,0,681,681,150,519,,"With Technique attribute (self), Enemy Melee power reduced 25%",1,4,Purple Coins (Weekly Event)
+2174,Gundam Astraea Type-F,00-00-1-01,337,1,,5,1,9,6,1861,719,1039,2256,504,374,606,,"Shot DMG raised 10%, EX Skill power boosted 30%",,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2175,Gundam Astraea Type-F,00-00-2-01,337,2,,5,1,9,1,2066,1039,504,2471,1039,0,782,708,,,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2176,Gundam Astraea Type-F,00-00-3-01,337,3,,5,1,9,1,504,4431,504,2066,504,163,163,709,,,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2177,Gundam Astraea Type-F,00-00-4-01,337,4,,5,1,9,13,1039,1039,504,2471,1039,782,546,710,,,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2178,Gundam Astraea Type-F,00-00-5-01,337,5,,5,1,9,6,1039,1039,504,2471,1039,546,782,711,,,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2179,GN Hammer [Astraea Type-F],00-00-6-01,337,6,,5,1,9,6,504,5451,0,0,0,276,546,,"While ""Close Combat"", Melee power boosted 30%",2,7,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2180,GN Launcher [Astraea Type-F],00-00-7d-01,337,7,,5,1,9,1,1523,0,3085,0,0,546,782,,"After 20s pass, EX Skill power boosted 30%",1,12,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2181,GN Beam Rifle [Astraea Type-F],00-00-7a-01,337,7,,5,1,9,1,1523,0,3085,0,0,546,782,,"When Melee ATK is over 5000, Enemy Melee power reduced 30%",1,8,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2182,GN Hand Missile [Astraea Type-F],00-00-7d-01,337,7,,5,1,9,13,1523,0,3085,0,0,546,782,,"With Power attribute (self), EX Skill CD reduced 20%",2,12,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2183,GN Shield [Astraea Type-F],00-00-8-01,338,8,,5,1,9,13,1039,0,0,3490,1039,163,1308,,"In-Fighter Job, Buff EX Skill time up 22%",,,Pick-Up Drop Rate Step-Up Capsules [No.037] Bonus Coins
+2184,Full Armor Gundam,00-00-1-01,338,1,,3,3,11,16,956,353,2607,1075,353,0,258,,"With Speed attribute (self), Shooting DMG output boosted by 20",,,FSWS Coins (Weekly Event)
+2185,Full Armor Gundam,00-00-2-01,338,2,,3,3,11,16,1300,353,556,1533,681,0,573,712,,,,FSWS Coins (Weekly Event)
+2186,Full Armor Gundam,00-00-3-01,338,3,,3,3,11,25,956,1723,1075,1171,681,0,0,713,,,,FSWS Coins (Weekly Event)
+2187,Full Armor Gundam,00-00-4-01,338,4,,3,3,11,25,956,353,681,1171,353,368,573,714,,,,FSWS Coins (Weekly Event)
+2188,Full Armor Gundam,00-00-5-01,338,5,,3,3,11,16,956,353,900,1533,353,368,573,715,,,,FSWS Coins (Weekly Event)
+2189,Sengoku Astray Gundam,00-00-1-01,339,1,,5,1,9,10,1502,1512,3258,1507,1023,644,409,,"With Power attribute (self), Initial EX Skill charge boosted 20%",,,Sengoku Materials (Event Blueprint)
+2190,Sengoku Astray Gundam,00-00-2-01,339,2,,5,1,9,6,2539,2044,1021,2049,1028,761,267,,"With Dual Sabers category equipped, Melee power boosted 30%",,,Sengoku Materials (Event Blueprint)
+2191,Sengoku Astray Gundam,00-00-3-01,339,3,,5,1,10,6,0,4576,1507,1847,1240,0,0,716,,,,Sengoku Materials (Event Blueprint)
+2192,Sengoku Astray Gundam,00-00-4-01,339,4,,5,1,10,6,1028,1315,820,1842,1028,766,792,,"When attacking with Physical, EX Skill power boosted 30%",,,Sengoku Materials (Event Blueprint)
+2193,Sengoku Astray Gundam,00-00-5-01,339,5,,5,1,9,6,1600,1842,820,2118,1023,890,639,717,,,,Sengoku Materials (Event Blueprint)
+2194,Kikuichimonji/Kotetsu,00-00-6-01,339,6,,5,1,9,10,810,5391,0,0,0,896,639,,"While ""High Mobility"", Melee power boosted 30%",2,4,Sengoku Materials (Event Blueprint)
+2195,Oni No Tate,00-00-8-01,339,8,,5,1,9,6,503,1849,0,1245,918,1420,787,,"When Armor is 60% or more, Recover 20 Armor gradually",,,Sengoku Materials (Event Blueprint)
+2196,Gundam G-Self [Perfect Pack],00-00-1-01,340,1,,5,1,3,9,1409,613,4484,815,914,544,373,,"While ""Ace Excl."", Shooting power boosted 30%",,,Gundam Battle Festival
+2197,Gundam G-Self [Perfect Pack],00-00-2-01,340,2,,5,1,3,9,2234,1110,1513,1317,2044,762,0,718,,,,Gundam Battle Festival
+2198,Gundam G-Self [Perfect Pack],00-00-3-01,340,3,,5,1,3,13,819,4164,1591,1507,1028,404,0,719,,,,Gundam Battle Festival
+2199,Gundam G-Self [Perfect Pack],00-00-4-01,340,4,,5,1,3,13,1747,812,813,1309,1842,892,647,,"With Power attribute (self), EX Skill power boosted 30%",,,Gundam Battle Festival
+2200,Gundam G-Self [Perfect Pack],00-00-5-01,340,5,,5,1,3,9,0,1110,1750,913,2317,1385,592,720,,,,Gundam Battle Festival
+2201,Photon Armor Shield,00-00-8-01,340,8,,5,1,3,13,188,912,1024,1413,2232,1525,410,,"When 1 enemies shot down, Boost Job Gauge 50% once",,,Gundam Battle Festival
+2202,Knight Unicorn Gundam [Beast Mode],00-00-1-01,341,1,,5,2,6,9,2329,1417,2536,1417,1249,531,367,,"With Technique attribute (self), Recover 20 Armor gradually",,,Gundam Battle Festival
+2203,Knight Unicorn Gundam [Beast Mode],00-00-2-01,341,2,,5,2,6,9,2232,1754,926,1948,0,966,100,377,,,,Gundam Battle Festival
+2204,Knight Unicorn Gundam [Beast Mode],00-00-3-01,341,3,,5,2,6,9,708,4488,505,1595,1425,527,0,,"When Melee ATK is over 6000, EX Skill CD reduced 20%",,,Gundam Battle Festival
+2205,Knight Unicorn Gundam [Beast Mode],00-00-4-01,341,4,,5,2,6,26,1250,1123,714,1938,1507,365,854,,"In-Fighter Job, EX Skill power boosted 30%",,,Gundam Battle Festival
+2206,Knight Unicorn Gundam [Beast Mode],00-00-5-01,341,5,,5,2,6,26,721,1511,720,1946,1754,854,590,,"With Technique attribute (self), Melee power boosted 30%",,,Gundam Battle Festival
+2207,Magnum Sword,00-00-6a-01,341,6,,5,2,6,9,1245,5102,0,504,0,864,412,,"When Armor is 60% or more, EX Skill power boosted 30%",2,2,Gundam Battle Festival
+2208,Akashic Binder,00-00-8-01,341,8,,5,2,6,26,1423,0,1117,1754,2444,1368,271,721,,,,Gundam Battle Festival
+2209,Gundam AGE-2 Double Bullet,00-00-1-01,342,1,,3,1,13,26,681,440,2539,353,468,258,258,,"While ""Gundam Type"", Shooting power boosted 25%",,,Twin Gun Coins (Weekly Event)
+2210,Gundam AGE-2 Double Bullet,00-00-2-01,342,2,,3,1,13,10,1389,750,750,681,833,315,315,,"With Power attribute (self), Enemy EX Skill penetration reduced 22%",,,Twin Gun Coins (Weekly Event)
+2211,Gundam AGE-2 Double Bullet,00-00-3-01,342,3,,3,1,13,10,681,2492,1171,353,468,144,144,722,,,,Twin Gun Coins (Weekly Event)
+2212,Gundam AGE-2 Double Bullet,00-00-4-01,342,4,,3,1,13,26,833,750,636,681,833,418,418,723,,,,Twin Gun Coins (Weekly Event)
+2213,Gundam AGE-2 Double Bullet,00-00-5-01,342,5,,3,1,13,26,956,750,656,681,833,368,368,,"When attacking with Beam, Close Shot Attack raised 14%",,,Twin Gun Coins (Weekly Event)
+2214,Beam Saber [AGE-2 Double Bullet],00-00-6-01,342,6,,3,1,13,10,440,3153,0,0,0,445,445,,"When Armor is 60% or more, Strong Melee CRIT rate boosted 17%",1,4,Twin Gun Coins (Weekly Event)
+2215,Full Armor 7th Gundam,00-00-1-01,343,1,,5,1,11,16,503,503,4096,503,2253,0,275,3,,,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2216,Full Armor 7th Gundam,00-00-2-01,343,2,,5,1,11,16,2064,503,823,1036,2647,0,779,,"While ""Heavy Armor"", Enemy EX Skill power reduced 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2217,Full Armor 7th Gundam,00-00-3-01,343,3,,5,1,11,16,927,3378,823,0,2647,275,275,,"With Power attribute (self), Shooting power boosted 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2218,Full Armor 7th Gundam,00-00-4-01,343,4,,5,1,11,20,1036,503,823,1036,2556,779,543,724,,,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2219,Full Armor 7th Gundam,00-00-5-01,343,5,,5,1,11,20,1036,503,927,1036,2467,543,779,725,,,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2220,Beam Saber [Full Armor 7th Gundam],00-00-6-01,343,6,,5,1,11,20,1520,3080,0,0,1036,543,779,,"While ""For Space"", EX Skill power boosted 30%",1,4,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2221,Beam Rifle [Full Armor 7th Gundam],00-00-7a-01,343,7,,5,1,11,16,503,0,5247,0,0,275,543,,"While ""Federation"", Shooting power boosted 30%",1,8,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2222,Shield [Full Armor 7th Gundam],00-00-8-01,343,8,,5,1,11,20,1036,0,300,1036,3583,0,1303,,"With Power attribute (self), Enemy Shooting power reduced 30%",,,5★ Part Guaranteed Step-Up Capsules & [No. 038] Bonus Coins
+2223,Gundam GP04 [Gebera],00-00-1-01,344,1,,3,2,16,8,680,352,2767,554,680,367,149,,"With Technique attribute (self), Shooting CRIT rate boosted 17%",,,Project Device A (Weekly Event)
+2224,Gundam GP04 [Gebera],00-00-2-01,344,2,,3,2,16,8,1387,749,830,899,1071,515,0,,"While ""Federation"", Shooting power boosted 25%",,,Project Device A (Weekly Event)
+2225,Gundam GP04 [Gebera],00-00-3-01,344,3,,3,2,16,8,680,2484,1169,468,680,0,0,,EX Skill DMG Taken reduced by 20,,,Project Device A (Weekly Event)
+2226,Gundam GP04 [Gebera],00-00-4-01,344,4,,3,2,16,26,680,749,468,830,1071,367,515,,"Long-Shooter Job, Shooting power boosted 25%",,,Project Device A (Weekly Event)
+2227,Gundam GP04 [Gebera],00-00-5-01,344,5,,3,2,16,26,680,749,680,830,1071,515,367,726,,,,Project Device A (Weekly Event)
+2228,Long-Range Rifle [GP04],00-00-7b-01,344,7,,3,2,16,8,440,0,3506,0,0,367,149,,"When attacking with Beam, Shooting DMG output boosted by 20",1,10,Project Device A (Weekly Event)
+2229,Custom Beam Rifle [GP04],00-00-7c-01,344,7,,3,2,16,26,440,0,3506,0,0,367,149,59,,1,9,Project Device A (Weekly Event)
+2230,Shield [GP04],00-00-8-01,344,8,,3,2,16,26,680,749,468,830,1071,851,0,,"When Shot ATK is over 5000, Debuff EX Skill effect up 15%",,,Project Device A (Weekly Event)
+2231,Ex-S Gundam,00-00-1-01,345,1,,6,2,3,10,0,706,4576,1021,1251,527,763,727,,,,Ex-S Gundam Capsule
+2232,Ex-S Gundam,00-00-2-01,345,2,,6,2,3,10,1752,1017,1843,0,2039,1511,275,,"With Long Rifle category equipped, Shooting power boosted 30%",,,Ex-S Gundam Capsule
+2233,Ex-S Gundam,00-00-3-01,345,3,,6,2,3,12,2447,3052,1501,490,1314,0,598,,"When 1 enemies shot down, Reduce Cooldown 50% once.",,,Ex-S Gundam Capsule
+2234,Ex-S Gundam,00-00-4-01,345,4,,6,2,3,12,1508,504,1316,1418,2041,788,537,728,,,,Ex-S Gundam Capsule
+2235,Ex-S Gundam,00-00-5-01,345,5,,6,2,3,12,1031,1033,1834,1302,1501,696,789,729,,,,Ex-S Gundam Capsule
+2236,Beam Smartgun [Ex-S Gundam],00-00-7b-01,345,7,,6,2,3,12,600,0,5100,0,1422,491,704,,"With Technique attribute (self), EX Skill power boosted 30%",1,10,Ex-S Gundam Capsule

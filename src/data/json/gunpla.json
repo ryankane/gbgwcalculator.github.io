@@ -109,6 +109,7 @@
             "name": "When Armor 60% or more, Job Gauge increase boosted 17%"
         },
         "name": "GN Sword II Short/GN Sword II Long",
+        "type": "Physical",
         "category": "Dual Sabers"
     }, {
         "part": "melee",
@@ -133,6 +134,7 @@
             }
         },
         "name": "GN Sword II Blaster [Close Quarters]",
+        "type": "Physical",
         "category": "Blade"
     }, {
         "part": "range",
@@ -9839,6 +9841,126 @@
         "category": "Blade"
     }]
 }, {
+    "name": "Ex-S Gundam",
+    "attribute": "Technique",
+    "rarity": 6,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 0,
+        "ma": 706,
+        "sa": 4576,
+        "md": 1021,
+        "sd": 1251,
+        "br": 527,
+        "pr": 763,
+        "wt": ["Ace Excl.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "ALICE",
+            "description": "Activate the pseudo-personality system ALICE to temporarily increase your unit's performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your Melee Defense by 19%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 44,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1752,
+        "ma": 1017,
+        "sa": 1843,
+        "md": 0,
+        "sd": 2039,
+        "br": 1511,
+        "pr": 275,
+        "wt": ["Ace Excl.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Long Rifle category equipped, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2447,
+        "ma": 3052,
+        "sa": 1501,
+        "md": 490,
+        "sd": 1314,
+        "br": 0,
+        "pr": 598,
+        "wt": ["Ace Excl.", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Reduce Cooldown 50% once."
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1508,
+        "ma": 504,
+        "sa": 1316,
+        "md": 1418,
+        "sd": 2041,
+        "br": 788,
+        "pr": 537,
+        "wt": ["Ace Excl.", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Reflector Incom",
+            "description": "Fire an unpredictable shot by ricocheting a beam deviating its trajectory with your I-Field. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 29%. Your Squad resists flinching for a set period of time.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1031,
+        "ma": 1033,
+        "sa": 1834,
+        "md": 1302,
+        "sd": 1501,
+        "br": 696,
+        "pr": 789,
+        "wt": ["Ace Excl.", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Back Beam Cannon",
+            "description": "Attack enemies ahead with the cannon on your back.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 600,
+        "ma": 0,
+        "sa": 5100,
+        "md": 0,
+        "sd": 1422,
+        "br": 491,
+        "pr": 704,
+        "wt": ["Ace Excl.", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill power boosted 30%"
+        },
+        "name": "Beam Smartgun [Ex-S Gundam]",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }]
+}, {
     "name": "Extreme Gundam",
     "attribute": "Speed",
     "rarity": 3,
@@ -10652,6 +10774,288 @@
             }
         },
         "name": "Laminated Anti-Beam Shield [Freedom]"
+    }]
+}, {
+    "name": "Full Armor 7th Gundam",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 503,
+        "ma": 503,
+        "sa": 4096,
+        "md": 503,
+        "sd": 2253,
+        "br": 0,
+        "pr": 275,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Head-Mounted Vulcan",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2064,
+        "ma": 503,
+        "sa": 823,
+        "md": 1036,
+        "sd": 2647,
+        "br": 0,
+        "pr": 779,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Heavy Armor\", Enemy EX Skill power reduced 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 927,
+        "ma": 3378,
+        "sa": 823,
+        "md": 0,
+        "sd": 2647,
+        "br": 275,
+        "pr": 275,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1036,
+        "ma": 503,
+        "sa": 823,
+        "md": 1036,
+        "sd": 2556,
+        "br": 779,
+        "pr": 543,
+        "wt": ["Heavy Armor", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Leg Missile Pod",
+            "description": "Launch missiles stowed in your legs.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1036,
+        "ma": 503,
+        "sa": 927,
+        "md": 1036,
+        "sd": 2467,
+        "br": 543,
+        "pr": 779,
+        "wt": ["Heavy Armor", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Long-Range Beam Cannon",
+            "description": "Fire your long-range cannon, its barrel equipped with direct E-CAP subsystem and new accelerator.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1520,
+        "ma": 3080,
+        "sa": 0,
+        "md": 0,
+        "sd": 1036,
+        "br": 543,
+        "pr": 779,
+        "wt": ["Heavy Armor", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"For Space\", EX Skill power boosted 30%"
+        },
+        "name": "Beam Saber [Full Armor 7th Gundam]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 503,
+        "ma": 0,
+        "sa": 5247,
+        "md": 0,
+        "sd": 0,
+        "br": 275,
+        "pr": 543,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Federation\", Shooting power boosted 30%"
+        },
+        "name": "Beam Rifle [Full Armor 7th Gundam]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1036,
+        "ma": 0,
+        "sa": 300,
+        "md": 1036,
+        "sd": 3583,
+        "br": 0,
+        "pr": 1303,
+        "wt": ["Heavy Armor", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+        },
+        "name": "Shield [Full Armor 7th Gundam]"
+    }]
+}, {
+    "name": "Full Armor Gundam",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "shield",
+        "mark": 3,
+        "a": 1039,
+        "ma": 0,
+        "sa": 0,
+        "md": 3490,
+        "sd": 1039,
+        "br": 163,
+        "pr": 1308,
+        "wt": ["High Mobility", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Buff EX Skill time up 22%"
+        },
+        "name": "GN Shield [Astraea Type-F]"
+    }, {
+        "part": "head",
+        "mark": 3,
+        "a": 956,
+        "ma": 353,
+        "sa": 2607,
+        "md": 1075,
+        "sd": 353,
+        "br": 0,
+        "pr": 258,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting DMG output boosted by 20"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1300,
+        "ma": 353,
+        "sa": 556,
+        "md": 1533,
+        "sd": 681,
+        "br": 0,
+        "pr": 573,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shldr. 6-Barrel Missile Launcher",
+            "description": "Attack your enemies by launching missiles stowed in your shoulder's add-on armor.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "C-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 956,
+        "ma": 1723,
+        "sa": 1075,
+        "md": 1171,
+        "sd": 681,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Heavy Armor", "For Base"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Double-Barrel Beam Rifle",
+            "description": "Fire at enemies with your double-barrel beam rifle. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 956,
+        "ma": 353,
+        "sa": 681,
+        "md": 1171,
+        "sd": 353,
+        "br": 368,
+        "pr": 573,
+        "wt": ["Heavy Armor", "For Base"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Leg Missiles",
+            "description": "Attack enemies by launching missiles stowed in your knee's add-on armor.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "C-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 956,
+        "ma": 353,
+        "sa": 900,
+        "md": 1533,
+        "sd": 353,
+        "br": 368,
+        "pr": 573,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "360mm Rocket Cannon",
+            "description": "Fire explosive projectiles from the cannon on your shoulder.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
     }]
 }, {
     "name": "Full Armor Gundam [Thunderbolt Ver.]",
@@ -15223,6 +15627,120 @@
         "category": "Rifle"
     }]
 }, {
+    "name": "Gundam AGE-2 Double Bullet",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 681,
+        "ma": 440,
+        "sa": 2539,
+        "md": 353,
+        "sd": 468,
+        "br": 258,
+        "pr": 258,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Shooting power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1389,
+        "ma": 750,
+        "sa": 750,
+        "md": 681,
+        "sd": 833,
+        "br": 315,
+        "pr": 315,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy EX Skill penetration reduced 22%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 681,
+        "ma": 2492,
+        "sa": 1171,
+        "md": 353,
+        "sd": 468,
+        "br": 144,
+        "pr": 144,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Twin DODS Cannon",
+            "description": "Fire beams from the dual cannons on your shoulders.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 833,
+        "ma": 750,
+        "sa": 636,
+        "md": 681,
+        "sd": 833,
+        "br": 418,
+        "pr": 418,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Calf Missiles",
+            "description": "Launch missiles stowed in your legs.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 956,
+        "ma": 750,
+        "sa": 656,
+        "md": 681,
+        "sd": 833,
+        "br": 368,
+        "pr": 368,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Close Shot Attack raised 14%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 440,
+        "ma": 3153,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 445,
+        "pr": 445,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Strong Melee CRIT rate boosted 17%"
+        },
+        "name": "Beam Saber [AGE-2 Double Bullet]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }]
+}, {
     "name": "Gundam AGE-2 Normal",
     "attribute": "Technique",
     "rarity": 3,
@@ -16312,6 +16830,187 @@
             "name": "When 2 enemies shot down, Vernier Consumption=0 for 10 sec."
         },
         "name": "GN Shield [Astraea]"
+    }]
+}, {
+    "name": "Gundam Astraea Type-F",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1861,
+        "ma": 719,
+        "sa": 1039,
+        "md": 2256,
+        "sd": 504,
+        "br": 374,
+        "pr": 606,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Shot DMG raised 10%, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2066,
+        "ma": 1039,
+        "sa": 504,
+        "md": 2471,
+        "sd": 1039,
+        "br": 0,
+        "pr": 782,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "NGN Bazooka & GN Launcher",
+            "description": "Hold bazookas in both hands and fire high-power rounds.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 504,
+        "ma": 4431,
+        "sa": 504,
+        "md": 2066,
+        "sd": 504,
+        "br": 163,
+        "pr": 163,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "GN Hard Missile & Proto GN Sword",
+            "description": "Slash using your Proto GN Sword and fire your GN Hand Missile.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1039,
+        "ma": 1039,
+        "sa": 504,
+        "md": 2471,
+        "sd": 1039,
+        "br": 782,
+        "pr": 546,
+        "wt": ["High Mobility", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Flexible Smash",
+            "description": "Pulverize the enemy with your hammer. Raise your Melee Defense by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1039,
+        "ma": 1039,
+        "sa": 504,
+        "md": 2471,
+        "sd": 1039,
+        "br": 546,
+        "pr": 782,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Trans-Am",
+            "description": "Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%. Your Gunpla resists flinching for a set period of time.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 504,
+        "ma": 5451,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 276,
+        "pr": 546,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", Melee power boosted 30%"
+        },
+        "name": "GN Hammer [Astraea Type-F]",
+        "type": "Physical",
+        "category": "Whip"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1523,
+        "ma": 0,
+        "sa": 3085,
+        "md": 0,
+        "sd": 0,
+        "br": 546,
+        "pr": 782,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 20s pass, EX Skill power boosted 30%"
+        },
+        "name": "GN Launcher [Astraea Type-F]",
+        "type": "Beam",
+        "category": "Bazooka"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1523,
+        "ma": 0,
+        "sa": 3085,
+        "md": 0,
+        "sd": 0,
+        "br": 546,
+        "pr": 782,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Melee ATK is over 5000, Enemy Melee power reduced 30%"
+        },
+        "name": "GN Beam Rifle [Astraea Type-F]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1523,
+        "ma": 0,
+        "sa": 3085,
+        "md": 0,
+        "sd": 0,
+        "br": 546,
+        "pr": 782,
+        "wt": ["High Mobility", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill CD reduced 20%"
+        },
+        "name": "GN Hand Missile [Astraea Type-F]",
+        "type": "Physical",
+        "category": "Bazooka"
     }]
 }, {
     "name": "Gundam Avalanche Exia Dash",
@@ -20038,6 +20737,125 @@
         "name": "Shield [G-Self/Atmospheric Pack]"
     }]
 }, {
+    "name": "Gundam G-Self [Perfect Pack]",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1409,
+        "ma": 613,
+        "sa": 4484,
+        "md": 815,
+        "sd": 914,
+        "br": 544,
+        "pr": 373,
+        "wt": ["Ace Excl.", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Ace Excl.\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2234,
+        "ma": 1110,
+        "sa": 1513,
+        "md": 1317,
+        "sd": 2044,
+        "br": 762,
+        "pr": 0,
+        "wt": ["Ace Excl.", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Omnidirectional Laser",
+            "description": "Fire omnidirectional lasers from your photon armor.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 819,
+        "ma": 4164,
+        "sa": 1591,
+        "md": 1507,
+        "sd": 1028,
+        "br": 404,
+        "pr": 0,
+        "wt": ["Ace Excl.", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "High-Torque Punch",
+            "description": "Launch a high-speed melee attack using your unparalleled agility. Raise your Melee Defense by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1747,
+        "ma": 812,
+        "sa": 813,
+        "md": 1309,
+        "sd": 1842,
+        "br": 892,
+        "pr": 647,
+        "wt": ["Ace Excl.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 0,
+        "ma": 1110,
+        "sa": 1750,
+        "md": 913,
+        "sd": 2317,
+        "br": 1385,
+        "pr": 592,
+        "wt": ["Ace Excl.", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "G-Self Combination II",
+            "description": "Launch a destructive photon torpedo and fire a high-output beam in Assault Mode. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 19%. Raise Shot Attack of your Squad by 29%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C",
+                "Cd": [79, 8]
+            }
+        }
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 188,
+        "ma": 912,
+        "sa": 1024,
+        "md": 1413,
+        "sd": 2232,
+        "br": 1525,
+        "pr": 410,
+        "wt": ["Ace Excl.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Boost Job Gauge 50% once"
+        },
+        "name": "Photon Armor Shield"
+    }]
+}, {
     "name": "Gundam Geminass 01",
     "attribute": "Power",
     "rarity": 5,
@@ -20801,6 +21619,154 @@
             "name": "With Technique attribute (self), Shooting DMG taken reduced by 35"
         },
         "name": "Folding Shield"
+    }]
+}, {
+    "name": "Gundam GP04 [Gebera]",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 680,
+        "ma": 352,
+        "sa": 2767,
+        "md": 554,
+        "sd": 680,
+        "br": 367,
+        "pr": 149,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Shooting CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1387,
+        "ma": 749,
+        "sa": 830,
+        "md": 899,
+        "sd": 1071,
+        "br": 515,
+        "pr": 0,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Federation\", Shooting power boosted 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 680,
+        "ma": 2484,
+        "sa": 1169,
+        "md": 468,
+        "sd": 680,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "EX Skill DMG Taken reduced by 20"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 680,
+        "ma": 749,
+        "sa": 468,
+        "md": 830,
+        "sd": 1071,
+        "br": 367,
+        "pr": 515,
+        "wt": ["Federation", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Shooting power boosted 25%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 680,
+        "ma": 749,
+        "sa": 680,
+        "md": 830,
+        "sd": 1071,
+        "br": 515,
+        "pr": 367,
+        "wt": ["Federation", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Assault Attack",
+            "description": "Charge into the fray solo, attacking with your saber. Raise Melee Defense of your Squad by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 440,
+        "ma": 0,
+        "sa": 3506,
+        "md": 0,
+        "sd": 0,
+        "br": 367,
+        "pr": 149,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Shooting DMG output boosted by 20"
+        },
+        "name": "Long-Range Rifle [GP04]",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 440,
+        "ma": 0,
+        "sa": 3506,
+        "md": 0,
+        "sd": 0,
+        "br": 367,
+        "pr": 149,
+        "wt": ["Federation", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Panic Maker",
+            "description": "Fire special high-powered rounds from your machine gun.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Custom Beam Rifle [GP04]",
+        "type": "Beam",
+        "category": "Machine Gun"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 680,
+        "ma": 749,
+        "sa": 468,
+        "md": 830,
+        "sd": 1071,
+        "br": 851,
+        "pr": 0,
+        "wt": ["Federation", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Shot ATK is over 5000, Debuff EX Skill effect up 15%"
+        },
+        "name": "Shield [GP04]"
     }]
 }, {
     "name": "Gundam Gusion",
@@ -28540,6 +29506,136 @@
         "name": "Knight Shield"
     }]
 }, {
+    "name": "Knight Unicorn Gundam [Beast Mode]",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2329,
+        "ma": 1417,
+        "sa": 2536,
+        "md": 1417,
+        "sd": 1249,
+        "br": 531,
+        "pr": 367,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Recover 20 Armor gradually"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2232,
+        "ma": 1754,
+        "sa": 926,
+        "md": 1948,
+        "sd": 0,
+        "br": 966,
+        "pr": 100,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "SD Tackle",
+            "description": "Execute a rush attack using your whole body. Lowers hit enemy Gunpla's Melee Attack by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "B-",
+                "Cd": [19, 2]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 708,
+        "ma": 4488,
+        "sa": 505,
+        "md": 1595,
+        "sd": 1425,
+        "br": 527,
+        "pr": 0,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Melee ATK is over 6000, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1250,
+        "ma": 1123,
+        "sa": 714,
+        "md": 1938,
+        "sd": 1507,
+        "br": 365,
+        "pr": 854,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 721,
+        "ma": 1511,
+        "sa": 720,
+        "md": 1946,
+        "sd": 1754,
+        "br": 854,
+        "pr": 590,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1245,
+        "ma": 5102,
+        "sa": 0,
+        "md": 504,
+        "sd": 0,
+        "br": 864,
+        "pr": 412,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, EX Skill power boosted 30%"
+        },
+        "name": "Magnum Sword",
+        "type": "Physical",
+        "category": "Saber"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1423,
+        "ma": 0,
+        "sa": 1117,
+        "md": 1754,
+        "sd": 2444,
+        "br": 1368,
+        "pr": 271,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Call",
+            "description": "Use the summoning magic \"Call\" to rain swords upon your enemies from the air.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Akashic Binder"
+    }]
+}, {
     "name": "Kshatriya",
     "attribute": "Power",
     "rarity": 4,
@@ -34900,6 +35996,136 @@
         "ex": {
             "type": "Part Traits",
             "name": "In-Fighter Job, Enemy Strong Melee power reduced 30%"
+        },
+        "name": "Oni No Tate"
+    }]
+}, {
+    "name": "Sengoku Astray Gundam",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1502,
+        "ma": 1512,
+        "sa": 3258,
+        "md": 1507,
+        "sd": 1023,
+        "br": 644,
+        "pr": 409,
+        "wt": ["High Mobility", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Initial EX Skill charge boosted 20%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2539,
+        "ma": 2044,
+        "sa": 1021,
+        "md": 2049,
+        "sd": 1028,
+        "br": 761,
+        "pr": 267,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Dual Sabers category equipped, Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 0,
+        "ma": 4576,
+        "sa": 1507,
+        "md": 1847,
+        "sd": 1240,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Samurai Sword",
+            "description": "Gather particles on your blade to launch an arced shockwave.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1028,
+        "ma": 1315,
+        "sa": 820,
+        "md": 1842,
+        "sd": 1028,
+        "br": 766,
+        "pr": 792,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1600,
+        "ma": 1842,
+        "sa": 820,
+        "md": 2118,
+        "sd": 1023,
+        "br": 890,
+        "pr": 639,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Particle Fa Jin",
+            "description": "Inject particles into your foe, destroying them from within. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 810,
+        "ma": 5391,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 896,
+        "pr": 639,
+        "wt": ["High Mobility", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Mobility\", Melee power boosted 30%"
+        },
+        "name": "Kikuichimonji/Kotetsu",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 503,
+        "ma": 1849,
+        "sa": 0,
+        "md": 1245,
+        "sd": 918,
+        "br": 1420,
+        "pr": 787,
+        "wt": ["High Mobility", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Recover 20 Armor gradually"
         },
         "name": "Oni No Tate"
     }]

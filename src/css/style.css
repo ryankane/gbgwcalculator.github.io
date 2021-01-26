@@ -35,6 +35,7 @@
   --rarity-color-3: #186fce;
   --rarity-color-4: #C100C1;
   --rarity-color-5: #cbab00;
+  --rarity-color-6: #ba0000;
   --marks-bg: rgba(127, 127, 127, 0.25);
   --tooltip-fg-color: #4379ba;
   --tooltip-bg-color: #EBF8FF;
@@ -493,6 +494,11 @@ footer .brands {
   color: var(--rarity-color-5);
 }
 
+.js-input[data-rarity="6"],
+.part-list__item[data-rarity="6"] {
+  color: var(--rarity-color-6);
+}
+
 .part-list__remove {
   color: #fad87a;
   cursor: pointer;
@@ -635,6 +641,13 @@ footer .brands {
 .slot-icon[data-rarity="5"]:before,
 .parts-marks__item[data-value="5"]:after {
   color: var(--rarity-color-5);
+}
+
+.weapon-type span[data-rarity="6"]:before,
+.part-slot-attr span[data-rarity="6"]:before,
+.slot-icon[data-rarity="6"]:before,
+.parts-marks__item[data-value="6"]:after {
+  color: var(--rarity-color-6);
 }
 
 .part-name {

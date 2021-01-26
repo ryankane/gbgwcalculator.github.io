@@ -221,7 +221,7 @@ class GunplaCalculator {
     const isGear = GearSlot.indexOf(parts) !== -1;
     if (sortType && (!isGear || (isGear && sortType === 'rarity'))) {
       parts.sort((partA, partB) => {
-        return partA[sortType] > partB[sortType] ? -1 : 1;
+        return (partA[sortType] || 0) > (partB[sortType] || 0) ? -1 : 1;
       });
     }
     return parts;
@@ -519,8 +519,11 @@ class GunplaCalculator {
           let data = inputName.dataset[slug];
           let partMultiplier = 0;
           if (isNaN(data)) {
-            data = JSON.parse(data); // Gears are sometimes objects that contain a multiplier formula.
-            partMultiplier = data.attrs.reduce((sum, slug) => sum + this.parametersTotal[slug], 0) * data.multiplier;
+            // Gears are sometimes objects that contain a multiplier formula.
+            data = JSON.parse(data);
+            if (data.attrs) {
+              partMultiplier = data.attrs.reduce((sum, slug) => sum + this.parametersTotal[slug], 0) * data.multiplier;
+            }
           } else {
             partMultiplier = parseInt(data, 10);
           }
@@ -823,7 +826,7 @@ class GunplaCalculator {
 
   _updateMark(mark) {
     let rarity = parseInt(mark.dataset.value, 10),
-        newRarity = rarity === 0 ? 5 : rarity - 1;
+        newRarity = rarity === 0 ? 6 : rarity - 1;
     mark.dataset.value = newRarity.toString(10);
   }
 

@@ -706,3 +706,25 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 705,Drill Knee,Impale your foe with the spinning pile bunker in your knees. Lowers hit enemy Gunpla's Shot Attack by 29%.,4,B,B+,,,21,3
 706,Drill Lance,"Execute a charge attack with your drill lance, then connect your shield to fire a Special KEP Bullet. Raise Melee and Shot Attack of your Squad by 29%.",4,D,A,,,79,20
 707,Bits,Launch bits to repeatedly strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
+708,NGN Bazooka & GN Launcher,Hold bazookas in both hands and fire high-power rounds.,2,D,B+,,,21,6
+709,GN Hard Missile & Proto GN Sword,Slash using your Proto GN Sword and fire your GN Hand Missile.,4,B+,B-,,,21,3
+710,Flexible Smash,Pulverize the enemy with your hammer. Raise your Melee Defense by 29%.,4,D,B+,,,21,6
+711,Trans-Am,Fully release all highly-compressed particles in your GN Drive. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your Beam Resist by 49%. Your Gunpla resists flinching for a set period of time.,6,,,51,,60,12
+712,Shldr. 6-Barrel Missile Launcher,Attack your enemies by launching missiles stowed in your shoulder's add-on armor.,2,A-,C-,,,21,3
+713,Double-Barrel Beam Rifle,Fire at enemies with your double-barrel beam rifle. You can move while firing.,1,A-,D,,11,60,0
+714,Leg Missiles,Attack enemies by launching missiles stowed in your knee's add-on armor.,2,A-,C-,,,21,3
+715,360mm Rocket Cannon,Fire explosive projectiles from the cannon on your shoulder.,2,D,B,,,21,6
+716,Samurai Sword,Gather particles on your blade to launch an arced shockwave.,3,A,B-,,,21,3
+717,Particle Fa Jin,"Inject particles into your foe, destroying them from within. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.",4,D,A,,,60,6
+718,Omnidirectional Laser,Fire omnidirectional lasers from your photon armor.,1,D,B,,,21,6
+719,High-Torque Punch,Launch a high-speed melee attack using your unparalleled agility. Raise your Melee Defense by 29%.,4,D,B+,,,21,6
+720,G-Self Combination II,Launch a destructive photon torpedo and fire a high-output beam in Assault Mode. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 19%. Raise Shot Attack of your Squad by 29%.,1,A+,C,,,79,8
+721,Call,"Use the summoning magic ""Call"" to rain swords upon your enemies from the air.",2,B+,B-,,,21,3
+722,Twin DODS Cannon,Fire beams from the dual cannons on your shoulders.,1,D,B,,,21,6
+723,Calf Missiles,Launch missiles stowed in your legs.,2,D,B,,,21,6
+724,Leg Missile Pod,Launch missiles stowed in your legs.,2,D,B+,,,21,6
+725,Long-Range Beam Cannon,"Fire your long-range cannon, its barrel equipped with direct E-CAP subsystem and new accelerator.",1,A+,C-,,,60,15
+726,Assault Attack,"Charge into the fray solo, attacking with your saber. Raise Melee Defense of your Squad by 39%.",3,A+,C,,,60,6
+727,ALICE,Activate the pseudo-personality system ALICE to temporarily increase your unit's performance. Raise your Speed by 20%. Raise your Shot Attack by 29%. Raise your Melee Defense by 19%.,6,,,44,,60,12
+728,Reflector Incom,Fire an unpredictable shot by ricocheting a beam deviating its trajectory with your I-Field. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 29%. Your Squad resists flinching for a set period of time.,1,D,A,,,79,20
+729,Back Beam Cannon,Attack enemies ahead with the cannon on your back.,1,A+,D,,,21,3

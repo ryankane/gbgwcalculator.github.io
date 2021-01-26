@@ -172,7 +172,79 @@
     "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.25 },
     "rarity": 3
   }],
-  "arm-left" : [],
+  "arm-left" : [{
+    "name": "Defender ★",
+    "ma": 500,
+    "rarity": 1
+  }, {
+    "name": "Defender ★★",
+    "ma": 1000,
+    "rarity": 2
+  }, {
+    "name": "Defender ★★★",
+    "ma": 1500,
+    "rarity": 3
+  }, {
+    "name": "In-Fighter ★",
+    "ma": 500,
+    "rarity": 1
+  }, {
+    "name": "In-Fighter ★★",
+    "ma": 1000,
+    "rarity": 2
+  }, {
+    "name": "In-Fighter ★★★",
+    "ma": 1500,
+    "rarity": 3
+  }, {
+    "name": "Out-Fighter ★",
+    "ma": 500,
+    "rarity": 1
+  }, {
+    "name": "Out-Fighter ★★",
+    "ma": 1000,
+    "rarity": 2
+  }, {
+    "name": "Out-Fighter ★★★",
+    "ma": 1500,
+    "rarity": 3
+  }, {
+    "name": "Middle-Shooter ★",
+    "sa": 500,
+    "rarity": 1
+  }, {
+    "name": "Middle-Shooter ★★",
+    "sa": 1000,
+    "rarity": 2
+  }, {
+    "name": "Middle-Shooter ★★★",
+    "sa": 1500,
+    "rarity": 3
+  }, {
+    "name": "Long-Shooter ★",
+    "sa": 500,
+    "rarity": 1
+  }, {
+    "name": "Long-Shooter ★★",
+    "sa": 1000,
+    "rarity": 2
+  }, {
+    "name": "Long-Shooter ★★★",
+    "sa": 1500,
+    "rarity": 3
+  }, {
+    "name": "Supporter ★",
+    "sa": 500,
+    "rarity": 1
+  }, {
+    "name": "Supporter ★★",
+    "sa": 1000,
+    "rarity": 2
+  }, {
+    "name": "Supporter ★★★",
+    "sa": 1500,
+    "rarity": 3
+  }],
   "leg-right" : [],
   "leg-left" : []
 }
