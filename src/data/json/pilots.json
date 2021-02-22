@@ -143,6 +143,24 @@
     "name": "When buffed, 28% chance to not recoil"
   }
 }, {
+  "name": "Alpha A. Bate",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 680,
+  "ma": 352,
+  "sa": 680,
+  "md": 1169,
+  "sd": 1169,
+  "br": 515,
+  "pr": 149,
+  "wt": ["Federation", "GM Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed Attribute (self) Shot Guidance boosted 14%"
+  }
+}, {
   "name": "Amuro Ray",
   "jl": ["Long-Shooter"],
   "attribute": "Technique",
@@ -539,6 +557,24 @@
     "name": "With Speed attribute (self), Projectile speed boosted 14%"
   }
 }, {
+  "name": "Callisto's Light",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1036,
+  "ma": 1770,
+  "sa": 1859,
+  "md": 1036,
+  "sd": 1520,
+  "br": 543,
+  "pr": 275,
+  "wt": ["Commander", "Transformer"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Boost Funnel uptime by 50%."
+  }
+}, {
   "name": "Canard Pars",
   "jl": ["Middle-Shooter"],
   "attribute": "Technique",
@@ -807,6 +843,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Shot DEF is over 12000, Shot guidance boosted 14%"
+  }
+}, {
+  "name": "Corin Nander",
+  "jl": ["Defender"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1387,
+  "ma": 1298,
+  "sa": 352,
+  "md": 680,
+  "sd": 680,
+  "br": 515,
+  "pr": 149,
+  "wt": ["Amphib.", "For Urban Area"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
   "name": "Cronicle Asher",
@@ -1763,6 +1817,24 @@
     "name": "With Power attribute (self), Buff EX Skill time up 22%"
   }
 }, {
+  "name": "Julieta Juris",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 2064,
+  "ma": 2132,
+  "sa": 503,
+  "md": 1036,
+  "sd": 1036,
+  "br": 543,
+  "pr": 275,
+  "wt": ["High Mobility", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Physical EX Skill Piercing boosted 28%"
+  }
+}, {
   "name": "Juri Wu Nien",
   "jl": ["Middle-Shooter"],
   "attribute": "Power",
@@ -2445,6 +2517,42 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Enemy Shooting power reduced 25%"
+  }
+}, {
+  "name": "Montag",
+  "jl": ["Out-Fighter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 680,
+  "ma": 1428,
+  "sa": 352,
+  "md": 1387,
+  "sd": 633,
+  "br": 149,
+  "pr": 367,
+  "wt": ["High Mobility", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\" Enemy Shooting Power reduced 25%"
+  }
+}, {
+  "name": "Mouar Pharaoh",
+  "jl": ["Supporter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 1236,
+  "ma": 352,
+  "sa": 1169,
+  "md": 680,
+  "sd": 680,
+  "br": 149,
+  "pr": 515,
+  "wt": ["Transformer", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Long Shot Attack raised 14%"
   }
 }, {
   "name": "Mr. Bushido",
@@ -3257,6 +3365,42 @@
     "name": "While \"Gundam Type\", Buff EX Skill effect up 22%"
   }
 }, {
+  "name": "Setsuna F. Seiei [2nd Season]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1036,
+  "ma": 2132,
+  "sa": 503,
+  "md": 2064,
+  "sd": 927,
+  "br": 275,
+  "pr": 543,
+  "wt": ["Close Combat", "Protag."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Protag.\", All power boosted 30%"
+  }
+}, {
+  "name": "Setsuna F. Seiei [ELS Innovator]",
+  "jl": ["In-Fighter", "Out-Fighter"],
+  "attribute": "Power",
+  "rarity": 5,
+  "level": 99,
+  "a": 1227,
+  "ma": 2598,
+  "sa": 499,
+  "md": 1019,
+  "sd": 411,
+  "br": 579,
+  "pr": 266,
+  "wt": ["Protag.", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Protag.\" EX Skill Power boosted 30%"
+  }
+}, {
   "name": "Shagia Frost",
   "jl": ["Middle-Shooter"],
   "attribute": "Technique",
@@ -3327,6 +3471,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "Initial EX Skill charge boosted 15%"
+  }
+}, {
+  "name": "Shinn Asuka [SEED Awakened]",
+  "jl": ["Out-Fighter", "Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "a": 1119,
+  "ma": 2446,
+  "sa": 2327,
+  "md": 822,
+  "sd": 415,
+  "br": 0,
+  "pr": 552,
+  "wt": ["High Firepower", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Firepower\" All Power boosted 30%"
   }
 }, {
   "name": "Shiro Amada",
