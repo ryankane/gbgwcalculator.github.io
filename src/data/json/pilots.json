@@ -449,6 +449,24 @@
     "name": "With Technique attribute (self), Debuff EX Skill effect up 15%"
   }
 }, {
+  "name": "Azee Gurumin",
+  "jl": ["Defender"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 1382,
+  "ma": 1382,
+  "sa": 352,
+  "md": 678,
+  "sd": 678,
+  "br": 514,
+  "pr": 149,
+  "wt": ["Close Combat", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "21% chance of attacks penetrating super armor"
+  }
+}, {
   "name": "Banagher Links",
   "jl": ["Out-Fighter"],
   "attribute": "Speed",
@@ -1149,6 +1167,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Debuff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Eugene Sevenstark",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1382,
+  "ma": 678,
+  "sa": 352,
+  "md": 678,
+  "sd": 1382,
+  "br": 514,
+  "pr": 149,
+  "wt": ["Commander", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Physical, All CRIT rate boosted 17%"
   }
 }, {
   "name": "Fa Yuiry",
@@ -1977,6 +2013,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill recovery boosted by 140"
+  }
+}, {
+  "name": "Kira Yamato [Destiny]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 195,
+  "ma": 413,
+  "sa": 2337,
+  "md": 1035,
+  "sd": 1607,
+  "br": 0,
+  "pr": 1542,
+  "wt": ["Ace Excl.", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Twin Rifle category equipped, Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Kira Yamato [SEED Awakened]",

@@ -15806,6 +15806,120 @@
         "name": "Shield [AGE]"
     }]
 }, {
+    "name": "Gundam AGE-1 Full Glansa",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 502,
+        "ma": 502,
+        "sa": 4416,
+        "md": 502,
+        "sd": 1516,
+        "br": 274,
+        "pr": 274,
+        "wt": ["Heavy Armor", "Commander"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Heavy Armor\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2060,
+        "ma": 502,
+        "sa": 1516,
+        "md": 1035,
+        "sd": 2060,
+        "br": 371,
+        "pr": 371,
+        "wt": ["Heavy Armor", "Commander"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Plasma Diver Missile",
+            "description": "Use your MS launcher unit to create a plasma field and launch high-velocity microwaves.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2552,
+        "ma": 1035,
+        "sa": 3073,
+        "md": 1516,
+        "sd": 5148,
+        "br": 1397,
+        "pr": 1397,
+        "wt": ["Heavy Armor", "Commander"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shield Rifle",
+            "description": "Fire the beam from the shields attached to both of your arms.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Shield Rifle [Full Glansa]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1035,
+        "ma": 502,
+        "sa": 1035,
+        "md": 1035,
+        "sd": 2060,
+        "br": 542,
+        "pr": 542,
+        "wt": ["Heavy Armor", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Leg Missile Launcher",
+            "description": "Launch missiles from the pod mounted on your leg.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1035,
+        "ma": 502,
+        "sa": 1035,
+        "md": 1035,
+        "sd": 2060,
+        "br": 601,
+        "pr": 601,
+        "wt": ["Heavy Armor", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Glastron Launcher",
+            "description": "Fire a high-energy beam from your Glastron Launcher.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 15]
+            }
+        }
+    }]
+}, {
     "name": "Gundam AGE-1 Titus",
     "attribute": "Power",
     "rarity": 3,
@@ -16631,6 +16745,178 @@
         "name": "Daidal Bazooka",
         "type": "Beam",
         "category": "Bazooka"
+    }]
+}, {
+    "name": "Gundam Anima [RIZE]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1516,
+        "ma": 926,
+        "sa": 2552,
+        "md": 1960,
+        "sd": 716,
+        "br": 542,
+        "pr": 274,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2060,
+        "ma": 1035,
+        "sa": 502,
+        "md": 2060,
+        "sd": 1254,
+        "br": 775,
+        "pr": 0,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Anima Rampage",
+            "description": "Charge the animal emblems on your limbs with energy and fire a massive blast beam aura. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1516,
+        "ma": 4800,
+        "sa": 1035,
+        "md": 5621,
+        "sd": 1516,
+        "br": 1299,
+        "pr": 542,
+        "wt": ["Protag.", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee CRIT rate boosted 30%"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Shield [Anima (RIZE)]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1035,
+        "ma": 926,
+        "sa": 502,
+        "md": 2060,
+        "sd": 1254,
+        "br": 542,
+        "pr": 775,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Enemy Melee power reduced 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1035,
+        "ma": 926,
+        "sa": 502,
+        "md": 2060,
+        "sd": 1254,
+        "br": 775,
+        "pr": 542,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee CRIT rate boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 502,
+        "ma": 5344,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 542,
+        "pr": 274,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Whip",
+            "description": "Execute a combo with your whip.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Beam Whip [Anima (RIZE)]",
+        "type": "Beam",
+        "category": "Whip"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 502,
+        "ma": 5344,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 542,
+        "pr": 274,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 10s pass, Boost Job Gauge 50% once."
+        },
+        "name": "Beam Saber Anima (RIZE)]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1516,
+        "ma": 0,
+        "sa": 4300,
+        "md": 0,
+        "sd": 0,
+        "br": 775,
+        "pr": 542,
+        "wt": ["Protag.", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Protag.\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Core Spray Gun Anima (RIZE)]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1516,
+        "ma": 0,
+        "sa": 4300,
+        "md": 0,
+        "sd": 0,
+        "br": 775,
+        "pr": 542,
+        "wt": ["Protag.", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 10s pass, EX Skill power boosted 30%"
+        },
+        "name": "Beam Rifle Anima (RIZE)]",
+        "type": "Beam",
+        "category": "Long Rifle"
     }]
 }, {
     "name": "Gundam Areus",
@@ -20218,6 +20504,155 @@
             "name": "Out-Fighter Job, Enemy Shooting power reduced 30%"
         },
         "name": "Shield [Ez8]"
+    }]
+}, {
+    "name": "Gundam F90 [N Type]",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 748,
+        "ma": 352,
+        "sa": 2531,
+        "md": 748,
+        "sd": 955,
+        "br": 149,
+        "pr": 149,
+        "wt": ["Gundam Type", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Shooting CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1585,
+        "ma": 440,
+        "sa": 466,
+        "md": 1096,
+        "sd": 1234,
+        "br": 312,
+        "pr": 312,
+        "wt": ["Gundam Type", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Machine Cannon",
+            "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 748,
+        "ma": 2395,
+        "sa": 352,
+        "md": 1098,
+        "sd": 1234,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Gundam Type", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, Shot guidance boosted 14%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 748,
+        "ma": 440,
+        "sa": 466,
+        "md": 1098,
+        "sd": 1234,
+        "br": 413,
+        "pr": 441,
+        "wt": ["Gundam Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When CPWR is over 100000, Enemy EX Skill penetration reduced 22%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 748,
+        "ma": 440,
+        "sa": 466,
+        "md": 1098,
+        "sd": 1234,
+        "br": 441,
+        "pr": 413,
+        "wt": ["Gundam Type", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Funnels",
+            "description": "Launch oscillating saber funnels from the hull unit on your back. You can move freely while this is active.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 748,
+        "ma": 3114,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 388,
+        "pr": 388,
+        "wt": ["Gundam Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Cooldown time up 10%, EX Skill power boosted 25%"
+        },
+        "name": "Beam Saber [F90/N Type]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 748,
+        "ma": 0,
+        "sa": 3114,
+        "md": 0,
+        "sd": 0,
+        "br": 388,
+        "pr": 388,
+        "wt": ["Gundam Type", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Beam ranged weapon, magazine boosted 20%"
+        },
+        "name": "Beam Rifle [F90/N Type]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 3,
+        "a": 748,
+        "ma": 0,
+        "sa": 0,
+        "md": 1585,
+        "sd": 1585,
+        "br": 413,
+        "pr": 413,
+        "wt": ["Gundam Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Shot ATK is over 3000, Enemy Sp. Shot power reduced 25%"
+        },
+        "name": "Shield [F90/N Type]"
     }]
 }, {
     "name": "Gundam F90 [S Type]",
@@ -38122,6 +38557,147 @@
         "name": "Shenlong Shield [Endless Waltz Ver.]"
     }]
 }, {
+    "name": "Shiden [Orga]",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1865,
+        "ma": 352,
+        "sa": 1070,
+        "md": 678,
+        "sd": 1167,
+        "br": 365,
+        "pr": 149,
+        "wt": ["Commander", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Supporter Job, EX Skill power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 2182,
+        "ma": 352,
+        "sa": 352,
+        "md": 678,
+        "sd": 1528,
+        "br": 149,
+        "pr": 0,
+        "wt": ["Commander", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy EX Skill penetration reduced 22%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1528,
+        "ma": 1070,
+        "sa": 352,
+        "md": 1070,
+        "sd": 1528,
+        "br": 149,
+        "pr": 0,
+        "wt": ["Commander", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Supporter Job, Shooting power boosted 25%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1653,
+        "ma": 352,
+        "sa": 352,
+        "md": 352,
+        "sd": 1528,
+        "br": 514,
+        "pr": 149,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Partizan",
+            "description": "Unleash a combo with the Partizan in your right hand.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1717,
+        "ma": 352,
+        "sa": 352,
+        "md": 678,
+        "sd": 1167,
+        "br": 514,
+        "pr": 149,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, Close Shot Attack raised 14%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1528,
+        "ma": 2044,
+        "sa": 0,
+        "md": 0,
+        "sd": 828,
+        "br": 365,
+        "pr": 149,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy Melee power reduced 25%"
+        },
+        "name": "Partizan [Shiden/Orga]",
+        "type": "Physical",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 1585,
+        "ma": 0,
+        "sa": 2044,
+        "md": 0,
+        "sd": 828,
+        "br": 514,
+        "pr": 149,
+        "wt": ["Commander", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once"
+        },
+        "name": "Rifle [Shiden/Orga]",
+        "type": "Physical",
+        "category": "Machine Gun"
+    }, {
+        "part": "shield",
+        "mark": 3,
+        "a": 1528,
+        "ma": 0,
+        "sa": 0,
+        "md": 678,
+        "sd": 1865,
+        "br": 697,
+        "pr": 149,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Physical ranged weapon, magazine boosted 20%"
+        },
+        "name": "Riot Shield"
+    }]
+}, {
     "name": "Shin Musha Gundam [Sengoku no Jin]",
     "attribute": "Speed",
     "rarity": 4,
@@ -45546,6 +46122,76 @@
         "name": "Mega Beam Rifle [ZII]",
         "type": "Beam",
         "category": "Long Rifle"
+    }]
+}, {
+    "name": "Zock",
+    "attribute": "Power",
+    "rarity": 1,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "body",
+        "mark": 5,
+        "a": 642,
+        "ma": 557,
+        "sa": 2272,
+        "md": 268,
+        "sd": 799,
+        "br": 0,
+        "pr": 678,
+        "wt": ["Amphib.", "Zeon"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Particle Cannon",
+            "description": "Fire the nine mega particle cannons on your front, rear, and head.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "C",
+                "Cd": [21, 6]
+            }
+        },
+        "combo": {
+            "type": "head",
+            "name": "Zock"
+        }
+    }, {
+        "part": "arms",
+        "mark": 5,
+        "a": 894,
+        "ma": 330,
+        "sa": 563,
+        "md": 268,
+        "sd": 484,
+        "br": 155,
+        "pr": 445,
+        "wt": ["Amphib.", "Zeon"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Iron Nail",
+            "description": "Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "C",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 5,
+        "a": 264,
+        "ma": 268,
+        "sa": 488,
+        "md": 484,
+        "sd": 488,
+        "br": 155,
+        "pr": 445,
+        "wt": ["Amphib.", "Zeon"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill power boosted 10%"
+        }
     }]
 }, {
     "name": "Zudah",
