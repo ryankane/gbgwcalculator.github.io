@@ -200,7 +200,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 199,Rapid Thrust,Unleash a blindingly fast flurry with knives in each hand.,4,D,B+,,,21,6
 200,Railgun & Single-Mounted Cannon,Fire 115mm Railgun and 105mm Single-Mounted Cannon from your integrated Weapons Striker Pack (IWSP).,2,D,B+,,,21,6
 201,Dual Shredder,Execute suppressive fire with special rounds from your Gatling Gun.,2,A-,C-,,,21,3
-202,HADES System,"Activate HADES, a system developed from the EXAM system. Raise speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",6,,,51,,60,12
+202,HADES System,"Activate HADES, a system developed from the EXAM system. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",6,,,51,,60,12
 203,Leg-Mounted Rocket Launcher,Fire the rocket launcher mounted on your leg.,2,D,B+,,,21,6
 204,180mm Cannon,Hold the cannon on your back under your arm and fire.,2,D,A-,,,21,6
 205,Shock Bringer γ,Squad attacks stun large foes more easily for a set period.,5,,,51,,33,7
@@ -762,3 +762,20 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 761,Mega Particle Cannon,"Fire the nine mega particle cannons on your front, rear, and head.",1,D,C,,,21,6
 762,Iron Nail,Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,D,C,,,19,5
 763,Partizan,Unleash a combo with the Partizan in your right hand.,4,D,B,,,21,3
+764,In-Arm Beam Saber,Oscillate the saber stored in your arm and cleave through enemies.,3,D,B+,,,21,6
+765,Beam Tomahawk Dance,Use the detachment ability of the beam tomahawk stowed in your shield to perform a combo. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+766,Triple Missile Pod,Launch missiles stowed in your chest.,2,D,B,,,21,6
+767,Gunblade & Beam Saber,Cleave through enemies with the gunblade in your left hand and the beam saber stored in your arm.,3,D,B+,,,21,6
+768,Hyper Bazooka & Beam Gatling Gun,Fire the heavy weapons stowed on each side of your satchel.,2,D,B+,,,21,6
+769,In-Shield Vulcan,Fire the close-range defense system in your shield at foes straight ahead. You can move while firing.,2,D,B,,11,60,0
+770,Quadruple-Barrel Mega Particle Cannon,Fire beams from the Quadruple-Barrel High-Caliber Mega Particle Cannon mounted on your shield.,1,A-,D,,,15,4
+771,Hyoranshojindan,Call on the power of Resshin to hold the power of fire and ice in your left and right fists.,4,D,B+,,,21,6
+772,Kenseiken,Use your sword with your dominant left hand and unleash your Kenseiken with your right.,4,D,B+,,,21,6
+773,Sensor Bits,Launch sensor bits to provide automated support fire. You can move freely while this is active.,1,A+,C-,,,60,6
+774,HADES System,"Activate HADES, a system developed from the EXAM system. Raise your speed by 20%. Raise your Melee Attack by 29%. Raise your Shot Attack by 19%.",6,,,51,,60,12
+775,Arm-Mounted Beam Gun,Launch rapid-fire beams from your forearm. You can move while firing.,1,A,D,,11,60,0
+776,Assassination,"Blast foes with two sabers, finishing with a grand strike. Raise speed of your squad by 20%. Raise Melee Attack of your Squad by 29%.",3,A+,C,,,60,15
+777,Heavy Laser Sword,Jump high to bring your blade down on the enemy's head.,3,D,B+,,,21,3
+778,Experimental Directed Thermal Energy Cannon,Fire the prototype beam weapon mounted on your shoulders.,1,A+,C-,,,60,15
+779,Point-Blank High Mega Cannon,"Capture the enemy and unleash a point-blank, high-caliber mega particle beam from your head. Raise Shot Attack of your Squad by 39%.",1,D,A,,,79,20
+780,Double Cannon & Missile Launcher,Fire Double Cannon and 21-shot missile from your backpack at target.,2,D,B+,,,21,6

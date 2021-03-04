@@ -1061,6 +1061,24 @@
     "name": "With Speed attribute (self), 33% chance to not recoil"
   }
 }, {
+  "name": "Duo Maxwell [Endless Waltz Ver.]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1516,
+  "ma": 2337,
+  "sa": 502,
+  "md": 716,
+  "sd": 716,
+  "br": 875,
+  "pr": 875,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
+  }
+}, {
   "name": "Ein Dalton",
   "jl": ["In-Fighter"],
   "attribute": "Speed",
@@ -1493,6 +1511,24 @@
     "name": "With Speed attribute (self), Vernier consumption reduced 20%"
   }
 }, {
+  "name": "Graham Aker [Movie Ver.]",
+  "jl": ["Middle-Shooter", "Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 5,
+  "level": 99,
+  "a": 2000,
+  "ma": 480,
+  "sa": 2705,
+  "md": 407,
+  "sd": 493,
+  "br": 518,
+  "pr": 265,
+  "wt": ["Commander", "Ace Excl."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Commander\", EX Skill power boosted 30%"
+  }
+}, {
   "name": "Gym Ghingham",
   "jl": ["In-Fighter"],
   "attribute": "Power",
@@ -1511,6 +1547,24 @@
     "name": "When Melee ATK is over 16000, EX Skill CD reduced 20%"
   }
 }, {
+  "name": "Gyunei Guss",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1070,
+  "ma": 352,
+  "sa": 1070,
+  "md": 1382,
+  "sd": 1070,
+  "br": 365,
+  "pr": 149,
+  "wt": ["Zeon", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Boost Funnel Uptime 40%"
+  }
+}, {
   "name": "Haman Karn",
   "jl": ["Long-Shooter"],
   "attribute": "Power",
@@ -1527,6 +1581,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Job Gauge increase boosted 17%"
+  }
+}, {
+  "name": "Haman Karn [ZZ]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1035,
+  "ma": 502,
+  "sa": 2060,
+  "md": 1035,
+  "sd": 2060,
+  "br": 542,
+  "pr": 542,
+  "wt": ["Ace Excl.", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Boost Funnel uptime by 50%"
   }
 }, {
   "name": "Haro",
@@ -2465,6 +2537,24 @@
     "name": "With Power attribute (self), Debuff EX Skill effect up 22%"
   }
 }, {
+  "name": "Michael Trinity",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 828,
+  "ma": 828,
+  "sa": 828,
+  "md": 828,
+  "sd": 828,
+  "br": 413,
+  "pr": 413,
+  "wt": ["Gundam Type", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), 14% chance to survive a fatal blow"
+  }
+}, {
   "name": "Miguel Aiman",
   "jl": ["Middle-Shooter"],
   "attribute": "Speed",
@@ -2787,6 +2877,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When buffed, Enemy Shooting power reduced 30%"
+  }
+}, {
+  "name": "Orga Sabnak",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 680,
+  "ma": 468,
+  "sa": 468,
+  "md": 1298,
+  "sd": 1298,
+  "br": 367,
+  "pr": 367,
+  "wt": ["Long-Range", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Ortega",

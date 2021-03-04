@@ -2346,3 +2346,66 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2345,Partizan [Shiden/Orga],00-00-6d-01,360,6,,3,2,5,21,1528,2044,0,0,828,365,149,,"With Technique attribute (self), Enemy Melee power reduced 25%",2,6,Arena Coins
 2346,Rifle [Shiden/Orga],00-00-7c-01,360,7,,3,2,5,7,1585,0,2044,0,828,514,149,,"When 1 enemies shot down, Reduce Cooldown by 40% once",2,9,Arena Coins
 2347,Riot Shield,00-00-8-01,360,8,,3,2,5,21,1528,0,0,678,1865,697,149,,"Physical ranged weapon, magazine boosted 20%",,,Arena Coins
+2348,Sazabi [Ver. Ka],00-00-1-01,361,1,,5,1,6,10,1106,916,3438,1835,1741,296,296,,"With Power attribute (self), Initial EX Skill charge boosted 20%",,,Sokai Festival
+2349,Sazabi [Ver. Ka],00-00-2-01,361,2,,5,1,6,10,1835,1308,502,2106,2106,540,540,,"With Power attribute (self), Enemy EX Skill power reduced 30%",,,Sokai Festival
+2350,Sazabi [Ver. Ka],00-00-3-01,361,3,,5,1,6,5,598,4253,710,2106,1502,158,158,764,,,,Sokai Festival
+2351,Sazabi [Ver. Ka],00-00-4-01,361,4,,5,1,6,9,1023,1242,495,2106,2106,698,698,,"While ""Close Combat"", EX Skill power boosted 30%",,,Sokai Festival
+2352,Sazabi [Ver. Ka],00-00-5-01,361,5,,5,1,6,9,1311,495,1023,2437,2437,698,698,382,,,,Sokai Festival
+2353,Beam Tomahawk [Deployed/Sazabi (Ver. Ka)],00-00-6-01,361,6,,5,1,6,9,1502,5183,0,710,0,589,589,,"When Attacking with Beam, Melee power boosted 30%",1,13,Sokai Festival
+2354,Beam Saber [Sazabi (Ver. Ka)],00-00-6a-01,361,6,,5,1,6,9,1502,5183,0,710,0,589,589,,"In-Fighter Job, EX Skill power boosted 30%",1,2,Sokai Festival
+2355,Beam Shot Rifle [Sazabi (Ver. Ka)],00-00-7a-01,361,7,,5,1,6,5,710,0,5094,710,0,589,589,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,8,Sokai Festival
+2356,Long Rifle [Sazabi (Ver. Ka)],00-00-7b-01,361,7,,5,1,6,10,710,0,5094,710,0,589,589,,"When attacking with Beam, EX Skill power boosted 30%",1,10,Sokai Festival
+2357,Shield [Sazabi (Ver. Ka)],00-00-8-01,361,8,,5,1,6,5,189,703,0,3042,2742,996,996,765,,,,Sokai Festival
+2358,Gundam Amazing Red Warrior,00-00-1-01,362,1,,5,3,13,10,0,716,4563,1025,1239,762,538,,"Middle-Shooter Job, Shooting power boosted 30%",,,Sokai Festival
+2359,Gundam Amazing Red Warrior,00-00-2-01,362,2,,5,3,13,10,298,1250,2034,1505,2046,590,997,766,,,,Sokai Festival
+2360,Gundam Amazing Red Warrior,00-00-3-01,362,3,,5,3,13,9,1749,3751,704,496,1310,590,0,767,,,,Sokai Festival
+2361,Gundam Amazing Red Warrior,00-00-4-01,362,4,,5,3,13,3,1503,499,1315,1601,1939,538,792,,"While ""Ace Excl."", EX Skill power boosted 30%",,,Sokai Festival
+2362,Gundam Amazing Red Warrior,00-00-5-01,362,5,,5,3,13,3,1747,1021,1105,1305,1503,792,703,768,,,,Sokai Festival
+2363,Gunblade [Short/Long],00-00-6-01,362,6,,5,3,13,9,2040,3751,0,0,0,993,762,,"With Speed attribute (self), Job Gauge increase boosted 17%",2,4,Sokai Festival
+2364,Beam Rifle A/B,00-00-7-01,362,7,,5,3,13,9,1025,0,5101,0,606,704,489,,"Middle-Shooter Job, Shooting power boosted 30%",1,14,Sokai Festival
+2365,Beam Rifle A/Beam Gat. Gun,00-00-7-01,362,7,,5,3,13,3,1025,0,5101,0,606,704,489,,"When attacking with Beam, Shooting power boosted 30%",1,11,Sokai Festival
+2366,Long Rifle [Amazing Red Warrior],00-00-7b-01,362,7,,5,3,13,10,1025,0,5101,0,606,704,489,,"While ""High Firepower"", Enemy Shooting power reduced 30%",1,10,Sokai Festival
+2367,Shield Amazing Red Warrior],00-00-8-01,362,8,,5,3,13,9,2221,0,610,1503,3253,893,491,769,,,,Sokai Festival
+2368,Jagd Doga [Gyunei Custom],00-00-1-01,363,1,,3,2,7,17,678,352,2674,1070,678,149,0,,"When attacking with Beam, Shooting CRIT rate boosted 17%",,,Emerald Device A (Weekly Event)
+2369,Jagd Doga [Gyunei Custom],00-00-2-01,363,2,,3,2,7,17,1382,352,352,1382,1070,514,0,,"With Technique attribute (self), Boost Funnel uptime by 40%",,,Emerald Device A (Weekly Event)
+2370,Jagd Doga [Gyunei Custom],00-00-3-01,363,3,,3,2,7,17,1070,2352,554,1382,678,0,0,156,,,,Emerald Device A (Weekly Event)
+2371,Jagd Doga [Gyunei Custom],00-00-4-01,363,4,,3,2,7,20,1070,352,896,1070,678,514,365,121,,,,Emerald Device A (Weekly Event)
+2372,Jagd Doga [Gyunei Custom],00-00-5-01,363,5,,3,2,7,20,1070,352,554,1382,352,697,365,,"Middle-Shooter Job, Vernier consumption reduced 15%",,,Emerald Device A (Weekly Event)
+2373,Beam Saber with Heat Knife Jagd Doga [Gyunei Custom],00-00-6a-01,363,6,,3,2,7,20,678,2283,0,1070,0,514,149,,"Middle-Shooter Job, Initial EX Skill charge boosted 12%",1,2,Emerald Device A (Weekly Event)
+2374,Beam Assault Rifle Jagd Doga [Gyunei Custom],00-00-7a-01,363,7,,3,2,7,20,554,0,3295,828,0,365,256,,"With Technique attribute (self), Enemy Strong Melee power reduced 25%",1,8,Emerald Device A (Weekly Event)
+2375,Shield Jagd Doga [Gyunei Custom],00-00-8-01,363,8,,3,2,7,17,678,0,212,1717,1382,697,149,770,,,,Emerald Device A (Weekly Event)
+2376,Rekko Gundam [Rekko Armor],00-00-1-01,364,1,,5,2,13,6,1508,1123,4268,610,417,207,636,,"While ""Gundam Type"", Initial EX Skill charge boosted 20%",,,SD Gundam PU Capsules
+2377,Rekko Gundam [Rekko Armor],00-00-2-01,364,2,,5,2,13,6,2235,1588,1597,1116,915,396,1007,,"With Dual Sabers category equipped, Melee power boosted 30%",,,SD Gundam PU Capsules
+2378,Rekko Gundam [Rekko Armor],00-00-3-01,364,3,,5,2,13,6,1416,4375,1754,1124,409,356,524,771,,,,SD Gundam PU Capsules
+2379,Rekko Gundam [Rekko Armor],00-00-4-01,364,4,,5,2,13,26,1755,1593,1019,1834,1122,532,894,772,,,,SD Gundam PU Capsules
+2380,Rekko Gundam [Rekko Armor],00-00-5-01,364,5,,5,2,13,26,2229,1504,1029,1107,917,636,887,,"With Technique attribute (self), Melee CRIT rate boosted 30%",,,SD Gundam PU Capsules
+2381,Tonfa [Rekko Gundam],00-00-6-01,364,6,,5,2,13,26,1416,5295,0,0,0,291,767,,"When attacking with Physical, Melee power boosted 30%",2,4,SD Gundam PU Capsules
+2382,Goranmaru,00-00-6a-01,364,6,,5,2,13,6,1416,5295,0,0,0,291,767,,"After 10s pass, EX Skill power boosted 30%",2,2,SD Gundam PU Capsules
+2383,Bow of Piercing Light,00-00-7a-01,364,7,,5,2,13,26,1599,0,5300,0,0,209,771,,"While ""Gundam Type"", Initial EX Skill charge boosted 20%",1,8,SD Gundam PU Capsules
+2384,Uraven Gundam,00-00-1-01,365,1,,5,1,8,1,0,502,4300,1035,1516,0,775,,"Long-Shooter Job, Shooting power boosted 30%",,,Pick-Up Capsules [No.041] Bonus Coins
+2385,Uraven Gundam,00-00-2-01,365,2,,5,1,8,1,2060,1035,1427,0,2060,542,775,,"Long-Shooter Job, EX Skill piercing boosted 28%",,,Pick-Up Capsules [No.041] Bonus Coins
+2386,Uraven Gundam,00-00-3-01,365,3,,5,1,8,1,1035,2060,1427,502,2060,274,542,,"With Power attribute (self), Enemy Melee power reduced 30%",,,Pick-Up Capsules [No.041] Bonus Coins
+2387,Uraven Gundam,00-00-4-01,365,4,,5,1,8,26,1516,502,1254,1035,1516,542,775,,"When attacking with Beam, Long Shot Attack raised 20%",,,Pick-Up Capsules [No.041] Bonus Coins
+2388,Uraven Gundam,00-00-5-01,365,5,,5,1,8,26,1035,502,1323,1035,2080,542,775,773,,,,Pick-Up Capsules [No.041] Bonus Coins
+2389,Beam Saber [Uravan],00-00-7a-01,365,7,,5,1,8,26,1516,3787,0,0,0,542,775,,"Melee Attack down 10%, EX Skill power boosted 30%",1,8,Pick-Up Capsules [No.041] Bonus Coins
+2390,Beam Shoot Rifle U7,00-00-7b-01,365,7,,5,1,8,1,502,0,5238,0,1035,274,542,620,,1,10,Pick-Up Capsules [No.041] Bonus Coins
+2391,Pale Rider,00-00-1-01,366,1,,5,2,16,7,1124,716,3577,1254,1124,551,0,774,,,,Pick-Up Capsules [No.041] Bonus Coins
+2392,Pale Rider,00-00-2-01,366,2,,5,2,16,7,2130,611,716,1607,1855,806,211,,"When attacking with Beam, Shooting power boosted 30%",,,Pick-Up Capsules [No.041] Bonus Coins
+2393,Pale Rider,00-00-3-01,366,3,,5,2,16,7,1124,3577,716,1607,1855,0,0,775,,,,Pick-Up Capsules [No.041] Bonus Coins
+2394,Pale Rider,00-00-4-01,366,4,,5,2,16,23,1124,716,611,1855,1607,806,551,776,,,,Pick-Up Capsules [No.041] Bonus Coins
+2395,Pale Rider,00-00-5-01,366,5,,5,2,16,23,1124,611,716,1607,1855,806,551,,"With Technique attribute (self), Buff EX Skill time up 22%",,,Pick-Up Capsules [No.041] Bonus Coins
+2396,Shield [Pale Rider],00-00-8-01,366,8,,5,2,16,23,1124,0,0,2337,2337,1066,302,,"While ""Federation"", Enemy Shooting power reduced 30%",,,Pick-Up Capsules [No.041] Bonus Coins
+2397,CGUE Deep Arms,00-00-1-01,367,1,,3,3,3,8,823,440,2674,466,554,365,256,,"When CPWR is over 100000, Shooting CRIT rate boosted 17%",,,D-arms Coins (Weekly Event)
+2398,CGUE Deep Arms,00-00-2-01,367,2,,3,3,3,8,1528,828,896,828,896,514,54,,"With Speed attribute (self), Shooting DMG taken reduced by 20",,,D-arms Coins (Weekly Event)
+2399,CGUE Deep Arms,00-00-3-01,367,3,,3,3,3,8,828,2598,1234,466,554,54,54,,"Long-Shooter Job, Shooting power boosted 25%",,,D-arms Coins (Weekly Event)
+2400,CGUE Deep Arms,00-00-4-01,367,4,,3,3,3,21,828,828,554,828,896,388,514,777,,,,D-arms Coins (Weekly Event)
+2401,CGUE Deep Arms,00-00-5-01,367,5,,3,3,3,21,828,828,554,828,896,514,388,778,,,,D-arms Coins (Weekly Event)
+2402,Heavy Laser Sword,00-00-6c-01,367,6,,3,3,3,21,466,3229,0,0,0,514,388,,"While ""For Desert"", Job Guage increase boosted 13%",1,5,D-arms Coins (Weekly Event)
+2403,76mm H. Assault Machine Gun [CGUE Deep Arms],00-00-7c-01,367,7,,3,3,3,8,466,0,3295,0,0,365,149,,"Long-Shooter Job, Initial EX Skill charge boosted 12%",2,9,D-arms Coins (Weekly Event)
+2404,ZZ Gundam,00-00-1-01,368,1,,5,3,10,13,2058,507,4693,1258,1516,279,639,779,,,,ZZ Materials (Event Blueprint)
+2405,ZZ Gundam,00-00-2-01,368,2,,5,3,10,13,2554,928,1844,1027,2062,308,1005,,"Middle-Shooter Job, Shooting power boosted 30%",,,ZZ Materials (Event Blueprint)
+2406,ZZ Gundam,00-00-3-01,368,3,8,5,3,10,3,2761,4087,3468,1857,3564,892,871,,"After 10s pass, Reduce Cooldown 50% once.",,,ZZ Materials (Event Blueprint)
+2407,ZZ Gundam,00-00-4-01,368,4,,5,3,10,3,1758,707,1311,1258,2338,541,775,,"With Speed attribute (self), EX Skill power boosted 30%",,,ZZ Materials (Event Blueprint)
+2408,ZZ Gundam,00-00-5-01,368,5,,5,3,10,13,1756,709,1859,1327,1605,601,906,780,,,,ZZ Materials (Event Blueprint)
+2409,Hyper Beam Saber [ZZ],00-00-6c-01,368,6,,5,3,10,13,1038,3284,0,0,712,155,1009,284,,1,5,ZZ Materials (Event Blueprint)
+2410,Double Beam Rifle,00-00-7a-01,368,7,,5,3,10,3,1323,0,5228,0,1029,153,593,,"While ""Ace Excl."", Shooting power boosted 30%",1,8,ZZ Materials (Event Blueprint)

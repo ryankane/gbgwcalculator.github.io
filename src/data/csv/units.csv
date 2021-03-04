@@ -316,7 +316,7 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 315,RX-0,Unicorn Gundam 03 ,Phenex/Narrative Ver.,26,1,ユニコーンガンダム3号機［フェネクス／ナラティブVer.］,5,2,2,Sokai Festival,,,,TRUE,2020-11-25,Sokai Festival,99,Dengeki
 316,GN-0000GNHW/7SG,00 Gundam,Seven Sword/G,49,3,ダブルオーガンダム セブンソード／G,5,3,2,Sokai Festival,,,,TRUE,2020-11-25,Sokai Festival,99,Dengeki
 317,RX-78-6,Gundam Unit 6,Mudrock,4,1,ガンダム６号機［マドロック］,3,2,3,,Event,,,FALSE,2020-11-25,Unit 6 Coins (Weekly Event),99,Dengeki
-318,VGMM-Gf10,Gundam G-Lucifer,,51,,ガンダム G-ルシファー,5,1,2,Standard,,,,FALSE,2020-12-02,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins,99,Dengeki
+318,VGMM-Gf10,Gundam G-Lucifer,,51,6,ガンダム G-ルシファー,5,1,2,Standard,,,,FALSE,2020-12-02,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins,99,Dengeki
 319,GF13-021NG,Shadow Gundam,,33,11,ガンダムシュピーゲル,5,3,2,Standard,,,,FALSE,2020-12-02,One 5★ Lv 80 Part Guaranteed Capsule [No.034] Bonus Coins,99,Dengeki
 320,EB-05s,Schwalbe Graze,McGillis,52,5,シュヴァルベグレイズ［マクギリス機］,3,3,3,,Event,,,FALSE,2020-12-02,Hien Coins (Weekly Event),99,Dengeki
 321,F90II,Gundam F90II,L Type,28,2,ガンダムF90Ⅱ［Lタイプ］,5,3,2,Standard,,,,FALSE,2020-12-09,Pick-Up Drop Rate Step-Up Capsules [No.035] Bonus Coins,99,Dengeki
@@ -327,7 +327,7 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 326,OZ-13MSX1,Vayeate,,34,8,ヴァイエイト,3,2,3,,Event,,,FALSE,2020-12-16,Spear Device A (Weekly Event),99,Dengeki
 327,ZGMF-1017,Mobile GINN,,41,13,モビルジン,1,2,5,,,,Blueprint,FALSE,2020-12-16,"Free Missions, Capital Shop, Blueprint",99,Dengeki
 328,xvb-xd,Farsia,,50,12,ファルシア,3,1,3,,Arena,,,FALSE,2020-12-21,Arena Coins,99,Dengeki
-329,MBF-P01-Re2AMATU,Astray Gold Frame Amatsu Mina,,44,,アストレイ ゴールドフレーム天ミナ,5,3,2,Standard,,,,FALSE,2020-12-23,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins,99,Dengeki
+329,MBF-P01-Re2AMATU,Astray Gold Frame Amatsu Mina,,44,8,アストレイ ゴールドフレーム天ミナ,5,3,2,Standard,,,,FALSE,2020-12-23,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins,99,Dengeki
 330,,Musha Godmaru,Final Battle Ver.,60,10,武者號斗丸［最終決戦Ver.］,5,2,2,Standard,,,,FALSE,2020-12-23,5★ Part Guaranteed Step-Up Capsules & [No. 036] Bonus Coins,99,Dengeki
 331,RX-79BD-2,Blue Destiny Unit-2 (BD),,7,5,ブルーディスティニー2号機（ザ・ブルー版）,3,3,3,,Event,,,FALSE,2020-12-23,Judgement Coins (Weekly Event),99,Dengeki
 332,RX-79BD-3,Blue Destiny Unit-3 (BD),,7,6,ブルーディスティニー3号機（ザ・ブルー版）,3,1,3,,Event,,,FALSE,2020-12-23,Judgement Coins (Weekly Event),99,Dengeki
@@ -347,15 +347,23 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 346,GN-0000DVR/S,Gundam 00 Sky,Higher Than Sky Phase,58,1,ガンダムダブルオースカイ［ハイヤーザンスカイフェイズ］,5,1,2,Sokai Festival,,,,TRUE,2021-01-27,Sokai Festival,99,Dengeki
 347,XM-X1,Crossbone Gundam X1 Full Cloth,,31,5,クロスボーン・ガンダムX1フルクロス,5,2,2,Sokai Festival,,,,TRUE,2021-01-27,Sokai Festival,99,Dengeki
 348,V08-1228,Grimgerde,,52,18,グリムゲルデ,3,1,3,,Event,,,FALSE,2021-01-27,Mask Coins (Weekly Event),99,Dengeki
-349,,Gundam Groundsel,,64,,ガンダムグランスル,5,1,2,,,,Blueprint,FALSE,2021-02-03,Groundsel Materials (Event Blueprint),99,Dengeki
+349,,Gundam Groundsel,,64,11,ガンダムグランスル,5,1,2,,,,Blueprint,FALSE,2021-02-03,Groundsel Materials (Event Blueprint),99,Dengeki
 350,RX-78GP02R天,Gundam GP-Rase-Two Ten,,59,5,ガンダムGP-羅刹天,5,3,2,Standard,,,,FALSE,2021-02-03,Pick-Up Drop Rate Step-Up Capsules [No.039] Bonus Coins,99,Dengeki
 351,XXXG-01W,Wing Gundam,,34,1,ウイングガンダム（P）,5,1,2,Standard,,,,FALSE,2021-02-03,Pick-Up Drop Rate Step-Up Capsules [No.039] Bonus Coins,99,Dengeki
 352,OZ-13MSX2,Mercurius,,34,9,メリクリウス,3,3,3,,Event,,,FALSE,2021-02-03,Red Shield Coins (Weekly Event),99,Dengeki
 353,RX-9,Narrative Gundam,C-Packs,26,2,ナラティブガンダム［C装備］,5,3,2,Gundam Battle Festival,,,,TRUE,2021-02-10,Gundam Battle Festival,99,Dengeki
 354,GX-9999,Gundam X Maoh,,55,,ガンダムX魔王,5,2,2,Gundam Battle Festival,,,,TRUE,2021-02-10,Gundam Battle Festival,99,Dengeki
 355,XM-07B,Vigna Ghina II,,30,1,ビギナ・ギナⅡ,3,2,3,,Event,,,FALSE,2021-02-10,Red Pirate Coins (Weekly Event),99,Dengeki
-356,PFF-X7R/ANIMA,Gundam Anima,RIZE,59,,ガンダムアニマリゼ,5,3,2,Standard,,,,FALSE,2021-02-17,Pick-Up Capsules [No.040] Bonus Coins,99,Dengeki
+356,PFF-X7R/ANIMA,Gundam Anima,RIZE,58,6,ガンダムアニマリゼ,5,3,2,Standard,,,,FALSE,2021-02-17,Pick-Up Capsules [No.040] Bonus Coins,99,Dengeki
 357,AGE-1G,Gundam AGE-1 Full Glansa,,50,,ガンダムAGE-1 フルグランサ,5,2,2,Standard,,,,FALSE,2021-02-17,Pick-Up Capsules [No.040] Bonus Coins,99,Dengeki
 358,F90N,Gundam F90,N Type,28,3,ガンダムF90［Nタイプ］,3,1,3,,Event,,,FALSE,2021-02-17,NEXT Coins (Weekly Event),99,Dengeki
 359,MSM-10,Zock,,2,16,ゾック,1,1,5,,,,Blueprint,FALSE,2021-02-17,"Free Missions, Capital Shop, Blueprint",99,Dengeki
 360,STH-16,Shiden,Orga,52,,獅電［オルガ機］,3,2,3,,Arena,,,FALSE,2021-02-22,Arena Coins,99,Dengeki
+361,MSN-04,Sazabi,Ver. Ka,22,9,サザビー［Ver.Ka］,5,1,2,Sokai Festival,,,,TRUE,2021-02-24,Sokai Festival,99,Dengeki
+362,PF-78-3A,Gundam Amazing Red Warrior,,56,11,ガンダムアメイジングレッドウォーリア,5,3,2,Sokai Festival,,,,TRUE,2021-02-24,Sokai Festival,99,Dengeki
+363,MSN-03,Jagd Doga,Gyunei Custom,22,8,ヤクト・ドーガ ［ギュネイ専用］,3,2,3,,Event,,,FALSE,2021-02-24,Emerald Device A (Weekly Event),99,Dengeki
+364,,Rekko Gundam,Rekko Armor,59,12,烈光頑駄無［烈光の鎧］,5,2,2,SD Gundam PU,,,,TRUE,2021-02-26,SD Gundam PU Capsules,99,Dengeki
+365,PFF-X7II/U7,Uraven Gundam,,58,7,ユーラヴェンガンダム,5,1,2,Standard,,,,FALSE,2021-03-03,Pick-Up Capsules [No.041] Bonus Coins,99,Dengeki
+366,RX-80PR,Pale Rider,,13,11,ペイルライダー（T）,5,2,2,Standard,,,,FALSE,2021-03-03,Pick-Up Capsules [No.041] Bonus Coins,99,Dengeki
+367,YFX-200,CGUE Deep Arms,,42,2,シグーディープアームズ,3,3,3,,Event,,,FALSE,2021-03-03,D-arms Coins (Weekly Event),99,Dengeki
+368,MSZ-010,ZZ Gundam,,20,,ZZガンダム,5,3,2,,,,Blueprint,FALSE,2021-03-03,ZZ Materials (Event Blueprint),99,Dengeki
