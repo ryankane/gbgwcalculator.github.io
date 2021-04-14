@@ -779,3 +779,33 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 778,Experimental Directed Thermal Energy Cannon,Fire the prototype beam weapon mounted on your shoulders.,1,A+,C-,,,60,15
 779,Point-Blank High Mega Cannon,"Capture the enemy and unleash a point-blank, high-caliber mega particle beam from your head. Raise Shot Attack of your Squad by 39%.",1,D,A,,,79,20
 780,Double Cannon & Missile Launcher,Fire Double Cannon and 21-shot missile from your backpack at target.,2,D,B+,,,21,6
+781,Quantum Burst,Purge your armor and discharge GN particles to engulf a wide area. Squad recovers 68% of maximum Armor. Raise Melee and Shot Defense of your Squad by 24%.,6,,,51,,60,12
+782,Trans-Am Raid II,"Make a GN Sword Bit Quantum Gate, jump to the enemy's rear, and slice them with your GN Buster Sword. Raise speed of your Squad by 20%. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.",4,D,A,,,79,20
+783,GN Sword V Buster Rifle Mode,Perform a powerful shooting attack from your GN Sword V in Buster Rifle Mode.,1,A+,C-,,,60,15
+784,Zero System,Activate the Zero System to predict battle conditions. Raise your speed by 20%. Raise your Shot Attack by 39%. You become easier to target for a set period of time.,6,,,51,,60,12
+785,Max Output Twin Buster Rifle,Fire a rifle rivaling a warship's main battery at full output.,1,D,B,,,79,20
+786,Iai Slash,Ready your weapon and mow down enemies that enter your space.,3,D,B+,,,21,6
+787,GN Short Beam Cannon,Fire the gun stowed in your shoulder thruster.,1,D,B,,,21,6
+788,Hip Beam Cannon,Fire your side armor's rapid-fire beam cannon.,1,D,B,,,21,6
+789,Seventh Tri-Shot,Bathe foes in triple beams from your rifle.,1,A+,C-,,,60,15
+790,Scissor Claws,Spread your shin and toe parts wide and clamp down on targets. Lowers hit enemy Gunpla's Melee Attack by 29%.,4,D,B,,,21,3
+791,Launch Minimoire,Launch your back sack's support mechs and fire in all directions. You can move while firing.,4,A-,C-,,,60,6
+792,Barrage,Barrage targets with your back sack support mechs and tiltrotor Vulcan,2,D,B+,,,21,6
+793,Grenade Launcher,Fire a grenade from your rifle's under-barrel launcher. You can move while firing.,2,D,B,,11,60,0
+794,Crystallization,"Activate your full-body Psycho Frame, multiplying Psycho Shards to exhibit unimaginable power. Raise your Melee Attack by 34%. Raise your Melee and Shot Defense by 29%. Your Gunpla resists flinching for a set period of time.",6,,,51,,60,12
+795,Beast of Possibility,Use the power of your pilot's mental state induced by the Psycho Frame to fight bare-handed. Squad recovers 48% of maximum Armor. Raise Melee Attack of your Squad by 29%.,4,A,B+,,,79,20
+796,Chest Mega Particle Cannon,Fire compressed Minovsky particles from Mega Particle Cannons on two of your turrets.,1,A,C-,,,60,15
+797,Hyper Beam Javelin,"Attack with your forearm beam blade javelin, mega particle cannon, and altered funnels. Squad recovers 48% of maximum Armor. Raise Melee and Shot Attack of your Squad by 24%.",3,D,A,,,79,20
+798,Beam Gatling Gun,Use the Gatling gun affixed to the inside of your right leg's provisional frame.,1,D,B+,,,21,6
+799,Heat Cutter,Spin the cutter mounted to your head at high speed and headbutt enemies.,4,D,B+,,,21,3
+800,Heat Ceramic Bullet,Fire the heat ceramic bullets stowed in your torso.,2,D,B,0,0,21,6
+801,Ikarimaru,Attack by swinging around your wire-attached Ikarimaru.,3,D,B,,,21,6
+802,Rotating Shield,Transform your shield and spin it at high speed as you strike enemies repeatedly.,4,D,B+,,,21,3
+803,Kotetsumaru,Unleash a barrage of attacks with your blade.,4,D,B+,,,21,6
+804,Shelf Nozzle,Detach your back thruster and use it as a mass weapon to launch at enemies.,2,D+,B,,,21,3
+805,Nitro System,"Use the n_i_t_r_o System to analyze the field, get piloting feedback, and reduce reaction time. Raise your speed by 20%. Raise your Shot Attack by 49%. Reduces your Melee Defense by 30%. Raise your vernier capacity by 25%.",6,,,51,,60,12
+806,Deploy No-Name Unit,Use the No-Name Unit and n_i_t_r_o System to hit enemies with your Blade Dragoons and B-Smart Gun. Raise speed of your Squad by 20%. Raise Shot Attack of your Squad by 29%.,1,D,A+,,,79,20
+807,Trans-Am [Unstable],"Activate the Trans-Am you sealed for a promise, prepare to take damage, and perform a combo. Raise Melee Attack of your Squad by 29%. Raise Shot Attack of your Squad by 19%.",4,D,A,,,79,20
+808,Strike Punisher,Slash at high speed to unleash multiple shockwaves.,3,A+,C,,,79,8
+809,Wired Beam Cannon,Detach and launch your forearm to shoot at a locked-on target.,1,D,B,,,21,6
+810,Mega Particle Cannon,Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon in your shield.,1,A-,D,,,60,15

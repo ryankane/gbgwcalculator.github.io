@@ -521,6 +521,24 @@
     "name": "When Armor is 60% or more, All power boosted 30%"
   }
 }, {
+  "name": "Bernard Monsha",
+  "jl": ["Defender"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 2049,
+  "ma": 212,
+  "sa": 212,
+  "md": 1071,
+  "sd": 1071,
+  "br": 515,
+  "pr": 515,
+  "wt": ["Federation", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), 28% chance to not recoil"
+  }
+}, {
   "name": "Bernard Wiseman",
   "jl": ["In-Fighter"],
   "attribute": "Technique",
@@ -555,6 +573,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Shot spread reduced 15%"
+  }
+}, {
+  "name": "Cagali Yula Athha [Destiny]",
+  "jl": ["Supporter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 507,
+  "ma": 507,
+  "sa": 2079,
+  "md": 507,
+  "sd": 1044,
+  "br": 1812,
+  "pr": 279,
+  "wt": ["Commander", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Recover 20 Armor gradually"
   }
 }, {
   "name": "Cagalli Yula Athha",
@@ -1257,6 +1293,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When 2 enemies shot down, All power boosted 30%"
+  }
+}, {
+  "name": "Ford Romfellow",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1035,
+  "ma": 2130,
+  "sa": 1254,
+  "md": 1516,
+  "sd": 1035,
+  "br": 542,
+  "pr": 274,
+  "wt": ["Protag.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "Beam ranged weapon, magazine boosted 25%"
   }
 }, {
   "name": "Four Murasame",
@@ -2213,6 +2267,24 @@
     "name": "With Technique attribute (self), Debuff EX Skill effect up 22%"
   }
 }, {
+  "name": "Laura Rolla",
+  "jl": ["Middle-Shooter", "Supporter"],
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "a": 1099,
+  "ma": 494,
+  "sa": 2691,
+  "md": 484,
+  "sd": 1389,
+  "br": 350,
+  "pr": 349,
+  "wt": ["High Firepower", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Gundam Type\", Shooting power boosted 30%"
+  }
+}, {
   "name": "Lila Milla Rira",
   "jl": ["Middle-Shooter"],
   "attribute": "Power",
@@ -2481,6 +2553,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "While \"Mobile Fighter\", All DMG output boosted by 35"
+  }
+}, {
+  "name": "Master Pierce Rayer",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 131,
+  "ma": 279,
+  "sa": 1585,
+  "md": 678,
+  "sd": 1098,
+  "br": 0,
+  "pr": 1049,
+  "wt": ["Federation", "GM Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Shooting CRIT rate boosted 17%"
   }
 }, {
   "name": "Mayura Labatt",
@@ -2789,6 +2879,24 @@
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
+  "name": "Nimbus Schterzen",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 687,
+  "ma": 1400,
+  "sa": 356,
+  "md": 687,
+  "sd": 687,
+  "br": 374,
+  "pr": 153,
+  "wt": ["Zeon", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Melee CRIT rate boosted 17%"
+  }
+}, {
   "name": "Norba Shino",
   "jl": ["Middle-Shooter"],
   "attribute": "Speed",
@@ -2859,6 +2967,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), All power boosted 30%"
+  }
+}, {
+  "name": "Olba Frost",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 828,
+  "ma": 750,
+  "sa": 826,
+  "md": 826,
+  "sd": 750,
+  "br": 541,
+  "pr": 256,
+  "wt": ["Transformer", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Beam, Long Shot Attack raised 14%"
   }
 }, {
   "name": "Orga Itsuka",
@@ -3077,6 +3203,24 @@
     "name": "With Speed attribute (self), All DMG output boosted by 35"
   }
 }, {
+  "name": "Quattro Bajeena [Military Uniform Ver.]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1254,
+  "ma": 1767,
+  "sa": 1767,
+  "md": 1254,
+  "sd": 1254,
+  "br": 542,
+  "pr": 274,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\", Enemy Shooting power reduced 30%"
+  }
+}, {
   "name": "Quess Paraya",
   "jl": ["Long-Shooter"],
   "attribute": "Technique",
@@ -3275,6 +3419,24 @@
     "name": "With Power attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
+  "name": "Ride Mass",
+  "jl": ["Defender"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1165,
+  "ma": 1165,
+  "sa": 466,
+  "md": 828,
+  "sd": 828,
+  "br": 567,
+  "pr": 256,
+  "wt": ["For Desert", "Heavy Armor"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Enemy All power reduced 13%"
+  }
+}, {
   "name": "Roberto",
   "jl": ["In-Fighter"],
   "attribute": "Technique",
@@ -3309,6 +3471,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "While \"High Mobility\", Job Gauge increase boosted 13%"
+  }
+}, {
+  "name": "Rondo Mina Sahaku",
+  "jl": ["Out-Fighter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1035,
+  "ma": 1960,
+  "sa": 1960,
+  "md": 1035,
+  "sd": 1035,
+  "br": 274,
+  "pr": 775,
+  "wt": ["Close Combat", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Rosamia Badam",
@@ -3779,6 +3959,24 @@
     "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
   }
 }, {
+  "name": "Stella Loussier [Civilian Clothes Ver.]",
+  "jl": ["Defender", "In-Fighter"],
+  "attribute": "Technique",
+  "rarity": 5,
+  "level": 99,
+  "a": 1100,
+  "ma": 2637,
+  "sa": 296,
+  "md": 2022,
+  "sd": 405,
+  "br": 528,
+  "pr": 100,
+  "wt": ["High Mobility", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\", Melee power boosted 30%"
+  }
+}, {
   "name": "Sting Oakley",
   "jl": ["Middle-Shooter"],
   "attribute": "Power",
@@ -3849,6 +4047,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "All ranged weapon, magazine boosted 14%"
+  }
+}, {
+  "name": "Tieria Erde [2nd Season]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1516,
+  "ma": 502,
+  "sa": 1516,
+  "md": 2060,
+  "sd": 1516,
+  "br": 542,
+  "pr": 274,
+  "wt": ["Long-Range", "Heavy Armor"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Long Shot Attack raised 20%"
   }
 }, {
   "name": "Tobia Arronax",
@@ -4047,6 +4263,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
+  }
+}, {
+  "name": "Zabine Chareaux",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 748,
+  "ma": 896,
+  "sa": 828,
+  "md": 896,
+  "sd": 748,
+  "br": 413,
+  "pr": 413,
+  "wt": ["Commander", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), EX Skill CD reduced 15%"
   }
 }, {
   "name": "Zechs Marquise",

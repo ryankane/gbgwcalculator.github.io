@@ -2409,3 +2409,108 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2408,ZZ Gundam,00-00-5-01,368,5,,5,3,10,13,1756,709,1859,1327,1605,601,906,780,,,,ZZ Materials (Event Blueprint)
 2409,Hyper Beam Saber [ZZ],00-00-6c-01,368,6,,5,3,10,13,1038,3284,0,0,712,155,1009,284,,1,5,ZZ Materials (Event Blueprint)
 2410,Double Beam Rifle,00-00-7a-01,368,7,,5,3,10,3,1323,0,5228,0,1029,153,593,,"While ""Ace Excl."", Shooting power boosted 30%",1,8,ZZ Materials (Event Blueprint)
+2411,00 Qan[T],00-00-1-01,369,1,,5,3,9,1,2037,1246,3739,2108,1242,207,0,,"In-Fighter Job, Enemy Shooting power reduced 30%",,,Gundam Battle Festival
+2412,00 Qan[T],00-00-2-01,369,2,,5,3,9,1,2843,1312,819,2517,1842,530,267,781,,,,Gundam Battle Festival
+2413,00 Qan[T],00-00-3-01,369,3,,5,3,9,1,495,3957,812,2233,1308,484,207,,"While ""Protag."", Melee power boosted 30%",,,Gundam Battle Festival
+2414,00 Qan[T],00-00-4-01,369,4,,5,3,9,6,1755,1748,812,2226,1591,634,401,,"When attacking with Physical, EX Skill power boosted 30%",,,Gundam Battle Festival
+2415,00 Qan[T],00-00-5-01,369,5,,5,3,9,6,2218,1405,812,2315,812,883,634,782,,,,Gundam Battle Festival
+2416,GN Sword V,00-00-6a-01,369,6,,5,3,9,1,1410,5281,0,0,0,589,365,,"When attacking with Physical, EX Skill power boosted 30%",2,2,Gundam Battle Festival
+2417,GN Sword V [Buster Sword Mode],00-00-6c-01,369,6,,5,3,9,6,1410,5281,0,0,0,589,365,,"While ""High Mobility"", Melee power boosted 30%",2,5,Gundam Battle Festival
+2418,GN Sword V Rifle Mode,00-00-7a-01,369,7,,5,3,9,6,302,499,4839,1023,0,634,401,,"With Speed attribute (self), Enemy Shooting power reduced 30%",1,8,Gundam Battle Festival
+2419,GN Sword V [Buster Rifle Mode],00-00-7b-01,369,7,,5,3,9,6,302,499,4839,1023,0,634,401,783,,1,10,Gundam Battle Festival
+2420,Wing Gundam Proto Zero [Endless Waltz Ver.],00-00-1-01,370,1,,5,2,3,13,705,715,4562,1023,1236,544,795,,"Long-Shooter Job, EX Skill power boosted 30%",,,Gundam Battle Festival
+2421,Wing Gundam Proto Zero [Endless Waltz Ver.],00-00-2-01,370,2,,5,2,3,13,2308,1118,1419,1109,2313,301,634,784,,,,Gundam Battle Festival
+2422,Wing Gundam Proto Zero [Endless Waltz Ver.],00-00-3-01,370,3,,5,2,3,13,1835,3241,1241,500,1743,267,588,,"With Technique attribute (self), Enemy Melee power reduced 30%",,,Gundam Battle Festival
+2423,Wing Gundam Proto Zero [Endless Waltz Ver.],00-00-4-01,370,4,,5,2,3,8,1493,807,1105,1407,2044,795,544,,"While ""Ace Excl."", Long Shot Attack raised 20%",,,Gundam Battle Festival
+2424,Wing Gundam Proto Zero [Endless Waltz Ver.],00-00-5-01,370,5,,5,2,3,8,1018,1018,1752,1315,2111,705,795,785,,,,Gundam Battle Festival
+2425,Twin Buster Rifle [Wing Proto Zero (EW)],00-00-7-01,370,7,,5,2,3,13,612,0,5291,0,1407,480,693,,"When attacking with Beam, Shooting CRIT rate boosted 30%",1,14,Gundam Battle Festival
+2426,Twin Buster Rifle [Coupled/Wing Proto Zero (EW)],00-00-7b-01,370,7,,5,2,3,8,612,0,5291,0,1407,480,693,312,,1,10,Gundam Battle Festival
+2427,Shield [Wing Proto Zero (EW)],00-00-8-01,370,8,,5,2,3,8,1840,0,1248,1246,2320,407,879,,"Long-Shooter Job, Buff EX Skill effect up 22%",,,Gundam Battle Festival
+2428,Ahead [Mr. Bushido],00-00-1-01,371,1,,3,1,9,25,1717,554,678,1070,678,365,149,,"In-Fighter Job, Melee power boosted 25%",,,Sakigake Coins (Weekly Event)
+2429,Ahead [Mr. Bushido],00-00-2-01,371,2,,3,1,9,25,2044,955,352,678,678,514,0,,"With Power attribute (self), Revive with 30% Armor one time.",,,Sakigake Coins (Weekly Event)
+2430,Ahead [Mr. Bushido],00-00-3-01,371,3,,3,1,9,6,1070,2598,0,1070,1070,0,0,,"When attacking with Beam, Melee CRIT rate boosted 17%",,,Sakigake Coins (Weekly Event)
+2431,Ahead [Mr. Bushido],00-00-4-01,371,4,,3,1,9,6,1427,678,352,1070,678,514,365,786,,,,Sakigake Coins (Weekly Event)
+2432,Ahead [Mr. Bushido],00-00-5-01,371,5,,3,1,9,25,1382,678,352,1070,678,514,365,787,,,,Sakigake Coins (Weekly Event)
+2433,GN B. Sbr./ GN Short B. Sbr. [Ahead/ Mr. Bushido],00-00-6-01,371,6,,3,1,9,6,1167,3295,0,0,0,365,149,,"In-Fighter Job, Strong Melee CRIT rate boosted 17%",1,4,Sakigake Coins (Weekly Event)
+2434,GN Shield [Ahead/ Mr. Bushido],00-00-8-01,371,8,,3,1,9,25,1382,0,0,2044,678,697,149,,"With Power attribute (self), Enemy Shooting power reduced 25%",,,Sakigake Coins (Weekly Event)
+2435,Zeta Plus A1 [Test Color Type],00-00-1-01,372,1,,5,3,12,9,1254,611,3999,716,820,542,371,3,,,,Pick-Up Capsules [No.042] Bonus Coins
+2436,Zeta Plus A1 [Test Color Type],00-00-2-01,372,2,,5,3,12,9,2248,1254,1323,1254,1323,775,98,,"While ""Transformer"", Melee power boosted 30%",,,Pick-Up Capsules [No.042] Bonus Coins
+2437,Zeta Plus A1 [Test Color Type],00-00-3-01,372,3,,5,3,12,9,1254,3855,1855,716,820,98,98,,"With Speed attribute (self), Melee CRIT rate boosted 30%",,,Pick-Up Capsules [No.042] Bonus Coins
+2438,Zeta Plus A1 [Test Color Type],00-00-4-01,372,4,,5,3,12,25,1254,1254,820,1254,1323,551,775,788,,,,Pick-Up Capsules [No.042] Bonus Coins
+2439,Zeta Plus A1 [Test Color Type],00-00-5-01,372,5,,5,3,12,25,1254,1254,820,1254,1323,775,551,,"Out-Fighter Job, Enemy Sp. Shot Power reduced 30%",,,Pick-Up Capsules [No.042] Bonus Coins
+2440,Beam Rifle [Zeta Plus A1],00-00-7a-01,372,7,,5,3,12,9,716,0,4890,0,0,542,274,789,,1,8,Pick-Up Capsules [No.042] Bonus Coins
+2441,Shield [Zeta Plus A1],00-00-8-01,372,8,,5,3,12,25,1254,1254,820,1254,1323,1299,0,,"With Speed attribute (self), Buff EX Skill effect up 22%",,,Pick-Up Capsules [No.042] Bonus Coins
+2442,Grimoire Red Beret,00-00-1-01,373,1,,3,3,5,26,748,352,2531,748,955,0,388,,"When in Multi-Mission Sortie, Close Shot Attack raised 14%",,,Division Coins (Weekly Event)
+2443,Grimoire Red Beret,00-00-2-01,373,2,,3,3,5,24,1427,440,466,1098,1234,141,541,,"With Speed attribute (self), 14% chance to survive a fatal blow",,,Division Coins (Weekly Event)
+2444,Grimoire Red Beret,00-00-3-01,373,3,,3,3,5,7,748,2395,352,1098,1234,0,0,,"When attacking with Physical, Melee power boosted 25%",,,Division Coins (Weekly Event)
+2445,Grimoire Red Beret,00-00-4-01,373,4,,3,3,5,7,748,440,466,1098,1234,388,541,790,,,,Division Coins (Weekly Event)
+2446,Grimoire Red Beret,00-00-5-01,373,5,,3,3,5,26,748,440,466,1098,1234,388,541,791,,,,Division Coins (Weekly Event)
+2447,Plasma Knife,00-00-6a-01,373,6,,3,3,5,7,748,3114,0,0,0,263,441,,"With Speed attribute (self), Buff EX Skill effect up 15%",2,2,Division Coins (Weekly Event)
+2448,Submachine Gun & Pistol,00-00-7-01,373,7,,3,3,5,26,748,0,3143,0,0,216,388,,"Physical ranged weapon, reload speed boosted 15%",2,14,Division Coins (Weekly Event)
+2449,Assault Rifle [Grimoire Red Beret],00-00-7c-01,373,7,,3,3,5,24,748,0,3143,0,0,216,388,792,,2,9,Division Coins (Weekly Event)
+2450,Shield [Grimoire Red Beret],00-00-8-01,373,8,,3,3,5,7,748,0,0,1585,1585,216,745,,"After 10s pass, Vernier Consumption=0 for 10 sec.",,,Division Coins (Weekly Event)
+2451,Grimoire Red Beret [Tilt Rotor Pack],00-00-5-02,374,5,,3,3,5,24,748,440,466,1098,1234,388,541,793,,,,Division Coins (Weekly Event)
+2452,Unicorn Gundam [Luminous Crystal Body],00-00-1-01,375,1,,5,1,9,10,1508,1112,4150,1412,920,359,363,,"When buffed, Melee power boosted 30%",,,Sokai Festival
+2453,Unicorn Gundam [Luminous Crystal Body],00-00-2-01,375,2,,5,1,9,10,2523,1746,1598,2107,1406,642,636,794,,,,Sokai Festival
+2454,Unicorn Gundam [Luminous Crystal Body],00-00-3-01,375,3,,5,1,9,10,0,4643,501,1939,1031,943,951,795,,,,Sokai Festival
+2455,Unicorn Gundam [Luminous Crystal Body],00-00-4-01,375,4,,5,1,9,1,1840,1506,918,1931,1308,583,578,,"While ""Protag."", EX Skill power boosted 30%",,,Sokai Festival
+2456,Unicorn Gundam [Luminous Crystal Body],00-00-5-01,375,5,,5,1,9,1,2046,1312,1120,2223,1746,288,294,,"With Rifle category equipped, Initial EX Skill charge boosted 20%",,,Sokai Festival
+2457,Beam Magnum [Unicorn (Luminous Crystal Body)],00-00-7a-01,375,7,,5,1,9,1,1241,495,5174,296,0,290,292,,"Out-Fighter Job, Initial EX Skill charge boosted 20%",1,8,Sokai Festival
+2458,Shield [Unicorn (Luminous Crystal Body)],00-00-8-01,375,8,,5,1,9,10,1752,1593,916,2223,1308,475,484,,"Out-Fighter Job, Buff EX Skill effect up 22%",,,Sokai Festival
+2459,Kshatriya Repaired,00-00-1-01,376,1,,5,2,9,10,1020,1245,3742,2316,1835,267,270,,"Out-Fighter Job, EX Skill power boosted 30%",,,Sokai Festival
+2460,Kshatriya Repaired,00-00-2-01,376,2,,5,2,9,10,2111,1306,815,2749,2742,202,214,796,,,,Sokai Festival
+2461,Kshatriya Repaired,00-00-3-01,376,3,8,5,2,9,17,2437,5651,1113,5094,2742,883,883,797,,,,Sokai Festival
+2462,Kshatriya Repaired,00-00-4-01,376,4,,5,2,9,17,1023,1742,819,2440,2437,303,290,798,,,,Sokai Festival
+2463,Anchor,00-00-1-01,377,1,,3,2,1,20,1070,466,1382,1717,466,149,365,799,,,,Ash Device A (Weekly Event)
+2464,Anchor,00-00-2-01,377,2,,3,2,1,20,1382,554,352,1865,678,0,514,800,,,,Ash Device A (Weekly Event)
+2465,Anchor,00-00-3-01,377,3,,3,2,1,3,352,2818,352,2044,352,0,0,801,,,,Ash Device A (Weekly Event)
+2466,Anchor,00-00-4-01,377,4,,3,2,1,3,678,466,352,1865,678,514,365,,"While ""Ace Excl."", EX Skill power boosted 25%",,,Ash Device A (Weekly Event)
+2467,Anchor,00-00-5-01,377,5,,3,2,1,3,678,466,352,1865,678,365,514,,"After 10s pass, Close Shot Attack raised 14%",,,Ash Device A (Weekly Event)
+2468,Ikarimaru,00-00-6a-01,377,6,,3,2,1,3,352,3580,0,0,0,149,365,,"While ""Protag."", Strong Melee power boosted 25%",2,2,Ash Device A (Weekly Event)
+2469,Axe Gun [Close Quarters],00-00-6b-01,377,6,,3,2,1,20,352,3580,0,0,0,149,365,,"When CPWR is over 100000, Melee DMG output boosted by 20",2,1,Ash Device A (Weekly Event)
+2470,Axe Gun [Ranged],00-00-7a-01,377,7,,3,2,1,20,1070,0,2818,0,0,365,514,,"With Technique attribute (self), Job Gauge increase boosted 13%",1,8,Ash Device A (Weekly Event)
+2471,Rotating Shield,00-00-8-01,377,8,,3,2,1,20,678,0,0,2531,678,0,848,802,,,,Ash Device A (Weekly Event)
+2472,Musha Gundam Mk II,00-00-1-01,378,1,,5,1,10,11,1516,1124,2060,1855,716,1516,1124,,"When attacking with Physical, Melee power boosted 30%",,,Pick-Up Capsules [No.043] Bonus Coins
+2473,Musha Gundam Mk II,00-00-2-01,378,2,,5,1,10,11,2060,502,502,3073,1035,0,775,,"With Dual Sabers category equipped, Enemy EX Skill power reduced 30%",,,Pick-Up Capsules [No.043] Bonus Coins
+2474,Musha Gundam Mk II,00-00-3-01,378,3,,5,1,10,11,502,4416,502,2552,502,0,0,,"When attacking with Physical, Melee CRIT rate boosted 30%",,,Pick-Up Capsules [No.043] Bonus Coins
+2475,Musha Gundam Mk II,00-00-4-01,378,4,,5,1,10,9,1035,1323,502,2337,1035,775,542,803,,,,Pick-Up Capsules [No.043] Bonus Coins
+2476,Musha Gundam Mk II,00-00-5-01,378,5,,5,1,10,9,926,1323,502,2462,1035,542,775,575,,,,Pick-Up Capsules [No.043] Bonus Coins
+2477,Kotetsumaru,00-00-6-01,378,6,,5,1,10,11,502,5536,0,0,0,274,542,,"When Melee ATK is over 3000, Enemy Melee power reduced 30%",,4,Pick-Up Capsules [No.043] Bonus Coins
+2478,Senko-maru,00-00-6-01,378,6,,5,1,10,9,378,4257,0,0,0,207,409,,"While ""High Firepower"", Initial EX Skill charge boosted 20%",2,13,Pick-Up Capsules [No.043] Bonus Coins
+2479,Shoryu-maru,00-00-7a-01,378,7,,5,1,10,9,1516,0,4194,0,0,542,775,,"When attacking with Physical, EX Skill power boosted 30%",1,8,Pick-Up Capsules [No.043] Bonus Coins
+2480,Berga Giros,00-00-1-01,379,1,,3,1,5,20,748,352,2395,955,678,149,149,,"Middle-Shooter Job, Shooting DMG output boosted by 20",,,Vanguard Captain Coins (Weekly Event)
+2481,Berga Giros,00-00-2-01,379,2,,3,1,5,7,1585,466,440,1234,1098,312,312,,"With Machine Gun category equipped, EX Skill piercing boosted 22%",,,Vanguard Captain Coins (Weekly Event)
+2482,Berga Giros,00-00-3-01,379,3,8,3,1,5,20,1528,2763,352,2819,2480,413,413,,21% chance of attacks penetrating super armor,,,Vanguard Captain Coins (Weekly Event)
+2483,Berga Giros,00-00-4-01,379,4,,3,1,5,7,748,466,440,1234,1098,413,441,,"With Power attribute (self), Projectile speed boosted 14%",,,Vanguard Captain Coins (Weekly Event)
+2484,Berga Giros,00-00-5-01,379,5,,3,1,5,7,748,466,440,1234,1098,441,413,804,,,,Vanguard Captain Coins (Weekly Event)
+2485,Beam Saber [Berga Giros],00-00-6a-01,379,6,,3,1,5,20,748,3114,0,0,0,388,388,,"Middle-Shooter Job, Melee DMG taken reduced by 20",1,2,Vanguard Captain Coins (Weekly Event)
+2486,Shot Lancer [Berga Giros],00-00-6d-01,379,6,,3,1,5,20,748,3114,0,0,0,388,388,,"With Power attribute (self), Strong Melee CRIT rate boosted 17%",2,6,Vanguard Captain Coins (Weekly Event)
+2487,Shot Lancer [Heavy Machine Gun/ Berga Giros],00-00-7c-01,379,7,,3,1,5,7,748,0,3114,0,0,388,388,,"When attacking with Physical, Shooting DMG output boosted by 20",2,9,Vanguard Captain Coins (Weekly Event)
+2488,Gundam Astray No-Name,00-00-1-01,380,1,,5,2,3,26,0,411,4785,1031,1765,534,538,805,,,,No-Name Materials (Event Blueprint)
+2489,Gundam Astray No-Name,00-00-2-01,380,2,,5,2,3,26,1317,1031,2114,1520,2242,588,704,,"With Technique attribute (self), Shooting power boosted 30%",,,No-Name Materials (Event Blueprint)
+2490,Gundam Astray No-Name,00-00-4-01,380,4,,5,2,3,10,1857,201,1509,1596,2235,547,552,,"While ""Ace Excl."", EX Skill power boosted 30%",,,No-Name Materials (Event Blueprint)
+2491,Gundam Astray No-Name,00-00-5-01,380,5,3,5,2,3,10,3673,4597,3066,2051,4390,1133,869,806,,,,No-Name Materials (Event Blueprint)
+2492,Gundam 00 Diver,00-00-1-01,381,1,,5,1,9,1,1607,820,3854,502,611,274,542,,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2493,Gundam 00 Diver,00-00-2-01,381,2,,5,1,9,1,2248,1321,1254,1035,1124,0,775,,"With Twin Rifle category equipped, EX Skill power boosted 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2494,Gundam 00 Diver,00-00-3-01,381,3,,5,1,9,26,1607,4088,1765,502,611,0,0,,"While ""High Mobility"", Melee power boosted 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2495,Gundam 00 Diver,00-00-4-01,381,4,,5,1,9,26,2058,1321,502,1035,1124,775,542,585,,,,Step-Up Capsules [No.044] Bonus Coins
+2496,Gundam 00 Diver,00-00-5-01,381,5,,5,1,9,26,2058,1427,502,1035,1124,542,775,807,,,,Step-Up Capsules [No.044] Bonus Coins
+2497,GN Beam Saber [00 Diver],00-00-6-01,381,6,,5,1,9,26,1035,4992,0,0,0,542,775,,"Out-Fighter Job, Enemy Melee power boosted 30%",1,4,Step-Up Capsules [No.044] Bonus Coins
+2498,GN Sword II [00 Diver],00-00-6-01,381,6,,5,1,9,1,1035,4992,0,0,0,542,775,,"When buffed, Melee power boosted 30%",2,4,Step-Up Capsules [No.044] Bonus Coins
+2499,GN Sword II Rifle Mode [00 Diver],00-00-7-01,381,7,,5,1,9,1,1035,0,4799,0,0,274,542,,"With Power attribute (self), Initial EX Skill charge boosted 20%",1,14,Step-Up Capsules [No.044] Bonus Coins
+2500,Force Impulse Gundam,00-00-1-01,382,1,,5,3,1,6,1035,1035,3577,716,1427,274,371,,Back Parts's EX Skill power boosted 30%,,,Step-Up Capsules [No.044] Bonus Coins
+2501,Force Impulse Gundam,00-00-2-01,382,2,,5,3,1,6,1516,1323,716,1254,1960,0,775,,"With Dual Sabers category equipped, Enemy EX Skill power redeuced 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2502,Force Impulse Gundam,00-00-3-01,382,3,,5,3,1,25,1035,3855,1254,1254,1767,0,0,154,,,,Step-Up Capsules [No.044] Bonus Coins
+2503,Force Impulse Gundam,00-00-4-01,382,4,,5,3,1,25,1035,716,716,716,2248,542,775,,"With Speed attribute (self), EX Skill power boosted 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2504,Force Impulse Gundam,00-00-5-01,382,5,,5,3,1,25,1035,1124,611,716,1960,775,775,808,,,,Step-Up Capsules [No.044] Bonus Coins
+2505,Vajra Beam Saber,00-00-6a-01,382,6,,5,3,1,6,502,4800,0,0,1124,274,542,,"When Armor is 60% or more, Job Gauge increase boosted 17%",1,2,Step-Up Capsules [No.044] Bonus Coins
+2506,Folding Laser Anti-Armor Knife [Impulse],00-00-6-01,382,6,,5,3,1,25,502,4800,0,0,1124,274,542,,"With Speed attribute (self), Melee power boosted 30%",2,4,Step-Up Capsules [No.044] Bonus Coins
+2507,MA-BAR72 High Energy Beam Rifle,00-00-7a-01,382,7,,5,3,1,25,1035,0,4610,0,1124,274,775,,"With Rifle category equipped, Enemy Shooting power reduced 30%",1,8,Step-Up Capsules [No.044] Bonus Coins
+2508,Mobile Shield [Speed],00-00-8-01,382,8,,5,3,1,6,1035,299,299,1254,2551,274,1017,,"While ""Protag."", Enemy Strong Melee power reduced 30%",,,Step-Up Capsules [No.044] Bonus Coins
+2509,Hamma-Hamma,00-00-1-01,383,1,,3,3,7,20,748,466,2395,828,745,388,0,,"When attacking with Beam, Shooting DMG output boosted by 20",,,Rose Knight Coins (Weekly Event)
+2510,Hamma-Hamma,00-00-2-01,383,2,,3,3,7,20,1427,440,466,1098,1234,541,141,,"While ""Mid-Range"", Enemy EX Skill penetration reduced 22%",,,Rose Knight Coins (Weekly Event)
+2511,Hamma-Hamma,00-00-3-01,383,3,,3,3,7,20,748,2395,466,1098,1234,0,0,809,,,,Rose Knight Coins (Weekly Event)
+2512,Hamma-Hamma,00-00-4-01,383,4,,3,3,7,17,748,466,440,1234,1098,541,388,,"With Speed attribute (self), Shooting CRIT rate boosted 17%",,,Rose Knight Coins (Weekly Event)
+2513,Hamma-Hamma,00-00-5-01,383,5,,3,3,7,17,748,440,466,1098,1234,541,388,,"With Speed attribute (self), 28% chance to not recoil",,,Rose Knight Coins (Weekly Event)
+2514,Beam Saber [Hamma-Hamma],00-00-6a-01,383,6,,3,3,7,20,748,3143,0,0,0,413,263,,"When attacking with Beam, Melee power boosted 25%",1,2,Rose Knight Coins (Weekly Event)
+2515,Shield/Mega Particle Cannon [Hamma-Hamma],00-00-8-01,383,8,,3,3,7,17,748,0,0,1585,1585,745,216,810,,,,Rose Knight Coins (Weekly Event)
