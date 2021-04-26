@@ -2300,6 +2300,139 @@
         "name": "GN Shield [Arche]"
     }]
 }, {
+    "name": "Arios Gundam",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1851,
+        "ma": 500,
+        "sa": 4079,
+        "md": 500,
+        "sd": 715,
+        "br": 538,
+        "pr": 272,
+        "wt": ["High Mobility", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2995,
+        "ma": 1031,
+        "sa": 1249,
+        "md": 1031,
+        "sd": 1249,
+        "br": 772,
+        "pr": 0,
+        "wt": ["High Mobility", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1851,
+        "ma": 4076,
+        "sa": 1761,
+        "md": 500,
+        "sd": 715,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Mobility", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "GN Submachine Gun",
+            "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2453,
+        "ma": 715,
+        "sa": 922,
+        "md": 1031,
+        "sd": 1249,
+        "br": 538,
+        "pr": 772,
+        "wt": ["High Mobility", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Launch Ptolemaios II",
+            "description": "Perform a saturation attack from the battleship Ptolemaios II while your Trans-Am is active. Raise your speed by 20%. Raise your Shot Attack by 29%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2053,
+        "ma": 1031,
+        "sa": 715,
+        "md": 1031,
+        "sd": 1249,
+        "br": 869,
+        "pr": 596,
+        "wt": ["High Mobility", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, Mid Shot Attack raised 20%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1319,
+        "ma": 5131,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 772,
+        "pr": 538,
+        "wt": ["High Mobility", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Transformer\", Melee power boosted 30%"
+        },
+        "name": "GN Beam Saber [Arios]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1513,
+        "ma": 0,
+        "sa": 5131,
+        "md": 0,
+        "sd": 0,
+        "br": 538,
+        "pr": 272,
+        "wt": ["High Mobility", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy EX Skill power reduced 30%"
+        },
+        "name": "GN Twin Beam Rifle [Arios]",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
     "name": "Astray Blue Frame",
     "attribute": "Speed",
     "rarity": 4,
@@ -16959,6 +17092,167 @@
         "category": "Rifle"
     }]
 }, {
+    "name": "Gundam AGE II Magnum [SV Ver.]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1301,
+        "ma": 1308,
+        "sa": 4146,
+        "md": 1417,
+        "sd": 812,
+        "br": 401,
+        "pr": 0,
+        "wt": ["Transformer", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "FX Plosion",
+            "description": "Activate the FX Burst-based FX Plosion to obtain an aberrant amount of power. Raise your speed by 20%. Raise your Melee Attack by 49%. You Gunpla resists flinching for a set period of time.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2967,
+        "ma": 1418,
+        "sa": 1594,
+        "md": 2433,
+        "sd": 1415,
+        "br": 863,
+        "pr": 490,
+        "wt": ["Transformer", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 0,
+        "ma": 4700,
+        "sa": 495,
+        "md": 2000,
+        "sd": 909,
+        "br": 1214,
+        "pr": 698,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "F Funnel",
+            "description": "Launch funnels to repeatedly strike foes in all directions. You can move freely while this is active.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1839,
+        "ma": 1028,
+        "sa": 919,
+        "md": 1507,
+        "sd": 1748,
+        "br": 756,
+        "pr": 477,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Vulcan",
+            "description": "Fire your side armor's rapid-fire beam cannon.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2034,
+        "ma": 1744,
+        "sa": 1105,
+        "md": 2315,
+        "sd": 1751,
+        "br": 488,
+        "pr": 165,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "EX Calibur",
+            "description": "Gather your F Funnels to ready your massive light sword and perform a mighty finisher. Raise your Melee and Shot Attack by 19%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1016,
+        "ma": 5471,
+        "sa": 0,
+        "md": 492,
+        "sd": 0,
+        "br": 705,
+        "pr": 407,
+        "wt": ["Transformer", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Melee power boosted 30%"
+        },
+        "name": "Beam Saber [AGE II Magnum/SV Ver.]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1237,
+        "ma": 406,
+        "sa": 5177,
+        "md": 289,
+        "sd": 0,
+        "br": 486,
+        "pr": 161,
+        "wt": ["Transformer", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", EX Skill power boosted 30%"
+        },
+        "name": "Hyper DODS Rifle Magnum",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1742,
+        "ma": 1583,
+        "sa": 923,
+        "md": 2316,
+        "sd": 1311,
+        "br": 595,
+        "pr": 300,
+        "wt": ["Transformer", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, Melee CRIT rate boosted 30%"
+        },
+        "name": "Shiguru Shield [AGE II Magnum/SV Ver.]"
+    }]
+}, {
     "name": "Gundam AGE Normal",
     "attribute": "Power",
     "rarity": 3,
@@ -22907,6 +23201,179 @@
         "category": "Machine Gun"
     }]
 }, {
+    "name": "Gundam G-Arcane",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 356,
+        "ma": 356,
+        "sa": 2792,
+        "md": 356,
+        "sd": 1081,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Long Shot Attack raised 14%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1397,
+        "ma": 356,
+        "sa": 356,
+        "md": 686,
+        "sd": 1397,
+        "br": 525,
+        "pr": 0,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, Vernier Consumption=0 for 10 sec."
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1081,
+        "ma": 686,
+        "sa": 356,
+        "md": 356,
+        "sd": 1397,
+        "br": 373,
+        "pr": 153,
+        "wt": ["Long-Range", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Wire",
+            "description": "Use the reel unit stowed in your hand like a whip to brutalize enemies.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 686,
+        "ma": 356,
+        "sa": 356,
+        "md": 686,
+        "sd": 1397,
+        "br": 373,
+        "pr": 525,
+        "wt": ["Long-Range", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Long-Range\", Enemy EX Skill penetration reduced 25%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 686,
+        "ma": 356,
+        "sa": 356,
+        "md": 686,
+        "sd": 1397,
+        "br": 525,
+        "pr": 373,
+        "wt": ["Long-Range", "Support Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When in Arena Sortie, Shooting power boosted 25%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1081,
+        "ma": 2063,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 525,
+        "pr": 373,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy Melee power reduced 25%"
+        },
+        "name": "Beam Saber [G-Arcane]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1081,
+        "ma": 2063,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 525,
+        "pr": 373,
+        "wt": ["Long-Range", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "21% chance of attacks penetrating super armor"
+        },
+        "name": "Large Beam Sword",
+        "type": "Beam",
+        "category": "Blade"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 356,
+        "ma": 0,
+        "sa": 3486,
+        "md": 0,
+        "sd": 0,
+        "br": 373,
+        "pr": 153,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Nix Snipe",
+            "description": "Briefly bathe foes in powerful beams from your long rifle.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C-",
+                "Cd": [60, 15]
+            }
+        },
+        "name": "Anti-Ship Beam Rifle",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }, {
+        "part": "shield",
+        "mark": 3,
+        "a": 686,
+        "ma": 0,
+        "sa": 0,
+        "md": 686,
+        "sd": 2063,
+        "br": 866,
+        "pr": 0,
+        "wt": ["Long-Range", "Support Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Sensor Burner",
+            "description": "Fire the scattering laser cannon stowed in your shield.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "C-",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Shield [G-Arcane]"
+    }]
+}, {
     "name": "Gundam G-Lucifer",
     "attribute": "Power",
     "rarity": 5,
@@ -28032,6 +28499,162 @@
         "name": "Hyper Beam Saber [Tryon 3]",
         "type": "Beam",
         "category": "Blade"
+    }]
+}, {
+    "name": "Gundam Unit 4 [Bst]",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 3238,
+        "ma": 824,
+        "sa": 6471,
+        "md": 824,
+        "sd": 1297,
+        "br": 347,
+        "pr": 855,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Head-Mounted Vulcan",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 5350,
+        "ma": 824,
+        "sa": 1590,
+        "md": 2100,
+        "sd": 2100,
+        "br": 0,
+        "pr": 1200,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Federation\", Shooting power boosted 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 3579,
+        "ma": 1590,
+        "sa": 2234,
+        "md": 3238,
+        "sd": 3238,
+        "br": 0,
+        "pr": 347,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Gun",
+            "description": "Launch rapid-fire beams from your forearm. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 3713,
+        "ma": 824,
+        "sa": 824,
+        "md": 2100,
+        "sd": 2100,
+        "br": 855,
+        "pr": 1200,
+        "wt": ["Federation", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Shooting CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 3579,
+        "ma": 824,
+        "sa": 1941,
+        "md": 1941,
+        "sd": 1941,
+        "br": 855,
+        "pr": 1200,
+        "wt": ["Federation", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Beam Launcher",
+            "description": "Fire a high-energy beam from the anti-ship mega beam launcher suspended on your back.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 4020,
+        "ma": 4782,
+        "sa": 0,
+        "md": 0,
+        "sd": 1297,
+        "br": 347,
+        "pr": 855,
+        "wt": ["Federation", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Job Gauge increase boosted 13%"
+        },
+        "name": "Beam Saber [Gundam Unit 4/Bst]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 3238,
+        "ma": 0,
+        "sa": 8079,
+        "md": 0,
+        "sd": 0,
+        "br": 347,
+        "pr": 1200,
+        "wt": ["Federation", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10%, Enemy Shooting power reduced 25%"
+        },
+        "name": "Hyper Beam Rifle [Gundam Unit 4/Bst]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 3,
+        "a": 3868,
+        "ma": 0,
+        "sa": 0,
+        "md": 2234,
+        "sd": 2234,
+        "br": 347,
+        "pr": 1628,
+        "wt": ["Federation", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Shooting CRIT rate boosted 17%"
+        },
+        "name": "Shield [Gundam Unit 4/Bst]"
     }]
 }, {
     "name": "Gundam Unit 6 [Mudrock]",
@@ -33892,6 +34515,113 @@
         "category": "Blade"
     }]
 }, {
+    "name": "Maryu Kenshi Zero Gundam [Ver. II]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2738,
+        "ma": 1314,
+        "sa": 3534,
+        "md": 2112,
+        "sd": 1239,
+        "br": 0,
+        "pr": 261,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", Initial EX Skill charge boosted 20%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3340,
+        "ma": 1505,
+        "sa": 296,
+        "md": 2845,
+        "sd": 504,
+        "br": 304,
+        "pr": 476,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2847,
+        "ma": 4248,
+        "sa": 409,
+        "md": 3031,
+        "sd": 296,
+        "br": 0,
+        "pr": 207,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy Melee power reduced 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 3034,
+        "ma": 1410,
+        "sa": 490,
+        "md": 2528,
+        "sd": 1595,
+        "br": 298,
+        "pr": 539,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee CRIT rate boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2733,
+        "ma": 1583,
+        "sa": 416,
+        "md": 1946,
+        "sd": 1410,
+        "br": 586,
+        "pr": 763,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 10s pass, Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1834,
+        "ma": 5287,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 292,
+        "pr": 526,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Return to nothing!",
+            "description": "Perform your secret technique to return evil to nothingness by rushing and chopping up enemies. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%. Raise Beam Resist of your Squad by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "B+",
+                "Cd": [79, 8]
+            }
+        },
+        "name": "Thunder Sword Ver.II/ Falcon Sword",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }]
+}, {
     "name": "Master Gundam",
     "attribute": "Power",
     "rarity": 4,
@@ -34488,6 +35218,91 @@
         "name": "76mm Heavy Assault Machine Gun",
         "type": "Physical",
         "category": "Machine Gun"
+    }]
+}, {
+    "name": "Mobile Haro",
+    "attribute": "Speed",
+    "rarity": 1,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "body",
+        "mark": 3,
+        "a": 1494,
+        "ma": 834,
+        "sa": 2108,
+        "md": 877,
+        "sd": 877,
+        "br": 209,
+        "pr": 209,
+        "wt": ["High Firepower", "For Tundra"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Haro Ejection",
+            "description": "Stumble, ejecting a Haro at high velocity.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        },
+        "combo": {
+            "type": "head",
+            "name": "Mobile Haro"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 553,
+        "ma": 1553,
+        "sa": 553,
+        "md": 265,
+        "sd": 265,
+        "br": 49,
+        "pr": 49,
+        "wt": ["High Firepower", "For Tundra"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Planet Breaker",
+            "description": "Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "C",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 553,
+        "ma": 483,
+        "sa": 265,
+        "md": 483,
+        "sd": 483,
+        "br": 209,
+        "pr": 209,
+        "wt": ["High Firepower", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Shooting CRIT rate boosted 10%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 488,
+        "ma": 483,
+        "sa": 265,
+        "md": 488,
+        "sd": 488,
+        "br": 209,
+        "pr": 209,
+        "wt": ["High Firepower", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill piercing boosted 16%"
+        }
     }]
 }, {
     "name": "Mobile Kapool",
@@ -46270,6 +47085,153 @@
             "type": "Part Traits",
             "name": "Long-Shooter Job, Long Shot Attack raised 14%"
         }
+    }]
+}, {
+    "name": "Vigna Ghina",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1384,
+        "ma": 343,
+        "sa": 2760,
+        "md": 345,
+        "sd": 358,
+        "br": 252,
+        "pr": 263,
+        "wt": ["Support Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Mid Shot Attack raised 14%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 2281,
+        "ma": 342,
+        "sa": 833,
+        "md": 898,
+        "sd": 894,
+        "br": 250,
+        "pr": 260,
+        "wt": ["Support Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Vernier Consumption=0 for 10 sec."
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 3130,
+        "ma": 2754,
+        "sa": 1229,
+        "md": 1523,
+        "sd": 1523,
+        "br": 140,
+        "pr": 155,
+        "wt": ["Support Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Shot guidance boosted 14%"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Beam Shield [Vigna Ghina]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1586,
+        "ma": 357,
+        "sa": 685,
+        "md": 900,
+        "sd": 892,
+        "br": 407,
+        "pr": 409,
+        "wt": ["Support Type", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Rush",
+            "description": "Ready a saber in each hand and execute a rush attack.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1516,
+        "ma": 349,
+        "sa": 681,
+        "md": 834,
+        "sd": 826,
+        "br": 418,
+        "pr": 418,
+        "wt": ["Support Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Shooting DMG output boosted by 20"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1717,
+        "ma": 2762,
+        "sa": 0,
+        "md": 0,
+        "sd": 739,
+        "br": 254,
+        "pr": 252,
+        "wt": ["Support Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Supporter Job, Enemy Melee power reduced 25%"
+        },
+        "name": "Beam Saber [Vigna Ghina]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 1376,
+        "ma": 0,
+        "sa": 3446,
+        "md": 0,
+        "sd": 0,
+        "br": 370,
+        "pr": 368,
+        "wt": ["Support Type", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Shooting power boosted 25%"
+        },
+        "name": "Beam Rifle [Vigna Ghina]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 1376,
+        "ma": 0,
+        "sa": 3446,
+        "md": 0,
+        "sd": 0,
+        "br": 370,
+        "pr": 368,
+        "wt": ["Support Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Beam ranged weapon, reload speed boosted 15%"
+        },
+        "name": "Beam Launcher [Vigna Ghina]",
+        "type": "Beam",
+        "category": "Bazooka"
     }]
 }, {
     "name": "Vigna Ghina II",

@@ -287,6 +287,24 @@
     "name": "When in Multi-Mission Sortie, Shot guidance boosted 17%"
   }
 }, {
+  "name": "Anew Returner",
+  "jl": ["Supporter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 828,
+  "ma": 828,
+  "sa": 828,
+  "md": 828,
+  "sd": 828,
+  "br": 413,
+  "pr": 413,
+  "wt": ["Mid-Range", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Shooting CRIT rate boosted 17%"
+  }
+}, {
   "name": "Angelo Sauper",
   "jl": ["Out-Fighter"],
   "attribute": "Technique",
@@ -2123,6 +2141,24 @@
     "name": "With Technique attribute (self), Shot guidance boosted 14%"
   }
 }, {
+  "name": "Kincade Nau",
+  "jl": ["In-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 2243,
+  "ma": 2331,
+  "sa": 500,
+  "md": 1320,
+  "sd": 818,
+  "br": 538,
+  "pr": 272,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
+  }
+}, {
   "name": "Kira Yamato",
   "jl": ["Middle-Shooter"],
   "attribute": "Speed",
@@ -2391,6 +2427,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), All CRIT rate boosted 14%"
+  }
+}, {
+  "name": "Luce Kassel",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1378,
+  "ma": 351,
+  "sa": 1229,
+  "md": 677,
+  "sd": 1163,
+  "br": 148,
+  "pr": 511,
+  "wt": ["Federation", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
   "name": "Lucrezia Noin",
@@ -2823,6 +2877,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
+  "name": "Mudie Holcroft",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1163,
+  "ma": 1646,
+  "sa": 351,
+  "md": 1067,
+  "sd": 677,
+  "br": 148,
+  "pr": 364,
+  "wt": ["Gundam Type", "Close Combat"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), 14% chance to survive a fatal blow"
   }
 }, {
   "name": "Nena Trinity",
@@ -3437,6 +3509,24 @@
     "name": "With Technique attribute (self), Enemy All power reduced 13%"
   }
 }, {
+  "name": "Rindo Kuzunoha",
+  "jl": ["Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1152,
+  "ma": 475,
+  "sa": 2006,
+  "md": 957,
+  "sd": 1152,
+  "br": 512,
+  "pr": 212,
+  "wt": ["Ace Excl.", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Long Shot Attack raised 20%"
+  }
+}, {
   "name": "Roberto",
   "jl": ["In-Fighter"],
   "attribute": "Technique",
@@ -3579,6 +3669,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "Out-Fighter Job, EX Skill CD reduced 20%"
+  }
+}, {
+  "name": "Sana Miyama",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1454,
+  "ma": 860,
+  "sa": 1641,
+  "md": 955,
+  "sd": 1062,
+  "br": 212,
+  "pr": 722,
+  "wt": ["Support Type", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), EX Skill recovery boosted 28%"
   }
 }, {
   "name": "Sarah Zabiarov",
@@ -4083,6 +4191,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Buff EX Skill effect up 22%"
+  }
+}, {
+  "name": "Tobia Arronax [Skull Heart]",
+  "jl": ["In-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1855,
+  "ma": 2130,
+  "sa": 502,
+  "md": 1607,
+  "sd": 1035,
+  "br": 542,
+  "pr": 274,
+  "wt": ["High Firepower", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 1 allies shot down, Vernier Consumption=0 for 16 sec."
   }
 }, {
   "name": "Treize Khushrenada",

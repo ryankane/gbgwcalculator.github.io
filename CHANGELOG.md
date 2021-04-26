@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.3
+
+- Added right-leg gears (word tags)
+- Units and pilots have updated series IDs
+- TODO: Calculate WT effect from right-leg gears
+
 ## 1.3.2
 
 - Added 6-star rarity (parts and marks)

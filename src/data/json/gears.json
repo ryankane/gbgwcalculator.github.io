@@ -1,250 +1,787 @@
 {
-  "torso": [{
-    "name": "Armor[+500]",
-    "a": 500,
-    "rarity": 1
-  }, {
-    "name": "Armor[+1000]",
-    "a": 1000,
-    "rarity": 2
-  }, {
-    "name": "Armor[+1500]",
-    "a": 1500,
-    "rarity": 3
-  }, {
-    "name": "Armor[+2000]",
-    "a": 2000,
-    "rarity": 4
-  }, {
-    "name": "MeleeAtk[+500]",
-    "ma": 500,
-    "rarity": 1
-  }, {
-    "name": "MeleeAtk[+1000]",
-    "ma": 1000,
-    "rarity": 2
-  }, {
-    "name": "MeleeAtk[+1500]",
-    "ma": 1500,
-    "rarity": 3
-  }, {
-    "name": "MeleeAtk[+2000]",
-    "ma": 2000,
-    "rarity": 4
-  }, {
-    "name": "ShotAtk[+500]",
-    "sa": 500,
-    "rarity": 1
-  }, {
-    "name": "ShotAtk[+1000]",
-    "sa": 1000,
-    "rarity": 2
-  }, {
-    "name": "ShotAtk[+1500]",
-    "sa": 1500,
-    "rarity": 3
-  }, {
-    "name": "ShotAtk[+2000]",
-    "sa": 2000,
-    "rarity": 4
-  }, {
-    "name": "MeleeDef[+500]",
-    "md": 500,
-    "rarity": 1
-  }, {
-    "name": "MeleeDef[+1000]",
-    "md": 1000,
-    "rarity": 2
-  }, {
-    "name": "MeleeDef[+1500]",
-    "md": 1500,
-    "rarity": 3
-  }, {
-    "name": "MeleeDef[+2000]",
-    "md": 2000,
-    "rarity": 4
-  }, {
-    "name": "ShotDef[+500]",
-    "sd": 500,
-    "rarity": 1
-  }, {
-    "name": "ShotDef[+1000]",
-    "sd": 1000,
-    "rarity": 2
-  }, {
-    "name": "ShotDef[+1500]",
-    "sd": 1500,
-    "rarity": 3
-  }, {
-    "name": "ShotDef[+2000]",
-    "sd": 2000,
-    "rarity": 4
-  }, {
-    "name": "BeamRes[+500]",
-    "br": 500,
-    "rarity": 1
-  }, {
-    "name": "BeamRes[+1000]",
-    "br": 1000,
-    "rarity": 2
-  }, {
-    "name": "BeamRes[+1500]",
-    "br": 1500,
-    "rarity": 3
-  }, {
-    "name": "BeamRes[+2000]",
-    "br": 2000,
-    "rarity": 4
-  }, {
-    "name": "PhysRes[+500]",
-    "pr": 500,
-    "rarity": 1
-  }, {
-    "name": "PhysRes[+1000]",
-    "pr": 1000,
-    "rarity": 2
-  }, {
-    "name": "PhysRes[+1500]",
-    "pr": 1500,
-    "rarity": 3
-  }, {
-    "name": "PhysRes[+2000]",
-    "pr": 2000,
-    "rarity": 4
-  }, {
-    "name": "DualAtk[+300]",
-    "ma": 300,
-    "sa": 300,
-    "rarity": 1
-  }, {
-    "name": "DualAtk[+650]",
-    "ma": 650,
-    "sa": 650,
-    "rarity": 2
-  }, {
-    "name": "DualAtk[+1000]",
-    "ma": 1000,
-    "sa": 1000,
-    "rarity": 3
-  }, {
-    "name": "DualAtk[+1500]",
-    "ma": 1500,
-    "sa": 1500,
-    "rarity": 4
-  }],
-  "arm-right" : [{
-    "name": "Chg.Mel.[+10%]",
-    "ma": { "attrs" : ["md"], "multiplier" : 0.1 },
-    "rarity": 1
-  }, {
-    "name": "Chg.Mel.[+20%]",
-    "ma": { "attrs" : ["md"], "multiplier" : 0.2 },
-    "rarity": 2
-  }, {
-    "name": "Chg.Mel.[+30%]",
-    "ma": { "attrs" : ["md"], "multiplier" : 0.3 },
-    "rarity": 3
-  }, {
-    "name": "Chg.Shot[+10%]",
-    "sa": { "attrs" : ["sd"], "multiplier" : 0.1 },
-    "rarity": 1
-  }, {
-    "name": "Chg.Shot[+20%]",
-    "sa": { "attrs" : ["sd"], "multiplier" : 0.2 },
-    "rarity": 2
-  }, {
-    "name": "Chg.Shot[+30%]",
-    "sa": { "attrs" : ["sd"], "multiplier" : 0.3 },
-    "rarity": 3
-  }, {
-    "name": "Chg.Res.[+5%]",
-    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.05 },
-    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.05 },
-    "rarity": 1
-  }, {
-    "name": "Chg.Res.[+15%]",
-    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.15 },
-    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.15 },
-    "rarity": 2
-  }, {
-    "name": "Chg.Res.[+25%]",
-    "ma": { "attrs" : ["pr", "br"], "multiplier" : 0.25 },
-    "sa": { "attrs" : ["pr", "br"], "multiplier" : 0.25 },
-    "rarity": 3
-  }],
-  "arm-left" : [{
-    "name": "Defender ★",
-    "ma": 500,
-    "rarity": 1
-  }, {
-    "name": "Defender ★★",
-    "ma": 1000,
-    "rarity": 2
-  }, {
-    "name": "Defender ★★★",
-    "ma": 1500,
-    "rarity": 3
-  }, {
-    "name": "In-Fighter ★",
-    "ma": 500,
-    "rarity": 1
-  }, {
-    "name": "In-Fighter ★★",
-    "ma": 1000,
-    "rarity": 2
-  }, {
-    "name": "In-Fighter ★★★",
-    "ma": 1500,
-    "rarity": 3
-  }, {
-    "name": "Out-Fighter ★",
-    "ma": 500,
-    "rarity": 1
-  }, {
-    "name": "Out-Fighter ★★",
-    "ma": 1000,
-    "rarity": 2
-  }, {
-    "name": "Out-Fighter ★★★",
-    "ma": 1500,
-    "rarity": 3
-  }, {
-    "name": "Middle-Shooter ★",
-    "sa": 500,
-    "rarity": 1
-  }, {
-    "name": "Middle-Shooter ★★",
-    "sa": 1000,
-    "rarity": 2
-  }, {
-    "name": "Middle-Shooter ★★★",
-    "sa": 1500,
-    "rarity": 3
-  }, {
-    "name": "Long-Shooter ★",
-    "sa": 500,
-    "rarity": 1
-  }, {
-    "name": "Long-Shooter ★★",
-    "sa": 1000,
-    "rarity": 2
-  }, {
-    "name": "Long-Shooter ★★★",
-    "sa": 1500,
-    "rarity": 3
-  }, {
-    "name": "Supporter ★",
-    "sa": 500,
-    "rarity": 1
-  }, {
-    "name": "Supporter ★★",
-    "sa": 1000,
-    "rarity": 2
-  }, {
-    "name": "Supporter ★★★",
-    "sa": 1500,
-    "rarity": 3
-  }],
-  "leg-right" : [],
-  "leg-left" : []
+  "torso": [
+    {
+      "name": "Armor[+500]",
+      "a": 500,
+      "rarity": 1
+    }, {
+      "name": "Armor[+1000]",
+      "a": 1000,
+      "rarity": 2
+    }, {
+      "name": "Armor[+1500]",
+      "a": 1500,
+      "rarity": 3
+    }, {
+      "name": "Armor[+2000]",
+      "a": 2000,
+      "rarity": 4
+    }, {
+      "name": "MeleeAtk[+500]",
+      "ma": 500,
+      "rarity": 1
+    }, {
+      "name": "MeleeAtk[+1000]",
+      "ma": 1000,
+      "rarity": 2
+    }, {
+      "name": "MeleeAtk[+1500]",
+      "ma": 1500,
+      "rarity": 3
+    }, {
+      "name": "MeleeAtk[+2000]",
+      "ma": 2000,
+      "rarity": 4
+    }, {
+      "name": "ShotAtk[+500]",
+      "sa": 500,
+      "rarity": 1
+    }, {
+      "name": "ShotAtk[+1000]",
+      "sa": 1000,
+      "rarity": 2
+    }, {
+      "name": "ShotAtk[+1500]",
+      "sa": 1500,
+      "rarity": 3
+    }, {
+      "name": "ShotAtk[+2000]",
+      "sa": 2000,
+      "rarity": 4
+    }, {
+      "name": "MeleeDef[+500]",
+      "md": 500,
+      "rarity": 1
+    }, {
+      "name": "MeleeDef[+1000]",
+      "md": 1000,
+      "rarity": 2
+    }, {
+      "name": "MeleeDef[+1500]",
+      "md": 1500,
+      "rarity": 3
+    }, {
+      "name": "MeleeDef[+2000]",
+      "md": 2000,
+      "rarity": 4
+    }, {
+      "name": "ShotDef[+500]",
+      "sd": 500,
+      "rarity": 1
+    }, {
+      "name": "ShotDef[+1000]",
+      "sd": 1000,
+      "rarity": 2
+    }, {
+      "name": "ShotDef[+1500]",
+      "sd": 1500,
+      "rarity": 3
+    }, {
+      "name": "ShotDef[+2000]",
+      "sd": 2000,
+      "rarity": 4
+    }, {
+      "name": "BeamRes[+500]",
+      "br": 500,
+      "rarity": 1
+    }, {
+      "name": "BeamRes[+1000]",
+      "br": 1000,
+      "rarity": 2
+    }, {
+      "name": "BeamRes[+1500]",
+      "br": 1500,
+      "rarity": 3
+    }, {
+      "name": "BeamRes[+2000]",
+      "br": 2000,
+      "rarity": 4
+    }, {
+      "name": "PhysRes[+500]",
+      "pr": 500,
+      "rarity": 1
+    }, {
+      "name": "PhysRes[+1000]",
+      "pr": 1000,
+      "rarity": 2
+    }, {
+      "name": "PhysRes[+1500]",
+      "pr": 1500,
+      "rarity": 3
+    }, {
+      "name": "PhysRes[+2000]",
+      "pr": 2000,
+      "rarity": 4
+    }, {
+      "name": "DualAtk[+300]",
+      "ma": 300,
+      "sa": 300,
+      "rarity": 1
+    }, {
+      "name": "DualAtk[+650]",
+      "ma": 650,
+      "sa": 650,
+      "rarity": 2
+    }, {
+      "name": "DualAtk[+1000]",
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 3
+    }, {
+      "name": "DualAtk[+1500]",
+      "ma": 1500,
+      "sa": 1500,
+      "rarity": 4
+    }
+  ],
+  "arm-right": [
+    {
+      "name": "Chg.Mel.[+10%]",
+      "ma": {
+        "attrs": ["md"],
+        "multiplier": 0.1
+      },
+      "rarity": 1
+    }, {
+      "name": "Chg.Mel.[+20%]",
+      "ma": {
+        "attrs": ["md"],
+        "multiplier": 0.2
+      },
+      "rarity": 2
+    }, {
+      "name": "Chg.Mel.[+30%]",
+      "ma": {
+        "attrs": ["md"],
+        "multiplier": 0.3
+      },
+      "rarity": 3
+    }, {
+      "name": "Chg.Shot[+10%]",
+      "sa": {
+        "attrs": ["sd"],
+        "multiplier": 0.1
+      },
+      "rarity": 1
+    }, {
+      "name": "Chg.Shot[+20%]",
+      "sa": {
+        "attrs": ["sd"],
+        "multiplier": 0.2
+      },
+      "rarity": 2
+    }, {
+      "name": "Chg.Shot[+30%]",
+      "sa": {
+        "attrs": ["sd"],
+        "multiplier": 0.3
+      },
+      "rarity": 3
+    }, {
+      "name": "Chg.Res.[+5%]",
+      "ma": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.05
+      },
+      "sa": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.05
+      },
+      "rarity": 1
+    }, {
+      "name": "Chg.Res.[+15%]",
+      "ma": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.15
+      },
+      "sa": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.15
+      },
+      "rarity": 2
+    }, {
+      "name": "Chg.Res.[+25%]",
+      "ma": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.25
+      },
+      "sa": {
+        "attrs": ["pr", "br"],
+        "multiplier": 0.25
+      },
+      "rarity": 3
+    }
+  ],
+  "arm-left": [
+    {
+      "name": "Defender ★",
+      "ma": 500,
+      "rarity": 1
+    }, {
+      "name": "Defender ★★",
+      "ma": 1000,
+      "rarity": 2
+    }, {
+      "name": "Defender ★★★",
+      "ma": 1500,
+      "rarity": 3
+    }, {
+      "name": "In-Fighter ★",
+      "ma": 500,
+      "rarity": 1
+    }, {
+      "name": "In-Fighter ★★",
+      "ma": 1000,
+      "rarity": 2
+    }, {
+      "name": "In-Fighter ★★★",
+      "ma": 1500,
+      "rarity": 3
+    }, {
+      "name": "Out-Fighter ★",
+      "ma": 500,
+      "rarity": 1
+    }, {
+      "name": "Out-Fighter ★★",
+      "ma": 1000,
+      "rarity": 2
+    }, {
+      "name": "Out-Fighter ★★★",
+      "ma": 1500,
+      "rarity": 3
+    }, {
+      "name": "Middle-Shooter ★",
+      "sa": 500,
+      "rarity": 1
+    }, {
+      "name": "Middle-Shooter ★★",
+      "sa": 1000,
+      "rarity": 2
+    }, {
+      "name": "Middle-Shooter ★★★",
+      "sa": 1500,
+      "rarity": 3
+    }, {
+      "name": "Long-Shooter ★",
+      "sa": 500,
+      "rarity": 1
+    }, {
+      "name": "Long-Shooter ★★",
+      "sa": 1000,
+      "rarity": 2
+    }, {
+      "name": "Long-Shooter ★★★",
+      "sa": 1500,
+      "rarity": 3
+    }, {
+      "name": "Supporter ★",
+      "sa": 500,
+      "rarity": 1
+    }, {
+      "name": "Supporter ★★",
+      "sa": 1000,
+      "rarity": 2
+    }, {
+      "name": "Supporter ★★★",
+      "sa": 1500,
+      "rarity": 3
+    }
+  ],
+  "leg-right": [
+    {
+      "name": "[Protag.]+",
+      "effect": 0.2,
+      "rarity": 1
+    },
+    {
+      "name": "[Protag.]++",
+      "effect": 0.6,
+      "pr": 1000,
+      "br": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Protag.]+++",
+      "effect": 1.0,
+      "pr": 2000,
+      "br": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Mass P.]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[Mass P.]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Mass P.]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Ace Excl.]+",
+      "effect": 0.2,
+      "rarity": 1
+    },
+    {
+      "name": "[Ace Excl.]++",
+      "effect": 0.6,
+      "pr": 1000,
+      "br": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Ace Excl.]+++",
+      "effect": 1.0,
+      "pr": 2000,
+      "br": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Amphib.]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Amphib.]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Amphib.]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Commander]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[Commander]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Commander]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Close Combat]+",
+      "effect": 0.2,
+      "rarity": 1
+    },
+    {
+      "name": "[Close Combat]++",
+      "effect": 0.6,
+      "pr": 1000,
+      "br": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Close Combat]+++",
+      "effect": 1.0,
+      "pr": 2000,
+      "br": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Mid-Range]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Mid-Range]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Mid-Range]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Long-Range]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Long-Range]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Long-Range]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[High Mobility]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[High Mobility]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[High Mobility]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[High Firepower]+",
+      "effect": 0.2,
+      "rarity": 1
+    },
+    {
+      "name": "[High Firepower]++",
+      "effect": 0.6,
+      "pr": 1000,
+      "br": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[High Firepower]+++",
+      "effect": 1.0,
+      "pr": 2000,
+      "br": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Heavy Armor]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Heavy Armor]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Heavy Armor]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Transformer]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Transformer]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Transformer]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Gundam Type]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[Gundam Type]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Gundam Type]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Mobile Fighter]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[Mobile Fighter]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Mobile Fighter]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Support Type]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Support Type]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Support Type]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Federation]+",
+      "effect": 0.3,
+      "rarity": 1
+    },
+    {
+      "name": "[Federation]++",
+      "effect": 0.9,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Federation]+++",
+      "effect": 1.5,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Zeon]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Zeon]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Zeon]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[Zaku Type]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[Zaku Type]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[Zaku Type]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[GM Type]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[GM Type]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[GM Type]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Space]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Space]++",
+      "effect": 1.2,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Space]+++",
+      "effect": 2.0,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Desert]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Desert]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Desert]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Tundra]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Tundra]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Tundra]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Forest]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Forest]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Forest]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Urban Area]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Urban Area]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Urban Area]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Base]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Base]++",
+      "effect": 1.2,
+      "ma": 1000,
+      "sa": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Base]+++",
+      "effect": 2.0,
+      "ma": 2000,
+      "sa": 2000,
+      "rarity": 3
+    },
+    {
+      "name": "[For Computers]+",
+      "effect": 0.4,
+      "rarity": 1
+    },
+    {
+      "name": "[For Computers]++",
+      "effect": 1.2,
+      "md": 1000,
+      "sd": 1000,
+      "rarity": 2
+    },
+    {
+      "name": "[For Computers]+++",
+      "effect": 2.0,
+      "md": 2000,
+      "sd": 2000,
+      "rarity": 3
+    }
+  ],
+  "leg-left": []
 }
