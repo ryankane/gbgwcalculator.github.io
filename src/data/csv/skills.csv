@@ -823,3 +823,12 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 822,Planet Breaker,Bring an energized fist down to pulverize the enemy. Lowers hit enemy Gunpla's Melee Attack by 14%. Lowers hit enemy Gunpla's Melee Defense by 14%.,4,A-,C,,,19,5
 823,Beam Gun,Launch rapid-fire beams from your forearm. You can move while firing.,1,A-,D,,11,60,0
 824,Mega Beam Launcher,Fire a high-energy beam from the anti-ship mega beam launcher suspended on your back.,1,A,D,,,60,15
+825,High Beam Rifle & Saber,"Slash enemies with your beam saber, and fire your beam rifle.",1,B+,B-,,,21,3
+826,Meteroite Kick,"Slash enemies with your saber, then land a powerful kick from off a meteorite. Raise your speed by 20%. Raise your Melee Attack by 24%.",4,D,B+,,,21,6
+827,Grenade Launcher,Launch a grenade from your shield. You can move while firing.,2,D,B,,11,60,0
+828,Galactic Chaser,Fly up with your enemy and engage in a fierce aerial battle. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%. Raise Beam Resist of your Squad by 29%.,3,D,A,,,79,20
+829,Hyper M.P. Cannon & Twin M.P. Cannon,Fire the three mega particle cannons stowed in your chest.,1,A-,D,,,60,15
+830,Beam Launcher & Grenade Launcher,Fire the beam launchers on your shoulders and the grenade launcher on your forearm.,2,D,B,,,21,6
+831,M.B. Cannon & Waist M.P. Cannon,Fire the three mega particle cannons stowed in your legs.,1,A-,D,,,60,15
+832,Child Funnel,Launch child funnels to strike foes in all directions. You can move freely while this is active.,1,A+,D,,,60,6
+833,Maelstrom,"Blow through foes, spinning to strike them with your blade.",3,D,B+,,,30,8

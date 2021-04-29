@@ -158,7 +158,7 @@
   "wt": ["Federation", "GM Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Speed Attribute (self) Shot Guidance boosted 14%"
+    "name": "With Speed attribute (self), Shot guidance boosted 14%"
   }
 }, {
   "name": "Amuro Ray",
@@ -338,7 +338,7 @@
   "wt": ["Zeon", "Long-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "Melee Attack down 10% Long Shot Attack raised 20%"
+    "name": "Melee Attack down 10%, Long Shot Attack raised 20%"
   }
 }, {
   "name": "Apolly Bay",
@@ -356,7 +356,7 @@
   "wt": ["High Mobility", "Support Type"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Strong Melee DMG output boosted 15%"
+    "name": "With Technique attribute (self), Strong Melee DMG output boosted by 15"
   }
 }, {
   "name": "Argi Mirage",
@@ -518,7 +518,7 @@
   "wt": ["Protag.", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "Middle-Shooter Job Shooting power boosted 30%"
+    "name": "Middle-Shooter Job, Shooting power boosted 30%"
   }
 }, {
   "name": "Bellri Zenam",
@@ -809,6 +809,24 @@
     "name": "While \"High Firepower\", Buff EX Skill effect up 22%"
   }
 }, {
+  "name": "Char Aznable [Commander-in-Chief]",
+  "jl": ["In-Fighter", "Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 5,
+  "level": 99,
+  "a": 2204,
+  "ma": 2501,
+  "sa": 2018,
+  "md": 292,
+  "sd": 191,
+  "br": 840,
+  "pr": 203,
+  "wt": ["Zeon", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Melee power boosted 30%"
+  }
+}, {
   "name": "Chara Soon",
   "jl": ["Out-Fighter"],
   "attribute": "Speed",
@@ -825,6 +843,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+  }
+}, {
+  "name": "Chara Soon [Enhanced]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 893,
+  "ma": 677,
+  "sa": 1580,
+  "md": 951,
+  "sd": 1093,
+  "br": 148,
+  "pr": 364,
+  "wt": ["High Firepower", "Heavy Armor"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), 28% chance to not recoil"
   }
 }, {
   "name": "Chibodee Crocket",
@@ -1004,7 +1040,7 @@
   "wt": ["Zeon", "Long-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "Melee Attack down 10% Long Shot Attack raised 14%"
+    "name": "Melee Attack down 10%, Long Shot Attack raised 14%"
   }
 }, {
   "name": "Descartes Shaman",
@@ -1364,7 +1400,7 @@
   "wt": ["Long-Range", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "When 2 enemies shot down, Boost Job Gauge by 40% once"
+    "name": "When 2 enemies shot down, Boost Job Gauge by 40% once."
   }
 }, {
   "name": "Full Frontal",
@@ -1634,7 +1670,7 @@
   "wt": ["Zeon", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Boost Funnel Uptime 40%"
+    "name": "With Technique attribute (self), Boost Funnel uptime by 40%."
   }
 }, {
   "name": "Haman Karn",
@@ -1670,7 +1706,7 @@
   "wt": ["Ace Excl.", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
-    "name": "With Technique attribute (self), Boost Funnel uptime by 50%"
+    "name": "With Technique attribute (self), Boost Funnel uptime by 50%."
   }
 }, {
   "name": "Haro",
@@ -2012,7 +2048,7 @@
   "wt": ["High Mobility", "For Space"],
   "ex": {
     "type": "Part Traits",
-    "name": "When attacking with Physical EX Skill Piercing boosted 28%"
+    "name": "When attacking with Physical, EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Juri Wu Nien",
@@ -2048,7 +2084,7 @@
   "wt": ["Mid-Range", "For Urban Area"],
   "ex": {
     "type": "Part Traits",
-    "name": "All ranged weapon magazine boosted 14%"
+    "name": "All ranged weapon, magazine boosted 14%"
   }
 }, {
   "name": "Kai Shiden",
@@ -2483,6 +2519,24 @@
     "name": "With Technique attribute (self), Long Shot Attack raised 14%"
   }
 }, {
+  "name": "Lupe Cineau",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 677,
+  "ma": 1229,
+  "sa": 1229,
+  "md": 893,
+  "sd": 893,
+  "br": 411,
+  "pr": 256,
+  "wt": ["Ace Excl.", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), 28% chance to not recoil"
+  }
+}, {
   "name": "M'Quve",
   "jl": ["In-Fighter"],
   "attribute": "Technique",
@@ -2660,7 +2714,7 @@
   "wt": ["High Mobility", "Commander"],
   "ex": {
     "type": "Part Traits",
-    "name": "Job Gauge inc. down 10% All power boosted 30%"
+    "name": "Job Gauge inc. down 10%, All power boosted 30%"
   }
 }, {
   "name": "Meer Campbell",
@@ -2768,7 +2822,7 @@
   "wt": ["Zeon", "For Tundra"],
   "ex": {
     "type": "Part Traits",
-    "name": "21% Chance of attacks penetrating Super armor"
+    "name": "21% chance of attacks penetrating super armor"
   }
 }, {
   "name": "Milliardo Peacecraft",
@@ -2822,7 +2876,7 @@
   "wt": ["High Mobility", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"High Mobility\" Enemy Shooting Power reduced 25%"
+    "name": "While \"High Mobility\", Enemy Shooting power reduced 25%"
   }
 }, {
   "name": "Mouar Pharaoh",
@@ -2984,7 +3038,7 @@
   "wt": ["High Firepower", "Ace Excl."],
   "ex": {
     "type": "Part Traits",
-    "name": "When Armor ≥ 60%, All Shot Attack raised 14%"
+    "name": "When Armor is 60% or more, All Shot Attack raised 14%"
   }
 }, {
   "name": "Norris Packard",
@@ -3848,7 +3902,7 @@
   "wt": ["Protag.", "High Mobility"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"Protag.\" EX Skill Power boosted 30%"
+    "name": "While \"Protag.\", EX Skill power boosted 30%"
   }
 }, {
   "name": "Shagia Frost",
@@ -3938,7 +3992,7 @@
   "wt": ["High Firepower", "Close Combat"],
   "ex": {
     "type": "Part Traits",
-    "name": "While \"High Firepower\" All Power boosted 30%"
+    "name": "While \"High Firepower\", All power boosted 30%"
   }
 }, {
   "name": "Shiro Amada",
@@ -4208,7 +4262,7 @@
   "wt": ["High Firepower", "High Mobility"],
   "ex": {
     "type": "Part Traits",
-    "name": "When 1 allies shot down, Vernier Consumption=0 for 16 sec."
+    "name": "When 1 allies shot down, Vernier consumption=0 for 16 sec."
   }
 }, {
   "name": "Treize Khushrenada",
@@ -4281,6 +4335,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Buff EX Skill time up 22%"
+  }
+}, {
+  "name": "Vidar",
+  "jl": ["Out-Fighter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1761,
+  "ma": 2453,
+  "sa": 500,
+  "md": 1513,
+  "sd": 1031,
+  "br": 272,
+  "pr": 538,
+  "wt": ["Gundam Type", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
   }
 }, {
   "name": "Vincent Gleissner",

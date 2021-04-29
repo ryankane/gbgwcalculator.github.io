@@ -1,247 +1,251 @@
-Index,Name,Subname,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Shot ATK,Melee DEF,Shot DEF,Beam RES,Phys. RES,Trait,Job Lic,AI Range,AI Priority,Capsule,Exchange,Other,Release Date,Notes,Level,Link
-1,Amuro Ray,Pre-Registration Reward,3,3,アムロ・レイ【事前登録報酬】,2,1,13,16,363,363,363,363,363,80,280,"With Power attribute (self), EX Skill CD reduced 11%",4,2,3,,,,2019-07-31,,80,Dengeki
-2,Gaia,,3,16,ガイア,2,1,8,23,364,187,187,570,570,201,201,"With Power attribute (self), EX Skill recovery boosted by 85",2,1,3,,,,2019-07-31,,80,Dengeki
-3,Juri Wu Nien,,41,12,ジュリ・ウー・ニェン,2,1,2,25,364,187,187,570,570,201,201,"With Power attribute (self), EX Skill CD reduced 11%",5,2,2,,,,2019-07-31,,80,Dengeki
-4,Kai Shiden,,3,5,カイ・シデン,2,1,7,16,755,187,187,364,364,81,281,"With Power attribute (self), EX Skill recovery boosted 18%",6,2,3,,,,2019-07-31,,80,Dengeki
-5,Poe Aijee,,40,3,ポゥ・エイジ,2,1,8,15,755,187,187,364,364,281,81,"With Power attribute (self), Shot guidance boosted 14%",6,3,3,,,,2019-07-31,,80,Dengeki
-6,Reccoa Londe,,18,4,レコア・ロンド,2,1,10,20,570,187,570,364,364,201,201,"With Power attribute (self), Debuff EX Skill effect up 12%",6,3,1,,,,2019-07-31,,80,Dengeki
-7,Sigh Argyle,,41,4,サイ・アーガイル,2,1,8,13,570,364,187,570,364,281,81,"With Power attribute (self), Projectile speed boosted 12%",7,2,2,,,,2019-07-31,,80,Dengeki
-8,Sleggar Law,,3,8,スレッガー・ロウ,2,1,15,16,364,187,754,364,364,201,81,"With Power attribute (self), EX Skill piercing boosted 15%",3,3,2,,,,2019-07-31,,80,Dengeki
-9,Sochie Heim,,40,1,ソシエ・ハイム,2,1,4,15,363,186,186,569,569,80,280,"With Power attribute (self), 10% chance to survive a fatal blow",7,1,2,,,,2019-07-31,,80,Dengeki
-10,Dozle Zabi,,3,13,ドズル・ザビ,3,1,10,18,558,891,891,558,558,127,302,"With Power attribute (self), EX Skill piercing boosted 22%",2,1,2,,,,2019-07-31,,80,Dengeki
-11,Ginias Sahalin,,7,3,ギニアス・サハリン,3,1,8,17,558,291,291,889,889,428,126,"With Power attribute (self), Vernier recovery rate boosted 16%",2,3,1,,,,2019-07-31,,80,Dengeki
-12,Christina Mackenzie,,10,1,クリスチーナ・マッケンジー,4,1,6,24,795,382,382,1179,1179,609,211,"With Power attribute (self), EX Skill piercing boosted 28%",5,1,2,,,,2019-07-31,,80,Dengeki
-13,Asagi Caldwell,,41,10,アサギ・コードウェル,2,3,2,20,364,187,757,364,364,201,201,"With Speed attribute (self), Shot spread reduced 12%",7,2,1,,,,2019-07-31,,80,Dengeki
-14,Eledore Massis,,7,1,エレドア・マシス,2,3,8,15,755,187,187,364,364,81,281,"With Speed attribute (self), Initial EX Skill charge boosted 11%",7,3,1,,,,2019-07-31,,80,Dengeki
-15,Mayura Labatt,,41,11,マユラ・ラバッツ,2,3,2,24,364,364,364,364,364,201,201,"With Speed attribute (self), Buff EX Skill effect up 12%",4,2,3,,,,2019-07-31,,80,Dengeki
-16,Ortega,,3,18,オルテガ,2,3,23,17,365,187,571,571,365,81,282,"With Speed attribute (self), Job Gauge increase boosted 11%",5,3,2,,,,2019-07-31,,80,Dengeki
-17,Garma Zabi,,3,12,ガルマ・ザビ,3,3,5,23,559,294,294,559,559,432,432,"With Speed attribute (self), Buff EX Skill time up 15%",5,2,1,,,,2019-07-31,,80,Dengeki
-18,Jerid Messa,,18,3,ジェリド・メサ,3,3,12,7,558,891,891,558,558,127,302,"With Speed attribute (self), Vernier recovery rate boosted 16%",4,2,1,,,,2019-07-31,,80,Dengeki
-19,Selene McGriff,,46,1,セレーネ・マクグリフ,3,3,1,15,558,291,1142,558,558,302,126,"With Speed attribute (self), Enemy EX Skill penetration reduced 22%",7,3,1,,,,2019-07-31,,80,Dengeki
-20,Lowe Guele,,44,1,ロウ・ギュール,4,3,1,10,1180,1180,383,796,796,212,610,"With Speed attribute (self), All CRIT rate boosted 14%",3,1,2,,,,2019-07-31,,80,Dengeki
-21,Haro,,3,1,ハロ,1,2,12,26,287,138,138,287,287,194,194,EX Skill recovery boosted by 110,1,2,3,,,,2019-07-31,,80,Dengeki
-22,Akahana,,3,19,アカハナ,2,2,4,17,755,187,187,364,364,281,81,"With Technique attribute (self), EX Skill recovery boosted 18%",7,1,1,,,,2019-07-31,,80,Dengeki
-23,Apolly Bay,,18,1,アポリー・ベイ,2,2,9,15,363,363,363,363,363,280,80,"With Technique attribute (self), Strong Melee DMG output boosted 15%",4,2,3,,,,2019-07-31,,80,Dengeki
-24,Hayato Kobayashi,,3,6,ハヤト・コバヤシ,2,2,8,16,570,364,187,364,570,201,201,20% chance to prevent vernier consumption when stepping,6,3,1,,,,2019-07-31,,80,Dengeki
-25,Heero Yuy,Pre-Registration Reward,35,2,ヒイロ・ユイ【事前登録報酬】,2,2,12,13,570,187,570,364,364,281,81,20% chance to prevent vernier consumption when stepping,2,3,2,,,,2019-07-31,,80,Dengeki
-26,Mash,,3,17,マッシュ,2,2,11,23,570,364,187,364,570,281,81,EX Skill piercing boosted 16%,4,2,2,,,,2019-07-31,,80,Dengeki
-27,Roberto,,18,2,ロベルト,2,2,9,20,363,363,363,363,363,80,280,"With Technique attribute (self), Debuff EX Skill effect up 12%",3,2,1,,,,2019-07-31,,80,Dengeki
-28,Ryu Jose,,3,7,リュウ・ホセイ,2,2,8,16,570,187,570,364,364,201,201,"With Technique attribute (self), Buff EX Skill time up 15%",2,3,2,,,,2019-07-31,,80,Dengeki
-29,Sergei Smirnov,,47,2,セルゲイ・スミルノフ,2,2,3,5,757,187,187,364,364,281,281,"With Technique attribute (self), 11% chance to not recoil",4,2,1,,,,2019-07-31,,80,Dengeki
-30,M'Quve,,3,15,マ・クベ,3,2,6,21,558,291,291,889,889,428,126,"With Technique attribute (self), Debuff EX Skill effect up 15%",3,1,1,,,,2019-07-31,,80,Dengeki
-31,Mu La Flaga,,41,3,ムウ・ラ・フラガ,3,2,15,20,558,558,558,558,558,428,126,"With Technique attribute (self), EX Skill piercing boosted 22%",6,3,2,,,,2019-07-31,,80,Dengeki
-32,Ramba Ral,,3,14,ランバ・ラル,3,2,6,21,558,1142,291,558,558,126,302,"All-Rounder Job, Vernier recovery rate boosted 16%",2,1,1,,,,2019-07-31,,80,Dengeki
-33,Treize Khushrenada,,35,9,トレーズ・クシュリナーダ,3,2,5,20,558,558,558,558,558,302,302,"With Technique attribute (self), 14% chance to survive a fatal blow",3,1,1,,,,2019-07-31,,80,Dengeki
-34,Amuro Ray,,3,2,アムロ・レイ,4,2,13,16,796,384,1602,796,796,213,417,"Beam ranged weapon, reload speed boosted 20%",6,2,3,,,,2019-07-31,,80,Dengeki
-35,Sai Saici,,34,1,サイ・サイシー,4,2,14,9,796,1602,384,796,796,417,213,"Out-Fighter Job, EX Skill CD reduced 20%",4,1,2,,,,2019-07-31,,80,Dengeki
-36,Yzak Joule,,41,7,イザーク・ジュール,3,1,11,10,1145,292,292,559,559,430,430,"With Power attribute (self), Buff EX Skill effect up 15%",5,1,3,,,,2019-08-07,,80,Dengeki
-37,Harry Ord,,40,2,ハリー・オード,3,3,3,6,558,1142,291,558,558,302,126,"Beam ranged weapon, magazine boosted 20%",2,2,1,,Arena,,2019-08-07,,80,Dengeki
-38,Char Aznable,,3,9,シャア・アズナブル,4,3,3,5,795,795,795,795,795,609,211,"With Speed attribute (self), All DMG taken reduced by 20",4,2,1,,,,2019-08-07,,80,Dengeki
-39,Kou Uraki,,16,1,コウ・ウラキ,4,1,1,16,1606,384,384,799,799,612,612,14% chance to survive fatal blow,2,2,1,,,,2019-08-14,,80,Dengeki
-40,Cecily Fairchild,,30,3,セシリー・フェアチャイルド,3,3,3,24,889,291,889,558,558,126,428,"With Speed attribute (self), All DMG taken reduced by 20",7,2,2,,,,2019-08-14,,80,Dengeki
-41,Dearka Elsman,,41,8,ディアッカ・エルスマン,3,1,8,15,558,291,1142,558,558,302,126,"With Power attribute (self), Shot guidance boosted 14%",6,3,3,,,,2019-08-21,,80,Dengeki
-42,Seabook Arno,,30,1,シーブック・アノー,4,2,1,24,796,384,1602,796,796,417,213,"With Technique attribute (self), Enemy All Power reduced 18%",5,2,1,,,,2019-08-21,,80,Dengeki
-43,Nicol Amalfi,,41,9,ニコル・アマルフィ,3,3,9,15,889,889,291,558,558,126,428,"With Speed attribute (self), EX Skill piercing boosted 22%",7,1,1,,,,2019-08-28,,80,Dengeki
-44,Bernard Wiseman,,10,2,バーナード・ワイズマン,4,2,9,18,795,795,795,795,795,211,609,"When Armor is 60% or less, Recover 10 Armor gradually",3,1,3,,,,2019-08-28,,80,Dengeki
-45,Flit Asuno,,50,1,フリット・アスノ,3,1,7,6,558,558,558,558,558,302,302,"With Power attribute (self), Buff EX Skill time up 15%",3,2,1,,,,2019-09-04,,80,Dengeki
-46,Kira Yamato,,41,1,キラ・ヤマト,4,3,1,25,799,384,1184,1184,799,614,213,"With Speed attribute (self), EX Skill recovery boosted by 140",5,3,2,,,,2019-09-04,,80,Dengeki
-47,Mikazuki Augus,,52,1,三日月・オーガス,4,1,1,21,384,1182,1182,799,799,420,420,"With Power attribute (self), Initial EX Skill charge boosted 20%",2,1,2,,,,2019-09-11,,80,Dengeki
-48,Cima Garahau,,16,3,シーマ・ガラハウ,3,3,3,17,891,292,891,558,558,302,302,"With Speed attribute (self), Debuff EX Skill effect up 15%",2,2,3,,,,2019-09-11,,80,Dengeki
-49,Patrick Colasour,,47,1,パトリック・コーラサワー,3,1,2,24,1144,292,292,558,558,127,430,"With Power attribute (self), Buff EX Skill effect up 15%",5,2,1,,,,2019-09-17,,80,Dengeki
-50,George de Sand,,34,4,ジョルジュ・ド・サンド,4,2,14,8,795,382,382,1179,1179,609,211,"With Technique attribute (self), EX Skill CD reduced 20%",4,3,1,,,,2019-09-17,,80,Dengeki
-51,Sayla Mass,,3,4,セイラ・マス,3,3,15,26,1144,292,292,558,558,430,127,"With Speed attribute (self), Vernier consumption reduced 15%",7,2,3,,,,2019-09-25,,80,Dengeki
-52,Duo Maxwell,,35,3,デュオ・マックスウェル,4,3,6,23,796,1602,384,796,796,213,417,"With Speed attribute (self), 33% chance to not recoil",3,1,2,,,,2019-09-25,,80,Dengeki
-53,Cagalli Yula Athha,,41,13,カガリ・ユラ・アスハ,3,3,25,7,559,294,893,893,559,432,129,"With Speed attribute (self), Projectile speed boosted 14%",5,2,3,,Arena,,2019-10-01,,80,Dengeki
-54,Sven Cal Bayang,,46,2,スウェン・カル・バヤン,3,3,9,20,889,889,291,558,558,302,302,"With Speed attribute (self), Initial EX Skill charge boosted 12%",4,2,3,,Arena,,2019-10-01,,80,Dengeki
-55,Kamille Bidan,,18,5,カミーユ・ビダン,4,3,1,6,796,796,796,796,796,417,417,"With Speed attribute (self), EX Skill piercing boosted 28%",5,2,2,,,,2019-10-02,,80,Dengeki
-56,Elle Vianno,,21,3,エル・ビアンノ,3,2,24,15,561,893,294,561,893,215,215,"With Technique attribute (self), EX Skill recovery boosted 16%",4,2,3,,,,2019-10-02,,80,Dengeki
-57,Yazan Gable,,18,8,ヤザン・ゲーブル,3,1,16,12,891,558,292,891,558,430,127,"With Power attribute (self), 28% chance to not recoil",3,1,2,,,,2019-10-09,,80,Dengeki
-58,Haman Karn,,18,11,ハマーン・カーン,4,1,5,17,796,384,1602,796,796,417,213,"With Power attribute (self), Job Gauge increase boosted 17%",6,2,2,,,,2019-10-09,,80,Dengeki
-59,Emma Sheen,,18,7,エマ・シーン,3,1,7,13,559,294,893,893,559,129,432,"With Power attribute (self), Debuff EX Skill effect up 15%",5,2,1,,,,2019-10-16,,80,Dengeki
-60,Chang Wufei,,35,4,張五飛,4,2,6,3,1181,1181,384,796,796,417,417,"With Technique attribute (self), Strong Melee DMG output boosted by 35",3,1,2,,,,2019-10-16,,80,Dengeki
-61,Marida Cruz,,25,1,マリーダ・クルス,3,1,17,26,561,893,294,561,893,215,215,"With Power attribute (self), Long Shot Attack raised 14%",6,2,1,,,,2019-10-23,,80,Dengeki
-62,Athrun Zala,,41,5,アスラン・ザラ,4,3,12,7,799,1182,384,799,1182,612,213,50% chance to prevent vernier consumption when stepping,3,1,2,,,,2019-10-23,,80,Dengeki
-63,Shinn Asuka,,43,1,シン・アスカ,4,1,9,1,797,1181,1181,797,797,418,213,Initial EX Skill charge boosted 15%,4,1,1,,,,2019-10-30,,80,Dengeki
-64,Elpeo Ple,,21,1,エルピー・プル,3,2,20,8,559,294,893,893,559,432,129,"With Technique attribute (self), Vernier recovery rate boosted 16%",6,2,1,,,,2019-10-30,,80,Dengeki
-65,Trowa Barton,,35,5,トロワ・バートン,3,2,25,10,891,292,891,558,558,302,302,"All ranged weapon, magazine boosted 14%",5,3,2,,Event,,2019-10-30,,80,Dengeki
-66,Shiro Amada,,7,4,シロー・アマダ,4,1,23,21,1180,1180,383,796,796,610,212,"With Power attribute (self), Enemy Shooting power reduced 30%",4,2,3,,,,2019-11-06,,80,Dengeki
-67,Rosamia Badam,,18,9,ロザミア・バダム,3,2,20,12,889,558,291,558,889,428,126,"With Technique attribute (self), Enemy EX Skill penetration reduced 22%",7,3,1,,,,2019-11-06,,80,Dengeki
-68,Zechs Marquise,,35,7,ゼクス・マーキス,4,3,9,5,795,795,795,795,795,211,609,"With Speed attribute (self), Vernier recovery rate boosted 20%",3,1,2,,,,2019-11-13,,80,Dengeki
-69,Lucrezia Noin,,35,8,ルクレツィア・ノイン,3,2,12,2,559,294,893,893,559,303,303,"With Technique attribute (self), Debuff EX Skill time up 22%",2,2,3,,,,2019-11-13,,80,Dengeki
-70,Roux Louka,,21,2,ルー・ルカ,3,1,12,7,559,292,1144,559,559,303,303,"With Power attribute (self), Job Gauge increase boosted 13%",5,2,3,,,,2019-11-20,,80,Dengeki
-71,Paptimus Scirocco,,18,10,パプテマス・シロッコ,4,2,12,5,1180,1180,383,796,796,212,610,"With Technique attribute (self), Shot guidance boosted 14%",4,2,2,,,,2019-11-20,,80,Dengeki
-72,Garrod Ran,,39,1,ガロード・ラン,4,3,1,6,797,1181,1181,797,797,213,418,"When Armor is 80% or less, All power boosted 30%",4,2,3,,,,2019-11-27,,80,Dengeki
-73,Fa Yuiry,,18,14,ファ・ユイリィ,3,2,12,15,891,292,891,558,558,302,302,"Support Job, EX Skill recovery boosted 16%",7,3,1,,,,2019-11-27,,80,Dengeki
-74,Johnny Ridden,,4,1,ジョニー・ライデン,3,2,17,20,558,1142,291,558,558,126,302,"With Technique attribute (self), Buff EX Skill effect up 15%",3,2,2,,Arena,,2019-12-01,,80,Dengeki
-75,Judau Ashta,,21,4,ジュドー・アーシタ,4,1,1,12,796,384,1602,796,796,417,213,"With Power attribute (self), Buff EX Skill time up 22%",5,1,3,,,,2019-12-04,,80,Dengeki
-76,Lunamaria Hawke,,43,2,ルナマリア・ホーク,3,2,25,18,558,291,1142,558,558,302,126,"With Technique attribute (self), Long Shot Attack raised 14%",6,2,1,,,,2019-12-04,,80,Dengeki
-77,Carozzo Ronah,,30,4,カロッゾ・ロナ,4,1,10,26,799,384,384,799,799,614,614,"With Power attribute (self), Debuff EX Skill effect up 15%",2,3,2,,,,2019-12-11,,80,Dengeki
-78,Chloe Croce,,14,1,クロエ・クローチェ,3,3,9,23,559,1144,292,559,559,303,303,"With Speed attribute (self), Vernier consumption reduced 15%",4,1,2,,,,2019-12-11,,80,Dengeki
-79,Lila Milla Rira,,18,13,ライラ・ミラ・ライラ,3,1,16,20,292,891,891,559,559,303,303,"With Power attribute (self), Projectile speed boosted 14%",5,2,3,,,,2019-12-18,,80,Dengeki
-80,Gaelio Bauduin,,52,3,ガエリオ・ボードウィン,4,2,11,20,796,1602,384,796,796,417,213,"When Armor is 60% or more, All power boosted 30%",2,1,2,,,,2019-12-18,,80,Dengeki
-81,Neo Roanoke,,43,4,ネオ・ロアノーク,4,3,5,20,797,1181,1181,797,797,418,213,14% chance to survive a fatal blow,5,2,2,Akatsuki Ticket,,,2019-12-25,,80,Dengeki
-82,Quattro Bajeena,,18,12,クワトロ・バジーナ,4,3,5,3,797,1181,1181,797,797,213,418,"With Speed attribute (self), All DMG output boosted by 35",5,3,3,,,,2019-12-25,,80,Dengeki
-83,Kayra Su,,23,1,ケーラ・スゥ,3,2,7,16,889,558,291,558,889,126,428,"With Technique attribute (self), Shot guidance boosted 14%",2,1,1,,,,2019-12-25,,80,Dengeki
-84,Gai Murakumo,,44,2,叢雲劾,4,3,23,13,796,384,1602,796,796,417,213,"With Speed attribute (self), EX Skill recovery boosted 28%",5,1,2,,,,2020-01-01,,80,Dengeki
-85,Aina Sahalin,,7,2,アイナ・サハリン,3,2,8,18,559,292,1144,559,559,303,303,"With Technique attribute (self), Buff EX Skill effect up 15%",6,2,1,,,,2020-01-01,,80,Dengeki
-86,Jean-Luc Duval,,6,1,ジャン・リュック・デュバル,3,3,17,9,891,558,292,891,558,430,127,"With Speed attribute (self), Vernier consumption reduced 15%",2,2,2,,,,2020-01-08,,80,Dengeki
-87,Üso Ewin,,33,1,ウッソ・エヴィン,4,2,1,23,795,795,795,795,795,609,211,"With Technique attribute (self), Buff EX Skill time up 22%",4,2,3,,,,2020-01-08,,80,Dengeki
-88,Domon Kasshu,,34,6,ドモン・カッシュ,4,1,14,24,796,1753,155,977,643,417,213,"With Power attribute (self), All CRIT rate boosted 14%",3,1,2,,,,2020-01-15,,80,Dengeki
-89,Rey Za Burrel,,43,3,レイ・ザ・バレル,3,3,3,7,559,294,893,893,559,303,303,"All ranged weapon, magazine boosted 14%",5,3,1,,,,2020-01-15,,80,Dengeki
-90,Anavel Gato,,16,4,アナベル・ガトー,4,1,3,17,1180,1180,383,796,796,212,610,"With Power attribute (self), All DMG output boosted by 35",2,1,1,,,,2020-01-22,,80,Dengeki
-91,Quatre Raberba Winner,,35,6,カトル・ラバーバ・ウィナー,3,3,25,21,558,291,291,889,889,126,428,"With Speed attribute (self), Enemy All Power reduced 13%",7,1,3,,,,2020-01-22,,80,Dengeki
-92,Mr. Bushido,,47,3,ミスター・ブシドー,3,1,6,9,558,1142,291,558,558,126,302,"With Power attribute (self), EX Skill CD reduced 15%",3,2,3,,Event,,2020-01-29,,80,Dengeki
-93,Shiho Hahnenfuss,,42,1,シホ・ハーネンフース,3,3,8,3,558,291,1142,558,558,302,126,"All ranged weapon, magazine boosted 14%",6,2,1,,,,2020-01-29,,80,Dengeki
-94,Rau Le Creuset,,41,14,ラウ・ル・クルーゼ,4,2,5,3,1181,384,1181,796,796,611,213,"With Technique attribute (self), Buff EX Skill time up 22%",6,2,3,,,,2020-01-29,,80,Dengeki
-95,Setsuna F. Seiei,,47,5,刹那・F・セイエイ,4,3,1,13,796,1602,384,796,796,417,213,"While ""Gundam Type"", Buff EX Skill effect up 22%",3,1,3,,,,2020-02-05,,80,Dengeki
-96,Auel Neider,,43,8,アウル・ニーダ,3,2,4,7,889,291,889,558,558,126,428,"With Technique attribute (self), Debuff EX Skill effect up 15%",2,1,2,,,,2020-02-05,,80,Dengeki
-97,Louise Halevy,,47,7,ルイス・ハレヴィ,3,1,15,20,1144,292,292,558,558,430,127,"With Power attribute (self), Enemy All power reduced 13%",2,2,2,,,,2020-02-12,,80,Dengeki
-98,Lalah Sune,,3,11,ララァ・スン,4,2,8,3,799,384,1184,1184,799,614,213,"With Technique attribute (self), Debuff EX Skill effect up 22%",7,3,2,,,,2020-02-12,,80,Dengeki
-99,Stella Loussier,,43,6,ステラ・ルーシェ,3,3,12,6,558,891,891,558,558,127,302,"With Speed attribute (self), Job Gauge increase boosted 13%",4,2,3,,,,2020-02-19,,80,Dengeki
-100,Lockon Stratos,,47,6,ロックオン・ストラトス,4,2,10,8,799,384,1606,799,799,420,420,"With Technique attribute (self), Long Shot Attack raised 20%",6,3,3,,,,2020-02-19,,80,Dengeki
-101,Nena Trinity,,47,10,ネーナ・トリニティ,3,3,15,13,891,558,292,891,558,127,430,"With Speed attribute (self), EX Skill recovery boosted 16%",7,2,2,,Event,,2020-02-26,,80,Dengeki
-102,Sarah Zabiarov,,18,15,サラ・ザビアロフ,3,3,7,15,558,291,291,889,889,428,126,"With Speed attribute (self), Debuff EX Skill effect up 15%",7,2,2,,,,2020-02-26,,80,Dengeki
-103,Full Frontal,,25,3,フル・フロンタル,4,1,5,17,384,1182,1182,799,799,420,420,"While ""Zeon"", Initial EX Skill charge boosted 20%",4,2,3,,,,2020-02-26,,80,Dengeki
-104,Soma Peries,,47,4,ソーマ・ピーリス,3,1,7,20,558,291,291,889,889,428,126,"With Power attribute (self), Enemy Shooting power reduced 25%",5,2,2,,Arena,,2020-03-02,,80,Dengeki
-105,Lacus Clyne,,41,16,ラクス・クライン,4,2,5,20,795,795,795,795,795,211,609,"With Technique attribute (self), EX Skill recovery boosted by 140",7,3,3,,,,2020-03-04,,80,Dengeki
-106,Heine Westenfluss,,43,5,ハイネ・ヴェステンフルス,3,3,6,5,561,893,294,561,893,215,215,"With Speed attribute (self), Debuff EX Skill effect up 15%",2,1,1,,,,2020-03-04,,80,Dengeki
-107,Milliardo Peacecraft,,35,10,ミリアルド・ピースクラフト,4,2,6,9,796,1602,384,796,796,213,417,"With Technique attribute (self), Vernier consumption reduced 20%",4,1,1,,,,2020-03-11,,80,Dengeki
-108,Mashymre Cello,,21,5,マシュマー・セロ,3,1,17,20,889,889,291,558,558,302,302,"With Power attribute (self), Debuff EX Skill time up 16%",2,1,3,,,,2020-03-11,,80,Dengeki
-109,Tobia Arronax,,32,1,トビア・アロナクス,4,3,1,6,796,1602,384,796,796,417,213,"With Speed attribute (self), Buff EX Skill effect up 22%",3,1,2,,,,2020-03-18,,80,Dengeki
-110,Andrew Waltfeld,,41,15,アンドリュー・バルトフェルド,3,1,21,3,558,291,291,889,889,428,126,"With Power attribute (self), Enemy EX Skill penetration reduced 22%",5,2,1,,,,2020-03-18,,80,Dengeki
-111,Ribbons Almark,,47,9,リボンズ・アルマーク,4,1,13,20,797,1181,1181,797,797,418,213,"All ranged weapon, reload speed boosted 18%",6,3,3,,,,2020-03-25,,80,Dengeki
-112,Quess Paraya,,23,2,クェス・パラヤ,3,2,10,20,558,291,291,889,889,428,126,"With Technique attribute (self), 14% chance to survive a fatal blow",6,3,3,,,,2020-03-25,,80,Dengeki
-113,Tieria Erde,,47,8,ティエリア・アーデ,3,1,13,10,559,292,1144,559,559,303,303,"All ranged weapon, magazine boosted 14%",6,3,3,,Event,,2020-03-25,,80,Dengeki
-114,Heero Yuy,,35,1,ヒイロ・ユイ,4,3,10,12,796,384,1602,796,796,417,213,"With Speed attribute (self), All DMG output boosted by 35",6,3,1,,,,2020-04-01,,80,Dengeki
-115,Angelo Sauper,,25,2,アンジェロ・ザウパー,3,2,17,20,558,558,558,558,558,302,302,21% chance of attacks penetrating super armor,4,1,2,,,,2020-04-01,,80,Dengeki
-116,Loran Cehack,,40,4,ロラン・セアック,4,2,1,10,797,1181,1181,797,797,418,213,"With Technique attribute (self), Enemy All Power reduced 18%",4,1,3,,,,2020-04-08,,80,Dengeki
-117,Jamil Neate,,39,2,ジャミル・ニート,3,1,5,13,558,558,558,558,558,126,428,"With Power attribute (self), Enemy Shooting power reduced 25%",2,2,1,,,,2020-04-08,,80,Dengeki
-118,Master Asia,,34,7,マスター・アジア,4,1,14,6,799,1756,156,799,799,290,290,"While ""Mobile Fighter"", All DMG output boosted by 35",3,1,1,,,,2020-04-15,,80,Dengeki
-119,Chara Soon,,21,6,キャラ・スーン,3,3,17,9,559,1144,292,559,559,303,303,"With Speed attribute (self), EX Skill piercing boosted 22%",4,2,3,,,,2020-04-15,,80,Dengeki
-120,Yuu Kajima,,8,1,ユウ・カジマ,4,1,19,6,795,795,795,795,795,609,211,"When Armor is 80% or less, Buff EX Skill effect up 22%",4,2,1,,,,2020-05-13,,80,Dengeki
-121,Chibodee Crocket,,34,2,チボデー・クロケット,3,1,14,24,558,1142,291,558,558,126,302,"With Power attribute (self), All Shot Attack raised 14%",3,1,1,,,,2020-05-13,,80,Dengeki
-122,Asemu Asuno,,50,3,アセム・アスノ,3,2,12,3,558,558,558,558,558,302,302,"While ""Transformer"", All power boosted 25%",5,2,2,,Arena,,2020-05-18,,80,Dengeki
-123,Andrew Waltfeld,Destiny,43,10,アンドリュー・バルトフェルト［DESTINY］,4,3,12,5,795,795,795,795,795,211,609,"When in Multi-Mission Sortie, Shot guidance boosted 17%",2,2,2,,,,2020-05-20,,80,Dengeki
-124,Giri Gadeucca Aspis,,32,3,ギリ・ガデューカ・アスピス,3,1,6,5,558,891,891,558,558,302,127,"When 2 enemies shot down, All CRIT rate boosted 17%",3,1,1,,,,2020-05-20,,80,Dengeki
-125,Ple-Twelve,,25,7,プルトゥエルブ,4,1,10,6,796,1602,384,796,796,417,213,"When buffed, EX Skill piercing boosted 28%",4,1,3,,,,2020-05-27,,80,Dengeki
-126,Rosemary Raspberry,,32,4,ローズマリー・ラズベリー,3,2,7,20,292,891,891,559,559,303,303,"After 15s pass, Projectile speed boosted 14%",4,2,1,,,,2020-05-27,,80,Dengeki
-127,Sting Oakley,,43,7,スティング・オークレー,3,1,12,7,558,291,291,889,889,126,428,"When 1 allies shot down, All DMG taken reduced by 20",5,3,3,,Event,,2020-05-27,,80,Dengeki
-128,Ali al-Saachez,,47,12,アリー・アル・サーシェス,4,1,6,9,797,1181,1181,797,797,213,418,"When Melee ATK is over 16000, Job Gauge increase boosted 17%",3,1,2,,,,2020-06-03,,80,Dengeki
-129,Joseph Yaht,,40,5,ジョゼフ・ヨット,3,3,15,26,558,291,291,889,889,126,428,"While ""Support Type"", EX Skill piercing boosted 22%",2,1,3,,,,2020-06-03,,80,Dengeki
-130,Kou Uraki,Military Uniform Ver.,16,2,コウ・ウラキ［軍服ver.］,4,3,16,6,797,1181,1181,797,797,418,213,"When in Arena Sortie, All power boosted 30%",4,2,1,,,,2020-06-10,,80,Dengeki
-131,Cony Francis,,33,4,コニー・フランシス,3,2,2,7,558,558,558,558,558,126,428,"When Shot DEF is over 12000, Shot guidance boosted 14%",7,2,2,,,,2020-06-10,,80,Dengeki
-132,Banagher Links,,25,6,バナージ・リンクス,4,3,13,10,797,1181,1181,797,797,213,418,"While ""Gundam Type"", Buff EX Skill effect up 22%",4,2,1,,,,2020-06-17,,80,Dengeki
-133,Karen Joshua,,7,6,カレン・ジョシュワ,3,3,16,23,558,558,558,558,558,428,126,"When Phys. RES is over 6000, Long Shot Attack raised 14%",2,2,2,,,,2020-06-17,,80,Dengeki
-134,Allelujah Haptism,,47,11,アレルヤ・ハプティズム,4,2,12,9,800,1185,385,800,1185,292,292,"While ""Transformer"", Vernier consumption reduced 20%",4,2,2,,,,2020-06-24,,80,Dengeki
-135,Allenby Beardsley,,34,8,アレンビー・ビアズリー,3,2,14,24,559,1144,292,559,559,303,303,"When buffed, 28% chance to not recoil",3,1,1,,,,2020-06-24,,80,Dengeki
-136,Gym Ghingham,,40,6,ギム・ギンガナム,4,1,9,12,797,1181,1181,797,797,213,418,"When Melee ATK is over 16000, EX Skill CD reduced 20%",3,2,1,,,,2020-07-01,,80,Dengeki
-137,Kate Bush,,33,5,ケイト・ブッシュ,3,3,2,15,891,558,292,891,558,430,127,"With Speed attribute (self), 14% chance to survive a fatal blow",2,2,3,,,,2020-07-01,,80,Dengeki
-138,Prayer Reverie,,45,1,プレア・レヴェリー,3,2,3,20,558,291,1142,558,558,126,302,"While ""For Space"", Recover 10 Armor gradually",6,3,3,,Event,,2020-07-01,,80,Dengeki
-139,Shagia Frost,,39,3,シャギア・フロスト,4,2,3,10,1181,384,1181,796,796,213,611,"When attacking with Beam, Long Shot Attack raised 20%",5,2,1,,,,2020-07-08,,80,Dengeki
-140,Fuala Griffon,,33,6,ファラ・グリフォン,3,2,8,20,558,291,1142,558,558,126,302,"When 2 enemies shot down, Boost Job Gauge by 40% once",6,2,1,,,,2020-07-08,,80,Dengeki
-141,Anavel Gato,Military Uniform ver.,16,6,アナベル・ガトー［軍服ver.］,4,3,5,3,796,1602,384,796,796,213,417,"When buffed, EX Skill CD reduced 20%",3,2,2,,,,2020-07-15,,80,Dengeki
-142,Hugues Courand,,15,1,ユーグ・クーロ,3,2,16,1,558,558,558,558,558,126,428,"When in Multi-Mission Sortie, EX Skill CD reduced 15%",3,2,3,,,,2020-07-15,,80,Dengeki
-143,Trowa Barton,Endless Waltz Ver.,36,1,トロワ・バートン［Endless Waltz版］,4,1,11,8,1537,509,1537,1046,1046,281,796,"When CPWR is over 650000, Initial EX Skill charge boosted 20%",6,3,3,,,,2020-07-22,,99,Dengeki
-144,Monique Cadillac,,6,2,モニク・キャディラック,3,3,17,20,689,359,359,689,689,532,532,"With Speed attribute (self), Enemy Shooting power reduced 25%",3,1,2,,,,2020-07-22,,99,Dengeki
-145,Rain Mikamura,,34,5,レイン・ミカムラ,4,3,14,15,1046,509,2082,1046,1046,281,553,"When Armor is 60% or more, Buff EX Skill effect up 22%",7,3,3,,,,2020-07-29,,99,Dengeki
-146,South Burning,,16,7,サウス・バニング,3,3,16,5,1403,357,357,687,687,154,529,"With Speed attribute (self), 14% chance to survive a fatal blow",5,2,3,,,,2020-07-29,,99,Dengeki
-147,Alejandro Corner,,47,13,アレハンドロ・コーナー,3,1,10,20,1085,357,1085,687,687,374,374,"With Power attribute (self), EX Skill CD reduced 15%",6,3,1,,Event,,2020-07-29,,99,Dengeki
-148,Rezin Schnyder,,23,4,レズン・シュナイダー,3,2,5,17,1085,687,357,1085,687,529,154,"While ""Zeon"", Initial EX Skill charge boosted 12%",4,2,2,,Arena,,2020-08-03,,99,Dengeki
-149,Orga Itsuka,,52,,オルガ・イツカ,4,1,5,24,509,1538,1538,1049,1049,556,556,"When buffed, Enemy Shooting power reduced 30%",2,2,3,,,,2020-08-05,,99,Dengeki
-150,Glemy Toto,,21,8,グレミー・トト,3,2,12,17,1083,356,1083,687,687,527,153,"After 15s pass, Long Shot Attack raised 14%",5,2,1,,,,2020-08-05,,99,Dengeki
-151,Meer Campbell,,43,9,ミーア・キャンベル,4,1,18,3,1537,509,1537,1047,1047,554,554,"With Power attribute (self), Debuff EX Skill effect up 22%",7,3,1,,,,2020-08-12,,99,Dengeki
-152,Rondo Gina Sahaku,,44,3,ロンド・ギナ・サハク,3,2,5,9,687,687,687,687,687,527,153,"While ""High Mobility"", Job Gauge increase boosted 13%",4,1,3,,,,2020-08-12,,99,Dengeki
-153,Fon Spaak,,47,14,フォン・スパーク,4,1,13,6,1049,1538,509,1049,1538,281,797,"When 2 enemies shot down, All power boosted 30%",3,1,1,,,,2020-08-19,,99,Dengeki
-154,Norba Shino,,52,5,ノルバ・シノ,3,3,10,3,687,687,687,687,687,374,374,"When Armor ≥ 60%, All Shot Attack raised 14%",5,2,2,,,,2020-08-19,,99,Dengeki
-155,Ple Two,,21,,プルツー,4,3,8,20,1044,1044,1044,1044,1044,279,793,"While ""Long-Range"", Long Shot Attack raised 14%",5,2,2,,,,2020-08-26,,99,Dengeki
-156,Mikhail Kaminsky,,10,3,ミハイル・カミンスキー,3,2,17,22,687,1085,1085,687,687,374,154,21% Chance of attacks penetrating Super armor,2,1,2,,,,2020-08-26,,99,Dengeki
-157,Ein Dalton,,52,7,アイン・ダルトン,3,3,6,2,1083,1083,356,687,687,527,153,"When CPWR is over 150000, 28% chance to not recoil",3,1,1,,Event,,2020-08-26,,99,Dengeki
-158,Bellri Zenam,,51,2,ベルリ・ゼナム,4,1,13,9,1046,1046,1046,1046,1046,553,553,"When Armor is 60% or more, All power boosted 30%",4,2,1,,,,2020-09-02,,99,Dengeki
-159,Four Murasame,,18,6,フォウ・ムラサメ,3,2,13,12,687,687,687,687,687,527,153,"With Technique attribute (self), Buff EX Skill effect up 15%",6,3,1,,,,2020-09-02,,99,Dengeki
-160,Akihiro Altland,,52,8,昭弘・アルトランド,4,2,6,13,1049,1538,509,1049,1538,797,281,"When Armor is 90% or less, Enemy Shooting power reduced 30%",3,1,3,,,,2020-09-09,,99,Dengeki
-161,Lilia Flaubert,,12,1,リリア・フローベール,3,3,17,8,1083,356,1083,687,687,153,527,"When Shot ATK is over 10000, Long Shot Attack raised 14%",6,3,2,,,,2020-09-09,,99,Dengeki
-162,Odin Barnet,,38,1,アディン・バーネット,4,1,1,20,1046,2082,509,1046,1046,553,281,"With Power attribute (self), All power boosted 30%",4,2,2,,,,2020-09-16,,99,Dengeki
-163,Marbet Fingerhat,,33,2,マーベット・フィンガーハット,3,2,12,23,689,359,359,689,689,532,532,"All ranged weapon, magazine boosted 14%",6,3,1,,,,2020-09-16,,99,Dengeki
-164,Mask,,51,,マスク,4,2,5,9,1047,1537,1537,1047,1047,281,554,"With Technique attribute (self), Recover 20 Armor gradually",5,2,3,,,,2020-09-23,,99,Dengeki
-165,Demeziere Sonnen,,6,3,デメジエール・ソンネン,3,1,17,8,685,354,1540,685,754,372,372,Melee Attack down 10% Long Shot Attack raised 14%,6,3,3,,,,2020-09-23,,99,Dengeki
-166,McGillis Fareed,,52,9,マクギリス・ファリド,4,3,9,5,507,1782,1782,1044,1044,551,279,Job Gauge inc. down 10% All power boosted 30%,4,3,3,,,,2020-09-30,,99,Dengeki
-167,Hiling Care,,47,17,ヒリング・ケア,3,2,3,20,1107,354,1176,685,685,524,151,"With Technique attribute (self), Long Shot Attack raised 14%",2,3,3,,,,2020-09-30,,99,Dengeki
-168,Canard Pars,,45,2,カナード・パルス,3,2,13,7,683,752,752,752,752,521,151,"With Technique attribute (self), Enemy Shooting power reduced 25%",5,3,3,,Event,,2020-09-30,,99,Dengeki
-169,Yzak Joule,Destiny,43,11,イザーク・ジュール［DESTINY］,3,3,5,20,685,1540,354,752,685,151,372,"With Speed attribute (self), Job Gauge increase boosted 13%",3,3,3,,Arena,,2020-10-05,,99,Dengeki
-170,Domon Kasshu,Super Mode,34,9,ドモン・カッシュ［スーパーモード］,5,2,1,6,1526,2501,492,405,405,521,521,"While ""Close Combat"", Melee power boosted 30%",3,1,1,,,Blueprint,2020-10-07,,99,Dengeki
-171,Annerose Rosenheim,,14,,アンネローゼ・ローゼンハイン,4,1,17,8,1042,505,2265,1042,1133,549,277,Melee Attack down 10% Long Shot Attack raised 20%,6,3,3,,,,2020-10-07,,99,Dengeki
-172,Iok Kujan,,52,,イオク・クジャン,3,3,5,21,685,354,1176,1107,685,372,372,"With Speed attribute (self), Recover 10 Armor gradually",7,3,3,,,,2020-10-07,,99,Dengeki
-173,Odel Barnet,,38,2,オデル・バーネット,4,1,1,10,1042,2265,505,1133,1042,549,277,"While ""High Firepower"", Initial EX Skill charge boosted 20%",4,3,3,,,,2020-10-14,,99,Dengeki
-174,Illia Pzaom,,21,,イリア・パゾム,3,2,17,3,682,752,752,682,682,418,418,"With Technique attribute (self), Vernier consumption reduced 15%",5,3,3,,,,2020-10-14,,99,Dengeki
-175,Norris Packard,,7,,ノリス・パッカード,4,1,17,6,1042,2265,505,1133,1042,277,549,"While ""Zeon"", All power boosted 30%",3,1,2,,,,2020-10-21,,99,Dengeki
-176,Miguel Aiman,,41,17,ミゲル・アイマン,3,3,20,9,354,354,354,1305,1305,521,151,"With Speed attribute (self), EX Skill piercing boosted 22%",5,2,1,,,,2020-10-21,,99,Dengeki
-177,Graham Aker,,47,,グラハム・エーカー,4,3,6,9,1042,2268,507,113,1042,549,549,"With Speed attribute (self), Vernier consumption reduced 20%",4,2,2,,,,2020-10-28,,99,Dengeki
-178,Gilboa Sant,,25,8,ギルボア・サント,3,1,17,7,687,356,356,1083,1083,153,527,"With Power attribute (self), 28% chance to not recoil",7,2,2,,,,2020-10-28,,99,Dengeki
-179,Shin Matsunaga,,4,2,シン・マツナガ,3,2,17,3,682,752,752,682,682,418,418,"With Technique attribute (self), Enemy Shooting power reduced 25%",3,1,3,,Event,,2020-10-28,,99,Dengeki
-180,Kira Yamato,SEED Awakened,41,18,キラ・ヤマト［SEED覚醒］,5,1,3,10,1287,488,2569,488,488,260,827,"With Power attribute (self), Shooting power boosted 30%",6,2,2,,,Blueprint,2020-10-28,,99,Dengeki
-181,Amuro Ray,Z,18,,アムロ・レイ［Z］,4,3,3,10,507,1782,1782,1044,1044,551,279,"With Speed attribute (self), All CRIT rate boosted 30%",4,1,3,,,,2020-11-04,,99,Dengeki
-182,Descartes Shaman,,48,1,デカルト・シャーマン,4,1,20,10,685,354,1540,685,752,372,151,"With Power attribute (self), Long Shot Attack raised 14%",6,3,1,,,,2020-11-04,,99,Dengeki
-183,Chang Wufei,Endless Waltz Ver.,36,,張五飛［Endless Waltz版］,4,3,13,6,1131,2141,505,1260,1040,375,547,"Shot Attack down 10%, All power boosted 30%",4,1,1,,,,2020-11-11,,99,Dengeki
-184,Daguza Mackle,,25,,ダグザ・マックール,3,1,16,5,442,1105,1105,834,834,151,370,"With Power attribute (self), 14% chance to survive a fatal blow",2,2,3,,,,2020-11-11,,99,Dengeki
-185,Mikazuki Augus,II,52,11,三日月・オーガス［弐］,4,2,1,6,1131,2141,505,1260,1040,547,375,"With Technique attribute (self), Initial EX Skill charge boosted 20%",3,1,1,,,,2020-11-18,,99,Dengeki
-186,Buran Blutarch,,18,,ブラン・ブルターク,4,3,12,23,442,1105,1105,834,834,151,370,"With Speed attribute (self), Shot spread reduced 15%",6,2,1,,,,2020-11-18,,99,Dengeki
-187,Banagher Links,Civilian Clothes Version,25,10,バナージ・リンクス［私服ver.］,5,2,1,3,922,2329,2453,500,500,771,0,Middle-Shooter Job Shooting power boosted 30%,4/5,1,2,,,Blueprint,2020-11-25,,99,Dengeki
-188,Vincent Gleissner,,14,,ヴィンセント・グライスナー,4,3,17,9,1260,505,2143,1040,1260,547,277,"With Speed attribute (self), Recover 20 Armor gradually",5,2,3,,,,2020-11-25,,99,Dengeki
-189,Erik Blanke,,15,2,エリク・ブランケ,4,1,17,5,752,1434,354,834,683,370,259,"With Power attribute (self), Debuff EX Skill effect up 15%",4,1,2,,,,2020-11-25,,99,Dengeki
-190,Agar,,5,1,エイガ,3,2,16,8,1173,354,1173,683,683,151,521,"All ranged weapon, magazine boosted 14%",6,3,3,,Event,,2020-11-25,,99,Dengeki
-191,Domon Kasshu,Mirror Sheen,34,10,ドモン・カッシュ［明鏡止水］,4,1,14,6,832,2370,91,1538,727,281,556,"While ""Mobile Fighter"", All power boosted 30%",3,1,3,,,,2020-12-02,,99,Dengeki
-192,Kacricon Cacooler,,18,18,カクリコン・カクーラー,3,3,7,24,1173,1173,354,683,683,151,521,All ranged weapon magazine boosted 14%,7,3,3,,,,2020-12-02,,99,Dengeki
-193,Argi Mirage,,53,1,アルジ・ミラージ,4,1,1,20,616,1775,1775,1131,1131,547,277,26% chance of attacks penetrating super armor,3,1,1,,,,2020-12-09,,99,Dengeki
-194,Howard Mason,,47,16,ハワード・メイスン,3,2,9,25,442,1105,1105,834,834,151,370,"With Technique attribute (self), 28% chance to not recoil",2,2,3,,,,2020-12-09,,99,Dengeki
-195,Schwarz Bruder,,34,,シュバルツ・ブルーダー,4,3,14,23,1039,2256,504,1259,1039,276,546,"With Speed attribute (self), Recover 20 Armor gradually",3,1,3,,,,2020-12-16,,99,Dengeki
-196,Rakan Dahkaran,,21,,ラカン・ダカラン,3,1,17,10,2049,212,212,1071,1071,515,515,"While ""Zeon"", EX Skill piercing boosted 22%",2,3,2,,,,2020-12-16,,99,Dengeki
-197,Yurin Luciel,,50,2,ユリン・ルシェル,3,1,8,15,681,1075,1171,681,833,368,258,"With Power attribute (self), Long Shot Attack raised 14%",6,3,3,,Arena,,2020-12-21,,99,Dengeki
-198,Cronicle Asher,,33,7,クロノクル・アシャー,4,3,3,9,1524,929,1774,1039,1128,783,276,"When Armor is 60% or more, EX Skill CD reduced 20%",5,3,3,,,,2020-12-23,,99,Dengeki
-199,Lafter Frankland,,52,,ラフタ・フランクランド,3,2,9,7,681,1238,353,681,1300,573,258,"While ""High Mobility"", 14% chance to survive a fatal blow",7,3,2,,,,2020-12-23,,99,Dengeki
-200,Preventer Wind,,36,3,プリベンター・ウインド,4,1,3,9,1039,504,2346,504,1772,546,276,"When attacking with Beam, All power boosted 30%",6,2,3,,,,2020-12-30,,99,Dengeki
-201,Herbert von Kuspen,,6,4,ヘルベルト・フォン・カスペン,3,2,17,25,1390,1172,636,750,681,150,368,"With Technique attribute (self), Recover 10 Armor gradually",2,2,2,,,,2020-12-30,,99,Dengeki
-202,Carris Nautilus,,39,4,カリス・ノーティラス,3,2,7,8,687,687,687,687,687,527,153,"While ""Mid-Range"", Shot guidance boosted 14%",6,3,3,,Event,,2020-12-30,,99,Dengeki
-203,Riddhe Marcenas,,25,,リディ・マーセナス,4,1,16,7,1039,1519,1962,1036,1036,495,543,"With Power attribute (self), EX Skill piercing boosted 28%",5,1,1,,,,2021-01-06,,99,Dengeki
-204,Carta Issue,,52,,カルタ・イシュー,3,3,5,22,1075,353,353,1389,1389,368,368,"With Speed attribute (self), 28% change to not recoil",6,3,3,,,,2021-01-06,,99,Dengeki
-205,Athrun Zala,Destiny,43,,アスラン・ザラ［DESTINY］,4,2,13,9,497,1986,1511,1032,1032,1015,0,"While ""High Mobility"", Initial EX Skill charge boosted 20%",4,1,1,,,,2021-01-13,,99,Dengeki
-206,Terry Sanders Jr.,,7,,テリー・サンダースJr.,3,1,16,23,681,899,899,899,899,150,519,"With Power attribute (self), Projectile speed boosted 14%",6,3,3,,,,2021-01-13,,99,Dengeki
-207,Char Aznable,CCA,23,5,シャア・アズナブル［CCA］,4,3,10,6,0,2120,1599,1758,1758,0,537,"While ""High Firepower"", Buff EX Skill effect up 22%",3,1,1,,,,2021-01-20,,99,Dengeki
-208,Rasid Kurama,,35,11,ラシード・クラマ,3,2,5,21,680,468,468,1298,1298,367,367,"With Technique attribute (self), Enemy EX Skill penetration reduced 22%",7,3,3,,,,2021-01-20,,99,Dengeki
-209,Shinn Asuka,SEED Awakened,43,13,シン・アスカ［SEED覚醒］,5,3,10,6,1119,2446,2327,822,415,0,552,"While ""High Firepower"" All Power boosted 30%",4/5,2,1,,,Blueprint,2021-01-27,,99,Dengeki
-210,Setsuna F. Seiei,ELS Innovator,48,2,刹那・F・セイエイ［ELSイノベイター］,5,1,1,9,1227,2598,499,1019,411,579,266,"While ""Protag."" EX Skill Power boosted 30%",3/4,1,3,,,Blueprint,2021-01-27,,99,Dengeki
-211,Julieta Juris,,52,,ジュリエッタ・ジュリス,4,1,9,20,2064,2132,503,1036,1036,543,275,When attacking with Physical EX Skill Piercing boosted 28%,3,1,1,,,,2021-01-27,,99,Dengeki
-212,Alpha A. Bate,,16,,アルファ・A・ベイト,3,3,16,19,680,352,680,1169,1169,515,149,With Speed Attribute (self) Shot Guidance boosted 14%,5,3,3,,,,2021-01-27,,99,Dengeki
-213,Montag,,52,15,モンターク,3,1,9,6,680,1428,352,1387,633,149,367,"While ""High Mobility"" Enemy Shooting Power reduced 25%",4,2,2,,Event,,2021-01-27,,99,Dengeki
-214,Setsuna F. Seiei,2nd Season,47,18,刹那・F・セイエイ［2nd season］,4,2,6,1,1036,2132,503,2064,927,275,543,"While ""Protag."", All power boosted 30%",4,1,2,,,,2021-02-03,,99,Dengeki
-215,Corin Nander,,40,7,コレン・ナンダー,3,3,4,24,1387,1298,352,680,680,515,149,"With Speed attribute (self), Job Gauge increase boosted 13%",2,2,2,,,,2021-02-03,,99,Dengeki
-216,Callisto's Light,,32,5,光のカリスト,4,3,5,12,1036,1770,1859,1036,1520,543,275,"With Speed attribute (self), Boost Funnel uptime by 50%.",5,3,3,,,,2021-02-10,,99,Dengeki
-217,Mouar Pharaoh,,18,,マウアー・ファラオ,3,1,12,20,1236,352,1169,680,680,149,515,"With Power attribute (self), Long Shot Attack raised 14%",7,2,2,,,,2021-02-10,,99,Dengeki
-218,Kira Yamato,Destiny,43,,キラ・ヤマト［DESTINY］,4,3,3,13,195,413,2337,1035,1607,0,1542,"With Twin Rifle category equipped, Initial EX Skill charge boosted 20%",6,3,1,,,,2021-02-17,,99,Dengeki
-219,Azee Gurumin,,52,16,アジー・グルミン,3,1,6,2,1382,1382,352,678,678,514,149,21% chance of attacks penetrating super armor,2,2,2,,,,2021-02-17,,99,Dengeki
-220,Eugene Sevenstark,,52,18,ユージン・セブンスターク,3,2,5,10,1382,678,352,678,1382,514,149,"When attacking with Physical, All CRIT rate boosted 17%",7,3,3,,Arena,,2021-02-22,,99,Dengeki
-221,Duo Maxwell,Endless Waltz Ver.,36,,デュオ・マックスウェル［Endless Waltz版］,4,2,6,9,1516,2337,502,716,716,875,875,"With Technique attribute (self), Melee CRIT rate boosted 30%",4,1,2,,,,2021-02-24,,99,Dengeki
-222,Michael Trinity,,47,,ミハエル・トリニティ,3,1,13,6,828,828,828,828,828,413,413,"With Power attribute (self), 14% chance to survive a fatal blow",3,1,3,,,,2021-02-24,,99,Dengeki
-223,Graham Aker,Movie Ver.,48,3,グラハム・エーカー［劇場版］,5,2,5,3,2000,480,2705,407,493,518,265,"While ""Commander"", EX Skill power boosted 30%",5/6,2,1,,,Blueprint,2021-02-24,,99,Dengeki
-224,Gyunei Guss,,23,6,ギュネイ・ガス,3,2,17,20,1070,352,1070,1382,1070,365,149,"With Technique attribute (self), Boost Funnel Uptime 40%",5,3,1,,Event,,2021-02-24,,99,Dengeki
-225,Haman Karn,ZZ,21,,ハマーン・カーン［ZZ］,4,2,3,7,1035,502,2060,1035,2060,542,542,"With Technique attribute (self), Boost Funnel uptime by 50%",5,2,3,,,,2021-03-03,,99,Dengeki
-226,Orga Sabnak,,41,,オルガ・サブナック,3,3,8,7,680,468,468,1298,1298,367,367,"All ranged weapon, magazine boosted 14%",6,3,1,,,,2021-03-03,,99,Dengeki
-227,Quattro Bajeena,Military Uniform Ver.,18,,クワトロ・バジーナ［軍服ver.］,4,1,6,9,1254,1767,1767,1254,1254,542,274,"While ""High Mobility"", Enemy Shooting power reduced 30%",4,2,3,,,,2021-03-10,,99,Dengeki
-228,Olba Frost,,39,,オルバ・フロスト,3,2,12,8,828,750,826,826,750,541,256,"When attacking with Beam, Long Shot Attack raised 14%",6,1,3,,,,2021-03-10,,99,Dengeki
-229,Cagali Yula Athha,Destiny,43,,カガリ・ユラ・アスハ［DESTINY］,4,1,5,9,507,507,2079,507,1044,1812,279,"With Power attribute (self), Recover 20 Armor gradually",7,2,1,,,,2021-03-17,,99,Dengeki
-230,Master Pierce Rayer,,9,1,マスター・ピース・レイヤー,3,3,16,19,131,279,1585,678,1098,0,1049,"With Speed attribute (self), Shooting CRIT rate boosted 17%",6,2,2,,,,2021-03-17,,99,Dengeki
-231,Laura Rolla,,40,,ローラ・ローラ,5,3,10,13,1099,494,2691,484,1389,350,349,"While ""Gundam Type"", Shooting power boosted 30%",5/7,3,3,,,Blueprint,2021-03-24,,99,Dengeki
-232,Stella Loussier,Civilian Clothes Ver.,43,16,ステラ・ルーシェ［私服ver.］,5,2,9,6,1100,2637,296,2022,405,528,100,"While ""High Mobility"", Melee power boosted 30%",2/3,1,2,,,Blueprint,2021-03-24,,99,Dengeki
-233,Tieria Erde,2nd Season,47,,ティエリア・アーデ［2nd season］,4,2,8,11,1516,502,1516,2060,1516,542,274,"With Technique attribute (self), Long Shot Attack raised 20%",6,3,3,,,,2021-03-24,,99,Dengeki
-234,Bernard Monsha,,16,,ベルナルド・モンシア,3,1,16,2,2049,212,212,1071,1071,515,515,"With Power attribute (self), 28% chance to not recoil",2,2,1,,,,2021-03-24,,99,Dengeki
-235,Ford Romfellow,,12,,フォルド・ロムフェロー,4,1,1,20,1035,2130,1254,1516,1035,542,274,"Beam ranged weapon, magazine boosted 25%",3,1,1,,,,2021-03-31,,99,Dengeki
-236,Nimbus Schterzen,,8,,ニムバス・シュターゼン,3,3,17,6,687,1400,356,687,687,374,153,"With Speed attribute (self), Melee CRIT rate boosted 17%",3,1,3,,,,2021-03-31,,99,Dengeki
-237,Zabine Chareaux,,30,6,ザビーネ・シャル,3,1,5,20,748,896,828,896,748,413,413,"With Power attribute (self), EX Skill CD reduced 15%",5,2,2,,Event,,2021-03-31,,99,Dengeki
-238,Rondo Mina Sahaku,,44,4,ロンド・ミナ・サハク,4,3,6,13,1035,1960,1960,1035,1035,274,775,"With Speed attribute (self), EX Skill piercing boosted 28%",4,2,2,,,,2021-04-07,,99,Dengeki
-239,Ride Mass,,52,17,ライド・マッス,3,2,21,11,1165,1165,466,828,828,567,256,"With Technique attribute (self), Enemy All power reduced 13%",2,2,1,,,,2021-04-07,,99,Dengeki
-240,Tobia Arronax,Skull Heart,32,,トビア・アロナクス［スカルハート］,4,2,10,9,1855,2130,502,1607,1035,542,274,"When 1 allies shot down, Vernier Consumption=0 for 16 sec.",3,1,1,,,,2021-04-14,,99,Dengeki
-241,Anew Returner,,47,,アニュー・リターナー,3,1,7,20,828,828,828,828,828,413,413,"With Power attribute (self), Shooting CRIT rate boosted 17%",7,1,3,,,,2021-04-14,,99,Dengeki
-242,Kincade Nau,,32,2,キンケドゥ・ナウ,4,2,6,9,2243,2331,500,1320,818,538,272,"With Technique attribute (self), Melee CRIT rate boosted 30%",3,1,1,,,,2021-04-21,,99,Dengeki
-243,Mudie Holcroft,,46,3,ミューディー・ホルクロフト,3,2,13,6,1163,1646,351,1067,677,148,364,"With Technique attribute (self), 14% chance to survive a fatal blow",5,1,3,,,,2021-04-21,,99,Dengeki
-244,Rindo Kuzunoha,,64,1,クズノハ・リンドウ,4,1,3,10,1152,475,2006,957,1152,512,212,"With Power attribute (self), Long Shot Attack raised 20%",6,2,2,,,Mission,2021-04-21,,99,Dengeki
-245,Sana Miyama,,64,2,ミヤマ・サナ,4,2,15,7,1454,860,1641,955,1062,212,722,"With Technique attribute (self), EX Skill recovery boosted 28%",7,3,3,,,Mission,2021-04-21,,99,Dengeki
-246,Luce Kassel,,12,3,ルース・カッセル,3,3,16,8,1378,351,1229,677,1163,148,511,"With Speed attribute (self), EX Skill piercing boosted 22%",6,3,2,,Arena,,2021-04-26,,99,Dengeki
+Index,Name,Subname,Series,Issue,Japanese,Rarity,Attr,W Tag 1,W Tag 2,Armor,Melee ATK,Shot ATK,Melee DEF,Shot DEF,Beam RES,Phys. RES,Trait Condition,Trait Effect,Trait,Job Lic,AI Range,AI Priority,Capsule,Exchange,Other,Release Date,Notes,Level,Link
+1,Amuro Ray,Pre-Registration Reward,3,3,アムロ・レイ【事前登録報酬】,2,1,13,16,363,363,363,363,363,80,280,With Power attribute (self),EX Skill CD reduced 11%,"With Power attribute (self), EX Skill CD reduced 11%",4,2,3,,,,2019-07-31,,80,Dengeki
+2,Gaia,,3,16,ガイア,2,1,8,23,364,187,187,570,570,201,201,With Power attribute (self),EX Skill recovery boosted by 85,"With Power attribute (self), EX Skill recovery boosted by 85",2,1,3,,,,2019-07-31,,80,Dengeki
+3,Juri Wu Nien,,41,12,ジュリ・ウー・ニェン,2,1,2,25,364,187,187,570,570,201,201,With Power attribute (self),EX Skill CD reduced 11%,"With Power attribute (self), EX Skill CD reduced 11%",5,2,2,,,,2019-07-31,,80,Dengeki
+4,Kai Shiden,,3,5,カイ・シデン,2,1,7,16,755,187,187,364,364,81,281,With Power attribute (self),EX Skill recovery boosted 18%,"With Power attribute (self), EX Skill recovery boosted 18%",6,2,3,,,,2019-07-31,,80,Dengeki
+5,Poe Aijee,,40,3,ポゥ・エイジ,2,1,8,15,755,187,187,364,364,281,81,With Power attribute (self),Shot guidance boosted 14%,"With Power attribute (self), Shot guidance boosted 14%",6,3,3,,,,2019-07-31,,80,Dengeki
+6,Reccoa Londe,,18,4,レコア・ロンド,2,1,10,20,570,187,570,364,364,201,201,With Power attribute (self),Debuff EX Skill effect up 12%,"With Power attribute (self), Debuff EX Skill effect up 12%",6,3,1,,,,2019-07-31,,80,Dengeki
+7,Sigh Argyle,,41,4,サイ・アーガイル,2,1,8,13,570,364,187,570,364,281,81,With Power attribute (self),Projectile speed boosted 12%,"With Power attribute (self), Projectile speed boosted 12%",7,2,2,,,,2019-07-31,,80,Dengeki
+8,Sleggar Law,,3,8,スレッガー・ロウ,2,1,15,16,364,187,754,364,364,201,81,With Power attribute (self),EX Skill piercing boosted 15%,"With Power attribute (self), EX Skill piercing boosted 15%",3,3,2,,,,2019-07-31,,80,Dengeki
+9,Sochie Heim,,40,1,ソシエ・ハイム,2,1,4,15,363,186,186,569,569,80,280,With Power attribute (self),10% chance to survive a fatal blow,"With Power attribute (self), 10% chance to survive a fatal blow",7,1,2,,,,2019-07-31,,80,Dengeki
+10,Dozle Zabi,,3,13,ドズル・ザビ,3,1,10,18,558,891,891,558,558,127,302,With Power attribute (self),EX Skill piercing boosted 22%,"With Power attribute (self), EX Skill piercing boosted 22%",2,1,2,,,,2019-07-31,,80,Dengeki
+11,Ginias Sahalin,,7,3,ギニアス・サハリン,3,1,8,17,558,291,291,889,889,428,126,With Power attribute (self),Vernier recovery rate boosted 16%,"With Power attribute (self), Vernier recovery rate boosted 16%",2,3,1,,,,2019-07-31,,80,Dengeki
+12,Christina Mackenzie,,10,1,クリスチーナ・マッケンジー,4,1,6,24,795,382,382,1179,1179,609,211,With Power attribute (self),EX Skill piercing boosted 28%,"With Power attribute (self), EX Skill piercing boosted 28%",5,1,2,,,,2019-07-31,,80,Dengeki
+13,Asagi Caldwell,,41,10,アサギ・コードウェル,2,3,2,20,364,187,757,364,364,201,201,With Speed attribute (self),Shot spread reduced 12%,"With Speed attribute (self), Shot spread reduced 12%",7,2,1,,,,2019-07-31,,80,Dengeki
+14,Eledore Massis,,7,1,エレドア・マシス,2,3,8,15,755,187,187,364,364,81,281,With Speed attribute (self),Initial EX Skill charge boosted 11%,"With Speed attribute (self), Initial EX Skill charge boosted 11%",7,3,1,,,,2019-07-31,,80,Dengeki
+15,Mayura Labatt,,41,11,マユラ・ラバッツ,2,3,2,24,364,364,364,364,364,201,201,With Speed attribute (self),Buff EX Skill effect up 12%,"With Speed attribute (self), Buff EX Skill effect up 12%",4,2,3,,,,2019-07-31,,80,Dengeki
+16,Ortega,,3,18,オルテガ,2,3,23,17,365,187,571,571,365,81,282,With Speed attribute (self),Job Gauge increase boosted 11%,"With Speed attribute (self), Job Gauge increase boosted 11%",5,3,2,,,,2019-07-31,,80,Dengeki
+17,Garma Zabi,,3,12,ガルマ・ザビ,3,3,5,23,559,294,294,559,559,432,432,With Speed attribute (self),Buff EX Skill time up 15%,"With Speed attribute (self), Buff EX Skill time up 15%",5,2,1,,,,2019-07-31,,80,Dengeki
+18,Jerid Messa,,18,3,ジェリド・メサ,3,3,12,7,558,891,891,558,558,127,302,With Speed attribute (self),Vernier recovery rate boosted 16%,"With Speed attribute (self), Vernier recovery rate boosted 16%",4,2,1,,,,2019-07-31,,80,Dengeki
+19,Selene McGriff,,46,1,セレーネ・マクグリフ,3,3,1,15,558,291,1142,558,558,302,126,With Speed attribute (self),Enemy EX Skill penetration reduced 22%,"With Speed attribute (self), Enemy EX Skill penetration reduced 22%",7,3,1,,,,2019-07-31,,80,Dengeki
+20,Lowe Guele,,44,1,ロウ・ギュール,4,3,1,10,1180,1180,383,796,796,212,610,With Speed attribute (self),All CRIT rate boosted 14%,"With Speed attribute (self), All CRIT rate boosted 14%",3,1,2,,,,2019-07-31,,80,Dengeki
+21,Haro,,3,1,ハロ,1,2,12,26,287,138,138,287,287,194,194,,EX Skill recovery boosted by 110,EX Skill recovery boosted by 110,1,2,3,,,,2019-07-31,,80,Dengeki
+22,Akahana,,3,19,アカハナ,2,2,4,17,755,187,187,364,364,281,81,With Technique attribute (self),EX Skill recovery boosted 18%,"With Technique attribute (self), EX Skill recovery boosted 18%",7,1,1,,,,2019-07-31,,80,Dengeki
+23,Apolly Bay,,18,1,アポリー・ベイ,2,2,9,15,363,363,363,363,363,280,80,With Technique attribute (self),Strong Melee DMG output boosted by 15,"With Technique attribute (self), Strong Melee DMG output boosted by 15",4,2,3,,,,2019-07-31,,80,Dengeki
+24,Hayato Kobayashi,,3,6,ハヤト・コバヤシ,2,2,8,16,570,364,187,364,570,201,201,,20% chance to prevent vernier consumption when stepping,20% chance to prevent vernier consumption when stepping,6,3,1,,,,2019-07-31,,80,Dengeki
+25,Heero Yuy,Pre-Registration Reward,35,2,ヒイロ・ユイ【事前登録報酬】,2,2,12,13,570,187,570,364,364,281,81,,20% chance to prevent vernier consumption when stepping,20% chance to prevent vernier consumption when stepping,2,3,2,,,,2019-07-31,,80,Dengeki
+26,Mash,,3,17,マッシュ,2,2,11,23,570,364,187,364,570,281,81,,EX Skill piercing boosted 16%,EX Skill piercing boosted 16%,4,2,2,,,,2019-07-31,,80,Dengeki
+27,Roberto,,18,2,ロベルト,2,2,9,20,363,363,363,363,363,80,280,With Technique attribute (self),Debuff EX Skill effect up 12%,"With Technique attribute (self), Debuff EX Skill effect up 12%",3,2,1,,,,2019-07-31,,80,Dengeki
+28,Ryu Jose,,3,7,リュウ・ホセイ,2,2,8,16,570,187,570,364,364,201,201,With Technique attribute (self),Buff EX Skill time up 15%,"With Technique attribute (self), Buff EX Skill time up 15%",2,3,2,,,,2019-07-31,,80,Dengeki
+29,Sergei Smirnov,,47,2,セルゲイ・スミルノフ,2,2,3,5,757,187,187,364,364,281,281,With Technique attribute (self),11% chance to not recoil,"With Technique attribute (self), 11% chance to not recoil",4,2,1,,,,2019-07-31,,80,Dengeki
+30,M'Quve,,3,15,マ・クベ,3,2,6,21,558,291,291,889,889,428,126,With Technique attribute (self),Debuff EX Skill effect up 15%,"With Technique attribute (self), Debuff EX Skill effect up 15%",3,1,1,,,,2019-07-31,,80,Dengeki
+31,Mu La Flaga,,41,3,ムウ・ラ・フラガ,3,2,15,20,558,558,558,558,558,428,126,With Technique attribute (self),EX Skill piercing boosted 22%,"With Technique attribute (self), EX Skill piercing boosted 22%",6,3,2,,,,2019-07-31,,80,Dengeki
+32,Ramba Ral,,3,14,ランバ・ラル,3,2,6,21,558,1142,291,558,558,126,302,All-Rounder Job,Vernier recovery rate boosted 16%,"All-Rounder Job, Vernier recovery rate boosted 16%",2,1,1,,,,2019-07-31,,80,Dengeki
+33,Treize Khushrenada,,35,9,トレーズ・クシュリナーダ,3,2,5,20,558,558,558,558,558,302,302,With Technique attribute (self),14% chance to survive a fatal blow,"With Technique attribute (self), 14% chance to survive a fatal blow",3,1,1,,,,2019-07-31,,80,Dengeki
+34,Amuro Ray,,3,2,アムロ・レイ,4,2,13,16,796,384,1602,796,796,213,417,Beam ranged weapon,reload speed boosted 20%,"Beam ranged weapon, reload speed boosted 20%",6,2,3,,,,2019-07-31,,80,Dengeki
+35,Sai Saici,,34,1,サイ・サイシー,4,2,14,9,796,1602,384,796,796,417,213,Out-Fighter Job,EX Skill CD reduced 20%,"Out-Fighter Job, EX Skill CD reduced 20%",4,1,2,,,,2019-07-31,,80,Dengeki
+36,Yzak Joule,,41,7,イザーク・ジュール,3,1,11,10,1145,292,292,559,559,430,430,With Power attribute (self),Buff EX Skill effect up 15%,"With Power attribute (self), Buff EX Skill effect up 15%",5,1,3,,,,2019-08-07,,80,Dengeki
+37,Harry Ord,,40,2,ハリー・オード,3,3,3,6,558,1142,291,558,558,302,126,Beam ranged weapon,magazine boosted 20%,"Beam ranged weapon, magazine boosted 20%",2,2,1,,Arena,,2019-08-07,,80,Dengeki
+38,Char Aznable,,3,9,シャア・アズナブル,4,3,3,5,795,795,795,795,795,609,211,With Speed attribute (self),All DMG taken reduced by 20,"With Speed attribute (self), All DMG taken reduced by 20",4,2,1,,,,2019-08-07,,80,Dengeki
+39,Kou Uraki,,16,1,コウ・ウラキ,4,1,1,16,1606,384,384,799,799,612,612,,14% chance to survive fatal blow,14% chance to survive fatal blow,2,2,1,,,,2019-08-14,,80,Dengeki
+40,Cecily Fairchild,,30,3,セシリー・フェアチャイルド,3,3,3,24,889,291,889,558,558,126,428,With Speed attribute (self),All DMG taken reduced by 20,"With Speed attribute (self), All DMG taken reduced by 20",7,2,2,,,,2019-08-14,,80,Dengeki
+41,Dearka Elsman,,41,8,ディアッカ・エルスマン,3,1,8,15,558,291,1142,558,558,302,126,With Power attribute (self),Shot guidance boosted 14%,"With Power attribute (self), Shot guidance boosted 14%",6,3,3,,,,2019-08-21,,80,Dengeki
+42,Seabook Arno,,30,1,シーブック・アノー,4,2,1,24,796,384,1602,796,796,417,213,With Technique attribute (self),Enemy All Power reduced 18%,"With Technique attribute (self), Enemy All Power reduced 18%",5,2,1,,,,2019-08-21,,80,Dengeki
+43,Nicol Amalfi,,41,9,ニコル・アマルフィ,3,3,9,15,889,889,291,558,558,126,428,With Speed attribute (self),EX Skill piercing boosted 22%,"With Speed attribute (self), EX Skill piercing boosted 22%",7,1,1,,,,2019-08-28,,80,Dengeki
+44,Bernard Wiseman,,10,2,バーナード・ワイズマン,4,2,9,18,795,795,795,795,795,211,609,When Armor is 60% or less,Recover 10 Armor gradually,"When Armor is 60% or less, Recover 10 Armor gradually",3,1,3,,,,2019-08-28,,80,Dengeki
+45,Flit Asuno,,50,1,フリット・アスノ,3,1,7,6,558,558,558,558,558,302,302,With Power attribute (self),Buff EX Skill time up 15%,"With Power attribute (self), Buff EX Skill time up 15%",3,2,1,,,,2019-09-04,,80,Dengeki
+46,Kira Yamato,,41,1,キラ・ヤマト,4,3,1,25,799,384,1184,1184,799,614,213,With Speed attribute (self),EX Skill recovery boosted by 140,"With Speed attribute (self), EX Skill recovery boosted by 140",5,3,2,,,,2019-09-04,,80,Dengeki
+47,Mikazuki Augus,,52,1,三日月・オーガス,4,1,1,21,384,1182,1182,799,799,420,420,With Power attribute (self),Initial EX Skill charge boosted 20%,"With Power attribute (self), Initial EX Skill charge boosted 20%",2,1,2,,,,2019-09-11,,80,Dengeki
+48,Cima Garahau,,16,3,シーマ・ガラハウ,3,3,3,17,891,292,891,558,558,302,302,With Speed attribute (self),Debuff EX Skill effect up 15%,"With Speed attribute (self), Debuff EX Skill effect up 15%",2,2,3,,,,2019-09-11,,80,Dengeki
+49,Patrick Colasour,,47,1,パトリック・コーラサワー,3,1,2,24,1144,292,292,558,558,127,430,With Power attribute (self),Buff EX Skill effect up 15%,"With Power attribute (self), Buff EX Skill effect up 15%",5,2,1,,,,2019-09-17,,80,Dengeki
+50,George de Sand,,34,4,ジョルジュ・ド・サンド,4,2,14,8,795,382,382,1179,1179,609,211,With Technique attribute (self),EX Skill CD reduced 20%,"With Technique attribute (self), EX Skill CD reduced 20%",4,3,1,,,,2019-09-17,,80,Dengeki
+51,Sayla Mass,,3,4,セイラ・マス,3,3,15,26,1144,292,292,558,558,430,127,With Speed attribute (self),Vernier consumption reduced 15%,"With Speed attribute (self), Vernier consumption reduced 15%",7,2,3,,,,2019-09-25,,80,Dengeki
+52,Duo Maxwell,,35,3,デュオ・マックスウェル,4,3,6,23,796,1602,384,796,796,213,417,With Speed attribute (self),33% chance to not recoil,"With Speed attribute (self), 33% chance to not recoil",3,1,2,,,,2019-09-25,,80,Dengeki
+53,Cagalli Yula Athha,,41,13,カガリ・ユラ・アスハ,3,3,25,7,559,294,893,893,559,432,129,With Speed attribute (self),Projectile speed boosted 14%,"With Speed attribute (self), Projectile speed boosted 14%",5,2,3,,Arena,,2019-10-01,,80,Dengeki
+54,Sven Cal Bayang,,46,2,スウェン・カル・バヤン,3,3,9,20,889,889,291,558,558,302,302,With Speed attribute (self),Initial EX Skill charge boosted 12%,"With Speed attribute (self), Initial EX Skill charge boosted 12%",4,2,3,,Arena,,2019-10-01,,80,Dengeki
+55,Kamille Bidan,,18,5,カミーユ・ビダン,4,3,1,6,796,796,796,796,796,417,417,With Speed attribute (self),EX Skill piercing boosted 28%,"With Speed attribute (self), EX Skill piercing boosted 28%",5,2,2,,,,2019-10-02,,80,Dengeki
+56,Elle Vianno,,21,3,エル・ビアンノ,3,2,24,15,561,893,294,561,893,215,215,With Technique attribute (self),EX Skill recovery boosted 16%,"With Technique attribute (self), EX Skill recovery boosted 16%",4,2,3,,,,2019-10-02,,80,Dengeki
+57,Yazan Gable,,18,8,ヤザン・ゲーブル,3,1,16,12,891,558,292,891,558,430,127,With Power attribute (self),28% chance to not recoil,"With Power attribute (self), 28% chance to not recoil",3,1,2,,,,2019-10-09,,80,Dengeki
+58,Haman Karn,,18,11,ハマーン・カーン,4,1,5,17,796,384,1602,796,796,417,213,With Power attribute (self),Job Gauge increase boosted 17%,"With Power attribute (self), Job Gauge increase boosted 17%",6,2,2,,,,2019-10-09,,80,Dengeki
+59,Emma Sheen,,18,7,エマ・シーン,3,1,7,13,559,294,893,893,559,129,432,With Power attribute (self),Debuff EX Skill effect up 15%,"With Power attribute (self), Debuff EX Skill effect up 15%",5,2,1,,,,2019-10-16,,80,Dengeki
+60,Chang Wufei,,35,4,張五飛,4,2,6,3,1181,1181,384,796,796,417,417,With Technique attribute (self),Strong Melee DMG output boosted by 35,"With Technique attribute (self), Strong Melee DMG output boosted by 35",3,1,2,,,,2019-10-16,,80,Dengeki
+61,Marida Cruz,,25,1,マリーダ・クルス,3,1,17,26,561,893,294,561,893,215,215,With Power attribute (self),Long Shot Attack raised 14%,"With Power attribute (self), Long Shot Attack raised 14%",6,2,1,,,,2019-10-23,,80,Dengeki
+62,Athrun Zala,,41,5,アスラン・ザラ,4,3,12,7,799,1182,384,799,1182,612,213,,50% chance to prevent vernier consumption when stepping,50% chance to prevent vernier consumption when stepping,3,1,2,,,,2019-10-23,,80,Dengeki
+63,Shinn Asuka,,43,1,シン・アスカ,4,1,9,1,797,1181,1181,797,797,418,213,,Initial EX Skill charge boosted 15%,Initial EX Skill charge boosted 15%,4,1,1,,,,2019-10-30,,80,Dengeki
+64,Elpeo Ple,,21,1,エルピー・プル,3,2,20,8,559,294,893,893,559,432,129,With Technique attribute (self),Vernier recovery rate boosted 16%,"With Technique attribute (self), Vernier recovery rate boosted 16%",6,2,1,,,,2019-10-30,,80,Dengeki
+65,Trowa Barton,,35,5,トロワ・バートン,3,2,25,10,891,292,891,558,558,302,302,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",5,3,2,,Event,,2019-10-30,,80,Dengeki
+66,Shiro Amada,,7,4,シロー・アマダ,4,1,23,21,1180,1180,383,796,796,610,212,With Power attribute (self),Enemy Shooting power reduced 30%,"With Power attribute (self), Enemy Shooting power reduced 30%",4,2,3,,,,2019-11-06,,80,Dengeki
+67,Rosamia Badam,,18,9,ロザミア・バダム,3,2,20,12,889,558,291,558,889,428,126,With Technique attribute (self),Enemy EX Skill penetration reduced 22%,"With Technique attribute (self), Enemy EX Skill penetration reduced 22%",7,3,1,,,,2019-11-06,,80,Dengeki
+68,Zechs Marquise,,35,7,ゼクス・マーキス,4,3,9,5,795,795,795,795,795,211,609,With Speed attribute (self),Vernier recovery rate boosted 20%,"With Speed attribute (self), Vernier recovery rate boosted 20%",3,1,2,,,,2019-11-13,,80,Dengeki
+69,Lucrezia Noin,,35,8,ルクレツィア・ノイン,3,2,12,2,559,294,893,893,559,303,303,With Technique attribute (self),Debuff EX Skill time up 22%,"With Technique attribute (self), Debuff EX Skill time up 22%",2,2,3,,,,2019-11-13,,80,Dengeki
+70,Roux Louka,,21,2,ルー・ルカ,3,1,12,7,559,292,1144,559,559,303,303,With Power attribute (self),Job Gauge increase boosted 13%,"With Power attribute (self), Job Gauge increase boosted 13%",5,2,3,,,,2019-11-20,,80,Dengeki
+71,Paptimus Scirocco,,18,10,パプテマス・シロッコ,4,2,12,5,1180,1180,383,796,796,212,610,With Technique attribute (self),Shot guidance boosted 14%,"With Technique attribute (self), Shot guidance boosted 14%",4,2,2,,,,2019-11-20,,80,Dengeki
+72,Garrod Ran,,39,1,ガロード・ラン,4,3,1,6,797,1181,1181,797,797,213,418,When Armor is 80% or less,All power boosted 30%,"When Armor is 80% or less, All power boosted 30%",4,2,3,,,,2019-11-27,,80,Dengeki
+73,Fa Yuiry,,18,14,ファ・ユイリィ,3,2,12,15,891,292,891,558,558,302,302,Support Job,EX Skill recovery boosted 16%,"Support Job, EX Skill recovery boosted 16%",7,3,1,,,,2019-11-27,,80,Dengeki
+74,Johnny Ridden,,4,1,ジョニー・ライデン,3,2,17,20,558,1142,291,558,558,126,302,With Technique attribute (self),Buff EX Skill effect up 15%,"With Technique attribute (self), Buff EX Skill effect up 15%",3,2,2,,Arena,,2019-12-01,,80,Dengeki
+75,Judau Ashta,,21,4,ジュドー・アーシタ,4,1,1,12,796,384,1602,796,796,417,213,With Power attribute (self),Buff EX Skill time up 22%,"With Power attribute (self), Buff EX Skill time up 22%",5,1,3,,,,2019-12-04,,80,Dengeki
+76,Lunamaria Hawke,,43,2,ルナマリア・ホーク,3,2,25,18,558,291,1142,558,558,302,126,With Technique attribute (self),Long Shot Attack raised 14%,"With Technique attribute (self), Long Shot Attack raised 14%",6,2,1,,,,2019-12-04,,80,Dengeki
+77,Carozzo Ronah,,30,4,カロッゾ・ロナ,4,1,10,26,799,384,384,799,799,614,614,With Power attribute (self),Debuff EX Skill effect up 15%,"With Power attribute (self), Debuff EX Skill effect up 15%",2,3,2,,,,2019-12-11,,80,Dengeki
+78,Chloe Croce,,14,1,クロエ・クローチェ,3,3,9,23,559,1144,292,559,559,303,303,With Speed attribute (self),Vernier consumption reduced 15%,"With Speed attribute (self), Vernier consumption reduced 15%",4,1,2,,,,2019-12-11,,80,Dengeki
+79,Lila Milla Rira,,18,13,ライラ・ミラ・ライラ,3,1,16,20,292,891,891,559,559,303,303,With Power attribute (self),Projectile speed boosted 14%,"With Power attribute (self), Projectile speed boosted 14%",5,2,3,,,,2019-12-18,,80,Dengeki
+80,Gaelio Bauduin,,52,3,ガエリオ・ボードウィン,4,2,11,20,796,1602,384,796,796,417,213,When Armor is 60% or more,All power boosted 30%,"When Armor is 60% or more, All power boosted 30%",2,1,2,,,,2019-12-18,,80,Dengeki
+81,Neo Roanoke,,43,4,ネオ・ロアノーク,4,3,5,20,797,1181,1181,797,797,418,213,,14% chance to survive a fatal blow,14% chance to survive a fatal blow,5,2,2,Akatsuki Ticket,,,2019-12-25,,80,Dengeki
+82,Quattro Bajeena,,18,12,クワトロ・バジーナ,4,3,5,3,797,1181,1181,797,797,213,418,With Speed attribute (self),All DMG output boosted by 35,"With Speed attribute (self), All DMG output boosted by 35",5,3,3,,,,2019-12-25,,80,Dengeki
+83,Kayra Su,,23,1,ケーラ・スゥ,3,2,7,16,889,558,291,558,889,126,428,With Technique attribute (self),Shot guidance boosted 14%,"With Technique attribute (self), Shot guidance boosted 14%",2,1,1,,,,2019-12-25,,80,Dengeki
+84,Gai Murakumo,,44,2,叢雲劾,4,3,23,13,796,384,1602,796,796,417,213,With Speed attribute (self),EX Skill recovery boosted 28%,"With Speed attribute (self), EX Skill recovery boosted 28%",5,1,2,,,,2020-01-01,,80,Dengeki
+85,Aina Sahalin,,7,2,アイナ・サハリン,3,2,8,18,559,292,1144,559,559,303,303,With Technique attribute (self),Buff EX Skill effect up 15%,"With Technique attribute (self), Buff EX Skill effect up 15%",6,2,1,,,,2020-01-01,,80,Dengeki
+86,Jean-Luc Duval,,6,1,ジャン・リュック・デュバル,3,3,17,9,891,558,292,891,558,430,127,With Speed attribute (self),Vernier consumption reduced 15%,"With Speed attribute (self), Vernier consumption reduced 15%",2,2,2,,,,2020-01-08,,80,Dengeki
+87,Üso Ewin,,33,1,ウッソ・エヴィン,4,2,1,23,795,795,795,795,795,609,211,With Technique attribute (self),Buff EX Skill time up 22%,"With Technique attribute (self), Buff EX Skill time up 22%",4,2,3,,,,2020-01-08,,80,Dengeki
+88,Domon Kasshu,,34,6,ドモン・カッシュ,4,1,14,24,796,1753,155,977,643,417,213,With Power attribute (self),All CRIT rate boosted 14%,"With Power attribute (self), All CRIT rate boosted 14%",3,1,2,,,,2020-01-15,,80,Dengeki
+89,Rey Za Burrel,,43,3,レイ・ザ・バレル,3,3,3,7,559,294,893,893,559,303,303,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",5,3,1,,,,2020-01-15,,80,Dengeki
+90,Anavel Gato,,16,4,アナベル・ガトー,4,1,3,17,1180,1180,383,796,796,212,610,With Power attribute (self),All DMG output boosted by 35,"With Power attribute (self), All DMG output boosted by 35",2,1,1,,,,2020-01-22,,80,Dengeki
+91,Quatre Raberba Winner,,35,6,カトル・ラバーバ・ウィナー,3,3,25,21,558,291,291,889,889,126,428,With Speed attribute (self),Enemy All Power reduced 13%,"With Speed attribute (self), Enemy All Power reduced 13%",7,1,3,,,,2020-01-22,,80,Dengeki
+92,Mr. Bushido,,47,3,ミスター・ブシドー,3,1,6,9,558,1142,291,558,558,126,302,With Power attribute (self),EX Skill CD reduced 15%,"With Power attribute (self), EX Skill CD reduced 15%",3,2,3,,Event,,2020-01-29,,80,Dengeki
+93,Shiho Hahnenfuss,,42,1,シホ・ハーネンフース,3,3,8,3,558,291,1142,558,558,302,126,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",6,2,1,,,,2020-01-29,,80,Dengeki
+94,Rau Le Creuset,,41,14,ラウ・ル・クルーゼ,4,2,5,3,1181,384,1181,796,796,611,213,With Technique attribute (self),Buff EX Skill time up 22%,"With Technique attribute (self), Buff EX Skill time up 22%",6,2,3,,,,2020-01-29,,80,Dengeki
+95,Setsuna F. Seiei,,47,5,刹那・F・セイエイ,4,3,1,13,796,1602,384,796,796,417,213,"While ""Gundam Type""",Buff EX Skill effect up 22%,"While ""Gundam Type"", Buff EX Skill effect up 22%",3,1,3,,,,2020-02-05,,80,Dengeki
+96,Auel Neider,,43,8,アウル・ニーダ,3,2,4,7,889,291,889,558,558,126,428,With Technique attribute (self),Debuff EX Skill effect up 15%,"With Technique attribute (self), Debuff EX Skill effect up 15%",2,1,2,,,,2020-02-05,,80,Dengeki
+97,Louise Halevy,,47,7,ルイス・ハレヴィ,3,1,15,20,1144,292,292,558,558,430,127,With Power attribute (self),Enemy All power reduced 13%,"With Power attribute (self), Enemy All power reduced 13%",2,2,2,,,,2020-02-12,,80,Dengeki
+98,Lalah Sune,,3,11,ララァ・スン,4,2,8,3,799,384,1184,1184,799,614,213,With Technique attribute (self),Debuff EX Skill effect up 22%,"With Technique attribute (self), Debuff EX Skill effect up 22%",7,3,2,,,,2020-02-12,,80,Dengeki
+99,Stella Loussier,,43,6,ステラ・ルーシェ,3,3,12,6,558,891,891,558,558,127,302,With Speed attribute (self),Job Gauge increase boosted 13%,"With Speed attribute (self), Job Gauge increase boosted 13%",4,2,3,,,,2020-02-19,,80,Dengeki
+100,Lockon Stratos,,47,6,ロックオン・ストラトス,4,2,10,8,799,384,1606,799,799,420,420,With Technique attribute (self),Long Shot Attack raised 20%,"With Technique attribute (self), Long Shot Attack raised 20%",6,3,3,,,,2020-02-19,,80,Dengeki
+101,Nena Trinity,,47,10,ネーナ・トリニティ,3,3,15,13,891,558,292,891,558,127,430,With Speed attribute (self),EX Skill recovery boosted 16%,"With Speed attribute (self), EX Skill recovery boosted 16%",7,2,2,,Event,,2020-02-26,,80,Dengeki
+102,Sarah Zabiarov,,18,15,サラ・ザビアロフ,3,3,7,15,558,291,291,889,889,428,126,With Speed attribute (self),Debuff EX Skill effect up 15%,"With Speed attribute (self), Debuff EX Skill effect up 15%",7,2,2,,,,2020-02-26,,80,Dengeki
+103,Full Frontal,,25,3,フル・フロンタル,4,1,5,17,384,1182,1182,799,799,420,420,"While ""Zeon""",Initial EX Skill charge boosted 20%,"While ""Zeon"", Initial EX Skill charge boosted 20%",4,2,3,,,,2020-02-26,,80,Dengeki
+104,Soma Peries,,47,4,ソーマ・ピーリス,3,1,7,20,558,291,291,889,889,428,126,With Power attribute (self),Enemy Shooting power reduced 25%,"With Power attribute (self), Enemy Shooting power reduced 25%",5,2,2,,Arena,,2020-03-02,,80,Dengeki
+105,Lacus Clyne,,41,16,ラクス・クライン,4,2,5,20,795,795,795,795,795,211,609,With Technique attribute (self),EX Skill recovery boosted by 140,"With Technique attribute (self), EX Skill recovery boosted by 140",7,3,3,,,,2020-03-04,,80,Dengeki
+106,Heine Westenfluss,,43,5,ハイネ・ヴェステンフルス,3,3,6,5,561,893,294,561,893,215,215,With Speed attribute (self),Debuff EX Skill effect up 15%,"With Speed attribute (self), Debuff EX Skill effect up 15%",2,1,1,,,,2020-03-04,,80,Dengeki
+107,Milliardo Peacecraft,,35,10,ミリアルド・ピースクラフト,4,2,6,9,796,1602,384,796,796,213,417,With Technique attribute (self),Vernier consumption reduced 20%,"With Technique attribute (self), Vernier consumption reduced 20%",4,1,1,,,,2020-03-11,,80,Dengeki
+108,Mashymre Cello,,21,5,マシュマー・セロ,3,1,17,20,889,889,291,558,558,302,302,With Power attribute (self),Debuff EX Skill time up 16%,"With Power attribute (self), Debuff EX Skill time up 16%",2,1,3,,,,2020-03-11,,80,Dengeki
+109,Tobia Arronax,,32,1,トビア・アロナクス,4,3,1,6,796,1602,384,796,796,417,213,With Speed attribute (self),Buff EX Skill effect up 22%,"With Speed attribute (self), Buff EX Skill effect up 22%",3,1,2,,,,2020-03-18,,80,Dengeki
+110,Andrew Waltfeld,,41,15,アンドリュー・バルトフェルド,3,1,21,3,558,291,291,889,889,428,126,With Power attribute (self),Enemy EX Skill penetration reduced 22%,"With Power attribute (self), Enemy EX Skill penetration reduced 22%",5,2,1,,,,2020-03-18,,80,Dengeki
+111,Ribbons Almark,,47,9,リボンズ・アルマーク,4,1,13,20,797,1181,1181,797,797,418,213,All ranged weapon,reload speed boosted 18%,"All ranged weapon, reload speed boosted 18%",6,3,3,,,,2020-03-25,,80,Dengeki
+112,Quess Paraya,,23,2,クェス・パラヤ,3,2,10,20,558,291,291,889,889,428,126,With Technique attribute (self),14% chance to survive a fatal blow,"With Technique attribute (self), 14% chance to survive a fatal blow",6,3,3,,,,2020-03-25,,80,Dengeki
+113,Tieria Erde,,47,8,ティエリア・アーデ,3,1,13,10,559,292,1144,559,559,303,303,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",6,3,3,,Event,,2020-03-25,,80,Dengeki
+114,Heero Yuy,,35,1,ヒイロ・ユイ,4,3,10,12,796,384,1602,796,796,417,213,With Speed attribute (self),All DMG output boosted by 35,"With Speed attribute (self), All DMG output boosted by 35",6,3,1,,,,2020-04-01,,80,Dengeki
+115,Angelo Sauper,,25,2,アンジェロ・ザウパー,3,2,17,20,558,558,558,558,558,302,302,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,4,1,2,,,,2020-04-01,,80,Dengeki
+116,Loran Cehack,,40,4,ロラン・セアック,4,2,1,10,797,1181,1181,797,797,418,213,With Technique attribute (self),Enemy All Power reduced 18%,"With Technique attribute (self), Enemy All Power reduced 18%",4,1,3,,,,2020-04-08,,80,Dengeki
+117,Jamil Neate,,39,2,ジャミル・ニート,3,1,5,13,558,558,558,558,558,126,428,With Power attribute (self),Enemy Shooting power reduced 25%,"With Power attribute (self), Enemy Shooting power reduced 25%",2,2,1,,,,2020-04-08,,80,Dengeki
+118,Master Asia,,34,7,マスター・アジア,4,1,14,6,799,1756,156,799,799,290,290,"While ""Mobile Fighter""",All DMG output boosted by 35,"While ""Mobile Fighter"", All DMG output boosted by 35",3,1,1,,,,2020-04-15,,80,Dengeki
+119,Chara Soon,,21,6,キャラ・スーン,3,3,17,9,559,1144,292,559,559,303,303,With Speed attribute (self),EX Skill piercing boosted 22%,"With Speed attribute (self), EX Skill piercing boosted 22%",4,2,3,,,,2020-04-15,,80,Dengeki
+120,Yuu Kajima,,8,1,ユウ・カジマ,4,1,19,6,795,795,795,795,795,609,211,When Armor is 80% or less,Buff EX Skill effect up 22%,"When Armor is 80% or less, Buff EX Skill effect up 22%",4,2,1,,,,2020-05-13,,80,Dengeki
+121,Chibodee Crocket,,34,2,チボデー・クロケット,3,1,14,24,558,1142,291,558,558,126,302,With Power attribute (self),All Shot Attack raised 14%,"With Power attribute (self), All Shot Attack raised 14%",3,1,1,,,,2020-05-13,,80,Dengeki
+122,Asemu Asuno,,50,3,アセム・アスノ,3,2,12,3,558,558,558,558,558,302,302,"While ""Transformer""",All power boosted 25%,"While ""Transformer"", All power boosted 25%",5,2,2,,Arena,,2020-05-18,,80,Dengeki
+123,Andrew Waltfeld,Destiny,43,10,アンドリュー・バルトフェルト［DESTINY］,4,3,12,5,795,795,795,795,795,211,609,When in Multi-Mission Sortie,Shot guidance boosted 17%,"When in Multi-Mission Sortie, Shot guidance boosted 17%",2,2,2,,,,2020-05-20,,80,Dengeki
+124,Giri Gadeucca Aspis,,32,3,ギリ・ガデューカ・アスピス,3,1,6,5,558,891,891,558,558,302,127,When 2 enemies shot down,All CRIT rate boosted 17%,"When 2 enemies shot down, All CRIT rate boosted 17%",3,1,1,,,,2020-05-20,,80,Dengeki
+125,Ple-Twelve,,25,7,プルトゥエルブ,4,1,10,6,796,1602,384,796,796,417,213,When buffed,EX Skill piercing boosted 28%,"When buffed, EX Skill piercing boosted 28%",4,1,3,,,,2020-05-27,,80,Dengeki
+126,Rosemary Raspberry,,32,4,ローズマリー・ラズベリー,3,2,7,20,292,891,891,559,559,303,303,After 15s pass,Projectile speed boosted 14%,"After 15s pass, Projectile speed boosted 14%",4,2,1,,,,2020-05-27,,80,Dengeki
+127,Sting Oakley,,43,7,スティング・オークレー,3,1,12,7,558,291,291,889,889,126,428,When 1 allies shot down,All DMG taken reduced by 20,"When 1 allies shot down, All DMG taken reduced by 20",5,3,3,,Event,,2020-05-27,,80,Dengeki
+128,Ali al-Saachez,,47,12,アリー・アル・サーシェス,4,1,6,9,797,1181,1181,797,797,213,418,When Melee ATK is over 16000,Job Gauge increase boosted 17%,"When Melee ATK is over 16000, Job Gauge increase boosted 17%",3,1,2,,,,2020-06-03,,80,Dengeki
+129,Joseph Yaht,,40,5,ジョゼフ・ヨット,3,3,15,26,558,291,291,889,889,126,428,"While ""Support Type""",EX Skill piercing boosted 22%,"While ""Support Type"", EX Skill piercing boosted 22%",2,1,3,,,,2020-06-03,,80,Dengeki
+130,Kou Uraki,Military Uniform Ver.,16,2,コウ・ウラキ［軍服ver.］,4,3,16,6,797,1181,1181,797,797,418,213,When in Arena Sortie,All power boosted 30%,"When in Arena Sortie, All power boosted 30%",4,2,1,,,,2020-06-10,,80,Dengeki
+131,Cony Francis,,33,4,コニー・フランシス,3,2,2,7,558,558,558,558,558,126,428,When Shot DEF is over 12000,Shot guidance boosted 14%,"When Shot DEF is over 12000, Shot guidance boosted 14%",7,2,2,,,,2020-06-10,,80,Dengeki
+132,Banagher Links,,25,6,バナージ・リンクス,4,3,13,10,797,1181,1181,797,797,213,418,"While ""Gundam Type""",Buff EX Skill effect up 22%,"While ""Gundam Type"", Buff EX Skill effect up 22%",4,2,1,,,,2020-06-17,,80,Dengeki
+133,Karen Joshua,,7,6,カレン・ジョシュワ,3,3,16,23,558,558,558,558,558,428,126,When Phys. RES is over 6000,Long Shot Attack raised 14%,"When Phys. RES is over 6000, Long Shot Attack raised 14%",2,2,2,,,,2020-06-17,,80,Dengeki
+134,Allelujah Haptism,,47,11,アレルヤ・ハプティズム,4,2,12,9,800,1185,385,800,1185,292,292,"While ""Transformer""",Vernier consumption reduced 20%,"While ""Transformer"", Vernier consumption reduced 20%",4,2,2,,,,2020-06-24,,80,Dengeki
+135,Allenby Beardsley,,34,8,アレンビー・ビアズリー,3,2,14,24,559,1144,292,559,559,303,303,When buffed,28% chance to not recoil,"When buffed, 28% chance to not recoil",3,1,1,,,,2020-06-24,,80,Dengeki
+136,Gym Ghingham,,40,6,ギム・ギンガナム,4,1,9,12,797,1181,1181,797,797,213,418,When Melee ATK is over 16000,EX Skill CD reduced 20%,"When Melee ATK is over 16000, EX Skill CD reduced 20%",3,2,1,,,,2020-07-01,,80,Dengeki
+137,Kate Bush,,33,5,ケイト・ブッシュ,3,3,2,15,891,558,292,891,558,430,127,With Speed attribute (self),14% chance to survive a fatal blow,"With Speed attribute (self), 14% chance to survive a fatal blow",2,2,3,,,,2020-07-01,,80,Dengeki
+138,Prayer Reverie,,45,1,プレア・レヴェリー,3,2,3,20,558,291,1142,558,558,126,302,"While ""For Space""",Recover 10 Armor gradually,"While ""For Space"", Recover 10 Armor gradually",6,3,3,,Event,,2020-07-01,,80,Dengeki
+139,Shagia Frost,,39,3,シャギア・フロスト,4,2,3,10,1181,384,1181,796,796,213,611,When attacking with Beam,Long Shot Attack raised 20%,"When attacking with Beam, Long Shot Attack raised 20%",5,2,1,,,,2020-07-08,,80,Dengeki
+140,Fuala Griffon,,33,6,ファラ・グリフォン,3,2,8,20,558,291,1142,558,558,126,302,When 2 enemies shot down,Boost Job Gauge by 40% once.,"When 2 enemies shot down, Boost Job Gauge by 40% once.",6,2,1,,,,2020-07-08,,80,Dengeki
+141,Anavel Gato,Military Uniform ver.,16,6,アナベル・ガトー［軍服ver.］,4,3,5,3,796,1602,384,796,796,213,417,When buffed,EX Skill CD reduced 20%,"When buffed, EX Skill CD reduced 20%",3,2,2,,,,2020-07-15,,80,Dengeki
+142,Hugues Courand,,15,1,ユーグ・クーロ,3,2,16,1,558,558,558,558,558,126,428,When in Multi-Mission Sortie,EX Skill CD reduced 15%,"When in Multi-Mission Sortie, EX Skill CD reduced 15%",3,2,3,,,,2020-07-15,,80,Dengeki
+143,Trowa Barton,Endless Waltz Ver.,36,1,トロワ・バートン［Endless Waltz版］,4,1,11,8,1537,509,1537,1046,1046,281,796,When CPWR is over 650000,Initial EX Skill charge boosted 20%,"When CPWR is over 650000, Initial EX Skill charge boosted 20%",6,3,3,,,,2020-07-22,,99,Dengeki
+144,Monique Cadillac,,6,2,モニク・キャディラック,3,3,17,20,689,359,359,689,689,532,532,With Speed attribute (self),Enemy Shooting power reduced 25%,"With Speed attribute (self), Enemy Shooting power reduced 25%",3,1,2,,,,2020-07-22,,99,Dengeki
+145,Rain Mikamura,,34,5,レイン・ミカムラ,4,3,14,15,1046,509,2082,1046,1046,281,553,When Armor is 60% or more,Buff EX Skill effect up 22%,"When Armor is 60% or more, Buff EX Skill effect up 22%",7,3,3,,,,2020-07-29,,99,Dengeki
+146,South Burning,,16,7,サウス・バニング,3,3,16,5,1403,357,357,687,687,154,529,With Speed attribute (self),14% chance to survive a fatal blow,"With Speed attribute (self), 14% chance to survive a fatal blow",5,2,3,,,,2020-07-29,,99,Dengeki
+147,Alejandro Corner,,47,13,アレハンドロ・コーナー,3,1,10,20,1085,357,1085,687,687,374,374,With Power attribute (self),EX Skill CD reduced 15%,"With Power attribute (self), EX Skill CD reduced 15%",6,3,1,,Event,,2020-07-29,,99,Dengeki
+148,Rezin Schnyder,,23,4,レズン・シュナイダー,3,2,5,17,1085,687,357,1085,687,529,154,"While ""Zeon""",Initial EX Skill charge boosted 12%,"While ""Zeon"", Initial EX Skill charge boosted 12%",4,2,2,,Arena,,2020-08-03,,99,Dengeki
+149,Orga Itsuka,,52,,オルガ・イツカ,4,1,5,24,509,1538,1538,1049,1049,556,556,When buffed,Enemy Shooting power reduced 30%,"When buffed, Enemy Shooting power reduced 30%",2,2,3,,,,2020-08-05,,99,Dengeki
+150,Glemy Toto,,21,8,グレミー・トト,3,2,12,17,1083,356,1083,687,687,527,153,After 15s pass,Long Shot Attack raised 14%,"After 15s pass, Long Shot Attack raised 14%",5,2,1,,,,2020-08-05,,99,Dengeki
+151,Meer Campbell,,43,9,ミーア・キャンベル,4,1,18,3,1537,509,1537,1047,1047,554,554,With Power attribute (self),Debuff EX Skill effect up 22%,"With Power attribute (self), Debuff EX Skill effect up 22%",7,3,1,,,,2020-08-12,,99,Dengeki
+152,Rondo Gina Sahaku,,44,3,ロンド・ギナ・サハク,3,2,5,9,687,687,687,687,687,527,153,"While ""High Mobility""",Job Gauge increase boosted 13%,"While ""High Mobility"", Job Gauge increase boosted 13%",4,1,3,,,,2020-08-12,,99,Dengeki
+153,Fon Spaak,,47,14,フォン・スパーク,4,1,13,6,1049,1538,509,1049,1538,281,797,When 2 enemies shot down,All power boosted 30%,"When 2 enemies shot down, All power boosted 30%",3,1,1,,,,2020-08-19,,99,Dengeki
+154,Norba Shino,,52,5,ノルバ・シノ,3,3,10,3,687,687,687,687,687,374,374,When Armor is 60% or more,All Shot Attack raised 14%,"When Armor is 60% or more, All Shot Attack raised 14%",5,2,2,,,,2020-08-19,,99,Dengeki
+155,Ple Two,,21,,プルツー,4,3,8,20,1044,1044,1044,1044,1044,279,793,"While ""Long-Range""",Long Shot Attack raised 14%,"While ""Long-Range"", Long Shot Attack raised 14%",5,2,2,,,,2020-08-26,,99,Dengeki
+156,Mikhail Kaminsky,,10,3,ミハイル・カミンスキー,3,2,17,22,687,1085,1085,687,687,374,154,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,2,1,2,,,,2020-08-26,,99,Dengeki
+157,Ein Dalton,,52,7,アイン・ダルトン,3,3,6,2,1083,1083,356,687,687,527,153,When CPWR is over 150000,28% chance to not recoil,"When CPWR is over 150000, 28% chance to not recoil",3,1,1,,Event,,2020-08-26,,99,Dengeki
+158,Bellri Zenam,,51,2,ベルリ・ゼナム,4,1,13,9,1046,1046,1046,1046,1046,553,553,When Armor is 60% or more,All power boosted 30%,"When Armor is 60% or more, All power boosted 30%",4,2,1,,,,2020-09-02,,99,Dengeki
+159,Four Murasame,,18,6,フォウ・ムラサメ,3,2,13,12,687,687,687,687,687,527,153,With Technique attribute (self),Buff EX Skill effect up 15%,"With Technique attribute (self), Buff EX Skill effect up 15%",6,3,1,,,,2020-09-02,,99,Dengeki
+160,Akihiro Altland,,52,8,昭弘・アルトランド,4,2,6,13,1049,1538,509,1049,1538,797,281,When Armor is 90% or less,Enemy Shooting power reduced 30%,"When Armor is 90% or less, Enemy Shooting power reduced 30%",3,1,3,,,,2020-09-09,,99,Dengeki
+161,Lilia Flaubert,,12,1,リリア・フローベール,3,3,17,8,1083,356,1083,687,687,153,527,When Shot ATK is over 10000,Long Shot Attack raised 14%,"When Shot ATK is over 10000, Long Shot Attack raised 14%",6,3,2,,,,2020-09-09,,99,Dengeki
+162,Odin Barnet,,38,1,アディン・バーネット,4,1,1,20,1046,2082,509,1046,1046,553,281,With Power attribute (self),All power boosted 30%,"With Power attribute (self), All power boosted 30%",4,2,2,,,,2020-09-16,,99,Dengeki
+163,Marbet Fingerhat,,33,2,マーベット・フィンガーハット,3,2,12,23,689,359,359,689,689,532,532,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",6,3,1,,,,2020-09-16,,99,Dengeki
+164,Mask,,51,,マスク,4,2,5,9,1047,1537,1537,1047,1047,281,554,With Technique attribute (self),Recover 20 Armor gradually,"With Technique attribute (self), Recover 20 Armor gradually",5,2,3,,,,2020-09-23,,99,Dengeki
+165,Demeziere Sonnen,,6,3,デメジエール・ソンネン,3,1,17,8,685,354,1540,685,754,372,372,Melee Attack down 10%,Long Shot Attack raised 14%,"Melee Attack down 10%, Long Shot Attack raised 14%",6,3,3,,,,2020-09-23,,99,Dengeki
+166,McGillis Fareed,,52,9,マクギリス・ファリド,4,3,9,5,507,1782,1782,1044,1044,551,279,Job Gauge inc. down 10%,All power boosted 30%,"Job Gauge inc. down 10%, All power boosted 30%",4,3,3,,,,2020-09-30,,99,Dengeki
+167,Hiling Care,,47,17,ヒリング・ケア,3,2,3,20,1107,354,1176,685,685,524,151,With Technique attribute (self),Long Shot Attack raised 14%,"With Technique attribute (self), Long Shot Attack raised 14%",2,3,3,,,,2020-09-30,,99,Dengeki
+168,Canard Pars,,45,2,カナード・パルス,3,2,13,7,683,752,752,752,752,521,151,With Technique attribute (self),Enemy Shooting power reduced 25%,"With Technique attribute (self), Enemy Shooting power reduced 25%",5,3,3,,Event,,2020-09-30,,99,Dengeki
+169,Yzak Joule,Destiny,43,11,イザーク・ジュール［DESTINY］,3,3,5,20,685,1540,354,752,685,151,372,With Speed attribute (self),Job Gauge increase boosted 13%,"With Speed attribute (self), Job Gauge increase boosted 13%",3,3,3,,Arena,,2020-10-05,,99,Dengeki
+170,Domon Kasshu,Super Mode,34,9,ドモン・カッシュ［スーパーモード］,5,2,1,6,1526,2501,492,405,405,521,521,"While ""Close Combat""",Melee power boosted 30%,"While ""Close Combat"", Melee power boosted 30%",3,1,1,,,Blueprint,2020-10-07,,99,Dengeki
+171,Annerose Rosenheim,,14,,アンネローゼ・ローゼンハイン,4,1,17,8,1042,505,2265,1042,1133,549,277,Melee Attack down 10%,Long Shot Attack raised 20%,"Melee Attack down 10%, Long Shot Attack raised 20%",6,3,3,,,,2020-10-07,,99,Dengeki
+172,Iok Kujan,,52,,イオク・クジャン,3,3,5,21,685,354,1176,1107,685,372,372,With Speed attribute (self),Recover 10 Armor gradually,"With Speed attribute (self), Recover 10 Armor gradually",7,3,3,,,,2020-10-07,,99,Dengeki
+173,Odel Barnet,,38,2,オデル・バーネット,4,1,1,10,1042,2265,505,1133,1042,549,277,"While ""High Firepower""",Initial EX Skill charge boosted 20%,"While ""High Firepower"", Initial EX Skill charge boosted 20%",4,3,3,,,,2020-10-14,,99,Dengeki
+174,Illia Pzaom,,21,,イリア・パゾム,3,2,17,3,682,752,752,682,682,418,418,With Technique attribute (self),Vernier consumption reduced 15%,"With Technique attribute (self), Vernier consumption reduced 15%",5,3,3,,,,2020-10-14,,99,Dengeki
+175,Norris Packard,,7,,ノリス・パッカード,4,1,17,6,1042,2265,505,1133,1042,277,549,"While ""Zeon""",All power boosted 30%,"While ""Zeon"", All power boosted 30%",3,1,2,,,,2020-10-21,,99,Dengeki
+176,Miguel Aiman,,41,17,ミゲル・アイマン,3,3,20,9,354,354,354,1305,1305,521,151,With Speed attribute (self),EX Skill piercing boosted 22%,"With Speed attribute (self), EX Skill piercing boosted 22%",5,2,1,,,,2020-10-21,,99,Dengeki
+177,Graham Aker,,47,,グラハム・エーカー,4,3,6,9,1042,2268,507,113,1042,549,549,With Speed attribute (self),Vernier consumption reduced 20%,"With Speed attribute (self), Vernier consumption reduced 20%",4,2,2,,,,2020-10-28,,99,Dengeki
+178,Gilboa Sant,,25,8,ギルボア・サント,3,1,17,7,687,356,356,1083,1083,153,527,With Power attribute (self),28% chance to not recoil,"With Power attribute (self), 28% chance to not recoil",7,2,2,,,,2020-10-28,,99,Dengeki
+179,Shin Matsunaga,,4,2,シン・マツナガ,3,2,17,3,682,752,752,682,682,418,418,With Technique attribute (self),Enemy Shooting power reduced 25%,"With Technique attribute (self), Enemy Shooting power reduced 25%",3,1,3,,Event,,2020-10-28,,99,Dengeki
+180,Kira Yamato,SEED Awakened,41,18,キラ・ヤマト［SEED覚醒］,5,1,3,10,1287,488,2569,488,488,260,827,With Power attribute (self),Shooting power boosted 30%,"With Power attribute (self), Shooting power boosted 30%",6,2,2,,,Blueprint,2020-10-28,,99,Dengeki
+181,Amuro Ray,Z,18,,アムロ・レイ［Z］,4,3,3,10,507,1782,1782,1044,1044,551,279,With Speed attribute (self),All CRIT rate boosted 30%,"With Speed attribute (self), All CRIT rate boosted 30%",4,1,3,,,,2020-11-04,,99,Dengeki
+182,Descartes Shaman,,48,1,デカルト・シャーマン,4,1,20,10,685,354,1540,685,752,372,151,With Power attribute (self),Long Shot Attack raised 14%,"With Power attribute (self), Long Shot Attack raised 14%",6,3,1,,,,2020-11-04,,99,Dengeki
+183,Chang Wufei,Endless Waltz Ver.,36,,張五飛［Endless Waltz版］,4,3,13,6,1131,2141,505,1260,1040,375,547,Shot Attack down 10%,All power boosted 30%,"Shot Attack down 10%, All power boosted 30%",4,1,1,,,,2020-11-11,,99,Dengeki
+184,Daguza Mackle,,25,,ダグザ・マックール,3,1,16,5,442,1105,1105,834,834,151,370,With Power attribute (self),14% chance to survive a fatal blow,"With Power attribute (self), 14% chance to survive a fatal blow",2,2,3,,,,2020-11-11,,99,Dengeki
+185,Mikazuki Augus,II,52,11,三日月・オーガス［弐］,4,2,1,6,1131,2141,505,1260,1040,547,375,With Technique attribute (self),Initial EX Skill charge boosted 20%,"With Technique attribute (self), Initial EX Skill charge boosted 20%",3,1,1,,,,2020-11-18,,99,Dengeki
+186,Buran Blutarch,,18,,ブラン・ブルターク,4,3,12,23,442,1105,1105,834,834,151,370,With Speed attribute (self),Shot spread reduced 15%,"With Speed attribute (self), Shot spread reduced 15%",6,2,1,,,,2020-11-18,,99,Dengeki
+187,Banagher Links,Civilian Clothes Version,25,10,バナージ・リンクス［私服ver.］,5,2,1,3,922,2329,2453,500,500,771,0,Middle-Shooter Job,Shooting power boosted 30%,"Middle-Shooter Job, Shooting power boosted 30%",4/5,1,2,,,Blueprint,2020-11-25,,99,Dengeki
+188,Vincent Gleissner,,14,,ヴィンセント・グライスナー,4,3,17,9,1260,505,2143,1040,1260,547,277,With Speed attribute (self),Recover 20 Armor gradually,"With Speed attribute (self), Recover 20 Armor gradually",5,2,3,,,,2020-11-25,,99,Dengeki
+189,Erik Blanke,,15,2,エリク・ブランケ,4,1,17,5,752,1434,354,834,683,370,259,With Power attribute (self),Debuff EX Skill effect up 15%,"With Power attribute (self), Debuff EX Skill effect up 15%",4,1,2,,,,2020-11-25,,99,Dengeki
+190,Agar,,5,1,エイガ,3,2,16,8,1173,354,1173,683,683,151,521,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",6,3,3,,Event,,2020-11-25,,99,Dengeki
+191,Domon Kasshu,Mirror Sheen,34,10,ドモン・カッシュ［明鏡止水］,4,1,14,6,832,2370,91,1538,727,281,556,"While ""Mobile Fighter""",All power boosted 30%,"While ""Mobile Fighter"", All power boosted 30%",3,1,3,,,,2020-12-02,,99,Dengeki
+192,Kacricon Cacooler,,18,18,カクリコン・カクーラー,3,3,7,24,1173,1173,354,683,683,151,521,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",7,3,3,,,,2020-12-02,,99,Dengeki
+193,Argi Mirage,,53,1,アルジ・ミラージ,4,1,1,20,616,1775,1775,1131,1131,547,277,,26% chance of attacks penetrating super armor,26% chance of attacks penetrating super armor,3,1,1,,,,2020-12-09,,99,Dengeki
+194,Howard Mason,,47,16,ハワード・メイスン,3,2,9,25,442,1105,1105,834,834,151,370,With Technique attribute (self),28% chance to not recoil,"With Technique attribute (self), 28% chance to not recoil",2,2,3,,,,2020-12-09,,99,Dengeki
+195,Schwarz Bruder,,34,,シュバルツ・ブルーダー,4,3,14,23,1039,2256,504,1259,1039,276,546,With Speed attribute (self),Recover 20 Armor gradually,"With Speed attribute (self), Recover 20 Armor gradually",3,1,3,,,,2020-12-16,,99,Dengeki
+196,Rakan Dahkaran,,21,,ラカン・ダカラン,3,1,17,10,2049,212,212,1071,1071,515,515,"While ""Zeon""",EX Skill piercing boosted 22%,"While ""Zeon"", EX Skill piercing boosted 22%",2,3,2,,,,2020-12-16,,99,Dengeki
+197,Yurin Luciel,,50,2,ユリン・ルシェル,3,1,8,15,681,1075,1171,681,833,368,258,With Power attribute (self),Long Shot Attack raised 14%,"With Power attribute (self), Long Shot Attack raised 14%",6,3,3,,Arena,,2020-12-21,,99,Dengeki
+198,Cronicle Asher,,33,7,クロノクル・アシャー,4,3,3,9,1524,929,1774,1039,1128,783,276,When Armor is 60% or more,EX Skill CD reduced 20%,"When Armor is 60% or more, EX Skill CD reduced 20%",5,3,3,,,,2020-12-23,,99,Dengeki
+199,Lafter Frankland,,52,,ラフタ・フランクランド,3,2,9,7,681,1238,353,681,1300,573,258,"While ""High Mobility""",14% chance to survive a fatal blow,"While ""High Mobility"", 14% chance to survive a fatal blow",7,3,2,,,,2020-12-23,,99,Dengeki
+200,Preventer Wind,,36,3,プリベンター・ウインド,4,1,3,9,1039,504,2346,504,1772,546,276,When attacking with Beam,All power boosted 30%,"When attacking with Beam, All power boosted 30%",6,2,3,,,,2020-12-30,,99,Dengeki
+201,Herbert von Kuspen,,6,4,ヘルベルト・フォン・カスペン,3,2,17,25,1390,1172,636,750,681,150,368,With Technique attribute (self),Recover 10 Armor gradually,"With Technique attribute (self), Recover 10 Armor gradually",2,2,2,,,,2020-12-30,,99,Dengeki
+202,Carris Nautilus,,39,4,カリス・ノーティラス,3,2,7,8,687,687,687,687,687,527,153,"While ""Mid-Range""",Shot guidance boosted 14%,"While ""Mid-Range"", Shot guidance boosted 14%",6,3,3,,Event,,2020-12-30,,99,Dengeki
+203,Riddhe Marcenas,,25,,リディ・マーセナス,4,1,16,7,1039,1519,1962,1036,1036,495,543,With Power attribute (self),EX Skill piercing boosted 28%,"With Power attribute (self), EX Skill piercing boosted 28%",5,1,1,,,,2021-01-06,,99,Dengeki
+204,Carta Issue,,52,,カルタ・イシュー,3,3,5,22,1075,353,353,1389,1389,368,368,With Speed attribute (self),28% change to not recoil,"With Speed attribute (self), 28% change to not recoil",6,3,3,,,,2021-01-06,,99,Dengeki
+205,Athrun Zala,Destiny,43,,アスラン・ザラ［DESTINY］,4,2,13,9,497,1986,1511,1032,1032,1015,0,"While ""High Mobility""",Initial EX Skill charge boosted 20%,"While ""High Mobility"", Initial EX Skill charge boosted 20%",4,1,1,,,,2021-01-13,,99,Dengeki
+206,Terry Sanders Jr.,,7,,テリー・サンダースJr.,3,1,16,23,681,899,899,899,899,150,519,With Power attribute (self),Projectile speed boosted 14%,"With Power attribute (self), Projectile speed boosted 14%",6,3,3,,,,2021-01-13,,99,Dengeki
+207,Char Aznable,CCA,23,5,シャア・アズナブル［CCA］,4,3,10,6,0,2120,1599,1758,1758,0,537,"While ""High Firepower""",Buff EX Skill effect up 22%,"While ""High Firepower"", Buff EX Skill effect up 22%",3,1,1,,,,2021-01-20,,99,Dengeki
+208,Rasid Kurama,,35,11,ラシード・クラマ,3,2,5,21,680,468,468,1298,1298,367,367,With Technique attribute (self),Enemy EX Skill penetration reduced 22%,"With Technique attribute (self), Enemy EX Skill penetration reduced 22%",7,3,3,,,,2021-01-20,,99,Dengeki
+209,Shinn Asuka,SEED Awakened,43,13,シン・アスカ［SEED覚醒］,5,3,10,6,1119,2446,2327,822,415,0,552,"While ""High Firepower""",All power boosted 30%,"While ""High Firepower"", All power boosted 30%",4/5,2,1,,,Blueprint,2021-01-27,,99,Dengeki
+210,Setsuna F. Seiei,ELS Innovator,48,2,刹那・F・セイエイ［ELSイノベイター］,5,1,1,9,1227,2598,499,1019,411,579,266,"While ""Protag.""",EX Skill power boosted 30%,"While ""Protag."", EX Skill power boosted 30%",3/4,1,3,,,Blueprint,2021-01-27,,99,Dengeki
+211,Julieta Juris,,52,,ジュリエッタ・ジュリス,4,1,9,20,2064,2132,503,1036,1036,543,275,When attacking with Physical,EX Skill piercing boosted 28%,"When attacking with Physical, EX Skill piercing boosted 28%",3,1,1,,,,2021-01-27,,99,Dengeki
+212,Alpha A. Bate,,16,,アルファ・A・ベイト,3,3,16,19,680,352,680,1169,1169,515,149,With Speed attribute (self),Shot guidance boosted 14%,"With Speed attribute (self), Shot guidance boosted 14%",5,3,3,,,,2021-01-27,,99,Dengeki
+213,Montag,,52,15,モンターク,3,1,9,6,680,1428,352,1387,633,149,367,"While ""High Mobility""",Enemy Shooting power reduced 25%,"While ""High Mobility"", Enemy Shooting power reduced 25%",4,2,2,,Event,,2021-01-27,,99,Dengeki
+214,Setsuna F. Seiei,2nd Season,47,18,刹那・F・セイエイ［2nd season］,4,2,6,1,1036,2132,503,2064,927,275,543,"While ""Protag.""",All power boosted 30%,"While ""Protag."", All power boosted 30%",4,1,2,,,,2021-02-03,,99,Dengeki
+215,Corin Nander,,40,7,コレン・ナンダー,3,3,4,24,1387,1298,352,680,680,515,149,With Speed attribute (self),Job Gauge increase boosted 13%,"With Speed attribute (self), Job Gauge increase boosted 13%",2,2,2,,,,2021-02-03,,99,Dengeki
+216,Callisto's Light,,32,5,光のカリスト,4,3,5,12,1036,1770,1859,1036,1520,543,275,With Speed attribute (self),Boost Funnel uptime by 50%.,"With Speed attribute (self), Boost Funnel uptime by 50%.",5,3,3,,,,2021-02-10,,99,Dengeki
+217,Mouar Pharaoh,,18,,マウアー・ファラオ,3,1,12,20,1236,352,1169,680,680,149,515,With Power attribute (self),Long Shot Attack raised 14%,"With Power attribute (self), Long Shot Attack raised 14%",7,2,2,,,,2021-02-10,,99,Dengeki
+218,Kira Yamato,Destiny,43,,キラ・ヤマト［DESTINY］,4,3,3,13,195,413,2337,1035,1607,0,1542,With Twin Rifle category equipped,Initial EX Skill charge boosted 20%,"With Twin Rifle category equipped, Initial EX Skill charge boosted 20%",6,3,1,,,,2021-02-17,,99,Dengeki
+219,Azee Gurumin,,52,16,アジー・グルミン,3,1,6,2,1382,1382,352,678,678,514,149,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,2,2,2,,,,2021-02-17,,99,Dengeki
+220,Eugene Sevenstark,,52,18,ユージン・セブンスターク,3,2,5,10,1382,678,352,678,1382,514,149,When attacking with Physical,All CRIT rate boosted 17%,"When attacking with Physical, All CRIT rate boosted 17%",7,3,3,,Arena,,2021-02-22,,99,Dengeki
+221,Duo Maxwell,Endless Waltz Ver.,36,,デュオ・マックスウェル［Endless Waltz版］,4,2,6,9,1516,2337,502,716,716,875,875,With Technique attribute (self),Melee CRIT rate boosted 30%,"With Technique attribute (self), Melee CRIT rate boosted 30%",4,1,2,,,,2021-02-24,,99,Dengeki
+222,Michael Trinity,,47,,ミハエル・トリニティ,3,1,13,6,828,828,828,828,828,413,413,With Power attribute (self),14% chance to survive a fatal blow,"With Power attribute (self), 14% chance to survive a fatal blow",3,1,3,,,,2021-02-24,,99,Dengeki
+223,Graham Aker,Movie Ver.,48,3,グラハム・エーカー［劇場版］,5,2,5,3,2000,480,2705,407,493,518,265,"While ""Commander""",EX Skill power boosted 30%,"While ""Commander"", EX Skill power boosted 30%",5/6,2,1,,,Blueprint,2021-02-24,,99,Dengeki
+224,Gyunei Guss,,23,6,ギュネイ・ガス,3,2,17,20,1070,352,1070,1382,1070,365,149,With Technique attribute (self),Boost Funnel uptime by 40%.,"With Technique attribute (self), Boost Funnel uptime by 40%.",5,3,1,,Event,,2021-02-24,,99,Dengeki
+225,Haman Karn,ZZ,21,,ハマーン・カーン［ZZ］,4,2,3,7,1035,502,2060,1035,2060,542,542,With Technique attribute (self),Boost Funnel uptime by 50%.,"With Technique attribute (self), Boost Funnel uptime by 50%.",5,2,3,,,,2021-03-03,,99,Dengeki
+226,Orga Sabnak,,41,,オルガ・サブナック,3,3,8,7,680,468,468,1298,1298,367,367,All ranged weapon,magazine boosted 14%,"All ranged weapon, magazine boosted 14%",6,3,1,,,,2021-03-03,,99,Dengeki
+227,Quattro Bajeena,Military Uniform Ver.,18,,クワトロ・バジーナ［軍服ver.］,4,1,6,9,1254,1767,1767,1254,1254,542,274,"While ""High Mobility""",Enemy Shooting power reduced 30%,"While ""High Mobility"", Enemy Shooting power reduced 30%",4,2,3,,,,2021-03-10,,99,Dengeki
+228,Olba Frost,,39,,オルバ・フロスト,3,2,12,8,828,750,826,826,750,541,256,When attacking with Beam,Long Shot Attack raised 14%,"When attacking with Beam, Long Shot Attack raised 14%",6,1,3,,,,2021-03-10,,99,Dengeki
+229,Cagali Yula Athha,Destiny,43,,カガリ・ユラ・アスハ［DESTINY］,4,1,5,9,507,507,2079,507,1044,1812,279,With Power attribute (self),Recover 20 Armor gradually,"With Power attribute (self), Recover 20 Armor gradually",7,2,1,,,,2021-03-17,,99,Dengeki
+230,Master Pierce Rayer,,9,1,マスター・ピース・レイヤー,3,3,16,19,131,279,1585,678,1098,0,1049,With Speed attribute (self),Shooting CRIT rate boosted 17%,"With Speed attribute (self), Shooting CRIT rate boosted 17%",6,2,2,,,,2021-03-17,,99,Dengeki
+231,Laura Rolla,,40,,ローラ・ローラ,5,3,10,13,1099,494,2691,484,1389,350,349,"While ""Gundam Type""",Shooting power boosted 30%,"While ""Gundam Type"", Shooting power boosted 30%",5/7,3,3,,,Blueprint,2021-03-24,,99,Dengeki
+232,Stella Loussier,Civilian Clothes Ver.,43,16,ステラ・ルーシェ［私服ver.］,5,2,9,6,1100,2637,296,2022,405,528,100,"While ""High Mobility""",Melee power boosted 30%,"While ""High Mobility"", Melee power boosted 30%",2/3,1,2,,,Blueprint,2021-03-24,,99,Dengeki
+233,Tieria Erde,2nd Season,47,,ティエリア・アーデ［2nd season］,4,2,8,11,1516,502,1516,2060,1516,542,274,With Technique attribute (self),Long Shot Attack raised 20%,"With Technique attribute (self), Long Shot Attack raised 20%",6,3,3,,,,2021-03-24,,99,Dengeki
+234,Bernard Monsha,,16,,ベルナルド・モンシア,3,1,16,2,2049,212,212,1071,1071,515,515,With Power attribute (self),28% chance to not recoil,"With Power attribute (self), 28% chance to not recoil",2,2,1,,,,2021-03-24,,99,Dengeki
+235,Ford Romfellow,,12,,フォルド・ロムフェロー,4,1,1,20,1035,2130,1254,1516,1035,542,274,Beam ranged weapon,magazine boosted 25%,"Beam ranged weapon, magazine boosted 25%",3,1,1,,,,2021-03-31,,99,Dengeki
+236,Nimbus Schterzen,,8,,ニムバス・シュターゼン,3,3,17,6,687,1400,356,687,687,374,153,With Speed attribute (self),Melee CRIT rate boosted 17%,"With Speed attribute (self), Melee CRIT rate boosted 17%",3,1,3,,,,2021-03-31,,99,Dengeki
+237,Zabine Chareaux,,30,6,ザビーネ・シャル,3,1,5,20,748,896,828,896,748,413,413,With Power attribute (self),EX Skill CD reduced 15%,"With Power attribute (self), EX Skill CD reduced 15%",5,2,2,,Event,,2021-03-31,,99,Dengeki
+238,Rondo Mina Sahaku,,44,4,ロンド・ミナ・サハク,4,3,6,13,1035,1960,1960,1035,1035,274,775,With Speed attribute (self),EX Skill piercing boosted 28%,"With Speed attribute (self), EX Skill piercing boosted 28%",4,2,2,,,,2021-04-07,,99,Dengeki
+239,Ride Mass,,52,17,ライド・マッス,3,2,21,11,1165,1165,466,828,828,567,256,With Technique attribute (self),Enemy All power reduced 13%,"With Technique attribute (self), Enemy All power reduced 13%",2,2,1,,,,2021-04-07,,99,Dengeki
+240,Tobia Arronax,Skull Heart,32,,トビア・アロナクス［スカルハート］,4,2,10,9,1855,2130,502,1607,1035,542,274,When 1 allies shot down,Vernier consumption=0 for 16 sec.,"When 1 allies shot down, Vernier consumption=0 for 16 sec.",3,1,1,,,,2021-04-14,,99,Dengeki
+241,Anew Returner,,47,,アニュー・リターナー,3,1,7,20,828,828,828,828,828,413,413,With Power attribute (self),Shooting CRIT rate boosted 17%,"With Power attribute (self), Shooting CRIT rate boosted 17%",7,1,3,,,,2021-04-14,,99,Dengeki
+242,Kincade Nau,,32,2,キンケドゥ・ナウ,4,2,6,9,2243,2331,500,1320,818,538,272,With Technique attribute (self),Melee CRIT rate boosted 30%,"With Technique attribute (self), Melee CRIT rate boosted 30%",3,1,1,,,,2021-04-21,,99,Dengeki
+243,Mudie Holcroft,,46,3,ミューディー・ホルクロフト,3,2,13,6,1163,1646,351,1067,677,148,364,With Technique attribute (self),14% chance to survive a fatal blow,"With Technique attribute (self), 14% chance to survive a fatal blow",5,1,3,,,,2021-04-21,,99,Dengeki
+244,Rindo Kuzunoha,,64,1,クズノハ・リンドウ,4,1,3,10,1152,475,2006,957,1152,512,212,With Power attribute (self),Long Shot Attack raised 20%,"With Power attribute (self), Long Shot Attack raised 20%",6,2,2,,,Mission,2021-04-21,,99,Dengeki
+245,Sana Miyama,,64,2,ミヤマ・サナ,4,2,15,7,1454,860,1641,955,1062,212,722,With Technique attribute (self),EX Skill recovery boosted 28%,"With Technique attribute (self), EX Skill recovery boosted 28%",7,3,3,,,Mission,2021-04-21,,99,Dengeki
+246,Luce Kassel,,12,3,ルース・カッセル,3,3,16,8,1378,351,1229,677,1163,148,511,With Speed attribute (self),EX Skill piercing boosted 22%,"With Speed attribute (self), EX Skill piercing boosted 22%",6,3,2,,Arena,,2021-04-26,,99,Dengeki
+247,Char Aznable,Commander-in-Chief,23,8,シャア・アズナブル［総帥］,5,2,17,10,2204,2501,2018,292,191,840,203,With Power attribute (self),Melee power boosted 30%,"With Power attribute (self), Melee power boosted 30%",3/4,2,2,,,Blueprint,2021-04-28,,99,Dengeki
+248,Vidar,,52,,ヴィダール,4,3,13,9,1761,2453,500,1513,1031,272,538,With Speed attribute (self),EX Skill piercing boosted 28%,"With Speed attribute (self), EX Skill piercing boosted 28%",4,1,1,,,,2021-04-28,,99,Dengeki
+249,Lupe Cineau,,33,,ルペ・シノ,3,1,3,20,677,1229,1229,893,893,411,256,With Power attribute (self),28% chance to not recoil,"With Power attribute (self), 28% chance to not recoil",3,2,1,,,,2021-04-28,,99,Dengeki
+250,Chara Soon,Enhanced,21,12,キャラ・スーン［強化］,3,3,10,11,893,677,1580,951,1093,148,364,With Speed attribute (self),28% chance to not recoil,"With Speed attribute (self), 28% chance to not recoil",6,3,1,,Event,,2021-04-28,,99,Dengeki

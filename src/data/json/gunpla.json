@@ -106,7 +106,7 @@
         "wt": ["Close Combat", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor 60% or more, Job Gauge increase boosted 17%"
+            "name": "When Armor is 60% or more, Job Gauge increase boosted 17%"
         },
         "name": "GN Sword II Short/GN Sword II Long",
         "type": "Physical",
@@ -1619,7 +1619,7 @@
         "wt": ["Gundam Type", "For Base"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Beam, Sp. Shot power boosted 30%"
+            "name": "When attacking with Beam, Sp. Shot power boosted 30%"
         }
     }, {
         "part": "legs",
@@ -1880,7 +1880,7 @@
         "wt": ["For Space", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "When in Arena Sortie, Shooting DMG taken reduced 20"
+            "name": "When in Arena Sortie, Shooting DMG taken reduced by 20"
         }
     }, {
         "part": "arms",
@@ -4090,7 +4090,7 @@
         "wt": ["Transformer", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor 60% or more, EX Skill piercing boosted 22%"
+            "name": "When Armor is 60% or more, EX Skill piercing boosted 22%"
         }
     }, {
         "part": "body",
@@ -4105,7 +4105,7 @@
         "wt": ["Transformer", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "Job Gauge inc. down 10% Shooting power boosted 25%"
+            "name": "Job Gauge inc. down 10%, Shooting power boosted 25%"
         }
     }, {
         "part": "arms",
@@ -4194,7 +4194,7 @@
         "wt": ["Transformer", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "Melee DMG raised 10% Job Gauge increase boosted 13%"
+            "name": "Melee DMG raised 10%, Job Gauge increase boosted 13%"
         },
         "name": "Beam Rifle [Baund Doc]",
         "type": "Beam",
@@ -6078,6 +6078,161 @@
         "name": "Shield [Build Gundam Mk-II]"
     }]
 }, {
+    "name": "Build Strike Galaxy Cosmos",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1933,
+        "ma": 1412,
+        "sa": 3232,
+        "md": 1112,
+        "sd": 1021,
+        "br": 157,
+        "pr": 852,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Head-Mounted Vulcan",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3248,
+        "ma": 714,
+        "sa": 493,
+        "md": 2519,
+        "sd": 2032,
+        "br": 205,
+        "pr": 852,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 804,
+        "ma": 4630,
+        "sa": 715,
+        "md": 2218,
+        "sd": 1304,
+        "br": 157,
+        "pr": 694,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Out-Fighter Job, Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2214,
+        "ma": 1586,
+        "sa": 913,
+        "md": 2519,
+        "sd": 1935,
+        "br": 295,
+        "pr": 757,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Double Saber Rush",
+            "description": "Cleave through enemies with sabers in each hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 700,
+        "ma": 1740,
+        "sa": 1110,
+        "md": 2218,
+        "sd": 811,
+        "br": 1266,
+        "pr": 481,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Galactic Chaser",
+            "description": "Fly up with your enemy and engage in a fierce aerial battle. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%. Raise Beam Resist of your Squad by 29%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 409,
+        "ma": 5552,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 694,
+        "pr": 694,
+        "wt": ["Protag.", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Melee power boosted 30%"
+        },
+        "name": "Beam Saber [Build Strike Galaxy Cosmos]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1408,
+        "ma": 0,
+        "sa": 5463,
+        "md": 495,
+        "sd": 0,
+        "br": 481,
+        "pr": 630,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy EX Skill power reduced 30%"
+        },
+        "name": "Beam Rifle [Build Strike Galaxy Cosmos]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 2214,
+        "ma": 1586,
+        "sa": 0,
+        "md": 3033,
+        "sd": 1304,
+        "br": 1313,
+        "pr": 205,
+        "wt": ["Protag.", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, EX Skill power boosted 30%"
+        },
+        "name": "Cosmo Shield"
+    }]
+}, {
     "name": "Build Strike Gundam [Full Package]",
     "attribute": "Technique",
     "rarity": 4,
@@ -6934,7 +7089,7 @@
         "wt": ["Mid-Range", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When CPWR is under 500000, EX Skill Power boosted 25%"
+            "name": "When CPWR is under 500000, EX Skill power boosted 25%"
         },
         "name": "Vajra Beam Saber [Chaos]",
         "type": "Beam",
@@ -6952,7 +7107,7 @@
         "wt": ["Mid-Range", "Transformer"],
         "ex": {
             "type": "Part Traits",
-            "name": "Middle-Shooter Job. Sp. Shot CRIT Rate boosted 17%"
+            "name": "Middle-Shooter Job, Sp. Shot CRIT rate boosted 17%"
         },
         "name": "High-Energy Beam Rifle [Chaos]",
         "type": "Beam",
@@ -7016,7 +7171,7 @@
         "wt": ["Mid-Range", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "Melee Attack down 10% Shooting power boosted 30%"
+            "name": "Melee Attack down 10%, Shooting power boosted 30%"
         }
     }, {
         "part": "arms",
@@ -7617,7 +7772,7 @@
         "wt": ["Close Combat", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Rifle category equipped, Melee Power boosted 30%"
+            "name": "With Rifle category equipped, Melee power boosted 30%"
         }
     }, {
         "part": "arms",
@@ -8119,7 +8274,7 @@
         "wt": ["Gundam Type", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "Melee DMG raised 10% EX Skill power boosted 30%"
+            "name": "Melee DMG raised 10%, EX Skill power boosted 30%"
         }
     }, {
         "part": "body",
@@ -8232,7 +8387,7 @@
         "wt": ["Gundam Type", "For Space"],
         "ex": {
             "type": "Part Traits",
-            "name": "Job Gauge inc. down 10% EX Skill power boosted 30%"
+            "name": "Job Gauge inc. down 10%, EX Skill power boosted 30%"
         },
         "name": "Muramasa Blaster [Ranged]",
         "type": "Beam",
@@ -8278,7 +8433,7 @@
         "wt": ["Mass P.", "For Desert"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Speed attribute (self), EX Skill DMG output boosted 10"
+            "name": "With Speed attribute (self), EX Skill DMG output boosted by 10"
         }
     }, {
         "part": "arms",
@@ -8308,7 +8463,7 @@
         "wt": ["Mass P.", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "Cooldown time up 10% Melee CRIT rate boosted 10%"
+            "name": "Cooldown time up 10%, Melee CRIT rate boosted 10%"
         }
     }, {
         "part": "melee",
@@ -8891,7 +9046,7 @@
         "wt": ["Gundam Type", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Power attribute (self), Buff EX Skill effect up 22%%"
+            "name": "With Power attribute (self), Buff EX Skill effect up 22%"
         },
         "name": "Anti-Beam Shield"
     }]
@@ -8914,7 +9069,7 @@
         "wt": ["Commander", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 1 enemies shot down Reduce Cooldown by 50% once."
+            "name": "When 1 enemies shot down, Reduce Cooldown by 50% once."
         }
     }, {
         "part": "body",
@@ -9002,8 +9157,15 @@
         "pr": 1054,
         "wt": ["Commander", "Gundam Type"],
         "ex": {
-            "type": "Part Traits",
-            "name": "Blow through foes, spinning to strike them with your blade."
+            "type": "EX Skill",
+            "name": "Maelstrom",
+            "description": "Blow through foes, spinning to strike them with your blade.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [30, 8]
+            }
         },
         "name": "Arondight [Destiny (Heine)]",
         "type": "Beam",
@@ -9554,7 +9716,7 @@
         "wt": ["High Firepower", "Mass P."],
         "ex": {
             "type": "Part Traits",
-            "name": "When attacking with Beam, Sp. Shot DMG output boosted 15 "
+            "name": "When attacking with Beam, Sp. Shot DMG output boosted by 15"
         }
     }, {
         "part": "legs",
@@ -12497,7 +12659,7 @@
         "wt": ["Heavy Armor", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Speed attribute (self), Melee Power boosted 30%"
+            "name": "With Speed attribute (self), Melee power boosted 30%"
         }
     }, {
         "part": "melee",
@@ -12845,7 +13007,7 @@
         "wt": ["Mass P.", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Module Category, Debuff EX Skill effect up 12%"
+            "name": "With Module category equipped, Debuff EX Skill effect up 12%"
         }
     }, {
         "part": "arms",
@@ -12883,7 +13045,7 @@
         "wt": ["Mass P.", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Module Category, EX Skill recovery boosted 18%"
+            "name": "With Module category equipped, EX Skill recovery boosted 18%"
         }
     }, {
         "part": "back",
@@ -13098,7 +13260,7 @@
         "wt": ["Transformer", "For Space"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 2 enemies shot down, Vernier Consumption=0 for 10 sec."
+            "name": "When 2 enemies shot down, Vernier consumption=0 for 10 sec."
         }
     }, {
         "part": "arms",
@@ -13392,7 +13554,7 @@
         "wt": ["Commander", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Phys. RES is under 5000, Melee Power boosted 25%"
+            "name": "When Phys. RES is under 5000, Melee power boosted 25%"
         }
     }, {
         "part": "legs",
@@ -13533,7 +13695,7 @@
         "wt": ["Zeon", "Commander"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Speed attribute (self), Revive with 30% Armor one time"
+            "name": "With Speed attribute (self), Revive with 30% Armor one time."
         }
     }, {
         "part": "arms",
@@ -13643,7 +13805,7 @@
         "wt": ["Zeon", "Commander"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor is 60% or less, Vernier Consumption = 0 for 10 sec."
+            "name": "When Armor is 60% or less, Vernier consumption=0 for 10 sec."
         },
         "name": "Shield [Gelgoog (Char Aznable)]"
     }]
@@ -14079,6 +14241,134 @@
         "name": "Beam Machine Gun [Gerbera Tetra]",
         "type": "Beam",
         "category": "Machine Gun"
+    }]
+}, {
+    "name": "Geymalk",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1378,
+        "ma": 351,
+        "sa": 2754,
+        "md": 351,
+        "sd": 351,
+        "br": 256,
+        "pr": 256,
+        "wt": ["High Firepower", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Long Shot Attack raised 14%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 2277,
+        "ma": 351,
+        "sa": 826,
+        "md": 894,
+        "sd": 894,
+        "br": 256,
+        "pr": 256,
+        "wt": ["High Firepower", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Hyper M.P. Cannon & Twin M.P. Cannon",
+            "description": "Fire the three mega particle cannons stowed in your chest.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1523,
+        "ma": 677,
+        "sa": 951,
+        "md": 1229,
+        "sd": 1229,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Firepower", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Launcher & Grenade Launcher",
+            "description": "Fire the beam launchers on your shoulders and the grenade launcher on your forearm.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 351,
+        "ma": 351,
+        "sa": 677,
+        "md": 894,
+        "sd": 894,
+        "br": 411,
+        "pr": 411,
+        "wt": ["High Firepower", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "M.B. Cannon & Waist M.P. Cannon",
+            "description": "Fire the three mega particle cannons stowed in your legs.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1523,
+        "ma": 351,
+        "sa": 677,
+        "md": 826,
+        "sd": 826,
+        "br": 411,
+        "pr": 411,
+        "wt": ["High Firepower", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Child Funnel",
+            "description": "Launch child funnels to strike foes in all directions. You can move freely while this is active.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1711,
+        "ma": 2754,
+        "sa": 0,
+        "md": 0,
+        "sd": 745,
+        "br": 256,
+        "pr": 256,
+        "wt": ["High Firepower", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 15s pass, Reduce Cooldown by 40% once."
+        },
+        "name": "Beam Saber [Geymalk]",
+        "type": "Beam",
+        "category": "Dual Sabers"
     }]
 }, {
     "name": "GM",
@@ -15164,7 +15454,7 @@
         "wt": ["Mass P.", "For Tundra"],
         "ex": {
             "type": "Part Traits",
-            "name": "When attacking with Beam, Sp. Shot DMG output boosted 15 "
+            "name": "When attacking with Beam, Sp. Shot DMG output boosted by 15"
         },
         "name": "GN Bazooka [GN-XIII]",
         "type": "Beam",
@@ -16074,7 +16364,7 @@
         "wt": ["Commander", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "After 10s pass, Vernier Consumption=0 for 10 sec."
+            "name": "After 10s pass, Vernier consumption=0 for 10 sec."
         },
         "name": "Shield [Grimoire Red Beret]"
     }]
@@ -16621,7 +16911,7 @@
         "wt": ["Ace Excl.", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "After 10s pass, Vernier Consumption = 0 for 16s."
+            "name": "After 10s pass, Vernier consumption=0 for 16s."
         },
         "name": "Shield [Gundam][P]"
     }]
@@ -17085,7 +17375,7 @@
         "wt": ["Protag.", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "While \"Gundam Type\" EX Skill power boosted 30%"
+            "name": "While \"Gundam Type\", EX Skill power boosted 30%"
         },
         "name": "Beam Rifle [Higher Than Sky Phase]",
         "type": "Beam",
@@ -17535,7 +17825,7 @@
         "wt": ["High Firepower", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When attack with Physical, Strong Melee power boosted 25%"
+            "name": "When attacking with Physical, Strong Melee power boosted 25%"
         }
     }, {
         "part": "arms",
@@ -18651,7 +18941,7 @@
         "wt": ["Protag.", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "After 10s pass, Boost Job Gauge 50% once."
+            "name": "After 10s pass, Boost Job Gauge by 50% once."
         },
         "name": "Beam Saber Anima (RIZE)]",
         "type": "Beam",
@@ -19138,7 +19428,7 @@
         "wt": ["For Computers", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Physical, Sp. Shot CRIT rate boosted 30%"
+            "name": "When attacking with Physical, Sp. Shot CRIT rate boosted 30%"
         },
         "name": "Anti-Material Rifle",
         "type": "Physical",
@@ -19305,7 +19595,7 @@
         "wt": ["Gundam Type", "For Computers"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 2 enemies shot down, Vernier Consumption=0 for 10 sec."
+            "name": "When 2 enemies shot down, Vernier consumption=0 for 10 sec."
         },
         "name": "GN Shield [Astraea]"
     }]
@@ -19593,7 +19883,7 @@
         "wt": ["Gundam Type", "High Mobility"],
         "ex": {
             "type": "Part Traits",
-            "name": "In-Fighter Job, EX Skill Power boosted 30%"
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
         }
     }, {
         "part": "body",
@@ -19608,7 +19898,7 @@
         "wt": ["Gundam Type", "High Mobility"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Power attribute (self), Buff EX Skill Effect up 22%"
+            "name": "With Power attribute (self), Buff EX Skill effect up 22%"
         }
     }, {
         "part": "arms",
@@ -19835,7 +20125,7 @@
         "wt": ["Protag.", "For Forest"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Melee ATK is over 2000 EX Skill DMG output boosted by 20"
+            "name": "When Melee ATK is over 2000, EX Skill DMG output boosted by 20"
         }
     }, {
         "part": "body",
@@ -20109,7 +20399,7 @@
         "wt": ["Gundam Type", "For Desert"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Technique attribute (self), Buff EX Skill Effect up 22%"
+            "name": "With Technique attribute (self), Buff EX Skill effect up 22%"
         }
     }, {
         "part": "arms",
@@ -20124,7 +20414,7 @@
         "wt": ["Gundam Type", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "Close-Range Weapons's EX Skill Power boosted 30%"
+            "name": "Close-Range Weapons's EX Skill power boosted 30%"
         }
     }, {
         "part": "legs",
@@ -20139,7 +20429,7 @@
         "wt": ["Gundam Type", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "While \"Gundam Type\", Melee CRIT Rate boosted 30%"
+            "name": "While \"Gundam Type\", Melee CRIT rate boosted 30%"
         }
     }, {
         "part": "back",
@@ -20201,7 +20491,7 @@
         "wt": ["Gundam Type", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "Back Parts's EX Skill Power boosted 30%"
+            "name": "Back Parts's EX Skill power boosted 30%"
         },
         "name": "Mace",
         "type": "Physical",
@@ -20219,7 +20509,7 @@
         "wt": ["Gundam Type", "For Desert"],
         "ex": {
             "type": "Part Traits",
-            "name": "In-Fighter Job, EX Skill Power boosted 30%"
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
         },
         "name": "Smoothbore Cannon",
         "type": "Physical",
@@ -20532,7 +20822,7 @@
         "wt": ["Protag.", "High Mobility"],
         "ex": {
             "type": "Part Traits",
-            "name": "Cooldown time up 10% Melee Power boosted 30%"
+            "name": "Cooldown time up 10%, Melee power boosted 30%"
         }
     }, {
         "part": "arms",
@@ -20569,7 +20859,7 @@
         "wt": ["Protag.", "High Mobility"],
         "ex": {
             "type": "Part Traits",
-            "name": "Shot DMG raised 20% EX Skill Power boosted 30%"
+            "name": "Shot DMG raised 20%, EX Skill power boosted 30%"
         }
     }, {
         "part": "back",
@@ -22205,7 +22495,7 @@
         "wt": ["Close Combat", "For Space"],
         "ex": {
             "type": "Part Traits",
-            "name": "While \"For Space\", EX Skill DMG output boosted 35"
+            "name": "While \"For Space\", EX Skill DMG output boosted by 35"
         },
         "name": "GN Shield [Exia Dark Matter]"
     }]
@@ -22554,7 +22844,7 @@
         "wt": ["Long-Range", "For Tundra"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor is 70% or less, Vernier Consumption = 0 for 16s"
+            "name": "When Armor is 70% or less, Vernier consumption=0 for 16s"
         }
     }, {
         "part": "arms",
@@ -22963,7 +23253,7 @@
         "wt": ["Protag.", "Federation"],
         "ex": {
             "type": "Part Traits",
-            "name": "While \"Federation\" Melee power boosted 30%"
+            "name": "While \"Federation\", Melee power boosted 30%"
         },
         "combo": {
             "type": "shield",
@@ -23020,7 +23310,7 @@
         "wt": ["Protag.", "Federation"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Melee ATK > 15000, EX Skill power boosted 30%"
+            "name": "When Melee ATK is over 15000, EX Skill power boosted 30%"
         },
         "name": "Beam Saber [ALT] [F91]",
         "type": "Beam",
@@ -23234,7 +23524,7 @@
         "wt": ["Long-Range", "Transformer"],
         "ex": {
             "type": "Part Traits",
-            "name": "When buffed, Vernier Consumption=0 for 10 sec."
+            "name": "When buffed, Vernier consumption=0 for 10 sec."
         }
     }, {
         "part": "arms",
@@ -23735,7 +24025,7 @@
         "wt": ["Ace Excl.", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 1 enemies shot down, Boost Job Gauge 50% once"
+            "name": "When 1 enemies shot down, Boost Job Gauge by 50% once"
         },
         "name": "Photon Armor Shield"
     }]
@@ -24753,7 +25043,7 @@
         "wt": ["Federation", "Long-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "EX Skill DMG Taken reduced by 20"
+            "name": "EX Skill DMG taken reduced by 20"
         }
     }, {
         "part": "legs",
@@ -24967,7 +25257,7 @@
         "wt": ["High Firepower", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Amor is 60% or more, Enemy Melee power reduced 30%"
+            "name": "When Armor is 60% or more, Enemy Melee power reduced 30%"
         },
         "name": "Groundsel Saber",
         "type": "Beam",
@@ -25479,7 +25769,7 @@
         "wt": ["Gundam Type", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "While \"Mid-Range\" EX Skill power boosted 30%"
+            "name": "While \"Mid-Range\", EX Skill power boosted 30%"
         }
     }, {
         "part": "arms",
@@ -27954,7 +28244,7 @@
         "wt": ["Gundam Type", "For Base"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Dual Sabers category equipped, EX Skill DMG output boosted 35"
+            "name": "With Dual Sabers category equipped, EX Skill DMG output boosted by 35"
         },
         "name": "Anti-Beam Coating Cloak"
     }]
@@ -28231,7 +28521,7 @@
         "wt": ["Long-Range", "Federation"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Technique attribute (self), Buff EX Skill effect 15%"
+            "name": "With Technique attribute (self), Buff EX Skill effect up 15%"
         },
         "name": "Shield Booster"
     }]
@@ -28509,13 +28799,13 @@
     "parts": [{
         "part": "head",
         "mark": 3,
-        "a": 3238,
-        "ma": 824,
-        "sa": 6471,
-        "md": 824,
-        "sd": 1297,
-        "br": 347,
-        "pr": 855,
+        "a": 1378,
+        "ma": 351,
+        "sa": 2754,
+        "md": 351,
+        "sd": 552,
+        "br": 148,
+        "pr": 364,
         "wt": ["Federation", "Long-Range"],
         "ex": {
             "type": "EX Skill",
@@ -28531,13 +28821,13 @@
     }, {
         "part": "body",
         "mark": 3,
-        "a": 5350,
-        "ma": 824,
-        "sa": 1590,
-        "md": 2100,
-        "sd": 2100,
+        "a": 2277,
+        "ma": 351,
+        "sa": 677,
+        "md": 894,
+        "sd": 894,
         "br": 0,
-        "pr": 1200,
+        "pr": 511,
         "wt": ["Federation", "Long-Range"],
         "ex": {
             "type": "Part Traits",
@@ -28546,13 +28836,13 @@
     }, {
         "part": "arms",
         "mark": 3,
-        "a": 3579,
-        "ma": 1590,
-        "sa": 2234,
-        "md": 3238,
-        "sd": 3238,
+        "a": 1523,
+        "ma": 677,
+        "sa": 951,
+        "md": 1378,
+        "sd": 1378,
         "br": 0,
-        "pr": 347,
+        "pr": 148,
         "wt": ["Federation", "Long-Range"],
         "ex": {
             "type": "EX Skill",
@@ -28569,13 +28859,13 @@
     }, {
         "part": "legs",
         "mark": 3,
-        "a": 3713,
-        "ma": 824,
-        "sa": 824,
-        "md": 2100,
-        "sd": 2100,
-        "br": 855,
-        "pr": 1200,
+        "a": 1580,
+        "ma": 351,
+        "sa": 351,
+        "md": 894,
+        "sd": 894,
+        "br": 364,
+        "pr": 511,
         "wt": ["Federation", "For Space"],
         "ex": {
             "type": "Part Traits",
@@ -28584,13 +28874,13 @@
     }, {
         "part": "back",
         "mark": 3,
-        "a": 3579,
-        "ma": 824,
-        "sa": 1941,
-        "md": 1941,
-        "sd": 1941,
-        "br": 855,
-        "pr": 1200,
+        "a": 1523,
+        "ma": 351,
+        "sa": 826,
+        "md": 826,
+        "sd": 826,
+        "br": 364,
+        "pr": 511,
         "wt": ["Federation", "For Space"],
         "ex": {
             "type": "EX Skill",
@@ -28606,13 +28896,13 @@
     }, {
         "part": "melee",
         "mark": 3,
-        "a": 4020,
-        "ma": 4782,
+        "a": 1711,
+        "ma": 2035,
         "sa": 0,
         "md": 0,
-        "sd": 1297,
-        "br": 347,
-        "pr": 855,
+        "sd": 552,
+        "br": 148,
+        "pr": 364,
         "wt": ["Federation", "For Space"],
         "ex": {
             "type": "Part Traits",
@@ -28624,13 +28914,13 @@
     }, {
         "part": "range",
         "mark": 3,
-        "a": 3238,
+        "a": 1378,
         "ma": 0,
-        "sa": 8079,
+        "sa": 3438,
         "md": 0,
         "sd": 0,
-        "br": 347,
-        "pr": 1200,
+        "br": 148,
+        "pr": 511,
         "wt": ["Federation", "Long-Range"],
         "ex": {
             "type": "Part Traits",
@@ -28642,13 +28932,13 @@
     }, {
         "part": "shield",
         "mark": 3,
-        "a": 3868,
+        "a": 1646,
         "ma": 0,
         "sa": 0,
-        "md": 2234,
-        "sd": 2234,
-        "br": 347,
-        "pr": 1628,
+        "md": 951,
+        "sd": 951,
+        "br": 148,
+        "pr": 693,
         "wt": ["Federation", "For Space"],
         "ex": {
             "type": "Part Traits",
@@ -29805,7 +30095,7 @@
         "wt": ["High Firepower", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Beam, EX Skill power boosted 30%"
+            "name": "When attacking with Beam, EX Skill power boosted 30%"
         }
     }, {
         "part": "body",
@@ -30442,7 +30732,7 @@
         "wt": ["Ace Excl.", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Power attribute (self), Shooting power boosted by 30%"
+            "name": "With Power attribute (self), Shooting power boosted 30%"
         }
     }, {
         "part": "arms",
@@ -30936,7 +31226,7 @@
         "wt": ["Zeon", "Zaku Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "Physical ranged weapon reload speed boosted 15%"
+            "name": "Physical ranged weapon, reload speed boosted 15%"
         }
     }, {
         "part": "body",
@@ -31383,7 +31673,7 @@
         "wt": ["For Space", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Technique attribute (self), Revive with 30% Armor one time"
+            "name": "With Technique attribute (self), Revive with 30% Armor one time."
         }
     }, {
         "part": "arms",
@@ -31417,7 +31707,7 @@
         "wt": ["For Space", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "Job Gauge inc. down 10% Mid Shot Attack raised 14%"
+            "name": "Job Gauge inc. down 10%, Mid Shot Attack raised 14%"
         }
     }, {
         "part": "back",
@@ -31903,7 +32193,7 @@
         "wt": ["For Space", "Zeon"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Beam, Melee DMG output boosted by 20"
+            "name": "When attacking with Beam, Melee DMG output boosted by 20"
         },
         "name": "Beam Saber with Heat Knife",
         "type": "Beam",
@@ -34818,7 +35108,7 @@
         "wt": ["Mobile Fighter", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "ln-Fighter Job, Melee CRIT rate boosted 17%"
+            "name": "In-Fighter Job, Melee CRIT rate boosted 17%"
         }
     }, {
         "part": "back",
@@ -35227,7 +35517,7 @@
     "sokai": 0,
     "parts": [{
         "part": "body",
-        "mark": 3,
+        "mark": 5,
         "a": 1494,
         "ma": 834,
         "sa": 2108,
@@ -35253,7 +35543,7 @@
         }
     }, {
         "part": "arms",
-        "mark": 3,
+        "mark": 5,
         "a": 553,
         "ma": 1553,
         "sa": 553,
@@ -35275,7 +35565,7 @@
         }
     }, {
         "part": "legs",
-        "mark": 3,
+        "mark": 5,
         "a": 553,
         "ma": 483,
         "sa": 265,
@@ -35290,7 +35580,7 @@
         }
     }, {
         "part": "back",
-        "mark": 3,
+        "mark": 5,
         "a": 488,
         "ma": 483,
         "sa": 265,
@@ -36530,7 +36820,7 @@
         "wt": ["Heavy Armor", "For Computers"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Power attribute (self), Buff EX Skill Time up 15%"
+            "name": "With Power attribute (self), Buff EX Skill time up 15%"
         }
     }, {
         "part": "arms",
@@ -37549,7 +37839,7 @@
         "wt": ["For Urban Area", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Physical, Shooting power boosted 25%"
+            "name": "When attacking with Physical, Shooting power boosted 25%"
         }
     }, {
         "part": "legs",
@@ -38186,7 +38476,7 @@
         "wt": ["Heavy Armor", "GM Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor by 60% or more, EX Skill DMG output boosted by 20"
+            "name": "When Armor is 60% or more, EX Skill DMG output boosted by 20"
         }
     }, {
         "part": "arms",
@@ -40179,7 +40469,7 @@
         "wt": ["Transformer", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
-            "name": "Middle-Shooter Job, Shooting DMG taken reduced 20"
+            "name": "Middle-Shooter Job, Shooting DMG taken reduced by 20"
         }
     }, {
         "part": "body",
@@ -40194,7 +40484,7 @@
         "wt": ["Transformer", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor ≥ 60%, EX Skill CD reduced 15%"
+            "name": "When Armor is 60% or more, EX Skill CD reduced 15%"
         }
     }, {
         "part": "arms",
@@ -40597,7 +40887,7 @@
         "wt": ["Close Combat", "High Mobility"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Attacking with Beam, Melee power boosted 30%"
+            "name": "When attacking with Beam, Melee power boosted 30%"
         },
         "name": "Beam Tomahawk [Deployed/Sazabi (Ver. Ka)]",
         "type": "Beam",
@@ -42041,7 +42331,7 @@
         "wt": ["Commander", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once"
+            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once."
         },
         "name": "Rifle [Shiden/Orga]",
         "type": "Physical",
@@ -42395,7 +42685,7 @@
         "wt": ["Mobile Fighter", "Close Combat"],
         "ex": {
             "type": "Part Traits",
-            "name": "ln-Fighter Job, Melee power boosted 25%"
+            "name": "In-Fighter Job, Melee power boosted 25%"
         }
     }, {
         "part": "legs",
@@ -42726,6 +43016,170 @@
         "name": "Shield [Sinanju]"
     }]
 }, {
+    "name": "Sinanju Stein [Narrative Ver.]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1838,
+        "ma": 1114,
+        "sa": 4465,
+        "md": 816,
+        "sd": 1025,
+        "br": 274,
+        "pr": 626,
+        "wt": ["Zeon", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2526,
+        "ma": 1310,
+        "sa": 1740,
+        "md": 1306,
+        "sd": 1415,
+        "br": 398,
+        "pr": 845,
+        "wt": ["Zeon", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1826,
+        "ma": 4454,
+        "sa": 1836,
+        "md": 1238,
+        "sd": 1230,
+        "br": 0,
+        "pr": 359,
+        "wt": ["Zeon", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "High Beam Rifle & Saber",
+            "description": "Slash enemies with your beam saber, and fire your beam rifle.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2023,
+        "ma": 1501,
+        "sa": 1023,
+        "md": 1594,
+        "sd": 1409,
+        "br": 526,
+        "pr": 871,
+        "wt": ["Zeon", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Meteroite Kick",
+            "description": "Slash enemies with your saber, then land a powerful kick from off a meteorite. Raise your speed by 20%. Raise your Melee Attack by 24%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2423,
+        "ma": 1014,
+        "sa": 1312,
+        "md": 1310,
+        "sd": 1414,
+        "br": 271,
+        "pr": 859,
+        "wt": ["Zeon", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Rifle category equipped, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1933,
+        "ma": 0,
+        "sa": 5543,
+        "md": 0,
+        "sd": 0,
+        "br": 402,
+        "pr": 633,
+        "wt": ["Zeon", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Grenade Launcher",
+            "description": "Fire a grenade from your rifle's under-barrel launcher. You can move while firing.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "High Beam Rifle [Grenade Launcher/Sinanju Stein]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1933,
+        "ma": 0,
+        "sa": 5543,
+        "md": 0,
+        "sd": 0,
+        "br": 402,
+        "pr": 633,
+        "wt": ["Zeon", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", Shooting power boosted 30%"
+        },
+        "name": "Bazooka [Sinanju Stein]",
+        "type": "Physical",
+        "category": "Bazooka"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1929,
+        "ma": 1578,
+        "sa": 1028,
+        "md": 2034,
+        "sd": 2041,
+        "br": 536,
+        "pr": 791,
+        "wt": ["Zeon", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Grenade Launcher",
+            "description": "Launch a grenade from your shield. You can move while firing.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "Shield [Sinanju Stein]"
+    }]
+}, {
     "name": "Slash Zaku Phantom",
     "attribute": "Speed",
     "rarity": 3,
@@ -42774,7 +43228,7 @@
         "wt": ["Zaku Type", "High Firepower"],
         "ex": {
             "type": "Part Traits",
-            "name": "Job Gauge inc. down 10% Melee power boosted 25%"
+            "name": "Job Gauge inc. down 10%, Melee power boosted 25%"
         }
     }, {
         "part": "legs",
@@ -42869,7 +43323,7 @@
         "wt": ["Zaku Type", "Commander"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once"
+            "name": "When 1 enemies shot down, Reduce Cooldown by 40% once."
         },
         "name": "Beam Assault Rifle",
         "type": "Beam",
@@ -44788,7 +45242,7 @@
         "wt": ["High Firepower", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor by 60% or more, EX Skill CD reduced 20%"
+            "name": "When Armor is 60% or more, EX Skill CD reduced 20%"
         }
     }, {
         "part": "back",
@@ -44818,7 +45272,7 @@
         "wt": ["High Firepower", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
-            "name": "Melee DMG raised by 10% EX Skill power boosted 30%"
+            "name": "Melee DMG raised 10%, EX Skill power boosted 30%"
         },
         "name": "Mega Cannon",
         "type": "Beam",
@@ -45492,7 +45946,7 @@
         "wt": ["Protag.", "For Forest"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Technique attribute (self), Buff EX Skill effect 22%"
+            "name": "With Technique attribute (self), Buff EX Skill effect up 22%"
         },
         "name": "Shield [Turn A]"
     }]
@@ -47068,7 +47522,7 @@
         "wt": ["Transformer", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Beam RES is over 3000, EX Skill DMG taken reduced 20"
+            "name": "When Beam RES is over 3000, EX Skill DMG taken reduced by 20"
         }
     }, {
         "part": "back",
@@ -47120,7 +47574,7 @@
         "wt": ["Support Type", "Mid-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "When 1 enemies shot down, Vernier Consumption=0 for 10 sec."
+            "name": "When 1 enemies shot down, Vernier consumption=0 for 10 sec."
         }
     }, {
         "part": "arms",
@@ -47449,7 +47903,7 @@
         "wt": ["Transformer", "Long-Range"],
         "ex": {
             "type": "Part Traits",
-            "name": "When Armor is 70% or less, Enemy Melee power reduced 30% "
+            "name": "When Armor is 70% or less, Enemy Melee power reduced 30%"
         }
     }, {
         "part": "legs",
@@ -48670,7 +49124,7 @@
         "wt": ["Zaku Type", "Heavy Armor"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Dual Sabers category equipped, EX Skill DMG output boosted 20 (flat)"
+            "name": "With Dual Sabers category equipped, EX Skill DMG output boosted by 20"
         }
     }, {
         "part": "arms",
@@ -48685,7 +49139,7 @@
         "wt": ["Zaku Type", "Heavy Armor"],
         "ex": {
             "type": "Part Traits",
-            "name": "When CPWR > 100000 Melee power boosted 25%"
+            "name": "When CPWR is over 100000 , Melee power boosted 25%"
         }
     }, {
         "part": "legs",
@@ -48865,7 +49319,7 @@
         "wt": ["Mass P.", "Zaku Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Axe category equipped, Debuff EX Skill effect up to 10%"
+            "name": "With Axe category equipped, Debuff EX Skill effect up 10%"
         }
     }, {
         "part": "melee",
@@ -49073,7 +49527,7 @@
         "wt": ["High Mobility", "Zaku Type"],
         "ex": {
             "type": "Part Traits",
-            "name": "With Machine Gun category equipped, Melee DMG output boosted 15%"
+            "name": "With Machine Gun category equipped, Melee DMG output boosted by 15%"
         }
     }, {
         "part": "legs",
