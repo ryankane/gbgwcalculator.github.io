@@ -2159,6 +2159,24 @@
     "name": "With Speed attribute (self), 14% chance to survive a fatal blow"
   }
 }, {
+  "name": "Katejina Loos",
+  "jl": ["Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1319,
+  "ma": 1031,
+  "sa": 2329,
+  "md": 1423,
+  "sd": 1602,
+  "br": 272,
+  "pr": 538,
+  "wt": ["High Firepower", "For Desert"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "After 15s pass, Long Shot Attack raised 20%"
+  }
+}, {
   "name": "Kayra Su",
   "jl": ["Defender"],
   "attribute": "Technique",
@@ -3111,6 +3129,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When attacking with Beam, Long Shot Attack raised 14%"
+  }
+}, {
+  "name": "Oliver Inoe",
+  "jl": ["Defender"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1378,
+  "ma": 677,
+  "sa": 351,
+  "md": 1067,
+  "sd": 1378,
+  "br": 511,
+  "pr": 148,
+  "wt": ["For Desert", "For Tundra"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Vernier recovery rate boosted 20%"
   }
 }, {
   "name": "Orga Itsuka",

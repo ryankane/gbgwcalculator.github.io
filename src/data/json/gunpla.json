@@ -35930,6 +35930,160 @@
         "name": "Shield [Mobile Worker]"
     }]
 }, {
+    "name": "Montero [Klim Nick]",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 2559,
+        "ma": 1102,
+        "sa": 4794,
+        "md": 838,
+        "sd": 3238,
+        "br": 629,
+        "pr": 606,
+        "wt": ["Commander", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 3250,
+        "ma": 1936,
+        "sa": 1102,
+        "md": 1609,
+        "sd": 4011,
+        "br": 601,
+        "pr": 618,
+        "wt": ["Commander", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Twin Blade category equipped, 14% chance to survive a fatal blow"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 4497,
+        "ma": 7014,
+        "sa": 829,
+        "md": 4006,
+        "sd": 8072,
+        "br": 975,
+        "pr": 979,
+        "wt": ["Commander", "For Base"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 25%"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Shield [Montero (Klim Nick)]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 2871,
+        "ma": 1283,
+        "sa": 1073,
+        "md": 1285,
+        "sd": 3252,
+        "br": 1034,
+        "pr": 1043,
+        "wt": ["Commander", "For Base"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Waist Missile",
+            "description": "Launch the three missiles loaded into each side of your waist.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 2869,
+        "ma": 1285,
+        "sa": 1090,
+        "md": 1959,
+        "sd": 3238,
+        "br": 970,
+        "pr": 977,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1292,
+        "ma": 7877,
+        "sa": 0,
+        "md": 0,
+        "sd": 2526,
+        "br": 615,
+        "pr": 611,
+        "wt": ["Commander", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Twin Whip Slash",
+            "description": "Unfurl the beam wires stowed in your javelin to unleash a barrage of attacks.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Beam Javelin [Coupled/Montero (Klim Nick)]",
+        "type": "Beam",
+        "category": "Twin Blade"
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1292,
+        "ma": 7877,
+        "sa": 0,
+        "md": 0,
+        "sd": 2526,
+        "br": 615,
+        "pr": 611,
+        "wt": ["Commander", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "21% chance of attacks penetrating super armor"
+        },
+        "name": "Beam Javelin [Detached/Montero (Klim Nick)]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 1605,
+        "ma": 0,
+        "sa": 4027,
+        "md": 0,
+        "sd": 2528,
+        "br": 864,
+        "pr": 871,
+        "wt": ["Commander", "For Base"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Beam ranged weapon, reload spped boosted 15%"
+        },
+        "name": "Beam Rifle [Montero (Klim Nick)]",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
     "name": "Moon Gundam",
     "attribute": "Technique",
     "rarity": 4,
@@ -48866,6 +49020,129 @@
             "name": "Long-Shooter Job, Buff EX Skill effect up 22%"
         },
         "name": "Shield [Wing Proto Zero (EW)]"
+    }]
+}, {
+    "name": "Xi Gundam",
+    "attribute": "Power",
+    "rarity": 6,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 0,
+        "ma": 1352,
+        "sa": 8631,
+        "md": 1943,
+        "sd": 4385,
+        "br": 1879,
+        "pr": 689,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 4229,
+        "ma": 1951,
+        "sa": 3473,
+        "md": 1147,
+        "sd": 4385,
+        "br": 2405,
+        "pr": 560,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Commander\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2338,
+        "ma": 7220,
+        "sa": 3689,
+        "md": 940,
+        "sd": 3991,
+        "br": 1440,
+        "pr": 0,
+        "wt": ["Commander", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Funnel Missile Combo",
+            "description": "After firing Funnel Missiles, perform a high-speed attack with sabers in each hand. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "S",
+                "Pow": "C",
+                "Cd": [79, 8]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 3984,
+        "ma": 940,
+        "sa": 2477,
+        "md": 2677,
+        "sd": 4214,
+        "br": 1970,
+        "pr": 1003,
+        "wt": ["Commander", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2337,
+        "ma": 1932,
+        "sa": 2848,
+        "md": 2477,
+        "sd": 4385,
+        "br": 2167,
+        "pr": 1197,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Job Gauge inc. down 10%, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1540,
+        "ma": 0,
+        "sa": 9653,
+        "md": 0,
+        "sd": 2677,
+        "br": 1111,
+        "pr": 0,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Job Gauge increase boosted 17%"
+        },
+        "name": "Beam Rifle [Xi]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 2840,
+        "ma": 0,
+        "sa": 2352,
+        "md": 2677,
+        "sd": 5762,
+        "br": 2585,
+        "pr": 1003,
+        "wt": ["Commander", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Commander\", Shooting power boosted 30%"
+        },
+        "name": "Shield [Xi]"
     }]
 }, {
     "name": "Yami Syougun",

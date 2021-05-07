@@ -66,6 +66,12 @@ const applyPart = (part, resultCache) => {
   type = meleeType != null ? 6 : rangedType != null ? 7 : type;
   let collectionType = meleeType ? meleeType : rangedType ? rangedType : type;
 
+  let trait = { condition: null, effect: null };
+  if (part['EX/TRAIT'] === 'TRAIT') {
+    let [, condition, effect] = part['Details'].match(/^(?:(.+),\s*)?(.+)$/);
+    trait = { condition, effect };
+  }
+
   resultCache.parts.push({
     'Index' : resultCache.parts.length + 1,
     'Name': part['Part Name'],
@@ -84,8 +90,10 @@ const applyPart = (part, resultCache) => {
     'Shot DEF': part['Shot DEF'],
     'Beam RES': part['Beam RES'],
     'Phys. RES': part['Phys. RES'],
-    'EX ID' : part['EX/TRAIT'] === 'EX' ? resultCache.skills.length : null,
-    'Trait': part['EX/TRAIT'] === 'TRAIT' ? part['Details'] : null,
+    'EX ID': part['EX/TRAIT'] === 'EX' ? resultCache.skills.length : null,
+    'Trait Condition': trait.condition,
+    'Trait Effect': trait.effect,
+    'Trait': trait.effect ? '=IF($S2="", $T2, $S2&", "&$T2)' : null,
     'Wep Type' : findByName(WeaponTypeIndex, part['Weapon Type']),
     'Wep Cat' : findByName(WeaponCategoryIndex, part['Weapon Category']),
     'Notes': part['Obtained From']
@@ -121,6 +129,10 @@ const applyPilot = (part, resultCache) => {
     subname = name.substring(name.indexOf('[') + 1, name.indexOf(']'));
     name = name.substring(0, name.indexOf('['));
   }
+
+  let [, condition, effect] = part['Details'].match(/^(?:(.+),\s*)?(.+)$/);
+  let trait = { condition, effect };
+
   resultCache.pilots.push({
     'Index': resultCache.pilots.length + 1,
     'Name': name,
@@ -139,7 +151,9 @@ const applyPilot = (part, resultCache) => {
     'Shot DEF': part['Shot DEF'],
     'Beam RES': part['Beam RES'],
     'Phys. RES': part['Phys. RES'],
-    'Trait': part['Details'],
+    'Trait Condition': trait.condition,
+    'Trait Effect': trait.effect,
+    'Trait': trait.effect ? '=IF($S2="", $T2, $S2&", "&$T2)' : null,
     'Job Lic': lookupJobLicense(part['Job License']),
     'AI Range': findByName(AiRangeIndex, part['AI Type']),
     'AI Priority': findByName(AiPriorityIndex, part['AI Type 2']),
