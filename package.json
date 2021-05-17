@@ -15,12 +15,12 @@
     "dev": "grunt dev"
   },
   "devDependencies": {
-    "grunt": "^1.1.0",
+    "grunt": "^1.4.0",
     "grunt-banner": "^0.6.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^3.0.0",
     "grunt-contrib-jshint": "^2.1.0",
-    "grunt-contrib-less": "^2.0.0",
+    "grunt-contrib-less": "^2.1.0",
     "grunt-contrib-uglify-es": "^3.3.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-json-minify": "^1.1.0",

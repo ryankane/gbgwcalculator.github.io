@@ -2586,18 +2586,51 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2585,Geymalk,00-00-4-01,393,4,,3,3,10,11,351,351,677,894,894,411,411,831,,,,,,Annilhilation Coins (Weekly Event)
 2586,Geymalk,00-00-5-01,393,5,,3,3,10,11,1523,351,677,826,826,411,411,832,,,,,,Annilhilation Coins (Weekly Event)
 2587,Beam Saber [Geymalk],00-00-6-01,393,6,,3,3,10,8,1711,2754,0,0,745,256,256,,After 15s pass,Reduce Cooldown by 40% once.,"After 15s pass, Reduce Cooldown by 40% once.",1,4,Annilhilation Coins (Weekly Event)
-2588,Xi Gundam,00-00-1-01,394,1,,6,1,5,13,0,1352,8631,1943,4385,1879,689,,Middle-Shooter Job,EX Skill power boosted 30%,"Middle-Shooter Job, EX Skill power boosted 30%",,,Xi Gundam Capsules
-2589,Xi Gundam,00-00-2-01,394,2,,6,1,5,13,4229,1951,3473,1147,4385,2405,560,,"While ""Commander""",Shooting power boosted 30%,"While ""Commander"", Shooting power boosted 30%",,,Xi Gundam Capsules
-2590,Xi Gundam,00-00-3-01,394,3,,6,1,5,3,2338,7220,3689,940,3991,1440,0,834,,,,,,Xi Gundam Capsules
-2591,Xi Gundam,00-00-4-01,394,4,,6,1,5,3,3984,940,2477,2677,4214,1970,1003,,With Power attribute (self),EX Skill power boosted 30%,"With Power attribute (self), EX Skill power boosted 30%",,,Xi Gundam Capsules
-2592,Xi Gundam,00-00-5-01,394,5,,6,1,5,13,2337,1932,2848,2477,4385,2167,1197,,Job Gauge inc. down 10%,Shooting power boosted 30%,"Job Gauge inc. down 10%, Shooting power boosted 30%",,,Xi Gundam Capsules
-2593,Beam Rifle [Xi],00-00-7a-01,394,7,,6,1,5,13,1540,0,9653,0,2677,1111,0,,Middle-Shooter Job,Job Gauge increase boosted 17%,"Middle-Shooter Job, Job Gauge increase boosted 17%",1,8,Xi Gundam Capsules
-2594,Shield [Xi],00-00-8-01,394,8,,6,1,5,3,2840,0,2352,2677,5762,2585,1003,,"While ""Commander""",Shooting power boosted 30%,"While ""Commander"", Shooting power boosted 30%",,,Xi Gundam Capsules
-2595,Montero [Klim Nick],00-00-1-01,395,1,,3,2,5,6,2559,1102,4794,838,3238,629,606,,"While ""Close Combat""",EX Skill piercing boosted 22%,"While ""Close Combat"", EX Skill piercing boosted 22%",,,Pressure Coins (Weekly Event)
-2596,Montero [Klim Nick],00-00-2-01,395,2,,3,2,5,6,3250,1936,1102,1609,4011,601,618,,With Twin Blade category equipped,14% chance to survive a fatal blow,"With Twin Blade category equipped, 14% chance to survive a fatal blow",,,Pressure Coins (Weekly Event)
-2597,Montero [Klim Nick],00-00-3-01,395,3,8,3,2,5,25,4497,7014,829,4006,8072,975,979,,With Technique attribute (self),Melee power boosted 25%,"With Technique attribute (self), Melee power boosted 25%",,,Pressure Coins (Weekly Event)
-2598,Montero [Klim Nick],00-00-4-01,395,4,,3,2,5,25,2871,1283,1073,1285,3252,1034,1043,835,,,,,,Pressure Coins (Weekly Event)
-2599,Montero [Klim Nick],00-00-5-01,395,5,,3,2,5,21,2869,1285,1090,1959,3238,970,977,,With Technique attribute (self),EX Skill piercing boosted 22%,"With Technique attribute (self), EX Skill piercing boosted 22%",,,Pressure Coins (Weekly Event)
-2600,Beam Javelin [Coupled/Montero (Klim Nick)],00-00-6-01,395,6,,3,2,5,6,1292,7877,0,0,2526,615,611,836,,,,1,13,Pressure Coins (Weekly Event)
-2601,Beam Javelin [Detached/Montero (Klim Nick)],00-00-6-01,395,6,,3,2,5,21,1292,7877,0,0,2526,615,611,,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,1,4,Pressure Coins (Weekly Event)
-2602,Beam Rifle [Montero (Klim Nick)],00-00-7a-01,395,7,,3,2,5,25,1605,0,4027,0,2528,864,871,,Beam ranged weapon,reload spped boosted 15%,"Beam ranged weapon, reload spped boosted 15%",1,8,Pressure Coins (Weekly Event)
+2588,Xi Gundam,00-00-1-01,394,1,,6,1,5,13,0,712,4543,1023,2308,989,363,,Middle-Shooter Job,EX Skill power boosted 30%,"Middle-Shooter Job, EX Skill power boosted 30%",,,Xi Gundam Capsules
+2589,Xi Gundam,00-00-2-01,394,2,,6,1,5,13,2226,1027,1828,604,2308,1266,295,,"While ""Commander""",Shooting power boosted 30%,"While ""Commander"", Shooting power boosted 30%",,,Xi Gundam Capsules
+2590,Xi Gundam,00-00-3-01,394,3,,6,1,5,3,1231,3800,1942,495,2101,758,0,834,,,,,,Xi Gundam Capsules
+2591,Xi Gundam,00-00-4-01,394,4,,6,1,5,3,2097,495,1304,1409,2218,1037,528,,With Power attribute (self),EX Skill power boosted 30%,"With Power attribute (self), EX Skill power boosted 30%",,,Xi Gundam Capsules
+2592,Xi Gundam,00-00-5-01,394,5,,6,1,5,13,1230,1017,1499,1304,2308,1141,630,,Job Gauge inc. down 10%,Shooting power boosted 30%,"Job Gauge inc. down 10%, Shooting power boosted 30%",,,Xi Gundam Capsules
+2593,Beam Rifle [Xi],00-00-7a-01,394,7,,6,1,5,13,811,0,5081,0,1409,585,0,,Middle-Shooter Job,Job Gauge increase boosted 17%,"Middle-Shooter Job, Job Gauge increase boosted 17%",1,8,Xi Gundam Capsules
+2594,Shield [Xi],00-00-8-01,394,8,,6,1,5,3,1495,0,1238,1409,3033,1361,528,,"While ""Commander""",Shooting power boosted 30%,"While ""Commander"", Shooting power boosted 30%",,,Xi Gundam Capsules
+2595,Montero [Klim Nick],00-00-1-01,395,1,,3,2,5,6,1069,469,2040,357,1378,268,258,,"While ""Close Combat""",EX Skill piercing boosted 22%,"While ""Close Combat"", EX Skill piercing boosted 22%",,,Pressure Coins (Weekly Event)
+2596,Montero [Klim Nick],00-00-2-01,395,2,,3,2,5,6,1383,824,469,685,1707,256,263,,With Twin Blade category equipped,14% chance to survive a fatal blow,"With Twin Blade category equipped, 14% chance to survive a fatal blow",,,Pressure Coins (Weekly Event)
+2597,Montero [Klim Nick],00-00-3-01,395,3,8,3,2,5,25,1914,2985,353,1705,3435,415,417,,With Technique attribute (self),Melee power boosted 25%,"With Technique attribute (self), Melee power boosted 25%",,,Pressure Coins (Weekly Event)
+2598,Montero [Klim Nick],00-00-4-01,395,4,,3,2,5,25,1222,546,457,547,1384,440,444,835,,,,,,Pressure Coins (Weekly Event)
+2599,Montero [Klim Nick],00-00-5-01,395,5,,3,2,5,21,1221,547,464,834,1378,413,416,,With Technique attribute (self),EX Skill piercing boosted 22%,"With Technique attribute (self), EX Skill piercing boosted 22%",,,Pressure Coins (Weekly Event)
+2600,Beam Javelin [Coupled/Montero (Klim Nick)],00-00-6-01,395,6,,3,2,5,6,550,3352,0,0,1075,262,260,836,,,,1,13,Pressure Coins (Weekly Event)
+2601,Beam Javelin [Detached/Montero (Klim Nick)],00-00-6-01,395,6,,3,2,5,21,550,3352,0,0,1075,262,260,,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,1,4,Pressure Coins (Weekly Event)
+2602,Beam Rifle [Montero (Klim Nick)],00-00-7a-01,395,7,,3,2,5,25,683,0,1714,0,1076,368,371,,Beam ranged weapon,reload spped boosted 15%,"Beam ranged weapon, reload spped boosted 15%",1,8,Pressure Coins (Weekly Event)
+2603,Nu Gundam HWS,00-00-1-01,396,1,,5,2,11,13,2738,497,4633,1025,1407,369,581,,When attacking with Beam,Shooting power boosted 30%,"When attacking with Beam, Shooting power boosted 30%",,,Nu HWS Materials (Event Blueprint)
+2604,Nu Gundam HWS,00-00-2-01,396,2,,5,2,11,13,3318,606,1940,1400,2426,298,700,837,,,,,,Nu HWS Materials (Event Blueprint)
+2605,Nu Gundam HWS,00-00-3-01,396,3,,5,2,11,13,2838,3526,1938,1578,904,293,398,,With Technique attribute (self),Shooting power boosted 30%,"With Technique attribute (self), Shooting power boosted 30%",,,Nu HWS Materials (Event Blueprint)
+2606,Nu Gundam HWS,00-00-4-01,396,4,,5,2,11,3,3027,488,1308,1592,1742,300,474,,Middle-Shooter Job,EX Skill CD reduced 20%,"Middle-Shooter Job, EX Skill CD reduced 20%",,,Nu HWS Materials (Event Blueprint)
+2607,Nu Gundam HWS,00-00-5-01,396,5,,5,2,11,3,2833,489,1116,921,2840,952,697,838,,,,,,Nu HWS Materials (Event Blueprint)
+2608,Hyper Mega Rifle [Nu Gundam HWS],00-00-7b-01,396,7,,5,2,11,3,1936,0,5462,0,593,201,476,,"While ""Heavy Armor""",EX Skill power boosted 30%,"While ""Heavy Armor"", EX Skill power boosted 30%",1,10,Nu HWS Materials (Event Blueprint)
+2609,Hi-Mega Shield [Nu Gundam HWS],00-00-8-01,396,8,,5,2,11,13,2610,0,1025,1243,1932,580,290,287,,,,,,Nu HWS Materials (Event Blueprint)
+2610,Astray Turn Red,00-00-1-01,397,1,,5,1,6,13,0,1414,3425,2220,2218,295,302,78,,,,,,Gundam Battle Festival
+2611,Astray Turn Red,00-00-2-01,397,2,,5,1,6,13,1410,1500,700,2838,2850,591,585,,"While ""Close Combat""",Melee power boosted 30%,"While ""Close Combat"", Melee power boosted 30%",,,Gundam Battle Festival
+2612,Astray Turn Red,00-00-3-01,397,3,,5,1,6,13,0,4632,712,2525,2518,356,363,,In-Fighter Job,Melee power boosted 30%,"In-Fighter Job, Melee power boosted 30%",,,Gundam Battle Festival
+2613,Astray Turn Red,00-00-4-01,397,4,,5,1,6,10,1245,1588,813,2742,2730,580,585,678,,,,,,Gundam Battle Festival
+2614,Astray Turn Red,00-00-5-01,397,5,,5,1,6,10,1406,1244,608,2609,2613,702,692,839,,,,,,Gundam Battle Festival
+2615,Tactical Arms [Turn Red],00-00-6c-01,397,6,,5,1,6,10,714,5467,0,716,704,260,258,,With Power attribute (self),Melee power boosted 30%,"With Power attribute (self), Melee power boosted 30%",2,5,Gundam Battle Festival
+2616,Armor Schneider [Turn Red],00-00-6-01,397,6,,5,1,6,13,714,5467,0,716,704,260,258,,"While ""Gundam Type""",Initial EX Skill charge boosted 20%,"While ""Gundam Type"", Initial EX Skill charge boosted 20%",2,4,Gundam Battle Festival
+2617,Beam Saber [Turn Red],00-00-6a-01,397,6,,5,1,6,13,714,5467,0,716,704,260,258,,When attacking with Physical,EX Skill power boosted 30%,"When attacking with Physical, EX Skill power boosted 30%",1,2,Gundam Battle Festival
+2618,Beam Rifle [Turn Red],00-00-7a-01,397,7,,5,1,6,10,1106,0,5264,807,811,475,476,,With Power attribute (self),Melee CRIT rate boosted 30%,"With Power attribute (self), Melee CRIT rate boosted 30%",1,8,Gundam Battle Festival
+2619,Anti-Beam Shield [Turn Red],00-00-8-01,397,8,,5,1,6,13,1116,1416,0,2958,2964,291,0,,With Power attribute (self),Enemy Shooting power reduced 30%,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Gundam Battle Festival
+2620,Crossbone Gundam Maoh,00-00-1-01,398,1,,5,3,8,3,1230,1027,4540,709,1238,693,700,,When attacking with Beam,EX Skill power boosted 30%,"When attacking with Beam, EX Skill power boosted 30%",,,Gundam Battle Festival
+2621,Crossbone Gundam Maoh,00-00-2-01,398,2,,5,3,8,3,1930,909,1940,1021,1742,883,877,840,,,,,,Gundam Battle Festival
+2622,Crossbone Gundam Maoh,00-00-3-01,398,3,,5,3,8,3,1109,4355,1938,494,1304,481,481,,With Speed attribute (self),Shooting power boosted 30%,"With Speed attribute (self), Shooting power boosted 30%",,,Gundam Battle Festival
+2623,Crossbone Gundam Maoh,00-00-4-01,398,4,,5,3,8,10,1409,1497,710,1238,2031,983,988,841,,,,,,Gundam Battle Festival
+2624,Crossbone Gundam Maoh,00-00-5-01,398,5,,5,3,8,13,1497,1407,1304,814,1407,944,938,842,,,,,,Gundam Battle Festival
+2625,Crossbone Gun & Sword [Close Quarters],00-00-6-01,398,6,,5,3,8,10,803,5268,295,0,0,790,792,,"While ""Long-Range""",EX Skill power boosted 30%,"While ""Long-Range"", EX Skill power boosted 30%",1,4,Gundam Battle Festival
+2626,Beam Zanber [Crossbone Gundam Maoh],00-00-6a-01,398,6,,5,3,8,13,803,5268,295,0,0,790,792,,With Speed attribute (self),Job Gauge increase boosted 17%,"With Speed attribute (self), Job Gauge increase boosted 17%",1,2,Gundam Battle Festival
+2627,Zanbuster [Crossbone Gundam Maoh],00-00-7a-01,398,7,,5,3,8,13,598,402,5543,0,0,693,697,,With Speed attribute (self),Shooting power boosted 30%,"With Speed attribute (self), Shooting power boosted 30%",1,8,Gundam Battle Festival
+2628,Crossbone Gun & Sword [Ranged],00-00-7-01,398,7,,5,3,8,10,598,402,5543,0,0,693,697,,Melee Attack down 10%,EX Skill power boosted 30%,"Melee Attack down 10%, EX Skill power boosted 30%",1,14,Gundam Battle Festival
+2629,Perfect Gundam,00-00-1-01,399,1,,3,1,11,16,894,466,2386,894,894,148,148,,With Power attribute (self),EX Skill DMG boosted by 20,"With Power attribute (self), EX Skill DMG boosted by 20",,,Perfect Coins (Weekly Event)
+2630,Perfect Gundam,00-00-2-01,399,2,,3,1,11,16,1858,466,466,1229,1229,256,256,,"While ""Heavy Armor""",Enemy EX Skill power reduced 25%,"While ""Heavy Armor"", Enemy EX Skill power reduced 25%",,,Perfect Coins (Weekly Event)
+2631,Perfect Gundam,00-00-3-01,399,3,,3,1,11,16,894,2386,826,1067,1067,0,0,843,,,,,,Perfect Coins (Weekly Event)
+2632,Perfect Gundam,00-00-4-01,399,4,,3,1,11,26,894,466,466,1229,1229,411,439,,When Armor 60% or more,Mid Shot Attack raised 14%,"When Armor 60% or more, Mid Shot Attack raised 14%",,,Perfect Coins (Weekly Event)
+2633,Perfect Gundam,00-00-5-01,399,5,,3,1,11,26,894,466,677,1229,1229,439,411,844,,,,,,Perfect Coins (Weekly Event)
+2634,Beam Saber [Perfect Gundam],00-00-6a-01,399,6,,3,1,11,16,1067,3103,0,0,0,364,364,,"While ""Heavy Armor""",Initial EX Skill charge boosted 12%,"While ""Heavy Armor"", Initial EX Skill charge boosted 12%",1,2,Perfect Coins (Weekly Event)
+2635,Shield [Perfect Gundam],00-00-8-01,399,8,,3,1,11,26,894,0,351,1378,1378,364,364,845,,,,,,Perfect Coins (Weekly Event)

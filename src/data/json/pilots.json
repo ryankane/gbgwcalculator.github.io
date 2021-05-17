@@ -125,6 +125,24 @@
     "name": "While \"Transformer\", Vernier consumption reduced 20%"
   }
 }, {
+  "name": "Allelujah Haptism [2nd Season]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1319,
+  "ma": 1513,
+  "sa": 2122,
+  "md": 1249,
+  "sd": 1513,
+  "br": 272,
+  "pr": 538,
+  "wt": ["High Mobility", "Mid-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Mid-Range\", All CRIT rate boosted 30%"
+  }
+}, {
   "name": "Allenby Beardsley",
   "jl": ["In-Fighter"],
   "attribute": "Technique",
@@ -2355,6 +2373,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Debuff EX Skill effect up 22%"
+  }
+}, {
+  "name": "Lancerow Dawell",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 349,
+  "ma": 1229,
+  "sa": 1229,
+  "md": 677,
+  "sd": 677,
+  "br": 510,
+  "pr": 510,
+  "wt": ["Commander", "For Space"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Commander\", EX Skill CD reduced 15%"
   }
 }, {
   "name": "Laura Rolla",

@@ -835,3 +835,12 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 834,Funnel Missile Combo,"After firing Funnel Missiles, perform a high-speed attack with sabers in each hand. Squad recovers 48% of maximum Armor. Raise Shot Attack of your Squad by 29%.",2,S,C,,,79,8
 835,Waist Missile,Launch the three missiles loaded into each side of your waist.,2,D,B,,,21,6
 836,Twin Whip Slash,Unfurl the beam wires stowed in your javelin to unleash a barrage of attacks.,3,D,B+,,,21,6
+837,Shoulder Missile Launcher,Launch the missiles attached to your shoulder.,2,D,B+,,,21,6
+838,Fin Funnel Barrier,Deploy a fin funnel pyramid barrier to nullify damage from long-range attacks. You can move freely while this is active.,1,,,,,60,6
+839,Turnover the Red,Unleash a coimbo using the Tactical Arm blades equipped in your hands. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.,4,D,A,,,79,20
+840,Skull Satellite Cannon,Open your chest skull and fire a beam gigantic enough to wipe out a battalion in a single shot. Raise Shot Attack of your Squad by 29%.,1,D,B+,,,79,20
+841,Crossbone Sword,Send out a blade-like shockwave from your equipped sword.,3,D,B+,,,21,3
+842,Rampart Arms,Execute an unconventional and varied combo with your four sabers. Raise Melee Attack of your Squad by 39%.,3,D,A,,,79,20
+843,Double Beam Gun,Fire the Double Beam Gun equipped to your forarm. You can move while firing.,1,D,B,,7,60,0
+844,Shoulder Cannon,Fire a beam in a straight line from the cannon on your shoulder. You can move while firing.,1,B+,D,,7,60,0
+845,Drop Mines,Plant mines stowed in your shield. You can move while firing.,2,D,B,,11,60,0

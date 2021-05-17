@@ -3568,6 +3568,197 @@
         "category": "Dual Sabers"
     }]
 }, {
+    "name": "Astray Turn Red",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 0,
+        "ma": 1414,
+        "sa": 3425,
+        "md": 2220,
+        "sd": 2218,
+        "br": 295,
+        "pr": 302,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Igelstellung",
+            "description": "Fire the anti-air autocannons in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1410,
+        "ma": 1500,
+        "sa": 700,
+        "md": 2838,
+        "sd": 2850,
+        "br": 591,
+        "pr": 585,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 0,
+        "ma": 4632,
+        "sa": 712,
+        "md": 2525,
+        "sd": 2518,
+        "br": 356,
+        "pr": 363,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Melee power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1245,
+        "ma": 1588,
+        "sa": 813,
+        "md": 2742,
+        "sd": 2730,
+        "br": 580,
+        "pr": 585,
+        "wt": ["Close Combat", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Serpent Bite",
+            "description": "Attack with dual knives held in a backhand grip, striking enemies like a snake striking its prey.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1406,
+        "ma": 1244,
+        "sa": 608,
+        "md": 2609,
+        "sd": 2613,
+        "br": 702,
+        "pr": 692,
+        "wt": ["Close Combat", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Turnover the Red",
+            "description": "Unleash a coimbo using the Tactical Arm blades equipped in your hands. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 714,
+        "ma": 5467,
+        "sa": 0,
+        "md": 716,
+        "sd": 704,
+        "br": 260,
+        "pr": 258,
+        "wt": ["Close Combat", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Melee power boosted 30%"
+        },
+        "name": "Tactical Arms [Turn Red]",
+        "type": "Physical",
+        "category": "Blade"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 714,
+        "ma": 5467,
+        "sa": 0,
+        "md": 716,
+        "sd": 704,
+        "br": 260,
+        "pr": 258,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Armor Schneider [Turn Red]",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 714,
+        "ma": 5467,
+        "sa": 0,
+        "md": 716,
+        "sd": 704,
+        "br": 260,
+        "pr": 258,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, EX Skill power boosted 30%"
+        },
+        "name": "Beam Saber [Turn Red]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1106,
+        "ma": 0,
+        "sa": 5264,
+        "md": 807,
+        "sd": 811,
+        "br": 475,
+        "pr": 476,
+        "wt": ["Close Combat", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Melee CRIT rate boosted 30%"
+        },
+        "name": "Beam Rifle [Turn Red]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1116,
+        "ma": 1416,
+        "sa": 0,
+        "md": 2958,
+        "sd": 2964,
+        "br": 291,
+        "pr": 0,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+        },
+        "name": "Anti-Beam Shield [Turn Red]"
+    }]
+}, {
     "name": "Atlas Gundam",
     "attribute": "Power",
     "rarity": 4,
@@ -7581,6 +7772,181 @@
         "name": "Heavy Autocannon",
         "type": "Physical",
         "category": "Gatling Gun"
+    }]
+}, {
+    "name": "Crossbone Gundam Maoh",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1230,
+        "ma": 1027,
+        "sa": 4540,
+        "md": 709,
+        "sd": 1238,
+        "br": 693,
+        "pr": 700,
+        "wt": ["Long-Range", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1930,
+        "ma": 909,
+        "sa": 1940,
+        "md": 1021,
+        "sd": 1742,
+        "br": 883,
+        "pr": 877,
+        "wt": ["Long-Range", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Skull Satellite Cannon",
+            "description": "Open your chest skull and fire a beam gigantic enough to wipe out a battalion in a single shot. Raise Shot Attack of your Squad by 29%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1109,
+        "ma": 4355,
+        "sa": 1938,
+        "md": 494,
+        "sd": 1304,
+        "br": 481,
+        "pr": 481,
+        "wt": ["Long-Range", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1409,
+        "ma": 1497,
+        "sa": 710,
+        "md": 1238,
+        "sd": 2031,
+        "br": 983,
+        "pr": 988,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Crossbone Sword",
+            "description": "Send out a blade-like shockwave from your equipped sword.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1497,
+        "ma": 1407,
+        "sa": 1304,
+        "md": 814,
+        "sd": 1407,
+        "br": 944,
+        "pr": 938,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Rampart Arms",
+            "description": "Execute an unconventional and varied combo with your four sabers. Raise Melee Attack of your Squad by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 803,
+        "ma": 5268,
+        "sa": 295,
+        "md": 0,
+        "sd": 0,
+        "br": 790,
+        "pr": 792,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Long-Range\", EX Skill power boosted 30%"
+        },
+        "name": "Crossbone Gun & Sword [Close Quarters]",
+        "type": "Beam",
+        "category": "Dual Sabers"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 803,
+        "ma": 5268,
+        "sa": 295,
+        "md": 0,
+        "sd": 0,
+        "br": 790,
+        "pr": 792,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Job Gauge increase boosted 17%"
+        },
+        "name": "Beam Zanber [Crossbone Gundam Maoh]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 598,
+        "ma": 402,
+        "sa": 5543,
+        "md": 0,
+        "sd": 0,
+        "br": 693,
+        "pr": 697,
+        "wt": ["Long-Range", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting power boosted 30%"
+        },
+        "name": "Zanbuster [Crossbone Gundam Maoh]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 598,
+        "ma": 402,
+        "sa": 5543,
+        "md": 0,
+        "sd": 0,
+        "br": 693,
+        "pr": 697,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee Attack down 10%, EX Skill power boosted 30%"
+        },
+        "name": "Crossbone Gun & Sword [Ranged]",
+        "type": "Beam",
+        "category": "Twin Rifle"
     }]
 }, {
     "name": "Crossbone Gundam X1",
@@ -35938,13 +36304,13 @@
     "parts": [{
         "part": "head",
         "mark": 3,
-        "a": 2559,
-        "ma": 1102,
-        "sa": 4794,
-        "md": 838,
-        "sd": 3238,
-        "br": 629,
-        "pr": 606,
+        "a": 1069,
+        "ma": 469,
+        "sa": 2040,
+        "md": 357,
+        "sd": 1378,
+        "br": 268,
+        "pr": 258,
         "wt": ["Commander", "Close Combat"],
         "ex": {
             "type": "Part Traits",
@@ -35953,13 +36319,13 @@
     }, {
         "part": "body",
         "mark": 3,
-        "a": 3250,
-        "ma": 1936,
-        "sa": 1102,
-        "md": 1609,
-        "sd": 4011,
-        "br": 601,
-        "pr": 618,
+        "a": 1383,
+        "ma": 824,
+        "sa": 469,
+        "md": 685,
+        "sd": 1707,
+        "br": 256,
+        "pr": 263,
         "wt": ["Commander", "Close Combat"],
         "ex": {
             "type": "Part Traits",
@@ -35968,13 +36334,13 @@
     }, {
         "part": "arms",
         "mark": 3,
-        "a": 4497,
-        "ma": 7014,
-        "sa": 829,
-        "md": 4006,
-        "sd": 8072,
-        "br": 975,
-        "pr": 979,
+        "a": 1914,
+        "ma": 2985,
+        "sa": 353,
+        "md": 1705,
+        "sd": 3435,
+        "br": 415,
+        "pr": 417,
         "wt": ["Commander", "For Base"],
         "ex": {
             "type": "Part Traits",
@@ -35987,13 +36353,13 @@
     }, {
         "part": "legs",
         "mark": 3,
-        "a": 2871,
-        "ma": 1283,
-        "sa": 1073,
-        "md": 1285,
-        "sd": 3252,
-        "br": 1034,
-        "pr": 1043,
+        "a": 1222,
+        "ma": 546,
+        "sa": 457,
+        "md": 547,
+        "sd": 1384,
+        "br": 440,
+        "pr": 444,
         "wt": ["Commander", "For Base"],
         "ex": {
             "type": "EX Skill",
@@ -36009,13 +36375,13 @@
     }, {
         "part": "back",
         "mark": 3,
-        "a": 2869,
-        "ma": 1285,
-        "sa": 1090,
-        "md": 1959,
-        "sd": 3238,
-        "br": 970,
-        "pr": 977,
+        "a": 1221,
+        "ma": 547,
+        "sa": 464,
+        "md": 834,
+        "sd": 1378,
+        "br": 413,
+        "pr": 416,
         "wt": ["Commander", "For Desert"],
         "ex": {
             "type": "Part Traits",
@@ -36024,13 +36390,13 @@
     }, {
         "part": "melee",
         "mark": 3,
-        "a": 1292,
-        "ma": 7877,
+        "a": 550,
+        "ma": 3352,
         "sa": 0,
         "md": 0,
-        "sd": 2526,
-        "br": 615,
-        "pr": 611,
+        "sd": 1075,
+        "br": 262,
+        "pr": 260,
         "wt": ["Commander", "Close Combat"],
         "ex": {
             "type": "EX Skill",
@@ -36049,13 +36415,13 @@
     }, {
         "part": "melee",
         "mark": 3,
-        "a": 1292,
-        "ma": 7877,
+        "a": 550,
+        "ma": 3352,
         "sa": 0,
         "md": 0,
-        "sd": 2526,
-        "br": 615,
-        "pr": 611,
+        "sd": 1075,
+        "br": 262,
+        "pr": 260,
         "wt": ["Commander", "For Desert"],
         "ex": {
             "type": "Part Traits",
@@ -36067,13 +36433,13 @@
     }, {
         "part": "range",
         "mark": 3,
-        "a": 1605,
+        "a": 683,
         "ma": 0,
-        "sa": 4027,
+        "sa": 1714,
         "md": 0,
-        "sd": 2528,
-        "br": 864,
-        "pr": 871,
+        "sd": 1076,
+        "br": 368,
+        "pr": 371,
         "wt": ["Commander", "For Base"],
         "ex": {
             "type": "Part Traits",
@@ -37694,6 +38060,141 @@
         "name": "Shield [Nu Ver.Ka]"
     }]
 }, {
+    "name": "Nu Gundam HWS",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2738,
+        "ma": 497,
+        "sa": 4633,
+        "md": 1025,
+        "sd": 1407,
+        "br": 369,
+        "pr": 581,
+        "wt": ["Heavy Armor", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3318,
+        "ma": 606,
+        "sa": 1940,
+        "md": 1400,
+        "sd": 2426,
+        "br": 298,
+        "pr": 700,
+        "wt": ["Heavy Armor", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shoulder Missile Launcher",
+            "description": "Launch the missiles attached to your shoulder.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2838,
+        "ma": 3526,
+        "sa": 1938,
+        "md": 1578,
+        "sd": 904,
+        "br": 293,
+        "pr": 398,
+        "wt": ["Heavy Armor", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 3027,
+        "ma": 488,
+        "sa": 1308,
+        "md": 1592,
+        "sd": 1742,
+        "br": 300,
+        "pr": 474,
+        "wt": ["Heavy Armor", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2833,
+        "ma": 489,
+        "sa": 1116,
+        "md": 921,
+        "sd": 2840,
+        "br": 952,
+        "pr": 697,
+        "wt": ["Heavy Armor", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Fin Funnel Barrier",
+            "description": "Deploy a fin funnel pyramid barrier to nullify damage from long-range attacks. You can move freely while this is active.",
+            "category": "Beam Shot",
+            "stats": {
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1936,
+        "ma": 0,
+        "sa": 5462,
+        "md": 0,
+        "sd": 593,
+        "br": 201,
+        "pr": 476,
+        "wt": ["Heavy Armor", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Heavy Armor\", EX Skill power boosted 30%"
+        },
+        "name": "Hyper Mega Rifle [Nu Gundam HWS]",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 2610,
+        "ma": 0,
+        "sa": 1025,
+        "md": 1243,
+        "sd": 1932,
+        "br": 580,
+        "pr": 290,
+        "wt": ["Heavy Armor", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "High-Caliber Mega Particle Cannon",
+            "description": "Fire an ultra-wide beam from the two High-Caliber Mega Particle Cannons in your Hi-Mega Shield.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        },
+        "name": "Hi-Mega Shield [Nu Gundam HWS]"
+    }]
+}, {
     "name": "Palace Athene",
     "attribute": "Power",
     "rarity": 2,
@@ -38378,6 +38879,146 @@
             "type": "Part Traits",
             "name": "With Speed attribute (self), EX Skill piercing boosted 28%"
         }
+    }]
+}, {
+    "name": "Perfect Gundam",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 894,
+        "ma": 466,
+        "sa": 2386,
+        "md": 894,
+        "sd": 894,
+        "br": 148,
+        "pr": 148,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill DMG boosted by 20"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1858,
+        "ma": 466,
+        "sa": 466,
+        "md": 1229,
+        "sd": 1229,
+        "br": 256,
+        "pr": 256,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Heavy Armor\", Enemy EX Skill power reduced 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 894,
+        "ma": 2386,
+        "sa": 826,
+        "md": 1067,
+        "sd": 1067,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Double Beam Gun",
+            "description": "Fire the Double Beam Gun equipped to your forarm. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 7,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 894,
+        "ma": 466,
+        "sa": 466,
+        "md": 1229,
+        "sd": 1229,
+        "br": 411,
+        "pr": 439,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor 60% or more, Mid Shot Attack raised 14%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 894,
+        "ma": 466,
+        "sa": 677,
+        "md": 1229,
+        "sd": 1229,
+        "br": 439,
+        "pr": 411,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shoulder Cannon",
+            "description": "Fire a beam in a straight line from the cannon on your shoulder. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "D",
+                "Mag": 7,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1067,
+        "ma": 3103,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 364,
+        "pr": 364,
+        "wt": ["Heavy Armor", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Heavy Armor\", Initial EX Skill charge boosted 12%"
+        },
+        "name": "Beam Saber [Perfect Gundam]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 894,
+        "ma": 0,
+        "sa": 351,
+        "md": 1378,
+        "sd": 1378,
+        "br": 364,
+        "pr": 364,
+        "wt": ["Heavy Armor", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Drop Mines",
+            "description": "Plant mines stowed in your shield. You can move while firing.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "Shield [Perfect Gundam]"
     }]
 }, {
     "name": "Perfect Strike Gundam",
@@ -49031,12 +49672,12 @@
         "part": "head",
         "mark": 2,
         "a": 0,
-        "ma": 1352,
-        "sa": 8631,
-        "md": 1943,
-        "sd": 4385,
-        "br": 1879,
-        "pr": 689,
+        "ma": 712,
+        "sa": 4543,
+        "md": 1023,
+        "sd": 2308,
+        "br": 989,
+        "pr": 363,
         "wt": ["Commander", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
@@ -49045,13 +49686,13 @@
     }, {
         "part": "body",
         "mark": 2,
-        "a": 4229,
-        "ma": 1951,
-        "sa": 3473,
-        "md": 1147,
-        "sd": 4385,
-        "br": 2405,
-        "pr": 560,
+        "a": 2226,
+        "ma": 1027,
+        "sa": 1828,
+        "md": 604,
+        "sd": 2308,
+        "br": 1266,
+        "pr": 295,
         "wt": ["Commander", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
@@ -49060,12 +49701,12 @@
     }, {
         "part": "arms",
         "mark": 2,
-        "a": 2338,
-        "ma": 7220,
-        "sa": 3689,
-        "md": 940,
-        "sd": 3991,
-        "br": 1440,
+        "a": 1231,
+        "ma": 3800,
+        "sa": 1942,
+        "md": 495,
+        "sd": 2101,
+        "br": 758,
         "pr": 0,
         "wt": ["Commander", "Ace Excl."],
         "ex": {
@@ -49082,13 +49723,13 @@
     }, {
         "part": "legs",
         "mark": 2,
-        "a": 3984,
-        "ma": 940,
-        "sa": 2477,
-        "md": 2677,
-        "sd": 4214,
-        "br": 1970,
-        "pr": 1003,
+        "a": 2097,
+        "ma": 495,
+        "sa": 1304,
+        "md": 1409,
+        "sd": 2218,
+        "br": 1037,
+        "pr": 528,
         "wt": ["Commander", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
@@ -49097,13 +49738,13 @@
     }, {
         "part": "back",
         "mark": 2,
-        "a": 2337,
-        "ma": 1932,
-        "sa": 2848,
-        "md": 2477,
-        "sd": 4385,
-        "br": 2167,
-        "pr": 1197,
+        "a": 1230,
+        "ma": 1017,
+        "sa": 1499,
+        "md": 1304,
+        "sd": 2308,
+        "br": 1141,
+        "pr": 630,
         "wt": ["Commander", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
@@ -49112,12 +49753,12 @@
     }, {
         "part": "range",
         "mark": 2,
-        "a": 1540,
+        "a": 811,
         "ma": 0,
-        "sa": 9653,
+        "sa": 5081,
         "md": 0,
-        "sd": 2677,
-        "br": 1111,
+        "sd": 1409,
+        "br": 585,
         "pr": 0,
         "wt": ["Commander", "Gundam Type"],
         "ex": {
@@ -49130,13 +49771,13 @@
     }, {
         "part": "shield",
         "mark": 2,
-        "a": 2840,
+        "a": 1495,
         "ma": 0,
-        "sa": 2352,
-        "md": 2677,
-        "sd": 5762,
-        "br": 2585,
-        "pr": 1003,
+        "sa": 1238,
+        "md": 1409,
+        "sd": 3033,
+        "br": 1361,
+        "pr": 528,
         "wt": ["Commander", "Ace Excl."],
         "ex": {
             "type": "Part Traits",
