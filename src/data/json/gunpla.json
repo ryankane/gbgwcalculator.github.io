@@ -11937,6 +11937,128 @@
         }
     }]
 }, {
+    "name": "FAZZ",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1378,
+        "ma": 351,
+        "sa": 2754,
+        "md": 552,
+        "sd": 552,
+        "br": 364,
+        "pr": 148,
+        "wt": ["Heavy Armor", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Long Shot Attack raised 14%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 2277,
+        "ma": 351,
+        "sa": 894,
+        "md": 894,
+        "sd": 894,
+        "br": 511,
+        "pr": 0,
+        "wt": ["Heavy Armor", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Chest Missile Launcher",
+            "description": "Launch micro missiles stowed in your chest.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 1711,
+        "ma": 677,
+        "sa": 951,
+        "md": 1378,
+        "sd": 1378,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Heavy Armor", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Double Beam Rifle",
+            "description": "Fire the double beam rifle equipped to your forearm. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A-",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1523,
+        "ma": 351,
+        "sa": 466,
+        "md": 894,
+        "sd": 894,
+        "br": 511,
+        "pr": 364,
+        "wt": ["Heavy Armor", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1422,
+        "ma": 351,
+        "sa": 466,
+        "md": 826,
+        "sd": 826,
+        "br": 511,
+        "pr": 364,
+        "wt": ["Heavy Armor", "Long-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Hyper Mega Cannon",
+            "description": "Fire a beam from the hyper mega cannon attached to your back.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 1378,
+        "ma": 0,
+        "sa": 3438,
+        "md": 0,
+        "sd": 0,
+        "br": 511,
+        "pr": 148,
+        "wt": ["Heavy Armor", "Long-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee Attack down 10%, Shooting power boosted 25%"
+        },
+        "name": "Hyper Mega Cannon [FAZZ]",
+        "type": "Beam",
+        "category": "Bazooka"
+    }]
+}, {
     "name": "Force Impulse Gundam",
     "attribute": "Power",
     "rarity": 4,
@@ -34934,6 +35056,131 @@
                 "Cd": [21, 6]
             }
         }
+    }]
+}, {
+    "name": "Liu Bei Gundam [Dragon Phoenix Strike]",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1602,
+        "ma": 1320,
+        "sa": 1249,
+        "md": 2053,
+        "sd": 818,
+        "br": 548,
+        "pr": 407,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Before 15s pass, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 1851,
+        "ma": 1602,
+        "sa": 715,
+        "md": 2453,
+        "sd": 1031,
+        "br": 772,
+        "pr": 0,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Revive with 50% Armor one time."
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 0,
+        "ma": 4597,
+        "sa": 715,
+        "md": 2633,
+        "sd": 818,
+        "br": 161,
+        "pr": 0,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Dragon Pheonix Strike",
+            "description": "Equip the Three Sacred Treasures and pierce foes with the Dragon Pheonix Strike trinity skill. Squad recovers 48% of maximum Armor. Raise Melee Defense of your Squad by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1858,
+        "ma": 2874,
+        "sa": 1358,
+        "md": 4660,
+        "sd": 1958,
+        "br": 1022,
+        "pr": 1466,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, EX Skill CD reduced 20%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1031,
+        "ma": 1249,
+        "sa": 715,
+        "md": 2544,
+        "sd": 1320,
+        "br": 772,
+        "pr": 538,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1031,
+        "ma": 5414,
+        "sa": 0,
+        "md": 611,
+        "sd": 0,
+        "br": 538,
+        "pr": 272,
+        "wt": ["Gundam Type", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Melee CRIT rate boosted 30%"
+        },
+        "name": "Souryujin",
+        "type": "Beam",
+        "category": "Blade"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1953,
+        "ma": 299,
+        "sa": 3064,
+        "md": 0,
+        "sd": 0,
+        "br": 772,
+        "pr": 538,
+        "wt": ["Gundam Type", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Gekiryuho",
+        "type": "Beam",
+        "category": "Long Rifle"
     }]
 }, {
     "name": "Mack Knife [Mask]",

@@ -1307,7 +1307,7 @@
   "sd": 1382,
   "br": 514,
   "pr": 149,
-  "wt": ["Commander", "High Firepower"],
+  "wt": ["Commander", "Mid-Range"],
   "ex": {
     "type": "Part Traits",
     "name": "When attacking with Physical, All CRIT rate boosted 17%"
@@ -3575,7 +3575,7 @@
   "sd": 687,
   "br": 529,
   "pr": 154,
-  "wt": ["Commander", "Zeon"],
+  "wt": ["Close Combat", "Zeon"],
   "ex": {
     "type": "Part Traits",
     "name": "While \"Zeon\", Initial EX Skill charge boosted 12%"
@@ -3993,6 +3993,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When attacking with Beam, Long Shot Attack raised 20%"
+  }
+}, {
+  "name": "Shani Andras",
+  "jl": ["Defender"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 1378,
+  "ma": 677,
+  "sa": 351,
+  "md": 1711,
+  "sd": 677,
+  "br": 511,
+  "pr": 148,
+  "wt": ["Mid-Range", "For Base"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Enemy Shooting power reduced 25%"
   }
 }, {
   "name": "Shiho Hahnenfuss",
@@ -4569,5 +4587,23 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Vernier recovery rate boosted 20%"
+  }
+}, {
+  "name": "Zero Murasame",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 500,
+  "ma": 1849,
+  "sa": 1849,
+  "md": 1030,
+  "sd": 1030,
+  "br": 770,
+  "pr": 770,
+  "wt": ["Federation", "High Firepower"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Rifle category equipped, Boost Funnel uptime by 50%."
   }
 }]

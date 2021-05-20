@@ -844,3 +844,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 843,Double Beam Gun,Fire the Double Beam Gun equipped to your forarm. You can move while firing.,1,D,B,,7,60,0
 844,Shoulder Cannon,Fire a beam in a straight line from the cannon on your shoulder. You can move while firing.,1,B+,D,,7,60,0
 845,Drop Mines,Plant mines stowed in your shield. You can move while firing.,2,D,B,,11,60,0
+846,Dragon Pheonix Strike,Equip the Three Sacred Treasures and pierce foes with the Dragon Pheonix Strike trinity skill. Squad recovers 48% of maximum Armor. Raise Melee Defense of your Squad by 29%.,4,D,A,,,79,20
+847,Chest Missile Launcher,Launch micro missiles stowed in your chest.,2,D,B+,,,21,6
+848,Double Beam Rifle,Fire the double beam rifle equipped to your forearm. You can move while firing.,1,A-,D,,11,60,0
+849,Hyper Mega Cannon,Fire a beam from the hyper mega cannon attached to your back.,1,A,D,,,60,15
