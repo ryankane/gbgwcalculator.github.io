@@ -395,6 +395,24 @@
     "name": "26% chance of attacks penetrating super armor"
   }
 }, {
+  "name": "Argo Gulskii",
+  "jl": ["In-Fighter"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 1163,
+  "ma": 1646,
+  "sa": 351,
+  "md": 1067,
+  "sd": 677,
+  "br": 385,
+  "pr": 385,
+  "wt": ["Mobile Fighter", "Heavy Armor"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When Melee ATK is over 16000, All CRIT rate boosted 17%"
+  }
+}, {
   "name": "Asagi Caldwell",
   "jl": ["Supporter"],
   "attribute": "Speed",
@@ -951,6 +969,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Debuff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Cima Garahau [Military Uniform Ver.]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1031,
+  "ma": 818,
+  "sa": 2329,
+  "md": 1319,
+  "sd": 2053,
+  "br": 538,
+  "pr": 272,
+  "wt": ["Zeon", "Commander"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), All Shot Attack raised 20%"
   }
 }, {
   "name": "Cony Francis",
@@ -1943,6 +1979,24 @@
     "name": "With Speed attribute (self), Recover 10 Armor gradually"
   }
 }, {
+  "name": "Isurugi Camice",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1523,
+  "ma": 1580,
+  "sa": 351,
+  "md": 894,
+  "sd": 552,
+  "br": 364,
+  "pr": 148,
+  "wt": ["Close Combat", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Enemy Shooting power reduced 25%"
+  }
+}, {
   "name": "Jamil Neate",
   "jl": ["Defender"],
   "attribute": "Power",
@@ -2933,6 +2987,24 @@
     "name": "While \"High Mobility\", Enemy Shooting power reduced 25%"
   }
 }, {
+  "name": "Montag [Unmasked Ver.]",
+  "jl": ["Defender", "Out-Fighter"],
+  "attribute": "Speed",
+  "rarity": 5,
+  "level": 99,
+  "a": 2201,
+  "ma": 2493,
+  "sa": 594,
+  "md": 1815,
+  "sd": 292,
+  "br": 290,
+  "pr": 614,
+  "wt": ["Close Combat", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"High Mobility\", Melee power boosted 30%"
+  }
+}, {
   "name": "Mouar Pharaoh",
   "jl": ["Supporter"],
   "attribute": "Power",
@@ -3543,6 +3615,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Debuff EX Skill effect up 12%"
+  }
+}, {
+  "name": "Ren Kotomori",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 953,
+  "ma": 1451,
+  "sa": 1809,
+  "md": 953,
+  "sd": 953,
+  "br": 434,
+  "pr": 508,
+  "wt": ["Long-Range", "High Mobility"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Buff EX Skill effect up 22%"
   }
 }, {
   "name": "Rey Za Burrel",
@@ -4479,6 +4569,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), 28% chance to not recoil"
+  }
+}, {
+  "name": "Yuri Ichinose",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 473,
+  "ma": 1850,
+  "sa": 1362,
+  "md": 960,
+  "sd": 960,
+  "br": 979,
+  "pr": 0,
+  "wt": ["Close Combat", "Mobile Fighter"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Technique attribute (self), Melee CRIT rate boosted 30%"
   }
 }, {
   "name": "Yurin Luciel",

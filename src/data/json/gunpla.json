@@ -31187,6 +31187,138 @@
         "name": "Shield/Mega Particle Cannon [Hamma-Hamma]"
     }]
 }, {
+    "name": "Helmwige Reincar",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1580,
+        "ma": 466,
+        "sa": 826,
+        "md": 1163,
+        "sd": 552,
+        "br": 385,
+        "pr": 261,
+        "wt": ["Close Combat", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Electric Shock Horns",
+            "description": "Spear enemies with the two horns on your head, and burn through their inner workings.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1711,
+        "ma": 677,
+        "sa": 466,
+        "md": 1422,
+        "sd": 677,
+        "br": 511,
+        "pr": 0,
+        "wt": ["Close Combat", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Enemy EX Skill power reduced 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 677,
+        "ma": 2987,
+        "sa": 466,
+        "md": 1580,
+        "sd": 552,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Close Combat", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 25%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1067,
+        "ma": 631,
+        "sa": 466,
+        "md": 1580,
+        "sd": 894,
+        "br": 364,
+        "pr": 511,
+        "wt": ["Close Combat", "Support Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, Melee CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1067,
+        "ma": 631,
+        "sa": 466,
+        "md": 1580,
+        "sd": 894,
+        "br": 511,
+        "pr": 364,
+        "wt": ["Close Combat", "Support Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", Melee DMG output boosted by 20"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 677,
+        "ma": 3703,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 364,
+        "pr": 148,
+        "wt": ["Close Combat", "Support Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Quick Slash",
+            "description": "Unleash a two-hit attack with your blade, knocking enemies away.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Valkyrja Buster Sword [Deployed]",
+        "type": "Physical",
+        "category": "Blade"
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 677,
+        "ma": 3703,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 364,
+        "pr": 148,
+        "wt": ["Close Combat", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, Melee power boosted 25%"
+        },
+        "name": "Valkyrja Buster Sword [Detached]",
+        "type": "Physical",
+        "category": "Dual Sabers"
+    }]
+}, {
     "name": "Hi-nu Gundam",
     "attribute": "Power",
     "rarity": 5,
@@ -31324,6 +31456,180 @@
             }
         },
         "name": "Shield [Hi-nu]]"
+    }]
+}, {
+    "name": "Hi-nu Gundam [Ver. Ka]",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2104,
+        "ma": 502,
+        "sa": 4641,
+        "md": 1311,
+        "sd": 1411,
+        "br": 488,
+        "pr": 360,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2614,
+        "ma": 602,
+        "sa": 1941,
+        "md": 1594,
+        "sd": 2519,
+        "br": 689,
+        "pr": 539,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1241,
+        "ma": 4364,
+        "sa": 1506,
+        "md": 1399,
+        "sd": 1741,
+        "br": 295,
+        "pr": 208,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "In-Arm Beam Saber",
+            "description": "Oscillate the saber stored in your arm and cleave through enemies.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2434,
+        "ma": 816,
+        "sa": 1583,
+        "md": 1496,
+        "sd": 1498,
+        "br": 845,
+        "pr": 701,
+        "wt": ["Commander", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Middle-Shooter Job, Shooting CRIT rate boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2310,
+        "ma": 816,
+        "sa": 1413,
+        "md": 1242,
+        "sd": 1830,
+        "br": 691,
+        "pr": 940,
+        "wt": ["Commander", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Fin Funnel Combo",
+            "description": "Perform consecutive melee attacks and follow up with a fin funnel barrage. Raise Shot Attack of your Squad by 39%. Raise Shot Defense of your Squad by 24%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C",
+                "Cd": [79, 8]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1301,
+        "ma": 5078,
+        "sa": 292,
+        "md": 0,
+        "sd": 0,
+        "br": 635,
+        "pr": 531,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Commander\", EX Skill power boosted 30%"
+        },
+        "name": "Beam Saber [Hi-nu (Ver. Ka)]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1114,
+        "ma": 0,
+        "sa": 5470,
+        "md": 0,
+        "sd": 0,
+        "br": 687,
+        "pr": 356,
+        "wt": ["Commander", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "After 15s pass, Shooting power boosted 30%"
+        },
+        "name": "Beam Rifle [Hi-nu (Ver. Ka)]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1114,
+        "ma": 0,
+        "sa": 5470,
+        "md": 0,
+        "sd": 0,
+        "br": 687,
+        "pr": 356,
+        "wt": ["Commander", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy Shooting power boosted 30%"
+        },
+        "name": "New Hyper Bazooka [Hi-nu (Ver. Ka)]",
+        "type": "Physical",
+        "category": "Bazooka"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1415,
+        "ma": 298,
+        "sa": 1026,
+        "md": 1014,
+        "sd": 3033,
+        "br": 292,
+        "pr": 578,
+        "wt": ["Commander", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Cannon",
+            "description": "Launch rapid-fire beam cannon shots from your shield. You can move while firing.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Mag": 7,
+                "Cd": [60, 0]
+            }
+        },
+        "name": "Shield [Hi-nu (Ver. Ka)]"
     }]
 }, {
     "name": "Hi-nu Gundam HWS [Ver. Ka]",
@@ -47627,6 +47933,145 @@
             "name": "While \"High Firepower\", Shooting power boosted 30%"
         },
         "name": "Beam Magnum [Phenex/Narrative Ver.]",
+        "type": "Beam",
+        "category": "Rifle"
+    }]
+}, {
+    "name": "Unicorn Gundam Perfectibility",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 1,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 0,
+        "ma": 708,
+        "sa": 4636,
+        "md": 1498,
+        "sd": 1502,
+        "br": 626,
+        "pr": 585,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Ace Excl.\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2307,
+        "ma": 1238,
+        "sa": 1838,
+        "md": 1240,
+        "sd": 1929,
+        "br": 793,
+        "pr": 759,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 909,
+        "ma": 4242,
+        "sa": 2038,
+        "md": 1304,
+        "sd": 1416,
+        "br": 355,
+        "pr": 295,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Perfect Blue",
+            "description": "Use beam tonfas and three types of enhanced Psyco Frame Armed Armor to obliterate foes. Raise Shot Attack of your Squad by 39%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1835,
+        "ma": 1244,
+        "sa": 1306,
+        "md": 1230,
+        "sd": 1935,
+        "br": 875,
+        "pr": 844,
+        "wt": ["High Firepower", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1247,
+        "ma": 1412,
+        "sa": 1752,
+        "md": 1408,
+        "sd": 1408,
+        "br": 981,
+        "pr": 945,
+        "wt": ["High Firepower", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Armed Armor DE",
+            "description": "Control the Armed Armor DE on your back with Psyco Frame resonance, and attack enemies. You can move while this is active. Raise your Melee Attack by 24%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1110,
+        "ma": 5351,
+        "sa": 0,
+        "md": 0,
+        "sd": 499,
+        "br": 530,
+        "pr": 536,
+        "wt": ["High Firepower", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Hyper Beam Javelin",
+            "description": "Brandish your javelin in twin blade mode and throw it at your enemies.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Hyper Beam Javelin [Unicorn Gundam Perfectibility]",
+        "type": "Beam",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1240,
+        "ma": 407,
+        "sa": 5354,
+        "md": 0,
+        "sd": 0,
+        "br": 151,
+        "pr": 153,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
+        },
+        "name": "Beam Magnum [Unicorn Gundam Perfectibility]",
         "type": "Beam",
         "category": "Rifle"
     }]
