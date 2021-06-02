@@ -21549,6 +21549,136 @@
         "name": "Buster Shield"
     }]
 }, {
+    "name": "Gundam Deathscythe",
+    "attribute": "Power",
+    "rarity": 4,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2760,
+        "ma": 1557,
+        "sa": 1311,
+        "md": 1931,
+        "sd": 1116,
+        "br": 473,
+        "pr": 481,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Grim Reaper Slash",
+            "description": "Jam radio waves, then swing your reaper's scythe around while invisible. Raise Melee Attack of your Squad by 29%. Raise Melee Defense of your Squad by 19%. Raise Beam Resist of your Squad by 29%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "A",
+                "Cd": [70, 20]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3245,
+        "ma": 1747,
+        "sa": 809,
+        "md": 2038,
+        "sd": 1114,
+        "br": 472,
+        "pr": 473,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Enemy Shooting power reduced 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2438,
+        "ma": 4789,
+        "sa": 811,
+        "md": 2024,
+        "sd": 1107,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Close Combat", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 enemies shot down, Reduce Cooldown by 50% once."
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2220,
+        "ma": 1295,
+        "sa": 803,
+        "md": 2517,
+        "sd": 1589,
+        "br": 893,
+        "pr": 483,
+        "wt": ["Close Combat", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill piercing boosted 28%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2610,
+        "ma": 1565,
+        "sa": 809,
+        "md": 2421,
+        "sd": 1402,
+        "br": 479,
+        "pr": 590,
+        "wt": ["Close Combat", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Axe category equipped, Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1937,
+        "ma": 5856,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 593,
+        "pr": 587,
+        "wt": ["Close Combat", "For Urban Area"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Deadly Circle",
+            "description": "Brutally swipe at nearby foes with your great scythe. Lowers hit enemy Gunpla's Beam Resist by 39%.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "B+",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Beam Scythe",
+        "type": "Beam",
+        "category": "Axe"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1931,
+        "ma": 493,
+        "sa": 0,
+        "md": 3425,
+        "sd": 1584,
+        "br": 636,
+        "pr": 633,
+        "wt": ["Close Combat", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Melee CRIT rate boosted 30%"
+        },
+        "name": "Buster Shield"
+    }]
+}, {
     "name": "Gundam Deathscythe Hell [Endless Waltz Ver. / Beginner Campaign]",
     "attribute": "Technique",
     "rarity": 1,
@@ -48206,6 +48336,153 @@
         "name": "Beam Shoot Rifle U7",
         "type": "Beam",
         "category": "Long Rifle"
+    }]
+}, {
+    "name": "V-Dash Gundam",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 631,
+        "ma": 437,
+        "sa": 2985,
+        "md": 552,
+        "sd": 1229,
+        "br": 0,
+        "pr": 141,
+        "wt": ["Long-Range", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Long-Range\", Shooting power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1646,
+        "ma": 351,
+        "sa": 466,
+        "md": 826,
+        "sd": 1646,
+        "br": 0,
+        "pr": 511,
+        "wt": ["Long-Range", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 2009,
+        "ma": 1378,
+        "sa": 466,
+        "md": 1580,
+        "sd": 3764,
+        "br": 261,
+        "pr": 1203,
+        "wt": ["Long-Range", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "21% chance of attacks penetrating super armor"
+        },
+        "combo": {
+            "type": "shield",
+            "name": "Beam Shield [V-Dash]"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 826,
+        "ma": 677,
+        "sa": 677,
+        "md": 1067,
+        "sd": 1646,
+        "br": 511,
+        "pr": 364,
+        "wt": ["Long-Range", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Shooting CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 951,
+        "ma": 351,
+        "sa": 466,
+        "md": 677,
+        "sd": 1378,
+        "br": 438,
+        "pr": 536,
+        "wt": ["Long-Range", "Mass P."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Overhand Cannon",
+            "description": "Fire a mega particle blasts from the large beam cannons attached to your back.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "C-",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 1163,
+        "ma": 2587,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 364,
+        "pr": 511,
+        "wt": ["Long-Range", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Job Gauge increase boosted 13%"
+        },
+        "name": "Beam Saber [V-Dash]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 552,
+        "ma": 0,
+        "sa": 3615,
+        "md": 0,
+        "sd": 0,
+        "br": 148,
+        "pr": 364,
+        "wt": ["Long-Range", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Melee Attack down 10%, Shooting power boosted 25%"
+        },
+        "name": "Mega Beam Rifle [V-Dash]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 552,
+        "ma": 0,
+        "sa": 3615,
+        "md": 0,
+        "sd": 0,
+        "br": 148,
+        "pr": 364,
+        "wt": ["Long-Range", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Sp. Shot CRIT rate boosted 17%"
+        },
+        "name": "Gatling Gun [V-Dash]",
+        "type": "Physical",
+        "category": "Gatling Gun"
     }]
 }, {
     "name": "V2 Assault Buster Gundam",

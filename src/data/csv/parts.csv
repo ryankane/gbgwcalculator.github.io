@@ -2670,3 +2670,18 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2669,Helmwige Reincar,00-00-5-01,404,5,,3,2,6,15,1067,631,466,1580,894,511,364,,"While ""Close Combat""",Melee DMG output boosted by 20,"While ""Close Combat"", Melee DMG output boosted by 20",,,Helmet Coins (Weekly Event)
 2670,Valkyrja Buster Sword [Deployed],00-00-6c-01,404,6,,3,2,6,15,677,3703,0,0,0,364,148,855,,,,2,5,Helmet Coins (Weekly Event)
 2671,Valkyrja Buster Sword [Detached],00-00-6-01,404,6,,3,2,6,21,677,3703,0,0,0,364,148,,When attacking with Physical,Melee power boosted 25%,"When attacking with Physical, Melee power boosted 25%",2,4,Helmet Coins (Weekly Event)
+2672,Gundam Deathscythe,00-00-1-01,405,1,,5,1,6,13,2760,1557,1311,1931,1116,473,481,856,,,,,,Step-up Capsules & [No.047] Bonus Coins
+2673,Gundam Deathscythe,00-00-2-01,405,2,,5,1,6,13,3245,1747,809,2038,1114,472,473,,With Power attribute (self),Enemy Shooting power reduced 30%,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2674,Gundam Deathscythe,00-00-3-01,405,3,,5,1,6,24,2438,4789,811,2024,1107,0,0,,When 1 enemies shot down,Reduce Cooldown by 50% once.,"When 1 enemies shot down, Reduce Cooldown by 50% once.",,,Step-up Capsules & [No.047] Bonus Coins
+2675,Gundam Deathscythe,00-00-4-01,405,4,,5,1,6,24,2220,1295,803,2517,1589,893,483,,With Power attribute (self),EX Skill piercing boosted 28%,"With Power attribute (self), EX Skill piercing boosted 28%",,,Step-up Capsules & [No.047] Bonus Coins
+2676,Gundam Deathscythe,00-00-5-01,405,5,,5,1,6,24,2610,1565,809,2421,1402,479,590,,With Axe category equipped,Melee power boosted 30%,"With Axe category equipped, Melee power boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2677,Beam Scythe,00-00-6b-01,405,6,,5,1,6,24,1937,5856,0,0,0,593,587,857,,,,1,1,Step-up Capsules & [No.047] Bonus Coins
+2678,Buster Shield,00-00-8-01,405,8,,5,1,6,24,1931,493,0,3425,1584,636,633,,In-Fighter Job,Melee CRIT rate boosted 30%,"In-Fighter Job, Melee CRIT rate boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2679,V-Dash Gundam,00-00-1-01,406,1,,3,1,8,2,631,437,2985,552,1229,0,141,,"While ""Long-Range""",Shooting power boosted 25%,"While ""Long-Range"", Shooting power boosted 25%",,,V-Dash Coins (Weekly Event)
+2680,V-Dash Gundam,00-00-2-01,406,2,,3,1,8,20,1646,351,466,826,1646,0,511,,When attacking with Beam,EX Skill piercing boosted 22%,"When attacking with Beam, EX Skill piercing boosted 22%",,,V-Dash Coins (Weekly Event)
+2681,V-Dash Gundam,00-00-3-01,406,3,8,3,1,8,20,2009,1378,466,1580,3764,261,1203,,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,,,V-Dash Coins (Weekly Event)
+2682,V-Dash Gundam,00-00-4-01,406,4,,3,1,8,2,826,677,677,1067,1646,511,364,,With Power attribute (self),Shooting CRIT rate boosted 17%,"With Power attribute (self), Shooting CRIT rate boosted 17%",,,V-Dash Coins (Weekly Event)
+2683,V-Dash Gundam,00-00-5-01,406,5,,3,1,8,2,951,351,466,677,1378,438,536,858,,,,,,V-Dash Coins (Weekly Event)
+2684,Beam Saber [V-Dash],00-00-6a-01,406,6,,3,1,8,2,1163,2587,0,0,0,364,511,,With Power attribute (self),Job Gauge increase boosted 13%,"With Power attribute (self), Job Gauge increase boosted 13%",1,2,V-Dash Coins (Weekly Event)
+2685,Mega Beam Rifle [V-Dash],00-00-7a-01,406,7,,3,1,8,20,552,0,3615,0,0,148,364,,Melee Attack down 10%,Shooting power boosted 25%,"Melee Attack down 10%, Shooting power boosted 25%",1,8,V-Dash Coins (Weekly Event)
+2686,Gatling Gun [V-Dash],00-00-7-01,406,7,,3,1,8,2,552,0,3615,0,0,148,364,,With Power attribute (self),Sp. Shot CRIT rate boosted 17%,"With Power attribute (self), Sp. Shot CRIT rate boosted 17%",2,11,V-Dash Coins (Weekly Event)

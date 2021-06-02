@@ -557,6 +557,24 @@
     "name": "Middle-Shooter Job, Shooting power boosted 30%"
   }
 }, {
+  "name": "Beecha Oleg",
+  "jl": ["Supporter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 893,
+  "ma": 677,
+  "sa": 1580,
+  "md": 951,
+  "sd": 1093,
+  "br": 148,
+  "pr": 364,
+  "wt": ["Commander", "For Forest"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Saber category equipped, Projectile speed boosted 14%"
+  }
+}, {
   "name": "Bellri Zenam",
   "jl": ["Out-Fighter"],
   "attribute": "Power",
@@ -1797,6 +1815,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "Beam ranged weapon, magazine boosted 20%"
+  }
+}, {
+  "name": "Haru Irei",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1513,
+  "ma": 1513,
+  "sa": 1513,
+  "md": 1513,
+  "sd": 1513,
+  "br": 538,
+  "pr": 272,
+  "wt": ["Gundam Type", "For Computers"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Gundam Type\", Initial EX Skill charge boosted 20%"
   }
 }, {
   "name": "Hayato Kobayashi",
