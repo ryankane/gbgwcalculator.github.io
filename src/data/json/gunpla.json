@@ -9572,6 +9572,146 @@
         "name": "Anti-Beam Shield [Destiny (Heine)]"
     }]
 }, {
+    "name": "Destiny Impulse Gundam R",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1495,
+        "ma": 909,
+        "sa": 4546,
+        "md": 703,
+        "sd": 1495,
+        "br": 262,
+        "pr": 850,
+        "wt": ["Gundam Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Back Parts's EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2220,
+        "ma": 1110,
+        "sa": 2031,
+        "md": 1021,
+        "sd": 2031,
+        "br": 481,
+        "pr": 1035,
+        "wt": ["Gundam Type", "Mid-Range"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "CIWS",
+            "description": "Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1401,
+        "ma": 4355,
+        "sa": 1829,
+        "md": 494,
+        "sd": 1304,
+        "br": 0,
+        "pr": 585,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Shooting power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1742,
+        "ma": 1495,
+        "sa": 1495,
+        "md": 1585,
+        "sd": 1585,
+        "br": 537,
+        "pr": 1139,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Folding Laser Anti-Armor Knife",
+            "description": "Throw the knife stowed within your side armor.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1829,
+        "ma": 1238,
+        "sa": 1742,
+        "md": 811,
+        "sd": 1742,
+        "br": 528,
+        "pr": 1111,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Wolfsbane L-Range Beam Canons",
+            "description": "Quickly get in close quarters with your foe and pierce them with a high-output beam. Raise Melee and Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 29%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 915,
+        "ma": 407,
+        "sa": 5544,
+        "md": 0,
+        "sd": 0,
+        "br": 266,
+        "pr": 850,
+        "wt": ["Gundam Type", "Mid-Range"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Shooting power boosted 30%"
+        },
+        "name": "High-Energy Beam Rifle [Destiny Impulse R]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 915,
+        "ma": 407,
+        "sa": 5544,
+        "md": 0,
+        "sd": 0,
+        "br": 266,
+        "pr": 850,
+        "wt": ["Gundam Type", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Back Parts's EX Skill power boosted 30%"
+        },
+        "name": "Wolfsbane L-Range B. Cannons",
+        "type": "Beam",
+        "category": "Twin Rifle"
+    }]
+}, {
     "name": "Dijeh",
     "attribute": "Speed",
     "rarity": 3,
@@ -42923,6 +43063,120 @@
         "name": "Oni No Tate"
     }]
 }, {
+    "name": "Seravee Gundam Scheherazade",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 1,
+        "a": 1500,
+        "ma": 708,
+        "sa": 4558,
+        "md": 495,
+        "sd": 1941,
+        "br": 287,
+        "pr": 785,
+        "wt": ["Long-Range", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Long-Range\", Shooting power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 1,
+        "a": 2734,
+        "ma": 1021,
+        "sa": 1746,
+        "md": 303,
+        "sd": 2843,
+        "br": 394,
+        "pr": 638,
+        "wt": ["Long-Range", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 1,
+        "a": 1929,
+        "ma": 4234,
+        "sa": 2032,
+        "md": 301,
+        "sd": 1944,
+        "br": 0,
+        "pr": 261,
+        "wt": ["Long-Range", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Edge Fling",
+            "description": "Throw the twin sabers on your arms.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 1,
+        "a": 2607,
+        "ma": 501,
+        "sa": 1594,
+        "md": 604,
+        "sd": 2427,
+        "br": 627,
+        "pr": 848,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Back Parts's EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 1,
+        "a": 2742,
+        "ma": 1021,
+        "sa": 1410,
+        "md": 1400,
+        "sd": 2214,
+        "br": 692,
+        "pr": 778,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Alf Layla wa-Layla",
+            "description": "Link your Ptolemaios Arms and fire a powerful GN particle beam from the unit's nose beam cannon. Raise your Shot Attack by 29%.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 1,
+        "a": 1592,
+        "ma": 0,
+        "sa": 5639,
+        "md": 0,
+        "sd": 1021,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Long-Range", "High Firepower"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", EX Skill power boosted 30%"
+        },
+        "name": "GN Physical Bazooka",
+        "type": "Physical",
+        "category": "Bazooka"
+    }]
+}, {
     "name": "Serpent Custom",
     "attribute": "Speed",
     "rarity": 1,
@@ -51364,6 +51618,155 @@
             "type": "Part Traits",
             "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
         }
+    }]
+}, {
+    "name": "Zaku II [Johnny Ridden Custom]",
+    "attribute": "Speed",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 677,
+        "ma": 437,
+        "sa": 2386,
+        "md": 552,
+        "sd": 552,
+        "br": 261,
+        "pr": 485,
+        "wt": ["Zaku Type", "Zeon"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Zaku Type\", Initial EX Skill charge boosted 12%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1378,
+        "ma": 677,
+        "sa": 826,
+        "md": 1067,
+        "sd": 1067,
+        "br": 148,
+        "pr": 511,
+        "wt": ["Zaku Type", "Zeon"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, EX Skill boosted 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 677,
+        "ma": 2666,
+        "sa": 1229,
+        "md": 552,
+        "sd": 677,
+        "br": 0,
+        "pr": 148,
+        "wt": ["Zaku Type", "Zeon"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Dual Cascade",
+            "description": "Hold bazookas in both hands and fire high-power rounds.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 677,
+        "ma": 677,
+        "sa": 552,
+        "md": 894,
+        "sd": 894,
+        "br": 565,
+        "pr": 439,
+        "wt": ["Zaku Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 677,
+        "ma": 826,
+        "sa": 552,
+        "md": 1163,
+        "sd": 1163,
+        "br": 439,
+        "pr": 565,
+        "wt": ["Zaku Type", "High Mobility"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "High Mobility Thruster",
+            "description": "Increase your thrusters' output to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 24%. Your Gunpla resists flinching for a set period of time.",
+            "category": "Buff",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 3]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 351,
+        "ma": 3102,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 411,
+        "pr": 511,
+        "wt": ["Zaku Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "21% chance of attacks penetrating super armor"
+        },
+        "name": "Heat Hawk [Zaku II (Johnny Ridden Custom)]",
+        "type": "Physical",
+        "category": "Axe"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 351,
+        "ma": 0,
+        "sa": 3102,
+        "md": 0,
+        "sd": 0,
+        "br": 148,
+        "pr": 364,
+        "wt": ["Zaku Type", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, Shooting DMG output boosted by 20"
+        },
+        "name": "Zaku Machine Gun [Zaku II (Johnny Ridden Custom)]",
+        "type": "Physical",
+        "category": "Machine Gun"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 351,
+        "ma": 0,
+        "sa": 3102,
+        "md": 0,
+        "sd": 0,
+        "br": 148,
+        "pr": 364,
+        "wt": ["Zaku Type", "Zeon"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Physical ranged weapon, magazine boosted 20%"
+        },
+        "name": "Zaku Bazooka [Zaku II (Johnny Ridden Custom)]",
+        "type": "Physical",
+        "category": "Bazooka"
     }]
 }, {
     "name": "Zaku II Kai",

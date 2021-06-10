@@ -2987,6 +2987,24 @@
     "name": "With Technique attribute (self), Vernier consumption reduced 20%"
   }
 }, {
+  "name": "Minoru Suzuki",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 828,
+  "ma": 896,
+  "sa": 678,
+  "md": 828,
+  "sd": 828,
+  "br": 216,
+  "pr": 541,
+  "wt": ["Ace Excl.", "Federation"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 1 enemies shot down, Boost Job Gauge 40% once"
+  }
+}, {
   "name": "Monique Cadillac",
   "jl": ["In-Fighter"],
   "attribute": "Speed",
@@ -3489,6 +3507,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Speed attribute (self), Enemy All Power reduced 13%"
+  }
+}, {
+  "name": "Quatre Raberba Winner [Zero System]",
+  "jl": ["Long-Shooter"],
+  "attribute": "Technique",
+  "rarity": 4,
+  "level": 99,
+  "a": 1031,
+  "ma": 2053,
+  "sa": 2053,
+  "md": 1031,
+  "sd": 1031,
+  "br": 370,
+  "pr": 646,
+  "wt": ["High Firepower", "Long-Range"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Long-Range\", Job Gauge increase boosted 17%"
   }
 }, {
   "name": "Quattro Bajeena",
