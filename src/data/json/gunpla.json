@@ -9115,7 +9115,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Offense Hack α",
-            "description": "Reduce target Melee and Shot Defense by 39%.",
+            "description": "Reduce target Melee and Shot Attack by 39%.",
             "category": "Debuff",
             "stats": {
                 "Dur": 37,
@@ -16162,7 +16162,7 @@
         "ex": {
             "type": "EX Skill",
             "name": "Offense Hack α",
-            "description": "Reduce target Melee and Shot Defense by 39%.",
+            "description": "Reduce target Melee and Shot Attack by 39%.",
             "category": "Debuff",
             "stats": {
                 "Dur": 37,
@@ -21697,13 +21697,13 @@
     "parts": [{
         "part": "head",
         "mark": 2,
-        "a": 2760,
-        "ma": 1557,
-        "sa": 1311,
-        "md": 1931,
-        "sd": 1116,
-        "br": 473,
-        "pr": 481,
+        "a": 2053,
+        "ma": 1121,
+        "sa": 1249,
+        "md": 1761,
+        "sd": 818,
+        "br": 407,
+        "pr": 407,
         "wt": ["Close Combat", "Gundam Type"],
         "ex": {
             "type": "EX Skill",
@@ -21719,13 +21719,13 @@
     }, {
         "part": "body",
         "mark": 2,
-        "a": 3245,
-        "ma": 1747,
-        "sa": 809,
-        "md": 2038,
-        "sd": 1114,
-        "br": 472,
-        "pr": 473,
+        "a": 2544,
+        "ma": 1423,
+        "sa": 715,
+        "md": 1851,
+        "sd": 1031,
+        "br": 407,
+        "pr": 407,
         "wt": ["Close Combat", "Gundam Type"],
         "ex": {
             "type": "Part Traits",
@@ -21734,11 +21734,11 @@
     }, {
         "part": "arms",
         "mark": 2,
-        "a": 2438,
-        "ma": 4789,
-        "sa": 811,
-        "md": 2024,
-        "sd": 1107,
+        "a": 1031,
+        "ma": 4507,
+        "sa": 715,
+        "md": 1851,
+        "sd": 818,
         "br": 0,
         "pr": 0,
         "wt": ["Close Combat", "For Urban Area"],
@@ -21749,13 +21749,13 @@
     }, {
         "part": "legs",
         "mark": 2,
-        "a": 2220,
-        "ma": 1295,
-        "sa": 803,
-        "md": 2517,
-        "sd": 1589,
-        "br": 893,
-        "pr": 483,
+        "a": 1513,
+        "ma": 1249,
+        "sa": 715,
+        "md": 2243,
+        "sd": 1320,
+        "br": 548,
+        "pr": 407,
         "wt": ["Close Combat", "For Urban Area"],
         "ex": {
             "type": "Part Traits",
@@ -21764,13 +21764,13 @@
     }, {
         "part": "back",
         "mark": 2,
-        "a": 2610,
-        "ma": 1565,
-        "sa": 809,
-        "md": 2421,
-        "sd": 1402,
-        "br": 479,
-        "pr": 590,
+        "a": 1513,
+        "ma": 1249,
+        "sa": 715,
+        "md": 2331,
+        "sd": 1320,
+        "br": 407,
+        "pr": 548,
         "wt": ["Close Combat", "For Urban Area"],
         "ex": {
             "type": "Part Traits",
@@ -21779,13 +21779,13 @@
     }, {
         "part": "melee",
         "mark": 2,
-        "a": 1937,
-        "ma": 5856,
+        "a": 1031,
+        "ma": 5520,
         "sa": 0,
         "md": 0,
         "sd": 0,
-        "br": 593,
-        "pr": 587,
+        "br": 548,
+        "pr": 548,
         "wt": ["Close Combat", "For Urban Area"],
         "ex": {
             "type": "EX Skill",
@@ -21804,13 +21804,13 @@
     }, {
         "part": "shield",
         "mark": 2,
-        "a": 1931,
-        "ma": 493,
+        "a": 1513,
+        "ma": 0,
         "sa": 0,
-        "md": 3425,
-        "sd": 1584,
-        "br": 636,
-        "pr": 633,
+        "md": 3565,
+        "sd": 1320,
+        "br": 596,
+        "pr": 596,
         "wt": ["Close Combat", "For Urban Area"],
         "ex": {
             "type": "Part Traits",
@@ -32704,6 +32704,123 @@
         "category": "Bazooka"
     }]
 }, {
+    "name": "Hyakuren",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 893,
+        "ma": 466,
+        "sa": 2122,
+        "md": 466,
+        "sd": 1377,
+        "br": 148,
+        "pr": 624,
+        "wt": ["Close Combat", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When 1 allies shot down, EX Skill power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1229,
+        "ma": 745,
+        "sa": 351,
+        "md": 893,
+        "sd": 1646,
+        "br": 0,
+        "pr": 692,
+        "wt": ["Close Combat", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy EX Skill power reduced 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 745,
+        "ma": 2752,
+        "sa": 351,
+        "md": 893,
+        "sd": 1422,
+        "br": 0,
+        "pr": 148,
+        "wt": ["Close Combat", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Knuckle Guard",
+            "description": "Equip the knuckle guards stowed in your waist armor and perform a melee attack.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 826,
+        "ma": 745,
+        "sa": 351,
+        "md": 677,
+        "sd": 1291,
+        "br": 364,
+        "pr": 692,
+        "wt": ["Close Combat", "Heavy Armor"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Single-Edged Blade",
+            "description": "Unleash a barrage of attacks with your blade.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 466,
+        "ma": 3217,
+        "sa": 0,
+        "md": 0,
+        "sd": 677,
+        "br": 148,
+        "pr": 438,
+        "wt": ["Close Combat", "Heavy Armor"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Physical, Strong Melee CRIT rate boosted 17%"
+        },
+        "name": "Single-Edged Blade",
+        "type": "Physical",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 745,
+        "ma": 0,
+        "sa": 2276,
+        "md": 0,
+        "sd": 677,
+        "br": 148,
+        "pr": 624,
+        "wt": ["Close Combat", "Mass P."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Sp. Shot CRIT rate boosted 17%"
+        },
+        "name": "Rifle Cannon",
+        "type": "Physical",
+        "category": "Machine Gun"
+    }]
+}, {
     "name": "Hyperion Gundam",
     "attribute": "Technique",
     "rarity": 3,
@@ -43070,7 +43187,7 @@
     "sokai": 0,
     "parts": [{
         "part": "head",
-        "mark": 1,
+        "mark": 2,
         "a": 1500,
         "ma": 708,
         "sa": 4558,
@@ -43085,7 +43202,7 @@
         }
     }, {
         "part": "body",
-        "mark": 1,
+        "mark": 2,
         "a": 2734,
         "ma": 1021,
         "sa": 1746,
@@ -43100,7 +43217,7 @@
         }
     }, {
         "part": "arms",
-        "mark": 1,
+        "mark": 2,
         "a": 1929,
         "ma": 4234,
         "sa": 2032,
@@ -43122,7 +43239,7 @@
         }
     }, {
         "part": "legs",
-        "mark": 1,
+        "mark": 2,
         "a": 2607,
         "ma": 501,
         "sa": 1594,
@@ -43137,7 +43254,7 @@
         }
     }, {
         "part": "back",
-        "mark": 1,
+        "mark": 2,
         "a": 2742,
         "ma": 1021,
         "sa": 1410,
@@ -43159,7 +43276,7 @@
         }
     }, {
         "part": "range",
-        "mark": 1,
+        "mark": 2,
         "a": 1592,
         "ma": 0,
         "sa": 5639,
@@ -52799,6 +52916,120 @@
             "name": "With Speed attribute (self), Buff EX Skill effect up 22%"
         },
         "name": "Shield [Zeta Plus A1]"
+    }]
+}, {
+    "name": "Zeta Plus C1",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 411,
+        "ma": 611,
+        "sa": 4597,
+        "md": 819,
+        "sd": 1851,
+        "br": 0,
+        "pr": 209,
+        "wt": ["Long-Range", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Head-Mounted Vulcan",
+            "description": "Fire the Vulcan in your head at foes straight ahead. Chance of piercing super armor with multiple hits. You can move freely while shooting. Lowers hit enemy Gunpla's Melee and Shot Defense by 14%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D-",
+                "Pow": "D",
+                "Cd": [19, 5]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2454,
+        "ma": 500,
+        "sa": 1249,
+        "md": 1249,
+        "sd": 1953,
+        "br": 0,
+        "pr": 772,
+        "wt": ["Long-Range", "Federation"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Long-Shooter Job, Shooting power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2763,
+        "ma": 2053,
+        "sa": 1851,
+        "md": 922,
+        "sd": 1031,
+        "br": 272,
+        "pr": 408,
+        "wt": ["Long-Range", "Federation"],
+        "ex": {
+            "type": "EX Skill",
+            "name": null
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 715,
+        "ma": 1031,
+        "sa": 1423,
+        "md": 1513,
+        "sd": 2454,
+        "br": 596,
+        "pr": 538,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Stream Slash",
+            "description": "Unleash a blindingly fast flurry with sabers in each hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "B-",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1423,
+        "ma": 500,
+        "sa": 1603,
+        "md": 819,
+        "sd": 1851,
+        "br": 408,
+        "pr": 709,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Long-Range\", Long Shot Attack raised 20%"
+        }
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 819,
+        "ma": 0,
+        "sa": 5605,
+        "md": 0,
+        "sd": 0,
+        "br": 272,
+        "pr": 538,
+        "wt": ["Long-Range", "Transformer"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When attacking with Beam, Shooting CRIT rate boosted 30%"
+        },
+        "name": "Beam Smartgun",
+        "type": "Beam",
+        "category": "Long Rifle"
     }]
 }, {
     "name": "ZII",

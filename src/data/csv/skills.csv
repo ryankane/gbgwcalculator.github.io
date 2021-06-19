@@ -69,7 +69,7 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 68,Archer Hack α,Reduce target Shot Attack by 39%.,7,,,51,,33,7
 69,Armed Aura α,Your Gunpla resists flinching for a set period of time.,5,,,51,,33,7
 70,Dual Beam Guns,Launch rapid-fire beams from your forearm. You can move while firing.,1,B+,D,,11,60,0
-71,Offense Hack α,Reduce target Melee and Shot Defense by 39%.,7,,,37,,33,7
+71,Offense Hack α,Reduce target Melee and Shot Attack by 39%.,7,,,37,,33,7
 72,Hyper Mode,Enter Hyper Mode for enhanced combat prowess. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 19%.,6,,,51,,60,12
 73,Rose Bits,Launch the Rose Bits to strike foes in all directions. You can move freely while this is active.,1,A-,D,,,60,6
 74,Chevalier Saber,Unleash a thrusting attack with the saber at your waist.,4,D,B+,,,30,8
@@ -862,3 +862,5 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 861,Edge Fling,Throw the twin sabers on your arms.,3,A,D,,,21,3
 862,Alf Layla wa-Layla,Link your Ptolemaios Arms and fire a powerful GN particle beam from the unit's nose beam cannon. Raise your Shot Attack by 29%.,1,D,B+,,,79,20
 863,High Mobility Thruster,Increase your thrusters' output to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 24%. Your Gunpla resists flinching for a set period of time.,5,,,51,,60,3
+864,Knuckle Guard,Equip the knuckle guards stowed in your waist armor and perform a melee attack.,4,D,B+,,,21,6
+865,Single-Edged Blade,Unleash a barrage of attacks with your blade.,4,D,B+,,,19,5

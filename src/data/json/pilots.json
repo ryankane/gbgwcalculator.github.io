@@ -3185,6 +3185,24 @@
     "name": "With Speed attribute (self), EX Skill piercing boosted 22%"
   }
 }, {
+  "name": "Nigel Garrett",
+  "jl": ["Out-Fighter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 1906,
+  "ma": 351,
+  "sa": 1229,
+  "md": 677,
+  "sd": 677,
+  "br": 511,
+  "pr": 148,
+  "wt": ["Commander", "Federation"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Federation\", Enemy EX Skill penetration reduced 22%"
+  }
+}, {
   "name": "Nimbus Schterzen",
   "jl": ["In-Fighter"],
   "attribute": "Speed",
@@ -4335,6 +4353,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Enemy Shooting power reduced 25%"
+  }
+}, {
+  "name": "Soma Peries [2nd Season]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 1031,
+  "ma": 1513,
+  "sa": 2053,
+  "md": 1031,
+  "sd": 2053,
+  "br": 272,
+  "pr": 538,
+  "wt": ["Mid-Range", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "While \"Mid-Range\", All Shot Attack raised 20%"
   }
 }, {
   "name": "South Burning",

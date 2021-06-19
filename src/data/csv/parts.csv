@@ -2670,13 +2670,13 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2669,Helmwige Reincar,00-00-5-01,404,5,,3,2,6,15,1067,631,466,1580,894,511,364,,"While ""Close Combat""",Melee DMG output boosted by 20,"While ""Close Combat"", Melee DMG output boosted by 20",,,Helmet Coins (Weekly Event)
 2670,Valkyrja Buster Sword [Deployed],00-00-6c-01,404,6,,3,2,6,15,677,3703,0,0,0,364,148,855,,,,2,5,Helmet Coins (Weekly Event)
 2671,Valkyrja Buster Sword [Detached],00-00-6-01,404,6,,3,2,6,21,677,3703,0,0,0,364,148,,When attacking with Physical,Melee power boosted 25%,"When attacking with Physical, Melee power boosted 25%",2,4,Helmet Coins (Weekly Event)
-2672,Gundam Deathscythe,00-00-1-01,405,1,,5,1,6,13,2760,1557,1311,1931,1116,473,481,856,,,,,,Step-up Capsules & [No.047] Bonus Coins
-2673,Gundam Deathscythe,00-00-2-01,405,2,,5,1,6,13,3245,1747,809,2038,1114,472,473,,With Power attribute (self),Enemy Shooting power reduced 30%,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Step-up Capsules & [No.047] Bonus Coins
-2674,Gundam Deathscythe,00-00-3-01,405,3,,5,1,6,24,2438,4789,811,2024,1107,0,0,,When 1 enemies shot down,Reduce Cooldown by 50% once.,"When 1 enemies shot down, Reduce Cooldown by 50% once.",,,Step-up Capsules & [No.047] Bonus Coins
-2675,Gundam Deathscythe,00-00-4-01,405,4,,5,1,6,24,2220,1295,803,2517,1589,893,483,,With Power attribute (self),EX Skill piercing boosted 28%,"With Power attribute (self), EX Skill piercing boosted 28%",,,Step-up Capsules & [No.047] Bonus Coins
-2676,Gundam Deathscythe,00-00-5-01,405,5,,5,1,6,24,2610,1565,809,2421,1402,479,590,,With Axe category equipped,Melee power boosted 30%,"With Axe category equipped, Melee power boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
-2677,Beam Scythe,00-00-6b-01,405,6,,5,1,6,24,1937,5856,0,0,0,593,587,857,,,,1,1,Step-up Capsules & [No.047] Bonus Coins
-2678,Buster Shield,00-00-8-01,405,8,,5,1,6,24,1931,493,0,3425,1584,636,633,,In-Fighter Job,Melee CRIT rate boosted 30%,"In-Fighter Job, Melee CRIT rate boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2672,Gundam Deathscythe,00-00-1-01,405,1,,5,1,6,13,2053,1121,1249,1761,818,407,407,856,,,,,,Step-up Capsules & [No.047] Bonus Coins
+2673,Gundam Deathscythe,00-00-2-01,405,2,,5,1,6,13,2544,1423,715,1851,1031,407,407,,With Power attribute (self),Enemy Shooting power reduced 30%,"With Power attribute (self), Enemy Shooting power reduced 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2674,Gundam Deathscythe,00-00-3-01,405,3,,5,1,6,24,1031,4507,715,1851,818,0,0,,When 1 enemies shot down,Reduce Cooldown by 50% once.,"When 1 enemies shot down, Reduce Cooldown by 50% once.",,,Step-up Capsules & [No.047] Bonus Coins
+2675,Gundam Deathscythe,00-00-4-01,405,4,,5,1,6,24,1513,1249,715,2243,1320,548,407,,With Power attribute (self),EX Skill piercing boosted 28%,"With Power attribute (self), EX Skill piercing boosted 28%",,,Step-up Capsules & [No.047] Bonus Coins
+2676,Gundam Deathscythe,00-00-5-01,405,5,,5,1,6,24,1513,1249,715,2331,1320,407,548,,With Axe category equipped,Melee power boosted 30%,"With Axe category equipped, Melee power boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
+2677,Beam Scythe,00-00-6b-01,405,6,,5,1,6,24,1031,5520,0,0,0,548,548,857,,,,1,1,Step-up Capsules & [No.047] Bonus Coins
+2678,Buster Shield,00-00-8-01,405,8,,5,1,6,24,1513,0,0,3565,1320,596,596,,In-Fighter Job,Melee CRIT rate boosted 30%,"In-Fighter Job, Melee CRIT rate boosted 30%",,,Step-up Capsules & [No.047] Bonus Coins
 2679,V-Dash Gundam,00-00-1-01,406,1,,3,1,8,2,631,437,2985,552,1229,0,141,,"While ""Long-Range""",Shooting power boosted 25%,"While ""Long-Range"", Shooting power boosted 25%",,,V-Dash Coins (Weekly Event)
 2680,V-Dash Gundam,00-00-2-01,406,2,,3,1,8,20,1646,351,466,826,1646,0,511,,When attacking with Beam,EX Skill piercing boosted 22%,"When attacking with Beam, EX Skill piercing boosted 22%",,,V-Dash Coins (Weekly Event)
 2681,V-Dash Gundam,00-00-3-01,406,3,8,3,1,8,20,2009,1378,466,1580,3764,261,1203,,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,,,V-Dash Coins (Weekly Event)
@@ -2706,3 +2706,15 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2705,Heat Hawk [Zaku II (Johnny Ridden Custom)],00-00-6b-01,409,6,,3,3,18,9,351,3102,0,0,0,411,511,,,21% chance of attacks penetrating super armor,21% chance of attacks penetrating super armor,2,1,Crimson Coins (Weekly Event)
 2706,Zaku Machine Gun [Zaku II (Johnny Ridden Custom)],00-00-7c-01,409,7,,3,3,18,9,351,0,3102,0,0,148,364,,When attacking with Physical,Shooting DMG output boosted by 20,"When attacking with Physical, Shooting DMG output boosted by 20",2,9,Crimson Coins (Weekly Event)
 2707,Zaku Bazooka [Zaku II (Johnny Ridden Custom)],00-00-7d-01,409,7,,3,3,18,17,351,0,3102,0,0,148,364,,Physical ranged weapon,magazine boosted 20%,"Physical ranged weapon, magazine boosted 20%",2,12,Crimson Coins (Weekly Event)
+2708,Zeta Plus C1,00-00-1-01,410,1,,5,3,8,16,411,611,4597,819,1851,0,209,3,,,,,,Step-up Capsules & [No.048] Bonus Coins
+2709,Zeta Plus C1,00-00-2-01,410,2,,5,3,8,16,2454,500,1249,1249,1953,0,772,,Long-Shooter Job,Shooting power boosted 30%,"Long-Shooter Job, Shooting power boosted 30%",,,Step-up Capsules & [No.048] Bonus Coins
+2710,Zeta Plus C1,00-00-3-01,410,3,,5,3,8,16,2763,2053,1851,922,1031,272,408,,With Speed attribute (self),Shooting power boosted 30%,,,,Step-up Capsules & [No.048] Bonus Coins
+2711,Zeta Plus C1,00-00-4-01,410,4,,5,3,8,12,715,1031,1423,1513,2454,596,538,338,,,,,,Step-up Capsules & [No.048] Bonus Coins
+2712,Zeta Plus C1,00-00-5-01,410,5,,5,3,8,12,1423,500,1603,819,1851,408,709,,"While ""Long-Range""",Long Shot Attack raised 20%,"While ""Long-Range"", Long Shot Attack raised 20%",,,Step-up Capsules & [No.048] Bonus Coins
+2713,Beam Smartgun,00-00-7b-01,410,7,,5,3,8,12,819,0,5605,0,0,272,538,,When attacking with Beam,Shooting CRIT rate boosted 30%,"When attacking with Beam, Shooting CRIT rate boosted 30%",1,10,Step-up Capsules & [No.048] Bonus Coins
+2714,Hyakuren,00-00-1-01,411,1,,3,2,6,2,893,466,2122,466,1377,148,624,,When 1 allies shot down,EX Skill power boosted 25%,"When 1 allies shot down, EX Skill power boosted 25%",,,Exospheric Coins (Weekly Event)
+2715,Hyakuren,00-00-2-01,411,2,,3,2,6,2,1229,745,351,893,1646,0,692,,With Technique attribute (self),Enemy EX Skill power reduced 25%,"With Technique attribute (self), Enemy EX Skill power reduced 25%",,,Exospheric Coins (Weekly Event)
+2716,Hyakuren,00-00-3-01,411,3,,3,2,6,11,745,2752,351,893,1422,0,148,864,,,,,,Exospheric Coins (Weekly Event)
+2717,Hyakuren,00-00-4-01,411,4,,3,2,6,11,826,745,351,677,1291,364,692,865,,,,,,Exospheric Coins (Weekly Event)
+2718,Single-Edged Blade,00-00-6a-01,411,6,,3,2,6,11,466,3217,0,0,677,148,438,,When attacking with Physical,Strong Melee CRIT rate boosted 17%,"When attacking with Physical, Strong Melee CRIT rate boosted 17%",2,2,Exospheric Coins (Weekly Event)
+2719,Rifle Cannon,00-00-7c-01,411,7,,3,2,6,2,745,0,2276,0,677,148,624,,With Technique attribute (self),Sp. Shot CRIT rate boosted 17%,"With Technique attribute (self), Sp. Shot CRIT rate boosted 17%",2,9,Exospheric Coins (Weekly Event)
