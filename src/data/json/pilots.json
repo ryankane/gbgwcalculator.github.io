@@ -197,6 +197,24 @@
     "name": "Beam ranged weapon, reload speed boosted 20%"
   }
 }, {
+  "name": "Amuro Ray [CCA]",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1314,
+  "ma": 1846,
+  "sa": 2328,
+  "md": 920,
+  "sd": 1771,
+  "br": 0,
+  "pr": 0,
+  "wt": ["Ace Excl.", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), Boost Funnel uptime 50%"
+  }
+}, {
   "name": "Amuro Ray [Pre-Registration Reward]",
   "jl": ["Out-Fighter"],
   "attribute": "Power",
@@ -1367,6 +1385,24 @@
     "name": "When attacking with Physical, All CRIT rate boosted 17%"
   }
 }, {
+  "name": "Europa Dogatie",
+  "jl": ["Supporter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 2053,
+  "ma": 1249,
+  "sa": 1851,
+  "md": 1031,
+  "sd": 1031,
+  "br": 538,
+  "pr": 538,
+  "wt": ["High Firepower", "Support Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), EX Skill recovery boosted 28%"
+  }
+}, {
   "name": "Fa Yuiry",
   "jl": ["Supporter"],
   "attribute": "Technique",
@@ -1455,6 +1491,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Buff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Fred Reber",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1163,
+  "ma": 1646,
+  "sa": 351,
+  "md": 1067,
+  "sd": 677,
+  "br": 385,
+  "pr": 385,
+  "wt": ["Close Combat", "Federation"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), Melee CRIT rate boosted 17%"
   }
 }, {
   "name": "Fuala Griffon",
@@ -2247,6 +2301,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When Phys. RES is over 6000, Long Shot Attack raised 14%"
+  }
+}, {
+  "name": "Karius Otto",
+  "jl": ["Defender"],
+  "attribute": "Power",
+  "rarity": 3,
+  "level": 99,
+  "a": 1071,
+  "ma": 1071,
+  "sa": 1071,
+  "md": 1072,
+  "sd": 1064,
+  "br": 0,
+  "pr": 507,
+  "wt": ["Zeon", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), All CRIT rate boosted 17%"
   }
 }, {
   "name": "Kate Bush",
@@ -3273,6 +3345,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "While \"High Firepower\", Initial EX Skill charge boosted 20%"
+  }
+}, {
+  "name": "Odelo Henrik",
+  "jl": ["Supporter"],
+  "attribute": "Technique",
+  "rarity": 3,
+  "level": 99,
+  "a": 677,
+  "ma": 1378,
+  "sa": 1378,
+  "md": 677,
+  "sd": 677,
+  "br": 256,
+  "pr": 439,
+  "wt": ["Mid-Range", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When 1 allies shot down, All power boosted 25%"
   }
 }, {
   "name": "Odin Barnet",
@@ -4623,6 +4713,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Technique attribute (self), Buff EX Skill time up 22%"
+  }
+}, {
+  "name": "Üso Ewin [Civilian Clothes Ver.]",
+  "jl": ["Middle-Shooter", "Long-Shooter"],
+  "attribute": "Power",
+  "rarity": 5,
+  "level": 99,
+  "a": 1009,
+  "ma": 2189,
+  "sa": 2572,
+  "md": 480,
+  "sd": 1004,
+  "br": 464,
+  "pr": 151,
+  "wt": ["High Firepower", "Gundam Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When attacking with Beam, Shooting power boosted 30%"
   }
 }, {
   "name": "Vidar",

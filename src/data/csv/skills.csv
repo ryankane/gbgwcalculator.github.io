@@ -864,3 +864,16 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 863,High Mobility Thruster,Increase your thrusters' output to temporarily increase your unit's performance. Raise your speed by 20%. Raise your Melee Attack by 24%. Your Gunpla resists flinching for a set period of time.,5,,,51,,60,3
 864,Knuckle Guard,Equip the knuckle guards stowed in your waist armor and perform a melee attack.,4,D,B+,,,21,6
 865,Single-Edged Blade,Unleash a barrage of attacks with your blade.,4,D,B+,,,19,5
+866,Psycommu Jack,Activate your NT-D system and exert your influence over the enemies surrounding you. Reduce Melee and Shot Attack of all enemies by 29%. Reduce Melee and Shot Defense of all enemies by 29%.,7,,,27,,33,7
+867,Quadruple Missile Launcher,Fire missiles from the small shields attached to both of your arms.,2,D,B+,,,21,6
+868,Wire-Guided Assault Units,Fire beams from the incoms equipped to your back.,1,A+,B-,,,21,3
+869,Draupnir 4-Barrel Beam Gun,Fire beams from your forearm. You can move while firing.,1,A-,D,,11,60,0
+870,Shield Bash,Unleash attacks with the beam sword in your shield. Raise your Melee Attack by 19%.,4,D,B+,,,21,6
+871,Trams-Am & Seven Sword,Destroy the wickedness of the world with the seven blades equipped on your back. Raise Melee Attack of your Squad by 49%.,4,D,A,,,79,20
+872,Sword Dance,Unleash a barrage of attacks with your sword.,4,D,B+,,,21,6
+873,High Mega Particle Cannon,Fire at enemies ahead with the Mega Particle Cannon in your head.,1,A,D,,,60,15
+874,8-Shot Missile Pod,Launch the missiles stowed in your torso.,2,D,B+,,,21,6
+875,Double Beam Rifle,Fire the beam rifle equipped to your forearm. You can move while firing.,1,A,D,,11,60,0
+876,High Mega Cannon,Fire at enemies ahead with the mega particle cannon stowed on your waist.,1,D,B+,,,60,15
+877,Hail of Bullets,"Perform a saturation attack with the hyper mega cannon, double cannon, and missile Pod. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",2,D,A,,,79,20
+878,Reber the Ripper,Use a backhanded beam dagger grip and hack at enemies as though dancing.,3,A,D,,,21,3

@@ -2718,3 +2718,40 @@ Index,Part Name,Collection ID,Unit ID,Part Type,X Part,Rarity,Attr,W Tag 1,W Tag
 2717,Hyakuren,00-00-4-01,411,4,,3,2,6,11,826,745,351,677,1291,364,692,865,,,,,,Exospheric Coins (Weekly Event)
 2718,Single-Edged Blade,00-00-6a-01,411,6,,3,2,6,11,466,3217,0,0,677,148,438,,When attacking with Physical,Strong Melee CRIT rate boosted 17%,"When attacking with Physical, Strong Melee CRIT rate boosted 17%",2,2,Exospheric Coins (Weekly Event)
 2719,Rifle Cannon,00-00-7c-01,411,7,,3,2,6,2,745,0,2276,0,677,148,624,,With Technique attribute (self),Sp. Shot CRIT rate boosted 17%,"With Technique attribute (self), Sp. Shot CRIT rate boosted 17%",2,9,Exospheric Coins (Weekly Event)
+2720,Narrative Gundam [B-Packs],00-00-1-01,412,1,,5,1,16,7,922,500,4507,818,1953,272,0,,"While ""Mid-Range""",EX Skill power boosted 30%,"While ""Mid-Range"", EX Skill power boosted 30%",,,Step-Up Capsules [No.049] Bonus Coins
+2721,Narrative Gundam [B-Packs],00-00-2-01,412,2,,5,1,16,7,2243,500,1513,1031,2243,645,0,866,,,,,,Step-Up Capsules [No.049] Bonus Coins
+2722,Narrative Gundam [B-Packs],00-00-3-01,412,3,8,5,1,16,7,2995,2053,3168,500,5914,1010,538,867,,,,,,Step-Up Capsules [No.049] Bonus Coins
+2723,Narrative Gundam [B-Packs],00-00-4-01,412,4,,5,1,16,1,1249,1602,1249,1121,2453,272,370,579,,,,,,Step-Up Capsules [No.049] Bonus Coins
+2724,Narrative Gundam [B-Packs],00-00-5-01,412,5,,5,1,16,1,1121,922,1602,1031,2329,645,538,868,,,,,,Step-Up Capsules [No.049] Bonus Coins
+2725,Beam Saber [Narrative (B-Packs)],00-00-6a-01,412,6,,5,1,16,1,1761,3841,0,0,715,772,538,,"While ""Federation""",Initial EX Skill charge boosted 20%,"While ""Federation"", Initial EX Skill charge boosted 20%",1,2,Step-Up Capsules [No.049] Bonus Coins
+2726,Gouf Ignited,00-00-1-01,413,1,,3,1,9,24,1067,466,2035,351,1377,256,256,,With Power attribute (self),Recover 10 Armor gradually,"With Power attribute (self), Recover 10 Armor gradually",,,New Generation Device A (Weekly Event)
+2727,Gouf Ignited,00-00-2-01,413,2,,3,1,9,24,1377,826,466,677,1711,310,310,,With Saber category equipped,EX Skill piercing boosted 22%,"With Saber category equipped, EX Skill piercing boosted 22%",,,New Generation Device A (Weekly Event)
+2728,Gouf Ignited,00-00-3-01,413,3,,3,1,9,2,1067,2587,631,677,1377,0,0,869,,,,,,New Generation Device A (Weekly Event)
+2729,Gouf Ignited,00-00-4-01,413,4,,3,1,9,2,1229,552,466,552,1377,485,485,,When attacking with Beam,Melee CRIT rate boosted 17%,"When attacking with Beam, Melee CRIT rate boosted 17%",,,New Generation Device A (Weekly Event)
+2730,Gouf Ignited,00-00-5-01,413,5,,3,1,9,2,1229,552,466,826,1377,411,411,,With Power attribute (self),Melee DMG output boosted by 20,"With Power attribute (self), Melee DMG output boosted by 20",,,New Generation Device A (Weekly Event)
+2731,Tempest Beam Sword,00-00-6a-01,413,6,,3,1,9,24,552,3348,0,0,1067,256,256,,When 1 allies shot down,Boosted Job Gauge by 40% once.,"When 1 allies shot down, Boosted Job Gauge by 40% once.",1,2,New Generation Device A (Weekly Event)
+2732,Shield [Gouf Ignited],00-00-8-01,413,8,,3,1,9,2,893,212,0,1067,2035,411,411,870,,,,,,New Generation Device A (Weekly Event)
+2733,Gundam Exia Repair IV,00-00-1-01,414,1,,5,3,13,9,2032,1499,4038,1114,1113,405,394,,,Back Parts's EX Skill power boosted 30%,Back Parts's EX Skill power boosted 30%,,,Sokai Festival
+2734,Gundam Exia Repair IV,00-00-2-01,414,2,,5,3,13,9,3244,1489,818,1498,1489,691,700,,When buffed,Buff EX Skill effect up 22%,"When buffed, Buff EX Skill effect up 22%",,,Sokai Festival
+2735,Gundam Exia Repair IV,00-00-3-01,414,3,,5,3,13,10,1926,4619,1021,1240,1237,287,287,454,,,,,,Sokai Festival
+2736,Gundam Exia Repair IV,00-00-4-01,414,4,,5,3,13,6,1832,1937,817,1403,1407,936,939,,"While ""Gundam Type""",EX Skill power boosted 30%,"While ""Gundam Type"", EX Skill power boosted 30%",,,Sokai Festival
+2737,Gundam Exia Repair IV,00-00-5-01,414,5,,5,3,13,6,1499,1938,803,1487,1490,942,936,871,,,,,,Sokai Festival
+2738,GN Tachi,00-00-6a-01,414,6,,5,3,13,10,499,5545,0,298,295,696,697,872,,,,2,2,Sokai Festival
+2739,GN Bayonet [Sword Mode],00-00-6-01,414,6,,5,3,13,9,499,5545,0,298,295,696,697,,"While ""High Mobility""",EX Skill power boosted 30%,"While ""High Mobility"", EX Skill power boosted 30%",2,4,Sokai Festival
+2740,GN Battle Sword & Battle Blade,00-00-6-01,414,6,,5,3,13,6,499,5545,0,298,295,696,697,,When buffed,Melee power boosted 30%,"When buffed, Melee power boosted 30%",2,4,Sokai Festival
+2741,GN Bayonet [Rifle Mode],00-00-7-01,414,7,,5,3,13,10,1740,699,4451,301,301,366,365,,When buffed,EX Skill power boosted 30%,"When buffed, EX Skill power boosted 30%",1,14,Sokai Festival
+2742,Full Armor ZZ Gundam,00-00-1-01,415,1,,5,2,11,8,0,711,4537,2306,2304,526,526,873,,,,,,Sokai Festival
+2743,Full Armor ZZ Gundam,00-00-2-01,415,2,,5,2,11,8,1312,1114,1827,2838,2838,584,584,874,,,,,,Sokai Festival
+2744,Full Armor ZZ Gundam,00-00-3-01,415,3,,5,2,11,3,0,4026,1939,2604,2604,205,205,875,,,,,,Sokai Festival
+2745,Full Armor ZZ Gundam,00-00-4-01,415,4,,5,2,11,3,1015,494,1495,2730,2730,693,693,876,,,,,,Sokai Festival
+2746,Full Armor ZZ Gundam,00-00-5-01,415,5,,5,2,11,3,1100,1015,1495,2838,2838,535,535,877,,,,,,Sokai Festival
+2747,Hyper Beam Saber [Full Armor ZZ],00-00-6c-01,415,6,,5,2,11,8,914,4735,0,809,809,362,362,,With Technique attribute (self),Enemy Melee power reduced 30%,"With Technique attribute (self), Enemy Melee power reduced 30%",1,5,Sokai Festival
+2748,Hyper Mega Cannon [Full Armor ZZ],00-00-7d-01,415,7,,5,2,11,8,707,0,5540,707,707,535,535,,Melee Attack down 10%,EX Skill power boosted 30%,"Melee Attack down 10%, EX Skill power boosted 30%",1,12,Sokai Festival
+2749,Double Beam Rifle [Full Armor ZZ],00-00-7a-01,415,7,,5,2,11,3,707,0,5540,707,707,535,535,,Melee DMG raised 10%,Shooting power boosted 30%,"Melee DMG raised 10%, Shooting power boosted 30%",1,8,Sokai Festival
+2750,Gundam Pixy [Fred Reber],00-00-1-01,416,1,,3,3,6,16,1378,631,826,1163,552,261,261,3,,,,,,Faerie Coins (Weekly Event)
+2751,Gundam Pixy [Fred Reber],00-00-2-01,416,2,,3,3,6,16,1711,552,466,1580,893,261,261,,In-Fighter Job,EX Skill piercing boosted 22%,"In-Fighter Job, EX Skill piercing boosted 22%",,,Faerie Coins (Weekly Event)
+2752,Gundam Pixy [Fred Reber],00-00-3-01,416,3,,3,3,6,16,677,2985,466,1523,552,0,0,,With Dual Sabers category equipped,Melee power boosted 25%,"With Dual Sabers category equipped, Melee power boosted 25%",,,Faerie Coins (Weekly Event)
+2753,Gundam Pixy [Fred Reber],00-00-4-01,416,4,,3,3,6,25,1067,826,466,1523,893,385,261,878,,,,,,Faerie Coins (Weekly Event)
+2754,Gundam Pixy [Fred Reber],00-00-5-01,416,5,,3,3,6,25,1067,631,466,1580,893,261,385,,When 1 enemies shot down,Vernier Consumption=0 for 10 sec.,"When 1 enemies shot down, Vernier Consumption=0 for 10 sec.",,,Faerie Coins (Weekly Event)
+2755,Beam Dagger [Pixy (Fred Reber)],00-00-6-01,416,6,,3,3,6,16,677,3703,0,0,0,385,385,,In-Fighter Job,Melee DMG output boosted 20 (flat),"In-Fighter Job, Melee DMG output boosted 20 (flat)",1,4,Faerie Coins (Weekly Event)
+2756,90mm Submachine Gun,00-00-7c-01,416,7,,3,3,6,25,1378,0,2174,0,0,411,411,,Physical ranged weapon,reload speed boosted 15%,"Physical ranged weapon, reload speed boosted 15%",2,9,Faerie Coins (Weekly Event)
