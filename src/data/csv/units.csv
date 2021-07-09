@@ -408,10 +408,13 @@ Index,Model,Name,Subname,Series,Issue,Japanese,Rarity,Attr,Marks,Capsule,Exchang
 407,ZGMF-X56S/ι,Destiny Impulse Gundam R,,44,10,デスティニーインパルスガンダムR,5,2,2,Gundam Battle Festival,,,,TRUE,2021-06-09,Gundam Battle Festival,99,Dengeki
 408,GN-1001N,Seravee Gundam Scheherazade,,57,6,セラヴィーガンダムシェヘラザード,5,1,2,Gundam Battle Festival,,,,TRUE,2021-06-09,Gundam Battle Festival,99,Dengeki
 409,"MS-06R-2",Zaku II,Johnny Ridden Custom,4,8,高機動型ザクⅡ後期型［ジョニー・ライデン専用］,3,3,3,,Event,,,FALSE,2021-06-09,Crimson Coins (Weekly Event),99,Dengeki
-410,MSZ-006C1,Zeta Plus C1,,20,,ΖプラスC1型,5,3,2,Standard,,,,FALSE,2021-06-16,Step-up Capsules & [No.048] Bonus Coins,99,Dengeki
-411,STH-05,Hyakuren,,52,,百錬,3,2,3,,Event,,,FALSE,2021-06-16,Exospheric Coins (Weekly Event),99,Dengeki
-412,RX-9/B,Narrative Gundam,B-Packs,,,ナラティブガンダム［B装備］,5,1,2,Standard,,,,FALSE,2021-06-23,Step-Up Capsules [No.049] Bonus Coins,99,Dengeki
-413,ZGMF-2000,Gouf Ignited,,,,グフイグナイテッド,3,1,3,,Event,,,FALSE,2021-06-23,New Generation Device A (Weekly Event),99,Dengeki
-414,GN-001REIV,Gundam Exia Repair IV,,,,ガンダムエクシアリペアⅣ,5,3,2,Sokai Festival,,,,TRUE,2021-06-30,Sokai Festival,99,Dengeki
-415,FA-010S,Full Armor ZZ Gundam,,,,フルアーマーZZガンダム,5,2,2,Sokai Festival,,,,TRUE,2021-06-30,Sokai Festival,99,Dengeki
-416,RX-78XX,Gundam Pixy,Fred Reber,,,ガンダムピクシー［フレッド・リーバー専用］,3,3,3,,Event,,,FALSE,2021-06-30,Faerie Coins (Weekly Event),99,Dengeki
+410,MSZ-006C1,Zeta Plus C1,,20,4,ΖプラスC1型,5,3,2,Standard,,,,FALSE,2021-06-16,Step-up Capsules & [No.048] Bonus Coins,99,Dengeki
+411,STH-05,Hyakuren,,52,21,百錬,3,2,3,,Event,,,FALSE,2021-06-16,Exospheric Coins (Weekly Event),99,Dengeki
+412,RX-9/B,Narrative Gundam,B-Packs,27,4,ナラティブガンダム［B装備］,5,1,2,Standard,,,,FALSE,2021-06-23,Step-Up Capsules [No.049] Bonus Coins,99,Dengeki
+413,ZGMF-2000,Gouf Ignited,,43,17,グフイグナイテッド,3,1,3,,Event,,,FALSE,2021-06-23,New Generation Device A (Weekly Event),99,Dengeki
+414,GN-001REIV,Gundam Exia Repair IV,,47,24,ガンダムエクシアリペアⅣ,5,3,2,Sokai Festival,,,,TRUE,2021-06-30,Sokai Festival,99,Dengeki
+415,FA-010S,Full Armor ZZ Gundam,,21,9,フルアーマーZZガンダム,5,2,2,Sokai Festival,,,,TRUE,2021-06-30,Sokai Festival,99,Dengeki
+416,RX-78XX,Gundam Pixy,Fred Reber,14,2,ガンダムピクシー［フレッド・リーバー専用］,3,3,3,,Event,,,FALSE,2021-06-30,Faerie Coins (Weekly Event),99,Dengeki
+417,MSF-007SS,Gundam Seltsam,,58,,ガンダムゼルトザーム,5,2,2,,,,Blueprint,FALSE,2021-07-07,Seltsam Material (Event Blueprints),99,Dengeki
+418,AMX-018[HADES],Todesritter,,14,3,トーリスリッター,5,3,2,Standard,,,,FALSE,2021-07-07,Step-Up Capsules [No.050] Bonus Coins,99,Dengeki
+419,AGE-1S,Gundam AGE-1 Spallow,,50,15,ガンダムAGE-1 スパロー,3,2,3,,Event,,,FALSE,2021-07-07,Light Speed Coins (Weekly Event),99,Dengeki

@@ -877,3 +877,10 @@ Index,Name,Description,Cat,Prc,Pow,Dur,Mag,Cd,Cd I
 876,High Mega Cannon,Fire at enemies ahead with the mega particle cannon stowed on your waist.,1,D,B+,,,60,15
 877,Hail of Bullets,"Perform a saturation attack with the hyper mega cannon, double cannon, and missile Pod. Raise Shot Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",2,D,A,,,79,20
 878,Reber the Ripper,Use a backhanded beam dagger grip and hack at enemies as though dancing.,3,A,D,,,21,3
+879,Seltsam Arms,"Stir up a windstorm to lift up your enemy, and skewer them with your Hyper Destlance. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",4,D,A,,,79,20
+880,Shield Binder,Deploy the Folding Destlauncher from your shield and perform a powerful ranged attack.,1,A,D,,,60,15
+881,Beam Vulcan,Fire a vulcan from the cannon inside your lance.,1,B+,D,,,21,3
+882,Sub-Arm Deployment,Unleash a combo with your deployed sub-arms and the four sabers in your hands.,3,D,B+,,,21,6
+883,Incom,Launch the Incoms equipped to your thruster binder. You can move freely while this is active.,1,A+,D,,,60,6
+884,Mega Particle Cannon,Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon on your shield.,1,A,D,,,60,15
+885,Needle Gun,Fire directly ahead with the needle guns stowed in your knees. Lowers hit enemy Gunpla's Melee Attack by 29%.,2,B,B+,,,21,3

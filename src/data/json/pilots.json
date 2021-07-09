@@ -845,6 +845,24 @@
     "name": "Shot Attack down 10%, All power boosted 30%"
   }
 }, {
+  "name": "Chap Adel",
+  "jl": ["Long-Shooter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1382,
+  "ma": 832,
+  "sa": 1224,
+  "md": 673,
+  "sd": 677,
+  "br": 361,
+  "pr": 360,
+  "wt": ["Federation", "GM Type"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "All ranged weapon, magazine boosted 14%"
+  }
+}, {
   "name": "Char Aznable",
   "jl": ["Out-Fighter"],
   "attribute": "Speed",
@@ -3507,6 +3525,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "With Power attribute (self), Buff EX Skill effect up 15%"
+  }
+}, {
+  "name": "Patrick Colasour [2nd Season]",
+  "jl": ["Out-Fighter"],
+  "attribute": "Speed",
+  "rarity": 4,
+  "level": 99,
+  "a": 2872,
+  "ma": 1851,
+  "sa": 500,
+  "md": 1031,
+  "sd": 1031,
+  "br": 772,
+  "pr": 272,
+  "wt": ["Mid-Range", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Speed attribute (self), All DMG output boosted by 35"
   }
 }, {
   "name": "Ple Two",

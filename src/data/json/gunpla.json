@@ -18717,6 +18717,113 @@
         }
     }]
 }, {
+    "name": "Gundam AGE-1 Spallow",
+    "attribute": "Technique",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 1378,
+        "ma": 552,
+        "sa": 826,
+        "md": 1163,
+        "sd": 1067,
+        "br": 148,
+        "pr": 364,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill DMG output boosted by 20"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1711,
+        "ma": 552,
+        "sa": 437,
+        "md": 1646,
+        "sd": 893,
+        "br": 0,
+        "pr": 511,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Enemy EX Skill power reduced 25%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 677,
+        "ma": 2985,
+        "sa": 466,
+        "md": 1523,
+        "sd": 552,
+        "br": 0,
+        "pr": 0,
+        "wt": ["High Mobility", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Saber category equipped, Melee CRIT rate boosted 17%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 1067,
+        "ma": 677,
+        "sa": 677,
+        "md": 1067,
+        "sd": 1067,
+        "br": 511,
+        "pr": 364,
+        "wt": ["High Mobility", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Needle Gun",
+            "description": "Fire directly ahead with the needle guns stowed in your knees. Lowers hit enemy Gunpla's Melee Attack by 29%.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "B",
+                "Pow": "B+",
+                "Cd": [21, 3]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 1067,
+        "ma": 631,
+        "sa": 552,
+        "md": 1580,
+        "sd": 826,
+        "br": 364,
+        "pr": 511,
+        "wt": ["High Mobility", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 60% or more, Vernier recovery rate boosted 20%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 3,
+        "a": 677,
+        "ma": 3703,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 148,
+        "pr": 364,
+        "wt": ["High Mobility", "Protag."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, Job Gauge increase boosted 13%"
+        },
+        "name": "Shiguru Blade",
+        "type": "Physical",
+        "category": "Saber"
+    }]
+}, {
     "name": "Gundam AGE-1 Titus",
     "attribute": "Power",
     "rarity": 3,
@@ -29614,6 +29721,145 @@
             "name": "With Dual Sabers category equipped, EX Skill DMG output boosted by 35"
         },
         "name": "Anti-Beam Coating Cloak"
+    }]
+}, {
+    "name": "Gundam Seltsam",
+    "attribute": "Technique",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1833,
+        "ma": 1404,
+        "sa": 4621,
+        "md": 1234,
+        "sd": 916,
+        "br": 212,
+        "pr": 581,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Firepower\", Recover 20 Armor gradually"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3025,
+        "ma": 1928,
+        "sa": 1833,
+        "md": 2024,
+        "sd": 1741,
+        "br": 210,
+        "pr": 482,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Technique attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2209,
+        "ma": 4723,
+        "sa": 1831,
+        "md": 1306,
+        "sd": 1020,
+        "br": 0,
+        "pr": 201,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Seltsam Arms",
+            "description": "Stir up a windstorm to lift up your enemy, and skewer them with your Hyper Destlance. Raise Melee Attack of your Squad by 29%. Raise Shot Defense of your Squad by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 3031,
+        "ma": 1743,
+        "sa": 1492,
+        "md": 1738,
+        "sd": 1230,
+        "br": 579,
+        "pr": 697,
+        "wt": ["High Firepower", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 3128,
+        "ma": 1488,
+        "sa": 1825,
+        "md": 1234,
+        "sd": 1738,
+        "br": 540,
+        "pr": 784,
+        "wt": ["High Firepower", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shield Binder",
+            "description": "Deploy the Folding Destlauncher from your shield and perform a powerful ranged attack.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 698,
+        "ma": 5717,
+        "sa": 600,
+        "md": 0,
+        "sd": 0,
+        "br": 480,
+        "pr": 846,
+        "wt": ["High Firepower", "Close Combat"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Vulcan",
+            "description": "Fire a vulcan from the cannon inside your lance.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Hyper Destlance",
+        "type": "Physical",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1400,
+        "ma": 0,
+        "sa": 5536,
+        "md": 610,
+        "sd": 0,
+        "br": 211,
+        "pr": 758,
+        "wt": ["High Firepower", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Arm Parts's EX Skill power boosted 30%"
+        },
+        "name": "Folding Destlauncher",
+        "type": "Beam",
+        "category": "Long Rifle"
     }]
 }, {
     "name": "Gundam Throne Drei",
@@ -48097,6 +48343,175 @@
         "category": "Long Rifle"
     }]
 }, {
+    "name": "Todesritter",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 922,
+        "ma": 500,
+        "sa": 4507,
+        "md": 818,
+        "sd": 1851,
+        "br": 209,
+        "pr": 209,
+        "wt": ["High Firepower", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "HADES System",
+            "description": "Activate HADES, a system developed from the EXAM system. Raise your speed by 20%. Raise your Melee Attack by 19%. Raise your Shot Attack by 29%.",
+            "category": "Awakening",
+            "stats": {
+                "Dur": 51,
+                "Cd": [60, 12]
+            }
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2544,
+        "ma": 1031,
+        "sa": 1602,
+        "md": 818,
+        "sd": 1031,
+        "br": 490,
+        "pr": 490,
+        "wt": ["High Firepower", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Machine Cannon",
+            "description": "Fire the machine cannon in your chest at foes straight ahead. You can move freely while shooting.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 11,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 500,
+        "ma": 3986,
+        "sa": 1851,
+        "md": 818,
+        "sd": 500,
+        "br": 370,
+        "pr": 370,
+        "wt": ["High Firepower", "For Space"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Sub-Arm Deployment",
+            "description": "Unleash a combo with your deployed sub-arms and the four sabers in your hands.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 2053,
+        "ma": 500,
+        "sa": 1031,
+        "md": 1031,
+        "sd": 2453,
+        "br": 538,
+        "pr": 538,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, Shooting DMG output boosted by 35"
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 1423,
+        "ma": 500,
+        "sa": 1319,
+        "md": 1031,
+        "sd": 2453,
+        "br": 538,
+        "pr": 538,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Incom",
+            "description": "Launch the Incoms equipped to your thruster binder. You can move freely while this is active.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A+",
+                "Pow": "D",
+                "Cd": [60, 6]
+            }
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1761,
+        "ma": 3841,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 596,
+        "pr": 596,
+        "wt": ["High Firepower", "For Space"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Enemy Melee power reduced 30%"
+        },
+        "name": "Beam Saber [Todesritter]",
+        "type": "Beam",
+        "category": "Saber"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 818,
+        "ma": 0,
+        "sa": 5414,
+        "md": 0,
+        "sd": 0,
+        "br": 370,
+        "pr": 370,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When buffed, Shooting power boosted 30%"
+        },
+        "name": "Hyper Knuckle Buster",
+        "type": "Beam",
+        "category": "Long Rifle"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1249,
+        "ma": 0,
+        "sa": 818,
+        "md": 1513,
+        "sd": 3064,
+        "br": 709,
+        "pr": 709,
+        "wt": ["High Firepower", "Ace Excl."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Mega Particle Cannon",
+            "description": "Fire beams from the Triple-Barrel High-Caliber Mega Particle Cannon on your shield.",
+            "category": "Beam Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [60, 15]
+            }
+        },
+        "name": "Shield [Todesritter]"
+    }]
+}, {
     "name": "Transient Gundam",
     "attribute": "Power",
     "rarity": 5,
@@ -53712,8 +54127,8 @@
         "pr": 408,
         "wt": ["Long-Range", "Federation"],
         "ex": {
-            "type": "EX Skill",
-            "name": null
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Shooting power boosted 30%"
         }
     }, {
         "part": "legs",
