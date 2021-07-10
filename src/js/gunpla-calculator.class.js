@@ -1,4 +1,4 @@
-class GunplaCalculator {
+class GunplaCalculator { 
   constructor(dataStoreManager) {
     this.dataStoreManager = dataStoreManager;
 
@@ -30,6 +30,7 @@ class GunplaCalculator {
     this.searchPart = '';
     this.sort = '';
     this.currentPart = '';
+    this.shareLinkDisplay = document.querySelector('.share-link-display');
   }
 
   init() {
@@ -49,6 +50,7 @@ class GunplaCalculator {
     this._initApplyMapBonus();
     this._initSearchPart();
     this._initRemove();
+    this._initSharedData();
   }
 
   _generateSkillIcon(exData) {
@@ -151,7 +153,39 @@ class GunplaCalculator {
     this._showPartList(slot);
     this._displayPartInfo(input);
   }
-
+  
+  _showShareLink(){
+    var selected = {};
+    
+    const inputs = this.inputs;
+    for (let input in inputs) {
+      if (inputs.hasOwnProperty(input) && inputs[input]) {
+        selected[inputs[input].dataset.part]=inputs[input].dataset.partname;
+      }
+    }
+    
+    var result = JSON.stringify(selected);
+    var curLink = new URL(window.location.href);
+    var genLink = curLink.protocol + "//" + curLink.host + curLink.pathname + "?d=" + window.btoa(result);
+    
+    this.shareLinkDisplay.innerHTML = '<a href="' + genLink + '">' + genLink + '</a>';
+  }
+  
+  _initSharedData(){
+    var curLink = new URL(window.location.href);
+    var selected = {};
+    
+    var nextUrlParam = curLink.searchParams.entries().next();
+    if(!nextUrlParam.done){
+      selected = JSON.parse(window.atob(nextUrlParam.value[1]));
+      
+      for(let key in selected){
+        this._handleInputClick(document.querySelector(".js-input-"+key));
+        this._handlePartSelection(document.querySelector('div[data-partname="' + selected[key] + '"]'));
+      }
+    }
+  }
+  
   _checkFilter(part) {
     const filters = this.filters;
     if (this.filters.attr && part.attribute && part.attribute != this.filters.attr) {
@@ -282,6 +316,7 @@ class GunplaCalculator {
       }
     }
     this._calculate(partData);
+    this._showShareLink();
   }
 
   _getPartSlotClass(dataset, forcePart) {
@@ -779,7 +814,7 @@ class GunplaCalculator {
   }
 
   _displayPartInfo(part) {
-    if (part && part.dataset.partname && MainSlot.indexOf(part.dataset.part) > -1) {
+    if (part && part.dataset.partname && MainSlot.indexOf(part.dataset.part) > -1) {      
       const wordTag = JSON.parse(part.dataset.wt),
           ex = JSON.parse(part.dataset.ex);
       let markMultiplier = 0;

@@ -4,7 +4,7 @@ module.exports = function (grunt) {
 
     meta: {
       src: 'src',
-      dest: 'dist',
+      dest: 'dist/deploy',
       banner: '/*\n <%= pkg.name %> <%= pkg.version %> <%= grunt.template.today("yyyy-mm-dd") %> \n*/'
     },
 
@@ -23,7 +23,7 @@ module.exports = function (grunt) {
         sourceMap : true
       },
       dev: {
-        files: {'<%= meta.dest %>/js/bundle.js': '<%= meta.src %>/js/**/*.js'},
+        files: {'<%= meta.dest %>/dist/js/bundle.js': '<%= meta.src %>/js/**/*.js'},
         options: {
           beautify: true,
           mangle: false,
@@ -33,7 +33,7 @@ module.exports = function (grunt) {
       },
       prod: {
         files: {
-          '<%= meta.dest %>/js/bundle.min.js': [
+          '<%= meta.dest %>/dist/js/bundle.min.js': [
             '<%= meta.src %>/js/data.js',
             '<%= meta.src %>/js/globals.js',
             '<%= meta.src %>/js/data-store.class.js',
@@ -49,7 +49,7 @@ module.exports = function (grunt) {
     less: {
       build: {
         files: {
-          '<%= meta.dest %>/css/bundle.css': [
+          '<%= meta.dest %>/dist/css/bundle.css': [
             '<%= meta.src %>/css/gbgw-icons.css',
             '<%= meta.src %>/css/style.css',
             '<%= meta.src %>/css/themes/dark.css'
@@ -64,7 +64,7 @@ module.exports = function (grunt) {
       },
       build: {
         files: {
-          '<%= meta.dest %>/css/bundle.min.css': [
+          '<%= meta.dest %>/dist/css/bundle.min.css': [
             '<%= meta.src %>/css/gbgw-icons.css',
             '<%= meta.src %>/css/style.css',
             '<%= meta.src %>/css/themes/dark.css'
@@ -80,25 +80,28 @@ module.exports = function (grunt) {
           cwd: '<%= meta.src %>/data',
           src: '**/*.json',
           flatten: true,
-          dest: '<%= meta.dest %>/data',
+          dest: '<%= meta.dest %>/dist/data',
         },{
           expand: true,
           cwd: '<%= meta.src %>/assets/icons',
           src: '**/*.png',
           flatten: true,
-          dest: '<%= meta.dest %>/assets',
+          dest: '<%= meta.dest %>/dist/assets',
         }, {
           expand: true,
           cwd: '<%= meta.src %>/assets/third-party',
           src: [ '**/*.svg', '**/*.jpg' ],
           flatten: true,
-          dest: '<%= meta.dest %>/assets',
+          dest: '<%= meta.dest %>/dist/assets',
         }, {
           expand: true,
           cwd: '<%= meta.src %>/css/fonts',
           src: '*',
           flatten: true,
-          dest: '<%= meta.dest %>/css/fonts',
+          dest: '<%= meta.dest %>/dist/css/fonts',
+        }, {
+          src: '<%= meta.src %>/../index.html',
+          dest: '<%= meta.dest %>/index.html',
         }]
       }
     },
