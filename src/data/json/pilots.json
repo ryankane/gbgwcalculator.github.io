@@ -2231,6 +2231,24 @@
     "name": "When attacking with Physical, EX Skill piercing boosted 28%"
   }
 }, {
+  "name": "Junko Jenko",
+  "jl": ["In-Fighter"],
+  "attribute": "Speed",
+  "rarity": 3,
+  "level": 99,
+  "a": 1067,
+  "ma": 1291,
+  "sa": 677,
+  "md": 677,
+  "sd": 1377,
+  "br": 256,
+  "pr": 256,
+  "wt": ["Close Combat", "Mass P."],
+  "ex": {
+    "type": "Part Traits",
+    "name": "When in Multi-Mission sortie, All power boosted 25%"
+  }
+}, {
   "name": "Juri Wu Nien",
   "jl": ["Middle-Shooter"],
   "attribute": "Power",
@@ -4677,6 +4695,24 @@
   "ex": {
     "type": "Part Traits",
     "name": "When 1 allies shot down, Vernier consumption=0 for 16 sec."
+  }
+}, {
+  "name": "Travis Kirkland",
+  "jl": ["Middle-Shooter"],
+  "attribute": "Power",
+  "rarity": 4,
+  "level": 99,
+  "a": 1031,
+  "ma": 2053,
+  "sa": 2053,
+  "md": 1031,
+  "sd": 1031,
+  "br": 538,
+  "pr": 538,
+  "wt": ["Federation", "For Desert"],
+  "ex": {
+    "type": "Part Traits",
+    "name": "With Power attribute (self), EX Skill CD reduced 20%"
   }
 }, {
   "name": "Treize Khushrenada",

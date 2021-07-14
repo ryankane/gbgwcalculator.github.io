@@ -26485,6 +26485,204 @@
         "name": "Shield [GP04]"
     }]
 }, {
+    "name": "Gundam Ground Type",
+    "attribute": "Power",
+    "rarity": 3,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 3,
+        "a": 887,
+        "ma": 466,
+        "sa": 2383,
+        "md": 900,
+        "sd": 894,
+        "br": 0,
+        "pr": 367,
+        "wt": ["Federation", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), EX Skill power boosted 25%"
+        }
+    }, {
+        "part": "body",
+        "mark": 3,
+        "a": 1584,
+        "ma": 468,
+        "sa": 462,
+        "md": 1236,
+        "sd": 1229,
+        "br": 136,
+        "pr": 508,
+        "wt": ["Federation", "For Urban Area"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Chest Multi-Launcher",
+            "description": "Fire grenades from the multi-purpose launcherin your chest.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 3,
+        "a": 901,
+        "ma": 2389,
+        "sa": 473,
+        "md": 1229,
+        "sd": 1229,
+        "br": 0,
+        "pr": 0,
+        "wt": ["Federation", "For Forest"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Armor is 50% or more, Melee DMG taken reduced by 20"
+        }
+    }, {
+        "part": "legs",
+        "mark": 3,
+        "a": 890,
+        "ma": 459,
+        "sa": 462,
+        "md": 1226,
+        "sd": 1236,
+        "br": 371,
+        "pr": 517,
+        "wt": ["Federation", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Beam Saber Combo",
+            "description": "Unleash a combo with the saber in your right hand.",
+            "category": "Beam Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 3,
+        "a": 897,
+        "ma": 470,
+        "sa": 468,
+        "md": 1225,
+        "sd": 1229,
+        "br": 361,
+        "pr": 506,
+        "wt": ["Federation", "For Desert"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "180mm Cannon",
+            "description": "Take out the 180mm cannon from your weapon pack and use it to fire explosive projectiles.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 890,
+        "ma": 0,
+        "sa": 3108,
+        "md": 0,
+        "sd": 0,
+        "br": 155,
+        "pr": 518,
+        "wt": ["Federation", "For Urban Area"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When CPWR is under 500000, EX Skill power boosted 25%"
+        },
+        "name": "Beam Rifle [Gundam Ground Type]",
+        "type": "Beam",
+        "category": "Rifle"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 890,
+        "ma": 0,
+        "sa": 3108,
+        "md": 0,
+        "sd": 0,
+        "br": 155,
+        "pr": 518,
+        "wt": ["Federation", "For Desert"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Power attribute (self), Sp. Shot CRIT rate boosted 17%"
+        },
+        "name": "180mm Cannon [Gundam Ground Type]",
+        "type": "Physical",
+        "category": "Long Rifle"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 890,
+        "ma": 0,
+        "sa": 3108,
+        "md": 0,
+        "sd": 0,
+        "br": 155,
+        "pr": 518,
+        "wt": ["Federation", "For Forest"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Federation\", Shooting DMG output boosted by 20"
+        },
+        "name": "100mm Machine Gun [Gundam Ground Type]",
+        "type": "Physical",
+        "category": "Machine Gun"
+    }, {
+        "part": "range",
+        "mark": 3,
+        "a": 890,
+        "ma": 0,
+        "sa": 3108,
+        "md": 0,
+        "sd": 0,
+        "br": 155,
+        "pr": 518,
+        "wt": ["Federation", "For Forest"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "When Beam RES is under 4000, Shooting DMG taken reduced by 20"
+        },
+        "name": "Missile Launcher",
+        "type": "Physical",
+        "category": "Bazooka"
+    }, {
+        "part": "shield",
+        "mark": 3,
+        "a": 897,
+        "ma": 0,
+        "sa": 684,
+        "md": 1384,
+        "sd": 1382,
+        "br": 141,
+        "pr": 536,
+        "wt": ["Federation", "For Forest"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shield Bash",
+            "description": "Unleash a combo with the shield on your right arm. Raise your Melee Attack by 14%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "B+",
+                "Pow": "C",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Shield [Gundam Ground Type]"
+    }]
+}, {
     "name": "Gundam Groundsel",
     "attribute": "Power",
     "rarity": 5,
@@ -27616,6 +27814,187 @@
             "name": "With Speed attribute (self), Shooting DMG output boosted by 35"
         },
         "name": "Shield [Heavyarms] [Endless Waltz Ver.]"
+    }]
+}, {
+    "name": "Gundam Justice Knight",
+    "attribute": "Speed",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 1237,
+        "ma": 1233,
+        "sa": 4353,
+        "md": 1825,
+        "sd": 1237,
+        "br": 0,
+        "pr": 993,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "Out-Fighter Job, Initial EX Skill charge boosted 20%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 2506,
+        "ma": 1492,
+        "sa": 1495,
+        "md": 1409,
+        "sd": 1584,
+        "br": 0,
+        "pr": 1114,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "CIWS",
+            "description": "Fire the close-range defense system in your chest at foes straight ahead. You can move freely while shooting.",
+            "category": "Physical Shot",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Mag": 7,
+                "Cd": [60, 0]
+            }
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 1019,
+        "ma": 4456,
+        "sa": 1829,
+        "md": 2304,
+        "sd": 707,
+        "br": 0,
+        "pr": 630,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Close Combat\", EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 1934,
+        "ma": 1584,
+        "sa": 1232,
+        "md": 2027,
+        "sd": 1108,
+        "br": 0,
+        "pr": 1310,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Galatine Long Sword",
+            "description": "Ready your physical swordm charge, and cleave through enemies. Lowers hit enemy Gunpla's Physical Resist by 29%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 2102,
+        "ma": 1503,
+        "sa": 1115,
+        "md": 1584,
+        "sd": 1495,
+        "br": 293,
+        "pr": 940,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee power boosted 30%"
+        }
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1407,
+        "ma": 5533,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 592,
+        "pr": 761,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "With Speed attribute (self), Melee CRIT rate boosted 30%"
+        },
+        "name": "Galatine Long Sword",
+        "type": "Physical",
+        "category": "Saber"
+    }, {
+        "part": "melee",
+        "mark": 2,
+        "a": 1407,
+        "ma": 5533,
+        "sa": 0,
+        "md": 0,
+        "sd": 0,
+        "br": 592,
+        "pr": 761,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Justice Thunder Attack",
+            "description": "Strike a pose as your give a shout and rush enemies straight in front of you.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 6]
+            }
+        },
+        "name": "Raitei Shot Lancer [Close Quarters]",
+        "type": "Physical",
+        "category": "Lance"
+    }, {
+        "part": "range",
+        "mark": 2,
+        "a": 1312,
+        "ma": 602,
+        "sa": 5162,
+        "md": 0,
+        "sd": 0,
+        "br": 526,
+        "pr": 691,
+        "wt": ["Close Combat", "Gundam Type"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"Gundam Type\", Job Gauge increase boosted 17%"
+        },
+        "name": "Raitei Shot Lancer [Ranged]",
+        "type": "Beam",
+        "category": "Machine Gun"
+    }, {
+        "part": "shield",
+        "mark": 2,
+        "a": 1829,
+        "ma": 1584,
+        "sa": 1015,
+        "md": 1929,
+        "sd": 707,
+        "br": 1254,
+        "pr": 938,
+        "wt": ["Close Combat", "For Computers"],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Shield Throw",
+            "description": "Throw your shield to attack.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "A",
+                "Pow": "D",
+                "Cd": [21, 3]
+            }
+        },
+        "name": "Round Shield"
     }]
 }, {
     "name": "Gundam Kimaris",
@@ -48795,6 +49174,109 @@
         "name": "TRY DODS Rifle",
         "type": "Beam",
         "category": "Rifle"
+    }]
+}, {
+    "name": "Try Burning Gundam",
+    "attribute": "Power",
+    "rarity": 5,
+    "level": 99,
+    "sokai": 0,
+    "parts": [{
+        "part": "head",
+        "mark": 2,
+        "a": 2602,
+        "ma": 1411,
+        "sa": 2506,
+        "md": 2219,
+        "sd": 1237,
+        "br": 0,
+        "pr": 480,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "While \"High Mobility\", Melee power boosted 30%"
+        }
+    }, {
+        "part": "body",
+        "mark": 2,
+        "a": 3950,
+        "ma": 1748,
+        "sa": 293,
+        "md": 2838,
+        "sd": 602,
+        "br": 205,
+        "pr": 584,
+        "wt": ["Close Combat", "High Mobility"],
+        "ex": {
+            "type": "Part Traits",
+            "name": "In-Fighter Job, EX Skill power boosted 30%"
+        }
+    }, {
+        "part": "arms",
+        "mark": 2,
+        "a": 2953,
+        "ma": 4624,
+        "sa": 414,
+        "md": 2960,
+        "sd": 407,
+        "br": 205,
+        "pr": 0,
+        "wt": ["Close Combat", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Hado Reppaku-Ken",
+            "description": "Slam your fist into the ground and launch a pillar of fire at the enemy. Raise your Melee Attack by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "legs",
+        "mark": 2,
+        "a": 3624,
+        "ma": 1584,
+        "sa": 494,
+        "md": 2730,
+        "sd": 1495,
+        "br": 398,
+        "pr": 205,
+        "wt": ["Close Combat", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Jigen Haoh Style Seiso-Geri",
+            "description": "Use the Jigen Haoh style to make a tornado with Senpu Tatsumaki-Geri and unleash a Seiso-Geri. Raise your Melee Attack by 19%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "B+",
+                "Cd": [21, 6]
+            }
+        }
+    }, {
+        "part": "back",
+        "mark": 2,
+        "a": 3315,
+        "ma": 1491,
+        "sa": 407,
+        "md": 3030,
+        "sd": 1495,
+        "br": 584,
+        "pr": 266,
+        "wt": ["Close Combat", "Protag."],
+        "ex": {
+            "type": "EX Skill",
+            "name": "Unwavering Spirit",
+            "description": "Do a Jigen Haoh Style/Gunpla battle-inspired combo attack and etch your will into the enemy. Raise speed of your Squad by 20%. Raise Melee Attack of your Squad by 39%.",
+            "category": "Physical Melee",
+            "stats": {
+                "Prc": "D",
+                "Pow": "A",
+                "Cd": [79, 20]
+            }
+        }
     }]
 }, {
     "name": "Turn A Gundam",
